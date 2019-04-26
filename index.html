@@ -9,10 +9,21 @@
         body {
             font-family: Lato, sans-serif !important;
             font-size: 1.66em;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        body > * {
+            margin-left: 10%;
+            margin-right: 10%;
         }
 
         h1 {
-            font-size: 2.5em;
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.25em;
         }
 
         hr {
@@ -20,14 +31,11 @@
             border-color: #E43624;
             border-style: solid none none;
             margin: 30px 0 10px;
+            width: 100%;
         }
 
-        a {
+        a, a:visited {
             color: #E43624;
-        }
-
-        a:visited {
-            color: #e43624;
         }
 
         a:hover {
@@ -38,100 +46,86 @@
             text-decoration: none;
         }
 
-        p {
-            font-size: 0.9em;
+        h1 + p img {
+            float: right;
+            margin: 0 0 48px 48px;
+            max-width: 180px;
         }
 
-        div.row {
-            margin: 0 !important;
+        figure {
+            text-align: center;
         }
 
-        div#heading {
-            margin-top: 20px;
-        }
-
-        div#heading-logo img#CENOLogo {
-            margin-top: 32px;
-            padding: 24px;
-            background-color: #f4f4f3;
-            border-radius: 8px;
-            width: 180px;
-        }
-
-        div#footer {
-            margin-top: 10px;
-        }
-
-        div#footer > .push {
-            height: 30px;
-            min-height: 30px;
-            clear: both;
-        }
-
-        img#equalitieLogo {
-            margin-top: 26px;
-            width: 162px;
-        }
-
-        div#subprojects .project {
-            background-color: #EEEDEA;
-            padding: 2px 20px 10px;
-            margin-top: 10px;
-            margin-left: 20px;
-            border-radius: 4px;
-        }
-
-        div#subprojects .project > h3 {
-            margin: 18px 0;
+        figure img {
+            max-width: 66%;
         }
     </style>
 </head>
 <body>
-<div class="row">
-    <div id="heading" class="col-sm-10 col-sm-offset-1">
-        <div class="col-xs-8 col-md-9">
-            <h2>Censorship.no</h2>
-            Designed for accessing websites from the stringest network environments, the <a href="https://github.com/equalitie/ceno2">censorship.no</a> project (CENO) by <a href="https://equalit.ie"> eQualit.ie </a>, allows you to browse the Web without restriction, circumventing any network filtering. The underlying architecture offers peer-to-peer routing and distributed caching, using 'darknet' infrastructure to avoid network censorship and bring the Web to your browser.<p> The CENO project presents a new generation of censorship circumvention possibilities. Our project is built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>. 
-        </div>
-        <div id="heading-logo" class="col-xs-2">
-            <a href="https://github.com/equalitie/ceno2"><img id="CENOLogo" src="logo_ceno.png"/></a>
-        </div>
-    </div>
-</div>
-<hr/>
-<p style="text-align:center;"><img src="ceno_infographic.png" width="900" height="1016" alt="CENO2 infographic"></p>
-<div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
-        <h2>The CENO advantage</h2>
-        The majority of internationally-bound traffic in countries that filter content requests are routed through a fixed number of centralized exchanges where surveillance and censorship technology is installed. Traditional circumvention technologies require the user to connect directly to a proxy in the uncensored zone. This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, bridges, etc.<p>CENO proposes a fundamentally different solution: reduce the requests to externally available proxy servers and enable the storage of retrieved content inside the censored zone. CENOs advantage comes from being both a transport and a storage solution.<p>Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with the censor. Clients need not know the location of a proxy to relay censored content, instead using small-world networks to connect to their peers, and thereafter to a bridge in the uncensored zone.<p>Once a website is accessed by a single user (node), it is stored and continues to propagate inside the country peer-to-peer.  Individual nodes are referenced by an identifier which does not give away their physical location.  Content remains available inside the censored zone even if external connectivity is cut. Content can be seeded into the network via alternative means as well (e.g. uploaded from a USB drive).
-        <div id="subprojects" class="col-sm-11">
-            <div class="project">
-                <h3><a href="https://github.com/equalitie/ceno2">CENO2</a></h3>
-                <p>Main code repository when project is in public BETA, late 2018. Modular dynamic transport and storage selection for reaching websites and caching them inside the censored zone.</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://github.com/equalitie/ceno">CENO (archive)</a></h3>
 
-                <p>Deprecated 2015. Innovative censorship evading technology built on the <a href="https://freenetproject.org/">Freenet</a> anonymous file sharing and content publishing network.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<hr/>
-<div class="row">
-    <div id="footer" class="col-sm-10 col-sm-offset-1">
-        <div class="col-xs-8 col-md-9">
-            <h2>About eQualit.ie</h2>
-            <a href="https://equalit.ie">eQualit.ie</a> develops open and reusable systems with a focus on privacy,
-            online security, and information management. Our goal is to create accessible technology and improve the
-            skill-set needed for defending human rights and freedoms in the digital age.
-        </div>
-        <div id="footer-logo" class="col-xs-2">
-            <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
-        </div>
-        <div class="push"></div>
-    </div>
-</div>
+<h1 id="what-is-ceno">Censorship.no!</h1>
+<p><img src="./logo_ceno.png" title="CENO logo" /></p>
+<p>CENO (short for <a href="https://censorship.no/">Censorship.no!</a>) is a mobile Web browser using a novel approach to circumventing Internet censorship, targeting to enable unfettered access to the World Wide Web for netizens operating in highly restrictive Internet environments.</p>
+<p>CENO users do not need to know a friendly proxy server in the uncensored zone in order to bypass local filtering — setting CENO apart from most other circumvention initiatives. CENO is being built in expectation of aggressive Internet filtering and the establishment of <a href="http://en.wikipedia.org/wiki/National_intranet">national intranets</a> to fence off nations from the Web.</p>
+<p>CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet/">Ouinet library</a>, which allows web content to be served with the help of an entire network of cooperating nodes using peer-to-peer routing and distributed caching of responses.</p>
+<p>The <em>Censorship.no!</em> project is run by <a href="https://equalit.ie/">eQualitie</a> in support of Articles 18, 19 and 20 of the <a href="">Universal Declaration of Human Rights</a>. Please contact <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> in case of doubt or for further information.</p>
+<h1 id="warning">Warning!</h1>
+<p>CENO is still <strong>highly experimental beta software</strong>. We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it. In particular:</p>
+<ul>
+<li>The availability of web content (especially under censorship conditions) may vary widely with factors like web site configuration, network capacity, and the presence, connectivity and browsing behavior of other CENO users. The behavior of the mechanisms currently used to share content between users may be erratic.</li>
+<li>The application may use substantial device resources like network traffic, disk space and battery power.</li>
+<li>The application may experience hangs or crashes.</li>
+<li>Last but not least, <strong>CENO is not an anonymity tool</strong>: information about your browsing might be leaked to other CENO users, as well as the fact that your application is providing particular web content to others. Content accessed with the application may stay in storage in clear text for some time (continue reading for more information on this). Other security or privacy-affecting issues might exist.</li>
+</ul>
+<p>We recommend that you use this tool in controlled environments and <strong>only assume reasonable risks</strong>. eQualitie and its associates decline any legal responsibility derived from the use of this software.</p>
+<p>We keep on working to make this software better, and your feedback to <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> is very welcome!</p>
+<hr />
+<h1 id="why-ceno">Why CENO?</h1>
+<p>The majority of internationally-bound traffic in countries that filter content requests is routed through a fixed number of centralized exchanges where surveillance and censorship technology is installed. Traditional circumvention technologies require the user to connect directly to a proxy in the uncensored zone. This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, bridges, etc.</p>
+<h2 id="the-ceno-advantage">The CENO advantage</h2>
+<figure>
+<img src="./ceno_infographic.png" alt="Overview of the CENO network" /><figcaption>Overview of the CENO network</figcaption>
+</figure>
+<p>CENO proposes a fundamentally different solution: reduce the requests to externally available proxy servers and enable the storage of retrieved content inside the censored zone. CENO’s advantage comes from being both a transport and a storage solution.</p>
+<p>Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with the censor. Clients need not know the location of a proxy to relay censored content, instead using small world networks to connect to their peers, and eventually to a proxy in the uncensored zone.</p>
+<p>Once a website is accessed by a single user, it is stored and continues to propagate inside the country peer-to-peer. Content remains available inside the censored zone even if external connectivity is cut. Content can be seeded into the network via alternative means as well (e.g. uploaded from a USB drive).</p>
+<h1 id="features">Features</h1>
+<ul>
+<li>Browse with normal speeds when Internet access is not censored.</li>
+<li>Still reach sites (with slower speeds) when they have been selectively censored (either via DNS or IP).</li>
+<li>Retrieve directly from other users and naturally browse web pages that they visited previously, even when the country’s Internet access has afterwards been completely cut off.</li>
+<li>Retrieve and naturally browse content inserted off-line (like web site captures) under complete national Internet disconnection.</li>
+</ul>
+<h1 id="where-to-get-it">Where to get it</h1>
+<p>The CENO browser for Android is available <a href="%3Chttps://play.google.com/store/apps/details?id=ie.equalit.ceno" title="CENO app in Google Play">in Google Play</a> and <a href="https://paskoocheh.com/tools/4242/android.html" title="CENO app in Paskoocheh">in Paskoocheh</a>. The Android package (APK) is also available <a href="https://github.com/equalitie/ouifennec/releases" title="CENO app in GitHub">in GitHub</a>.</p>
+<p>CENO is completely Free/Libre/Open Source Software. If you are interested in its source code please check the following Git repositories:</p>
+<ul>
+<li>Browser components: <a href="https://github.com/equalitie/gecko-dev/tree/ceno">Firefox fork</a>, <a href="https://github.com/equalitie/ouifennec-distribution">included extensions</a>, <a href="https://github.com/equalitie/ouifennec-ext-settings">settings extension source</a></li>
+<li><a href="https://github.com/equalitie/ouinet">Ouinet source</a></li>
+<li>Other project-related repositories: <a href="https://github.com/censorship-no">Censorship.no! GitHub organization</a></li>
+</ul>
+<p>You may also be interested in the (no longer maintained) <a href="https://github.com/equalitie/ceno">previous incarnation of CENO</a>, built on the <a href="https://freenetproject.org/">Freenet</a> anonymous file sharing and content publishing network.</p>
+<h1 id="how-does-it-work">How does it work?</h1>
+<figure>
+<img src="./ceno_architecture.svg" alt="Different ways of retrieving content over CENO" /><figcaption>Different ways of retrieving content over CENO</figcaption>
+</figure>
+<p>When you access or <em>request</em> a web page using CENO, the application first looks at the browser request to decide whether the page seems <em>cacheable</em>, i.e. potentially safe to be saved and publicly shared with other CENO users (requests with e.g. authentication tokens, cookies or dynamic connections are not). Then it attempts to retrieve the page using several <em>mechanisms</em> until one of them succeeds:</p>
+<ul>
+<li>It first attempts to retrieve the page straight from its <strong>origin</strong> (i.e. web server) as a normal browser would do.</li>
+<li>If that fails, and the page seems cacheable, the application tries to get it from the <strong>distributed cache</strong>, i.e. from other CENO users that may have previously accessed it. If it succeeds, the application itself starts sharing the page with other users.</li>
+<li>If retrieving a cacheable page from the distributed cache fails, the application tries to retrieve it via an <strong>injector</strong>, a machine sitting in the uncensored zone which provides the application with the page content. If the injector deems the <em>response</em> amenable to do so, it also provides additional information allowing users to share the page (which the application starts doing straight away).</li>
+<li>If that fails, or if the page was not cacheable, the application uses the injector as a <strong>proxy</strong> to access content privately. Neither the injector nor the application share the content publicly (in fact, when accessing secure web content, the injector is not even able to see the request and response themselves).</li>
+</ul>
+<p>Users can selectively disable each of these mechanisms so that they are skipped altogether. In the CENO application menu, just select the <em>CENO</em> entry and use the check boxes corresponding to the different mechanisms.</p>
+<h1 id="on-content-storage-and-availability">On content storage and availability</h1>
+<p>As you can see, your application will only be sharing <em>content that you have previously accessed</em>, and it will do that while it is running. Conversely, if access to a page’s origin or to the injector is not possible, the page will only be available if other users who have previously accessed the same page are still running their application. The more applications actively sharing a page, the more chances for other users to get it.</p>
+<p>Content does not stay in your device forever. After your application has stored more than 10 gigabytes (this is not configurable for the moment), content which has not been accessed for the longest time (either by you or other users via your application) is removed to make space for new content.</p>
+<p>If you want to remove all stored pages, you can use the standard procedures to delete the application’s data in Android. Be warned that currently <em>this will also remove other information</em> like favorites and browsing history from CENO. We may later on add a way to remove stored pages without having to delete all application data.</p>
+<hr />
+<h1 id="about-equalitie">About eQualitie</h1>
+<p><img src="./eQualitie_Logo_RGB.png" title="eQualitie logo" /></p>
+<p><a href="https://equalit.ie/">eQualitie</a> develops open and reusable systems with a focus on privacy, online security, and information management. Our goal is to create accessible technology and improve the skill set needed for defending human rights and freedoms in the digital age.</p>
+
 </body>
 </html>
 
