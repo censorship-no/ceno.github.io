@@ -8,11 +8,17 @@
     <style>
         body {
             font-family: Lato, sans-serif !important;
-            font-size: 1.66em;
+            font-size: 1.08em;
+            background-color: #f4f4f3;
         }
 
         h1 {
             font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            font-weight: bold;
         }
 
         hr {
@@ -87,9 +93,12 @@
     </style>
 </head>
 <body>
-<div class="row">
-    <div id="heading" class="col-sm-10 col-sm-offset-1">
-        <div class="col-xs-8 col-md-9">
+<nav class="navbar navbar-expand-md navbar-dark -bg-dark">
+    <a href="https://github.com/censorship-no"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+</nav>
+<main role="main" class="container">
+    <div id="-heading" class="-col-sm-10 -col-sm-offset-1">
+        <div class="-col-xs-8 -col-md-9">
             <h2>Censorship.no</h2>
             Designed for accessing websites from the stringest network
             environments, the <a
@@ -104,15 +113,12 @@
         href="http://www.un.org/en/universal-declaration-human-rights/">Universal
     Declaration of Human Rights</a>.
         </div>
-        <div id="heading-logo" class="col-xs-2">
-            <a href="https://github.com/equalitie/ceno2"><img id="CENOLogo" src="logo_ceno.png"/></a>
-        </div>
     </div>
-</div>
+</main>
 <hr/>
 <p style="text-align:center;"><img src="ceno_infographic.png" width="900" height="1016" alt="CENO2 infographic"></p>
-<div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
+<div class="container">
+    <div class="col-sm col-sm-offset-1">
         <h2>The CENO advantage</h2>
         The majority of internationally-bound traffic in countries that filter
         content requests are routed through a fixed number of centralized
@@ -144,8 +150,12 @@
     </div>
 </div>
 <hr/>
-<div class="row">
-    <div id="footer" class="col-sm-10 col-sm-offset-1">
+<footer class="footer">
+    <div id="footer" class="container">
+        <div id="footer-logo" class="float-right">
+            <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
+        </div>
+        <br>
         <div class="col-xs-8 col-md-9">
             <h2>About eQualit.ie</h2>
             <a href="https://equalit.ie">eQualit.ie</a> develops open and
@@ -154,12 +164,9 @@
             and improve the skill-set needed for defending human rights and
             freedoms in the digital age.
         </div>
-        <div id="footer-logo" class="col-xs-2">
-            <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
-        </div>
         <div class="push"></div>
     </div>
-</div>
+</footer>
 </body>
 </html>
 
