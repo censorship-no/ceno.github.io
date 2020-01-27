@@ -91,6 +91,34 @@
         div#subprojects .project > h3 {
             margin: 18px 0;
         }
+
+
+        .google-play-badge {
+          width: 162px;
+          -height: 49px;
+        }
+        .paskoocheh-download-badge {
+          width: 162px;
+          margin-top:10px;
+          height: 45px;
+        }
+        .github-badge {
+          width: 162px;
+          -margin-top:10px;
+          -height: 45px;
+        }
+        .section {
+            margin-top:40px;
+            margin-bottom:20px;
+        }
+        .section > h2 {
+            -margin-top:40px;
+            margin-bottom:30px;
+        }
+        .row.download {
+            padding: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -113,7 +141,7 @@
         </div>
     </div>
 </nav>
-<main role="main" class="container" style="margin-top:20px" id="about">
+<main role="main" class="container section" id="about">
     <h2>Censorship.no</h2>
     Designed for accessing websites from the stringest network
     environments, the <a href="https://github.com/equalitie/ceno2">censorship.no</a> project
@@ -125,58 +153,73 @@
     presents a new generation of censorship circumvention possibilities.
     Our project is built in support of Articles 18, 19 and 20 of the <a
     href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>.
+    <hr/>
 </main>
-<hr/>
-<p style="text-align:center;"><img src="ceno_infographic.png" width="900" height="1016" alt="CENO2 infographic"></p>
-<div class="container" id="download">
-    <div class="col-sm col-sm-offset-1">
-        <h2>The CENO advantage</h2>
-        The majority of internationally-bound traffic in countries that filter
-        content requests are routed through a fixed number of centralized
-        exchanges where surveillance and censorship technology is installed.
-        Traditional circumvention technologies require the user to connect
-        directly to a proxy in the uncensored zone. This design gives the
-        censor an advantage in locating and blocking popular proxies, VPN
-        servers, relays, bridges, etc.<p>CENO proposes a fundamentally
-        different solution: reduce the requests to externally available proxy
-        servers and enable the storage of retrieved content inside the censored
-        zone. CENOs advantage comes from being both a transport and a storage
-        solution.<p>Peer-to-peer routing is the ideal solution for the “cat and
-        mouse” scenario that most circumvention providers end up playing with
-        the censor. Clients need not know the location of a proxy to relay
-        censored content, instead using small-world networks to connect to
-        their peers, and thereafter to a bridge in the uncensored zone.<p>Once
-        a website is accessed by a single user (node), it is stored and
-        continues to propagate inside the country peer-to-peer.  Individual
-        nodes are referenced by an identifier which does not give away their
-        physical location.  Content remains available inside the censored zone
-        even if external connectivity is cut. Content can be seeded into the
-        network via alternative means as well (e.g. uploaded from a USB drive).
-        <div id="subprojects" class="col-sm-11">
-            <div class="project">
-                <h3><a href="https://github.com/censorship-no">CENO source</a></h3>
-                <p>Actively developed source code repositories. See also the <a href="https://github.com/censorship-no/ceno-docs">CENO documentation repository</a> for comprehensive information on the project and a guide to its repositories.</p>
-            </div>
-        </div>
-    </div>
+<div class="container section">
+    <p style="text-align:center;"><img src="ceno_infographic.png" width="900" height="1016" alt="CENO2 infographic"></p>
 </div>
-<hr/>
-<footer class="footer" id="contact">
-    <div id="footer" class="container">
-        <div id="footer-logo" class="float-right">
-            <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
-        </div>
-        <br>
-        <div class="col-xs-8 col-md-9">
-            <h2>About eQualit.ie</h2>
-            <a href="https://equalit.ie">eQualit.ie</a> develops open and
-            reusable systems with a focus on privacy, online security, and
-            information management. Our goal is to create accessible technology
-            and improve the skill-set needed for defending human rights and
-            freedoms in the digital age.
-        </div>
-        <div class="push"></div>
+<div class="container section">
+    <h2>The CENO advantage</h2>
+    The majority of internationally-bound traffic in countries that filter
+    content requests are routed through a fixed number of centralized
+    exchanges where surveillance and censorship technology is installed.
+    Traditional circumvention technologies require the user to connect
+    directly to a proxy in the uncensored zone. This design gives the
+    censor an advantage in locating and blocking popular proxies, VPN
+    servers, relays, bridges, etc.<p>CENO proposes a fundamentally
+    different solution: reduce the requests to externally available proxy
+    servers and enable the storage of retrieved content inside the censored
+    zone. CENOs advantage comes from being both a transport and a storage
+    solution.<p>Peer-to-peer routing is the ideal solution for the “cat and
+    mouse” scenario that most circumvention providers end up playing with
+    the censor. Clients need not know the location of a proxy to relay
+    censored content, instead using small-world networks to connect to
+    their peers, and thereafter to a bridge in the uncensored zone.<p>Once
+    a website is accessed by a single user (node), it is stored and
+    continues to propagate inside the country peer-to-peer.  Individual
+    nodes are referenced by an identifier which does not give away their
+    physical location.  Content remains available inside the censored zone
+    even if external connectivity is cut. Content can be seeded into the
+    network via alternative means as well (e.g. uploaded from a USB drive).
+</div>
+<div class="container section" id="download">
+  <div class="row download">
+    <div class="col-sm-4 center-block" style="text-align:center">
+        <a href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img class="google-play-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+        </a>
     </div>
+    <div class="col-sm-4 center-block" style="text-align:center">
+        <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
+            <img class="paskoocheh-download-badge" src="paskoocheh-download-badge.png"/>
+        </a>
+    </div>
+    <div class="col-sm-4 center-block" style="text-align:center">
+        <a href="https://github.com/censorship-no/ceno-browser/releases">
+            <img class="github-badge" src="github-badge.png"/>
+        </a>
+    </div>
+  </div>
+  <div id="subprojects" class="-col-sm-11" style="margin-top:30px">
+      <div class="project">
+          <h3><a href="https://github.com/censorship-no">CENO source</a></h3>
+          <p>Actively developed source code repositories. See also the <a href="https://github.com/censorship-no/ceno-docs">CENO documentation repository</a> for comprehensive information on the project and a guide to its repositories.</p>
+      </div>
+  </div>
+</div>
+<footer class="container section" id="contact">
+    <hr/>
+    <div id="footer-logo" class="float-right">
+        <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
+    </div>
+    <br>
+        <h2>About eQualit.ie</h2>
+        <a href="https://equalit.ie">eQualit.ie</a> develops open and
+        reusable systems with a focus on privacy, online security, and
+        information management. Our goal is to create accessible technology
+        and improve the skill-set needed for defending human rights and
+        freedoms in the digital age.
+    <div class="push"></div>
 </footer>
 </body>
 </html>
