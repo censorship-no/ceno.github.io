@@ -107,6 +107,11 @@
           -margin-top:10px;
           -height: 45px;
         }
+        .github-source-badge {
+          width: 162px;
+          -margin-top:10px;
+          -height: 45px;
+        }
         .section {
             margin-top:40px;
             margin-bottom:20px;
@@ -116,23 +121,33 @@
             margin-bottom:30px;
         }
         .row.download {
-            padding: 30px;
+            padding: 20px;
         }
-
+       .block {
+           -width: 90%;
+           height: 150px;
+           --padding: 40px;
+           background-color: #e7e8e2;
+           border:1px solid yellow;
+        }
+        .col-centered {
+            float: none;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-        <a href="https://github.com/censorship-no/ceno-docs"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+        <a href="https://censorship.no"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
 
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#download">Download</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#download">Download</a>
+                    <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Documentation</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -156,7 +171,7 @@
     <hr/>
 </main>
 <div class="container section">
-    <p style="text-align:center;"><img src="ceno_infographic.png" width="900" height="1016" alt="CENO2 infographic"></p>
+    <p style="text-align:center;"><img src="ceno_infographic.png" width="82%" alt="CENO2 infographic"></p>
 </div>
 <div class="container section">
     <h2>The CENO advantage</h2>
@@ -182,29 +197,42 @@
     even if external connectivity is cut. Content can be seeded into the
     network via alternative means as well (e.g. uploaded from a USB drive).
 </div>
+
 <div class="container section" id="download">
-  <div class="row download">
-    <div class="col-sm-4 center-block" style="text-align:center">
-        <a href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-            <img class="google-play-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
-        </a>
-    </div>
-    <div class="col-sm-4 center-block" style="text-align:center">
-        <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
-            <img class="paskoocheh-download-badge" src="paskoocheh-download-badge.png"/>
-        </a>
-    </div>
-    <div class="col-sm-4 center-block" style="text-align:center">
-        <a href="https://github.com/censorship-no/ceno-browser/releases">
-            <img class="github-badge" src="github-badge.png"/>
-        </a>
+  <h2>Get CENO</h2>
+  <div class="row justify-content-center download">
+    <div style="text-align:center;">
+      <h2>Android releases<h2>
     </div>
   </div>
-  <div id="subprojects" class="-col-sm-11" style="margin-top:30px">
-      <div class="project">
-          <h3><a href="https://github.com/censorship-no">CENO source</a></h3>
-          <p>Actively developed source code repositories. See also the <a href="https://github.com/censorship-no/ceno-docs">CENO documentation repository</a> for comprehensive information on the project and a guide to its repositories.</p>
-      </div>
+  <div class="row download" style="border:0px solid black">
+    <div class="col-sm-4" style="text-align:center;">
+          <a  href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+              <img class="google-play-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+          </a>
+    </div>
+    <div class="col-sm-4" style="text-align:center;">
+            <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
+                <img class="paskoocheh-download-badge" src="paskoocheh-download-badge.png"/>
+            </a>
+    </div>
+    <div class="col-sm-4" style="text-align:center">
+            <a href="https://github.com/censorship-no/ceno-browser/releases">
+                <img class="github-badge" src="github-badge.png"/>
+            </a>
+    </div>
+  </div>
+  <div class="row justify-content-center download" style="border:0px solid black">
+    <div style="text-align:center; margin-top:10px">
+        <h2>Source code<h2>
+    </div>
+  </div>
+  <div class="row justify-content-center download">
+    <div class="col-sm-4 justify-content-center" style="text-align:center;">
+          <a href='https://github.com/censorship-no'>
+              <img class="github-source-badge" alt='Browse source code on GitHub' src='GitHub_Logo.png'/>
+          </a>
+    </div>
   </div>
 </div>
 <footer class="container section" id="contact">
