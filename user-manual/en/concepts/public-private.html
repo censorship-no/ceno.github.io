@@ -165,16 +165,16 @@
 <p>The different behavior results in different characteristics.  Thus, in public mode:</p>
 <ol>
 <li>You have better chances to get Web content, and help others get that content (from you).</li>
-<li>Pages with dynamic content (e.g. updated in real time) may not work.</li>
-<li>Pages requiring authentication do not work (passwords and cookies are removed by the client).</li>
-<li>Some browsing activity may be leaked to other users.</li>
-<li>Some browsing activity may be leaked to injectors.</li>
-<li>You need to trust injectors to sign all content.</li>
+<li>Pages with dynamic content (e.g. updated in real time) may break in obvious or subtle ways.</li>
+<li>Pages requiring authentication do not work (as passwords and cookies are removed by the client).</li>
+<li>Some browsing activity may be leaked to other users (see <a href="risks.html">risks</a>).</li>
+<li>Some browsing activity may be leaked to injectors (see <a href="risks.html">risks</a>).</li>
+<li>You need to trust injectors to retrieve and sign Web content.</li>
 </ol>
 <p>While in private mode:</p>
 <ol>
-<li>You have less chances to get Web content (some connectivity to international servers is required), and other CENO users cannot get the content from you.</li>
-<li>Pages with dynamic content may work.</li>
+<li>You may not be able to access blocked Web content if international connectivity is too scarce; even if you could, other CENO users would not get that content from you.</li>
+<li>Pages with dynamic content will probably work.</li>
 <li>Pages requiring authentication may work (when your connection is protected by HTTPS, the injector does not see your passwords).</li>
 <li>Browsing activity is not leaked to other users.</li>
 <li>Limited browsing activity is leaked to injectors (with HTTPS, only the origin server name or address).</li>

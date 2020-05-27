@@ -151,15 +151,15 @@
                     <main>
                         <h1><a class="header" href="#testing-the-browser" id="testing-the-browser">Testing the Browser</a></h1>
 <p>Now that you know how to <a href="install.html">install</a> and <a href="settings.html">configure</a> CENO, let us follow some steps to test whether different Ouinet-specific features work.  This will involve selectively enabling and disabling different access mechanisms.  Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
-<p>For these tests you will need at least two devices connected to the same Wi-Fi network, and if possible a third one on a completely different network.</p>
+<p>To complete all the tests below you will need at least two devices connected to the same Wi-Fi network, and a third one on a completely different network.</p>
 <p>All the tests will be performed using <a href="public-private.html">public browsing</a>.  If something does not work as expected, please be patient and check the section on <a href="troubleshooting.html">troubleshooting</a>.</p>
 <h2><a class="header" href="#accessing-an-injector" id="accessing-an-injector">Accessing an injector</a></h2>
 <p>Let us first check whether your CENO Browser can reach an injector.  This may look trivial but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
 <p>In the first device perform the following steps:</p>
 <ol>
-<li>First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on <em>NEXT</em> until <em>START BROWSING</em> appears, then click it.  In the end, Firefox's home page will appear.</li>
+<li>First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on <em>NEXT</em> until <em>START BROWSING</em> appears, then click it.  In the end, CENO's home page will appear.</li>
 <li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck the boxes for <em>Origin access</em>, <em>Proxy access</em> and <em>Distributed cache</em>.</li>
-<li>Go back to Firefox's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!</li>
+<li>Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
 <p>If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.</p>
@@ -172,16 +172,16 @@
 <p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
 <p>After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to do the test) and connect it to the same Wi-Fi network.  Then follow the steps below on that device:</p>
 <ol>
-<li>Install CENO if needed, start it and proceed to Firefox's home page as above.</li>
+<li>Install CENO if needed, start it and proceed to CENO's home page as above.</li>
 <li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck the boxes for <em>Origin access</em>, <em>Proxy access</em> and <em>Injector access</em>.</li>
-<li>Go back to Firefox's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
+<li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
 <p>If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only <em>Distributed cache</em> has a non-zero value.</p>
 <p><img src="images/sources-dcache.png" alt="Figure: Mechanisms used when testing distributed cache retrieval" /></p>
 <h2><a class="header" href="#getting-content-from-remote-users" id="getting-content-from-remote-users">Getting content from remote users</a></h2>
 <p>We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.</p>
-<p>Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by tapping on its &quot;Tap to stop&quot; notification).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.</p>
+<p>Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.</p>
 <p>If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge.  Congratulations!</p>
 
                     </main>
