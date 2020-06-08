@@ -431,9 +431,26 @@ assigned an originating IP addresses.</p>
 <p><strong>Warning:</strong> Please be <em>extremely skeptical</em> about installing the CENO Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate the user's privacy or attack other CENO and Ouinet users.  If in doubt, please contact <a href="mailto:browser/cenoers@equalit.ie">cenoers@equalit.ie</a> before installing a suspicious app.</p>
 </blockquote>
 <p>When you run CENO for the first time, you will be presented with a series of screens introducing some features generic to Firefox browsers.  Just scroll through them by pressing <em>NEXT</em> until you see a <em>Sign in to Sync</em> button and a <em>START BROWSING</em> link.  Firefox Sync has not been tested to work with CENO, so just push <em>START BROWSING</em>.</p>
-<p>Also, every time that you start the app a CENO icon will appear on your device's notification bar.  This icon represents the <em>CENO Browser service</em>, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.</p>
-<p>Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).</p>
-<p><img src="browser/images/tap-stop.png" alt="Figure: Tap the notification to stop the CENO service" /></p>
+<h2><a class="header" href="#stopping-ceno-completely" id="stopping-ceno-completely">Stopping CENO completely</a></h2>
+<p>Every time that you start the app a CENO icon will appear on your device's notification bar.  This icon represents the <em>CENO Browser service</em>, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.</p>
+<p>Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping on the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).</p>
+<p><img src="browser/images/tap-stop.png" alt="Figure: Tap on the notification to stop the CENO service" /></p>
+<h2><a class="header" href="#purging-all-ceno-data-the-panic-button" id="purging-all-ceno-data-the-panic-button">Purging all CENO data (the &quot;panic button&quot;)</a></h2>
+<p>The <em>CENO Browser service</em> notification includes a few accompanying actions which can be triggered by tapping on them.  The <em>Home</em> action will just open CENO with a new public browsing tab showing its home page.  The <em>Stop &amp; purge</em> action demands more explanation.</p>
+<blockquote>
+<p><strong>Note:</strong> If the actions below the notification are not visible, tap on the small v-shaped icon near the notification's first line to unfold it.</p>
+</blockquote>
+<p>Shall you ever need to quickly stop CENO and clear absolutely all the data related with it (not only cached content but also settings like favorites, passwords and all browsing history), you can tap on <em>Stop &amp; purge</em>.  To avoid losing your data accidentally, this will not remove anything yet, but just show an additional <em>Tap if sure!</em> action for a brief moment, as pictured below.</p>
+<p><img src="browser/images/tap-purge.png" alt="Figure: The last action stops CENO and clears all its data" /></p>
+<p>If you tap on that new action, CENO will be stopped and all its data removed <em>without further questions</em>, effectively leaving your device as if CENO had never been used.</p>
+<p>If you do not tap on the action, it will go away in a few seconds.</p>
+<blockquote>
+<p><strong>Note:</strong> The method described above requires that CENO is running on your device.  To accomplish the same effect when CENO is stopped, you can use Android's general <em>Settings</em> page and, under the <em>Apps</em> entry, choose CENO and then <em>Clear data</em>.</p>
+<p>As a harsher alternative, you may completely uninstall the app.</p>
+</blockquote>
+<blockquote>
+<p><strong>Warning:</strong> Android may still keep other traces of having used an app besides its data, for instance in its system log.</p>
+</blockquote>
 <h1><a class="header" href="#using-public-or-private-browsing" id="using-public-or-private-browsing">Using public or private browsing</a></h1>
 <p>As described <a href="browser/../concepts/public-private.html">in a previous section</a>, CENO has two different modes of operation depending on whether you want to share with others the content that you browse (public browsing) or not (private browsing).</p>
 <p>This setting applies <em>to each tab</em> that you open in the browser, i.e. you can have public browsing tabs and private browsing tabs.  The default in CENO whenever you start it or open a new tab (using <em>New tab</em> in the app's main menu) is to use public browsing.  To open a new tab in private browsing mode, just choose <em>New private tab</em> in the main menu.</p>
@@ -450,30 +467,35 @@ assigned an originating IP addresses.</p>
 <p>These features are available in a page that can be accessed by choosing <em>CENO</em> in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:</p>
 <p><img src="browser/images/settings.png" alt="Figure: The CENO Settings page" /></p>
 <h2><a class="header" href="#choosing-access-mechanisms" id="choosing-access-mechanisms">Choosing access mechanisms</a></h2>
-<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content (all of them are enabled by default):</p>
+<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default, and they are grouped depending on the browsing modes where they are available.</p>
+<p>When in <em>public or private browsing</em> modes:</p>
 <ul>
 <li>
-<p><strong>Origin access:</strong> When enabled, this allows CENO to try to reach the origin server directly before attempting the rest of mechanisms below.</p>
-<p>This mechanism works in both private and public browsing modes, though content thus retrieved cannot be shared with others.</p>
-<p>In case that getting most Web content is not particularly slow or expensive, direct access may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see <a href="browser/../concepts/risks.html">risks</a>).</p>
+<p>The only mechanism available to both modes, known as <strong>origin access</strong>, allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
+<p>Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.</p>
+<p>In case that getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see <a href="browser/../concepts/risks.html">risks</a>).</p>
 <p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.</p>
 </li>
+</ul>
+<p>When in <em>private browsing</em> mode:</p>
+<ul>
 <li>
-<p><strong>Proxy access:</strong> This option allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
-<p>This mechanism only works in private browsing mode.</p>
+<p>The only mechanism exclusive to this mode, known as <strong>proxy access</strong>, allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
 <p>When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.</p>
 </li>
+</ul>
+<p>When in <em>public browsing</em> mode:</p>
+<ul>
 <li>
-<p><strong>Injector access:</strong> This option enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.</p>
-<p>This mechanism only works in public browsing mode.</p>
+<p>The first mechanism, known as <strong>injector access</strong>, enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.</p>
 <p>Other participants like bridges will not see the unencrypted traffic.</p>
 </li>
 <li>
-<p><strong>Distributed cache:</strong> This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).</p>
-<p>This mechanism only works in public browsing mode.</p>
+<p>The second mechanism allows CENO to try to retrieve content from the <strong>distributed cache</strong>, i.e. from other CENO and Ouinet clients seeding it.</p>
 </li>
 </ul>
-<p>Disabling both origin and proxy access will render private browsing useless.  Likewise, disabling origin access, injector access and the distributed cache will render public browsing useless.</p>
+<p>Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.</p>
+<p><img src="browser/images/settings-no-private.png" alt="Figure: Invalid settings for private browsing" /></p>
 <blockquote>
 <p><strong>Warning:</strong> Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.</p>
 </blockquote>
@@ -490,11 +512,8 @@ assigned an originating IP addresses.</p>
 </ul>
 <h2><a class="header" href="#purging-the-local-cache" id="purging-the-local-cache">Purging the local cache</a></h2>
 <p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.</p>
-<p>If you also want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose <em>Settings</em> in the app's main menu, then <em>Clear private data</em>.  You will be asked about which items you want to clear.</p>
-<p>To drop everything at the same time, you can use Android's general <em>Settings</em> page and, under the <em>Apps</em> entry, choose CENO and then <em>Clear data</em>.  CENO will stop and forget all your settings and data.</p>
-<blockquote>
-<p><strong>Warning:</strong> Please be careful with the last two actions since loosing CENO settings cannot be undone!</p>
-</blockquote>
+<p>If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose <em>Settings</em> in the app's main menu, then <em>Clear private data</em>.  You will be asked about which items you want to clear.</p>
+<p>To drop everything at the same time (especially if you are in a hurry), please learn how to use the &quot;panic button&quot; feature described in <a href="browser/install.html">Installing CENO</a>.</p>
 <h2><a class="header" href="#collecting-log-messages" id="collecting-log-messages">Collecting log messages</a></h2>
 <p>At the bottom of the page there is an <em>Enable log file</em> check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:</p>
 <ol>
@@ -513,26 +532,26 @@ assigned an originating IP addresses.</p>
 <p>In the first device perform the following steps:</p>
 <ol>
 <li>First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on <em>NEXT</em> until <em>START BROWSING</em> appears, then click it.  In the end, CENO's home page will appear.</li>
-<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck the boxes for <em>Origin access</em>, <em>Proxy access</em> and <em>Distributed cache</em>.</li>
+<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except <em>Get content via injector</em>.</li>
 <li>Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
 <p>If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.</p>
-<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only <em>Injector access</em> should have a non-zero value since the other mechanisms were disabled.</p>
+<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only <em>Via CENO injector (shared)</em> should have a non-zero value since the other mechanisms were disabled.</p>
 <p><img src="browser/images/sources-inject.png" alt="Figure: Mechanisms used when testing injection" /></p>
-<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Origin</em> or <em>Proxy</em> mechanisms.</p>
+<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from origin website</em> or <em>Via CENO injector as proxy</em>.</p>
 <p><img src="browser/images/sources-proxy.png" alt="Figure: Mechanisms used with private browsing" /></p>
-<p>Finally, you may have also noticed that there is a counter for <em>Local cache</em>.  This is not a different mechanism <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+<p>Finally, you may have also noticed that there is a counter for <em>Shared by local CENO cache</em>.  This is not a different mechanism <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
 <h2><a class="header" href="#getting-content-from-close-users" id="getting-content-from-close-users">Getting content from close users</a></h2>
 <p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
 <p>After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to do the test) and connect it to the same Wi-Fi network.  Then follow the steps below on that device:</p>
 <ol>
 <li>Install CENO if needed, start it and proceed to CENO's home page as above.</li>
-<li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck the boxes for <em>Origin access</em>, <em>Proxy access</em> and <em>Injector access</em>.</li>
+<li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except <em>Get content shared by other users</em>.</li>
 <li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
-<p>If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only <em>Distributed cache</em> has a non-zero value.</p>
+<p>If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by others' CENO cache</em> has a non-zero value.</p>
 <p><img src="browser/images/sources-dcache.png" alt="Figure: Mechanisms used when testing distributed cache retrieval" /></p>
 <h2><a class="header" href="#getting-content-from-remote-users" id="getting-content-from-remote-users">Getting content from remote users</a></h2>
 <p>We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.</p>
@@ -615,9 +634,9 @@ assigned an originating IP addresses.</p>
 <p>Please note that some content which is not considered safe for sharing will never be injected, no matter how many people retrieve it using public browsing.  This includes content marked as private by the origin server, content which requires authentication, and some traffic exchanged by certain dynamic Web applications.</p>
 <p>Also note that the clients holding copies of injected content need to be reachable by you.  The same observations described in the previous point for reaching bridge clients do apply here.</p>
 <h2><a class="header" href="#others-cannot-retrieve-content-seeded-by-my-device" id="others-cannot-retrieve-content-seeded-by-my-device">Others cannot retrieve content seeded by my device</a></h2>
-<p>First, make sure that your device is still seeding the content by going to the <a href="browser/settings.html"><em>CENO Settings</em> page</a>, only leaving the <em>Distributed cache</em> box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under <em>Distributed cache</em> or <em>Local cache</em>.</p>
-<p>If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache.  Enable <em>Injector access</em> in the Settings page and access the content again.  Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index.  Disable <em>Injector access</em> and access the content again; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.</p>
-<p>If the previous step works, but another device with <em>Distributed cache</em> on still shows &quot;Failed to retrieve the resource…&quot;, there are two possible scenarios.  If both devices are in the same network (e.g. on the same Wi-Fi access point), it could be that the network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.</p>
+<p>First, make sure that your device is still seeding the content by going to the <a href="browser/settings.html"><em>CENO Settings</em> page</a>, only leaving the <em>Get content shared by other users</em> box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under <em>Shared by others' CENO cache</em> or <em>Shared by local CENO cache</em>.</p>
+<p>If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache.  Enable <em>Get content via injector</em> in the Settings page and access the content again.  Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index.  Make <em>Get content shared by other users</em> the only checked box again and access the content once more; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.</p>
+<p>If the previous step works, but another device with <em>Get content shared by other users</em> enabled still shows &quot;Failed to retrieve the resource…&quot;, there are two possible scenarios.  If both devices are in the same network (e.g. on the same Wi-Fi access point), it could be that the network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.</p>
 <p>If the devices are in different networks, it could be due to a variety of reasons.  One of them is that the network of the first device does not allow incoming connections: if you open its <em>CENO Settings</em> page, under <em>Reachability status</em> it should say <em>reachable</em> or <em>likely reachable</em>.  Otherwise seeding may not be possible from that network as it is.</p>
 <blockquote>
 <p><strong>Technical note:</strong> If your device reports <em>undecided</em> reachability and you can change the configuration of the access point, you may create a permanent port forwarding rule towards your client.  See <a href="browser/bridging.html">here</a> for further instructions.</p>

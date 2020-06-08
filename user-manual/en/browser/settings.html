@@ -157,30 +157,35 @@
 <p>These features are available in a page that can be accessed by choosing <em>CENO</em> in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:</p>
 <p><img src="images/settings.png" alt="Figure: The CENO Settings page" /></p>
 <h2><a class="header" href="#choosing-access-mechanisms" id="choosing-access-mechanisms">Choosing access mechanisms</a></h2>
-<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content (all of them are enabled by default):</p>
+<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default, and they are grouped depending on the browsing modes where they are available.</p>
+<p>When in <em>public or private browsing</em> modes:</p>
 <ul>
 <li>
-<p><strong>Origin access:</strong> When enabled, this allows CENO to try to reach the origin server directly before attempting the rest of mechanisms below.</p>
-<p>This mechanism works in both private and public browsing modes, though content thus retrieved cannot be shared with others.</p>
-<p>In case that getting most Web content is not particularly slow or expensive, direct access may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see <a href="../concepts/risks.html">risks</a>).</p>
+<p>The only mechanism available to both modes, known as <strong>origin access</strong>, allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
+<p>Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.</p>
+<p>In case that getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see <a href="../concepts/risks.html">risks</a>).</p>
 <p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.</p>
 </li>
+</ul>
+<p>When in <em>private browsing</em> mode:</p>
+<ul>
 <li>
-<p><strong>Proxy access:</strong> This option allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
-<p>This mechanism only works in private browsing mode.</p>
+<p>The only mechanism exclusive to this mode, known as <strong>proxy access</strong>, allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
 <p>When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.</p>
 </li>
+</ul>
+<p>When in <em>public browsing</em> mode:</p>
+<ul>
 <li>
-<p><strong>Injector access:</strong> This option enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.</p>
-<p>This mechanism only works in public browsing mode.</p>
+<p>The first mechanism, known as <strong>injector access</strong>, enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.</p>
 <p>Other participants like bridges will not see the unencrypted traffic.</p>
 </li>
 <li>
-<p><strong>Distributed cache:</strong> This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).</p>
-<p>This mechanism only works in public browsing mode.</p>
+<p>The second mechanism allows CENO to try to retrieve content from the <strong>distributed cache</strong>, i.e. from other CENO and Ouinet clients seeding it.</p>
 </li>
 </ul>
-<p>Disabling both origin and proxy access will render private browsing useless.  Likewise, disabling origin access, injector access and the distributed cache will render public browsing useless.</p>
+<p>Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.</p>
+<p><img src="images/settings-no-private.png" alt="Figure: Invalid settings for private browsing" /></p>
 <blockquote>
 <p><strong>Warning:</strong> Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.</p>
 </blockquote>
@@ -197,11 +202,8 @@
 </ul>
 <h2><a class="header" href="#purging-the-local-cache" id="purging-the-local-cache">Purging the local cache</a></h2>
 <p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.</p>
-<p>If you also want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose <em>Settings</em> in the app's main menu, then <em>Clear private data</em>.  You will be asked about which items you want to clear.</p>
-<p>To drop everything at the same time, you can use Android's general <em>Settings</em> page and, under the <em>Apps</em> entry, choose CENO and then <em>Clear data</em>.  CENO will stop and forget all your settings and data.</p>
-<blockquote>
-<p><strong>Warning:</strong> Please be careful with the last two actions since loosing CENO settings cannot be undone!</p>
-</blockquote>
+<p>If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose <em>Settings</em> in the app's main menu, then <em>Clear private data</em>.  You will be asked about which items you want to clear.</p>
+<p>To drop everything at the same time (especially if you are in a hurry), please learn how to use the &quot;panic button&quot; feature described in <a href="install.html">Installing CENO</a>.</p>
 <h2><a class="header" href="#collecting-log-messages" id="collecting-log-messages">Collecting log messages</a></h2>
 <p>At the bottom of the page there is an <em>Enable log file</em> check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:</p>
 <ol>
