@@ -427,7 +427,7 @@ assigned an originating IP addresses.</p>
 <p>Yes.  However, bridges only relay encrypted communication between a Ouinet client and an injector.  This means that a bridge shall never make direct requests for content to any other server on someone else's behalf.</p>
 <h1><a class="header" href="#using-the-ceno-browser" id="using-the-ceno-browser">Using the CENO Browser</a></h1>
 <p>This chapter gives you some hints on the usage of the CENO Browser as far as its Ouinet-related capabilities are concerned.  Please always keep in mind that CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a>, so for all the help on generic browsing topics you should refer to Mozilla's <a href="https://support.mozilla.org/en-US/products/mobile">Firefox for Android Support</a> pages.</p>
-<p>When relevant, screen captures will be included to illustrate the text.  Please note that these may slightly differ from what you see on your device, especially as CENO development progresses.</p>
+<p>When relevant, screen captures will be included to illustrate the text.  Please note that these may slightly differ from what you see on your device, especially as CENO development progresses.  This documentation is up to date for CENO version 0.0.22.</p>
 <p>If your application shows some looks or behavior substantially different from that described in here, do not hesitate to contact us at <a href="mailto:browser/cenoers@equalit.ie">cenoers@equalit.ie</a> and report the issue.</p>
 <h1><a class="header" href="#installing-ceno" id="installing-ceno">Installing CENO</a></h1>
 <p>The CENO Browser can be installed via the following means:</p>
@@ -509,8 +509,9 @@ assigned an originating IP addresses.</p>
 <p>The page also provides you with some information about your CENO Browser app and Ouinet client:</p>
 <ul>
 <li><em>CENO Browser</em> indicates the exact version of CENO that you are using.  Please include this information in your issue reports.</li>
-<li><em>Ouinet</em> shows the version of Ouinet backing CENO.  Also include in reports.</li>
 <li><em>CENO Extension</em> shows the version of the extension that integrates Firefox with CENO.  Also include in reports.</li>
+<li><em>Ouinet</em> shows the version of Ouinet backing CENO.  Also include in reports.</li>
+<li><em>Ouinet protocol</em> is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors.  Also include in reports.</li>
 <li><em>Local UDP endpoint(s)</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
 <li><em>UPnP status</em> indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.</li>
 <li><em>Reachability status</em> indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.</li>
@@ -532,7 +533,7 @@ assigned an originating IP addresses.</p>
 <h1><a class="header" href="#testing-the-browser" id="testing-the-browser">Testing the Browser</a></h1>
 <p>Now that you know how to <a href="browser/install.html">install</a> and <a href="browser/settings.html">configure</a> CENO, let us follow some steps to test whether different Ouinet-specific features work.  This will involve selectively enabling and disabling different access mechanisms.  Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
 <p>To complete all the tests below you will need at least two devices connected to the same Wi-Fi network, and a third one on a completely different network.</p>
-<p>All the tests will be performed using <a href="browser/public-private.html">public browsing</a>.  If something does not work as expected, please be patient and check the section on <a href="browser/troubleshooting.html">troubleshooting</a>.</p>
+<p>All the tests will be performed using <a href="browser/public-private.html">public browsing</a>.  If something does not work as expected, please be patient and check the section on <a href="browser/troubleshooting.html">troubleshooting</a>.  Specifically, if the browser gets stuck for more than a couple of minutes while loading a page, you may hit stop and reload it (although this may alter results slightly).</p>
 <h2><a class="header" href="#accessing-an-injector" id="accessing-an-injector">Accessing an injector</a></h2>
 <p>Let us first check whether your CENO Browser can reach an injector.  This may look trivial but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
 <p>In the first device perform the following steps:</p>
