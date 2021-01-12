@@ -477,7 +477,7 @@ assigned an originating IP addresses.</p>
 <p>These features are available in a page that can be accessed by choosing <em>CENO</em> in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:</p>
 <p><img src="browser/images/settings.png" alt="Figure: The CENO Settings page" /></p>
 <h2><a class="header" href="#choosing-access-mechanisms" id="choosing-access-mechanisms">Choosing access mechanisms</a></h2>
-<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms or <em>sources</em> that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default.</p>
+<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms or <em>sources</em> that CENO as a Ouinet client uses to retrieve content while using either <a href="browser/public-private.html">public or private browsing</a> tabs.  All boxes are enabled by default.</p>
 <ul>
 <li>
 <p><em>Direct from website</em> (or <strong>origin access</strong>) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
@@ -570,7 +570,24 @@ assigned an originating IP addresses.</p>
 <p><strong>Note:</strong> The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the <a href="browser/../concepts/risks.html">risks</a> of serving such content to others).</p>
 </blockquote>
 <h2><a class="header" href="#how-to-become-a-ceno-bridge" id="how-to-become-a-ceno-bridge">How to become a CENO bridge</a></h2>
-<p>This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> enabled.  The <a href="browser/settings.html">CENO Settings</a> page will indicate the UPnP status on your network.</p>
+<p>This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.</p>
+<p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
+<blockquote>
+<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.  Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Dont't kill my app!</a> for your device's brand.</p>
+</blockquote>
+<p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
+<ol>
+<li>
+<p>Have your device plugged in to power at all times.</p>
+</li>
+<li>
+<p>Have the device's screen on at all times.</p>
+<p>One convenient way of doing this without much power consumption and obnoxious, permanent lighting is using Android's screen saver: enable it under <em>Settings / Display / Screen saver</em> (or <em>Daydream</em> in some versions), pick the <em>Clock</em> widget, choose <em>When to start screen saver</em> in the menu and select <em>While charging</em> or <em>Either</em>.  A very dimmed down clock will appear on a black background while the device is not active.</p>
+<p>Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.</p>
+</li>
+</ol>
+<h2><a class="header" href="#enabling-upnp-on-your-wi-fi-router" id="enabling-upnp-on-your-wi-fi-router">Enabling UPnP on your Wi-Fi router</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser reachable to the CENO network.  The <a href="browser/settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
 <blockquote>
 <p><strong>Note:</strong> Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a> and also consider using alternative methods as explained below.</p>
 </blockquote>
@@ -580,7 +597,6 @@ assigned an originating IP addresses.</p>
 <p>The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.</p>
 <p><img src="browser/images/upnp-yes.png" alt="Figure: UPnP enabled" /></p>
 <p>The status above indicates that UPnP is working and you can bridge connections for other CENO users.</p>
-<h2><a class="header" href="#enabling-upnp-on-your-wi-fi-router" id="enabling-upnp-on-your-wi-fi-router">Enabling UPnP on your Wi-Fi router</a></h2>
 <p>There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -589,7 +605,7 @@ assigned an originating IP addresses.</p>
 <li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
 </ul>
-<h2><a class="header" href="#alternative-methods-to-allow-ceno-bridging" id="alternative-methods-to-allow-ceno-bridging">Alternative methods to allow CENO bridging</a></h2>
+<h2><a class="header" href="#using-port-forwarding-as-an-alternative-to-upnp" id="using-port-forwarding-as-an-alternative-to-upnp">Using port forwarding as an alternative to UPnP</a></h2>
 <p>Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administration interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoint(s)</em>.</p>
 <p><img src="browser/images/udp-port.png" alt="Figure: Local UDP endpoints" /></p>
 <p>The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time.  Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
