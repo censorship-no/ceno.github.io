@@ -17,6 +17,8 @@
 
         h1 {
             font-size: 2.5em;
+            color: #e53323;
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -96,18 +98,13 @@
 
 
         .google-play-badge {
-          width: 162px;
-          -height: 49px;
+          width: 200px;
         }
         .paskoocheh-download-badge {
-          width: 162px;
-          margin-top:10px;
-          height: 45px;
+          width: 200px;
         }
         .github-badge {
-          width: 162px;
-          -margin-top:10px;
-          -height: 45px;
+          width: 200px;
         }
         .github-source-badge {
           width: 162px;
@@ -165,8 +162,9 @@
          <li> <a class="icon" href="https://github.com/censorship-no"> <i class="ml-3 fab fa-github fa-pull-right fa-2x"></i> </a></li>
     </div> <!-- end container-->
 </nav>
+
 <main role="main" class="container section" id="about">
-    <h2>Censorship.no!</h2>
+    <h1>Censorship.no!</h1>
     <p>Designed for accessing websites in challenging network environments, <a href="https://github.com/censorship-no">censorship.no</a> (CENO) is a mobile web browser that allows you to browse the Web without restriction, circumventing any network
     filtering. The underlying architecture offers peer-to-peer routing and
     distributed caching, using 'darknet' infrastructure to avoid network
@@ -175,46 +173,10 @@
     <p>The CENO project presents a new generation of censorship circumvention possibilities.
     Our project is built in support of Articles 18, 19 and 20 of the <a
     href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>.</p>
-    <hr/>
-</main>
-<div class="container section">
-    <p style="text-align:center;"><img src="ceno_infographic.png" width="82%" alt="CENO2 infographic"></p>
-</div>
-<div class="container section">
-    <h2>The CENO advantage</h2>
-    <p>The majority of internationally-bound traffic in countries that filter
-    content requests are routed through a fixed number of centralized
-    exchanges where surveillance and censorship technology is installed.
-    Traditional circumvention technologies require the user to connect
-    directly to a proxy in the uncensored zone. This design gives the
-    censor an advantage in locating and blocking popular proxies, VPN
-    servers, relays, bridges, etc.</p>
 
-    <p>CENO proposes a fundamentally different solution: reduce the requests to externally available proxy
-    servers and enable the storage of retrieved content inside the censored
-    zone. CENOs advantage comes from being both a transport and a storage
-    solution.</p>
-
-    <p>Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with
-    the censor. Clients need not know the location of a proxy to relay
-    censored content, instead using small-world networks to connect to
-    their peers, and thereafter to a bridge in the uncensored zone.</p>
-
-    <p>Once a website is accessed by a single user (node), it is stored and
-    continues to propagate inside the country peer-to-peer.  Individual
-    nodes are referenced by an identifier which does not give away their
-    physical location.  Content remains available inside the censored zone
-    even if external connectivity is cut. Content can be seeded into the
-    network via alternative means as well (e.g. uploaded from a USB drive).</p>
-</div>
-
-<div class="container section" id="download">
-  <h2>Get CENO</h2>
-  <div class="row justify-content-center download">
-    <div style="text-align:center;">
-      <h2>Android releases<h2>
-    </div>
-  </div>
+<!--div class="container section" id="download" style="text-align:center">
+    <!--div class="row justify-content-center download"-->
+    <!--/div-->
   <div class="row download" style="border:0px solid black">
     <div class="col-sm-4" style="text-align:center;">
           <a  href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
@@ -223,7 +185,7 @@
     </div>
     <div class="col-sm-4" style="text-align:center;">
             <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
-                <img class="paskoocheh-download-badge" src="paskoocheh-download-badge.png"/>
+                <img class="paskoocheh-download-badge" src="paskoocheh_badge.png"/>
             </a>
     </div>
     <div class="col-sm-4" style="text-align:center">
@@ -231,20 +193,8 @@
                 <img class="github-badge" src="github-badge.png"/>
             </a>
     </div>
-  </div>
-  <div class="row justify-content-center download" style="border:0px solid black">
-    <div style="text-align:center; margin-top:10px">
-        <h2>Source code<h2>
-    </div>
-  </div>
-  <div class="row justify-content-center download">
-    <div class="col-sm-4 justify-content-center" style="text-align:center;">
-          <a href='https://github.com/censorship-no'>
-              <img class="github-source-badge" alt='Browse source code on GitHub' src='GitHub_Logo.png'/>
-          </a>
-    </div>
-  </div>
-</div>
+  </div><!--end download badge row-->
+
 <footer class="container section" id="contact">
     <hr/>
     <div id="footer-logo" class="float-right">
