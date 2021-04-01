@@ -134,30 +134,34 @@
             float: none;
             margin: 0 auto;
         }
+        .btn-outline-danger {
+            border-color: #ef412e;
+	    font-size:1em;
+        }
+
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000">
     <div class="container">
-        <a href="https://censorship.no"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#download">Download</a>
+	<div class="navbar-header">
+        	<a class="navbar-brand" href="#"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+	</div> <!-- end navbar header-->
+        <div class="nav navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about">How It Works</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="user-manual/">User Manual</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Documentation</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Docs</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+            </ul> <!--end collapsible navbar-->
+         <li> <a class="btn btn-outline-danger navbar-button" href="#download" role="button" title="Get CENO">Download CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+         <li> <a class="icon" href="https://github.com/censorship-no"> <i class="ml-3 fab fa-github fa-pull-right fa-2x"></i> </a></li>
+    </div> <!-- end container-->
 </nav>
 <main role="main" class="container section" id="about">
     <h2>Censorship.no!</h2>
