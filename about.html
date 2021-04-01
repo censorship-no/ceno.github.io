@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Censorship.no!</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="logo_ceno.ico">
+    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+
+    <style>
+        body {
+            font-family: Lato, sans-serif !important;
+            font-size: 1.08em;
+            background-color: #f4f4f3;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #e53323;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        hr {
+            border-width: 6px 0 0;
+            border-color: #E43624;
+            border-style: solid none none;
+            margin: 30px 0 10px;
+        }
+
+        a {
+            color: #E43624;
+        }
+
+        a:visited {
+            color: #e43624;
+        }
+
+        a:hover {
+            color: #4c4a4a;
+        }
+
+        a, a:visited, a:hover {
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 1.08em;
+        }
+
+        div.row {
+            margin: 0 !important;
+        }
+
+        div#heading {
+            margin-top: 20px;
+        }
+
+        div#heading-logo img#CENOLogo {
+            margin-top: 32px;
+            padding: 24px;
+            background-color: #f4f4f3;
+            border-radius: 8px;
+            width: 180px;
+        }
+
+        div#footer {
+            margin-top: 10px;
+        }
+
+        div#footer > .push {
+            height: 30px;
+            min-height: 30px;
+            clear: both;
+        }
+
+        img#equalitieLogo {
+            margin-top: 26px;
+            width: 162px;
+        }
+
+        div#subprojects .project {
+            background-color: #EEEDEA;
+            padding: 2px 20px 10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            border-radius: 4px;
+        }
+
+        div#subprojects .project > h3 {
+            margin: 18px 0;
+        }
+
+
+        .google-play-badge {
+          width: 200px;
+        }
+        .paskoocheh-download-badge {
+          width: 200px;
+        }
+        .github-badge {
+          width: 200px;
+        }
+        .github-source-badge {
+          width: 162px;
+          -margin-top:10px;
+          -height: 45px;
+        }
+        .section {
+            margin-top:40px;
+            margin-bottom:20px;
+        }
+        .section > h2 {
+            margin-top:40px;
+            margin-bottom:30px;
+        }
+        .row.download {
+            padding: 20px;
+        }
+       .block {
+           -width: 90%;
+           height: 150px;
+           --padding: 40px;
+           background-color: #e7e8e2;
+           border:1px solid yellow;
+        }
+        .col-centered {
+            float: none;
+            margin: 0 auto;
+        }
+        .btn-outline-danger {
+            border-color: #ef412e;
+	    font-size:1em;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000">
+    <div class="container">
+	<div class="navbar-header">
+        	<a class="navbar-brand" href="#"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+	</div> <!-- end navbar header-->
+        <div class="nav navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about">How It Works</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="user-manual/">User Manual</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Docs</a>
+                </li>
+            </ul> <!--end collapsible navbar-->
+         <li> <a class="btn btn-outline-danger navbar-button" href="#download" role="button" title="Get CENO">Download CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+         <li> <a class="icon" href="https://github.com/censorship-no"> <i class="ml-3 fab fa-github fa-pull-right fa-2x"></i> </a></li>
+    </div> <!-- end container-->
+</nav>
+
+<div class="container section">
+    <h1>How CENO Browser Works</h1>
+        <br/>
+    <p>The majority of internationally-bound traffic in countries that filter
+    content requests are routed through a fixed number of centralized
+    exchanges where surveillance and censorship technology is installed.
+    Traditional circumvention technologies require the user to connect
+    directly to a proxy in the uncensored zone. This design gives the
+    censor an advantage in locating and blocking popular proxies, VPN
+    servers, relays, bridges, etc.</p>
+
+    <p>CENO proposes a fundamentally different solution: reduce the requests to externally available proxy
+    servers and enable the storage of retrieved content inside the censored
+    zone. CENOs advantage comes from being both a transport and a storage
+    solution.</p>
+
+    <p>Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with
+    the censor. Clients need not know the location of a proxy to relay
+    censored content, instead using small-world networks to connect to
+    their peers, and thereafter to a bridge in the uncensored zone.</p>
+
+    <p>Once a website is accessed by a single user (node), it is stored and
+    continues to propagate inside the country peer-to-peer.  Individual
+    nodes are referenced by an identifier which does not give away their
+    physical location.  Content remains available inside the censored zone
+    even if external connectivity is cut. Content can be seeded into the
+    network via alternative means as well (e.g. uploaded from a USB drive).</p>
+</div>
+
+<div class="container section">
+    <p style="text-align:center;"><img src="ceno_infographic.png" width="82%" alt="CENO2 infographic"></p>
+</div>
+
+<div class="container section" id="download" style="text-align:center">
+ <hr/>
+  <h2>Get CENO Browser for Android</h2>
+  <div class="row download" style="border:0px solid black">
+    <div class="col-sm-4" style="text-align:center;">
+          <a  href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+              <img class="google-play-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+          </a>
+    </div>
+    <div class="col-sm-4" style="text-align:center;">
+            <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
+                <img class="paskoocheh-download-badge" src="paskoocheh_badge.png"/>
+            </a>
+    </div>
+    <div class="col-sm-4" style="text-align:center">
+            <a href="https://github.com/censorship-no/ceno-browser/releases">
+                <img class="github-badge" src="github-badge.png"/>
+            </a>
+    </div>
+  </div><!--end download badge row-->
+</div> <!--end container section-->
+
+<footer class="container section" id="contact">
+    <hr/>
+    <div id="footer-logo">
+        <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
+        <a class="icon" href="mailto:cenoers@equalit.ie"> <i class="ml-2 pt-3 far fa-envelope fa-pull-right fa-2x"></i> </a>
+        <a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 pt-3 fab fa-github fa-pull-right fa-2x"></i> </a>
+    </div>
+    <div>
+        <br/>
+        <p class="float-left">CENO Browser is a project by <a href="https://equalit.ie">eQualit.ie</a> – a Canadian company developing open and reusable systems with a focus on privacy, online security and freedom of association. Technology solutions and innovations are driven by our <a href="https://equalit.ie/en/values/">values</a> that guide us to protect the rights and aspirations of everyone online.</p>
+        </div>
+    <div class="push"></div><br/>
+&copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
+</footer>
+</body>
+</html>
+
