@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Censorship.no! - About</title>
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Censorship.no!</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="logo_ceno.ico">
     <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
-
+    
     <style>
         body {
             font-family: Lato, sans-serif !important;
             font-size: 1.08em;
             background-color: #f4f4f3;
+            min-height: 75rem;
+	    padding-top: 4.5rem;
         }
 
         h1 {
@@ -31,6 +34,7 @@
             border-color: #E43624;
             border-style: solid none none;
             margin: 30px 0 10px;
+            opacity: 100;
         }
 
         a {
@@ -116,7 +120,7 @@
             margin-bottom:20px;
         }
         .section > h2 {
-            margin-top:40px;
+            -margin-top:40px;
             margin-bottom:30px;
         }
         .row.download {
@@ -137,29 +141,50 @@
             border-color: #ef412e;
 	    font-size:1em;
         }
+        
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+      }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000">
+
+<nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #000000">
     <div class="container">
-	<div class="navbar-header">
-        	<a class="navbar-brand" href="https://censorship.no"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
-	</div> <!-- end navbar header-->
-        <div class="nav navbar-collapse collapse">
-            <ul class="navbar-nav ml-auto mx-auto">
+	<!--div class="navbar-header"-->
+        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+		<button class ="navbar-toggler" type ="button" data-bs-toggle ="collapse" data-bs-target ="#CENOnav">
+		<span class ="navbar-toggler-icon"></span>
+		</button>
+	<!--/div--> <!-- end navbar header-->
+	  
+        <div class="collapse navbar-collapse" id="CENOnav">
+            <ul class="navbar-nav mx-auto me-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">How It Works</a>
+                    <a class="nav-link" href="about,html">How It Works</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://censorship.no/user-manual/en">User Manual</a>
+                    <a class="nav-link" href="user-manual/">User Manual</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Docs</a>
                 </li>
-            </ul> <!--end collapsible navbar-->
-         <li> <a class="btn btn-outline-danger navbar-button" href="download.html" role="button" title="Get CENO">Download CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
-         <li> <a class="icon" href="https://github.com/censorship-no"> <i class="ml-3 fab fa-github fa-pull-right fa-2x"></i> </a></li>
+         </ul> 
+         <a class="btn btn-outline-danger navbar-button"  href="download.html" role="button" title="Get CENO">Download CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+         </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
 </nav>
 
