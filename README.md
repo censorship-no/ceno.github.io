@@ -1,4 +1,10 @@
-# CENO
+# CENO Browser
+- [Current status](#current-status)
+- [What works](#what-works)
+- [Accessing personalized websites](#accessing-personalized-websites)
+- [What does not work (yet!)](#what-does-not-work-yet)
+- [Help by becoming a bridge!](#help-by-becoming-a-bridge)
+- [Feedback](#feedback)
 
 CENO is a web browser for the Android operating system designed to circumvent
 censorship by routing traffic through intermediate ephemeral nodes (bridges).
