@@ -8,6 +8,44 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="logo_ceno.ico">
     <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+
+<!---formspree contact button-->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mwkapvgg",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "red"
+      },
+      button: {
+        backgroundColor: "red"
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
     
     <style>
         body {
@@ -278,7 +316,7 @@
 <hr/>
     <!--div id="footer-logo"-->
         <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
-        <a class="icon" href="contact.html"> <i class="ml-2 pt-4 far fa-envelope fa-pull-right fa-2x"></i> </a>
+        <a class="icon" href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-twitter fa-pull-right fa-2x"></i> </a>
         <a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 pt-4 fab fa-github fa-pull-right fa-2x"></i> </a>
     <!--/div-->
     <div>
