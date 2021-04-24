@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" hreflang="en" href="https://censorship.no/" /><link rel="alternate" hreflang="fr" href="https://censorship.no/fr/" /><link rel="alternate" hreflang="ru" href="https://censorship.no/ru/"><link rel="alternate" hreflang="fa" href="https://censorship.no/fa/"><link rel="alternate" hreflang="es" href="https://censorship.no/es/">
     <title>Censorship.no!</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="logo_ceno.ico">
-    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="css/all.css" rel="stylesheet"> 
+    <link href="css/language-picker.css" rel="stylesheet"><!--load all styles -->
 
 <!-- Matomo Image Tracker-->
 <img src="https://staging.matomo.deflect.ca/matomo.php?idsite=5&amp;rec=1&amp;action_name=Censorship.no%21" style="border:0" alt="" />
@@ -199,10 +201,19 @@
           font-size: 3.5rem;
         }
       }
-    .navbar-dark .navbar-nav .nav-link {
+     .navbar-dark .navbar-nav .nav-link {
         color: white;
       }
-    </style>
+	.navbar-nav {
+		margin-right: 40px;
+	}
+	.navbar-item.has-dropdown {
+		align-items: stretch;
+		padding: 0;
+		display: flex;
+		}
+
+   </style>
 </head>
 <body>
 
@@ -228,6 +239,15 @@
                 </li>
          </ul> 
          <a class="btn btn-outline-danger navbar-button"  href="download.html" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+
+<div class="navbar-item has-dropdown is-hoverable"> 
+<a href="#" class="navbar-link language-selector no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector"><i class="icon icon-globe"></i> EN <span class="caret"></span> </a>
+    <div class="navbar-dropdown" aria-labelledby="language-selector"> 
+	<a class="navbar-item" data-lang="fa" href="/fa/">فارسی</a>
+	<a class="navbar-item" data-lang="es" href="/es/">Español</a>
+	<a class="navbar-item" data-lang="fr" href="/fr/">Français</a>
+	<a class="navbar-item" data-lang="ru" href="/ru/">Pусский</a>
+   </div>
          </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
 </nav>
@@ -331,7 +351,7 @@
 &copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
 <script src="js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script> 
 </body>
 </html>
 
