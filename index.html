@@ -144,6 +144,10 @@
             margin: 18px 0;
         }
 
+	div .icon {
+	   display: flex;
+  	   justify-content: center;
+	}
 
         .google-play-badge {
           width: 200px;
@@ -201,17 +205,24 @@
           font-size: 3.5rem;
         }
       }
+
      .navbar-dark .navbar-nav .nav-link {
         color: white;
       }
-	.navbar-nav {
-		margin-right: 40px;
-	}
-	.navbar-item.has-dropdown {
-		align-items: stretch;
-		padding: 0;
-		display: flex;
-		}
+
+     .navbar-nav {
+	margin-right: 40px;
+     }
+
+     .navbar-item.has-dropdown {
+	align-items: stretch;
+	padding: 0;
+	display: flex;
+     }
+
+    .card {
+        background-color: transparent;
+      }
 
    </style>
 </head>
@@ -267,8 +278,8 @@
     <div class="container py-3">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-1">
-            <img src="img/web_unlock.png" class="" alt="Browse Freely">
+          <div class="col-md-5 order-first py-5 icon">
+            <img src="img/web_unlock.svg" alt="Browse Freely">
           </div>
           <div class="col-md-7 px-3 order-2">
             <div class="card-block px-3 py-5">
@@ -301,8 +312,8 @@
     <div class="container py-3">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-md-2 order-first">
-            <img src="img/firefox-ceno.png" alt="Free and Open Source">
+          <div class="col-md-5 order-md-2 order-first py-5 icon">
+            <img src="img/opensource.svg" alt="Free and Open Source">
           </div>
           <div class="col-md-7 px-3 order-2">
             <div class="card-block px-3 py-5">
