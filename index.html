@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="logo_ceno.ico">
     <link href="css/all.css" rel="stylesheet"> 
-    <link href="css/language-picker.css" rel="stylesheet"><!--load all styles -->
+    <!--link href="css/language-picker.css" rel="stylesheet"><!--load all styles -->
 
 <!-- Matomo Image Tracker-->
 <img src="https://staging.matomo.deflect.ca/matomo.php?idsite=5&amp;rec=1&amp;action_name=Censorship.no%21" style="border:0" alt="" />
@@ -222,8 +222,11 @@
 
     .card {
         background-color: transparent;
-      }
+     }
 
+    .fa-globe {
+	color: red;
+     }
    </style>
 </head>
 <body>
@@ -252,13 +255,29 @@
          <a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
 
 <div class="navbar-item has-dropdown is-hoverable"> 
-<a href="#" class="navbar-link language-selector no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector"><i class="icon icon-globe"></i> EN <span class="caret"></span> </a>
+<a href="#" class="navbar-link language-selector no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector"><i class="fas fa-globe"></i>EN <span class="caret"></span> </a>
     <div class="navbar-dropdown" aria-labelledby="language-selector"> 
 	<a class="navbar-item" data-lang="fa" href="/fa/">فارسی</a>
 	<a class="navbar-item" data-lang="es" href="/es/">Español</a>
 	<a class="navbar-item" data-lang="fr" href="/fr/">Français</a>
 	<a class="navbar-item" data-lang="ru" href="/ru/">Pусский</a>
    </div>
+
+
+<!--div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">
+  <form action="" class="language-picker__form">
+    <label for="language-picker-select"><i class="fas fa-globe"></i></label>
+
+    <select name="language-picker-select" id="language-picker-select">
+      <option lang="de" value="deutsch">Deutsch</option>
+      <option lang="en" value="english" selected>English</option>
+      <option lang="fr" value="francais">Français</option>
+      <option lang="it" value="italiano">Italiano</option>
+    </select>
+  </form>
+</div-->
+
+
          </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
 </nav>
@@ -278,11 +297,11 @@
     <div class="container py-3">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-first py-5 homepage-icon">
+          <div class="col-md-5 order-first homepage-icon">
             <img src="img/web_unlock.svg" alt="Browse Freely">
           </div>
           <div class="col-md-7 px-3 order-2">
-            <div class="card-block px-3 py-5">
+            <div class="card-block py-3">
               <h3 class="pt-3 card-title text-danger">Unlock the Web</h3>
               <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
             </div>
@@ -295,11 +314,11 @@
     <div class="container py-3">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-md-2 order-first py-5 homepage-icon">
-            <img src="img/bridge-icon.png" alt="Grow the network - Become a bridge!">
+          <div class="col-md-5 order-md-2 order-first homepage-icon">
+            <img src="img/bridge-icon.svg" alt="Grow the network - Become a bridge!">
           </div>
           <div class="col-md-7 px-3 order-md-1">
-            <div class="card-block px-3 py-5">
+            <div class="card-block">
               <h3 class="pt-3 card-title text-danger">Grow the Network, Fight Censorship</h3>
               <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
             </div>
@@ -312,11 +331,11 @@
     <div class="container py-3">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-md-2 order-first py-5 homepage-icon">
+          <div class="col-md-5 order-md-2 order-first homepage-icon">
             <img src="img/opensource.svg" alt="Free and Open Source">
           </div>
           <div class="col-md-7 px-3 order-2">
-            <div class="card-block px-3 py-5">
+            <div class="card-block">
               <h3 class="pt-3 card-title text-danger">Free and Open Source</h3>
               <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
             </div>
@@ -364,6 +383,7 @@
 &copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/language-picker.js"></script>
 <script type="text/javascript" src="jquery-3.6.0.min.js"></script> 
 </body>
 </html>
