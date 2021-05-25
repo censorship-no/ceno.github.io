@@ -63,7 +63,7 @@
         }
 
         h1 {
-            font-size: 2.5em;
+            font-size: 2.3em;
             color: #e53323;
             margin-bottom: 20px;
         }
@@ -176,6 +176,12 @@
 	    margin: 10px;
 	    box-sizing: content-box;
         }
+	.row.homepage {
+           text-align:center;
+	   margin-left: auto;
+	   margin-right: auto;
+	   display: flex;
+	}
        .block {
            -width: 90%;
            height: 150px;
@@ -227,6 +233,7 @@
     .fa-globe {
 	color: red;
      }
+
    </style>
 </head>
 <body>
@@ -254,14 +261,14 @@
          </ul> 
          <a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
 
-<div class="navbar-item has-dropdown is-hoverable"> 
+<!--div class="navbar-item has-dropdown is-hoverable"> 
 <a href="#" class="navbar-link language-selector no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector"><i class="fas fa-globe"></i>EN <span class="caret"></span> </a>
     <div class="navbar-dropdown" aria-labelledby="language-selector"> 
 	<a class="navbar-item" data-lang="fa" href="/fa/">فارسی</a>
 	<a class="navbar-item" data-lang="es" href="/es/">Español</a>
 	<a class="navbar-item" data-lang="fr" href="/fr/">Français</a>
 	<a class="navbar-item" data-lang="ru" href="/ru/">Pусский</a>
-   </div>
+   </div-->
 
 
 <!--div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">
@@ -282,92 +289,55 @@
     </div> <!-- end container-->
 </nav>
 
-<main role="main" class="container section" id="about">
-    <h1>Censorship.no!</h1>
-<p>CENO (short for Censorship.no!) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer.</p>
-    <p>Built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>, CENO presents a new generation of censorship circumvention possibilities.</p>
+<main role="main">
 
-<hr/>
-
-    <div class="container-fluid order-last text-left">
-      <div class="row flex-xl-nowrap order-last text-left">
-        <main role="main" class="mx-auto col-12 order-last text-left">
-          <div class="container pt-5 justify-content-center">
   <section>
-    <div class="container py-3">
+    <div class="container">
       <div class="card border-0">
         <div class="row">
-          <div class="col-md-5 order-first homepage-icon">
-            <img src="img/web_unlock.svg" alt="Browse Freely">
+          <div class="col-lg-7 order-md-2 order-first homepage-icon">
+            <img src="img/cenobanner.png" style="width:100%; margin-top:-70px;" alt="CENO Browser banner">
           </div>
-          <div class="col-md-7 px-3 order-2">
-            <div class="card-block py-3">
-              <h3 class="pt-3 card-title text-danger">Unlock the Web</h3>
-              <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card 1 -->
-    </div> <!-- end container -->
-  </section> <!-- end section 1 -->
-  <section>
-    <div class="container py-3">
-      <div class="card border-0">
-        <div class="row">
-          <div class="col-md-5 order-md-2 order-first homepage-icon">
-            <img src="img/bridge-icon.svg" alt="Grow the network - Become a bridge!">
-          </div>
-          <div class="col-md-7 px-3 order-md-1">
+          <div class="col-lg-5 order-md-1">
             <div class="card-block">
-              <h3 class="pt-3 card-title text-danger">Grow the Network, Fight Censorship</h3>
-              <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
-            </div>
-          </div>
-         </div> <!-- end row-->
-      </div> <!-- end card 2 -->
-    </div> <!-- end container -->
-  </section> <!-- end section 2 -->
-  <section>
-    <div class="container py-3">
-      <div class="card border-0">
-        <div class="row">
-          <div class="col-md-5 order-md-2 order-first homepage-icon">
-            <img src="img/opensource.svg" alt="Free and Open Source">
-          </div>
-          <div class="col-md-7 px-3 order-2">
-            <div class="card-block">
-              <h3 class="pt-3 card-title text-danger">Free and Open Source</h3>
-              <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
-            </div>
-          </div>
-         </div> <!-- end row-->
-      </div> <!-- end card 3 -->
-    </div> <!-- end container -->
-  </section> <!-- end section 3 -->
-</div>
-</div>
-</div>
-<div class="container section">
-    <a name="download"><h1>Download CENO Browser</h1></a>
-        <p>CENO Browser for Android is available in Google Play and in Paskoocheh. The Android package (APK) is also available in GitHub:</p>
-  <div class="row download" style="border:0px solid black">
-    <div class="col-sm-4" style="text-align:center;">
-          <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+    		<h1 class="card-title">Censorship.no!</h1>
+		<p class="card-text">CENO (short for Censorship.no!) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer.</p>
+    		<a name="download"><p>Built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>, CENO presents a new generation of censorship circumvention possibilities.</p>
+	          <p><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
               <img class="google-play-badge" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/>
           </a>
-    </div>
-    <div class="col-sm-4" style="text-align:center;">
             <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
                 <img class="paskoocheh-download-badge" src="img/paskoocheh_badge.png" alt="Get it on Paskoocheh"/>
             </a>
-    </div>
-    <div class="col-sm-4" style="text-align:center">
-            <a href="https://github.com/censorship-no/ceno-browser/releases">
+            <!--a href="https://github.com/censorship-no/ceno-browser/releases">
                 <img class="github-badge" src="img/github-badge.png" alt="Get it on Github"/>
-            </a>
-    </div>
-  </div><!--end download badge row-->
+            </a--></p>
+	  </div><!--end download badge row-->
+      </div> <!-- end card 2 -->
+    </div> <!-- end container -->
+  </section> <!-- end section 2 -->
 
+  <section>
+    <div class="container" style="align-content:center; justify-content;">
+	<!--div class="card border-0"-->
+      <div class="row homepage">
+          <div class="col-lg-4 order-first">
+            <img src="img/web_unlock.png" alt="Browse Freely"><br/>
+              <h3 class="card-title text-danger">Unlock the Web</h3>
+              <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
+            </div>
+          <div class="col-lg-4">
+            <img src="img/bridge-icon.png" alt="Grow the network - Become a bridge!">
+              <h3 class="card-title text-danger">Grow the Network, Fight Censorship</h3>
+              <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
+          </div> <!-- end card 2 -->
+         <div class="col-lg-4 col-centered">
+            <img src="img/opensourcery.png" style="text-align:center;" alt="Free and Open Source">
+              <h3 class="card-title text-danger">Free and Open Source</h3>
+              <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
+         </div> <!-- end card 3 -->
+    </div> <!-- end container -->
+   </div>
 <footer class="container section" id="contact">
 <hr/>
     <!--div id="footer-logo"-->
