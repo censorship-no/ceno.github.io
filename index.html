@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" hreflang="en" href="https://censorship.no/" /><link rel="alternate" hreflang="fr" href="https://censorship.no/fr/" /><link rel="alternate" hreflang="ru" href="https://censorship.no/ru/"><link rel="alternate" hreflang="fa" href="https://censorship.no/fa/"><link rel="alternate" hreflang="es" href="https://censorship.no/es/">
+    <link rel="shortcut icon" href="/img/favicon.ico"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#e43625">
+    <meta name="msapplication-TileColor" content="#e43625">
+    <meta name="theme-color" content="#ffffff">
     <title>Censorship.no!</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="logo_ceno.ico">
-    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="css/all.css" rel="stylesheet"> 
+    <!--link href="css/language-picker.css" rel="stylesheet"><!--load all styles -->
 
 <!-- Matomo Image Tracker-->
 <img src="https://staging.matomo.deflect.ca/matomo.php?idsite=5&amp;rec=1&amp;action_name=Censorship.no%21" style="border:0" alt="" />
@@ -61,7 +70,7 @@
         }
 
         h1 {
-            font-size: 2.5em;
+            font-size: 2.3em;
             color: #e53323;
             margin-bottom: 20px;
         }
@@ -142,15 +151,24 @@
             margin: 18px 0;
         }
 
-
+	div .homepage-icon {
+	   display: flex;
+  	   justify-content: center;
+	}
         .google-play-badge {
-          width: 200px;
+          width: 175px;
+	  margin-left:-10px;
+          display: inline;
         }
         .paskoocheh-download-badge {
-          width: 200px;
+          width: 175px;
+          margin-left:-10px;
+	  display:inline;
         }
         .github-badge {
-          width: 200px;
+          width: 175px;
+          margin-left:-10px;
+          display:inline;
         }
         .github-source-badge {
           width: 162px;
@@ -170,6 +188,12 @@
 	    margin: 10px;
 	    box-sizing: content-box;
         }
+	.row.homepage {
+           text-align:center;
+	   margin-left: auto;
+	   margin-right: auto;
+	   display: flex;
+	}
        .block {
            -width: 90%;
            height: 150px;
@@ -199,17 +223,38 @@
           font-size: 3.5rem;
         }
       }
-    .navbar-dark .navbar-nav .nav-link {
+
+     .navbar-dark .navbar-nav .nav-link {
         color: white;
       }
-    </style>
+
+     .navbar-nav {
+	margin-right: 40px;
+     }
+
+     .navbar-item.has-dropdown {
+	align-items: stretch;
+	padding: 0;
+	display: flex;
+     }
+
+    .card {
+        background-color: transparent;
+	display: inline;
+     }
+
+    .fa-globe {
+	color: red;
+     }
+
+   </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #000000">
     <div class="container">
 	<!--div class="navbar-header"-->
-        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="logo_ceno.png"/></a>
+        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="img/logo_ceno.png"/></a>
 		<button class ="navbar-toggler" type ="button" data-bs-toggle ="collapse" data-bs-target ="#CENOnav">
 		<span class ="navbar-toggler-icon"></span>
 		</button>
@@ -224,102 +269,92 @@
                     <a class="nav-link" href="https://censorship.no/user-manual/en">User Manual</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://github.com/censorship-no/ceno-docs">Developers</a>
+                    <a class="nav-link" href="help.html">Get Involved!</a>
                 </li>
          </ul> 
-         <a class="btn btn-outline-danger navbar-button"  href="download.html" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+         <a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+
+<!--div class="navbar-item has-dropdown is-hoverable"> 
+<a href="#" class="navbar-link language-selector no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector"><i class="fas fa-globe"></i>EN <span class="caret"></span> </a>
+    <div class="navbar-dropdown" aria-labelledby="language-selector"> 
+	<a class="navbar-item" data-lang="fa" href="/fa/">فارسی</a>
+	<a class="navbar-item" data-lang="es" href="/es/">Español</a>
+	<a class="navbar-item" data-lang="fr" href="/fr/">Français</a>
+	<a class="navbar-item" data-lang="ru" href="/ru/">Pусский</a>
+   </div-->
+
+
+<!--div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">
+  <form action="" class="language-picker__form">
+    <label for="language-picker-select"><i class="fas fa-globe"></i></label>
+
+    <select name="language-picker-select" id="language-picker-select">
+      <option lang="de" value="deutsch">Deutsch</option>
+      <option lang="en" value="english" selected>English</option>
+      <option lang="fr" value="francais">Français</option>
+      <option lang="it" value="italiano">Italiano</option>
+    </select>
+  </form>
+</div-->
+
+
          </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
 </nav>
 
-<main role="main" class="container section" id="about">
-    <h1>Censorship.no!</h1>
-<p>CENO (short for Censorship.no!) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer.</p>
-    <p>Built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>, CENO presents a new generation of censorship circumvention possibilities.</p>
+<main role="main">
 
-  <div class="container-fluid row justify-content-evenly download" style="border:0px">
-    <div class="col col-xs-1" style="text-align:center;">
-          <a  href='https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-              <img class="google-play-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+  <section>
+    <div class="container">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-lg-6 order-lg-2 order-sm-1 homepage-icon">
+            <img src="img/cenobanner.png" style="width:100%; margin-top:-70px;" alt="CENO Browser banner">
+          </div>
+          <div class="col-lg-6 order-lg-1 order-sm-2">
+            <div class="card-block">
+    		<h1 class="card-title">Censorship.no!</h1>
+		<p class="card-text">CENO (short for Censorship.no!) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer.</p>
+    		<a name="download"><p>Built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>, CENO presents a new generation of censorship circumvention possibilities.</p>
+	          <p><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+              <img class="google-play-badge" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/>
           </a>
-    </div>
-    <div class="col col-xs-1" style="text-align:center;">
             <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
-                <img class="paskoocheh-download-badge" src="paskoocheh_badge.png"/>
+                <img class="paskoocheh-download-badge" src="img/paskoocheh_badge.png" alt="Get it on Paskoocheh"/>
             </a>
-    </div>
-    <div class="col col-xs-1" style="text-align:center">
             <a href="https://github.com/censorship-no/ceno-browser/releases">
-                <img class="github-badge" src="github-badge.png"/>
-            </a>
-    </div>
-  </div><!--end download badge row-->
-
-<hr/>
-
-    <div class="container-fluid order-last text-left">
-      <div class="row flex-xl-nowrap order-last text-left">
-        <main role="main" class="mx-auto col-12 order-last text-left">
-          <div class="container pt-5 justify-content-center">
-  <section>
-    <div class="container py-3">
-      <div class="card border-0">
-        <div class="row">
-          <div class="col-md-5 order-1">
-            <img src="web_unlock.png" class="" alt="Browse Freely">
-          </div>
-          <div class="col-md-7 px-3 order-2">
-            <div class="card-block px-3 py-5">
-              <h3 class="pt-3 card-title text-danger">Unlock the Web</h3>
-              <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card 1 -->
-    </div> <!-- end container -->
-  </section> <!-- end section 1 -->
-  <section>
-    <div class="container py-3">
-      <div class="card border-0">
-        <div class="row">
-          <div class="col-md-5 order-md-2 order-first">
-            <img src="bridge-icon.png" alt="Grow the network - Become a bridge!">
-          </div>
-          <div class="col-md-7 px-3 order-md-1">
-            <div class="card-block px-3 py-5">
-              <h3 class="pt-3 card-title text-danger">Grow the Network, Fight Censorship</h3>
-              <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
-            </div>
-          </div>
-         </div> <!-- end row-->
+                <img class="github-badge" src="img/github-badge.png" alt="Get it on Github"/>
+            </a></p>
+	  </div><!--end download badge row-->
       </div> <!-- end card 2 -->
     </div> <!-- end container -->
   </section> <!-- end section 2 -->
-  <section>
-    <div class="container py-3">
-      <div class="card border-0">
-        <div class="row">
-          <div class="col-md-5 order-md-2 order-first">
-            <img src="firefox-ceno.png" alt="Free and Open Source">
-          </div>
-          <div class="col-md-7 px-3 order-2">
-            <div class="card-block px-3 py-5">
-              <h3 class="pt-3 card-title text-danger">Free and Open Source</h3>
-              <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
-            </div>
-          </div>
-         </div> <!-- end row-->
-      </div> <!-- end card 3 -->
-    </div> <!-- end container -->
-  </section> <!-- end section 3 -->
-</div>
-</div>
-</div>
 
+  <section>
+    <div class="container" style="align-content:center; justify-content;">
+	<!--div class="card border-0"-->
+      <div class="row homepage">
+          <div class="col-lg-4 order-first">
+            <img src="img/web_unlock.png" alt="Browse Freely"><br/>
+              <h3 class="card-title text-danger">Unlock the Web</h3>
+              <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
+            </div>
+          <div class="col-lg-4">
+            <img src="img/bridge-icon.png" alt="Grow the network - Become a bridge!">
+              <h3 class="card-title text-danger">Grow the Network, Fight Censorship</h3>
+              <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
+          </div> <!-- end card 2 -->
+         <div class="col-lg-4">
+            <img src="img/opensourcery.png" style="text-align:center;" alt="Free and Open Source">
+              <h3 class="card-title text-danger">Free and Open Source</h3>
+              <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
+         </div> <!-- end card 3 -->
+    </div> <!-- end container -->
+   </div>
 <footer class="container section" id="contact">
 <hr/>
     <!--div id="footer-logo"-->
-        <a href="https://equalit.ie"><img id="equalitieLogo" src="eQualitie_Logo_RGB.png"/></a>
+        <a href="https://equalit.ie"><img id="equalitieLogo" src="img/eQualitie_Logo_RGB.png"/></a>
         <a class="icon" href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-twitter fa-pull-right fa-2x"></i> </a>
         <a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 pt-4 fab fa-github fa-pull-right fa-2x"></i> </a>
     <!--/div-->
@@ -331,7 +366,7 @@
 &copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/language-picker.js"></script>
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script> 
 </body>
 </html>
-
