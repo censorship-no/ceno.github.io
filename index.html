@@ -148,15 +148,20 @@
 	   display: flex;
   	   justify-content: center;
 	}
-
         .google-play-badge {
-          width: 200px;
+          width: 175px;
+	  margin-left:-10px;
+          display: inline;
         }
         .paskoocheh-download-badge {
-          width: 200px;
+          width: 175px;
+          margin-left:-10px;
+	  display:inline;
         }
         .github-badge {
-          width: 200px;
+          width: 175px;
+          margin-left:-10px;
+          display:inline;
         }
         .github-source-badge {
           width: 162px;
@@ -228,6 +233,7 @@
 
     .card {
         background-color: transparent;
+	display: inline;
      }
 
     .fa-globe {
@@ -295,10 +301,10 @@
     <div class="container">
       <div class="card border-0">
         <div class="row">
-          <div class="col-lg-7 order-md-2 order-first homepage-icon">
+          <div class="col-lg-6 order-lg-2 order-sm-1 homepage-icon">
             <img src="img/cenobanner.png" style="width:100%; margin-top:-70px;" alt="CENO Browser banner">
           </div>
-          <div class="col-lg-5 order-md-1">
+          <div class="col-lg-6 order-lg-1 order-sm-2">
             <div class="card-block">
     		<h1 class="card-title">Censorship.no!</h1>
 		<p class="card-text">CENO (short for Censorship.no!) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer.</p>
@@ -309,9 +315,9 @@
             <a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
                 <img class="paskoocheh-download-badge" src="img/paskoocheh_badge.png" alt="Get it on Paskoocheh"/>
             </a>
-            <!--a href="https://github.com/censorship-no/ceno-browser/releases">
+            <a href="https://github.com/censorship-no/ceno-browser/releases">
                 <img class="github-badge" src="img/github-badge.png" alt="Get it on Github"/>
-            </a--></p>
+            </a></p>
 	  </div><!--end download badge row-->
       </div> <!-- end card 2 -->
     </div> <!-- end container -->
@@ -331,7 +337,7 @@
               <h3 class="card-title text-danger">Grow the Network, Fight Censorship</h3>
               <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
           </div> <!-- end card 2 -->
-         <div class="col-lg-4 col-centered">
+         <div class="col-lg-4">
             <img src="img/opensourcery.png" style="text-align:center;" alt="Free and Open Source">
               <h3 class="card-title text-danger">Free and Open Source</h3>
               <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
