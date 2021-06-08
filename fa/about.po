@@ -3,81 +3,95 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 14:22-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-06-09 13:32+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
+"indexhtml/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: about.html%2Bhtml[lang]:2-1
 msgid "en"
-msgstr ""
+msgstr "انگلیسی"
 
 #: about.html%2Bhtml.head.title:6-5
 msgid "Censorship.no! - How it Works"
-msgstr ""
+msgstr "نه به سانسور! چگونه کار می‌کند."
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:222-17
 msgid "How It Works"
-msgstr ""
+msgstr "نحوه عملکرد"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:225-17
 msgid "User Manual"
-msgstr ""
+msgstr "راهنمای کاربر"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:228-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "همراه شوید!"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:232-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO را دریافت کنید"
 
 #: about.html%2Bhtml.body.nav.div.div.div:232-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "مرورگر Ceno را دریافت کنید"
 
 #: about.html%2Bhtml.body.main.h1:237-6
 msgid "How CENO Browser Works"
-msgstr ""
+msgstr "مرورگر CENO چگونه کار می‌کند"
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:241-13
 msgid ""
 "﻿Most web traffic in countries that filter internet is routed through "
 "centralized exchanges."
 msgstr ""
+"حجم عمده ترافیک وب در کشورهایی که اینترنت را فیلتر می‌کنند از طریق صرافی‌های "
+"متمرکز هدایت می‌شود."
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:244-16
 msgid ""
 "﻿This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"این طراحی به ساختار سانسور در مکان‌یابی و مسدود کردن پراکسی‌های محبوب، "
+"سرورهای وی‌پی‌ان ، رله‌ها و غیره کمک می‌کند."
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:247-16
 msgid ""
 "﻿In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"در این موارد، دسترسی به سرورهای وب اصلی دشوار یا غیرممکن است و دستگاه شما "
+"قادر به دریافت آن محتوا نخواهد بود."
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:250-16
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
+"CENO یک مرورگر وب مختص تلفن همراه برای ذخیره و به اشتراک گذاری محتوای وب در "
+"هر جایی است."
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:253-16
 msgid ""
 "﻿CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"کاربران CENO شبکه‌های کوچک را ایجاد می‌کنند تا با یکدیگر در تماس باشند و پس "
+"از آن، یک پل خارج از منطقه سانسور شده ایجاد می کنند."
 
 #: about.html%2Bhtml.body.main.div.div.img[alt]:256-16
 msgid ""
 "﻿Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"هنگامی که یک کاربر CENO به یک وب‌سایت دسترسی پیدا می‌کند، ذخیره می‌شود و در "
+"داخل کشور همتا به همتا به اشتراک گذاشته می‌شود."
 
 #: about.html%2Bhtml.body.main.div.p:261-5
 msgid ""
@@ -88,6 +102,12 @@ msgid ""
 "in the uncensored zone. This design gives the censor an advantage in "
 "locating and blocking popular proxies, VPN servers, relays, bridges, etc."
 msgstr ""
+"اکثر ترافیک متصل به اینترنت بین المللی در کشورهایی که درخواست محتوا را فیلتر "
+"می‌کنند، از طریق تعداد معینی از صرافی‌های متمرکز که در آن فناوری نظارت و "
+"سانسور نصب شده است، هدایت می‌شود.فناوری‌های سنتی دور زدن سانسور توسط کاربر "
+"نیاز دارند تا مستقیماً به پروکسی در همان منطقه بدون سانسور متصل شوند. این "
+"طراحی به سانسور در مکان‌یابی و مسدود کردن پروکسی های محبوب، سرورهای VPN ، "
+"رله ها ، پل ها و ... کمک می‌کند."
 
 #: about.html%2Bhtml.body.main.div.p:269-5
 msgid ""
@@ -96,6 +116,9 @@ msgid ""
 "content inside the censored zone. CENOs advantage comes from being both a "
 "transport and a storage solution."
 msgstr ""
+"CENO یک راه حل اساسی متفاوت ارائه می‌دهد: کاهش درخواست‌ها به سرورهای پراکسی "
+"موجود در خارج از کشور و ذخیره سازی محتوای بازیابی شده در داخل منطقه سانسور "
+"شده. مزیت CENO این است که هم راه حل انتقال و هم ذخیره سازی است."
 
 #: about.html%2Bhtml.body.main.div.p:276-5
 msgid ""
@@ -105,6 +128,12 @@ msgid ""
 "using small-world networks to connect to their peers, and thereafter to a "
 "bridge in the uncensored zone."
 msgstr ""
+"مسیریابی همتا به همتا راه حل ایده آل برای سناریو \"موش و گربه\" است که در "
+"نهایت بیشتر ارائه دهندگان ابزارهای دور زدن فیلترینگ با سانسورچی‌ها بازی می‌"
+"کنند. برای استفاده از محتوای سانسور شده، کاربران لازم نیست مکان پراکسی را "
+"برای دسترسی به محتوای سانسور شده بدانند بلکه می‌توانند از شبکه‌های کوچک برای "
+"اتصال به همتایان خود و پس از آن به عنوان پلی در منطقه بدون سانسور از آن "
+"استفاده می‌کنند."
 
 #: about.html%2Bhtml.body.main.div.p:281-5
 msgid ""
@@ -115,6 +144,12 @@ msgid ""
 "external connectivity is cut. Content can be seeded into the network via "
 "alternative means as well (e.g. uploaded from a USB drive)."
 msgstr ""
+"هنگامی که یک وب سایت توسط یک کاربر (گره) قابل دسترسی است، ذخیره می‌شود و "
+"همچنان در داخل کشور به‌طور همتا به همتا گسترش می‌یابد. گره‌های فردی توسط یک "
+"شناسه ارجاع داده می شوند که موقعیت فیزیکی آن‌ها را لو نمی‌دهد. محتوا در داخل "
+"منطقه تحت سانسور در دسترس است حتی اگر اتصال خارجی قطع شود. محتوا را می‌توان "
+"از طریق روش‌های جایگزین نیز به شبکه منتقل کرد (به عنوان مثال بارگذاری از "
+"درایو USB)."
 
 #: about.html%2Bhtml.body.main.div:288-1
 msgid ""
@@ -127,6 +162,8 @@ msgid ""
 "\"fas fa-scroll\"></span> For a more in-depth, technical guide, see the "
 "Ouinet whitepaper.</button></a>"
 msgstr ""
+"در تنظیمات دستی کاربر بیشتر بیاموزید! برای اطلاعات فنی بیشتر و راهنمایی "
+"تخصصی، Ouinet whitepaper را بخوانید."
 
 #: about.html%2Bhtml.body.main.footer.div.p:301-9
 msgid ""
@@ -137,9 +174,14 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
+"مرورگر CENO پروژه ای است که از طرف یک شرکت کانادایی برای توسعه‌ سیستم‌های "
+"باز و قابل استفاده مجدد با تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی "
+"جوامع ایجاد شده است. راه حل‌های مدرن فناوری و نوآوری‌ها توسط ارزش‌های ما "
+"هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته های تمامی افراد "
+"راهنمایی  کنند."
 
 #: about.html%2Bhtml.body.main.footer:303-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
-msgstr ""
+msgstr "نه به سانسور!"
