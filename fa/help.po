@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 14:22-0700\n"
-"PO-Revision-Date: 2021-06-09 13:32+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-06-22 22:08+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/fa/>\n"
 "Language: fa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: help.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -20,7 +20,7 @@ msgstr "انگلیسی"
 
 #: help.html%2Bhtml.head.title:6-5
 msgid "Censorship.no! - Get Involved!"
-msgstr "نه به سانسور! همراه شوید."
+msgstr "نه به سانسور! - همراه شوید"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:219-17
 msgid "How It Works"
@@ -33,7 +33,7 @@ msgstr "راهنمای کاربر"
 #: help.html%2Bhtml.body.nav.div.div.ul.li:225-17
 msgctxt "help.html+html.body.nav.div.div.ul.li:225-17"
 msgid "Get Involved!"
-msgstr "همراه شوید."
+msgstr "همراه شوید!"
 
 #: help.html%2Bhtml.body.nav.div.div.div.a[title]:230-3
 msgid "Get CENO"
@@ -46,23 +46,23 @@ msgstr "مرورگر Ceno را دریافت کنید"
 #: help.html%2Bhtml.body.div.h1:236-5
 msgctxt "help.html+html.body.div.h1:236-5"
 msgid "Get Involved!"
-msgstr "همراه شوید."
+msgstr "همراه شوید!"
 
 #: help.html%2Bhtml.body.div.p:237-2
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible."
 msgstr ""
-"ما تمایل داریم تا شما را در ایجاد مفیدترین و در دسترس‌ترین حالت مرورگر CENO  "
+"ما تمایل داریم تا شما را در ایجاد مفیدترین و در دسترس‌ترین حالت مرورگر CENO "
 "پشتیبانی کنیم."
 
 #: help.html%2Bhtml.body.div.h1:239-7
 msgid "Run a Bridge Node"
-msgstr "‮یک گره «پل» مانند اجرا کنید."
+msgstr "‮یک گره «پل» مانند اجرا کنید"
 
 #: help.html%2Bhtml.body.div.div.div.img[alt]:242-16
 msgid "﻿Want to help grow the network? Join the swarm!"
-msgstr "برای گسترش شبکه قصد کمک دارید؟ به SWARM بپیوندید."
+msgstr "برای گسترش شبکه قصد کمک دارید؟ به SWARM بپیوندید!"
 
 #: help.html%2Bhtml.body.div.div.div.img[alt]:245-16
 msgid ""
@@ -78,14 +78,14 @@ msgid ""
 "command you can set up a bridge on your computer or VPS."
 msgstr ""
 "CENO Docker client را اجرا کنید: در غیر این صورت ، فقط با یک دستور می توانید "
-"یک پل  روی کامپیوتر یا وی‌پی‌اس خود نصب کنید."
+"یک پل روی کامپیوتر یا وی‌پی‌اس خود نصب کنید."
 
 #: help.html%2Bhtml.body.div.div.div.img[alt]:251-16
 msgid ""
 "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or "
 "set up port forwarding."
 msgstr ""
-"یک پورتال به اینترنت  باز کنید: اطمینان حاصل کنید که UPnP در روتر شما فعال "
+"یک پورتال به اینترنت باز کنید: اطمینان حاصل کنید که UPnP در روتر شما فعال "
 "شده است یا سیستم انتقال پورت را تنظیم کنید."
 
 #: help.html%2Bhtml.body.div.div.div.img[alt]:254-16
@@ -101,16 +101,17 @@ msgid ""
 "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
 "provided certificate to test it out!"
 msgstr ""
-"با تشکر از شما برای پیوستن به  Swarm. افزونه وب CENO و گواهینامه ارائه شده "
-"برای آزمایش آن  را نصب کنید!"
+"با تشکر از شما برای پیوستن به Swarm. افزونه وب CENO و گواهینامه ارائه شده "
+"برای آزمایش آن را نصب کنید!"
 
 #: help.html%2Bhtml.body.div.p:260-2
 msgid ""
 "To learn more about setting up a bridge, please consult the <a href=\"https"
 "://censorship.no/user-manual/en/browser/bridging\">user manual.</a>"
 msgstr ""
-"برای کسب اطلاعات بیشتر در مورد راه اندازی «پل» ، لطفا  کتابچه راهنمای کاربر "
-"را مطالعه کنید."
+"برای کسب اطلاعات بیشتر در مورد راه اندازی «پل» ، لطفا کتابچه راهنمای کاربر "
+"را مطالعه  <a href=\"https://censorship.no/user-manual/fa/browser/bridging\""
+">کنید.<a>"
 
 #: help.html%2Bhtml.body.div.h1:263-7
 msgid "Translations"
@@ -133,9 +134,10 @@ msgid ""
 "with your Github or Gitlab ID. Note: Account creation is not required, but "
 "you will only be able to suggest translations in this case."
 msgstr ""
-"یک حساب کاربری در وب‌لیت ایجاد کنید یا با شناسه Github یا شناسه Gitlab وارد "
-"شوید. توجه: ایجاد حساب الزامی نیست  اما فقط در این صورت می توانید ترجمه‌ای "
-"را پیشنهاد دهید."
+"یک حساب کاربری در<a href=\"https://hosted.weblate.org/projects/censorship-"
+"no\">Weblate</a> وب‌لیت ایجاد کنید یا با شناسه Github یا شناسه Gitlab وارد "
+"شوید. توجه: ایجاد حساب الزامی نیست اما فقط در این صورت می توانید ترجمه‌ای را "
+"پیشنهاد دهید."
 
 #: help.html%2Bhtml.body.div.p.ul.li:268-6
 msgid ""
@@ -170,6 +172,7 @@ msgstr ""
 "با تیم CENO تماس بگیرید."
 
 #: help.html%2Bhtml.body.div.p.ul.li:271-6
+#, fuzzy
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
@@ -190,6 +193,7 @@ msgstr ""
 "آن علاقه دارید، لطفاً مستندات Git زیر را بررسی کنید:"
 
 #: help.html%2Bhtml.body.div.p.ul.li:277-5
+#, fuzzy
 msgid ""
 "Browser components: <a href=\"https://github.com/censorship-no/ceno-browser\""
 ">package builder</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
@@ -205,6 +209,7 @@ msgid "Ouinet source"
 msgstr "منبع Ouinet"
 
 #: help.html%2Bhtml.body.div.p.ul:278-73
+#, fuzzy
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https"
 "://github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</"
@@ -218,6 +223,7 @@ msgstr ""
 "در بایگانی بخش «نه به سانسور» بیابید!"
 
 #: help.html%2Bhtml.body.footer.div.p:292-9
+#, fuzzy
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -226,14 +232,17 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
-"مرورگر CENO پروژه ای است که از طرف یک شرکت کانادایی برای توسعه‌ سیستم‌های "
-"باز و قابل استفاده مجدد با تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی "
-"جوامع ایجاد شده است. راه حل‌های مدرن فناوری و نوآوری‌ها توسط ارزش‌های ما "
-"هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته های تمامی افراد "
-"راهنمایی  کنند."
+"مرورگر CENO پروژه ای است که از طرف <a href=\"https://equalit.ie\">eQualit."
+"ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با "
+"تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه حل‌"
+"های مدرن فناوری و نوآوری‌ها توسط<\"a href=\"https://equalit.ie/en/"
+"values>ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته "
+"های تمامی افراد راهنمایی کنند."
 
 #: help.html%2Bhtml.body.footer:294-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
-msgstr "نه به سانسور!"
+msgstr ""
+"© نه به سانسور!<script>new Date().getFullYear()>2018&&document.write(\"-\"+"
+"new Date().getFullYear());</script>"
