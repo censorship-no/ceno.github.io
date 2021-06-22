@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 12:49-0700\n"
-"PO-Revision-Date: 2021-06-09 13:32+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-06-22 22:08+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/fa/>\n"
 "Language: fa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: index.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -20,7 +20,7 @@ msgstr "انگلیسی"
 
 #: index.html%2Bhtml.head.title:15-5
 msgid "Censorship.no! - Browse Freely"
-msgstr "نه به سانسور! آزادانه در اینترنت بگردید!"
+msgstr "نه به سانسور! آزادانه در اینترنت بگردید"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:268-17
 msgid "How It Works"
@@ -53,6 +53,10 @@ msgid ""
 "=\"navbar-item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class"
 "=\"navbar-item\" data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
 msgstr ""
+"<a class=\"navbar-item\" data-lang=\"fa\" href=\"/fa/\">فارسی</a> <a class"
+"=\"navbar-item\" data-lang=\"es\" href=\"/es/\">Español</a> <a class"
+"=\"navbar-item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class"
+"=\"navbar-item\" data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:315-13
 msgid "CENO Browser banner"
@@ -70,7 +74,7 @@ msgid ""
 "to peer."
 msgstr ""
 "CENO (به اختصار «نه به سانسور»، مرورگر وب تلفن همراه است با استفاده از یک "
-"رویکرد جدید برای دور زدن  سانسور در اینترنت، به کاربران ساکن در یک کشور یا "
+"رویکرد جدید برای دور زدن سانسور در اینترنت، به کاربران ساکن در یک کشور یا "
 "منطقه که در آن‌جا سانسور اعمال می‌شود، اجازه می‌دهد محتوای بازیابی شده را با "
 "یکدیگر به‌طور همتا به همتا به اشتراک بگذارند."
 
@@ -94,15 +98,15 @@ msgstr "از پس‌کوچه دریافت کنید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:329-17
 msgid "Get it on Github"
-msgstr "از گیت‌هاب دریافت کنید."
+msgstr "از گیت‌هاب دریافت کنید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:342-13
 msgid "Browse Freely"
-msgstr "آزادانه وب را مرور کنید."
+msgstr "آزادانه وب را مرور کنید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:343-15
 msgid "Unlock the Web"
-msgstr "قفل «وب» را باز کنید."
+msgstr "قفل «وب» را باز کنید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:344-15
 msgid ""
@@ -112,15 +116,15 @@ msgid ""
 msgstr ""
 "از طریق شبکه همتایان همراه با هم حتی در زمان قطع یا سانسور اینترنت به محتوای "
 "وب دسترسی پیدا کنید. مرورگر CENO را امروز نصب کنید تا برای لحظه بعدی که "
-"اینترنت شما قطع شد،  آماده باشید."
+"اینترنت شما قطع شد، آماده باشید."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:347-13
 msgid "Grow the network - Become a bridge!"
-msgstr "شبکه را گسترش بدهید، تبدیل به یک پل بشوید."
+msgstr "شبکه را گسترش بدهید، تبدیل به یک پل بشوید!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:348-15
 msgid "Grow the Network, Fight Censorship"
-msgstr "شبکه را گسترش بدهید، با سانسور بجنگید!"
+msgstr "شبکه را گسترش بدهید، با سانسور بجنگید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:349-15
 msgid ""
@@ -143,6 +147,7 @@ msgid "Free and Open Source"
 msgstr "رایگان و متن‌باز"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:354-15
+#, fuzzy
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/\""
 ">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
@@ -151,10 +156,12 @@ msgid ""
 "network into their apps for peer-to-peer connectivity."
 msgstr ""
 "مرورگر CENO مبتنی بر سیستم عامل اندروید، برای استفاده از خاصیت‌های ابتکارانه "
-"Ouinet توسعه یافته و توسعه دهندگان شخص ثالث را قادر می‌سازد تا شبکه CENO را "
-"برای اتصال همتا به همتا در برنامه‌های خود بگنجانند."
+"<a href=\"https://github.com/equalitie/ouinet\">Ouinet library</a> توسعه "
+"یافته و توسعه دهندگان شخص ثالث را قادر می‌سازد تا شبکه CENO را برای اتصال "
+"همتا به همتا در برنامه‌های خود بگنجانند."
 
 #: index.html%2Bhtml.body.main.footer.div.p:367-9
+#, fuzzy
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -163,14 +170,17 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
-"مرورگر CENO پروژه ای است که از طرف یک شرکت کانادایی برای توسعه‌ سیستم‌های "
-"باز و قابل استفاده مجدد با تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی "
-"جوامع ایجاد شده است. راه حل‌های مدرن فناوری و نوآوری‌ها توسط ارزش‌های ما "
-"هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته های تمامی افراد "
-"راهنمایی  کنند."
+"مرورگر CENO پروژه ای است که از طرف <a href=\"https://equalit.ie\">eQualit."
+"ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با "
+"تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه حل‌"
+"های مدرن فناوری و نوآوری‌ها توسط<\"a href=\"https://equalit.ie/en/"
+"values>ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته "
+"های تمامی افراد راهنمایی کنند."
 
 #: index.html%2Bhtml.body.main.footer:369-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
-msgstr "نه به سانسور!"
+msgstr ""
+"© نه به سانسور!<script>new Date().getFullYear()>2018&&document.write(\"-\"+"
+"new Date().getFullYear());</script>"
