@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Censorship.no! - How it Works</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="alternate" hreflang="my" href="https://censorship.no/my/about.html" />
+    <link rel="alternate" hreflang="es" href="https://censorship.no/es/about.html" />
+    <link rel="alternate" hreflang="fa" href="https://censorship.no/fa/about.html" />
+    <link rel="alternate" hreflang="fr" href="https://censorship.no/fr/about.html" />
+    <link rel="alternate" hreflang="ru" href="https://censorship.no/ru/about.html" />
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="..//img/safari-pinned-tab.svg" color="#e43625">
+    <meta name="msapplication-TileColor" content="#e43625">
+    <meta name="theme-color" content="#ffffff">
+    <title>Censorship.no! - Browse Freely</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="logo_ceno.ico">
-    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="../css/bulma/css/bulma.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/all.css" rel="stylesheet" type="text/css"/>
+<!--load all styles -->
 
 <!-- Matomo Image Tracker-->
 <img src="https://staging.matomo.deflect.ca/matomo.php?idsite=5&amp;rec=1&amp;action_name=Censorship.no%21" style="border:0" alt="" />
@@ -158,7 +173,7 @@
           -height: 45px;
         }
         .section {
-            margin-top:40px;
+            -margin-top:40px;
             margin-bottom:20px;
         }
         .section > h2 {
@@ -211,7 +226,7 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #000000">
     <div class="container">
 	<!--div class="navbar-header"-->
-        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="img/logo_ceno.png"/></a>
+        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="../img/logo_ceno.png"/></a>
 		<button class ="navbar-toggler" type ="button" data-bs-toggle ="collapse" data-bs-target ="#CENOnav">
 		<span class ="navbar-toggler-icon"></span>
 		</button>
@@ -220,45 +235,57 @@
         <div class="collapse navbar-collapse" id="CENOnav">
             <ul class="navbar-nav mx-auto me-auto">
                 <li class="nav-item active">
-                    <a class="nav-link l10n" href="about.html">How It Works</a>
+                    <a class="nav-link" href="about.html">How It Works</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link l10n" href="https://censorship.no/user-manual/en">User Manual</a>
+                    <a class="nav-link" href="https://censorship.no/user-manual/en">User Manual</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link l10n" href="help.html">Get Involved!</a>
+                    <a class="nav-link" href="help.html">Get Involved!</a>
                 </li>
          </ul> 
-         <a class="btn btn-outline-danger navbar-button l10n"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></li>
+
+<div><a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></div>
+<div class="navbar-item has-dropdown is-hoverable is-right">
+<a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  aria-label="Change Language" id="language-selector">
+  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-left" aria-hidden="true"></i></span>  <span>EN</span><span class="fas fa-caret text-danger"></span>
+    <div class="navbar-dropdown" aria-labelledby="language-selector">
+        <a class="navbar-item" data-lang="my" href="/my/about.html">မြန်မာစာ</a>
+        <a class="navbar-item" data-lang="es" href="/es/about.html">Español</a>
+        <a class="navbar-item" data-lang="fa" href="/fa/about.html">فارسی</a>
+        <a class="navbar-item" data-lang="fr" href="/fr/about.html">Français</a>
+        <a class="navbar-item" data-lang="ru" href="/ru/about.html">Pусский</a>
+    </div>
          </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
 </nav>
+
 <main role="main" class="container-md section" id="howitworks">
-	    <h1 class="l10n">How CENO Browser Works</h1>
+	    <h1>How CENO Browser Works</h1>
 
         <div class="row row-cols-auto justify-content-center" style="border:0px">
 	   <div class="col-md-6 col-xl-4 mb-4">
-    	       <img src="img/how-ceno-works-0.png" style="text-align:center" width="100%"  alt="﻿Most web traffic in countries that filter internet is routed through centralized exchanges.">
+    	       <img src="../img/how-ceno-works-0.png" style="text-align:center" width="100%"  alt="﻿Most web traffic in countries that filter internet is routed through centralized exchanges.">
 	   </div>
 	   <div class="col-md-6 col-xl-4 mb-4">
-               <img src="img/how-ceno-works-1.png" style="text-align:center" width="100%" alt="﻿This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, etc;">
+               <img src="../img/how-ceno-works-1.png" style="text-align:center" width="100%" alt="﻿This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, etc;">
            </div>
            <div class="col-md-6 col-xl-4 mb-4">
-               <img src="img/how-ceno-works-2.png" style="text-align:center" width="100%" alt="﻿In these cases, reaching origin web servers is difficult or impossible, and your device will not be able to get that content.">
+               <img src="../img/how-ceno-works-2.png" style="text-align:center" width="100%" alt="﻿In these cases, reaching origin web servers is difficult or impossible, and your device will not be able to get that content.">
 	   </div>
            <div class="col-md-6 col-xl-4 mb-4">
-               <img src="img/how-ceno-works-3.png" style="text-align:center" width="100%" alt="CENO is a mobile web browser for storing and sharing web content anywhere.">
+               <img src="../img/how-ceno-works-3.png" style="text-align:center" width="100%" alt="CENO is a mobile web browser for storing and sharing web content anywhere.">
            </div>
            <div class="col-md-6 col-xl-4 mb-4">
-               <img src="img/how-ceno-works-4.png" style="text-align:center" width="100%" alt="﻿CENO users create small-world networks to connect to each other, and thereafter to a bridge outside the censored zone.">
+               <img src="../img/how-ceno-works-4.png" style="text-align:center" width="100%" alt="﻿CENO users create small-world networks to connect to each other, and thereafter to a bridge outside the censored zone.">
            </div>
            <div class="col-md-6 col-xl-4 mb-4">
-               <img src="img/how-ceno-works-5.png" style="text-align:center" width="100%" alt="﻿Once a website is accessed by a single CENO user, it is stored and shared inside the country peer-to-peer.">
+               <img src="../img/how-ceno-works-5.png" style="text-align:center" width="100%" alt="﻿Once a website is accessed by a single CENO user, it is stored and shared inside the country peer-to-peer.">
            </div>
 	</div>
 
 	<div>
-    <p class="l10n">The majority of internationally-bound traffic in countries that filter
+    <p>The majority of internationally-bound traffic in countries that filter
     content requests are routed through a fixed number of centralized
     exchanges where surveillance and censorship technology is installed.
     Traditional circumvention technologies require the user to connect
@@ -266,19 +293,19 @@
     censor an advantage in locating and blocking popular proxies, VPN
     servers, relays, bridges, etc.</p>
 
-    <p class="l10n">CENO proposes a fundamentally different solution: reduce the requests to externally available proxy
+    <p>CENO proposes a fundamentally different solution: reduce the requests to externally available proxy
     servers and enable the storage of retrieved content inside the censored
     zone. CENOs advantage comes from being both a transport and a storage
     solution.</p>
 
 <!--p style="text-align:center"><img src="img/ceno_infographic.png" width="75%" alt="CENO2 infographic"></p>-->
 
-    <p class="l10n">Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with
+    <p>Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with
     the censor. Clients need not know the location of a proxy to relay
     censored content, instead using small-world networks to connect to
     their peers, and thereafter to a bridge in the uncensored zone.</p>
 
-    <p class="l10n">Once a website is accessed by a single user (node), it is stored and
+    <p>Once a website is accessed by a single user (node), it is stored and
     continues to propagate inside the country peer-to-peer.  Individual
     nodes are referenced by an identifier which does not give away their
     physical location.  Content remains available inside the censored zone
@@ -286,25 +313,27 @@
     network via alternative means as well (e.g. uploaded from a USB drive).</p>
 </div>
 <div class="d-grid gap-2 justify-content-center">
-<a href="https://censorship.no/user-manual/en/" style="text-align:center"><button class="btn btn-outline-danger btn-learnmore mt-3 mb-3 l10n" type="button" style="text-align: center;"><span class="fas fa-book"></span>  Learn more in the User Manual!</button></a>
-<a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md"><button class="btn btn-outline-danger btn-learnmore l10n" type="button"><span class="fas fa-scroll"></span>  For a more in-depth, technical guide, see the Ouinet whitepaper.</button></a>
+<a href="https://censorship.no/user-manual/en/" style="text-align:center"><button class="btn btn-outline-danger btn-learnmore mt-3 mb-3" type="button" style="text-align: center;"><span class="fas fa-book"></span>  Learn more in the User Manual!</button></a>
+<a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md"><button class="btn btn-outline-danger btn-learnmore" type="button"><span class="fas fa-scroll"></span>  For a more in-depth, technical guide, see the Ouinet whitepaper.</button></a>
 </div>
 <footer class="container section" id="contact">
     <hr/>
     <div id="footer-logo">
-        <a href="https://equalit.ie"><img id="equalitieLogo" src="img/eQualitie_Logo_RGB.png"/></a>
-        <a class="icon" href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-twitter fa-pull-right fa-2x"></i> </a>
-        <a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 pt-3 fab fa-github fa-pull-right fa-2x"></i> </a>
+        <a href="https://equalit.ie"><img id="equalitieLogo" src="../img/eQualitie_Logo_RGB.png"/></a>
+        <a href="https://facebook.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-facebook fa-pull-right fa-2x"></i> </a>
+        <a href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-twitter fa-pull-right fa-2x"></i> </a>
+        <a href="https://github.com/censorship-no"> <i class="ml-2 pt-3 fab fa-github fa-pull-right fa-2x"></i> </a>
     </div>
     <div>
         <br/>
-        <p class="float-left l10n">CENO Browser is a project by <a href="https://equalit.ie">eQualit.ie</a> – a Canadian company developing open and reusable systems with a focus on privacy, online security and freedom of association. Technology solutions and innovations are driven by our <a href="https://equalit.ie/en/values/">values</a> that guide us to protect the rights and aspirations of everyone online.</p>
+        <p class="float-left">CENO Browser is a project by <a href="https://equalit.ie">eQualit.ie</a> – a Canadian company developing open and reusable systems with a focus on privacy, online security and freedom of association. Technology solutions and innovations are driven by our <a href="https://equalit.ie/values/">values</a> that guide us to protect the rights and aspirations of everyone online.</p>
         </div>
     <div class="push"></div><br/>
 &copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
-<script src="js/bootstrap.min.js"></script>
-
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../jquery-3.6.0.min.js"></script>
+</main>
 </body>
 </html>
 
