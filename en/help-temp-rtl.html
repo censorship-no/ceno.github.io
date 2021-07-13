@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="alternate" hreflang="en" href="https://censorship.no/" /><link rel="alternate" hreflang="fr" href="https://censorship.no/fr/" /><link rel="alternate" hreflang="ru" href=>
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#e43625">
+    <link rel="alternate" hreflang="my" href="https://censorship.no/my/help.html" />
+    <link rel="alternate" hreflang="es" href="https://censorship.no/es/help.html" />
+    <link rel="alternate" hreflang="fa" href="https://censorship.no/fa/help.html" />
+    <link rel="alternate" hreflang="fr" href="https://censorship.no/fr/help.html" />
+    <link rel="alternate" hreflang="ru" href="https://censorship.no/ru/help.html" />
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#e43625">
     <meta name="msapplication-TileColor" content="#e43625">
     <meta name="theme-color" content="#ffffff">
     <title>Censorship.no! - Browse Freely</title>
-<!--load all styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
-    <link href="css/bulma/css/bulma.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/all.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bulma/css/bulma-rtl.min.css" rel="stylesheet">
+    <link href="../css/all.css" rel="stylesheet" type="text/css"/>
+<!--load all styles -->
 
 <!-- Matomo Image Tracker-->
 <img src="https://staging.matomo.deflect.ca/matomo.php?idsite=5&amp;rec=1&amp;action_name=Censorship.no%21" style="border:0" alt="" />
@@ -61,8 +64,6 @@
     initiallyVisible: false
   });
 </script>
-
-    
     <style>
         body {
             font-family: Lato, sans-serif !important;
@@ -170,7 +171,7 @@
           -height: 45px;
         }
         .section {
-            margin-top:40px;
+            -margin-top:40px;
             margin-bottom:20px;
         }
         .section > h2 {
@@ -195,6 +196,10 @@
             border-color: #ef412e;
 	    font-size:1em;
         }
+	.btn-learnmore {
+	    text-align: center;
+	    font-size: 1.3rem;
+	}
         
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -203,7 +208,9 @@
         -moz-user-select: none;
         user-select: none;
       }
-
+      .navbar {
+	position: absolute;
+      }
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -219,7 +226,7 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #000000">
     <div class="container">
 	<!--div class="navbar-header"-->
-        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="img/logo_ceno.png"/></a>
+        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="../img/logo_ceno.png"/></a>
 		<button class ="navbar-toggler" type ="button" data-bs-toggle ="collapse" data-bs-target ="#CENOnav">
 		<span class ="navbar-toggler-icon"></span>
 		</button>
@@ -237,28 +244,28 @@
                     <a class="nav-link" href="help.html">Get Involved!</a>
                 </li>
          </ul> 
-         <div>
-		<a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></div>
-	<div class="navbar-item has-dropdown is-hoverable is-right">
-	<a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Chan>
-	  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-left" aria-hidden="true"></i></span>  <span>EN</span><span class="fas fa-caret text-danger"></span></a>
-    <div class="navbar-dropdown" aria-labelledby="language-selector">
-        <a class="navbar-item" data-lang="my" href="/my/">မြန်မာစာ</a>
-        <a class="navbar-item" data-lang="es" href="/es/">Español</a>
-        <a class="navbar-item" data-lang="fa" href="/fa/">فارسی</a>
-        <a class="navbar-item" data-lang="fr" href="/fr/">Français</a>
-        <a class="navbar-item" data-lang="ru" href="/ru/">Pусский</a>
-   </div>
 
+<div><a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">مرورگر CENO را دریافت کنید <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></div>
+<div class="navbar-item has-dropdown is-hoverable is-left">
+<a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector">
+  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-right" aria-hidden="true"></i></span>  <span>فارسی</span><span class="fas fa-caret text-danger"></span>
+    <div class="navbar-dropdown" aria-labelledby="language-selector">
+        <a class="navbar-item" data-lang="my" href="../my/index.html">မြန်မာစာ</a>
+        <a class="navbar-item" data-lang="en" href="../en/index.html">EN</a>
+        <a class="navbar-item" data-lang="es" href="../es/index.html">Español</a>
+        <a class="navbar-item" data-lang="fr" href="../fr/index.html">Français</a>
+        <a class="navbar-item" data-lang="ru" href="../ru/index.html">Pусский</a>
+    </div></a>
          </div> <!--end collapsible navbar-->
     </div> <!-- end container-->
+  </div>
 </nav>
 
-<div class="container section">
-    <h1><strong>Get Involved!</strong></h1>
+<main role="main" class="container-md section">
+    <h1>Get Involved!</h1>
 	<p>We'd love your support in making CENO Browser as useful and accessible as possible.</p>
 
-<br/> <h1><a class="icon" href="https://hosted.weblate.org/projects/censorship-no/"> <i class="ml-2 fas fa-project-diagram fa-sm"></i></a> Run a Bridge Node</h1>
+<br/> <h1><a href="https://hosted.weblate.org/projects/censorship-no/"> <i class="ml-2 fas fa-project-diagram fa-sm"></i></a> Run a Bridge Node</h1>
         <div class="row row-cols-auto justify-content-center" style="border:0px">
            <div class="col-md-6 col-xl-4 mb-4">
                <img src="img/bridging-0.png" style="text-align:center" width="100%"  alt="﻿Want to help grow the network? Join the swarm!">
@@ -282,7 +289,7 @@
 	<p>
 	To learn more about setting up a bridge, please consult the <a href="https://censorship.no/user-manual/en/browser/bridging">user manual.</a>
 	</p>
-<br/> <h1><a class="icon" href="https://hosted.weblate.org/projects/censorship-no/"> <i class="ml-2 fa fa-globe fa-sm"></i></a> Translations</h1> 
+<br/> <h1><a href="https://hosted.weblate.org/projects/censorship-no/"> <i class="ml-2 fa fa-globe fa-sm"></i></a> Translations</h1> 
 	<p>Help translate the CENO Browser app, web extension, user manual and website!</p>
 	<p>To get started:
 	<ul>
@@ -293,32 +300,35 @@
 	    <li>For more information about how to use Weblate, see <a href="https://docs.weblate.org/">the Weblate documentation.</a></li>
 	</ul></p>
 
-<br/> <h1><a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 fab fa-github fa-sm"></i></a> Source Code</h1>
+<br/> <h1><a href="https://github.com/censorship-no"> <i class="ml-2 fab fa-github fa-sm"></i></a> Source Code</h1>
 	<p>CENO is completely Free/Libre/Open Source Software. If you are interested in its source code please check the following Git repositories:
 	<ul>
 	   <li> Browser components: <a href="https://github.com/censorship-no/ceno-browser">package builder</a>, <a href="https://github.com/censorship-no/gecko-dev/tree/ceno">Firefox fork</a>, <a href="https://github.com/censorship-no/ceno-distribution">included extensions</a>, <a href="https://github.com/censorship-no/ceno-ext-settings">settings extension source</a></li>
 	   <li> <a href="https://github.com/equalitie/ouinet">Ouinet source</a></li>
 	</ul>
-	You may also be interested in the (no longer maintained) <a href="https://github.com/censorship-no-archive/ceno1">previous incarnation of CENO</a>, built on the <a href="https://freenetproject.org/">Freenet</a> anonymous file sharing and content publishing network. Other inactive project-related repositories can be found at the <a href="https://github.com/censorship-no-archive">Censorship.no! archive</a>.</p>
-</div> <!--end container section-->
+	<p>You may also be interested in the (no longer maintained) <a href="https://github.com/censorship-no-archive/ceno1">previous incarnation of CENO</a>, built on the <a href="https://freenetproject.org/">Freenet</a> anonymous file sharing and content publishing network. Other inactive project-related repositories can be found at the <a href="https://github.com/censorship-no-archive">Censorship.no! archive</a>.</p>
+</p>
+</main>
+<!--/div> <!--end container section-->
 
-<footer class="container section" id="contact">
+<footer class="container" id="contact">
     <hr/>
     <div id="footer-logo">
-        <a href="https://equalit.ie"><img id="equalitieLogo" src="img/eQualitie_Logo_RGB.png"/></a>
-        <a class="icon" href="https://facebook.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-facebook fa-pull-right fa-2x"></i> </a>
-        <a class="icon" href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-twitter fa-pull-right fa-2x"></i> </a>
-        <a class="icon" href="https://github.com/censorship-no"> <i class="ml-2 pt-3 fab fa-github fa-pull-right fa-2x"></i> </a>
+        <a href="https://equalit.ie"><img id="equalitieLogo" src="../img/eQualitie_Logo_RGB.png"/></a>
+        <a href="https://facebook.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-facebook fa-pull-left fa-2x"></i> </a>
+        <a href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-3 fab fa-twitter fa-pull-left fa-2x"></i> </a>
+        <a href="https://github.com/censorship-no"> <i class="ml-2 pt-3 fab fa-github fa-pull-left fa-2x"></i> </a>
     </div>
     <div>
         <br/>
-        <p class="float-left">CENO Browser is a project by <a href="https://equalit.ie">eQualit.ie</a> – a Canadian company developing open and reusable systems with a focus on privacy, online security and freedom of association. Technology solutions and innovations are driven by our <a href="https://equalit.ie/en/values/">values</a> that guide us to protect the rights and aspirations of everyone online.</p>
+        <p class="float-left">
+مرورگر CENO پروژه ای است که از طرف <a href="https://equalit.ie">eQualit.ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه‌حل‌های مدرن فناوری و نوآوری‌ها به وسیله<a href="https://equalit.ie/en/values">>ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته‌های تمامی افراد راهنمایی کنند.</p>
         </div>
     <div class="push"></div><br/>
 &copy; Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../jquery-3.6.0.min.js"></script>
 </body>
 </html>
 
