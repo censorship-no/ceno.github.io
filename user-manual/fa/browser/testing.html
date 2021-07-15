@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="fa" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>آزمایش مرورگر - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> وینت چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از سنو/وینت</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از سنو/وینت</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگر سنو</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب سنو</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> تنظیمات سنو</a></li><li class="chapter-item expanded "><a href="../browser/testing.html" class="active"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="تست-مرورگر"><a class="header" href="#تست-مرورگر">تست مرورگر</a></h1>
+<p>حالا که می‌دانید چگونه باید سنو را <a href="install.html">نصب</a> و <a href="settings.html">تنظیم</a> کنید، بیایید برخی مراحل را دنبال کنیم تا بسنجیم که آیا ویژگی‌های مختلف خاص وینت درست کار می‌کنند. این فرایند شامل فعال‌سازی و غیرفعال‌سازی گزینشی سازوکارهای متفاوت دسترسی خواهد بود. اما به یاد داشته باشید که در استفاده‌ی روزمره از سنو، شما به‌ندرت نیازی به تغییر تنظیمات پیش‌فرض نرم‌افزار خواهید داشت.</p>
+<p>‬برای کامل‌کردن تمام تست‌های پایین نیاز به دست‌کم دو دستگاه خواهید داشت که به یک شبکه‌ی وای‌فای مشترک وصل باشند، و نیز یک دستگاه سوم روی یک شبکه‌ی کاملاً متفاوت.</p>
+<p>تمام تست‌ها با استفاده از <a href="public-private.html">مرور عمومی</a> اجرا خواهند شد. اگر چیزی طبق انتظار کار نکرد، لطفاً بردبار باشید و بخش مربوط به <a href="troubleshooting.html">شناسایی و رفع اشکالات</a> را چک کنید. به‌طور مشخص، اگر مرورگر در حین بارگذاری یک صفحه بیشتر از چند دقیقه گیر کرد، می‌توانید دکمه‌ی توقف را بفشارید و آن را از نو بارگذاری کنید (گرچه این کار ممکن است باعث تغییر اندکی در نتایج شود).</p>
+<h2 id="دسترسی-به-یک-تزریقکننده"><a class="header" href="#دسترسی-به-یک-تزریقکننده">دسترسی به یک تزریق‌کننده</a></h2>
+<p>بیایید نخست چک کنیم که آیا مرورگر سنو شما می‌تواند به یک تزریق‌کننده دسترسی پیدا کند. این شاید پیش‌پاافتاده به نظر بیاید اما سرویس‌گیرنده‌ی شما پیشاپیش چندین ویژگی وینت را در این فرایند به کار خواهد بست: جست‌وجوی نشانی تزریق‌کننده در انبوهه‌ی تزریق‌کننده‌ها، تلاش برای تماس مستقیم با آن و، اگر این تزریق‌کننده از سوی ارائه‌دهنده‌ی دسترسی یا کشورتان مسدود شده بود، جست‌وجوی انبوهه‌ی پل و تلاش برای تماس با تزریق‌کننده از طریق یک سرویس‌گیرنده‌ی وینت.</p>
+<p>در نخستین دستگاه این مرحله‌ها را اجرا کنید:</p>
+<ol>
+<li>پیش از هرچیز، اگر لازم است سنو را نصب کنید و آن را آغاز کنید. در نخستین اجرا دنباله‌ای از صفحات مقدماتی ظاهر خواهند شد: فقط روی <em>بعدی</em> کلیک کنید تا <em>شروع مرور</em> پدیدار شود، سپس روی آن کلیک کنید. در پایان، صفحه‌ی خانگی سنو ظاهر خواهد شد.</li>
+<li>منوی اصلی نرم‌افزار را باز کنید و <em>سنو</em> را انتخاب کنید تا صفحه‌ی <em>تنظیمات سنو</em> باز شود. چون ما فقط می‌خواهیم دسترسی به تزریق‌کننده را تست کنیم، تمام جعبه‌های مربوط به سازوکارهای دسترسی به جز <em>از طریق شبکه‌ی (عمومی) سنو</em> را غیرفعال کنید.</li>
+<li>به صفحه‌ی خانگی سنو بازگردید. یا یکی از وب‌سایت‌های توصیه‌شده را انتخاب کنید، یا نشانی اینترنتی سایتی دیگر را در نوار نشانی بالای پنجره‌ی مرورگر وارد کنید. اگر سایتی را سراغ دارید که معمولاً برای شما مسدود شده است، نشانی همان سایت را وارد کنید!</li>
+<li>سایت انتخاب‌شده باید سرانجام دیده شود.</li>
+</ol>
+<p>اگر سایت بارگذاری نشد، می‌توانید خوشحال باشید که دستگاه‌تان می‌تواند به تزریق‌کننده دسترسی پیدا کند! از آن‌جا که شما می‌توانید انبوهه‌ها را به پرسش کشید و با سرویس‌گیرنده‌های دیگر تماس بگیرید، شما همچنین احتمالاً می‌توانید محتوای برگرفته از انبار توزیع‌شده را بازیابی کنید.</p>
+<p>در ضمن، اگر علامت سنو در نوار نشانی را بفشارید، یک پنجره‌ی جدید مانند پنجره‌ی پایینی گشوده خواهد شد، که نشان می‌دهد چند عنصر از سایت با استفاده از هریک از سازوکارهای متفاوت دسترسی بازیابی شده است. فقط <em>از طریق شبکه‌ی (عمومی) سنو</em> باید یک ارزش غیر-صفر داشته باشد چرا که سایر سازوکارها غیرفعال شده‌اند.</p>
+<p><img src="images/sources-inject.png" alt="شکل: سازوکارهای به‌کاررفته هنگام تست تزریق" /></p>
+<p>در مقابل، اگر از مرور خصوصی با تنظیمات پیش‌فرض استفاده کرده‌اید، شاید پنجره‌ی بازشونده مانند پنجره‌ی پایینی دیده باشید، با شمارش‌های غیر-صفری در بخش <em>مستقیم از وب‌سایت</em> یا <em>از طریق شبکه‌ی (عمومی) سنو</em>.</p>
+<p><img src="images/sources-proxy.png" alt="شکل: سازوکارهای به‌کاررفته با مرور خصوصی" /></p>
+<h2 id="دریافت-محتوا-از-کاربران-نزدیک"><a class="header" href="#دریافت-محتوا-از-کاربران-نزدیک">دریافت محتوا از کاربران نزدیک</a></h2>
+<p>از آن‌جا که نخستین دستگاه‌تان توانست محتوایی را از یک تزریق‌کننده دریافت کند، بیایید تست کنیم که آیا این دستگاه می‌تواند آن را با دستگاه دیگری روی انبار توزیع‌شده به اشتراک بگذارد. ساده‌ترین راه استفاده از پشتیبانی دستگاه-به-دستگاه سنو برای چک‌کردن این است که آیا دریافت و راستی‌آزمایی محتوای امضاشده درست کار می‌کند یا نه.</p>
+<p>پس از تکمیل تست بالا روی دستگاه نخست، سنو را روی آن در حال اجرا بگذارید (علامت سنو باید در نوار اطلاع‌رسانی آن ظاهر شود). سپس دستگاه دیگری را در اختیار بگیرید (می‌توانید یکی از دوستان‌تان را دعوت کنید تا این تست را انجام دهید) و آن را به همان شبکه‌ی وای‌فای وصل کنید. سپس مراحل زیر را روی آن دستگاه انجام دهید:</p>
+<ol>
+<li>در صورت نیاز سنو را نصب کنید، آن را آغاز کنید و مانند بالا به صفحه‌ی خانگی سنو بروید.</li>
+<li>مانند قبل صفحه‌ی <em>تنظیمات سنو</em> را باز کنید. از آن‌جا که ما فقط می‌خواهیم دسترسی به انبار توزیع‌شده را تست کنیم، تمام جعبه‌های مربوط به دسترسی به سازوکارها به جز <em>به‌اشتراک‌گذاشته‌شده از سوی سایر کاربران سنو</em> را غیرفعال کنید.</li>
+<li>به صفحه‌ی خانگی سنو بازگردید و از همان سایت به همان شیوه‌ی قبلی در بالا بازدید کنید (یعنی با انتخاب یکی از وب‌سایت‌های توصیه‌شده یا واردکردن نشانی اینترنتی آن در نوار نشانی).</li>
+<li>سایت انتخاب‌شده باید سرانجام دیده شود.</li>
+</ol>
+<p>اگر سایت کار کرد، این به معنای آن است که هردو دستگاه قادر به رساندن آن محتوا به سرویس‌گیرندگان دیگر هستند. فشردن علامت نوار نشانی سنو باید پنجره‌ی بازشونده‌ای را مانند پنجره‌ی پایینی نشان دهد، که در آن فقط <em>به‌اشتراک‌گذاشته‌شده از سوی سایر کاربران سنو</em> یک ارزش غیر-صفر دارد.</p>
+<p><img src="images/sources-dcache.png" alt="شکل: سازوکارهای به‌کاررفته هنگام تست بازیابی انبار توزیع‌شده" /></p>
+<p>سرانجام، شاید به این نکته نیز دقت کرده باشید که شمارشگری برای <em>به‌اشتراک‌گذاشته‌شده از سوی شما</em> وجود دارد. این سازوکاری متفاوت <em>به معنای دقیق کلمه</em> نیست: عناصر شمارش‌شده در این‌جا در حقیقت بخشی از انبار توزیع‌شده‌اند، اما آن‌ها پیشاپیش در دستگاه شما ذخیره شده‌اند، بنابراین سنو نیازی به بازیابی آن‌ها روی شبکه ندارد.</p>
+<h2 id="دریافت-محتوا-از-کاربران-دور"><a class="header" href="#دریافت-محتوا-از-کاربران-دور">دریافت محتوا از کاربران دور</a></h2>
+<p>ما یک تست مقیاس کوچک از انبار توزیع‌شده انجام داده‌ایم. بیایید حالا تست کنیم که چگونه روی اینترنت کار می‌کند.</p>
+<p>لطفاً مانند تست قبلی سنو را در حال اجرا روی نخستین دستگاه رها کنید، و سنو را روی دستگاه دوم متوقف کنید (با نشان‌دادن اطلاع‌رسانی‌هایش و فشردن «انگشت‌نهادن برای توقف»). این بار شما به یک دستگاه سوم نیاز دارید، اما این دستگاه باید به یک شبکه‌ی وای‌فای متفاوت وصل باشد (شاید دوستی دیگر بتواند از خانه به شما کمک کند). مراحل لازم برای آن دستگاه درست مانند همان مراحل اجراشده در تست قبلی هستند.</p>
+<p>اگر دستگاه سوم می‌تواند سایت به‌کاررفته برای تست را بارگذاری کند، شما کاملاً آماده‌اید. نخستین دستگاه قادر به بذرپاشی محتوا به دیگران است، و می‌تواند به احتمال قوی به‌عنوان یک پل نیز عمل کند. تبریک می‌گوییم!</p>
+<p>Congratulations!</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../browser/settings.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../browser/bridging.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../browser/settings.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../browser/bridging.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
