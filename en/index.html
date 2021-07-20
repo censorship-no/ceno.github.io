@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -253,6 +253,26 @@
     .fa-globe {
 	color: red;
      }
+
+    [dir=ltr] .fa-pull-start {
+        float: left;
+        margin-right: .3em;
+    }
+
+    [dir=rtl] .fa-pull-start {
+        float: right;
+        margin-left: .3em;
+    }
+
+    [dir=ltr] .fa-pull-end {
+        float: right;
+        margin-left: .3em;
+    }
+
+    [dir=rtl] .fa-pull-end {
+        float: left;
+        margin-right: .3em;
+    }
     </style>
 </head>
 <body>
@@ -283,11 +303,11 @@
                     <a class="nav-link" href="help.html"><span class="fas fa-hands-helping"></span> Get Involved!</a>
                 </li>
          </ul> 
-         <div><a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-right"> </span> </a></div>
+         <div><a class="btn btn-outline-danger navbar-button"  href="index.html#download" role="button" title="Get CENO">Get CENO Browser <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-end"> </span> </a></div>
 
 <div class="navbar-item has-dropdown is-hoverable">
 <a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector">
-  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-left" aria-hidden="true"></i></span>
+  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-start" aria-hidden="true"></i></span>
   <!-- TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). -->
   <span>EN</span>
   <span class="fas fa-caret text-danger"></span></a>
@@ -363,9 +383,9 @@
 <hr>
     <!--div id="footer-logo"-->
         <a href="https://equalit.ie"><img id="equalitieLogo" src="../img/eQualitie_Logo_RGB.png"></a>
-        <a href="https://facebook.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-facebook fa-pull-right fa-2x"></i> </a>
-        <a href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-twitter fa-pull-right fa-2x"></i> </a>
-        <a href="https://github.com/censorship-no"> <i class="ml-2 pt-4 fab fa-github fa-pull-right fa-2x"></i> </a>
+        <a href="https://facebook.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-facebook fa-pull-end fa-2x"></i> </a>
+        <a href="https://twitter.com/cenobrowser"> <i class="ml-2 pt-4 fab fa-twitter fa-pull-end fa-2x"></i> </a>
+        <a href="https://github.com/censorship-no"> <i class="ml-2 pt-4 fab fa-github fa-pull-end fa-2x"></i> </a>
     <!--/div-->
     <div>
         <br>
