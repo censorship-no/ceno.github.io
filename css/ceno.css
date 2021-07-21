@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700'); */  /* disabled for privacy reasons */
+@import 'all.css';  /* Font Awesome */
+
+body {
+    font-family: Lato, sans-serif !important;
+    font-size: 1.08em;
+    background-color: #f4f4f3;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #e53323;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+hr {
+    border-width: 6px 0 0;
+    border-color: #E43624;
+    border-style: solid none none;
+    margin: 30px 0 10px;
+    opacity: 100;
+}
+
+a {
+    color: #E43624;
+}
+
+a:visited {
+    color: #e43624;
+}
+
+a:hover {
+    color: #4c4a4a;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.08em;
+}
+
+
+img#equalitieLogo {
+    margin-top: 26px;
+    width: 162px;
+}
+
+
+div.row {
+    margin: 0 !important;
+}
+
+.section {
+    -margin-top: 40px;
+    -margin-bottom: 20px;
+}
+
+.section > h2 {
+    -margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.btn-outline-danger {
+    border-color: #ef412e;
+    font-size:1em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+[dir=ltr] .fa-pull-start {
+    float: left;
+    margin-right: .3em;
+}
+
+[dir=rtl] .fa-pull-start {
+    float: right;
+    margin-left: .3em;
+}
+
+[dir=ltr] .fa-pull-end {
+    float: right;
+    margin-left: .3em;
+}
+
+[dir=rtl] .fa-pull-end {
+    float: left;
+    margin-right: .3em;
+}
