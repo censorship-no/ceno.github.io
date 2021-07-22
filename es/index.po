@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 12:49-0700\n"
+"POT-Creation-Date: 2021-07-22 16:51+0200\n"
 "PO-Revision-Date: 2021-07-21 21:38+0000\n"
 "Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,59 +14,73 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
-#: index.html%2Bhtml[lang]:2-1
+#: index.html%2Bhtml[lang]:4-1
 msgid "en"
 msgstr "es"
 
-#: index.html%2Bhtml.head.title:15-5
+#: index.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Browse Freely"
 msgstr "Censorship.no! - Navega Libremente"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:268-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
 msgstr "Cómo funciona"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:271-17
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: index.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
 msgstr "Manual del usuario"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:274-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
 msgstr "¡Involúcrate!"
 
-#: index.html%2Bhtml.body.nav.div.div.div.a[title]:278-15
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
 msgstr "Obtén CENO"
 
-#: index.html%2Bhtml.body.nav.div.div.div:278-10
+#: index.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
 msgstr "Obtén el Navegador CENO"
 
-#: index.html%2Bhtml.body.nav.div.div.div:280-1
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: index.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
 msgstr "ES"
 
-#: index.html%2Bhtml.body.nav.div.div.div.div:283-5
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
+#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/index.html">Pусский</a
+#: index.html%2Bhtml.body.nav.div.div.div.div:102-5
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" data-lang=\"fa\" href=\"/fa/\">فارسی</a> <a "
+#| "class=\"navbar-item\" data-lang=\"es\" href=\"/es/\">Español</a> <a class="
+#| "\"navbar-item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class="
+#| "\"navbar-item\" data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
 msgid ""
-"<a class=\"navbar-item\" data-lang=\"fa\" href=\"/fa/\">فارسی</a> <a class"
-"=\"navbar-item\" data-lang=\"es\" href=\"/es/\">Español</a> <a class"
-"=\"navbar-item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class"
-"=\"navbar-item\" data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a>"
 msgstr ""
-"<a class=\"navbar-item\" data-lang=\"fa\" href=\"/fa/\">فارسی</a> <a class"
-"=\"navbar-item\" data-lang=\"es\" href=\"/es/\">Español</a> <a class"
-"=\"navbar-item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class"
-"=\"navbar-item\" data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
+"<a class=\"navbar-item\" data-lang=\"fa\" href=\"/fa/\">فارسی</a> <a class="
+"\"navbar-item\" data-lang=\"es\" href=\"/es/\">Español</a> <a class=\"navbar-"
+"item\" data-lang=\"fr\" href=\"/fr/\">Français</a> <a class=\"navbar-item\" "
+"data-lang=\"ru\" href=\"/ru/\">Pусский</a>"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:315-13
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
 msgid "CENO Browser banner"
 msgstr "Banner del Navegador CENO"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h1:319-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
 msgid "Censorship.no!"
 msgstr "Censorship.no!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:320-3
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:130-3
 msgid ""
 "CENO (short for Censorship.no!) is a mobile Web browser using a novel "
 "approach to circumvent Internet censorship infrastructure, allowing users "
@@ -78,39 +92,45 @@ msgstr ""
 "permitiéndole a los usuarios que viven en una zona censurada compartir "
 "contenido descargado entre ellos, de par a par."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:321-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:131-7
+#, fuzzy
+#| msgid ""
+#| "Built in support of Articles 18, 19 and 20 of the <a name=\"download\" "
+#| "href=\"http://www.un.org/en/universal-declaration-human-rights/"
+#| "\">Universal Declaration of Human Rights</a>, CENO presents a new "
+#| "generation of censorship circumvention possibilities."
 msgid ""
-"Built in support of Articles 18, 19 and 20 of the <a name=\"download\" href="
-"\"http://www.un.org/en/universal-declaration-human-rights/\">Universal "
-"Declaration of Human Rights</a>, CENO presents a new generation of "
-"censorship circumvention possibilities."
+"Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
+"org/en/universal-declaration-human-rights/\">Universal Declaration of Human "
+"Rights</a>, CENO presents a new generation of censorship circumvention "
+"possibilities."
 msgstr ""
 "Creado en soporte de los Artículos 18, 19 y 20 de la <a name=\"download\" "
-"href=\"http://www.un.org/en/universal-declaration-human-rights/\""
-">Declaración Universal de Derechos Humanos</a>, CENO presenta una nueva "
+"href=\"http://www.un.org/en/universal-declaration-human-rights/"
+"\">Declaración Universal de Derechos Humanos</a>, CENO presenta una nueva "
 "generación de posibilidades para la elusión de la censura."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:323-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:133-15
 msgid "Get it on Google Play"
 msgstr "Obtenlo en Google Play"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:326-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:136-17
 msgid "Get it on Paskoocheh"
 msgstr "Obtenlo en Paskoocheh"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:329-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:139-17
 msgid "Get it on Github"
 msgstr "Obtenlo en Github"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:342-13
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:153-13
 msgid "Browse Freely"
 msgstr "Navega en Libertad"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:343-15
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:154-15
 msgid "Unlock the Web"
 msgstr "Desbloquea la Web"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:344-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:155-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
 "internet is down or censored. Install CENO Browser today and be prepared for "
@@ -120,15 +140,15 @@ msgstr ""
 "cuando Internet esté caída o censurada. Instala al Navegador CENO hoy y "
 "prepárate para la próxima vez que estés 🔌 desconectado."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:347-13
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:158-13
 msgid "Grow the network - Become a bridge!"
 msgstr "Haz crecer la red - ¡Conviértete en un puente!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:348-15
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:159-15
 msgid "Grow the Network, Fight Censorship"
 msgstr "Haz crecer la red, lucha contra la Censura"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:349-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:160-15
 msgid ""
 "Fight censorship by becoming a bridge! Install and run CENO Browser to "
 "instantly join the network and expand the availability of blocked websites "
@@ -138,38 +158,45 @@ msgstr ""
 "Navegador CENO para unirte instantáneamente a la red y expandir la "
 "disponibilidad de sitios web bloqueados para aquellos en países censurados."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:352-13
-msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:352-13"
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:163-13
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:352-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:163-13"
 msgid "Free and Open Source"
 msgstr "Libre y de Código abierto"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:353-15
-msgctxt "index.html+html.body.main.section.div.div.div.h3:353-15"
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:164-15
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:352-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.h3:164-15"
 msgid "Free and Open Source"
 msgstr "Libre y de Código abierto"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:354-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:165-15
 msgid ""
-"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/\""
-">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
 "the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
 "library</a> - enabling third party developers to incorporate the CENO "
 "network into their apps for peer-to-peer connectivity."
 msgstr ""
-"CENO está basado en <a href=\"https://www.mozilla.org/firefox/android/\""
-">Firefox para Android</a> (conocido como Mozilla Fennec), extendido para "
-"hacer uso de la innovadora <a href=\"https://github.com/equalitie/ouinet\""
-">biblioteca Ouinet</a> - habilitando a otros desarrolladores para incorporar "
-"la red CENO dentro de sus aplicaciones para conectividad de par a par."
+"CENO está basado en <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox para Android</a> (conocido como Mozilla Fennec), extendido para "
+"hacer uso de la innovadora <a href=\"https://github.com/equalitie/ouinet"
+"\">biblioteca Ouinet</a> - habilitando a otros desarrolladores para "
+"incorporar la red CENO dentro de sus aplicaciones para conectividad de par a "
+"par."
 
-#: index.html%2Bhtml.body.main.footer.div.p:367-9
+#: index.html%2Bhtml.body.footer.div.p:183-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
-">values</a> that guide us to protect the rights and aspirations of everyone "
-"online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
 msgstr ""
 "El Navegador CENO es un proyecto de <a href=\"https://equalit.ie\">eQualit."
 "ie</a> – una compañía canadiense que desarrolla sistemas abiertos y "
@@ -178,10 +205,14 @@ msgstr ""
 "nuestros <a href=\"https://equalit.ie/en/values/\">valores</a>, los cuales "
 "nos guían para proteger los derechos y aspiraciones en línea de todos."
 
-#: index.html%2Bhtml.body.main.footer:369-23
+#: index.html%2Bhtml.body.footer:185-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "index.html+html.body.main.section.div.div.div.h3:353-15"
+#~ msgid "Free and Open Source"
+#~ msgstr "Libre y de Código abierto"

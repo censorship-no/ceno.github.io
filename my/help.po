@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 14:22-0700\n"
+"POT-Creation-Date: 2021-07-22 16:51+0200\n"
 "PO-Revision-Date: 2021-07-21 21:38+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,247 +14,281 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
-#: help.html%2Bhtml[lang]:2-1
+#: help.html%2Bhtml[lang]:4-1
 msgid "en"
 msgstr "အင်္ဂလိပ်"
 
-#: help.html%2Bhtml.head.title:6-5
+#: help.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Get Involved!"
 msgstr "Censorship.no! - ပါဝင်ပတ်သက်ပါ။"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:219-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
 msgstr "အလုပ်လုပ်ပုံ"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:222-17
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: help.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
 msgstr "သုံးစွဲသူ လက်စွဲ"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:225-17
-msgctxt "help.html+html.body.nav.div.div.ul.li:225-17"
+#: help.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#, fuzzy
+#| msgctxt "help.html+html.body.nav.div.div.ul.li:225-17"
+#| msgid "Get Involved!"
+msgctxt "help.html+html.body.nav.div.div.ul.li:90-17"
 msgid "Get Involved!"
 msgstr "ပါဝင် ပတ်သက်ပါ။"
 
-#: help.html%2Bhtml.body.nav.div.div.div.a[title]:230-3
+#: help.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
 msgstr "CENO ကို ရယူပါ"
 
-#: help.html%2Bhtml.body.nav.div.div.div:229-10
+#: help.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
 msgstr "CENO ဘရောက်ဇာကို ရယူပါ"
 
-#: help.html%2Bhtml.body.div.h1:236-5
-msgctxt "help.html+html.body.div.h1:236-5"
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: help.html%2Bhtml.body.nav.div.div.div:96-1
+msgid "EN"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/help.html">Français</a
+#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/help.html">Pусский</a
+#: help.html%2Bhtml.body.nav.div.div.div.div:102-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a>"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.h1:121-5
+#, fuzzy
+#| msgctxt "help.html+html.body.nav.div.div.ul.li:225-17"
+#| msgid "Get Involved!"
+msgctxt "help.html+html.body.main.div.h1:121-5"
 msgid "Get Involved!"
 msgstr "ပါဝင် ပတ်သက်ပါ။"
 
-#: help.html%2Bhtml.body.div.p:237-2
+#: help.html%2Bhtml.body.main.div.p:122-2
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible."
 msgstr ""
-"CENO ဘရောက်ဇာကို အတတ်နိုင်ဆုံး အသုံးဝင်ပြီး ဝင်ရောက်သုံးစွဲနိုင်အောင် "
-"ပြုလုပ်ရာတွင် သင့်အနေနှင့် ပံ့ပိုးပေးစေလိုပါသည်။"
+"CENO ဘရောက်ဇာကို အတတ်နိုင်ဆုံး အသုံးဝင်ပြီး ဝင်ရောက်သုံးစွဲနိုင်အောင် ပြုလုပ်ရာတွင် သင့်အနေနှင့် "
+"ပံ့ပိုးပေးစေလိုပါသည်။"
 
-#: help.html%2Bhtml.body.div.h1:239-7
+#: help.html%2Bhtml.body.main.div.h1:124-6
 msgid "Run a Bridge Node"
 msgstr "ပေါင်းကူး ဆက်သွယ်ရေးပွိုင့်ကို လုပ်ဆောင်ပါ"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:242-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:127-16
 msgid "﻿Want to help grow the network? Join the swarm!"
 msgstr "ကွန်ရက် ကျယ်ပြန့်စေရန် ကူညီလိုပါသလား။ အဖွဲ့တွင် ပါဝင်လိုက်ပါ။"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:245-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:130-16
 msgid ""
-"The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or "
-"a spare, always-on device."
+"The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
+"spare, always-on device."
 msgstr ""
-"လွယ်ကူသော နည်းလမ်း- Android။ CENO ဘရောက်ဇာကို သင့် CENO စက်နှင့်/ သို့မဟုတ် "
-"အပိုဆောင်း အမြဲဖွင့် စက်ပေါ်တွင် လုပ်ဆောင်ပါ။"
+"လွယ်ကူသော နည်းလမ်း- Android။ CENO ဘရောက်ဇာကို သင့် CENO စက်နှင့်/ သို့မဟုတ် အပိုဆောင်း အမြဲဖွင့် "
+"စက်ပေါ်တွင် လုပ်ဆောင်ပါ။"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:248-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:133-16
 msgid ""
-"﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one "
-"command you can set up a bridge on your computer or VPS."
+"﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
+"up a bridge on your computer or VPS."
 msgstr ""
-"CENO Docker လက်ခံစက်ကို လုပ်ဆောင်ပါ- တစ်နည်းအားဖြင့် သင်သည် "
-"အမိန့်ပေးခိုင်းစေမှု တစ်ခုတည်းဖြင့် သင့်ကွန်ပျူတာ သို့မဟုတ် VPS တွင် "
-"ပေါင်းကူးတစ်ခု သတ်မှတ်နိုင်သည်။"
+"CENO Docker လက်ခံစက်ကို လုပ်ဆောင်ပါ- တစ်နည်းအားဖြင့် သင်သည် အမိန့်ပေးခိုင်းစေမှု တစ်ခုတည်းဖြင့် "
+"သင့်ကွန်ပျူတာ သို့မဟုတ် VPS တွင် ပေါင်းကူးတစ်ခု သတ်မှတ်နိုင်သည်။"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:251-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:136-16
 msgid ""
-"﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or "
-"set up port forwarding."
+"﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
+"up port forwarding."
 msgstr ""
-"အင်တာနက်သို့ ပေါ်တယ်တစ်ခု ဖွင့်ပါ- သင့်ရောက်တာတွင် UPnP ကို ဖွင့်ထားကြောင်း "
-"သေချာပါစေ၊ သို့မဟုတ်ပါက ပေါ့တ် တစ်ဆင့်ပို့ခြင်းကို သတ်မှတ်ပါ။"
+"အင်တာနက်သို့ ပေါ်တယ်တစ်ခု ဖွင့်ပါ- သင့်ရောက်တာတွင် UPnP ကို ဖွင့်ထားကြောင်း သေချာပါစေ၊ သို့မဟုတ်ပါက ပေါ့တ် "
+"တစ်ဆင့်ပို့ခြင်းကို သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:254-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:139-16
 msgid ""
-"﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set "
-"the proxy to localhost, port 8077."
+"﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
+"proxy to localhost, port 8077."
 msgstr ""
-"အလုပ်လုပ်၊ မလုပ် သိရှိရန်- Firefox ပရိုဖိုင်းအသစ်တစ်ခုကို ဖန်တီးပြီး ဖွင့်ပါ၊"
-" ထို့နောက် ပရောက်စီကို စက်တွင်းဟို့စ်၊ ပေါ့တ် 8077 သို့ သတ်မှတ်ပါ။"
+"အလုပ်လုပ်၊ မလုပ် သိရှိရန်- Firefox ပရိုဖိုင်းအသစ်တစ်ခုကို ဖန်တီးပြီး ဖွင့်ပါ၊ ထို့နောက် ပရောက်စီကို စက်တွင်းဟို့စ်၊ "
+"ပေါ့တ် 8077 သို့ သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.div.div.div.img[alt]:257-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:142-16
 msgid ""
 "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
 "provided certificate to test it out!"
 msgstr ""
-"အဖွဲ့တွင် ပါဝင်သည့်အတွက် ကျေးဇူးတင်ပါသည်။ CENO ဝက်ဘ်အဆက်နှင့် ပေးထားသော "
-"အသိအမှတ်ပြုလက်မှတ်ကို ထည့်သွင်းပြီး စမ်းသုံးကြည့်ပါ။"
+"အဖွဲ့တွင် ပါဝင်သည့်အတွက် ကျေးဇူးတင်ပါသည်။ CENO ဝက်ဘ်အဆက်နှင့် ပေးထားသော အသိအမှတ်ပြုလက်မှတ်ကို ထည့်သွင်းပြီး "
+"စမ်းသုံးကြည့်ပါ။"
 
-#: help.html%2Bhtml.body.div.p:260-2
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: help.html%2Bhtml.body.main.div.p:145-2
+#, fuzzy
+#| msgid ""
+#| "To learn more about setting up a bridge, please consult the <a href="
+#| "\"https://censorship.no/user-manual/en/browser/bridging\">user manual.</a>"
 msgid ""
-"To learn more about setting up a bridge, please consult the <a href=\"https"
-"://censorship.no/user-manual/en/browser/bridging\">user manual.</a>"
+"To learn more about setting up a bridge, please consult the <a href=\"../"
+"user-manual/en/browser/bridging.html\">user manual.</a>"
 msgstr ""
-"ပေါင်းကူးတစ်ခု တည်ဆောက်ခြင်းအကြောင်း ပိုမိုလေ့လာရန် ကျေးဇူးပြု၍ <a href="
-"\"https://censorship.no/user-manual/en/browser/bridging\">သုံးစွဲသူ လက်စွဲကို"
-" ရည်ညွှန်းပါ။</a>"
+"ပေါင်းကူးတစ်ခု တည်ဆောက်ခြင်းအကြောင်း ပိုမိုလေ့လာရန် ကျေးဇူးပြု၍ <a href=\"https://censorship."
+"no/user-manual/en/browser/bridging\">သုံးစွဲသူ လက်စွဲကို ရည်ညွှန်းပါ။</a>"
 
-#: help.html%2Bhtml.body.div.h1:263-7
+#: help.html%2Bhtml.body.main.div.h1:150-6
 msgid "Translations"
 msgstr "ဘာသာပြန်ဆိုချက်များ"
 
-#: help.html%2Bhtml.body.div.p:264-2
+#: help.html%2Bhtml.body.main.div.p:151-2
 msgid ""
 "Help translate the CENO Browser app, web extension, user manual and website!"
-msgstr ""
-"CENO ဘရောက်ဇာ အက်ပ်၊ ဝက်ဘ်အဆက်၊ သုံးစွဲသူ လက်စွဲနှင့် ဝက်ဘ်ဆိုက်ကို ကူညီ "
-"ဘာသာပြန်ဆိုပါ။"
+msgstr "CENO ဘရောက်ဇာ အက်ပ်၊ ဝက်ဘ်အဆက်၊ သုံးစွဲသူ လက်စွဲနှင့် ဝက်ဘ်ဆိုက်ကို ကူညီ ဘာသာပြန်ဆိုပါ။"
 
-#: help.html%2Bhtml.body.div.p:265-2
+#: help.html%2Bhtml.body.main.div.p:152-2
 msgid "To get started:"
 msgstr "စတင်ရန်-"
 
-#: help.html%2Bhtml.body.div.p.ul.li:267-6
+#: help.html%2Bhtml.body.main.div.ol.li:154-6
 msgid ""
 "Make an account on <a href=\"https://weblate.org/\">Weblate</a> or sign in "
 "with your Github or Gitlab ID. Note: Account creation is not required, but "
 "you will only be able to suggest translations in this case."
 msgstr ""
-"<a href=\"https://weblate.org/\">Weblate</a> တွင် အကောင့်ဖွင့်ပါ သို့မဟုတ် "
-"သင်၏ Github သို့မဟုတ် Gitlab ID ဖြင့် ဆိုင်းအင်ဝင်ပါ။ မှတ်ချက်- "
-"အကောင့်ဖွင့်ရန် မလိုအပ်သော်လည်း မဖွင့်ပါက ဘာသာပြန်ဆိုချက်များကို "
-"အကြံပြုရုံသာပြုနိုင်မည်။"
+"<a href=\"https://weblate.org/\">Weblate</a> တွင် အကောင့်ဖွင့်ပါ သို့မဟုတ် သင်၏ Github "
+"သို့မဟုတ် Gitlab ID ဖြင့် ဆိုင်းအင်ဝင်ပါ။ မှတ်ချက်- အကောင့်ဖွင့်ရန် မလိုအပ်သော်လည်း မဖွင့်ပါက "
+"ဘာသာပြန်ဆိုချက်များကို အကြံပြုရုံသာပြုနိုင်မည်။"
 
-#: help.html%2Bhtml.body.div.p.ul.li:268-6
+#: help.html%2Bhtml.body.main.div.ol.li:155-6
+#, fuzzy
+#| msgid ""
+#| "Visit the <a href=\"https://hosted.weblate.org/censorship-no\">Censorship."
+#| "no project page</a> - which lists all components and their strings "
+#| "(including Android app strings, the web browser extension, the User "
+#| "Manual and the website)."
 msgid ""
-"Visit the <a href=\"https://hosted.weblate.org/censorship-no\">Censorship.no "
-"project page</a> - which lists all components and their strings (including "
-"Android app strings, the web browser extension, the User Manual and the "
-"website)."
+"Visit the <a href=\"https://hosted.weblate.org/projects/censorship-no/"
+"\">Censorship.no project page</a> - which lists all components and their "
+"strings (including Android app strings, the web browser extension, the User "
+"Manual and the website)."
 msgstr ""
 "<a href=\"https://hosted.weblate.org/censorship-no\">Censorship.no ပရောဂျက် "
-"စာမျက်နှာ</a> ကို ဝင်ကြည့်ပါ - ၎င်းတွင် အစိတ်အပိုင်းအားလုံးနှင့် (Android "
-"အက်ပ် စာကြောင်းများ၊ ဝက်ဘ်ဘရောက်ဇာ အဆက်၊ သုံးစွဲသူ လက်စွဲနှင့် ဝက်ဘ်ဆိုက် "
-"အပါအဝင်) ၎င်းတို့၏ စာကြောင်းများကို ဖော်ပြထားသည်။"
+"စာမျက်နှာ</a> ကို ဝင်ကြည့်ပါ - ၎င်းတွင် အစိတ်အပိုင်းအားလုံးနှင့် (Android အက်ပ် စာကြောင်းများ၊ "
+"ဝက်ဘ်ဘရောက်ဇာ အဆက်၊ သုံးစွဲသူ လက်စွဲနှင့် ဝက်ဘ်ဆိုက် အပါအဝင်) ၎င်းတို့၏ စာကြောင်းများကို ဖော်ပြထားသည်။"
 
-#: help.html%2Bhtml.body.div.p.ul.li:269-6
+#: help.html%2Bhtml.body.main.div.ol.li:156-6
+#, fuzzy
+#| msgid ""
+#| "On the <a href=\"https://hosted.weblate.org/censorship-no/#languages"
+#| "\">Censorship.no project page's 'Languages' tab</a>, choose the language "
+#| "you want to work on, or -- in case the language doesn't exist yet -- "
+#| "initiate a new language by selecting a component from the main project "
+#| "page and clicking on the \"Start a new translation\" button."
 msgid ""
-"On the <a href=\"https://hosted.weblate.org/censorship-no/#languages\""
-">Censorship.no project page's 'Languages' tab</a>, choose the language you "
+"On the <a href=\"https://hosted.weblate.org/projects/censorship-no/#languages"
+"\">Censorship.no project page's 'Languages' tab</a>, choose the language you "
 "want to work on, or -- in case the language doesn't exist yet -- initiate a "
 "new language by selecting a component from the main project page and "
 "clicking on the \"Start a new translation\" button."
 msgstr ""
-"<a href=\"https://hosted.weblate.org/censorship-no/#languages\""
-">Censorship.no ပရောဂျက် စာမျက်နှာ၏ 'ဘာသာစကားများ' တက်ဘ်တွင်</a> သင် "
-"လုပ်ဆောင်လိုသော ဘာသာစကားကို ရွေးချယ်ပါ သို့မဟုတ် -- ထိုဘာသာစကား မရှိသေးပါက --"
-" အဓိက ပရောဂျက် စာမျက်နှာမှ အစိတ်အပိုင်းတစ်ခုကို ရွေးချယ်ပြီး \"ဘ"
-"ာသာပြန်ဆိုချက်အသစ် စတင်မည်\" ခလုတ်ကို နှိပ်ခြင်းဖြင့် ဘာသာစကားအသစ်တစ်ခုကို "
-"စတင်ပါ။"
+"<a href=\"https://hosted.weblate.org/censorship-no/#languages\">Censorship."
+"no ပရောဂျက် စာမျက်နှာ၏ 'ဘာသာစကားများ' တက်ဘ်တွင်</a> သင် လုပ်ဆောင်လိုသော ဘာသာစကားကို "
+"ရွေးချယ်ပါ သို့မဟုတ် -- ထိုဘာသာစကား မရှိသေးပါက -- အဓိက ပရောဂျက် စာမျက်နှာမှ အစိတ်အပိုင်းတစ်ခုကို "
+"ရွေးချယ်ပြီး \"ဘာသာပြန်ဆိုချက်အသစ် စတင်မည်\" ခလုတ်ကို နှိပ်ခြင်းဖြင့် ဘာသာစကားအသစ်တစ်ခုကို စတင်ပါ။"
 
-#: help.html%2Bhtml.body.div.p.ul.li:270-6
+#: help.html%2Bhtml.body.main.div.p:157-6
 msgid ""
 "Please contact the CENO team via the contact form below if you're interested "
 "in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
-"သင်သည် သင့်ဘာသာစကား(များ) နှင့် ရေးသားထားသော ဘာသာပြန်ဆိုချက်(များ) အတွက် "
-"စစ်ဆေးသူ ဖြစ်လာရန် စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ အောက်ပါ ဆက်သွယ်ရန်ပုံစံမှတစ်ဆင့်"
-" CENO အသင်းကို ဆက်သွယ်ပါ။"
+"သင်သည် သင့်ဘာသာစကား(များ) နှင့် ရေးသားထားသော ဘာသာပြန်ဆိုချက်(များ) အတွက် စစ်ဆေးသူ ဖြစ်လာရန် "
+"စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ အောက်ပါ ဆက်သွယ်ရန်ပုံစံမှတစ်ဆင့် CENO အသင်းကို ဆက်သွယ်ပါ။"
 
-#: help.html%2Bhtml.body.div.p.ul.li:271-6
+#: help.html%2Bhtml.body.main.div.p:158-6
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
-"Weblate ကို အသုံးပြုရန် နောက်ထပ် အချက်အလက်များ သိလိုပါက <a href=\"https"
-"://docs.weblate.org/\">Weblate စာရွက်စာတမ်းကို ကြည့်ပါ။</a>"
+"Weblate ကို အသုံးပြုရန် နောက်ထပ် အချက်အလက်များ သိလိုပါက <a href=\"https://docs.weblate."
+"org/\">Weblate စာရွက်စာတမ်းကို ကြည့်ပါ။</a>"
 
-#: help.html%2Bhtml.body.div.h1:274-7
+#: help.html%2Bhtml.body.main.div.h1:160-6
 msgid "Source Code"
 msgstr "ရင်းမြစ် ကုဒ်"
 
-#: help.html%2Bhtml.body.div.p:275-2
+#: help.html%2Bhtml.body.main.div.p:161-2
 msgid ""
 "CENO is completely Free/Libre/Open Source Software. If you are interested in "
 "its source code please check the following Git repositories:"
 msgstr ""
-"CENO သည် လုံးဝ အခမဲ့/လွတ်လပ်သော/ကန့်သတ်မထားသော ရင်းမြစ် ဆော့ဖ်ဝဲ ဖြစ်သည်။ "
-"သင်သည် ၎င်း၏ ရင်းမြစ် ကုဒ်ကို စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ အောက်ပါ Git "
-"ဗဟိုသိုလှောင်ခန်းများကို စစ်ဆေးပါ-"
+"CENO သည် လုံးဝ အခမဲ့/လွတ်လပ်သော/ကန့်သတ်မထားသော ရင်းမြစ် ဆော့ဖ်ဝဲ ဖြစ်သည်။ သင်သည် ၎င်း၏ ရင်းမြစ် ကုဒ်ကို "
+"စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ အောက်ပါ Git ဗဟိုသိုလှောင်ခန်းများကို စစ်ဆေးပါ-"
 
-#: help.html%2Bhtml.body.div.p.ul.li:277-5
+#: help.html%2Bhtml.body.main.div.ul.li:163-5
 msgid ""
-"Browser components: <a href=\"https://github.com/censorship-no/ceno-browser\""
-">package builder</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
+"Browser components: <a href=\"https://github.com/censorship-no/ceno-browser"
+"\">package builder</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
 "tree/ceno\">Firefox fork</a>, <a href=\"https://github.com/censorship-no/"
 "ceno-distribution\">included extensions</a>, <a href=\"https://github.com/"
 "censorship-no/ceno-ext-settings\">settings extension source</a>"
 msgstr ""
-"ဘရောက်ဇာ အစိတ်အပိုင်းများ- <a href=\"https://github.com/censorship-no/ceno-"
-"browser\">ပက်ကေ့ချ် တည်ဆောက်စနစ်</a>၊ <a href=\"https://github.com/"
-"censorship-no/gecko-dev/tree/ceno\">Firefox အခွဲ</a>၊ <a href=\"https"
-"://github.com/censorship-no/ceno-distribution\">ပါဝင်သော အဆက်များ</a>၊ <a "
-"href=\"https://github.com/censorship-no/ceno-ext-settings\">ဆက်တင်များ အဆက် "
-"ရင်းမြစ်</a>"
+"ဘရောက်ဇာ အစိတ်အပိုင်းများ- <a href=\"https://github.com/censorship-no/ceno-browser"
+"\">ပက်ကေ့ချ် တည်ဆောက်စနစ်</a>၊ <a href=\"https://github.com/censorship-no/gecko-"
+"dev/tree/ceno\">Firefox အခွဲ</a>၊ <a href=\"https://github.com/censorship-no/"
+"ceno-distribution\">ပါဝင်သော အဆက်များ</a>၊ <a href=\"https://github.com/"
+"censorship-no/ceno-ext-settings\">ဆက်တင်များ အဆက် ရင်းမြစ်</a>"
 
-#: help.html%2Bhtml.body.div.p.ul.li:278-5
+#: help.html%2Bhtml.body.main.div.ul.li:164-5
 msgid "Ouinet source"
 msgstr "Ouinet ရင်းမြစ်"
 
-#: help.html%2Bhtml.body.div.p.ul:278-73
+#: help.html%2Bhtml.body.main.div.p:166-2
 msgid ""
-"You may also be interested in the (no longer maintained) <a href=\"https"
-"://github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</"
-"a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
-"anonymous file sharing and content publishing network. Other inactive "
-"project-related repositories can be found at the <a href=\"https://github."
-"com/censorship-no-archive\">Censorship.no! archive</a>."
+"You may also be interested in the (no longer maintained) <a href=\"https://"
+"github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</a>, "
+"built on the <a href=\"https://freenetproject.org/\">Freenet</a> anonymous "
+"file sharing and content publishing network. Other inactive project-related "
+"repositories can be found at the <a href=\"https://github.com/censorship-no-"
+"archive\">Censorship.no! archive</a>."
 msgstr ""
-"သင်သည် <a href=\"https://freenetproject.org/\">Freenet</a> အမည်မသိ "
-"ဖိုင်မျှဝေခြင်းနှင့် အကြောင်းအရာ ထုတ်ဝေခြင်း ကွန်ရက်ပေါ်တွင် တည်ဆောက်ထားသော "
-"(ပြုပြင်ထိန်းသိမ်းမထားတော့သည့်) <a href=\"https://github.com/"
-"censorship-no-archive/ceno1\">CENO ၏ ယခင် စံနမူနာ</a>ကိုလည်း "
-"စိတ်ဝင်စားနိုင်သည်။ အခြား အလုပ်မလုပ်သော ပရောဂျက်နှင့် သက်ဆိုင်သည့် "
-"ဗဟိုသိုလှောင်ခန်းများကို <a href=\"https://github.com/censorship-no-archive\""
-">Censorship.no! စုစည်းမှု</a> တွင် ရှာဖွေနိုင်သည်။"
+"သင်သည် <a href=\"https://freenetproject.org/\">Freenet</a> အမည်မသိ ဖိုင်မျှဝေခြင်းနှင့် "
+"အကြောင်းအရာ ထုတ်ဝေခြင်း ကွန်ရက်ပေါ်တွင် တည်ဆောက်ထားသော (ပြုပြင်ထိန်းသိမ်းမထားတော့သည့်) <a href="
+"\"https://github.com/censorship-no-archive/ceno1\">CENO ၏ ယခင် စံနမူနာ</a>ကိုလည်း "
+"စိတ်ဝင်စားနိုင်သည်။ အခြား အလုပ်မလုပ်သော ပရောဂျက်နှင့် သက်ဆိုင်သည့် ဗဟိုသိုလှောင်ခန်းများကို <a href="
+"\"https://github.com/censorship-no-archive\">Censorship.no! စုစည်းမှု</a> တွင် "
+"ရှာဖွေနိုင်သည်။"
 
-#: help.html%2Bhtml.body.footer.div.p:292-9
+#: help.html%2Bhtml.body.footer.div.p:181-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
-">values</a> that guide us to protect the rights and aspirations of everyone "
-"online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
 msgstr ""
 "CENO ဘရောက်ဇာသည် <a href=\"https://equalit.ie\">eQualit.ie</a> ၏ "
-"ပရောဂျက်တစ်ခုဖြစ်ပြီး ၎င်းသည် ကိုယ်ရေးလုံခြုံမှု၊ အွန်လိုင်း လုံခြုံရေးနှင့် "
-"လွတ်လပ်စွာ အချင်းအချင်း ဆက်သွယ်ခွင့်ကို အလေးထားပြီး ကန့်သတ်မထားသော၊ "
-"ပြန်လည်အသုံးပြုနိုင်သည့် စနစ်များကို တီထွင်ဖန်တီးသည့် ကနေဒါ ကုမ္ပဏီတစ်ခု "
-"ဖြစ်သည်။ နည်းပညာ ဖြေရှင်းနည်းများနှင့် ဆန်းသစ်တီထွင်မှုများကို "
-"အင်တာနက်သုံးသူတိုင်း၏ အခွင့်အရေးများနှင့် ရည်မှန်းချက်များကို ကာကွယ်ရန် "
-"ကျွန်ုပ်တို့အား လမ်းညွှန်သည့် ကျွန်ုပ်တို့၏ <a href=\"https://equalit.ie/en/"
+"ပရောဂျက်တစ်ခုဖြစ်ပြီး ၎င်းသည် ကိုယ်ရေးလုံခြုံမှု၊ အွန်လိုင်း လုံခြုံရေးနှင့် လွတ်လပ်စွာ အချင်းအချင်း ဆက်သွယ်ခွင့်ကို "
+"အလေးထားပြီး ကန့်သတ်မထားသော၊ ပြန်လည်အသုံးပြုနိုင်သည့် စနစ်များကို တီထွင်ဖန်တီးသည့် ကနေဒါ ကုမ္ပဏီတစ်ခု "
+"ဖြစ်သည်။ နည်းပညာ ဖြေရှင်းနည်းများနှင့် ဆန်းသစ်တီထွင်မှုများကို အင်တာနက်သုံးသူတိုင်း၏ အခွင့်အရေးများနှင့် "
+"ရည်မှန်းချက်များကို ကာကွယ်ရန် ကျွန်ုပ်တို့အား လမ်းညွှန်သည့် ကျွန်ုပ်တို့၏ <a href=\"https://equalit.ie/en/"
 "values/\">တန်ဖိုးများ</a>က လှုံ့ဆော်သည်။"
 
-#: help.html%2Bhtml.body.footer:294-23
+#: help.html%2Bhtml.body.footer:183-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! ၂၀၁၈<script>new Date().getFullYear()>၂၀၁၈&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! ၂၀၁၈<script>new Date().getFullYear()>၂၀၁၈&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "help.html+html.body.div.h1:236-5"
+#~ msgid "Get Involved!"
+#~ msgstr "ပါဝင် ပတ်သက်ပါ။"
