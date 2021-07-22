@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="fa" class="light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>شناسایی و رفع اشکال - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body dir="rtl" class="sidebar-visible no-js">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var body = document.querySelector('body');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> وینت چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از سنو/وینت</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از سنو/وینت</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگر سنو</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب سنو</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> تنظیمات سنو</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html" class="active"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="شناسایی-و-رفع-ایرادها"><a class="header" href="#شناسایی-و-رفع-ایرادها">شناسایی و رفع ایرادها</a></h1>
+<p>این بخش سرنخ‌هایی را به شما در این‌باره ارائه خواهد داد که چه باید کرد وقتی مشکلات مختلف و معین با سنو و وینت سربرمی‌آورند. لطفاً به یاد داشته باشید که این‌ها پروژه‌هایی آزمایشی‌اند، و این‌که عملکردشان تابع کثرتی از عوامل فراسوی کنترل ماست، مثل تنظیمات خاص و جایگاه زیرساخت شبکه، و نیز این‌که چه محتوایی را کاربران دیگر بازیابی کرده‌اند و ویژگی‌های سرشت‌نمای ارتباطات و اتصالات آن‌ها.</p>
+<p>اگر مشکلات هنوز پابرجا بودند، لطفاً آن‌ها را به نشانی <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> گزارش کنید. ما تلاش خواهیم کرد تا در حل آن‌ها به شما یاری رسانیم.</p>
+<h2 id="در-منوی-نرمافزار-مدخل-سنو-وجود-ندارد"><a class="header" href="#در-منوی-نرمافزار-مدخل-سنو-وجود-ندارد">در منوی نرم‌افزار مدخل سنو وجود ندارد</a></h2>
+<p>افزونه‌ی سنو شاید هنوز در حال بارگذاری باشد. لطفاً بردبار باشید.</p>
+<h2 id="همهی-ابزارکها-در-صفحهی-تنظیمات-سنو-طوسی-شدهاند"><a class="header" href="#همهی-ابزارکها-در-صفحهی-تنظیمات-سنو-طوسی-شدهاند">همه‌ی ابزارک‌ها در صفحه‌ی <em>تنظیمات سنو</em> طوسی شده‌اند</a></h2>
+<p>افزونه‌ی سنو بارگذاری شده است، اما هنوز نتوانسته جایگاه و شأن‌اش را از وینت بازیابی کند. از آن‌جا که این آماده‌شدن یرای وینت شاید دیری به طول انجامد، لطفاً بردبار باشید.</p>
+<p>اگر صفحه‌ی تنظیمات بعد از بیش از دو دقیقه همین‌طور باقی می‌ماند، احتمال دارد که وینت هنگام آغاز به کار دچار مشکلی شده باشد.</p>
+<p>سعی کنید از صفحه‌ای بازدید کنید، در صورت امکان صفحه‌ای که معمولاً در دسترس است. اگر پیغام خطایی مثل «بازیابیِ منبع ناموفق بود (پس از تلاش برای انجام همه‌ی سازوکارهای تنظیم‌شده)» دریافت کردید، سنو شاید در رابطه با اتصال عمومی دچار مشکلاتی شود (مثل ناتوانی در پیوستن به شبکه‌ی بیت‌تورنت). اگر از اتصال به اینترنت همراه استفاده می‌کنید، این بار با وای‌فای از نو تلاش کنید.</p>
+<p>اگر پیغام خطایی مانند «سرور پروکسی اتصال‌ها را نمی‌پذیرد» را در هنگام بازدید از صفحه دریافت کردید، سعی کنید نرم‌افزارهای دیگری را که خدمات مشابهی به دستگاه‌تان ارائه می‌دهند متوقف کنید، و سپس سنو را از نو راه‌اندازی کنید.</p>
+<blockquote>
+<p><strong>نکته‌ی فنی:</strong> اگر نرم‌افزار دیگری از قبل در حال شنود درگاه‌های TCP یعنی <code>127.0.0.1:8077</code> یا <code>127.0.0.1:8078</code> باشد ممکن است این اتفاق بیفتد.</p>
+</blockquote>
+<h2 id="دسترسی-به-محتوایی-خاص-پیغام-بازیابی-منبع-ناموفق-بود-را-نشان-میدهد"><a class="header" href="#دسترسی-به-محتوایی-خاص-پیغام-بازیابی-منبع-ناموفق-بود-را-نشان-میدهد">دسترسی به محتوایی خاص پیغام «بازیابی منبع ناموفق بود» را نشان می‌دهد</a></h2>
+<p>این یعنی سنو تمام سازوکارهای موجود برای دسترسی به آن محتوا را امتحان کرده است، اما هیچ‌یک از آن‌ها موفق نبوده‌اند.</p>
+<p>برای آن‌که سنو درست کار کند باید مطمئن شوید که این پیش‌نیازها برآورده شده‌اند:</p>
+<ul>
+<li>شما نسخه‌ای جدید از مرورگر سنو را اجرا می‌کنید. نسخه‌های منسوخ قدیمی چه‌بسا نتوانند با انژکتورهای جدیدتر یا سایر سرویس‌گیرندگان ارتباط برقرار کنند. برای اطلاع از چگونگی دریافت نسخه‌های جدید به <a href="install.html">راهنمای نصب</a> نگاه کنید.</li>
+<li>تمام سازوکارهای دسترسی در <a href="settings.html">صفحه‌ی تنظیمات</a> فعال شده و به کار افتاده‌اند. در غیر این صورت سنو نخواهد توانست برخی مشکلات مربوط به اتصال را در هنگام دسترسی به محتوا دور بزند.</li>
+<li>دستگاه شما یک ارتباط کارآ با شبکه دارد، یعنی مرورگر وب معمولی شما می‌تواند برخی از وب‌سایت‌ها را باز کند. سنو و وینت نمی‌توانند در حالتی کار کنند که اتصال شبکه به‌تمامی قطع شده باشد (هرچند کاربران باز شاید بتوانند یک نقطه‌ی دسترسی مشترک وای‌فای برای اشتراک‌گذاری دستگاه‌-به‌-دستگاه بیابند).</li>
+</ul>
+<p>اگر مسئله این است، بد نیست توضیح دهیم که چه اتفاقی ممکن است بیفتد که باعث شود تمام سازوکارهای دسترسی ناکام بمانند، تا شما بتوانید تصوری از فرصت‌هایی پیدا کنید که برای دریافت محتوا با استفاده از سنو دارید.</p>
+<h3 id="دسترسی-به-اصل"><a class="header" href="#دسترسی-به-اصل">دسترسی به اصل</a></h3>
+<p>مرورگر سنوی شما نمی‌تواند مستقیماً به سرور اصلی محتوا دست پیدا کند. خواه خود سرور دچار مشکلاتی شود (مثلاً سرور پایین آمده یا مورد هجوم قرار گرفته باشد)، خواه کسی در اتصال شما به آن اخلال ایجاد کند.</p>
+<p>این مورد کاربرد اصلی برای سنو است و سازوکارهای دیگر باید آن را جبران کنند.</p>
+<h3 id="دسترسی-به-پروکسیانژکتور"><a class="header" href="#دسترسی-به-پروکسیانژکتور">دسترسی به پروکسی/انژکتور</a></h3>
+<p>کسی در حال ایجاد اخلال با اتصال شما به نشانی‌های اینترنتی در انبوهه‌ی تزریق‌کننده است. از آن‌جا که از این پیشامد سرانجام به‌عنوان سنو (و وینت) توقع جذابیت و کشش می‌رود، سنو به دستیابی به تزریق‌کننده‌ها از طریق سرویس‌گیرندگان دیگری پناه می‌برد که همچون پل‌هایی عمل می‌کنند.</p>
+<p>دلایل متفاوتی برای ناتوانی سنو در دستیابی به چنین سرویس‌گیرندگانی وجود دارند:</p>
+<ul>
+<li>
+<p>هیچ سرویس‌گیرنده‌ی دیگری توسط شما دسترس‌پذیر نیست. اگر تنها چند سرویس‌گیرنده‌ی وینت آنلاین باشند، این به‌تمامی ممکن است که هیچ‌یک از آن‌ها در شبکه‌ای نباشند که به آن اجازه دهد تا از بیرون دست‌یافتنی باشد. با محبوب‌شدن و پرطرفدارشدن سنو و وینت و آنلاین‌شدن سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از احتمال این پیشامد کاسته شود.مورد افراطی در این‌جا حالتی است که اتصالات بین سرویس‌گیرندگان وینت به‌وسیله‌ی یک سنسور تشخیص داده شوند و مسدود گردند. این کاملاً نامحتمل است (چون این می‌تواند انسداد کل ترافیک بیت‌تورنت را در پی آورد) و در حال حاضر فراسوی آن حدی است که وینت پشتیبانی‌اش می‌کند، اما ما بنا داریم آن را در برابر این حمله‌ها مقاوم‌تر سازیم.</p>
+</li>
+<li>
+<p>هیچ سرویس‌گیرنده‌ی دیگری نمی‌تواند به یک انژکتور دسترسی پیدا کند. از آن‌جا که بعید است که تمام انژکتورها همزمان از کار بیفتند، که شاید به این معنا باشد که شما فقط می‌توانید به گروهی از سرویس‌گیرندگان وینت دسترسی پیدا کنید که خودشان تحت تأثیر اختلالی در شبکه مشابه اختلال شما باشند.این می‌تواند هنگامی پیش آید که تمام ترافیک در حال خروج از کشور یا در حال ورود به کشور محل سکونت‌تان قطع گردد. سنو در این مورد به گرفتن و به‌کاربردن محتوا از انبار توزیع‌شده پناه می‌جوید، حتی اگر این انبار کهنه باشد.</p>
+</li>
+</ul>
+<p>یک بار دیگر، همان‌طور که سنو و وینت محبوب‌تر می‌شوند، این شانس‌ها افزایش می‌یابند که دست‌کم چند سرویس‌گیرنده در میان باشند که از نوعی دسترسی به سایت‌های بین‌المللی برخوردار باشند. حتی اگر دسترسی مشروط باشد، یک سرویس‌گیرنده‌ی واحد وینت که قادر به تزریق محتوایی به‌درون کشور است برای تواناساختن آن به گسترش (روی انبار توزیع‌شده) بدون هیچ نیاز دیگر به دسترسی به جهان بیرونی کفایت خواهد کرد.</p>
+<p>سرانجام، ما برخی سرویس‌گیرندگان وینت را با اتصال خوبی در کشورهای عاری از سانسور (امیدواریم) تلاش می‌کنند از این دو وضعیت اجتناب کنند، اما لطفاً دقت کنید که سرویس‌گیرندگان با چنین نشانی‌های اینترنتی باثباتی بتوانند مسدود هم شوند.</p>
+<h3 id="انبار-توزیعشده"><a class="header" href="#انبار-توزیعشده">انبار توزیع‌شده</a></h3>
+<p>به خاطر داشته باشید که یک پیش‌نیاز مطلق برای تواناشدن به بازیابی هر محتوا از انبار توزیع‌شده این است که این پیشاپیش به‌وسیله‌ی یک کاربر دیگر سنو یا وینت تزریق شده است. این به معنای آن است که محتوای پرطرفدار به احتمال قوی سرانجام به سیاقی طبیعی تزریق می‌شود و بازساخته می‌شود، در حالی که محتوای مبهم‌تر کم‌تر چنین است، مگر آن‌که کسی مراقب استفاده از سنو یا سرویس‌گیرنده‌ی دیگری از وینت باشد تا آن را تزریق کند و به بذرپاشی‌اش ادامه دهد (که شاید آن‌ها را هرچه بیشتر در معرض <a href="../concepts/risks.html">خطرات</a> قرار دهد).</p>
+<p>لطفاً توجه کنید که محتوایی که برای اشتراک‌گذاری امن قلمداد نمی‌شود هرگز تزریق نخواهد شد، صرف‌نظر از این‌که چند نفر با استفاده از مرور عمومی آن را بازیابی کنند. این شامل محتوای علامت‌گذاری‌شده به‌عنوان محتوای خصوصی از سوی سرور اصلی است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی نرم‌افزارهای پویای وب مبادله می‌شود.</p>
+<p>همچنین توجه کنید که سرویس‌گیرندگان دارای نسخه‌هایی از محتوای تزریق‌شده لازم است در دسترس شما باقی بمانند. همین ملاحظات توصیف‌شده در نکته‌ی پیشین برای دستیابی به سرویس‌گیرندگان پل در این‌جا نیز مصداق دارند.</p>
+<h2 id="دیگران-نمیتوانند-محتوای-بذرپاشیشده-توسط-دستگاه-مرا-بازیابی-کنند"><a class="header" href="#دیگران-نمیتوانند-محتوای-بذرپاشیشده-توسط-دستگاه-مرا-بازیابی-کنند">دیگران نمی‌توانند محتوای بذرپاشی‌شده توسط دستگاه مرا بازیابی کنند</a></h2>
+<p>نخست، با رفتن به <a href="settings.html">صفحه‌ی <em>تنظیمات سنو</em></a> مطمئن شوید که دستگاه‌تان هنوز محتوا را بذرپاشی می‌کند، فقط چک‌باکس منبع <em>به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو</em> را چک‌خورده رها کنید، سپس دوباره به آن محتوا دسترسی پیدا کنید: این محتوا بایستی بارگذاری شود (دست‌کم بخش‌هایی از آن باید بارگذاری شوند)، و علامت مستطیل نشانی سنو را فقط در صورتی زور کند که ارزش‌های غیر-صفر ذیل <em>به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو</em> یا <em>به‌اشتراک‌گذاشته‌شده توسط شما</em> نمایش داده شوند.</p>
+<p>اگر محتوا بارگذاری نشود، می‌تواند به این علت باشد که سنو پیشاپیش آن را حذف کرده است، چون سنو به‌طور خودکار محتوای کهنه (به‌طور پیش‌فرض هر محتوای قدیمی‌تر از یک هفته) را از روی انبار محلی شما پاک می‌کند. منبع <em>از طریق شبکه‌ی (عمومی) سنو</em> را در صفحه‌ی تنظیمات فعال کنید و دوباره به همان محتوا دسترسی پیدا کنید. لطفاً اجازه بدهید چند دقیقه بگذرد تا دستگاه وجود محتوا را در نمایه‌ی انبار توزیع‌شده اعلام نماید. جعبه‌ی <em>به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو</em> را تنها جعبه‌ی علامت‌خورده کنید و یک بار دیگر به محتوا دسترسی پیدا کنید؛ اگر باز هم بارگذاری نشد، شاید این به این دلیل باشد که آن محتوای خاص برای اشتراک‌گذاری از سوی وینت امن انگاشته نمی‌شود.</p>
+<p>اگر مراحل قبلی جواب داد، اما دستگاه دیگری با تنها منبع <em>به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو</em> فعال شده اما پیغام «بازیابی منبع ناموفق بود...» را نشان می‌دهد، دو سناریوی ممکن وجود دارند. اگر هردو دستگاه در یک شبکه باشند (مثلاً یک نقطه‌ی دسترسی وای‌فای مشترک)، این می‌تواند به این دلیل باشد که شبکه اجازه‌ی ارتباط مستقیم بین دستگاه‌های متصل به آن را مجاز نمی‌دهد. این اتفاق در برخی از شبکه‌های وای‌فای عمومی می‌افتد، بنابراین سعی کنید از مرور حالت خصوصی استفاده کنید.</p>
+<p>اگر دستگاه‌ها در شبکه‌های مختلف بودند، این می‌تواند به دلیل طیفی گوناگون از علت‌ها باشد. یکی از این علت‌ها این است که شبکه‌ی نخستین دستگاه اجازه‌ی ورود اتصال‌های ورودی را نمی‌دهد: اگر صفحه‌ی <em>تنظیمات سنو</em> را باز کنید، ذیل <em>وضعیت دسترس‌پذیری</em> باید بگوید <em>دسترس‌پذیر</em> یا <em>احتمالاً دسترس‌پذیر</em>. در غیر این صورت بذرپاشی چه‌بسا از آن شبکه چنان‌که هست ممکن نباشد.</p>
+<blockquote>
+<p><strong>نکته‌ی فنی:</strong> اگر دستگاه‌تان در مورد دسترس‌پذیری وضعیت <em>تصمیم‌ناپذیر</em>ی را گزارش می‌کند و شما می‌توانید تنظیم نقطه‌ی دسترسی را تغییر دهید، می‌توانید یک درگاه دائم به‌روی قواعد پیش‌برنده به‌سوی سرویس‌گیرنده‌تان بسازید. برای راهنمایی‌های بیشتر <a href="bridging.html">این‌جا</a> را ببینید.</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../browser/bridging.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../client/front-end.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../browser/bridging.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../client/front-end.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
