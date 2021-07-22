@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="sidebar-visible no-js light">
+<html lang="es" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -148,7 +149,7 @@
                     <main>
                         <h1 id="usando-navegación-pública-o-privada"><a class="header" href="#usando-navegación-pública-o-privada">Usando navegación pública o privada</a></h1>
 <p>Como se describió <a href="../concepts/public-private.html">en una sección previa</a>, CENO tiene dos modos diferentes de operación dependiendo de si quieres compartir el contenido por el que navegas con otros (navegación pública) o no (navegación privada).</p>
-<p>Esta configuración se aplica <em>a cada pestaña</em> que abres en el navegador, esto es, puedes tener pestañas de navegación pública y de navegación privada. Lo predeterminado en CENO cada vez que lo inicias o abres una nueva pestaña (usando <em>Nueva pestaña</em> en el menú principal de la aplicación) es usar navegación pública. Para abrir una nueva pestaña en modo de navegación privado, solo elige <em>Nueva pestaña privada</em> en el menú principal.</p>
+<p>Esta configuración se aplica <em>a cada pestaña</em> que abres en el navegador, por ejemplo, puedes tener pestañas de navegación pública y de navegación privada. Lo predeterminado en CENO cada vez que lo inicias o abres una nueva pestaña (usando <em>Nueva pestaña</em> en el menú principal de la aplicación) es usar navegación pública. Para abrir una nueva pestaña en modo de navegación privada, solo elige <em>Nueva pestaña privada</em> en el menú principal.</p>
 <p>Puedes diferenciar a las pestañas públicas de las privadas porque las públicas tienen una barra de herramientas más clara (o blanca):</p>
 <p><img src="images/public-tab.png" alt="Figura: Una pestaña de navegación pública" /></p>
 <p>En contraste, las pestañas privadas tienen una barra de herramientas más oscura:</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="sidebar-visible no-js light">
+<html lang="es" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -155,28 +156,28 @@
 </ul>
 <p>CENO <em>no requiere permisos especiales</em> para ejecutarse.</p>
 <blockquote>
-<p><strong>Advertencia:</strong> Por favor sé <em>extremadamente escéptico</em> al instalar el Navegador CENO desde otras fuentes que no sean las listadas arriba. Debido a la naturaleza de la aplicación, sus usuarios potenciales podrían tornarse en el blanco de todas clases de versiones falsas o manipuladas, usadas para violar la privacidad del usuario o atacar a otros usuarios de CENO y Ouinet. Ante la duda, por favor contacta a <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> antes de instalar una aplicación sospechosa.</p>
+<p><strong>Advertencia:</strong> Por favor sé <em>extremadamente escéptico</em> al instalar el Navegador CENO desde otras fuentes que no sean las listadas arriba. Debido a la naturaleza de la aplicación, sus usuarios potenciales podrían tornarse en el blanco de toda clase de versiones falsas o manipuladas, usadas para violar la privacidad del usuario o atacar a otros usuarios de CENO y Ouinet. Ante la duda, por favor contacta a <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> antes de instalar una aplicación sospechosa.</p>
 </blockquote>
-<p>When you run CENO for the first time, you will be presented with a series of screens introducing some features generic to Firefox browsers. Just scroll through them by pressing <em>NEXT</em> until you see a <em>Sign in to Sync</em> button and a <em>START BROWSING</em> link. Firefox Sync has not been tested to work with CENO, so just push <em>START BROWSING</em>.</p>
-<h2 id="stopping-ceno-completely"><a class="header" href="#stopping-ceno-completely">Stopping CENO completely</a></h2>
-<p>Every time you start the app, a CENO icon will appear on your device's notification bar. This icon represents the <em>CENO Browser service</em>, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.</p>
-<p>Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger). Tapping on the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).</p>
-<p><img src="images/tap-stop.png" alt="Figure: Tap on the notification to stop the CENO service" /></p>
-<h2 id="purging-all-ceno-data-the-panic-button"><a class="header" href="#purging-all-ceno-data-the-panic-button">Purging all CENO data (the &quot;panic button&quot;)</a></h2>
-<p>The <em>CENO Browser service</em> notification shown above includes a few accompanying actions which can be triggered by tapping on them. The <em>Home</em> action will just open CENO with a new public browsing tab showing its home page. The <em>Erase</em> action demands more explanation.</p>
+<p>Cuando ejecutas CENO por primera vez, te será presentada una serie de pantallas introduciendo algunas características genéricas de los navegadores Firefox. Solo pásalas presionando <em>SIGUIENTE</em> hasta que veas un botón <em>Registrarse en Sync</em> y un vínculo <em>INICIAR NAVEGACIÓN</em>. Firefox Sync no ha sido probado para funcionar con CENO, por lo que solo presiona <em>INICIAR NAVEGACIÓN</em>.</p>
+<h2 id="deteniendo-ceno-completamente"><a class="header" href="#deteniendo-ceno-completamente">Deteniendo CENO completamente</a></h2>
+<p>Cada vez que inicies la aplicación, un ícono de CENO aparecerá en la barra de notificaciones de tu dispositivo. Este ícono representa al <em>servicio del Navegador CENO</em>, que es la parte de CENO que se ejecuta permanentemente (aún cuando no estés navegando), y les permite a otros clientes usar a tu dispositivo como puente y descargar contenido desde él en cualquier momento.</p>
+<p>Ya que ejecutar tal servicio usa recursos de red y procesador, podrías querer detenerlo cada vez que estés desplazándote (esto es, no conectado al Wi-Fi o lejos de un cargador). Pulsando sobre la notificación adjunta al ícono detendrá tanto a CENO como a su servicio al mismo tiempo (hasta que abras CENO de nuevo).</p>
+<p><img src="images/tap-stop.png" alt="Figura: Pulsar sobre la notificación para detener el servicio CENO" /></p>
+<h2 id="purgando-todos-los-datos-en-ceno-el-botón-de-pánico"><a class="header" href="#purgando-todos-los-datos-en-ceno-el-botón-de-pánico">Purgando todos los datos en CENO (el &quot;botón de pánico&quot;)</a></h2>
+<p>La notificación <em>servicio del Navegador CENO</em> mostrada arriba incluye unas pocas acciones de acompañamiento que pueden ser desencadenadas pulsando sobre ellas. La acción <em>Inicio</em> solo abrirá a CENO con una nueva pestaña de navegación pública mostrando su página de inicio. La acción <em>Borrar</em> demanda más explicación.</p>
 <blockquote>
-<p><strong>Note:</strong> If the actions below the notification are not visible, drag the notification from its center towards the bottom to unfold it.</p>
+<p><strong>Nota:</strong> Si las acciones debajo de la notificación no son visibles, arrastra la notificación desde su centro hacia el fondo para desplegarla.</p>
 </blockquote>
-<p>Shall you ever need to quickly stop CENO and clear absolutely all data related to it (not only cached content, but also settings like favorites, passwords and all browsing history), you can tap on <em>Erase</em>. To avoid losing your data accidentally, this will not remove anything yet, but just show an additional action for a brief moment, as pictured below:</p>
-<p><img src="images/tap-purge.png" alt="Figure: The last action stops CENO and clears all its data" /></p>
-<p>If you tap on the <em>Yes</em> action, CENO will be stopped and all its data removed <em>without further questions</em>, effectively leaving your device as if CENO had never been used.</p>
-<p>If you do not tap on the action, it will go away in a few seconds.</p>
+<p>Si alguna vez necesitaras detener CENO rápidamente y limpiar absolutamente todos los datos relacionados con él (no solamente el contenido cacheado, sino también configuraciones como favoritos, contraseñas y todo el historial de navegación), puedes pulsar sobre <em>Borrar</em>. Para evitar perder tus datos accidentalmente, esto aún no removerá nada, solo te mostrará una acción adicional por un breve momento, como se ilustra abajo:</p>
+<p><img src="images/tap-purge.png" alt="Figura: La última acción detiene CENO y limpia todos sus datos" /></p>
+<p>Si pulsas sobre la acción <em>Sí</em>, CENO será detenido y todos sus datos removidos <em>sin preguntas ulteriores</em>, dejando efectivamente tu dispositivo como si CENO nunca hubiese sido usado.</p>
+<p>Si no pulsas sobre la acción, desaparecerá en unos pocos segundos.</p>
 <blockquote>
-<p><strong>Note:</strong> The method described above requires that CENO be running on your device. To accomplish the same effect when CENO is stopped, you can use Android's general <em>Settings</em> page and, under the <em>Apps</em> entry, choose CENO and then <em>Clear data</em>.</p>
-<p>As a harsher alternative, you may completely uninstall the app.</p>
+<p><strong>Nota:</strong> El método descrito arriba requiere que CENO esté ejecutándose en tu dispositivo. Para lograr el mismo efecto cuando CENO está detenido, puedes usar la página general de <em>Configuraciones</em> de Android y, bajo la entrada <em>Aplicaciones</em>, elegir CENO y luego <em>Limpiar datos</em>.</p>
+<p>Como alternativa más drástica, podrías desinstalar la aplicación completamente.</p>
 </blockquote>
 <blockquote>
-<p><strong>Warning:</strong> Android may still keep other traces of having used an app besides its data, for instance in its system log.</p>
+<p><strong>Advertencia:</strong> Android aún podría mantener otras rastros de haber usado una aplicación además de sus datos, por ejemplo, en su registro del sistema.</p>
 </blockquote>
 
                     </main>

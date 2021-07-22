@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="sidebar-visible no-js light">
+<html lang="es" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -147,10 +148,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introducción"><a class="header" href="#introducción">Introducción</a></h1>
-<p>Internet y la World Wide Web se han vuelto más y más importantes para las personas alrededor del mundo como fuentes de todas clases de información, y una manera de ejercer derechos fundamentales. Al mismo tiempo, los años recientes han visto un incremento en todas clases de censura de red y otros tipos de interferencia de red (mira los informes de <a href="https://ooni.org/reports/" title="Observatorio Abierto de Interferencia de Red – Reportes de Investigación">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Publicaciones Magma">Magma</a>, <a href="https://censoredplanet.org/reports" title="Planeta Censurado – Reportes">Censored Planet</a>), tanto desde actores privados como estatales.</p>
-<p>La Web cuenta con que tus dispositivos sean capaces de alcanzar computadoras especiales llamadas <em>servidores web</em> (administrados por creadores de contenido, publicadores o proveedores de servicio de Internet) que tienen el contenido que deseas descargar, y hacer eso en una forma sincronizada - más parecido a tener una charla en vivo sobre el teléfono que a intercambiar algunas cartas. Desafortunadamente, esto requiere que el servidor web que necesitas esté conectado a la red y tenga suficientes recursos disponibles para hablarle a tu dispositivo en ese momento.</p>
-<p>El advenimiento de <em>redes de entrega de contenido</em> (o CDNs, como las comerciales Akamai y Cloudflare, o la orientada a la sociedad civil Deflect) han tomado algo de la carga de estos servidores web distribuyendo copias del contenido a centros de datos de alrededor del mundo, de manera que pueda estar más cercano a tus dispositivos y de esa manera ser más rápido de alcanzar, mientras que mantiene a los servidores de origen protegidos del acceso directo. Sin embargo, en la actualidad, los servidores CDN (y de esa forma las organizaciones que los administran) necesitan que se confíe en ellos tanto por el servidor de origen como por tus dispositivos, y también necesitan ser alcanzables en todo momento.</p>
-<p>De nuevo desafortunadamente, hay situaciones en las cuales la conectividad general es escasa (en países subdesarrollados o regiones con poca cobertura, empobrecidas o rurales), cara (con algunos países cobrando más por tráfico internacional) o ha sido bloqueada activamente por un jugador estatal (explícitamente o como resultado de un apagón general). En estos casos, alcanzar a los servidores web de origen o incluso a los servidores CDN es dificultoso o imposible, y tu dispositivo no será capaz de obtener ese contenido - aún si de alguna forma fue capaz de accederlo unas pocas horas atrás y estamos viviendo separados por unas calles.</p>
+<p>Internet y la World Wide Web se han vuelto más y más importantes para las personas alrededor del mundo como fuentes de todo tipo de información, y una manera de ejercer derechos fundamentales. Al mismo tiempo, los años recientes han visto un incremento en toda clase de censura de red y otros tipos de interferencia de red (mira los informes de <a href="https://ooni.org/reports/" title="Observatorio Abierto de Interferencia de Red – Reportes de Investigación">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Publicaciones Magma">Magma</a>, <a href="https://censoredplanet.org/reports" title="Planeta Censurado – Reportes">Censored Planet</a>), tanto desde actores privados como estatales.</p>
+<p>La Web cuenta con que tus dispositivos sean capaces de alcanzar computadoras especiales llamadas <em>servidores web</em> (administrados por creadores de contenido, publicadores o proveedores de servicio de Internet) que tienen el contenido que deseas buscar, y hacerlo en una forma sincronizada - más parecido a tener una charla en vivo por teléfono que a intercambiar algunas cartas. Desafortunadamente, esto requiere que el servidor web que necesitas esté conectado a la red y tenga suficientes recursos disponibles para hablarle a tu dispositivo en ese momento.</p>
+<p>El advenimiento de <em>redes de entrega de contenido</em> (o CDNs, como las comerciales Akamai y Cloudflare, o la orientada a la sociedad civil Deflect) han tomado algo de la carga de estos servidores web distribuyendo copias del contenido a centros de datos de alrededor del mundo, de manera que pueda estar más cercano a tus dispositivos y de esa manera ser más rápido de alcanzar, mientras que mantienen los servidores de origen protegidos del acceso directo. Sin embargo, en la actualidad, los servidores CDN (y por lo tanto las organizaciones que los administran) necesitan que se confíe en ellos tanto por el servidor de origen como por tus dispositivos, y también necesitan ser alcanzables en todo momento.</p>
+<p>De nuevo, desafortunadamente, hay situaciones en las cuales la conectividad general es escasa (en países subdesarrollados o regiones con poca cobertura, empobrecidas o rurales), cara (con algunos países cobrando más por tráfico internacional) o ha sido bloqueada activamente por un jugador estatal (explícitamente o como resultado de un apagón general). En estos casos, alcanzar a los servidores web de origen o incluso a los servidores CDN es dificultoso o imposible, y tu dispositivo no será capaz de obtener ese contenido - aún si de alguna forma fue capaz de accederlo unas pocas horas atrás y estamos viviendo separados por algunas calles.</p>
 <p>Aquí es donde el Navegador CENO y Ouinet entran en juego. Este capítulo te introducirá a ellos.</p>
 
                     </main>

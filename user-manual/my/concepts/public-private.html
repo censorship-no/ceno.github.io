@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="my" class="sidebar-visible no-js light">
+<html lang="my" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -171,7 +172,7 @@
 <p>သီးသန့်မုဒ် သုံးနေစဉ်-</p>
 <ol>
 <li>နိုင်ငံတကာ ချိတ်ဆက်မှု နည်းလွန်းလျှင် သင်သည် ပိတ်ဆို့ထားသော ဝက်ဘ် အကြောင်းအရာကို ဝင်ရောက်သုံးစွဲနိုင်မည် မဟုတ်ပါ။ သင် သုံးစွဲနိုင်သည့်တိုင်အောင် အခြား CENO သုံးစွဲသူများသည် ထိုအကြောင်းအရာကို သင့်ထံမှ ရရှိမည် မဟုတ်ပါ။</li>
-<li>ပြောင်းလဲနေသော အကြောင်းအရာ ပါဝင်သည့် စာမျက်နှာများသည် အလုပ်လုပ်ကောင်းလုပ်နိုင်သည်။</li>
+<li>ပြောင်းလဲနေသော အကြောင်းအရာ ပါဝင်သည့် စာမျက်နှာများသည် အလုပ်လုပ်ကောင်း လုပ်နိုင်သည်။</li>
 <li>စစ်မှန်ကြောင်း အတည်ပြုရန် လိုအပ်သော စာမျက်နှာများသည် အလုပ်လုပ်နိုင်သည် (သင်၏ ချိတ်ဆက်မှုကို HTTPS က ကာကွယ်ထားချိန်တွင် ထိုးသွင်းဖိုင်သည် သင့်စကားဝှက်များကို မမြင်ရပါ)။</li>
 <li>ရှာဖွေခြင်းဆိုင်ရာ လှုပ်ရှားမှုသည် အခြားသုံးစွဲသူများထံ မပေါက်ကြားပါ။</li>
 <li>ကန့်သတ်ထားသော ရှာဖွေခြင်းဆိုင်ရာ လှုပ်ရှားမှုသည် ထိုးသွင်းဖိုင်များထံ ပေါက်ကြားသည် (HTTPS သုံးလျှင် မူလ ဆာဗာ အမည် သို့မဟုတ် လိပ်စာသာ ပေါက်ကြားပါမည်)။</li>

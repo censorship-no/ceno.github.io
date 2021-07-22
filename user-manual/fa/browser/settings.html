@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="sidebar-visible no-js light">
+<html lang="fa" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body dir="rtl" class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -158,7 +159,7 @@
 <ul>
 <li><em>مستقیم از وب‌سایت</em> (یا <strong>دسترسی اصلی</strong>) به سنو امکان می‌دهد تا مستقیماً به سرور اصلی دسترسی پیدا کند پیش از آن‌که برای فعال‌سازی سایر سازوکارها در پایین دست به اقدام بزند.اگرچه این سازوکار در هر دو حالت مرور خصوصی و عمومی کار می‌کند، محتوای بدین‌سان بازیافته نمی‌تواند با دیگران به اشتراک گذاشته شود.</li>
 </ul>
-<p>در موردی که دریافت بیشتر محتوای وب به‌طور خاص کند یا گران نیست، این سازوکار می‌تواند برای بیشتر موارد بیش از کافی باشد. با این حال، چنین اتصالات مستقیمی شاید به‌وسیله‌ی ارائه‌دهنده‌ی خدمات اینترنت (ISP) یا حکومت شما ردیابی شوند. غیرفعال‌کردن این گزینه می‌تواند از اتصالات این‌چنینی و ردیابی سطحی تا حدی پرهیز کند (اما نه به طور کامل. به <a href="../concepts/risks.html">خطرات</a> بنگرید).</p>
+<p>در موردی که دریافت بیشتر محتوای وب به‌طور خاص کند یا گران نیست، این سازوکار می‌تواند برای بیشتر موارد بیش از کافی باشد. با این حال، چنین اتصالات مستقیمی شاید به‌وسیله‌ی ارائه‌دهنده‌ی خدمات اینترنت (ISP) یا حکومت شما ردیابی شوند. غیرفعال‌کردن این گزینه می‌تواند از اتصالات این‌چنینی و ردیابی سطحی تا حدی پرهیز کند (اما نه به طور کامل. به <a href="/concepts/risks.html">خطرات</a> بنگرید).</p>
 <p>همچنین، هنگام دسترسی به یک وب‌سایت روی HTTP ناایمن (به جای HTTPS ایمن‌تر)، یک حسگر می‌تواند ارتباط را قطع کند و یک سایت جعلی را در اختیار کاربر می‌گذارد، یک دستکاری که سنو نمی‌تواند خودش تشخیص‌اش دهد. در چنین موردی این می‌تواند کمک کند تا این گزینه را غیرفعال کند و بدین‌سان همواره به سازوکارهای دیگر و ایمن‌تر سنو پناه برد.</p>
 <ul>
 <li><em>از طریق شبکه‌ی (خصوصی) سنو</em> (یا <strong>دسترسی پروکسی</strong>) به سنو اجازه می‌دهد تا از تزریق‌کننده‌ها به‌عنوان سرورهای پروکسی HTTP معمولی برای دستیابی به سرورهای اصلی استفاده کند.این سازوکار فقط در حالت مرور خصوصی کار می‌کند.</li>

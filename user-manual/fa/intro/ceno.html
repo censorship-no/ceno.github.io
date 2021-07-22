@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="sidebar-visible no-js light">
+<html lang="fa" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body dir="rtl" class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -149,7 +150,7 @@
                         <h1 id="مرورگر-سنو-چیست"><a class="header" href="#مرورگر-سنو-چیست">مرورگر سنو چیست؟</a></h1>
 <p>سنو (مخفف <a href="https://censorship.no">Censorship.no!</a> یا «سانسور نه!») یک مرورگر وب برای دستگاه‌های همراه اندروید (همچون تلفن‌های همراه هوشمند و تبلت‌ها) است که رویکردی نو را برای دورزدن سانسور اینترنت به کار می‌گیرد و محتوای بازیابی‌شده را در میان تمام کاربران به سیاقی <a href="https://en.wikipedia.org/wiki/Peer-to-peer">همتا-به-همتا یا P2P</a> به اشتراک می‌گذارد. این روش روی‌هم‌رفته از وابستگی به مبادلات بین‌المللی شبکه‌ای می‌کاهد، و اجازه می‌دهد محتوای پرطرفدار و مورد درخواست مکرر افراد حتی در صورت فیلترینگ شدید و رویدادهای سرکوب‌گرانه در شبکه باقی بماند.</p>
 <p>آنچه سنو را از اغلب روش‌های دیگر دورزدن جدا می‌کند این است که کاربران می‌توانند به‌اشتراک‌گذاری محتوای وب را ادامه دهند، حتی وقتی دیگر هیچ اتصالی داخل مرزهای ملی وجود ندارد (یا اتصال بسیار محدود است). بنابراین، سنو برای مقابله با فیلترینگ شدید اینترنت و برقراری <a href="https://en.wikipedia.org/wiki/National_intranet">اینترانت‌های ملی</a> به‌منظور محدودکردن دسترسی ملت‌ها به وب ساخته شده است.</p>
-<p>مرورگر سنو بر اساس نسخه‌ای برگرفته از <a href="https://www.mozilla.org/firefox/android/">فایرفاکس برای اندروید</a> ساخته شده است، که یک مرورگر رایگان/آزاد/متن‌باز پرطرفدار، مدرن، سرشار از امکانات و امن است. سنو فایرفاکس را با <strong>وینت</strong> گسترش می‌دهد، فناوری زیربنایی که به آن اجازه می‌دهد تا بین دستگاه‌ها محتوا به اشتراک بگذارد (در بخش‌های بعدی این فرایند را توضیح می‌دهیم).</p>
+<p>مرورگر سنو بر اساس نسخه‌ای برگرفته از <a href="https://www.mozilla.org/firefox/android">فایرفاکس برای اندروید</a> ساخته شده است، که یک مرورگر رایگان/آزاد/متن‌باز پرطرفدار، مدرن، سرشار از امکانات و امن است. سنو فایرفاکس را با <strong>وینت</strong> گسترش می‌دهد، فناوری زیربنایی که به آن اجازه می‌دهد تا بین دستگاه‌ها محتوا به اشتراک بگذارد (در بخش‌های بعدی این فرایند را توضیح می‌دهیم).</p>
 <h2 id="چهکسی-سنو-را-توسعه-میدهد"><a class="header" href="#چهکسی-سنو-را-توسعه-میدهد">چه‌کسی سنو را توسعه می‌دهد؟</a></h2>
 <p>پروژه‌ی <em>Censorship.no!</em> توسط <a href="https://equalit.ie/">eQualitie</a> &quot;ر پشتیبانی از بندهای ۱۸، ۱۹ و ۲۰ از <a href="https://www.un.org/en/universal-declaration-human-rights%22">اعلامیه‌ی جهانی حقوق بشر</a> اداره می‌شود. سنو و فناوری‌های مرتبط با آن به‌عنوان نرم‌افزار رایگان/آزاد/متن‌باز توسعه یافته‌اند (<a href="https://github.com/censorship-no/" title="CENO source code repositories">منبع پروژه</a>)، و به هر کسی اجازه می‌دهد تا از آن استفاده کند، آن را مطالعه کند، به اشتراک گذارد و تقویت‌اش کند. اگر تردیدی دارید یا به اطلاعات بیشتری نیاز دارید لطفاً با نشانی <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> &quot;ماس بگیرید&quot;</p>
 <h2 id="وینت-برای-چه-کسانی-است"><a class="header" href="#وینت-برای-چه-کسانی-است">وینت برای چه کسانی است؟</a></h2>

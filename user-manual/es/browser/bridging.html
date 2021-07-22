@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="sidebar-visible no-js light">
+<html lang="es" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -146,39 +147,39 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="helping-other-ceno-users-browse-the-web"><a class="header" href="#helping-other-ceno-users-browse-the-web">Helping other CENO users browse the Web</a></h1>
-<p>A peer-to-peer network is built from every node connected to it (yes, that means you as well!). The more nodes, the stronger and more versatile the network becomes. If you are running the CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a <strong>bridge</strong> node. You will then begin to route traffic between clients living in heavily censored countries and CENO injectors. You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.</p>
+                        <h1 id="ayudando-a-otros-usuarios-de-ceno-a-navegar-la-web"><a class="header" href="#ayudando-a-otros-usuarios-de-ceno-a-navegar-la-web">Ayudando a otros usuarios de CENO a navegar la Web</a></h1>
+<p>Una red par a par es construída desde cada nodo conectado a ella (sí, ¡eso significa que tú también!). A mayor cantidad de nodos, más fuerte y más versátil se torna la red. Si estás ejecutando al Navegador CENO desde un país que no censura a Internet (o no tan pesadamente como algunos), considera ayudar a otros usuarios de CENO volviéndote un nodo <strong>puente</strong>. Entonces empezarás a enrutar tráfico entre clientes viviendo en países abrumadoramente censurados e inyectores CENO. No serás capaz de ver su tráfico (será enviado a través de un túnel cifrado), y nada de este tráfico permanecerá en tu dispositivo.</p>
 <blockquote>
-<p><strong>Note:</strong> The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the <a href="../concepts/risks.html">risks</a> of serving such content to others).</p>
+<p><strong>Nota:</strong> La configuración descripta en esta sección también podría ayudar a tu dispositivo a sembrar contenido efectivamente a otros en la caché distribuída, por lo que por favor considera aplicarla también cuando uses CENO en un país censurador (pero ten en mente los <a href="../concepts/risks.html">riesgos</a> de servir tal contenido a otros).</p>
 </blockquote>
-<h2 id="how-to-become-a-ceno-bridge"><a class="header" href="#how-to-become-a-ceno-bridge">How to become a CENO bridge</a></h2>
-<p>This functionality is already built into the CENO Browser. Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO. See the next sections for further details.</p>
-<p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
+<h2 id="cómo-volverse-un-puente-ceno"><a class="header" href="#cómo-volverse-un-puente-ceno">Cómo volverse un puente CENO</a></h2>
+<p>Esta funcionalidad ya está incorporada dentro del Navegador CENO. Tu dispositivo necesitará estar conectado a una red Wi-Fi que tenga habilitado UPnP o bien configurada explícitamente para redirigir puertos para CENO. Mira las siguientes secciones para mayores detalles.</p>
+<p>Sin embargo, por favor nota que Android solamente le permitirá a un dispositivo móvil actuar como un puente apropiado mientras que estés usándolo activamente, ya que las características de ahorro de energía, por otro lado, reducirán la operación de CENO.</p>
 <blockquote>
-<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library. Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it. Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Dont't kill my app!</a> for your device's brand.</p>
+<p><strong>Nota técnica:</strong> Esto principalmente es debido al <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Desarrolladores de Android – Optimizar para Doze y Standby de Aplicación">modo doze</a> de Android haciendo más lenta la operación de la biblioteca Ouinet nativa. Desafortunadamente, deshabilitar la optimización de la batería para CENO no parece excluir a Ouinet de ello. Tu dispositivo particular también podría incluir sus propias características de ahorro de energía, las cuales podrían interferir con CENO; por favor comprueba [¡No mates a mi aplicación!][Dont't kill my app!] para la marca de tu dispositivo.</p>
 </blockquote>
-<p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
+<p>Por lo que si tu intención es tener a CENO actuando como un puente permanente, alcanzable siempre, además de una red Wi-Fi apropiadamente configurada, necesitarás:</p>
 <ol>
 <li>
-<p>Have your device plugged in to power at all times.</p>
+<p>Tener tu dispositivo conectado al suministro eléctrico en todo momento.</p>
 <ol>
-<li>Have the device's screen on at all times.One convenient way of doing this without much power consumption and obnoxious, permanent lighting is using Android's screen saver: enable it under <em>Settings / Display / Screen saver</em> (or <em>Daydream</em> in some versions), pick the <em>Clock</em> widget, choose <em>When to start screen saver</em> in the menu and select <em>While charging</em> or <em>Either</em>. A very dimmed down clock will appear on a black background while the device is not active.</li>
+<li>Tener la pantalla del dispositivo siempre activa.Una manera conveniente de hacer esto sin demasiado consumo eléctrico e iluminación desagradable y permanente es usar el protector de pantalla de Android: habilítalo bajo <em>Configuraciones / Pantalla / Protector de Pantalla</em> (o <em>Daydream</em> en algunas versiones), elige el widget <em>Clock</em> y <em>Cuando iniciar el protector de pantalla</em> en el menú, y selecciona <em>Mientras se esté cargando</em> o <em>Cualquiera</em>. Un reloj muy tenue aparecerá sobre un fondo negro mientras que el dispositivo no esté activo.</li>
 </ol>
-<p>Please note that you should not use the power button to lock the device as this will turn the screen off. Instead, just wait for the device to lock itself with the screen on.</p>
+<p>Por favor ten en cuenta que no deberías usar el botón de encendido para bloquear al dispositivo, ya que esto apagará la pantalla. En vez de eso, solo espera que el dispositivo se bloquee por sí mismo con la pantalla encendida.</p>
 </li>
 </ol>
-<h2 id="enabling-upnp-on-your-wi-fi-router"><a class="header" href="#enabling-upnp-on-your-wi-fi-router">Enabling UPnP on your Wi-Fi router</a></h2>
-<p><a href="https://es.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser reachable to the CENO network. The <a href="settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
+<h2 id="habilitando-upnp-en-tu-enrutador-wi-fi"><a class="header" href="#habilitando-upnp-en-tu-enrutador-wi-fi">Habilitando UPnP en tu enrutador Wi-Fi</a></h2>
+<p><a href="https://es.wikipedia.org/wiki/Universal_Plug_and_Play">&quot;Plug and Play&quot; Universal</a> es la manera más fácil de hacer que tu Navegador CENO sea alcanzable para la red CENO. La página de <a href="settings.html">Configuraciones de CENO</a> indicará el estado de UPnP en tu red local.</p>
 <blockquote>
-<p><strong>Note:</strong> Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference. Please make yourself <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a> and also consider using alternative methods as explained below.</p>
+<p><strong>Nota:</strong> Habilitar UPnP en el enrutador Wi-Fi podría exponer a los dispositivos en tu red a interferencia externa. Por favor sé [ conciente de los riesgos][upnp-risks] y también considera usar métodos alternativos como se explicó abajo.</p>
 </blockquote>
-<p><img src="images/upnp-no.png" alt="Figure: UPnP not enabled" /></p>
-<p>A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.</p>
-<p><img src="images/upnp-maybe.png" alt="Figure: UPnP likely enabled" /></p>
-<p>The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.</p>
-<p><img src="images/upnp-yes.png" alt="Figure: UPnP enabled" /></p>
-<p>The status above indicates that UPnP is working and you can bridge connections for other CENO users.</p>
-<p>There are many Wi-Fi routers on the market and each has their own particular features. Herein a list of some manufacturers' instructions for enabling UPnP:</p>
+<p><img src="images/upnp-no.png" alt="Figura: UPnP no habilitado" /></p>
+<p>Un estado como el mostrado en la figura previa indica que UPnP no está habilitado en tu enrutador Wi-Fi.</p>
+<p><img src="images/upnp-maybe.png" alt="Figura: UPnP probablemente habilitado" /></p>
+<p>El estado de arriba indica que UPnP probablemente está funcionando, y en este momento CENO está verificando la conectividad.</p>
+<p><img src="images/upnp-yes.png" alt="Figura: UPnP habilitado" /></p>
+<p>El estado de arriba indica que UPnP está funcionando, y puedes actuar como puente para las conexiones de otros usuarios de CENO.</p>
+<p>Hay muchos enrutadores Wi-Fi en el mercado, y cada uno tiene sus propias características particulares. He aquí una lista de las instrucciones de algunos fabricantes para habilitar UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
 <li><a href="https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router">D-Link</a></li>
@@ -186,12 +187,12 @@
 <li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
 </ul>
-<h2 id="using-port-forwarding-as-an-alternative-to-upnp"><a class="header" href="#using-port-forwarding-as-an-alternative-to-upnp">Using port forwarding as an alternative to UPnP</a></h2>
-<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device. You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option. To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoint(s)</em>.</p>
-<p><img src="images/udp-port.png" alt="Figure: Local UDP endpoints" /></p>
-<p>The port forwarding must be for the UDP protocol (not TCP). CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time. Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
+<h2 id="usando-redireccionamiento-de-puertos-como-alternativa-a-upnp"><a class="header" href="#usando-redireccionamiento-de-puertos-como-alternativa-a-upnp">Usando redireccionamiento de puertos como alternativa a UPnP</a></h2>
+<p>En vez de habilitar UPnP en tu enrutador, puedes crear una regla de redireccionamiento de puerto para asegurarte que las conexiones desde la red CENO sean dirigidas a tu dispositivo. Necesitarás iniciar sesión en la interfaz administrativa del enrutador, y ubicar la opción <em>redireccionamiento de puertos</em>. Para ver a cuál dirección IP necesitas redirigir las conexiones y el puerto relevante, abre la página <em>Configuraciones de CENO</em> y mira la sección <em>Punto(s) final(es) UDP local(es)</em>.</p>
+<p><img src="images/udp-port.png" alt="Figura: Puntos finales UDP locales" /></p>
+<p>La redirección de puerto debe ser para el protocolo UDP (no TCP). CENO elige un puerto aleatorio en la primera ejecución y lo mantiene por las subsiguientes, pero la dirección IP de tu dispositivo en la red local podría cambiar de tiempo en tiempo. Por lo que periódicamente deberías revisar la página <em>Configuraciones de CENO</em> para ver que tu dispositivo sea alcanzable para la red CENO.</p>
 <blockquote>
-<p><strong>Technical note:</strong> Alternatively, you can make sure that the router always assigns the same IP address to your device (e.g. via a static DHCP lease for the device's MAC address).</p>
+<p><strong>Nota tácnica:</strong> Alternativamente, puedes asegurarte de que el enrutador siempre confiera la misma dirección IP a tu dispositivo (ej., a través de una asignación DHCP estática para la dirección MAC del dispositivo).</p>
 </blockquote>
 
                     </main>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="sidebar-visible no-js light">
+<html lang="fa" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body dir="rtl" class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -152,7 +153,7 @@
 <p><img src="images/front-end.png" alt="شکل: فرانت‌اند سرویس‌گیرنده" /></p>
 <p>موارد نشان‌داده‌شده در این صفحه عبارت‌اند از:</p>
 <ul>
-<li>یک لینک برای فعال‌سازیِ سرویس‌گیرنده به‌عنوان یک مقام رسمی (CA) در مرورگرتان، چون سرویس‌گیرنده نیاز به رهگیریِ ترافیک HTTPS دارد.شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر ساده استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی <code>127.0.0.1:8077</code> تنظیم کنید، و <a href="https://github.com/censorship-no/ceno-ext-settings/">افزونه‌ی سنو</a> را هم به صورت دستی فعال کنید تا انژکشن به کار بیفتد.</li>
+<li>یک لینک برای فعال‌سازیِ سرویس‌گیرنده به‌عنوان یک مقام رسمی (CA) در مرورگرتان، چون سرویس‌گیرنده نیاز به رهگیریِ ترافیک HTTPS دارد.شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر ساده استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی <code>127.0.0.1:8077</code> تنظیم کنید، و <a href="https://github.com/censorship-no/ceno-ext-settings">افزونه‌ی سنو</a> را هم به صورت دستی فعال کنید تا انژکشن به کار بیفتد.</li>
 </ul>
 <p>لطفاً توجه کنید که انجام هیچ‌کدام از این کارها برای مرورگر سنو لازم نیست، چون این مرورگر پیشاپیش به همین صورت تنظیم شده است.</p>
 <ul>

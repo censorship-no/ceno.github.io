@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="my" class="sidebar-visible no-js light">
+<html lang="my" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -147,30 +148,30 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="ဘယလို-အလုပလုပသလဲ"><a class="header" href="#ဘယလို-အလုပလုပသလဲ">ဘယ်လို အလုပ်လုပ်သလဲ။</a></h1>
-<p>ဤအပိုင်းတွင် အခြေအနေများကို စီးရီးလိုက် ကြည့်ခြင်းဖြင့် CENO နှင့် Ouinet ၏ လုပ်ဆောင်ချက်ကို ရှင်းပြပါမည်။ Ouinet အတွက် အရေးကြီးသော ဝေါဟာရများနှင့် အယူအဆများကို မိတ်ဆက်မည် (<strong>စာလုံးအမည်းများဖြင့်</strong> အသားပေးဖော်ပြထားသည်) ဖြစ်ပြီး ထိရောက်မှုရှိရန်နှင့် ရောထွေးမှုကို ရှောင်ရှားရန် နောက်ပိုင်းတွင် အသုံးပြုပါမည်။</p>
+<p>ဤအပိုင်းတွင် အခြေအနေများကို စီးရီးလိုက် ကြည့်ခြင်းဖြင့် CENO နှင့် Ouinet ၏ လုပ်ဆောင်ချက်ကို ရှင်းပြပါမည်။ Ouinet အတွက် အရေးကြီးသော ဝေါဟာရများနှင့် အယူအဆများကို မိတ်ဆက်မည် (<strong>စာလုံးအမဲများဖြင့်</strong> အသားပေး ဖော်ပြထားသည်) ဖြစ်ပြီး ထိရောက်မှုရှိရန်နှင့် ရောထွေးမှုကို ရှောင်ရှားရန် နောက်ပိုင်းတွင် အသုံးပြုပါမည်။</p>
 <h2 id="အကြောငးအရာကို-တိုကရိုက-ဝငရောကသုံးစွဲခြငး"><a class="header" href="#အကြောငးအရာကို-တိုကရိုက-ဝငရောကသုံးစွဲခြငး">အကြောင်းအရာကို တိုက်ရိုက် ဝင်ရောက်သုံးစွဲခြင်း</a></h2>
 <p>CENO ဘရောက်ဇာသည် ဝက်ဘ်အကြောင်းအရာကို ပြန်ထုတ်ရန်နှင့် မျှဝေရန် Ouinet နည်းပညာ အသုံးပြုသည့် အက်ပလီကေးရှင်း ဥပမာတစ်ခု ဖြစ်သည်။ ကျွန်ုပ်တို့သည် ထိုကဲ့သို့သော အက်ပလီကေးရှင်းကို Ouinet <strong>လက်ခံစက်</strong> ဟု ခေါ်သည်။ သင်သည် ဝက်ဘ်ဆာဗာတစ်ခု (ကျွန်ုပ်တို့က <em>X</em> ၏ <strong>မူလ</strong> ဆာဗာဟု ခေါ်ပါမည်) တွင် လက်ခံထားသည့် အကြောင်းအရာ <em>X</em> ကို ဝင်ရောက်သုံးစွဲဖို့ ကြိုးစားရန် သင့်လက်ခံစက် (ဆိုလိုသည်မှာ CENO) ကို အသုံးပြုသောအခါ သင့်လက်ခံစက်သည် အင်တာနက် သုံး၍ မူလ ဆာဗာကို တိုက်ရိုက်ဖြစ်စေ၊ အခြားစက်များကိုယ်စား ဝက်ဘ်ဆာဗာများကို ဆက်သွယ်ရန် စီစဉ်သတ်မှတ်ထားသော အခြားစက်တစ်ခုခု (<strong>ပရောက်စီ</strong> ဆာဗာဟု ခေါ်သည်) မှတစ်ဆင့်ဖြစ်စေ ဆက်သွယ်ရန် ကြိုးစားပြီး အလိုရှိသော အကြောင်းအရာကို တောင်းဆိုသည်။ ယင်းသည် ပုံမှန် ဝက်ဘ်ဘရောက်ဇာတစ်ခု အလုပ်လုပ်ပုံနှင့် ကွဲပြားမှု မရှိပါ။</p>
 <blockquote>
-<p><strong>နည်းပညာဆိုင်ရာ မှတ်ချက်-</strong> တကယ်တမ်းတွင် အနည်းငယ် အံ့အားသင့်စရာတစ်ခု ရှိပါသည်။ လက်ခံစက်သည် သင့်စက်တွင် လုပ်ဆောင်နေသည့် HTTP ပရောက်စီတစ်ခုအဖြစ် ဆောင်ရွက်သောကြောင့် လက်ခံစက်အနေဖြင့် ကုဒ်ဖြေရန်နှင့် HTTPS အကြောင်းအရာ တောင်းဆိုမှုများကို တုံ့ပြန်ဆောင်ရွက်ရန် လက်ခံစက် (ဆိုလိုသည်မှာ CENO ရှိ Firefox ကဲ့သို့ ဝက်ဘ်ဘရောက်ဇာ အစိတ်အပိုင်း) ကို အသုံးပြုနေသော အက်ပလီကေးရှင်းသည် လက်ခံစက်ကိုယ်တိုင်က ထုတ်ပေးသည့် (သင့်စက်ပေါ်တွင်သာ အသုံးပြုသော) အထူးအသိအမှတ်ပြုလက်မှတ်ကို လက်ခံရန် လိုအပ်သည်။ CENO ဘရောက်ဇာသည် ဤအသိအမှတ်ပြုလက်မှတ်ကို သီးသန့်အသုံးပြုရန်အတွက် ပြင်ဆင်သတ်မှတ်ခြင်းကို တာဝန်ယူပြီး ဖြစ်သောကြောင့် သင် စိတ်ပူရန် မလိုအပ်ပါ။</p>
+<p><strong>နည်းပညာဆိုင်ရာ မှတ်ချက်-</strong> တကယ်တမ်းတွင် အနည်းငယ် အံ့အားသင့်စရာတစ်ခု ရှိပါသည်။ လက်ခံစက်သည် သင့်စက်တွင် လုပ်ဆောင်နေသည့် HTTP ပရောက်စီတစ်ခုအဖြစ် ဆောင်ရွက်သောကြောင့် လက်ခံစက်အနေဖြင့် ကုဒ်ဖြေရန်နှင့် HTTPS အကြောင်းအရာ တောင်းဆိုမှုများကို တုံ့ပြန်ဆောင်ရွက်ရန် လက်ခံစက် (ဆိုလိုသည်မှာ CENO ရှိ Firefox ကဲ့သို့ ဝက်ဘ်ဘရောက်ဇာ အစိတ်အပိုင်း) ကို အသုံးပြုနေသော အက်ပလီကေးရှင်းသည် လက်ခံစက်ကိုယ်တိုင်က ထုတ်ပေးသည့် (သင့်စက်ပေါ်တွင်သာ အသုံးပြုသော) အထူး အသိအမှတ်ပြုလက်မှတ်ကို လက်ခံရန် လိုအပ်သည်။ CENO ဘရောက်ဇာသည် ဤအသိအမှတ်ပြုလက်မှတ်ကို သီးသန့်အသုံးပြုရန်အတွက် ပြင်ဆင်သတ်မှတ်ခြင်းကို တာဝန်ယူပြီး ဖြစ်သောကြောင့် သင် စိတ်ပူရန် မလိုအပ်ပါ။</p>
 </blockquote>
 <p>သို့သော် ဤတိုက်ရိုက်လမ်းကြောင်းများကို မရကောင်းမရနိုင်ပါ။ ဥပမာ- သင့် အင်တာနက် ဝန်ဆောင်မှု ပံ့ပိုးသူ (ISP) သည် အစိုးရ အမိန့်ကြောင့် (အခြားအသွားအလာကို ခွင့်ပြုသေးသည့်တိုင်အောင်) <em>X</em> ၏ မူလ ဆာဗာ သို့မဟုတ် ပရောက်စီကို ဝင်ရောက်သုံးစွဲခွင့် ပိတ်ဆို့ထားနိုင်သည်။ အောက်တွင်ဖော်ပြထားသော ဘယ်ဘက်ထိပ်ရှိ လက်ခံစက်ကို သုံးစွဲသူအဖြစ် အကြောင်းအရာ <em>X</em> (၎င်း၏ မူလ ဆာဗာအနီးရှိ စာရွက်စာတမ်းငယ်) သို့ ရောက်ရှိရန် ကြိုးပမ်းမှု နှစ်ခုလုံးသည် သင့်အတွက် အောင်မြင်မည် မဟုတ်ပါ။ သင်သည် ပုံပေါ်ရှိ &quot;ထိုးသွင်းဖိုင်&quot; ဆက်သွယ်ရေးပွိုင့်ကိုလည်း သတိပြုမိနိုင်သည်။ ကျွန်ုပ်တို့သည် ခဏအကြာတွင် ထိုအကြောင်းကို ရှင်းပြပါမည်။</p>
 <p><img src="images/user-flow-0.svg" alt="ပုံ- လက်ခံစက်သည် အကြောင်းအရာသို့ တိုက်ရိုက် မရောက်ရှိနိုင်ပါ" /></p>
 <p>ပုံမှန်ဘရောက်ဇာကို သုံးလျှင် သင် ကံကောင်းမည် မဟုတ်ပါ။ သို့သော် Ouinet ကို သုံးလျှင် အခြားလက်ခံစက်များထံတွင် မိတ္တူရှိပြီးဖြစ်ပါက အကြောင်းအရာ <em>X</em> အတွက် ၎င်းတို့၏ မိတ္တူများကို တောင်းခံနိုင်သည်။ ဤတောင်းဆိုမှုကို Ouinet က မည်သို့ စွမ်းဆောင်ကြောင်း ကြည့်ကြရအောင်။</p>
 <h2 id="မျှဝေထားသော-အကြောငးအရာကို-ရှာခြငး"><a class="header" href="#မျှဝေထားသော-အကြောငးအရာကို-ရှာခြငး">မျှဝေထားသော အကြောင်းအရာကို ရှာခြင်း</a></h2>
-<p>Ouinet လက်ခံစက်များက သိုလှောင်ထားသည့် အကြောင်းအရာအားလုံး၏ အစုံလိုက်ကို <strong>ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်</strong> ဟု ခေါ်သည်။ ဆိုလိုသည်မှာ ၎င်းသည် နေရာတစ်ခုတည်းတွင် ရှိမနေသည့် စတိုးဖြစ်သည်။ သို့သော် ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်ကို ဖြစ်ပေါ်စေသည့် အခြားလက်ခံစက်များမှ မည်သည့်စက်တွင် သင်အလိုရှိသော အကြောင်းအရာ ရှိကြောင်း သင့်လက်ခံစက်က မည်သို့ ရှာတွေ့မည်နည်း။</p>
+<p>Ouinet လက်ခံစက်များက သိုလှောင်ထားသည့် အကြောင်းအရာအားလုံး၏ အစုံလိုက်ကို <strong>ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်</strong> ဟု ခေါ်သည်။ ဆိုလိုသည်မှာ ၎င်းသည် နေရာတစ်ခုတည်းတွင် ရှိမနေသည့် သိုလှောင်ရာနေရာ ဖြစ်သည်။ သို့သော် ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်ကို ဖြစ်ပေါ်စေသည့် အခြားလက်ခံစက်များမှ မည်သည့်စက်တွင် သင်အလိုရှိသော အကြောင်းအရာ ရှိကြောင်း သင့်လက်ခံစက်က မည်သို့ ရှာတွေ့မည်နည်း။</p>
 <p>မည်သည့် ဝက်ဘ် ဘရောက်ဇာတွင်မဆို အကြောင်းအရာ <em>X</em> ကို ဝင်ရောက်သုံးစွဲရန် ၎င်းသည်
-ဘရောက်ဇာ၏ တည်နေရာဘားရှိ လိပ်စာဖြစ်သည့် ၎င်း၏ <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">ကွဲလွဲခြင်းမရှိသော ရင်းမြစ် တည်နေရာရှာစနစ်</a> (URL)၊ ဥပမာ- <code>https://example.com/foo/x</code>ကို သိရန် လိုအပ်သည်။ ထို URL မှတစ်ဆင့် ပုံမှန် ဘရောက်ဇာသည် SSL/TLS (ပရိုဂရမ်များ တစ်ခုနှင့်တစ်ခု ဆက်သွယ်နိုင်ရန် အင်တာနက်၏ စည်းမျဉ်းများဖြစ်သည့် TCP သုံးသော လုံခြုံရေးအလွှာ) ဖြင့် HTTP ပရိုတိုကော (ဝက်ဘ် ရင်းမြစ်များကို ဖလှယ်ရာတွင် သုံးသည့် ဘာသာစကား) ကို အသုံးပြု၍ <code>example.com</code>ဟုခေါ်သည့် ဝက်ဘ် ဆာဗာကို ဆက်သွယ်ပြီး ရင်းမြစ် <code>/foo/x</code> ကို တောင်းဆိုရမည်ဖြစ်ကြောင်း ဆုံးဖြတ်ပါမည်။</p>
+ဘရောက်ဇာ၏ တည်နေရာဘားရှိ လိပ်စာဖြစ်သည့် ၎င်း၏ <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">ကွဲလွဲခြင်းမရှိသော ရင်းမြစ် တည်နေရာရှာစနစ်</a> (URL)၊ ဥပမာ- <code>https://example.com/foo/x</code>ကို သိရန် လိုအပ်သည်။ ထို URL မှတစ်ဆင့် ပုံမှန် ဘရောက်ဇာသည် SSL/TLS (ပရိုဂရမ်များ တစ်ခုနှင့်တစ်ခု ဆက်သွယ်နိုင်ရန် အင်တာနက်၏ စည်းမျဉ်းများဖြစ်သည့် TCP သုံးသော လုံခြုံရေးအလွှာ) ဖြင့် HTTP ပရိုတိုကော (ဝက်ဘ် ရင်းမြစ်များကို ဖလှယ်ရာတွင် သုံးသည့် ဘာသာစကား) ကို အသုံးပြု၍ <code>example.com</code>ဟုခေါ်သည့် ဝက်ဘ် ဆာဗာကို ဆက်သွယ်ပြီး ရင်းမြစ် <code>/foo/x</code> ကို တောင်းဆိုရမည် ဖြစ်ကြောင်း ဆုံးဖြတ်ပါမည်။</p>
 <p>Ouinet သည် အကြောင်းအရာကို မတူညီသော နည်းလမ်းဖြင့် ရှာဖွေသည်။ ၎င်းသည် စာအုပ်အညွှန်းနှင့် ဆင်တူသော အညွှန်းကို အသုံးပြုသည်- Ouinet ၏ <strong>ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်အညွှန်း</strong> တွင် သင်သည် အကြောင်းအရာ၏ URL တစ်ခုလုံးကို ရှာကြည့်သောအခါ ၎င်း၏ မိတ္တူ ရှိသော လက်ခံစက် စာရင်းကို ရရှိသည်။ အညွှန်းကို အခြားသူများအတွက် ၎င်းတို့တွင် မည်သည့်အကြောင်းအရာ ရှိကြောင်း ကြေညာထားသည့် လက်ခံစက်များထံ ဖြန့်ချိထားသည်။ တကယ်တမ်းတွင် URL တစ်ခုစီအတွက် <em>သဲလွန်စ</em> တစ်ခုကိုသာ ကြေညာထားသည်။ ဤသို့ဖြင့် သင့်စက်၏ အသွားအလာကို လျှို့ဝှက်စွာ စောင့်ကြည့်နေသူသည် သင့်တွင် မည်သည့်အကြောင်းအရာရှိသည်ကို မပြောနိုင်သော်လည်း တိကျသော အကြောင်းအရာ ရှာနေသူသည် သဲလွန်စများကို လိုက်၍ သင့်လက်ခံစက်ထံ ရောက်နိုင်သည်။</p>
 <blockquote>
-<p><strong>Technical note:</strong> One way the index is implemented is using <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a>'s <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">Distributed Hash Table</a> (DHT) to get the addresses (IP and port) of the clients with the content. The DHT uses a <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">Cryptographic hash function</a> to compute the table key from the content's URL and some other parameters as the injector key (see below), so that several indexes can coexist.</p>
-<p>Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic. Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced. This is done with the help of an <em>ad hoc</em> browser extension (described later on).</p>
+<p><strong>နည်းပညာဆိုင်ရာမှတ်ချက်</strong> ဤအညွှန်းကို အကောင်အထည်ဖော်နိုင်သည့် နည်းလမ်းတစ်ခုမှာ BitTorrent]<a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a>'s <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">Distributed Hash Table</a> (DHT) ကို အသုံးပြုပြီး လက်ခံစက်နှင့် အကြောင်းအရာများ၏ လိပ်စာ (အိုင်ပီနှင့် port) တို့ကို ရယူခြင်း ဖြစ်သည်။ DHT က Cryptographic hash function]<a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">Cryptographic hash function</a> ကို အသုံးပြု၍ အကြောင်းအရာ၏ URL နှင့် ထိုးသွင်းသော့ (အောက်တွင်ကြည့်) ကဲ့သို့ အခြား သတ်မှတ်ကိန်းများမှတဆင့် ဇယားသော့ကို တွက်ထုတ်သည်။ သို့မှသာ ညွှန်ကိန်း အမျိုးမျိုး သည် အတူတကွ ရှိနေနိုင်မည်ဖြစ်သည်။</p>
+<p>ထို့အပြင် CENO ဘရောက်ဇာသည် ၎င်းကိုအသုံးပြု၍ ဝင်ရောက်ထားသော ရင်းမြစ်တိုင်း၏ URL ကို မကြေငြာပါ။ အဘယ်ကြောင့် ဆိုသော် ထိုရင်းမြစ်များတွင် (ပုံရိပ်များ၊ စတိုင်စာမျက်နှာများနှင့် စာညွှန်းများ..) စသည့် အစိတ်အပိုင်း ဆယ်ချီ၊ ရာချီ ဖွဲ့စည်းထားသော ဝက်ဘ်စာ မျက်နှာများပါဝင်နေရာ ၎င်းတို့သည် အင်တာနက် လမ်းကြောင်း ပိတ်ဆို့မှုများကို ဖြစ်ပေါ်စေသောကြောင့်ပင်။ ထို့အစား ရင်းမြစ်များကို ဆွဲထုတ်ရန် သုံးထားသည့် သက်ဆိုင်ရာ URL အောက်တွင် အဖွဲ့လိုက်စုစည်းထားပြီး ထို URL ကိုသာ ကြေငြာပေးသည်။ ယင်း လုပ်ဆောင်ချက်ကို * ယာယီ* ဘရောက်ဇာ အဆက် (နောက်တွင်ရှင်းလင်းထား) ၏ အကူအညီဖြင့် လုပ်ဆောင်သည်။</p>
 </blockquote>
-<p>Clients offering some particular content over the distributed cache are said to be <strong>seeding</strong> it or to be their <em>seeders</em> (these terms come from the P2P file-sharing world). Going back to our example scenario, there are two clients seeding some content. Unfortunately, one is seeding content <em>Y</em> and the other one content <em>Z</em>, so your client would find no entries for content <em>X</em> in the distributed cache index, as depicted below:</p>
+<p>ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ် မှတဆင့် ဝက်ဘ် အကြောင်းအရာတစ်ခုကို ထိန်းသိမ်းပေးသည့် လက်ခံစက်များကို <strong>seeding လုပ်ခြင်း</strong> (သို့မဟုတ်) <em>seeders</em> ဟုခေါ်သည်။ (ထိုအခေါ်အဝေါ်များသည် P2P ဖိုင်မျှဝေခြင်းမှ ဆင်းသက်လာသည်။) အထက်တွင် ဖော်ပြခဲ့သည့် ဥပမာကို ပြန်ကြည့်လျှင် အကြောင်းအရာအချို့ကို ထိန်းသိမ်းပေးသည့် လက်ခံစက်နှစ်ခု ရှိနေသည်။ ကံမကောင်းစွာဖြင့် ထိန်သိမ်းထားသည့် အကြောင်း အရာတစ်ခုမှာ &quot;Y&quot; ဖြစ်နေပြီး အခြားတစ်ခုမှာ&quot;Z&quot; ဖြစ်နေသည်။ ထို့ကြောင့် သင့်လက်ခံစက်မှ ရှာဖွေနေသော အကြောင်းအရာ &quot;X&quot; ကို ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်တွင် ရှာဖွေမရနိုင်သည်ကို ဤသို့တွေ့ရမည်။</p>
 <p><img src="images/user-flow-1.svg" alt="Figure: Content not found in the distributed cache" /></p>
-<p>Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients in the distributed cache. Please read on to learn how.</p>
-<h2 id="sharing-new-content"><a class="header" href="#sharing-new-content">Sharing new content</a></h2>
-<h3 id="proxies-on-steroids"><a class="header" href="#proxies-on-steroids">Proxies on steroids</a></h3>
-<p>In Ouinet, there are special kinds of proxy servers called <strong>injectors</strong> which sit in the (hopefully) free side of the Internet and try very hard to stay reachable despite blocking measures:</p>
+<p>Ouinet တွင်ထိုသို့ရှာဖွေမရသည့် အကြောင်းအရာများကို ရှာဖွေနိုင်ရန် နှင့် အခြားလက်ခံစက်များမှ ယင်းအကြောင်းအရာများကို ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်တွင် ရှာဖွေနိုင်သည့် နည်းလမ်းကို ထည့်သွင်းထားသည်။</p>
+<h2 id="အကြောငးအရာသစများကို-မျှဝေခြငး"><a class="header" href="#အကြောငးအရာသစများကို-မျှဝေခြငး">အကြောင်းအရာသစ်များကို မျှဝေခြင်း</a></h2>
+<h3 id="ထူးကဲစွမးရညရှိသည-ပရောကစီများ"><a class="header" href="#ထူးကဲစွမးရညရှိသည-ပရောကစီများ">ထူးကဲစွမ်းရည်ရှိသည့် ပရောက်စီများ</a></h3>
+<p>Ouinet တွင် အထူးပရောက်စီ အမျိုးအစားများ ဖြစ်သည့် <strong>ထိုးသွင်းစက်များ</strong> ပါဝင်သည်။ ၎င်းတို့ကို အင်တာနက်၏ လွတ်လပ်သော အခြမ်းတွင် အထိုင်ချထားသည့် အတွက် ပိတ်ဆို့မှုနည်းလမ်းများသုံးသည့်တိုင် အသုံးပြုသူများမှ ၎င်းတို့ကို လက်လှမ်းမီစေမည် ဖြစ်သည်။</p>
 <ul>
 <li>
 <p>First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.</p>

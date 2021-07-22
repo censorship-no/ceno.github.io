@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="sidebar-visible no-js light">
+<html lang="fa" class="light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body>
+    <body dir="rtl" class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -62,22 +62,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -163,11 +164,11 @@
 <p>پاسخ کوتاه: نه.</p>
 <p>سنو فقط محتوایی را به اشتراک می‌گذارد که شما درخواست کرده باشید (با استفاده از <a href="../concepts/public-private.html">مرور عمومی</a>).</p>
 <p>لطفاً توجه کنید که یک وب‌سایت خرابکار ممکن است با این حال سعی کند تا مرورگرتان را فریب دهد تا بدون اطلاع‌تان محتوایی را از سایت‌های دیگر بازیابی کند تا این‌گونه دستگاه‌تان را وادار به ذخیره‌کردن و به‌اشتراک‌گذاشتن آن محتوا با کاربران دیگر کند. اگرچه کد فایرفاکس پیشاپیش این‌گونه تلاش‌ها را به‌خوبی شناسایی می‌کند و مانع آن‌ها می‌شود، شما بایستی با این حال از بازدید از سایت‌های مشکوک خودداری کنید.</p>
-<p>درباره‌ی چگونگی بازیابی و به‌اشتراک‌گذاشتن محتوای وب با دیگران توسط مرورگر سنو بیشتر بخوانید [اینجا] (../concepts/how.md).</p>
+<p>درباره‌ی چگونگی بازیابی و به‌اشتراک‌گذاشتن محتوای وب با دیگران توسط مرورگر سنو بیشتر بخوانید <a href="../concepts/how.html">اینجا</a>.</p>
 <h3 id="آیا-کسی-میفهمد-که-من-از-مرورگر-سنو-برای-دسترسی-به-وبسایتهای-سانسورشده-استفاده-میکنم"><a class="header" href="#آیا-کسی-میفهمد-که-من-از-مرورگر-سنو-برای-دسترسی-به-وبسایتهای-سانسورشده-استفاده-میکنم">آیا کسی می‌فهمد که من از مرورگر سنو برای دسترسی به وب‌سایت‌های سانسورشده استفاده می‌کنم؟</a></h3>
 <p>پاسخ کوتاه: بله، با داشتن کمی دانش فنی و منابع.</p>
 <p>سنو یک ابزار گمنامی نیست. مهاجمی که قادر به جاسوسی ترافیک شبکه‌ی شما باشد می‌تواند محتوای درخواست‌شده یا ارائه‌شده به یک کاربر دیگر از دستگاه‌تان را ببیند. مهاجم همچنین می‌تواند تشخیص دهد که آیا شما یک وب‌سایت خاص را به اشتراک می‌گذارید، گرچه نمی‌تواند لیستی از هر محتوایی که به اشتراک می‌گذارید داشته باشد.</p>
-<p>با این حال، محتوایی که برای نخستین بار یا با استفاده از [مرور خصوصی] (../concepts/public-private.md) درون شبکه بازیابی می‌شود، از طریق ارتباط‌های رمزگذاری‌شده فرستاده خواهد شد. برای اطلاعات بیشتر به بخش [بازیابی محتوا چگونه کار می‌کند] (../concepts/how.md) و <a href="../concepts/risks.html">خطرها</a>ی مرتبط با آن بنگرید.</p>
+<p>با این حال، محتوایی که برای نخستین بار یا با استفاده از <a href="../concepts/public-private.html">مرور خصوصی</a> درون شبکه بازیابی می‌شود، از طریق ارتباط‌های رمزگذاری‌شده فرستاده خواهد شد. برای اطلاعات بیشتر به بخش <a href="../concepts/how.html">بازیابی محتوا چگونه کار می‌کند</a> و <a href="../concepts/risks.html">خطرها</a>ی مرتبط با آن بنگرید.</p>
 <h2 id="استفاده-از-منابع"><a class="header" href="#استفاده-از-منابع">استفاده از منابع</a></h2>
 <h3 id="آیا-مرورگر-سنو-از-حجم-انبوهی-از-دادهها-استفاده-میکند"><a class="header" href="#آیا-مرورگر-سنو-از-حجم-انبوهی-از-دادهها-استفاده-میکند">آیا مرورگر سنو از حجم انبوهی از داده‌ها استفاده می‌کند؟</a></h3>
 <p>پاسخ کوتاه: بیشتر از مرورگر معمول‌تان.</p>
