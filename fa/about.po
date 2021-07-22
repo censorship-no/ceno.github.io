@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 14:22-0700\n"
-"PO-Revision-Date: 2021-07-15 20:32+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"POT-Creation-Date: 2021-07-22 16:51+0200\n"
+"PO-Revision-Date: 2021-07-22 16:44+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/fa/>\n"
 "Language: fa\n"
@@ -14,39 +14,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
-#: about.html%2Bhtml[lang]:2-1
+#: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "انگلیسی"
+msgstr "fa"
 
-#: about.html%2Bhtml.head.title:6-5
-msgid "Censorship.no! - How it Works"
+#: about.html%2Bhtml.head.title:23-5
+msgid "Censorship.no! - How It Works"
 msgstr "نه به سانسور! چگونه کار می‌کند"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:222-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
 msgstr "نحوه عملکرد"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:225-17
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
 msgstr "راهنمای کاربر"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:228-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
 msgstr "همراه شوید!"
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:232-15
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
 msgstr "CENO را دریافت کنید"
 
-#: about.html%2Bhtml.body.nav.div.div.div:232-10
+#: about.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
 msgstr "مرورگر CENO را دریافت کنید"
 
-#: about.html%2Bhtml.body.main.h1:237-6
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: about.html%2Bhtml.body.nav.div.div.div:96-1
+msgid "EN"
+msgstr "FA"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
+#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/about.html">Pусский</a
+#: about.html%2Bhtml.body.nav.div.div.div.div:102-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a>"
+
+#: about.html%2Bhtml.body.main.div.h1:122-6
 msgid "How CENO Browser Works"
 msgstr "مرورگر CENO چگونه کار می‌کند"
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:241-13
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:126-13
 msgid ""
 "﻿Most web traffic in countries that filter internet is routed through "
 "centralized exchanges."
@@ -54,15 +79,15 @@ msgstr ""
 "حجم عمده ترافیک وب در کشورهایی که اینترنت را فیلتر می‌کنند از طریق صرافی‌های "
 "متمرکز هدایت می‌شود."
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:244-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:129-16
 msgid ""
 "﻿This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
-"این طراحی به ساختار سانسور در مکان‌یابی و مسدود کردن پراکسی‌های محبوب، "
-"سرورهای وی‌پی‌ان ، رله‌ها و غیره کمک می‌کند;"
+"این طراحی به ساختار سانسور در مکان‌یابی و مسدود کردن پراکسی‌های محبوب، سرورهای "
+"وی‌پی‌ان ، رله‌ها و غیره کمک می‌کند;"
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:247-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:132-16
 msgid ""
 "﻿In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -70,22 +95,22 @@ msgstr ""
 "در این موارد، دسترسی به سرورهای وب اصلی دشوار یا غیرممکن است و دستگاه شما "
 "قادر به دریافت آن محتوا نخواهد بود."
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:250-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "CENO یک مرورگر وب مختص تلفن همراه برای ذخیره و به اشتراک گذاری محتوای وب در "
 "هر جایی است."
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:253-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
 msgid ""
 "﻿CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
-"کاربران CENO شبکه‌های کوچک را ایجاد می‌کنند تا با یکدیگر در تماس باشند و پس "
-"از آن، یک پل خارج از منطقه سانسور شده ایجاد می کنند."
+"کاربران CENO شبکه‌های کوچک را ایجاد می‌کنند تا با یکدیگر در تماس باشند و پس از "
+"آن، یک پل خارج از منطقه سانسور شده ایجاد می کنند."
 
-#: about.html%2Bhtml.body.main.div.div.img[alt]:256-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
 msgid ""
 "﻿Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -93,7 +118,7 @@ msgstr ""
 "هنگامی که یک کاربر CENO به یک وب‌سایت دسترسی پیدا می‌کند، ذخیره می‌شود و در "
 "داخل کشور همتا به همتا به اشتراک گذاشته می‌شود."
 
-#: about.html%2Bhtml.body.main.div.p:261-5
+#: about.html%2Bhtml.body.main.div.div.p:146-5
 msgid ""
 "The majority of internationally-bound traffic in countries that filter "
 "content requests are routed through a fixed number of centralized exchanges "
@@ -106,10 +131,10 @@ msgstr ""
 "می‌کنند، از طریق تعداد معینی از صرافی‌های متمرکز که در آن فناوری نظارت و "
 "سانسور نصب شده است، هدایت می‌شود.فناوری‌های سنتی دور زدن سانسور توسط کاربر "
 "نیاز دارند تا مستقیماً به پروکسی در همان منطقه بدون سانسور متصل شوند. این "
-"طراحی به سانسور در مکان‌یابی و مسدود کردن پروکسی های محبوب، سرورهای VPN ، "
-"رله ها ، پل ها و ... کمک می‌کند."
+"طراحی به سانسور در مکان‌یابی و مسدود کردن پروکسی های محبوب، سرورهای VPN ، رله "
+"ها ، پل ها و ... کمک می‌کند."
 
-#: about.html%2Bhtml.body.main.div.p:269-5
+#: about.html%2Bhtml.body.main.div.div.p:154-5
 msgid ""
 "CENO proposes a fundamentally different solution: reduce the requests to "
 "externally available proxy servers and enable the storage of retrieved "
@@ -120,7 +145,7 @@ msgstr ""
 "موجود در خارج از کشور و ذخیره سازی محتوای بازیابی شده در داخل منطقه سانسور "
 "شده. مزیت CENO این است که هم راه حل انتقال و هم ذخیره سازی است."
 
-#: about.html%2Bhtml.body.main.div.p:276-5
+#: about.html%2Bhtml.body.main.div.div.p:161-5
 msgid ""
 "Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario "
 "that most circumvention providers end up playing with the censor. Clients "
@@ -129,13 +154,13 @@ msgid ""
 "bridge in the uncensored zone."
 msgstr ""
 "مسیریابی همتا به همتا راه حل ایده آل برای سناریو \"موش و گربه\" است که در "
-"نهایت بیشتر ارائه دهندگان ابزارهای دور زدن فیلترینگ با سانسورچی‌ها بازی می‌"
-"کنند. برای استفاده از محتوای سانسور شده، کاربران لازم نیست مکان پراکسی را "
+"نهایت بیشتر ارائه دهندگان ابزارهای دور زدن فیلترینگ با سانسورچی‌ها بازی "
+"می‌کنند. برای استفاده از محتوای سانسور شده، کاربران لازم نیست مکان پراکسی را "
 "برای دسترسی به محتوای سانسور شده بدانند بلکه می‌توانند از شبکه‌های کوچک برای "
 "اتصال به همتایان خود و پس از آن به عنوان پلی در منطقه بدون سانسور از آن "
 "استفاده می‌کنند."
 
-#: about.html%2Bhtml.body.main.div.p:281-5
+#: about.html%2Bhtml.body.main.div.div.p:166-5
 msgid ""
 "Once a website is accessed by a single user (node), it is stored and "
 "continues to propagate inside the country peer-to-peer. Individual nodes are "
@@ -151,41 +176,47 @@ msgstr ""
 "از طریق روش‌های جایگزین نیز به شبکه منتقل کرد (به عنوان مثال بارگذاری از "
 "درایو USB)."
 
-#: about.html%2Bhtml.body.main.div:288-1
-#, fuzzy
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.main.div.div:173-1
 msgid ""
-"<a href=\"https://censorship.no/user-manual/en/\" style=\"text-align:center\""
-"><button class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type="
-"\"button\" style=\"text-align: center;\"><span class=\"fas fa-book\"></span> "
-"Learn more in the User Manual!</button></a> <a href=\"https://github.com/"
-"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
-"\"fas fa-scroll\"></span> For a more in-depth, technical guide, see the "
-"Ouinet whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
+"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
+"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
+"button></a>"
 msgstr ""
-"در تنظیمات دستی کاربر بیشتر بیاموزید! برای اطلاعات فنی بیشتر و راهنمایی "
-"تخصصی، Ouinet whitepaper را بخوانید."
+"<a href=\"../user-manual/fa/\" style=\"text-align:center>\n"
+"<button class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type="
+"\"button\" style=\"text-align: center;\"><span class=\"fas fa-book\"></"
+"span>در تنظیمات دستی کاربر بیشتر بیاموزید! </button></a> <a href=\"https"
+"://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\""
+"><button class=\"btn btn-outline-danger btn-learnmore\" type=\"button\""
+"><span class=\"fas fa-scroll\"></span> برای اطلاعات فنی بیشتر و راهنمایی "
+"تخصصی، Ouinet whitepaper را بخوانید.</button></a>"
 
-#: about.html%2Bhtml.body.main.footer.div.p:301-9
+#: about.html%2Bhtml.body.footer.div.p:192-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
-">values</a> that guide us to protect the rights and aspirations of everyone "
-"online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
 msgstr ""
 "مرورگر CENO پروژه ای است که از طرف <a href=\"https://equalit.ie\">eQualit."
 "ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با "
 "تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه‌حل‌"
-"های مدرن فناوری و نوآوری‌ها به وسیله<a href=\"https://equalit.ie/en/values\""
-">>ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته‌های "
+"های مدرن فناوری و نوآوری‌ها به وسیله<a href=\"https://equalit.ie/en/values/\""
+">ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته‌های "
 "تمامی افراد راهنمایی کنند."
 
-#: about.html%2Bhtml.body.main.footer:303-23
+#: about.html%2Bhtml.body.footer:194-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© نه به سانسور!<script>new Date().getFullYear()>2018&&document.write(\"-\"+"
-"new Date().getFullYear());</script>"
+"© نه به سانسور!<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
