@@ -13,7 +13,7 @@ then further distributed by those nodes in a BitTorrent like fashion.
 
 ## Current status
 
-CENO is currently in its Beta stage. It is being tested in censored countries
+CENO is currently in its first stable production release (v.1.0.1). It is being tested in censored countries
 and being given a UI overhaul.
 
 ## What works
@@ -43,8 +43,7 @@ does not strip this information down and all communication is then end-to-end en
 
 ## What does not work (yet)
 
-As mentioned, CENO is still in its Beta stage. Here is a list of important
-information CENO users need to know:
+Here is a list of important information CENO users need to know:
 
 ### Battery and data usage
 
@@ -89,5 +88,4 @@ Paskoocheh: https://paskoocheh.com/tools/124/android.html
 
 ## Feedback
 
-As mentioned, we're currently in a beta testing phase and welcome
-positive and negative feedback, as well as questions at cenoers@equalit.ie.
+We welcome both positive and negative feedback, as well as questions at cenoers@equalit.ie.
