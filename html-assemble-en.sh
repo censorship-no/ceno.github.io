@@ -10,6 +10,8 @@ for pot in *.pot; do
     page="${pot%%.pot}"
     html="$page.html"
     # TODO: Get from content source, but it must be in some translatable tag or attribute.
+    # FIXME: When first adding a page, a placeholder page needs to be dropped in `en`
+    # so that its title can be extracted here (it can just contain `<title>TITLE</title>`).
     title="$(sed -nE 's#.*<title>(.+)</title>.*#\1#p' "$html" | head -1)"
 
     tmp="$(mktemp)"
