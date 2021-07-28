@@ -163,13 +163,13 @@
 <li>
 <p>Tener tu dispositivo conectado al suministro eléctrico en todo momento.</p>
 <ol>
-<li>Tener la pantalla del dispositivo siempre activa.Una manera conveniente de hacer esto sin demasiado consumo eléctrico e iluminación desagradable y permanente es usar el protector de pantalla de Android: habilítalo bajo <em>Configuraciones / Pantalla / Protector de Pantalla</em> (o <em>Daydream</em> en algunas versiones), elige el widget <em>Clock</em> y <em>Cuando iniciar el protector de pantalla</em> en el menú, y selecciona <em>Mientras se esté cargando</em> o <em>Cualquiera</em>. Un reloj muy tenue aparecerá sobre un fondo negro mientras que el dispositivo no esté activo.</li>
+<li>Tener la pantalla del dispositivo siempre activa.Una manera conveniente de hacer esto sin demasiado consumo eléctrico e iluminación desagradable y permanente es usar el protector de pantalla de Android: habilítalo bajo <em>Ajustes / Pantalla / Protector de Pantalla</em> (o <em>Daydream</em> en algunas versiones), elige el widget <em>Clock</em> y <em>Cuando iniciar el protector de pantalla</em> en el menú, y selecciona <em>Mientras se esté cargando</em> o <em>Cualquiera</em>. Un reloj muy tenue aparecerá sobre un fondo negro mientras que el dispositivo no esté activo.</li>
 </ol>
 <p>Por favor ten en cuenta que no deberías usar el botón de encendido para bloquear al dispositivo, ya que esto apagará la pantalla. En vez de eso, solo espera que el dispositivo se bloquee por sí mismo con la pantalla encendida.</p>
 </li>
 </ol>
 <h2 id="habilitando-upnp-en-tu-enrutador-wi-fi"><a class="header" href="#habilitando-upnp-en-tu-enrutador-wi-fi">Habilitando UPnP en tu enrutador Wi-Fi</a></h2>
-<p><a href="https://es.wikipedia.org/wiki/Universal_Plug_and_Play">&quot;Plug and Play&quot; Universal</a> es la manera más fácil de hacer que tu Navegador CENO sea alcanzable para la red CENO. La página de <a href="settings.html">Configuraciones de CENO</a> indicará el estado de UPnP en tu red local.</p>
+<p><a href="https://es.wikipedia.org/wiki/Universal_Plug_and_Play">&quot;Plug and Play&quot; Universal</a> es la manera más fácil de hacer que tu Navegador CENO sea alcanzable para la red CENO. La página de <a href="settings.html">Configuración de CENO</a> indicará el estado de UPnP en tu red local.</p>
 <blockquote>
 <p><strong>Nota:</strong> Habilitar UPnP en el enrutador Wi-Fi podría exponer a los dispositivos en tu red a interferencia externa. Por favor sé [ conciente de los riesgos][upnp-risks] y también considera usar métodos alternativos como se explicó abajo.</p>
 </blockquote>
@@ -188,9 +188,9 @@
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
 </ul>
 <h2 id="usando-redireccionamiento-de-puertos-como-alternativa-a-upnp"><a class="header" href="#usando-redireccionamiento-de-puertos-como-alternativa-a-upnp">Usando redireccionamiento de puertos como alternativa a UPnP</a></h2>
-<p>En vez de habilitar UPnP en tu enrutador, puedes crear una regla de redireccionamiento de puerto para asegurarte que las conexiones desde la red CENO sean dirigidas a tu dispositivo. Necesitarás iniciar sesión en la interfaz administrativa del enrutador, y ubicar la opción <em>redireccionamiento de puertos</em>. Para ver a cuál dirección IP necesitas redirigir las conexiones y el puerto relevante, abre la página <em>Configuraciones de CENO</em> y mira la sección <em>Punto(s) final(es) UDP local(es)</em>.</p>
+<p>En vez de habilitar UPnP en tu enrutador, puedes crear una regla de redireccionamiento de puerto para asegurarte que las conexiones desde la red CENO sean dirigidas a tu dispositivo. Necesitarás iniciar sesión en la interfaz administrativa del enrutador, y ubicar la opción <em>redireccionamiento de puertos</em>. Para ver a cuál dirección IP necesitas redirigir las conexiones y el puerto relevante, abre la página <em>Configuración de CENO</em> y mira la sección <em>Terminales UDP locales</em>.</p>
 <p><img src="images/udp-port.png" alt="Figura: Puntos finales UDP locales" /></p>
-<p>La redirección de puerto debe ser para el protocolo UDP (no TCP). CENO elige un puerto aleatorio en la primera ejecución y lo mantiene por las subsiguientes, pero la dirección IP de tu dispositivo en la red local podría cambiar de tiempo en tiempo. Por lo que periódicamente deberías revisar la página <em>Configuraciones de CENO</em> para ver que tu dispositivo sea alcanzable para la red CENO.</p>
+<p>La redirección de puerto debe ser para el protocolo UDP (no TCP). CENO elige un puerto aleatorio en la primera ejecución y lo mantiene por las subsiguientes, pero la dirección IP de tu dispositivo en la red local podría cambiar de tiempo en tiempo. Por lo que periódicamente deberías revisar la página <em>Configuración de CENO</em> para ver que tu dispositivo sea alcanzable para la red CENO.</p>
 <blockquote>
 <p><strong>Nota tácnica:</strong> Alternativamente, puedes asegurarte de que el enrutador siempre confiera la misma dirección IP a tu dispositivo (ej., a través de una asignación DHCP estática para la dirección MAC del dispositivo).</p>
 </blockquote>
