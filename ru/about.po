@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-26 11:34+0200\n"
-"PO-Revision-Date: 2021-07-22 16:44+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-08-01 14:45+0000\n"
+"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/ru/>\n"
 "Language: ru\n"
@@ -13,17 +13,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
 msgstr "ru"
 
 #: about.html%2Bhtml.head.title:23-5
-#, fuzzy
-#| msgid "Censorship.no! - How it Works"
 msgid "Censorship.no! - How It Works"
-msgstr "Censorship.no! – Как это работает"
+msgstr "Censorship.no! — Как это работает"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
@@ -45,7 +43,7 @@ msgstr "Скачать CENO"
 
 #: about.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr "Скачать браузер CENO"
+msgstr "Скачать Браузер CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:96-1
@@ -64,10 +62,15 @@ msgid ""
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
 "lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+"html\">Русский</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a>"
 
 #: about.html%2Bhtml.body.main.div.h1:122-6
 msgid "How CENO Browser Works"
-msgstr "Как работает браузер CENO"
+msgstr "Как работает Браузер CENO"
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:126-13
 msgid ""
@@ -218,5 +221,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
