@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-26 11:34+0200\n"
-"PO-Revision-Date: 2021-08-08 12:32+0000\n"
-"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
+"PO-Revision-Date: 2021-08-12 15:33+0000\n"
+"Last-Translator: Erin McConnell <erinm@riseup.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/my/>\n"
 "Language: my\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "အင်္ဂလိပ်"
+msgstr "my"
 
 #: privacy_policy.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Privacy Notice"
@@ -24,30 +24,30 @@ msgstr "Censorship.no! - ကိုယ်ရေးကိုယ်တာအချ�
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr "CENO အလုပ်လုပ်ပုံ"
+msgstr "အလုပ်လုပ်ပုံ"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr "သုံးစွဲသူလက်စွဲ"
+msgstr "သုံးစွဲသူ လက်စွဲ"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr "ပါဝင်ပတ်သတ်လိုက်ပါ"
+msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr "CENO ကိုရယူမည်"
+msgstr "CENO ကို ရယူပါ"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr "CENO ဘရောက်ဇာကို ရယူမည်"
+msgstr "CENO ဘရောက်ဇာကို ရယူပါ"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr "အင်္ဂလိပ်"
+msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -212,6 +212,14 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
+"CENO ဘရောက်ဇာသည် <a href=\"https://equalit.ie\">eQualit.ie</a> ၏ "
+"ပရောဂျက်တစ်ခုဖြစ်ပြီး ၎င်းသည် ကိုယ်ရေးလုံခြုံမှု၊ အွန်လိုင်း လုံခြုံရေးနှင့် "
+"လွတ်လပ်စွာ အချင်းအချင်း ဆက်သွယ်ခွင့်ကို အလေးထားပြီး ကန့်သတ်မထားသော၊ "
+"ပြန်လည်အသုံးပြုနိုင်သည့် စနစ်များကို တီထွင်ဖန်တီးသည့် ကနေဒါ ကုမ္ပဏီတစ်ခု "
+"ဖြစ်သည်။ နည်းပညာ ဖြေရှင်းနည်းများနှင့် ဆန်းသစ်တီထွင်မှုများကို "
+"အင်တာနက်သုံးသူတိုင်း၏ အခွင့်အရေးများနှင့် ရည်မှန်းချက်များကို ကာကွယ်ရန် "
+"ကျွန်ုပ်တို့အား လမ်းညွှန်သည့် ကျွန်ုပ်တို့၏ <a href=\"https://equalit.ie/en/"
+"values/\">တန်ဖိုးများ</a>က လှုံ့ဆော်သည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
 #: privacy_policy.html%2Bhtml.body.footer:172-23
@@ -219,3 +227,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
