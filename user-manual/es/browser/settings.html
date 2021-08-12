@@ -148,7 +148,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="configuración-de-ceno"><a class="header" href="#configuración-de-ceno">Configuración de CENO</a></h1>
-<p>El Navegador CENO te permite cambiar algunas configuraciones específicas de Ouinet y obtener información acerca de tu cliente en una manera simple. Esto no debiera ser necesario para la operación normal, pero puede ser útil para ayudar a probar diferentes estrategias en contra de la interferencia de red, e informar de dificultades con la aplicación.</p>
+<p>El Navegador CENO te permite cambiar algunas configuraciones específicas de Ouinet y obtener información acerca de tu cliente en una manera simple. Esto no debiera ser necesario para la operación normal, pero puede ser útil para ayudar a probar diferentes estrategias en contra de la interferencia de red, e informar de problemas con la aplicación.</p>
 <blockquote>
 <p><strong>Nota téchnica:</strong> Estas opciones son provistas por la <em>Extensión CENO</em>, una extensión de Firefox que viene instalada con CENO y se ocupa de la integración apropiada con Ouinet, como la habilitación de la inyección de contenido y la descarga de caché bajo navegación pública, dar al usuario pistas acerca de la fuente del contenido que está siendo visualizado, y notificar acerca de nuevas versiones de Ouinet.</p>
 </blockquote>
@@ -180,28 +180,28 @@
 <h2 id="acerca-de-tu-aplicación"><a class="header" href="#acerca-de-tu-aplicación">Acerca de tu aplicación</a></h2>
 <p>Esta página también te provee con alguna información acerca de tu aplicación del Navegador CENO y el cliente Ouinet:</p>
 <ul>
-<li><em>Navegador CENO</em> indica la versión exacta de CENO que estás usando. Por favor incluye esta información en tus informes de dificultades.</li>
+<li><em>Navegador CENO</em> indica la versión exacta de CENO que estás usando. Por favor incluye esta información en tus informes de problemas.</li>
 <li><em>Extensión CENO</em> muestra la versión de la extensión que integra Firefox con CENO. También inclúyela en los informes.</li>
 <li><em>Ouinet</em> muestra la versión de Ouinet detrás de CENO. También inclúyela en los informes.</li>
 <li><em>Protocolo Ouinet</em> es el número de versión del protocolo que usa CENO para hablar con otros clientes Ouinet e inyectores. También inclúyela en los informes.</li>
-<li><em>Punto(s) final(es) UDP local(es)</em> son las direcciones de Internet usadas por CENO para sembrar contenido firmado a otros clientes. Estos se muestran para ayudar a probar la aplicación y eliminar errores, y generalmente no debieran ser divulgados.</li>
+<li><em>Puntos finales UDP locales</em> son las direcciones de Internet usadas por CENO para sembrar contenido firmado a otros clientes. Estos se muestran para ayudar a probar la aplicación y eliminar errores, y generalmente no deberían ser divulgados.</li>
 <li><em>Estado UPnP</em> indica si CENO fue capaz de decirle a tu enrutador o punto de acceso que permita conexiones entrantes hacia él. También inclúyelo en informes.</li>
 <li><em>Estado de alcanzabilidad</em> indica qué tan probable es que tu dispositivo sea capaz de sembrar contenido efectivamente para otros clientes. También inclúyelo en informes.</li>
 <li><em>Tamaño de la caché local</em> muestra una aproximación de cuánto almacenamiento es ocupado por el contenido que está siendo sembrado desde la caché local de tu dispositivo.</li>
 </ul>
 <h2 id="purgando-la-caché-local"><a class="header" href="#purgando-la-caché-local">Purgando la caché local</a></h2>
-<p>Al lado del valor de arriba <em>Tamaño de la caché local</em>, hay un botón que te permite detener el sembrado y descartar todo el contenido compartido por tu dispositivo sobre Ouinet. Esto te permite liberar algo del espacio de almacenamiento en tu dispositivo, mientras que mantienes otras configuraciones CENO, como los favoritos.</p>
+<p>Al lado del valor de arriba <em>Tamaño de la caché local</em>, hay un botón que te permite detener el sembrado y descartar todo el contenido compartido por tu dispositivo a través de Ouinet. Esto te permite liberar algo del espacio de almacenamiento en tu dispositivo, mientras que mantienes otras configuraciones CENO, como los favoritos.</p>
 <p>Si quieres limpiar la caché de navegación normal de CENO (la usada por el navegador pero no compartida con otros) u otros ítems, como cookies, el historial de navegación o los favoritos, deberías elegir <em>Configuración</em> en el menú principal de la aplicación, y luego <em>Limpiar datos privados</em>. Se te preguntará acerca de qué ítems deseas limpiar.</p>
-<p>Para descartar todo al mismo tiempo (especialmente si estás en un apuro), por favor aprende cómo usar la característica &quot;botón de pánico&quot;, descripta en <a href="install.html">Instalando CENO</a>.</p>
-<h2 id="recolectando-mensajes-de-registro"><a class="header" href="#recolectando-mensajes-de-registro">Recolectando mensajes de registro</a></h2>
-<p>Al fondo de la página hay una casilla de selección <em>Habilitar archivo de registro</em> que te permite recolectar todos los mensajes internos de Ouinet y descargarlos a un archivo. Esto solamente debería ser usado al diagnosticar algún problema en CENO; solo sigue estos pasos:</p>
+<p>Para descartar todo al mismo tiempo (especialmente si estás en un apuro), por favor aprende cómo usar la característica &quot;botón de pánico&quot;, descrita en <a href="install.html">Instalando CENO</a>.</p>
+<h2 id="recopilando-mensajes-de-registro"><a class="header" href="#recopilando-mensajes-de-registro">Recopilando mensajes de registro</a></h2>
+<p>En la parte inferior de la página hay una casilla de comprobación <em>Habilitar archivo de registro</em> que te permite recopilar todos los mensajes internos de Ouinet y descargarlos a un archivo. Esto solamente debería ser usado al diagnosticar algún problema en CENO; solo sigue estos pasos:</p>
 <ol>
 <li>En la página <em>Configuración de CENO</em>, marca <em>Habilitar archivo de registro</em>.</li>
 <li>Vuelve a navegar y haz cualquier acción que desencadene el comportamiento problemático.</li>
 <li>Regresa a la página <em>Configuración de CENO</em> y haz clic en el vínculo <em>Descargar</em> al lado de la casilla de comprobación <em>Habilitar archivo de registro</em>. Guarda el archivo para su uso posterior. Android podría preguntarte en este momento si le permites a CENO acceso a medios almacenados: esto es necesario para poder guardar el archivo.</li>
 <li>Desmarca <em>Habilitar archivo de registro</em> para evitar que crezca en demasía.</li>
 </ol>
-<p>Ahora puedes usar el archivo de registro guardado para documentar un informe de dificultades, pero intenta evitar hacerlo público, ya que podría contener información delicada acerca de tu navegación.</p>
+<p>Ahora puedes usar el archivo de registro guardado para documentar un informe de problemas, pero intenta evitar hacerlo público, ya que podría contener información delicada acerca de tu navegación.</p>
 
                     </main>
 
