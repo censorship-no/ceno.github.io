@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Помощь другим - Руководство пользователя Censorship.no!</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body class="sidebar-visible no-js">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var body = document.querySelector('body');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Вступление</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Что такое Браузер CENO?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Что такое Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Краткое руководство пользователя</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Часто задаваемые вопросы</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Основные концепции</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Как это работает?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публичный и приватный просмотр</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Преимущества использования CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Риски при использовании CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Использование Браузера CENO</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Установка CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Использование публичного или приватного просмотра</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Настройки CENO</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Тестирование браузера</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html" class="active"><strong aria-hidden="true">3.5.</strong> Помощь другим</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Устранение неполадок</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Приложение: Внешний интерфейс клиента Ouinet</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Руководство пользователя Censorship.no!</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Помощь-другим-пользователям-ceno-в-просмотре-веб-страниц"><a class="header" href="#Помощь-другим-пользователям-ceno-в-просмотре-веб-страниц">Помощь другим пользователям CENO в просмотре веб-страниц</a></h1>
+<p>Одноранговая сеть строится из каждого подключенного к ней узла (да, это означает и вас!). Чем больше узлов, тем сильнее и универсальнее становится сеть. Если вы используете Браузер CENO в стране, где нет цензуры в Интернете (или она не такая жесткая, как в некоторых других), подумайте о том, чтобы помочь другим пользователям CENO, став <strong>мостовым</strong> узлом. Тогда вы начнете маршрутизировать трафик между клиентами, живущими в странах с жесткой цензурой, и инжекторами CENO. Вы не сможете видеть их трафик (он будет отправляться через зашифрованный туннель), и ни один из этих трафиков не останется на вашем устройстве.</p>
+<blockquote>
+<p><strong>Примечание:</strong> Конфигурация, описанная в этом разделе, также может помочь вашему устройству эффективно передавать контент другим пользователям в распределенном кэше, поэтому рассмотрите возможность ее применения при использовании CENO в стране с цензурой (но помните о <a href="../concepts/risks.html">рисках</a> при передаче такого контента другим пользователям).</p>
+</blockquote>
+<h2 id="Как-стать-мостом-ceno"><a class="header" href="#Как-стать-мостом-ceno">Как стать мостом CENO</a></h2>
+<p>Эта функция уже встроена в Браузер CENO. Ваше устройство должно быть подключено к сети Wi-Fi, в которой либо включен UPnP, либо настроена явная переадресация портов для CENO. Более подробную информацию см. в следующих разделах.</p>
+<p>Однако обратите внимание, что Android позволит мобильному устройству работать в качестве моста только при активном использовании, так как в противном случае функции энергосбережения будут ограничивать работу CENO.</p>
+<blockquote>
+<p><strong>Техническое примечание:</strong> В основном это связано с тем, что режим <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers - Optimize for Doze and App Standby">режим Doze</a> в Android замедляет работу родной библиотеки Ouinet. К сожалению, отключение оптимизации батареи для CENO, похоже, не исключает Ouinet из этого режима. Ваше конкретное устройство также может включать свои собственные функции энергосбережения, которые могут мешать работе CENO; пожалуйста, проверьте <a href="https://dontkillmyapp.com/">Не убивайте мое приложение!</a> на предмет марки вашего устройства.</p>
+</blockquote>
+<p>Таким образом, если вы планируете, чтобы CENO работал как постоянный, всегда доступный мост, помимо правильно настроенной сети Wi-Fi вам потребуется:</p>
+<ol>
+<li>
+<p>Всегда держите устройство подключенным к сети.</p>
+<ol>
+<li>Постоянно держите экран устройства включенным.Один из удобных способов сделать это без большого потребления энергии и назойливой постоянной подсветки - использовать экранную заставку Android: включите ее в разделе <em>Настройки / Дисплей / Экранная заставка</em> (или <em>Daydream</em> в некоторых версиях), выберите виджет <em>Часы</em>, в меню выберите <em>Когда запускать экранную заставку</em> и выберите <em>Во время зарядки</em> или <em>И то и другое</em>. Пока устройство не активно, на черном фоне будут отображаться очень тусклые часы.</li>
+</ol>
+<p>Обратите внимание, что не следует использовать кнопку питания для блокировки устройства, так как это приведет к выключению экрана. Вместо этого просто подождите, пока устройство заблокируется с включенным экраном.</p>
+</li>
+</ol>
+<h2 id="Включение-upnp-на-роутере-wi-fi"><a class="header" href="#Включение-upnp-на-роутере-wi-fi">Включение UPnP на роутере Wi-Fi</a></h2>
+<p><a href="https://ru.wikipedia.org/wiki/UPnP">UPnP</a> - это самый простой способ сделать ваш Браузер CENO доступным для сети CENO. На странице <a href="settings.html">CENO Settings</a> будет указан статус UPnP в вашей локальной сети.</p>
+<blockquote>
+<p><strong>Примечание:</strong> Включение UPnP на Wi-Fi маршрутизаторе может подвергнуть устройства в вашей сети внешним помехам. Пожалуйста, <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a>, а также рассмотрите возможность использования альтернативных методов, как описано ниже.</p>
+</blockquote>
+<p><img src="images/upnp-no.png" alt="Рисунок: UPnP не включен" /></p>
+<p>Состояние, подобное показанному на предыдущем рисунке, означает, что UPnP не включен на вашем роутере WiFi.</p>
+<p><img src="images/upnp-maybe.png" alt="Рисунок: UPnP вероятно включен" /></p>
+<p>Статус выше указывает на то, что UPnP, вероятно, работает, и CENO в настоящее время проверяет возможность подключения.</p>
+<p><img src="images/upnp-yes.png" alt="Рисунок: UPnP включен" /></p>
+<p>Статус выше означает, что UPnP работает, и вы можете создавать мостовые соединения для других пользователей CENO.</p>
+<p>На рынке представлено множество роутеров Wi-Fi, и каждый из них имеет свои особенности. Ниже приведен список инструкций некоторых производителей по включению UPnP:</p>
+<ul>
+<li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
+<li><a href="https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router">D-Link</a></li>
+<li><a href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
+<li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
+<li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+</ul>
+<h2 id="Использование-переадресации-портов-в-качестве-альтернативы-upnp"><a class="header" href="#Использование-переадресации-портов-в-качестве-альтернативы-upnp">Использование переадресации портов в качестве альтернативы UPnP</a></h2>
+<p>Вместо включения UPnP на роутере можно создать правило переадресации портов, чтобы соединения из сети CENO направлялись на ваше устройство. Вам необходимо войти в панель управления роутера и найти опцию <em>переадресация портов</em>. Чтобы узнать, на какой IP-адрес вам нужно перенаправлять соединения и соответствующий порт, откройте страницу <em>Настройки CENO</em> и найдите раздел <em>Локальная конечная точка (точки) UDP</em>.</p>
+<p><img src="images/udp-port.png" alt="Рисунок: Локальные конечные точки UDP" /></p>
+<p>Перенаправление портов должно осуществляться для протокола UDP (не TCP). При первом запуске CENO выбирает случайный порт и сохраняет его для последующих запусков, но IP-адрес локальной сети вашего устройства может время от времени меняться. Поэтому вам следует периодически просматривать страницу <em>Настройки CENO</em>, чтобы убедиться, что ваше устройство имеет доступ к сети CENO.</p>
+<blockquote>
+<p><strong>Техническое примечание:</strong> В качестве альтернативы вы можете убедиться, что роутер всегда назначает один и тот же IP-адрес вашему устройству (например, с помощью статической аренды DHCP для MAC-адреса устройства).</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../browser/testing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../browser/troubleshooting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../browser/testing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../browser/troubleshooting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
