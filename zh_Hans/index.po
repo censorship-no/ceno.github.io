@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-26 11:34+0200\n"
-"PO-Revision-Date: 2021-06-22 18:39+0000\n"
-"Last-Translator: ff98sha <ff98sha@gmail.com>\n"
+"POT-Creation-Date: 2021-08-24 13:33+0200\n"
+"PO-Revision-Date: 2021-08-13 10:35+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/websiteindex/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "参与进来！"
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "获取CENO浏览器"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:96-1
@@ -52,14 +52,15 @@ msgstr ""
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
-#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/index.html">Pусский</a
 #: index.html%2Bhtml.body.nav.div.div.div.div:102-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a>"
 msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
@@ -77,6 +78,8 @@ msgid ""
 "living in a censored zone to share retrieved content with each other, peer "
 "to peer."
 msgstr ""
+"CENO（Censorship.no!的缩写）是一个移动网络浏览器，使用一种新颖的方法来规避互"
+"联网审查设施，允许生活在审查区的用户，以点对点的方式相互分享检索的内容。"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:131-7
 msgid ""
@@ -96,15 +99,15 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:139-17
 msgid "Get it on Github"
-msgstr ""
+msgstr "从Github获取"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:153-13
 msgid "Browse Freely"
-msgstr ""
+msgstr "自由浏览"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:154-15
 msgid "Unlock the Web"
-msgstr ""
+msgstr "解锁网络"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:155-15
 msgid ""
@@ -119,7 +122,7 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:159-15
 msgid "Grow the Network, Fight Censorship"
-msgstr ""
+msgstr "壮大网络，打击审查"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:160-15
 msgid ""
@@ -131,12 +134,12 @@ msgstr ""
 #: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:163-13
 msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:163-13"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "自由和开放源码"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:164-15
 msgctxt "index.html+html.body.main.section.div.div.div.h3:164-15"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "自由和开放源码"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.p:165-15
 msgid ""
@@ -163,3 +166,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"

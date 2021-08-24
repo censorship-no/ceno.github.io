@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-26 11:34+0200\n"
-"PO-Revision-Date: 2021-06-22 18:39+0000\n"
-"Last-Translator: ff98sha <ff98sha@gmail.com>\n"
+"POT-Creation-Date: 2021-08-24 13:33+0200\n"
+"PO-Revision-Date: 2021-08-13 10:35+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/indexhtml/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "参与进来！"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "获取CENO浏览器"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:96-1
@@ -52,14 +52,15 @@ msgstr ""
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
-#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/about.html">Pусский</a
 #: about.html%2Bhtml.body.nav.div.div.div.div:102-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
+"\">Pусский</a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.main.div.h1:122-6
@@ -167,3 +168,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
