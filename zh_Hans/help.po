@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-26 11:34+0200\n"
+"POT-Creation-Date: 2021-08-24 13:33+0200\n"
 "PO-Revision-Date: 2021-08-13 10:35+0000\n"
 "Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -53,14 +53,15 @@ msgstr ""
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/help.html">Français</a
-#. a class="navbar-item" lang="ru" hreflang="ru" href="../ru/help.html">Pусский</a
 #: help.html%2Bhtml.body.nav.div.div.div.div:102-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help.html"
+"\">Pусский</a>"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.h1:121-5
@@ -86,25 +87,31 @@ msgstr ""
 msgid ""
 "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
 "spare, always-on device."
-msgstr "简单的方法：安卓。﻿﻿﻿﻿﻿在你的安卓设备，和/或一个备用的、始终在线的设备上，运行CENO浏览器。"
+msgstr ""
+"简单的方法：安卓。﻿﻿﻿﻿﻿在你的安卓设备，和/或一个备用的、始终在线的设备上，运行CENO"
+"浏览器。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:133-16
 msgid ""
 "﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
 "up a bridge on your computer or VPS."
-msgstr "﻿运行CENO Docker客户端：你也可以只用一个命令，在你的电脑或VPS上建立桥接。"
+msgstr ""
+"﻿运行CENO Docker客户端：你也可以只用一个命令，在你的电脑或VPS上建立桥接。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:136-16
 msgid ""
 "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
 "up port forwarding."
-msgstr "﻿﻿﻿打开一个通往互联网的门户：确保你的路由器上启用了UPnP，或设置了端口转发。"
+msgstr ""
+"﻿﻿﻿打开一个通往互联网的门户：确保你的路由器上启用了UPnP，或设置了端口转发。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:139-16
 msgid ""
 "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
 "proxy to localhost, port 8077."
-msgstr "﻿﻿﻿看看它是否在正常运行：创建并打开一个新的Firefox配置文件，并将代理设置为localhost，端口8077。"
+msgstr ""
+"﻿﻿﻿看看它是否在正常运行：创建并打开一个新的Firefox配置文件，并将代理设置为"
+"localhost，端口8077。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:142-16
 msgid ""
@@ -160,14 +167,16 @@ msgstr ""
 msgid ""
 "Please contact the CENO team via the contact form below if you're interested "
 "in becoming a reviewer for translation(s) in your language(s)."
-msgstr "如果您有兴趣成为您的语言翻译的审核员，请通过下面的联系表与CENO团队联系。"
+msgstr ""
+"如果您有兴趣成为您的语言翻译的审核员，请通过下面的联系表与CENO团队联系。"
 
 #: help.html%2Bhtml.body.main.div.p:158-6
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
-"有关如何使用Weblate的更多信息，请参阅<a href=\"https://docs.weblate.org/\">Weblate文档</a>"
+"有关如何使用Weblate的更多信息，请参阅<a href=\"https://docs.weblate.org/"
+"\">Weblate文档</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:160-6
 msgid "Source Code"
@@ -177,7 +186,9 @@ msgstr "源代码"
 msgid ""
 "CENO is completely Free/Libre/Open Source Software. If you are interested in "
 "its source code please check the following Git repositories:"
-msgstr "CENO是完全免费/自由/开源的软件。如果你对它的源代码感兴趣，请查看以下Git存储库："
+msgstr ""
+"CENO是完全免费/自由/开源的软件。如果你对它的源代码感兴趣，请查看以下Git存储"
+"库："
 
 #: help.html%2Bhtml.body.main.div.ul.li:163-5
 msgid ""
@@ -218,5 +229,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
