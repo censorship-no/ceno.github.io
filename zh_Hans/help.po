@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-26 11:34+0200\n"
-"PO-Revision-Date: 2021-06-22 18:39+0000\n"
-"Last-Translator: ff98sha <ff98sha@gmail.com>\n"
+"PO-Revision-Date: 2021-08-13 10:35+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/websitehelp/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "获取CENO浏览器"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: help.html%2Bhtml.body.nav.div.div.div:96-1
@@ -86,25 +86,25 @@ msgstr ""
 msgid ""
 "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
 "spare, always-on device."
-msgstr ""
+msgstr "简单的方法：安卓。﻿﻿﻿﻿﻿在你的安卓设备，和/或一个备用的、始终在线的设备上，运行CENO浏览器。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:133-16
 msgid ""
 "﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
 "up a bridge on your computer or VPS."
-msgstr ""
+msgstr "﻿运行CENO Docker客户端：你也可以只用一个命令，在你的电脑或VPS上建立桥接。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:136-16
 msgid ""
 "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
 "up port forwarding."
-msgstr ""
+msgstr "﻿﻿﻿打开一个通往互联网的门户：确保你的路由器上启用了UPnP，或设置了端口转发。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:139-16
 msgid ""
 "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
 "proxy to localhost, port 8077."
-msgstr ""
+msgstr "﻿﻿﻿看看它是否在正常运行：创建并打开一个新的Firefox配置文件，并将代理设置为localhost，端口8077。"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:142-16
 msgid ""
@@ -121,12 +121,12 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.h1:150-6
 msgid "Translations"
-msgstr ""
+msgstr "翻译"
 
 #: help.html%2Bhtml.body.main.div.p:151-2
 msgid ""
 "Help translate the CENO Browser app, web extension, user manual and website!"
-msgstr ""
+msgstr "帮助翻译CENO浏览器的应用程序、网络扩展、用户手册和网站！"
 
 #: help.html%2Bhtml.body.main.div.p:152-2
 msgid "To get started:"
@@ -160,23 +160,24 @@ msgstr ""
 msgid ""
 "Please contact the CENO team via the contact form below if you're interested "
 "in becoming a reviewer for translation(s) in your language(s)."
-msgstr ""
+msgstr "如果您有兴趣成为您的语言翻译的审核员，请通过下面的联系表与CENO团队联系。"
 
 #: help.html%2Bhtml.body.main.div.p:158-6
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
+"有关如何使用Weblate的更多信息，请参阅<a href=\"https://docs.weblate.org/\">Weblate文档</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:160-6
 msgid "Source Code"
-msgstr ""
+msgstr "源代码"
 
 #: help.html%2Bhtml.body.main.div.p:161-2
 msgid ""
 "CENO is completely Free/Libre/Open Source Software. If you are interested in "
 "its source code please check the following Git repositories:"
-msgstr ""
+msgstr "CENO是完全免费/自由/开源的软件。如果你对它的源代码感兴趣，请查看以下Git存储库："
 
 #: help.html%2Bhtml.body.main.div.ul.li:163-5
 msgid ""
@@ -217,3 +218,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
