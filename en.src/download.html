@@ -33,8 +33,8 @@
               <h3 class="card-title text-danger">Direct Download</h3>
               <p class="card-text">For advanced users or those unable to install CENO Browser via the above links, you can download the latest APK directly:</p>
 		<p><strong>CENO Browser 1.0.2</strong></p>
-		<p><input type="button" class="button is-large" value="Download (32-bit ARM)" onclick="location.href = 'https://updates.censorship.no/ceno/v1.0.2/ceno-armeabi-v7a-release-1.0.2-2021-07-26_0707.apk';">
-		   <input type="button" class="button is-large" value="Download (64-bit ARM)" onclick="location.href = 'https://updates.censorship.no/ceno/v1.0.2/ceno-arm64-v8a-release-1.0.2-2021-07-26_0707.apk';"> </p>
+		<p><input type="button" class="button is-large" value="Download (32-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.0.2/ceno-armeabi-v7a-release-1.0.2-2021-07-26_0707.apk';">
+		   <input type="button" class="button is-large" value="Download (64-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.0.2/ceno-arm64-v8a-release-1.0.2-2021-07-26_0707.apk';"> </p>
 		<p>Run this to <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">verify</a> that the APK has a valid signature from the certificate with the fingerprint shown below:</p>
 <pre style="text-align:left">
 > apksigner verify --print-certs ceno-[…].apk
@@ -42,9 +42,9 @@ Signer #1 certificate DN: CN=equalit.ie
 Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca
 […]
 </pre>
-		<p>You can also verify the <a href="https://updates.censorship.no/ceno/v1.0.2/sha256sums.txt.asc">signatures</a>
-		   of <a href="https://updates.censorship.no/ceno/v1.0.2/sha256sums.txt">file hashes</a>
-		   against our <a href="https://updates.censorship.no/keys/cenoers.asc">PGP key</a>
+		<p>You can also verify the <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.0.2/sha256sums.txt.asc">signatures</a>
+		   of <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.0.2/sha256sums.txt">file hashes</a>
+		   against our <a href="https://ceno-download.s3.amazonaws.com/keys/cenoers.asc">PGP key</a>
 		   (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
             </div>
     </div> <!-- end container -->
