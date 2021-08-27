@@ -1,0 +1,52 @@
+  <section>
+    <div class="container">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-lg-6 order-lg-2 order-sm-1 homepage-icon">
+            <img src="../img/cenobanner.png" style="width:100%; margin-top:-70px;" alt="CENO Browser banner">
+          </div>
+          <div class="col-lg-6 order-lg-1 order-sm-2">
+            <div class="card-block">
+    		<h1 class="card-title">Get CENO Browser</h1>
+		<p class="card-text">The safest way to install CENO Browser on your Android phone is through the Google Play Store:</p>
+	          <p><a name="download"></a><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+              <img class="google-play-badge" alt="Get it on Google Play" src="../img/playstore_badge.png">
+          </a></p><p>Alternatively, you can install CENO via the Paskoocheh Marketplace, or download the APK directly via GitHub:</p>
+            <p><a href="https://paskoocheh.com/tools/124/android.html?utm_source=UpdatePage">
+                <img class="paskoocheh-download-badge" src="../img/paskoocheh_badge.png" alt="Get it on Paskoocheh">
+            </a>
+            <a href="https://github.com/censorship-no/ceno-browser/releases">
+                <img class="github-badge" src="../img/github-badge.png" alt="Get it on GitHub">
+            </a></p>
+            </div>
+          </div>
+        </div><!--end download badge row-->
+      </div> <!-- end card 2 -->
+    </div> <!-- end container -->
+  </section> <!-- end section 2 -->
+
+  <section>
+    <div class="container">
+	<!--div class="card border-0"-->
+      <div class="row homepage">
+          <div class="col-lg-12 order-first">
+              <h3 class="card-title text-danger">Direct Download</h3>
+              <p class="card-text">For advanced users or those unable to install CENO Browser via the above links, you can download the latest APK directly:</p>
+		<p><strong>CENO Browser 1.1.0</strong></p>
+		<p><input type="button" class="button is-large" value="Download (32-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-armeabi-v7a-release-1.1.0-2021-08-25_0908.apk';">
+		   <input type="button" class="button is-large" value="Download (64-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-arm64-v8a-release-1.1.0-2021-08-25_0908.apk';"> </p>
+		<p>Run this to <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">verify</a> that the APK has a valid signature from the certificate with the fingerprint shown below:</p>
+<pre style="text-align:left">
+> apksigner verify --print-certs ceno-[…].apk
+Signer #1 certificate DN: CN=equalit.ie
+Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca
+[…]
+</pre>
+		<p>You can also verify the <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/sha256sums.txt.asc">signatures</a>
+		   of <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/sha256sums.txt">file hashes</a>
+		   against our <a href="https://ceno-download.s3.amazonaws.com/keys/cenoers.asc">PGP key</a>
+		   (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
+            </div>
+    </div> <!-- end container -->
+   </div>
+</section>
