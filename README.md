@@ -13,7 +13,7 @@ then further distributed by those nodes in a BitTorrent like fashion.
 
 ## Current status
 
-CENO is currently in its first stable production release (v.1.0.1). It is being tested in censored countries
+CENO is currently in its first stable production release (v.1.1.0). It is being tested in censored countries
 and being given a UI overhaul.
 
 ## What works
@@ -85,7 +85,9 @@ relies on users outside of censored zones to act as bridges. Therefore we're ask
 Github:    https://github.com/censorship-no/ceno-browser/releases
 Play Store: https://play.google.com/store/apps/details?id=ie.equalit.ceno
 Paskoocheh: https://paskoocheh.com/tools/124/android.html
+Direct Download: [64-bit](https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-arm64-v8a-release-1.1.0-2021-08-25_0908.apk) | [32-bit](https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-armeabi-v7a-release-1.1.0-2021-08-25_0908.apk)
 
 ## Feedback
 
 We welcome both positive and negative feedback, as well as questions at cenoers@equalit.ie.
+Our PGP key fingerprint is: 51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862
