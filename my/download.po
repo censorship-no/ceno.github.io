@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-27 13:31-0400\n"
-"PO-Revision-Date: 2021-08-28 15:51+0000\n"
+"PO-Revision-Date: 2021-08-29 16:32+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/my/>\n"
@@ -41,7 +41,6 @@ msgid "Censorship.no! - Download"
 msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
-#, fuzzy
 msgid "<span class=\"fas fa-wrench\"></span> How It Works"
 msgstr "<span class=\"fas fa-wrench\"></span>အလုပ်လုပ်ပုံ"
 
@@ -140,6 +139,9 @@ msgid ""
 "equalit.ie Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca […]"
 msgstr ""
+"> apksigner verify --print-certs ceno-[…].apk Signer #1 certificate DN: "
+"CN=equalit.ie Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca […]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
 msgid ""
@@ -152,6 +154,7 @@ msgid ""
 msgstr ""
 
 #: download.html%2Bhtml.body.footer.div.p:185-9
+#, fuzzy
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
