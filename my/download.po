@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 10:56+0200\n"
-"PO-Revision-Date: 2021-08-29 16:32+0000\n"
+"PO-Revision-Date: 2021-08-30 11:17+0200\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/my/>\n"
@@ -24,25 +24,23 @@ msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "အလုပ်လုပ်ပုံ"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "အသုံးပြုသူများအတွက်လက်စွဲစာအုပ်"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "ပါဝင်လိုက်ပါ။"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
 msgstr "CENO ကို ရယူပါ။"
 
 #: download.html%2Bhtml.body.nav.div.div.div:94-10
-#, fuzzy
-#| msgid "Get CENO Browser"
 msgctxt "download.html+html.body.nav.div.div.div:94-10"
 msgid "Get CENO Browser"
 msgstr "CENO ဘရောက်ဇာကို ရယူလိုက်ပါ။"
@@ -50,7 +48,7 @@ msgstr "CENO ဘရောက်ဇာကို ရယူလိုက်ပါ။
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -73,8 +71,6 @@ msgid "CENO Browser banner"
 msgstr "CENO Browser 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
-#, fuzzy
-#| msgid "Get CENO Browser"
 msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:129-7"
 msgid "Get CENO Browser"
 msgstr "CENO ဘရောက်ဇာကို ရယူလိုက်ပါ။"
@@ -179,35 +175,3 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-
-#~ msgid "width=device-width, initial-scale=1"
-#~ msgstr "width=device-width, initial-scale=1"
-
-#~ msgid "#e43625"
-#~ msgstr "#e43625"
-
-#~ msgid "#ffffff"
-#~ msgstr "#ffffff"
-
-#~ msgid "<span class=\"fas fa-wrench\"></span> How It Works"
-#~ msgstr "<span class=\"fas fa-wrench\"></span>အလုပ်လုပ်ပုံ"
-
-#~ msgid "<span class=\"fas fa-book-open\"></span> User Manual"
-#~ msgstr "<span class=\"fas fa-book-open\"></span>အသုံးပြုသူများအတွက်လက်စွဲစာအုပ်"
-
-#~ msgid "<span class=\"fas fa-hands-helping\"></span> Get Involved!"
-#~ msgstr "<span class=\"fas fa-hands-helping\"></span>ပါဝင်လိုက်ပါ။"
-
-#~ msgid ""
-#~ "Get CENO Browser <span class=\"ml-2 pt-1 fas fa-arrow-down fa-pull-end\"> "
-#~ "</span>"
-#~ msgstr ""
-#~ "CENO ဘရောက်ဇာကိုရယူလိုက်ပါ။<span class=\"ml-2 pt-1 fas fa-arrow-down fa-pull-end"
-#~ "\"></span>"
-
-#~ msgid ""
-#~ "<i class=\"fas fa-globe is-warning fa-pull-start\" aria-hidden=\"true\"></"
-#~ "i></span> <span>EN</span> <span class=\"fas fa-caret text-danger\">"
-#~ msgstr ""
-#~ "<i class=\"fas fa-globe is-warning fa-pull-start\" aria-hidden=\"true\"></"
-#~ "i></span> <span>MY</span> <span class=\"fas fa-caret text-danger\">"

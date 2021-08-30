@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 10:56+0200\n"
-"PO-Revision-Date: 2021-08-29 16:32+0000\n"
+"PO-Revision-Date: 2021-08-30 11:05+0200\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/fr/>\n"
@@ -24,17 +24,17 @@ msgstr "Censorship.no! - Télécharger"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Comment ça marche"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Manuel de l'utilisateur"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "Participez !"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
@@ -48,7 +48,7 @@ msgstr ""
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "FR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -159,19 +159,3 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-
-#~ msgid "<span class=\"fas fa-wrench\"></span> How It Works"
-#~ msgstr "<span class=\"fas fa-wrench\"> </span> Comment ça marche"
-
-#~ msgid "<span class=\"fas fa-book-open\"></span> User Manual"
-#~ msgstr "<span class=\"fas fa-book-open\"></span> Manuel de l'utilisateur"
-
-#~ msgid "<span class=\"fas fa-hands-helping\"></span> Get Involved!"
-#~ msgstr "<span class=\"fas fa-hands-helping\"></span> Participez !"
-
-#~ msgid ""
-#~ "<i class=\"fas fa-globe is-warning fa-pull-start\" aria-hidden=\"true\"></"
-#~ "i></span> <span>EN</span> <span class=\"fas fa-caret text-danger\">"
-#~ msgstr ""
-#~ "<i class=\"fas fa-globe is-warning fa-pull-start\" aria-hidden=\"true\"></"
-#~ "i></span> <span>FR</span> <span class=\"fas fa-caret text-danger\">"
