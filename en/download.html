@@ -155,11 +155,13 @@
 		<p><input type="button" class="button is-large" value="Download (32-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-armeabi-v7a-release-1.1.0-2021-08-25_0908.apk';">
 		   <input type="button" class="button is-large" value="Download (64-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-arm64-v8a-release-1.1.0-2021-08-25_0908.apk';"> </p>
 		<p>Run this to <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">verify</a> that the APK has a valid signature from the certificate with the fingerprint shown below:</p>
+<!-- The "br" tags are a workaround for <https://github.com/translate/translate/issues/3265>. -->
 <pre style="text-align:left">
+<!-- TRANSLATORS: Please do not translate any of these. -->
 > apksigner verify --print-certs ceno-[…].apk
-Signer #1 certificate DN: CN=equalit.ie
-Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca
-[…]
+<br>Signer #1 certificate DN: CN=equalit.ie
+<br>Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca
+<br>[…]
 </pre>
 		<p>You can also verify the <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/sha256sums.txt.asc">signatures</a>
 		   of <a href="https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/sha256sums.txt">file hashes</a>
