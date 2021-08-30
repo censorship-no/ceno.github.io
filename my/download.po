@@ -1,16 +1,18 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 12:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-08-30 12:49+0200\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
+"websitedownload/my/>\n"
+"Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -22,31 +24,31 @@ msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "အလုပ်လုပ်ပုံ"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "အသုံးပြုသူများအတွက်လက်စွဲစာအုပ်"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "ပါဝင်လိုက်ပါ။"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO ကို ရယူပါ။"
 
 #: download.html%2Bhtml.body.nav.div.div.div:94-10
 msgctxt "download.html+html.body.nav.div.div.div:94-10"
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာကို ရယူလိုက်ပါ။"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -56,26 +58,30 @@ msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-"
-"item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> "
-"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
-"html\">Pусский</a>"
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
+"\">Pусский</a>"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
+#, fuzzy
+#| msgid "CENO Browser 1.1.0"
 msgid "CENO Browser banner"
-msgstr ""
+msgstr "CENO Browser 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
 msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:129-7"
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာကို ရယူလိုက်ပါ။"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:130-3
 msgid ""
 "The safest way to install CENO Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
+"CENO Browser ကို ဖုန်းတွင်ရယူထည့်သွင်းရန်အတွက် စိတ်အချရဆုံးနည်းလမ်းမှာ Google Play Store "
+"မှတဆင့်ထည့်သွင်းခြင်းဖြစ်ပါသည်။"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:132-15
 msgid "Get it on Google Play"
@@ -86,6 +92,8 @@ msgid ""
 "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
 "download the APK directly via GitHub:"
 msgstr ""
+"တခြားနည်းလမ်းအနေဖြင့် Paskoocheh Marketplace မှတဆင့်သို့မဟုတ် Github မှ APK ဖိုင်ကိုတိုက်ရိုက် "
+"ရယူနိုင်ပါသည်။"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:135-17
 msgid "Get it on Paskoocheh"
@@ -97,17 +105,19 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:152-15
 msgid "Direct Download"
-msgstr ""
+msgstr "တိုက်ရိုက်ဒေါင်းလုပ်"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:153-15
 msgid ""
 "For advanced users or those unable to install CENO Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
+"ကျွမ်းကျွမ်းကျင်ကျင်အသုံးပြုတတ်သူ သို့မဟုတ် အထက်ပါနည်းလမ်းများဖြင့်  Download ချ၍မရပါက ဤနေရာတွင်  "
+"APK ကိုတိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည်။"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:154-3
 msgid "CENO Browser 1.1.0"
-msgstr ""
+msgstr "CENO Browser 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
 msgid "Download (32-bit ARM)"
@@ -122,7 +132,7 @@ msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
-msgstr ""
+msgstr "APK ဖိုင်တွင်အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း သက်သေပြရန် ဖွင့်လိုက်ပါ။"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:160-1
@@ -130,31 +140,36 @@ msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
-msgstr ""
+msgstr "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v1.1.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
 "download.s3.amazonaws.com/ceno/v1.1.0/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-"asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
 
 #: download.html%2Bhtml.body.footer.div.p:183-9
+#, fuzzy
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
-">values</a> that guide us to protect the rights and aspirations of everyone "
-"online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
 msgstr ""
+"CENO ဘရောက်ဇာ သည်  ကနေဒါအခြေစိုက် Privacy, အင်တာနက်လုံခြုံမှုနှင့် လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု တို့ကို အာရုံစိုက်သည့် "
+"လွတ်လပ်ကာ ပြန်သုံးနိုင်သည့် စနစ်များကို တည်ဆောက်နေသည့်အဖွဲ့မှ လုပ်ဆောင်ထားသော စီမံကိန်းတစ်ခုဖြစ်သည်။  ကျွန်ပ် တို့၏ "
+"အားလုံးအတွက် အွန််လိုင်းတွင် ရပိုင်ခွင့်များ ကို ကာကွယ်နိုင်စေရန် ဆိုသော စေတနာတန်ဖိုးက နည်းပညာထုတ်ကုန်များ နှင့် "
+"တီထွင်ဖန်တီးနိုင်မှုတို့ကို  ဉီးဆောင်မောင်းနှင်ခြင်းဖြစ်ပါသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:185-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
