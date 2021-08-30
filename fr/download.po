@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 12:19+0200\n"
+"POT-Creation-Date: 2021-08-30 12:47+0200\n"
 "PO-Revision-Date: 2021-08-30 11:05+0200\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
@@ -127,14 +127,14 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:159-1
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:160-1
 msgid ""
-"> apksigner verify --print-certs ceno-[…].apk <br>Signer #1 certificate DN: "
-"CN=equalit.ie <br>Signer #1 certificate SHA-256 digest: "
-"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca <br>[…]"
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:166-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v1.1.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -144,7 +144,7 @@ msgid ""
 "C123 F0DD B862</code>)."
 msgstr ""
 
-#: download.html%2Bhtml.body.footer.div.p:187-9
+#: download.html%2Bhtml.body.footer.div.p:183-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -155,7 +155,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:189-23
+#: download.html%2Bhtml.body.footer:185-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
