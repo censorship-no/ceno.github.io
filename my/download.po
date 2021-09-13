@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 12:47+0200\n"
-"PO-Revision-Date: 2021-09-12 07:34+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-09-14 08:38+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/my/>\n"
 "Language: my\n"
@@ -20,7 +20,7 @@ msgstr "my"
 
 #: download.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Download"
-msgstr ""
+msgstr "Censorship.no! - ဒေါင်းလုတ်"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
@@ -63,6 +63,13 @@ msgid ""
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
 "\">Pусский</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> "
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
+"html\">Pусский</a>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
 #, fuzzy
@@ -101,7 +108,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:138-17
 msgid "Get it on GitHub"
-msgstr ""
+msgstr "Github တွင်ရယူပါ။"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:152-15
 msgid "Direct Download"
@@ -121,11 +128,11 @@ msgstr "CENO ဘရောက်ဇာ ၁.၁.၀"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
 msgid "Download (32-bit ARM)"
-msgstr ""
+msgstr "ဒေါင်းလုတ် (32-bit ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:156-6
 msgid "Download (64-bit ARM)"
-msgstr ""
+msgstr "ဒေါင်းလုတ် (64-bit ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:157-3
 msgid ""
@@ -156,6 +163,12 @@ msgid ""
 "\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
+"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/"
+"sha256sums.txt\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
+"amazonaws.com/ceno/v1.1.0/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို "
+"ကျွန်ုပ်တို့၏ <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
+"asc\">PGP key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
+"F0DD B862</code>) ဖြင့် စစ်ဆေးအတည်ပြုနိုင်ပါတယ်။"
 
 #: download.html%2Bhtml.body.footer.div.p:183-9
 #, fuzzy
