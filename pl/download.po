@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 12:47+0200\n"
 "PO-Revision-Date: 2021-09-19 18:35+0000\n"
-"Last-Translator: Atrate <Atrate@protonmail.com>\n"
+"Last-Translator: Jakub Tabor <taborjakub2@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/pl/>\n"
 "Language: pl\n"
@@ -17,21 +17,21 @@ msgstr ""
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "pl"
 
 #: download.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Download"
-msgstr ""
+msgstr "Censorship.no! - Pobieranie"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Jak to działa"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Instrukcja obsługi"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 #, fuzzy
@@ -50,7 +50,7 @@ msgstr "Pobierz przeglądarkę CENO"
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "PL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -85,7 +85,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:132-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Pobierz na Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:133-19
 msgid ""
@@ -118,15 +118,15 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:154-3
 msgid "CENO Browser 1.1.0"
-msgstr ""
+msgstr "Przeglądarka CENO 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
 msgid "Download (32-bit ARM)"
-msgstr ""
+msgstr "Pobierz (32-bitowy ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:156-6
 msgid "Download (64-bit ARM)"
-msgstr ""
+msgstr "Pobierz (64-bitowy ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:157-3
 msgid ""
@@ -142,6 +142,9 @@ msgid ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
 msgid ""
@@ -169,3 +172,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
