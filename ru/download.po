@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 12:47+0200\n"
-"PO-Revision-Date: 2021-09-02 00:46+0000\n"
-"Last-Translator: Adam K <uz@zu.uz>\n"
+"PO-Revision-Date: 2021-09-23 19:34+0000\n"
+"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -21,7 +21,7 @@ msgstr "ru"
 
 #: download.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Download"
-msgstr "Censorship.no! – Скачать"
+msgstr "Censorship.no! — Скачать"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
@@ -86,12 +86,12 @@ msgid ""
 "The safest way to install CENO Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
-"Самый безопасный способ установить Браузер CENO на ваш Android телефон – это "
-"через магазин Google Play:"
+"Самый безопасный способ установить Браузер CENO на ваше устройство Android — "
+"Google Play:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:132-15
 msgid "Get it on Google Play"
-msgstr "Скачайте в Google Play"
+msgstr "Скачать в Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:133-19
 msgid ""
@@ -103,11 +103,11 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:135-17
 msgid "Get it on Paskoocheh"
-msgstr "Скачайте в Paskoocheh"
+msgstr "Скачать в Paskoocheh"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:138-17
 msgid "Get it on GitHub"
-msgstr "Скачайте в GitHub"
+msgstr "Скачать в GitHub"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:152-15
 msgid "Direct Download"
@@ -127,11 +127,11 @@ msgstr "CENO Browser 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
 msgid "Download (32-bit ARM)"
-msgstr "Скачать (32-битную версию ARM)"
+msgstr "Скачать (32-бит ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:156-6
 msgid "Download (64-bit ARM)"
-msgstr "Скачать (64-битную версию ARM)"
+msgstr "Скачать (64-бит ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:157-3
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 "Выполните эту команду, чтобы <a href=\"https://developer.android.com/studio/"
 "command-line/apksigner#usage-verify\">проверить</a>, что APK-файл имеет "
-"действительную сигнатуру сертификата с приведенным ниже отпечатком пальца:"
+"действительную сигнатуру сертификата с приведенным ниже отпечатком:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:160-1
@@ -167,7 +167,7 @@ msgstr ""
 "v1.1.0/sha256sums.txt.asc\">подписи</a> <a href=\"https://ceno-download.s3."
 "amazonaws.com/ceno/v1.1.0/sha256sums.txt\">хешей файлов</a> по нашему <a "
 "href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">PGP-ключу</"
-"a> (с отпечатком пальца <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"a> (с отпечатком <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
 "B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:183-9
