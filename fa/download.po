@@ -3,18 +3,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 12:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-09-28 19:35+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
+"websitedownload/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "fa"
 
 #: download.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Download"
@@ -22,31 +24,31 @@ msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "نحوه عملکرد"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "راهنمای کاربر"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "همراه شوید!"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO را دریافت کنید"
 
 #: download.html%2Bhtml.body.nav.div.div.div:94-10
 msgctxt "download.html+html.body.nav.div.div.div:94-10"
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "مرورگر CENO را دریافت کنید"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "FA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -61,6 +63,13 @@ msgid ""
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
 "\">Pусский</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> "
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
+"html\">Pусский</a>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
 msgid "CENO Browser banner"
@@ -69,7 +78,7 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
 msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:129-7"
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "مرورگر CENO را دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:130-3
 msgid ""
@@ -151,6 +160,12 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"مرورگر CENO پروژه ای است که از طرف <a href=\"https://equalit.ie\">eQualit."
+"ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با "
+"تمرکز بر حفظ حریم خصوصی ، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه‌حل‌"
+"های مدرن فناوری و نوآوری‌ها به وسیله<a href=\"https://equalit.ie/en/values/\""
+">ارزش‌</a> های ما هدایت می‌شوند که ما را برای محافظت از حقوق و خواسته‌های "
+"تمامی افراد راهنمایی کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:185-23
@@ -158,3 +173,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"

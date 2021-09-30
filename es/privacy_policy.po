@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-24 13:33+0200\n"
-"PO-Revision-Date: 2021-09-08 16:20+0000\n"
-"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
+"PO-Revision-Date: 2021-09-19 18:34+0000\n"
+"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -84,6 +84,14 @@ msgid ""
 "reflect Canadian and Quebec privacy laws and statutes. For further "
 "information regarding Canadian and Quebec privacy laws, please visit:"
 msgstr ""
+"eQualit.ie está comprometida a proteger los intereses de privacidad de sus "
+"clientes, usuarios finales, distribuidores y proveedores. Este aviso de "
+"privacidad tiene la intención de suministrarte información general sobre "
+"cómo podría ser usada tu información personal. eQualit.ie es una corporación "
+"canadiense, con su oficina ubicada en Montreal, y nuestro aviso de "
+"privacidad ha sido desarrollado para reflejar las leyes y estatutos de "
+"privacidad canadienses y de Quebec. Para información adicional relativa a "
+"las leyes de privacidad canadienses y de Quebec, por favor visita:"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:126-1
 msgid "Office of the Privacy Commissioner of Canada"
@@ -91,7 +99,7 @@ msgstr "Oficina del Comisionado de Privacidad de Canadá"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:127-1
 msgid "Office of the Information and Privacy Commissioner of Quebec"
-msgstr ""
+msgstr "Oficina del Comisionado de Información y Privacidad de Quebec"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:129-1
 msgid "Effective Date and Scope"
@@ -104,6 +112,10 @@ msgid ""
 "This Privacy notice governs our practices with respect to Data that we "
 "collect through the CENO browser."
 msgstr ""
+"Este aviso de Privacidad es efectivo a partir del 1 de diciembre de 2018. En "
+"el mismo (Aviso de Privacidad), los términos “nosotros” y “nuestro” "
+"significan eQualit.ie. Este aviso de Privacidad gobierna nuestras prácticas "
+"con respecto a Datos que recolectamos a través del Navegador CENO."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:132-1
 msgid "About CENO"
@@ -113,6 +125,8 @@ msgstr "Acerca de CENO"
 msgid ""
 "CENO is designed to provide you with open access to online censored content."
 msgstr ""
+"CENO está diseñado para proveerte con acceso abierto a contenido en línea "
+"censurado."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:135-1
 msgid "Interaction data"
@@ -126,6 +140,12 @@ msgid ""
 "early stages of development and it is possible private web pages viewed by "
 "users might be stored this way by accident."
 msgstr ""
+"CENO almacena una colección resumida de todas las páginas web públicas "
+"vistas por usuarios de CENO para habilitar a otros usuarios del sistema el "
+"acceso a esas páginas. Mientras que nos esforzamos mucho en intentar honrar "
+"la privacidad del usuario con este mecanismo, aún está en etapas tempranas "
+"de desarrollo, y es posible que las páginas web privadas vistas por los "
+"usuarios pudieran ser almacenadas de esta manera por accidente."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:138-1
 msgid ""
@@ -135,6 +155,13 @@ msgid ""
 "classification. This log data is used by the CENO development team to track "
 "down issues with the CENO infrastructure, and is not disclosed to others."
 msgstr ""
+"Esta versión de prueba de CENO almacena registros de todas las páginas "
+"solicitadas a través de los mecanismos de evasión de censura. Los registros "
+"existen aún para páginas consideradas privadas, como así también las "
+"consideraciones hechas para determinar esta clasificación de privacidad. "
+"Estos datos de registro son usados por el equipo de desarrollo de CENO para "
+"rastrear dificultades con la infrastructura de CENO, y no se divulgan a "
+"terceros."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:140-1
 msgid "Storage of Data Outside Canada"
@@ -146,7 +173,7 @@ msgstr "Almacenamos datos fuera de Canadá."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:143-1
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Política de Retención de Datos"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:144-1
 msgid ""
@@ -154,11 +181,17 @@ msgid ""
 "testing purposes will be retained for the duration of the testing and "
 "analysis period, and will be deleted afterwards."
 msgstr ""
+"Los ítems de recolección resumida de páginas web son retenidos "
+"indefinidamente. Los registros para propósitos de pruebas serán retenidos "
+"por la duración del periodo de prueba y análisis, y serán borrados con "
+"posterioridad."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:146-1
 msgid ""
 "How Can You Access and Modify Your Personal Information or Make a Complaint?"
 msgstr ""
+"¿Cómo puedes acceder y modificar tu información personal, o efectuar una "
+"queja?"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:147-1
 msgid ""
@@ -168,10 +201,15 @@ msgid ""
 "user. If you have questions or concerns, you can reach us at: "
 "privacy@equalit.ie"
 msgstr ""
+"Los datos almacenados tanto en la colección resumida de páginas web o los "
+"registros de prueba no están directamente vinculados a un usuario "
+"particular. Como consecuencia, no es posible ni acceder ni modificar la "
+"información conectada a un usuario particular. Si tienes preguntas o "
+"preocupaciones, puedes contactarnos a: privacy@equalit.ie"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:149-1
 msgid "Notice to Persons Outside of Canada"
-msgstr ""
+msgstr "Aviso para personas fuera de Canadá"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:150-1
 msgid ""
@@ -180,10 +218,14 @@ msgid ""
 "that your Personal Information will be subject to the laws of Canada and "
 "applicable provincial laws."
 msgstr ""
+"Este aviso de Privacidad está gobernado por las leyes de Canadá, y las leyes "
+"provinciales aplicables. Al enviarnos información personal, entiendes que la "
+"misma estará sujeta a las leyes de Canadá y las leyes provinciales "
+"aplicables."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:152-1
 msgid "Changes to Our Privacy notice"
-msgstr ""
+msgstr "Cambios a nuestro aviso de Privacidad"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:153-1
 msgid ""
@@ -191,6 +233,10 @@ msgid ""
 "time. We will email you and post any substantive changes to this notice on "
 "our website along with the effective date of those changes."
 msgstr ""
+"Podríamos necesitar cambiar ciertos aspectos del aviso de Privacidad de "
+"tiempo en tiempo. Te enviaremos un correo electrónico y publicaremos "
+"cualesquiera cambios sustanciales a este aviso en nuestro sitio web, junto "
+"con la fecha efectiva de esos cambios."
 
 #: privacy_policy.html%2Bhtml.body.footer.div.p:170-9
 msgid ""
