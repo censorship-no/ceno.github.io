@@ -161,7 +161,7 @@
 <p><em>Direct from website</em> (or <strong>origin access</strong>) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
 <p>Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.</p>
 <p>If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see <a href="../concepts/risks.html">risks</a>).</p>
-<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.</p>
+<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.  Please check the section on <a href="troubleshooting.html">troubleshooting</a> to learn more about this issue.</p>
 </li>
 <li>
 <p><em>Via the CENO network (private)</em> (or <strong>proxy access</strong>) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
@@ -190,10 +190,11 @@
 <li><em>CENO Extension</em> shows the version of the extension that integrates Firefox with CENO.  Also include in reports.</li>
 <li><em>Ouinet</em> shows the version of Ouinet backing CENO.  Also include in reports.</li>
 <li><em>Ouinet protocol</em> is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors.  Also include in reports.</li>
-<li><em>Local UDP endpoint(s)</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
+<li><em>Local UDP endpoints</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
 <li><em>UPnP status</em> indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.</li>
 <li><em>Reachability status</em> indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.</li>
 <li><em>Local cache size</em> shows an approximation of how much storage is taken by the content being seeded from your device's local cache.</li>
+<li><em>Content shared by you</em> allows you to check the content being announced by your device.</li>
 </ul>
 <h2 id="purging-the-local-cache"><a class="header" href="#purging-the-local-cache">Purging the local cache</a></h2>
 <p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like Favorites.</p>

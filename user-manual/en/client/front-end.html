@@ -148,7 +148,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="annex-the-ouinet-client-front-end"><a class="header" href="#annex-the-ouinet-client-front-end">Annex: The Ouinet client front-end</a></h1>
-<p>The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Some of those may not be available from the CENO Extension.</p>
+<p>The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Many of them are also offered by the CENO Extension via the <a href="../browser/settings.html"><em>CENO Settings</em> page</a>, though others are only available here.</p>
 <p>The front-end is accessible using any plain Web browser running on the same device (you can use CENO too).  Its default address is <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>.  If you open it, you will see something like the figure below.</p>
 <p><img src="images/front-end.png" alt="Figure: The client front-end" /></p>
 <p>The items shown in the page include:</p>
@@ -159,16 +159,26 @@
 <p>Please note that none of this needs to be done for the CENO Browser, since it is already configured like that.</p>
 </li>
 <li>
-<p>Buttons to enable or disable the different mechanisms used by the client to access content.  They are equivalent to the check boxes in the <a href="../browser/settings.html"><em>CENO Settings</em> page</a>.</p>
+<p>Buttons to enable or disable the different mechanisms used by the client to access content.</p>
 </li>
 <li>
-<p>Selectors to choose different log levels, like the default <code>INFO</code> (informational messages, warnings and errors) or <code>DEBUG</code> (verbose output useful for reporting errors).</p>
+<p>Selectors to choose different log levels, like the default <code>INFO</code> (informational messages, warnings and errors) or <code>DEBUG</code> (verbose output useful for reporting errors).  The log file can also be enabled and retrieved from here.</p>
+<p>When enabling the log file, the log level is automatically set to <code>DEBUG</code> (though you may change it again from here).  When disabling the log file, the original log level is restored.</p>
 </li>
 <li>
-<p>The public key used to verify signatures from injectors, and the configured way to reach them.  The default <code>bep5</code> method looks up Internet addresses in a BitTorrent injector swarm, as explained <a href="../concepts/how.html">here</a>.</p>
+<p>Global client state and version information.  Useful when reporting errors.</p>
 </li>
 <li>
-<p>Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely.</p>
+<p>Information about client connectivity and injector addressing.  The default <code>bep5</code> method looks up Internet addresses in a BitTorrent injector swarm, as explained <a href="../concepts/how.html">here</a>.</p>
+</li>
+<li>
+<p>The public key used to verify signatures from injectors in the distributed cache.</p>
+</li>
+<li>
+<p>Information on your local cache like the maximum content age, approximate size of the cache, a button to purge it completely, and a link to the list of announced cache entries.</p>
+</li>
+<li>
+<p>The directory of the external, static cache if enabled (CENO does not currently use this).</p>
 </li>
 </ul>
 

@@ -155,31 +155,34 @@
 <p>Comprobemos primero si tu Navegador CENO puede alcanzar a un inyector. Esto podría parecer trivial, pero tu cliente ya estaría ejercitando varias características de Ouinet en el proceso: buscando la dirección del inyector en el enjambre de los mismos, intentando contactarlo directamente y, si está bloqueado por tu proveedor de acceso o país, buscando en el enjambre de puentes e intentando contactar al inyector a través de algún otro cliente Ouinet.</p>
 <p>En el primer dispositivo efectúa los siguientes pasos:</p>
 <ol>
-<li>Primeramente, instala CENO y ejecútalo. En esa primera ejecución, aparecerán una serie de pantallas introductorias: solo haz clic en <em>SIGUIENTE</em> hasta que aparezca <em>INICIAR NAVEGACIÓN</em>, y luego haz clic ahí. Al final, aparecerá la página inicial de CENO.</li>
-<li>Abre el menú principal de la aplicación y elige <em>CENO</em> para abrir la página <em>Configuración de CENO</em>. Ya que solo deseamos probar el acceso a los inyectores, desmarca todas las casillas para los mecanismos de acceso, excepto <em>Vía la red CENO (pública)</em>.</li>
+<li>Primero de todo, instala CENO y ejecútalo. Aparecerá su página de inicio.</li>
+<li>Abre el menú principal de la aplicación y elige <em>CENO</em> para abrir la página <em>Configuración de CENO</em>. Ya que solo deseamos probar el acceso a los inyectores, desmarca todas las casillas para las fuentes de contenido, excepto <em>Vía la red CENO (pública)</em>.</li>
 <li>Vuelve a la página inicial de CENO. Selecciona uno de los sitios Web recomendados, o bien ingresa el URL de algún otro sitio en la barra de direcciones en la parte superior de la ventana. Si sabes acerca de un sitio que usualmente está bloqueado para tí, ¡ingrésalo!</li>
 <li>El sitio elegido aparecerá eventualmente.</li>
 </ol>
+<p><strong>Nota:</strong> Si obtienes una página falsa en vez de una legítima, usa la barra de direcciones para ingresar el URL del sitio con <code>https://</code> al inicio (en vez de <code>http://</code>) y repite la prueba.</p>
 <p>Si el sitio se carga, ¡puedes estar feliz de que tu dispositivo puede alcanzar al inyector! Ya que eres capaz de consultar a enjambres y contactar a otros clientes, probablemente también seas capaz de descargar contenido desde la caché distribuída.</p>
-<p>De paso, si presionas el icono CENO en la barra de direcciones, se abrirá una ventana emergente como la de abajo, mostrando cuántos elementos del sitio fueron descargados usando cada uno de los diferentes mecanismos de acceso. Solamente <em>Vía la red CENO (pública)</em> debería tener un valor no nulo, ya que los otros mecanismos fueron deshabilitados.</p>
-<p><img src="images/sources-inject.png" alt="Figura: Mecanismos usados al probar la inyección" /></p>
+<p>De paso, si presionas el ícono CENO en la barra de direcciones, se abrirá una ventana emergente como la de abajo, mostrando cuántos elementos del sitio fueron descargados desde las diferentes fuentes. Solamente <em>Vía la red CENO (pública)</em> debería tener un valor no nulo, ya que las otras fuentes fueron deshabilitadas.</p>
+<p><img src="images/sources-inject.png" alt="Figura: Fuentes usadas al probar la inyección" /></p>
 <p>En contraste, si hubieses usado navegación privada con los parámetros por defecto, podrías haber visto una ventana emergente como la que se muestra a continuación, con contadores no nulos en <em>Directo del sitio web</em> o <em>Vía la red CENO (privada)</em>.</p>
-<p><img src="images/sources-proxy.png" alt="Figura: Mecanismos usados con navegación privada" /></p>
+<p><img src="images/sources-proxy.png" alt="Figura: Fuentes usadas con navegación privada" /></p>
 <h2 id="obteniendo-contenido-desde-usuarios-cercanos"><a class="header" href="#obteniendo-contenido-desde-usuarios-cercanos">Obteniendo contenido desde usuarios cercanos</a></h2>
 <p>Ya que tu primer dispositivo fue capaz de obtener algún contenido desde un inyector, probemos si es capaz de compartirlo con otro dispositivo a través de la caché distribuída. La manera más simple es usar el soporte dispositivo a dispositivo de CENO, para comprobar si funciona la obtención y verificación de contenido firmado.</p>
-<p>Después de completar la prueba de arriba sobre el primer dispositivo, deja a CENO ejecutándose en él (el icono CENO debería aparecer en su barra de notificación). Luego agrega un segundo dispositivo (puedes invitar a un amigo para ayudarte a probar) y conéctalo a la misma red Wi-Fi. Luego, sigue los pasos de abajo en ese dispositivo:</p>
+<p>Después de completar exitosamente la prueba de arriba sobre el primer dispositivo, deja a CENO ejecutándose en él (el ícono CENO debería aparecer en su barra de notificación). Luego obtén un segundo dispositivo (puedes invitar a un amigo para ayudarte a probar) y conéctalo a la misma red Wi-Fi. Luego, sigue los pasos de abajo en el segundo dispositivo:</p>
 <ol>
-<li>Instala CENO si fuera necesario, inícialo y procede hacia la página inicial de CENO como se muestra arriba.</li>
-<li>Abre la página de <em>Configuración de CENO</em> como arriba. Ya que solamente deseamos probar el acceso a la caché distribuida, desmarca todas las casillas para los mecanismos de acceso, excepto <em>Compartido por otros usuarios de CENO</em>.</li>
+<li>Instala CENO si fuera necesario, e inícialo como se muestra arriba.</li>
+<li>Abre la página de <em>Configuración de CENO</em> como arriba. Ya que solamente deseamos probar el acceso a la caché distribuida, desmarca todas las casillas para las fuentes de contenido, excepto <em>Compartido por otros usuarios de CENO</em>.</li>
 <li>Vuelve a la página inicial de CENO y visita el mismo sitio de la misma manera en que lo hiciste arriba (esto es, seleccionando uno de los sitios web recomendados, o ingresando su URL en la barra de direcciones).</li>
 <li>El sitio elegido aparecerá eventualmente.</li>
 </ol>
+<p>Si no funciona, tu red Wi-Fi podría estar bloqueando la comunicación directa entre sus dispositivos. Este &quot;aislamiento de cliente&quot; podría pasar en redes públicas, como aquellas de parques, bares u hoteles. Por favor intenta de nuevo sobre una red diferente.</p>
 <p>Si funciona, significa que ambos dispositivos son capaces de entregar ese contenido a otros clientes. Pulsando el icono CENO de la barra de direcciones debería aparecer una ventana emergente como la de abajo, donde solamente <em>Compartido por otros usuarios de CENO</em> tiene un valor no nulo.</p>
-<p><img src="images/sources-dcache.png" alt="Figura: Mecanismos usados al probar descargas desde la caché distribuída" /></p>
-<p>Finalmente, también podrías haber notado que hay un contador para <em>Compartido por tí</em>. Este no es un mecanismo diferente <em>en sí mismo</em>: los elementes contados aquí son efectivamente parte de la caché distribuída, pero sucede que ya están almacenados en tu dispositivo, por lo que CENO no necesita descargarlos de la red.</p>
+<p><img src="images/sources-dcache.png" alt="Figura: Fuentes usadas al probar descargas desde la caché distribuída" /></p>
+<p>Finalmente, también podrías haber notado que hay un contador para <em>Compartido por tí</em>. Este no es una fuente diferente <em>en sí mismo</em>: los elementes contados aquí son efectivamente parte de la caché distribuída, pero sucede que ya están almacenados en tu dispositivo, por lo que CENO no necesita descargarlos de la red.</p>
 <h2 id="obteniendo-contenido-desde-usuarios-remotos"><a class="header" href="#obteniendo-contenido-desde-usuarios-remotos">Obteniendo contenido desde usuarios remotos</a></h2>
 <p>Hemos hecho una prueba a pequeña escala de la caché distribuída. Probemos ahora cómo funciona a través de Internet.</p>
-<p>Por favor deja a CENO ejecutándose en el primer dispositivo como en la prueba previa, y deténlo en el segundo dispositivo (mostrando sus notificaciones y pulsando &quot;Pulsar para detener&quot;). Esta vez necesitarás un tercer dispositivo, pero debe estar conectado a una red Wi-Fi diferente (tal vez otro amigo puede ayudar desde su hogar). Los pasos a seguir para ese dispositivo son exactamente los mismos que aquellos en la prueba anterior.</p>
+<p>Luego de completar exitosamente la prueba de arriba, deja CENO ejecutándose sobre el primer dispositivo como en la prueba previa, y detén CENO en el segundo (mostrando sus notificaciones y presionando &quot;Pulsar para detener&quot;).</p>
+<p>Esta vez necesitarás un tercer dispositivo, pero debe estar conectado a una red Wi-Fi diferente (tal vez otro amigo puede ayudar desde su hogar). Los pasos a seguir para ese dispositivo son exactamente los mismos que aquellos en la prueba anterior.</p>
 <p>Si el tercer dispositivo puede cargar el sitio usado para la prueba, ya estás preparado. El primer dispositivo es capaz de sembrar contenido para otros, y con toda probabilidad actuar también como puente.</p>
 <p>¡Felicitaciones!</p>
 
