@@ -170,7 +170,8 @@
 </ol>
 <p>Si esa configuración no es una opción para tí, ¡no te des aún por vencido! Si tienes una computadora con buena conectividad que está activa la mayor parte del tiempo, por favor continúa leyendo.</p>
 <h2 id="ejecutando-un-puente-en-una-computadora"><a class="header" href="#ejecutando-un-puente-en-una-computadora">Ejecutando un puente en una computadora</a></h2>
-<p>Si tu computadora soporta <a href="https://es.wikipedia.org/wiki/Docker_(software)">contenedores Docker</a>, puedes ejecutar un cliente CENO preconfigurado en ella para que actúe como puente. Si Docker aún no está instalado, por favor sigue las instrucciones para <a href="https://docs.docker.com/engine/install/">instalar el Motor Docker</a> en tu platforma. Para derivados de Debian como Ubuntu o Linux Mint, solamente ejecuta: <code>sudo apt install docker.io</code></p>
+<p>Si tu computadora soporta <a href="https://es.wikipedia.org/wiki/Docker_(software)">contenedores Docker</a>, puedes ejecutar un
+cliente CENO preconfigurado en ella para que actúe como puente. Si Docker aún no está instalado, por favor sigue las instrucciones para <a href="https://docs.docker.com/engine/install/">instalar el Motor Docker</a> en tu platforma. Para derivados de Debian como Ubuntu o Linux Mint, solamente ejecuta: <code>sudo apt install docker.io</code></p>
 <p>Para implementar un contenedor con un cliente CENO, solamente necesitas ejecutar el siguiente comando en una terminal (da un poco de miedo, pero puedes copiar y pegarlo como está en la línea de comando):</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -182,7 +183,8 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>El comando iniciará un contenedor llamado <code>ceno-client</code> que se ejecutará en cada inicio de la máquina a menos que explícitamente le digas que se detenga. Por favor comprueba la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">Documentación del cliente CENO de Docker</a> para más información sobre cómo manipular al contenedor.</p>
+<p>El comando iniciará un contenedor llamado <code>ceno-client</code> que se ejecutará en cada
+inicio de la máquina a menos que explícitamente le digas que se detenga. Por favor comprueba la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">Documentación del cliente CENO de Docker</a> para más información sobre cómo manipular al contenedor.</p>
 <blockquote>
 <p><strong>Nota:</strong> Este cliente no tiene <em>Configuración de CENO</em>: cuando se lo instruya abajo para que acceda a esa página, abre en vez la <a href="../client/front-end.html">interfaz de usuario del cliente</a>, la cual contiene información mayormente equivalente.</p>
 </blockquote>
