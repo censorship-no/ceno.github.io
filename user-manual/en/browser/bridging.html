@@ -156,7 +156,7 @@
 <p>This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.</p>
 <p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
 <blockquote>
-<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.  Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Dont't kill my app!</a> for your device's brand.</p>
+<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.  Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Don't kill my app!</a> for your device's brand.</p>
 </blockquote>
 <p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
 <ol>
@@ -169,17 +169,56 @@
 <p>Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.</p>
 </li>
 </ol>
+<p>If that setup is not an option for you, do not desist yet!  If you have a computer with good connectivity that stays on most of the time, please continue reading.</p>
+<h2 id="running-a-bridge-on-a-computer"><a class="header" href="#running-a-bridge-on-a-computer">Running a bridge on a computer</a></h2>
+<p>If your computer supports <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker containers</a>, you can run a pre-configured CENO client on it to act as a bridge.  If Docker is not yet installed, please follow the instructions to <a href="https://docs.docker.com/engine/install/">install the Docker Engine</a> in your platform.  For Debian derivatives like Ubuntu or Linux Mint, you can just run: <code>sudo apt install docker.io</code></p>
+<p>To deploy a CENO client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>If your computer is not based on GNU/Linux, the command needs to be slightly different:</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
+  -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>The command will start a container named <code>ceno-client</code> that will run on every boot unless you explicitly tell it to stop.  Please check the <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker client documentation</a> for more information on how to manipulate the container.</p>
+<blockquote>
+<p><strong>Note:</strong> This client has no <em>CENO Settings</em>: when instructed below to access that page, open instead the <a href="../client/front-end.html">client front-end</a>, which contains mostly equivalent information.</p>
+</blockquote>
 <h2 id="enabling-upnp-on-your-wi-fi-router"><a class="header" href="#enabling-upnp-on-your-wi-fi-router">Enabling UPnP on your Wi-Fi router</a></h2>
-<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser reachable to the CENO network.  The <a href="settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
+<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network.  The <a href="settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
 <blockquote>
 <p><strong>Note:</strong> Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a> and also consider using alternative methods as explained below.</p>
 </blockquote>
-<p><img src="images/upnp-no.png" alt="Figure: UPnP not enabled" /></p>
-<p>A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.</p>
-<p><img src="images/upnp-maybe.png" alt="Figure: UPnP likely enabled" /></p>
-<p>The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.</p>
-<p><img src="images/upnp-yes.png" alt="Figure: UPnP enabled" /></p>
-<p>The status above indicates that UPnP is working and you can bridge connections for other CENO users.</p>
+<p>A status like the one below indicates that UPnP is not enabled on your WiFi router:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>inactive
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>undecided
+</code></pre>
+</blockquote>
+<p>The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>enabled
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>undecided
+</code></pre>
+</blockquote>
+<p>The status below indicates that UPnP is working and you can bridge connections for other CENO users:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>enabled
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>likely reachable / reachable
+</code></pre>
+</blockquote>
 <p>There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -189,8 +228,12 @@
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
 </ul>
 <h2 id="using-port-forwarding-as-an-alternative-to-upnp"><a class="header" href="#using-port-forwarding-as-an-alternative-to-upnp">Using port forwarding as an alternative to UPnP</a></h2>
-<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoint(s)</em>.</p>
-<p><img src="images/udp-port.png" alt="Figure: Local UDP endpoints" /></p>
+<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoints</em>.</p>
+<blockquote>
+<p><strong>Local UDP endpoints</strong></p>
+<pre><code>192.168.1.132:28729
+</code></pre>
+</blockquote>
 <p>The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time.  Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
 <blockquote>
 <p><strong>Technical note:</strong> Alternatively, you can make sure that the router always assigns the same IP address to your device (e.g. via a static DHCP lease for the device's MAC address).</p>

@@ -177,7 +177,7 @@
 <p>Same as the CENO Browser, Ouinet is developed by <a href="https://equalit.ie/">eQualitie</a> as Free/Libre/Open-Source software.</p>
 <h2 id="who-is-it-for-1"><a class="header" href="#who-is-it-for-1">Who is it for?</a></h2>
 <p>Ouinet is mostly useful for software developers, content creators and publishers who want to enable users of their applications to share retrieved content with other users.  This reduces the overall demand on the application server and improves content accessibility for users living in countries that block access to that server.</p>
-<p>Please note that Ouinet is still an experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to reach out to us at <a href="mailto:intro/cenoers@equalit.ie">cenoers@equalit.ie</a>, test it and report back - your feedback is very welcome!</p>
+<p>Please note that Ouinet is an evolving experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to reach out to us at <a href="mailto:intro/cenoers@equalit.ie">cenoers@equalit.ie</a>, test it and report back - your feedback is very welcome!</p>
 <blockquote>
 <p><strong>Warning:</strong> <em>Ouinet is not an anonymity tool</em>.  If you are unsure about its adequacy for a certain task, do not hesitate to contact us.</p>
 </blockquote>
@@ -187,13 +187,13 @@
 <p>You will need an Android device:</p>
 <ol>
 <li>Install the CENO Browser from <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> or <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>.  <em>No special permissions are needed</em>.</li>
-<li>Run it and press <em>NEXT</em> on the introductory screens, then press <em>START BROWSING</em>.</li>
+<li>Run it.</li>
 <li>Browse pages normally to help other users access them; if concerned about privacy for some page or if it is not loading as expected, use a private tab (see <a href="intro/../concepts/public-private.html">public vs. private browsing</a>).</li>
 <li>Tap on the CENO notification to stop it completely.</li>
 </ol>
 <p>Detailed installation instructions are <a href="intro/../browser/install.html">here</a>.</p>
 <h2 id="configuration"><a class="header" href="#configuration">Configuration</a></h2>
-<p>The CENO Browser is in <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta">BETA</a> but it should work out-of-the-box.  You can find some <a href="intro/../browser/settings.html">diagnostics and settings</a> under the <em>CENO</em> menu entry.</p>
+<p>The CENO Browser should work out-of-the-box.  You can find some <a href="intro/../browser/settings.html">diagnostics and settings</a> under the <em>CENO</em> menu entry.</p>
 <p>If you want to make sure that your app is also helping others access blocked content, please <a href="intro/../browser/bridging.html">read this section</a>.</p>
 <h2 id="more-questions"><a class="header" href="#more-questions">More questions?</a></h2>
 <ul>
@@ -206,7 +206,7 @@
 <h3 id="can-the-ceno-browser-replace-my-current-browser-chromefirefoxsafari"><a class="header" href="#can-the-ceno-browser-replace-my-current-browser-chromefirefoxsafari">Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?</a></h3>
 <p>Short answer: yes, at least for some non-critical browsing.</p>
 <p>Since CENO is based on Mozilla Firefox for Android, it provides all the features that are expected from a modern browser.  However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).</p>
-<p>Also, since CENO and Ouinet are still under development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.</p>
+<p>Also, since CENO and Ouinet are under continuous development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.</p>
 <p>For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO.  Please read the section on <a href="intro/../concepts/risks.html">risks</a> for more information.</p>
 <h2 id="can-i-use-the-ceno-browser-to-access-twitter-facebook-and-gmail"><a class="header" href="#can-i-use-the-ceno-browser-to-access-twitter-facebook-and-gmail">Can I use the CENO Browser to access Twitter, Facebook and Gmail?</a></h2>
 <p>Short answer: yes, by using private tabs.</p>
@@ -412,7 +412,7 @@
 <p>Yes.  However, bridges only relay encrypted communication between a Ouinet client and an injector.  This means that a bridge shall never make direct requests for content to any other server on someone else's behalf.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="using-the-ceno-browser"><a class="header" href="#using-the-ceno-browser">Using the CENO Browser</a></h1>
 <p>This chapter gives you some hints on the usage of CENO Browser as far as its Ouinet-related capabilities are concerned.  Please always keep in mind that CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a>, so for all questions on generic browsing topics you should refer to Mozilla's <a href="https://support.mozilla.org/en-US/products/mobile">Firefox for Android Support</a> pages.</p>
-<p>When relevant, screen captures will be included to illustrate the text.  Please note that these may slightly differ from what you see on your device, especially as CENO development progresses.  This documentation is up to date for CENO version 0.0.29.</p>
+<p>When relevant, screen captures will be included to illustrate the text.  Please note that these may slightly differ from what you see on your device, especially as CENO development progresses.  This documentation is up to date for CENO version 1.0.2.</p>
 <p>If your application exhibits behaviors substantially different from those described here, do not hesitate to contact us at <a href="mailto:browser/cenoers@equalit.ie">cenoers@equalit.ie</a> and report the issue.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installing-ceno"><a class="header" href="#installing-ceno">Installing CENO</a></h1>
 <p>The CENO Browser can be installed via the following means:</p>
@@ -425,7 +425,6 @@
 <blockquote>
 <p><strong>Warning:</strong> Please be <em>extremely skeptical</em> about installing the CENO Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other CENO and Ouinet users.  If in doubt, please contact <a href="mailto:browser/cenoers@equalit.ie">cenoers@equalit.ie</a> before installing a suspicious app.</p>
 </blockquote>
-<p>When you run CENO for the first time, you will be presented with a series of screens introducing some features generic to Firefox browsers.  Just scroll through them by pressing <em>NEXT</em> until you see a <em>Sign in to Sync</em> button and a <em>START BROWSING</em> link.  Firefox Sync has not been tested to work with CENO, so just push <em>START BROWSING</em>.</p>
 <h2 id="stopping-ceno-completely"><a class="header" href="#stopping-ceno-completely">Stopping CENO completely</a></h2>
 <p>Every time you start the app, a CENO icon will appear on your device's notification bar.  This icon represents the <em>CENO Browser service</em>, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.</p>
 <p>Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping on the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).</p>
@@ -468,7 +467,7 @@
 <p><em>Direct from website</em> (or <strong>origin access</strong>) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
 <p>Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.</p>
 <p>If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see <a href="browser/../concepts/risks.html">risks</a>).</p>
-<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.</p>
+<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.  Please check the section on <a href="browser/troubleshooting.html">troubleshooting</a> to learn more about this issue.</p>
 </li>
 <li>
 <p><em>Via the CENO network (private)</em> (or <strong>proxy access</strong>) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
@@ -497,10 +496,11 @@
 <li><em>CENO Extension</em> shows the version of the extension that integrates Firefox with CENO.  Also include in reports.</li>
 <li><em>Ouinet</em> shows the version of Ouinet backing CENO.  Also include in reports.</li>
 <li><em>Ouinet protocol</em> is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors.  Also include in reports.</li>
-<li><em>Local UDP endpoint(s)</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
+<li><em>Local UDP endpoints</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
 <li><em>UPnP status</em> indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.</li>
 <li><em>Reachability status</em> indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.</li>
 <li><em>Local cache size</em> shows an approximation of how much storage is taken by the content being seeded from your device's local cache.</li>
+<li><em>Content shared by you</em> allows you to check the content being announced by your device.</li>
 </ul>
 <h2 id="purging-the-local-cache"><a class="header" href="#purging-the-local-cache">Purging the local cache</a></h2>
 <p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like Favorites.</p>
@@ -521,34 +521,37 @@
 <p>All of the tests will be performed using <a href="browser/public-private.html">public browsing</a>.  If something does not work as expected, please be patient and check the section on <a href="browser/troubleshooting.html">troubleshooting</a>.  Specifically, if the browser gets stuck for more than a couple of minutes while loading a page, you may hit stop and reload it (although this may alter results slightly).</p>
 <h2 id="accessing-an-injector"><a class="header" href="#accessing-an-injector">Accessing an injector</a></h2>
 <p>Let us first check whether your CENO Browser can reach an injector.  This may look trivial, but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
-<p>On the first device perform the following steps:</p>
+<p>In the first device perform the following steps:</p>
 <ol>
-<li>First of all, install CENO and start it.  On the first run, a series of introductory screens will appear: just click on <em>NEXT</em> until <em>START BROWSING</em> appears, then click it.  In the end, CENO's home page will appear.</li>
-<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except <em>Via the CENO network (public)</em>.</li>
+<li>First of all, install CENO and start it.  Its home page will appear.</li>
+<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck all the boxes for content sources except <em>Via the CENO network (public)</em>.</li>
 <li>Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
+<p><strong>Note:</strong> If you get a fake page instead of a legitimate one, use the address bar to enter the site's URL with <code>https://</code> at the beginning (instead of <code>http://</code>) and repeat the test.</p>
 <p>If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.</p>
-<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only <em>Via CENO network (public)</em> should have a non-zero value since the other mechanisms were disabled.</p>
-<p><img src="browser/images/sources-inject.png" alt="Figure: Mechanisms used when testing injection" /></p>
+<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved form the different sources.  Only <em>Via CENO network (public)</em> should have a non-zero value since the other sources were disabled.</p>
+<p><img src="browser/images/sources-inject.png" alt="Figure: Sources used when testing injection" /></p>
 <p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from website</em> or <em>Via CENO network (private)</em>.</p>
-<p><img src="browser/images/sources-proxy.png" alt="Figure: Mechanisms used with private browsing" /></p>
+<p><img src="browser/images/sources-proxy.png" alt="Figure: Sources used with private browsing" /></p>
 <h2 id="getting-content-from-close-users"><a class="header" href="#getting-content-from-close-users">Getting content from close users</a></h2>
 <p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
-<p>After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then add a second device (you can invite a friend over to help test) and connect it to the same Wi-Fi network.  Next, follow the steps below on that device:</p>
+<p>After successfully completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to help test) and connect it to the same Wi-Fi network.  Next, follow the steps below on the second device:</p>
 <ol>
-<li>Install CENO if needed, start it and proceed to CENO's home page as above.</li>
-<li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except <em>Shared by other CENO users</em>.</li>
+<li>Install CENO if needed and start it as above.</li>
+<li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck all the boxes for content sources except <em>Shared by other CENO users</em>.</li>
 <li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
 <li>The chosen site should eventually show up.</li>
 </ol>
+<p>If it does not work, your Wi-Fi network may be blocking direct communication between its devices.  This &quot;client isolation&quot; may happen in public networks like those of parks, bars or hotels.  Please try again on a different network.</p>
 <p>If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by other CENO users</em> has a non-zero value.</p>
-<p><img src="browser/images/sources-dcache.png" alt="Figure: Mechanisms used when testing distributed cache retrieval" /></p>
-<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>.  This is not a different mechanism <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+<p><img src="browser/images/sources-dcache.png" alt="Figure: Sources used when testing distributed cache retrieval" /></p>
+<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>.  This is not a different source <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
 <h2 id="getting-content-from-remote-users"><a class="header" href="#getting-content-from-remote-users">Getting content from remote users</a></h2>
 <p>We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.</p>
-<p>Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.</p>
-<p>If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge. </p>
+<p>After successfully completing the test above, leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).</p>
+<p>This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.</p>
+<p>If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge.</p>
 <p>Congratulations!</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="helping-other-ceno-users-browse-the-web"><a class="header" href="#helping-other-ceno-users-browse-the-web">Helping other CENO users browse the Web</a></h1>
 <p>A peer-to-peer network is built from every node connected to it (yes, that means you as well!).  The more nodes, the stronger and more versatile the network becomes.  If you are running the CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a <strong>bridge</strong> node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.</p>
@@ -559,7 +562,7 @@
 <p>This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.</p>
 <p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
 <blockquote>
-<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.  Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Dont't kill my app!</a> for your device's brand.</p>
+<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.  Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Don't kill my app!</a> for your device's brand.</p>
 </blockquote>
 <p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
 <ol>
@@ -572,17 +575,56 @@
 <p>Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.</p>
 </li>
 </ol>
+<p>If that setup is not an option for you, do not desist yet!  If you have a computer with good connectivity that stays on most of the time, please continue reading.</p>
+<h2 id="running-a-bridge-on-a-computer"><a class="header" href="#running-a-bridge-on-a-computer">Running a bridge on a computer</a></h2>
+<p>If your computer supports <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker containers</a>, you can run a pre-configured CENO client on it to act as a bridge.  If Docker is not yet installed, please follow the instructions to <a href="https://docs.docker.com/engine/install/">install the Docker Engine</a> in your platform.  For Debian derivatives like Ubuntu or Linux Mint, you can just run: <code>sudo apt install docker.io</code></p>
+<p>To deploy a CENO client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>If your computer is not based on GNU/Linux, the command needs to be slightly different:</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
+  -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>The command will start a container named <code>ceno-client</code> that will run on every boot unless you explicitly tell it to stop.  Please check the <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker client documentation</a> for more information on how to manipulate the container.</p>
+<blockquote>
+<p><strong>Note:</strong> This client has no <em>CENO Settings</em>: when instructed below to access that page, open instead the <a href="browser/../client/front-end.html">client front-end</a>, which contains mostly equivalent information.</p>
+</blockquote>
 <h2 id="enabling-upnp-on-your-wi-fi-router"><a class="header" href="#enabling-upnp-on-your-wi-fi-router">Enabling UPnP on your Wi-Fi router</a></h2>
-<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser reachable to the CENO network.  The <a href="browser/settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
+<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network.  The <a href="browser/settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
 <blockquote>
 <p><strong>Note:</strong> Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a> and also consider using alternative methods as explained below.</p>
 </blockquote>
-<p><img src="browser/images/upnp-no.png" alt="Figure: UPnP not enabled" /></p>
-<p>A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.</p>
-<p><img src="browser/images/upnp-maybe.png" alt="Figure: UPnP likely enabled" /></p>
-<p>The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.</p>
-<p><img src="browser/images/upnp-yes.png" alt="Figure: UPnP enabled" /></p>
-<p>The status above indicates that UPnP is working and you can bridge connections for other CENO users.</p>
+<p>A status like the one below indicates that UPnP is not enabled on your WiFi router:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>inactive
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>undecided
+</code></pre>
+</blockquote>
+<p>The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>enabled
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>undecided
+</code></pre>
+</blockquote>
+<p>The status below indicates that UPnP is working and you can bridge connections for other CENO users:</p>
+<blockquote>
+<p><strong>UPnP status</strong></p>
+<pre><code>enabled
+</code></pre>
+<p><strong>Reachability status</strong></p>
+<pre><code>likely reachable / reachable
+</code></pre>
+</blockquote>
 <p>There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -592,8 +634,12 @@
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
 </ul>
 <h2 id="using-port-forwarding-as-an-alternative-to-upnp"><a class="header" href="#using-port-forwarding-as-an-alternative-to-upnp">Using port forwarding as an alternative to UPnP</a></h2>
-<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoint(s)</em>.</p>
-<p><img src="browser/images/udp-port.png" alt="Figure: Local UDP endpoints" /></p>
+<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoints</em>.</p>
+<blockquote>
+<p><strong>Local UDP endpoints</strong></p>
+<pre><code>192.168.1.132:28729
+</code></pre>
+</blockquote>
 <p>The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time.  Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
 <blockquote>
 <p><strong>Technical note:</strong> Alternatively, you can make sure that the router always assigns the same IP address to your device (e.g. via a static DHCP lease for the device's MAC address).</p>
@@ -611,6 +657,13 @@
 <blockquote>
 <p><strong>Technical note:</strong> This may happen if another application is already listening on TCP ports <code>127.0.0.1:8077</code> or <code>127.0.0.1:8078</code>.</p>
 </blockquote>
+<h2 id="a-page-shows-bogus-content-like-a-block-message"><a class="header" href="#a-page-shows-bogus-content-like-a-block-message">A page shows bogus content (like a block message)</a></h2>
+<p>CENO was able to contact a web server directly and retrieve content from it.  Unfortunately, someone intercepted the connection and directed it to an illegitimate server.</p>
+<p>This usually means that the site is blocked by your access provider or country.  However, this particular error can only happen when you are accessing the site over insecure HTTP (instead of the more secure HTTPS protocol), as CENO cannot detect the tampering by itself.</p>
+<p>Thus, one way to get to the legitimate site is to try to access it over HTTPS by tapping the address bar and replacing <code>http://</code> with <code>https://</code> at the beginning of its URL.  Of course, this will only work if the site supports HTTPS.  If it does not, and you get &quot;Failed to retrieve the resource&quot; from CENO, you will need to go to the <a href="browser/settings.html">Settings page</a>, disable Origin access, and try again.</p>
+<p>Since such setting is not remembered, and modifying the URL every time can get tiresome, you may instead configure CENO to always use HTTPS for all sites via the embedded <a href="https://www.eff.org/https-everywhere/">HTTPS Everywhere</a> extension: choose <em>HTTPS Everywhere</em> in the app's main menu, then enable <em>Encrypt All Sites Eligible</em> (EASE) as shown below.  This setting is remembered by CENO.</p>
+<p><img src="browser/images/httpsew-ease-on.png" alt="Figure: HTTPS Everywhere settings with EASE on" /></p>
+<p>If you still need to access some particular site over plain HTTP when EASE is on, you can visit the site (even if access fails), then from that tab open HTTPS Everywhere settings and tap on the <em>Disable on this site</em> button shown above to set an exception for the site.</p>
 <h2 id="accessing-some-content-shows-failed-to-retrieve-the-resource"><a class="header" href="#accessing-some-content-shows-failed-to-retrieve-the-resource">Accessing some content shows &quot;Failed to retrieve the resource&quot;</a></h2>
 <p>This means that CENO tried all available mechanisms to access the content, but none of them succeeded.</p>
 <p>You should make sure that the following requirements are fulfilled for CENO to work:</p>
@@ -651,7 +704,7 @@
 <p><strong>Technical note:</strong> If your device reports <em>undecided</em> reachability and you can change the configuration of the access point, you may create a permanent port forwarding rule towards your client.  See <a href="browser/bridging.html">here</a> for further instructions.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="annex-the-ouinet-client-front-end"><a class="header" href="#annex-the-ouinet-client-front-end">Annex: The Ouinet client front-end</a></h1>
-<p>The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Some of those may not be available from the CENO Extension.</p>
+<p>The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Many of them are also offered by the CENO Extension via the <a href="client/../browser/settings.html"><em>CENO Settings</em> page</a>, though others are only available here.</p>
 <p>The front-end is accessible using any plain Web browser running on the same device (you can use CENO too).  Its default address is <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>.  If you open it, you will see something like the figure below.</p>
 <p><img src="client/images/front-end.png" alt="Figure: The client front-end" /></p>
 <p>The items shown in the page include:</p>
@@ -662,16 +715,26 @@
 <p>Please note that none of this needs to be done for the CENO Browser, since it is already configured like that.</p>
 </li>
 <li>
-<p>Buttons to enable or disable the different mechanisms used by the client to access content.  They are equivalent to the check boxes in the <a href="client/../browser/settings.html"><em>CENO Settings</em> page</a>.</p>
+<p>Buttons to enable or disable the different mechanisms used by the client to access content.</p>
 </li>
 <li>
-<p>Selectors to choose different log levels, like the default <code>INFO</code> (informational messages, warnings and errors) or <code>DEBUG</code> (verbose output useful for reporting errors).</p>
+<p>Selectors to choose different log levels, like the default <code>INFO</code> (informational messages, warnings and errors) or <code>DEBUG</code> (verbose output useful for reporting errors).  The log file can also be enabled and retrieved from here.</p>
+<p>When enabling the log file, the log level is automatically set to <code>DEBUG</code> (though you may change it again from here).  When disabling the log file, the original log level is restored.</p>
 </li>
 <li>
-<p>The public key used to verify signatures from injectors, and the configured way to reach them.  The default <code>bep5</code> method looks up Internet addresses in a BitTorrent injector swarm, as explained <a href="client/../concepts/how.html">here</a>.</p>
+<p>Global client state and version information.  Useful when reporting errors.</p>
 </li>
 <li>
-<p>Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely.</p>
+<p>Information about client connectivity and injector addressing.  The default <code>bep5</code> method looks up Internet addresses in a BitTorrent injector swarm, as explained <a href="client/../concepts/how.html">here</a>.</p>
+</li>
+<li>
+<p>The public key used to verify signatures from injectors in the distributed cache.</p>
+</li>
+<li>
+<p>Information on your local cache like the maximum content age, approximate size of the cache, a button to purge it completely, and a link to the list of announced cache entries.</p>
+</li>
+<li>
+<p>The directory of the external, static cache if enabled (CENO does not currently use this).</p>
 </li>
 </ul>
 

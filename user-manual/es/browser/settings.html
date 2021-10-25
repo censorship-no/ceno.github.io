@@ -153,14 +153,14 @@
 <p><strong>Nota téchnica:</strong> Estas opciones son provistas por la <em>Extensión CENO</em>, una extensión de Firefox que viene instalada con CENO y se ocupa de la integración apropiada con Ouinet, como la habilitación de la inyección de contenido y la descarga de caché bajo navegación pública, dar al usuario pistas acerca de la fuente del contenido que está siendo visualizado, y notificar acerca de nuevas versiones de Ouinet.</p>
 </blockquote>
 <p>Estas características están disponibles en una página que puede ser accedida eligiendo <em>CENO</em> en el menú principal de la aplicación. Por favor ten en cuenta que la entrada de menú podría tardar unos pocos segundos en aparecer al iniciarse la aplicación. La página debería parecerse a esto:</p>
-<p>**<img src="images/settings.png" alt=" página" /></p>
+<p><img src="images/settings.png" alt="Figura: La página de Configuración de CENO" /></p>
 <h2 id="eligiendo-mecanismos-de-acceso"><a class="header" href="#eligiendo-mecanismos-de-acceso">Eligiendo mecanismos de acceso</a></h2>
 <p>Las cuatro casillas de selección en la parte superior de la página habilitan o deshabilitan selectivamente los diferentes mecanismos o <em>fuentes</em> que CENO, como cliente Ouinet, usa para descargar contenido mientras que utiliza pestañas tanto de <a href="public-private.html">navegación pública como privada</a>. Todas las casillas están habilitadas por defecto.</p>
 <ul>
 <li><em>Directo desde el sitio web</em> (o <strong>acceso de origen</strong>) le permite a CENO intentar alcanzar al servidor de origen directamente antes de intentar otros mecanismos habilitados abajo.Auque este mecanismo funciona tanto en los modos de navegación privada como pública, el contenido así descargado no puede ser compartido con otros.</li>
 </ul>
 <p>Si obtener la mayoría del contenido Web no es particularmente lento o caro, este mecanismo podría ser más que suficiente para la mayoría de los casos. Sin embargo, tales conexiones directas podrían ser rastreadas por tu ISP o gobierno. Deshabilitar esta opción podría evitar tales conexiones y su rastreo trivial en alguna medida (pero no completamente, ver <a href="../concepts/risks.html">riesgos</a>).</p>
-<p>También, al acceder a un sitio Web sobre HTTP inseguro (en vez del más seguro HTTPS), un censor podría interceptar las conexiones y suministrar al usuario con un sitio falso, una manipulación a la cual CENO no puede detectar por sí mismo. En tal caso, podría ayudar deshabilitar esta opción y, de esa manera, recurrir siempre a otros mecanismos de CENO más seguros.</p>
+<p>También, al acceder a un sitio Web a través de HTTP inseguro (en vez del más seguro HTTPS), un censor podría interceptar las conexiones y suministrar al usuario con un sitio falso, una manipulación la cual CENO no puede detectar por sí mismo. En tal caso, podría ayudar deshabilitar esta opción y, de esa manera, recurrir siempre a otros mecanismos de CENO más seguros. Por favor comprueba la sección sobre <a href="troubleshooting.html">resolución de problemas</a> para aprender más acerca de esta cuestión.</p>
 <ul>
 <li><em>A través de la red CENO (privada)</em> (o <strong>acceso por proxy</strong>) le permite a CENO usar inyectores como servidores proxy HTTP normales para alcanzar a los servidores de origen.Este mecanismo solamente funciona en el modo privado de navegación.</li>
 </ul>
@@ -188,6 +188,7 @@
 <li><em>Estado UPnP</em> indica si CENO fue capaz de decirle a tu enrutador o punto de acceso que permita conexiones entrantes hacia él. También inclúyelo en informes.</li>
 <li><em>Estado de alcanzabilidad</em> indica qué tan probable es que tu dispositivo sea capaz de sembrar contenido efectivamente para otros clientes. También inclúyelo en informes.</li>
 <li><em>Tamaño de la caché local</em> muestra una aproximación de cuánto almacenamiento es ocupado por el contenido que está siendo sembrado desde la caché local de tu dispositivo.</li>
+<li><em>Contenido compartido por tí</em> te permite comprobar el contenido que está siendo anunciado por tu dispositivo.</li>
 </ul>
 <h2 id="purgando-la-caché-local"><a class="header" href="#purgando-la-caché-local">Purgando la caché local</a></h2>
 <p>Al lado del valor de arriba <em>Tamaño de la caché local</em>, hay un botón que te permite detener el sembrado y descartar todo el contenido compartido por tu dispositivo a través de Ouinet. Esto te permite liberar algo del espacio de almacenamiento en tu dispositivo, mientras que mantienes otras configuraciones CENO, como los favoritos.</p>
