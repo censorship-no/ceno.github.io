@@ -75,17 +75,17 @@ In the future we're hoping to address this problem by:
 2. Modifying the protocol to find alternative routes to relay traffic
    outside of the censored country and back if one exists. 
 
-## Help by becoming a bridge
+## Help by becoming a bridge!
 
 As mentioned above, because random IP addresses are usually not blocked, CENO
 relies on users outside of censored zones to act as bridges. Therefore we're asking that people willing to help the CENO project as well as people behind the internet walls to install CENO browser on an Android device, start it up, and let it run for as long as possible. [Learn more about becoming a Bridge!](https://censorship.no/user-manual/en/browser/bridging.html)
 
 ## Where to get it
 
-Github:    https://github.com/censorship-no/ceno-browser/releases
-Play Store: https://play.google.com/store/apps/details?id=ie.equalit.ceno
-Paskoocheh: https://paskoocheh.com/tools/124/android.html
-Direct Download: [64-bit](https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-arm64-v8a-release-1.1.0-2021-08-25_0908.apk) | [32-bit](https://ceno-download.s3.amazonaws.com/ceno/v1.1.0/ceno-armeabi-v7a-release-1.1.0-2021-08-25_0908.apk)
+- Github:    https://github.com/censorship-no/ceno-browser/releases
+- Play Store: https://play.google.com/store/apps/details?id=ie.equalit.ceno
+- Paskoocheh: https://paskoocheh.com/tools/124/android.html
+- Direct Download: https://censorship.no/download
 
 ## Feedback
 
