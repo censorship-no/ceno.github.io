@@ -3,18 +3,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-24 13:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-12-16 09:52+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"websitehelp/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "el"
 
 #: help.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Get Involved!"
@@ -22,13 +24,13 @@ msgstr ""
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Πώς λειτουργεί"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Εγχειρίδιο χρήσης"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgctxt "help.html+html.body.nav.div.div.ul.li:90-17"
@@ -37,16 +39,16 @@ msgstr ""
 
 #: help.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Αποκτήστε το CENO"
 
 #: help.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "Λήψη Περιηγητή CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: help.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -209,6 +211,13 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Το πρόγραμμα περιήγησης CENO είναι ένα έργο της <a href=\"https://equalit."
+"ie\">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
+"επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την ασφάλεια "
+"διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές λύσεις και "
+"καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/values/\">αξίες</"
+"a> μας που μας καθοδηγούν στην προστασία των δικαιώματα και τις φιλοδοξίες "
+"όλων στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: help.html%2Bhtml.body.footer:183-23
@@ -216,3 +225,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
