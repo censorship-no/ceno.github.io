@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 10:28-0700\n"
-"PO-Revision-Date: 2021-11-27 18:51+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-01-05 22:53+0000\n"
+"Last-Translator: Bashir Hassan <bshbsh187@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "beabridge/ar/>\n"
 "Language: ar\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: beabridge.txt:2
 msgid "BECOME A BRIDGE﻿"
@@ -47,11 +47,11 @@ msgstr "﻿﻿﻿ شغّلوا وكيلCENO Docker"
 msgid "Alternatively, with just one command you can set up a bridge on your computer or VPS."
 msgstr ""
 "كما بإمكانكم عبر كتابة سطر أوامر واحد\n"
-"لإنشاء جسر على جهازكم أو خادومكم الافتراضي الخاص"
+"لإنشاء جسر على جهازكم أو خادمكم الافتراضي الخاص"
 
 #: beabridge.txt:23
 msgid "OPEN A PORTAL TO THE INTERNET"
-msgstr ""
+msgstr "افتح بوابة على الإنترنت"
 
 #: beabridge.txt:26
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
@@ -59,7 +59,7 @@ msgstr ""
 
 #: beabridge.txt:29
 msgid "TO SEE IF IT'S WORKING:"
-msgstr ""
+msgstr "لمعرفة ما إذا كان يعمل:"
 
 #: beabridge.txt:32
 msgid "Create and open a new Firefox Profile, and set the proxy to localhost, port 8077."
@@ -67,7 +67,7 @@ msgstr ""
 
 #: beabridge.txt:35
 msgid "THANK YOU FOR JOINING THE SWARM!"
-msgstr ""
+msgstr "شكرًا لك على الانضمام إلى السرب!"
 
 #: beabridge.txt:37
 msgid "Install the CENO Web Extension and the provided certificate to test it out!"
