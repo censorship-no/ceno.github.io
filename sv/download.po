@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 11:04-0700\n"
+"POT-Creation-Date: 2021-12-14 10:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,21 +22,21 @@ msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Så här fungerar det"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Användarmanual"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "Bli involverad!"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Hämta CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:94-10
 msgctxt "download.html+html.body.nav.div.div.div:94-10"
@@ -46,7 +46,7 @@ msgstr ""
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "SV"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -106,7 +106,7 @@ msgid ""
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:154-3
-msgid "CENO Browser 1.1.1"
+msgid "CENO Browser 1.1.2"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
@@ -135,8 +135,8 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.1.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.1.1/sha256sums.txt\">file hashes</a> "
+"ceno/v1.1.2/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.1.2/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
 "\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
@@ -157,4 +157,18 @@ msgstr ""
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:154-3
+msgid "CENO Browser 1.1.1"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.1.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.1.1/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
 msgstr ""

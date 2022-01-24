@@ -3,49 +3,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-24 13:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-13 10:53+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"indexhtml/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "el"
 
 #: about.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - How It Works"
-msgstr ""
+msgstr "Censorship.no! - Πώς λειτουργεί"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Πώς λειτουργεί"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Εγχειρίδιο χρήσης"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "Συμμετέχετε!"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Αποκτήστε το CENO"
 
 #: about.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "Λήψη φυλλομετρητή CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -60,45 +62,65 @@ msgid ""
 "\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
 "\">Pусский</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" href="
+"\"../el/about.html\">Ελληνικά</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/about.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/about.html\">Pусский</a>"
 
 #: about.html%2Bhtml.body.main.div.h1:122-6
 msgid "How CENO Browser Works"
-msgstr ""
+msgstr "Πώς λειτουργεί ο περιηγητής CENO"
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:126-13
 msgid ""
 "﻿Most web traffic in countries that filter internet is routed through "
 "centralized exchanges."
 msgstr ""
+"Οι χώρες φιλτράρουν την περισσότερη διαδικτυακή κίνηση μέσω των κεντρικών "
+"ανταλλακτηρίων."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:129-16
 msgid ""
 "﻿This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"Με αυτό τον τρόπο η λογοκρισία έχει το πλεονέκτημα να εντοπίσει και "
+"εμποδίσει δημοφιλείς διακομιστές μεσολάβησης , VPN, αναμεταδοτών κλπ."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:132-16
 msgid ""
 "﻿In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"Σε αυτές τις περιπτώσεις, η πρόσβαση στους διακομιστές Διαδικτύου είναι "
+"δύσκολη ή αδύνατη και η συσκευή σας δεν θα μπορεί να λάβει τα δεδομένα."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
+"Το CENO είναι ένα πρόγραμμα περιήγησης για κινητά, για αποθήκευση και κοινή "
+"χρήση περιεχομένου διαδικτύου οπουδήποτε."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
 msgid ""
 "﻿CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"Οι χρήστες του CENO δημιουργούν μικρά δίκτυα για να συνδεθούν μεταξύ τους "
+"και στη συνέχεια γεφυρώνουν την πρόσβαση εκτός της λογοκριμένης ζώνης."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
 msgid ""
 "﻿Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"Μόλις ένας χρήστης του CENO αποκτήσει πρόσβαση σε έναν ιστότοπο, αυτός "
+"αποθηκεύεται και διαμοιράζεται στο εσωτερικό της χώρας από χρήστη σε χρήστη."
 
 #: about.html%2Bhtml.body.main.div.div.p:146-5
 msgid ""
@@ -109,6 +131,14 @@ msgid ""
 "in the uncensored zone. This design gives the censor an advantage in "
 "locating and blocking popular proxies, VPN servers, relays, bridges, etc."
 msgstr ""
+"Η πλειονότητα της διεθνούς επισκεψιμότητας σε χώρες που φιλτράρουν αιτήματα "
+"περιεχομένου, δρομολογούνται μέσω ενός σταθερού αριθμού κεντρικών "
+"ανταλλακτηρίων όπου είναι εγκατεστημένη η τεχνολογία επιτήρησης και "
+"λογοκρισίας. Οι παραδοσιακές τεχνολογίες παράκαμψης απαιτούν από τον χρήστη "
+"να συνδεθεί απευθείας σε έναν διακομιστή μεσολάβησης εντός της ζώνης χωρίς "
+"λογοκρισία. Αυτός ο σχεδιασμός δίνει στις υπηρεσίες λογοκρισίας το "
+"πλεονέκτημα του εντοπισμό και αποκλεισμού των δημοφιλών διακομιστών "
+"μεσολάβησης, VPN, αναμεταδοτών, γεφυρών κλπ."
 
 #: about.html%2Bhtml.body.main.div.div.p:154-5
 msgid ""
@@ -117,6 +147,10 @@ msgid ""
 "content inside the censored zone. CENOs advantage comes from being both a "
 "transport and a storage solution."
 msgstr ""
+"Το CENO προτείνει μια θεμελιωδώς διαφορετική λύση: μείωση των αιτημάτων σε "
+"εξωτερικά διαθέσιμους διακομιστές μεσολάβησης και ενεργοποίηση της "
+"αποθήκευσης του ανακτημένου περιεχομένου εντός της λογοκριμένης ζώνης. Το "
+"πλεονέκτημα του CENO προέρχεται από τη δυνατότητα μεταφοράς και αποθήκευσης."
 
 #: about.html%2Bhtml.body.main.div.div.p:161-5
 msgid ""
@@ -126,6 +160,12 @@ msgid ""
 "using small-world networks to connect to their peers, and thereafter to a "
 "bridge in the uncensored zone."
 msgstr ""
+"Η δρομολόγηση από χρήστη σε χρήστη, είναι η ιδανική λύση για το σενάριο «"
+"γάτας και ποντικιού», όπου οι περισσότεροι πάροχοι παράκαμψης καταλήγουν να "
+"παίζουν με τις υπηρεσίες λογοκρισίας. Οι πελάτες δεν χρειάζεται να γνωρίζουν "
+"την τοποθεσία ενός διακομιστή μεσολάβησης για να αναμεταδώσουν λογοκριμένο "
+"περιεχόμενο, αντιθέτως χρησιμοποιούν μικρά δίκτυα για να συνδεθούν με "
+"χρήστες και στη συνέχεια μέσω μιας γέφυρας σε ζώνη χωρίς λογοκρισία."
 
 #: about.html%2Bhtml.body.main.div.div.p:166-5
 msgid ""
@@ -136,6 +176,13 @@ msgid ""
 "external connectivity is cut. Content can be seeded into the network via "
 "alternative means as well (e.g. uploaded from a USB drive)."
 msgstr ""
+"Μόλις ένας χρήστης (κόμβος) αποκτήσει πρόσβαση σε έναν ιστότοπο, αυτός "
+"αποθηκεύεται και συνεχίζει να διαμοιράζεται μεταξύ των χρηστών εντός της "
+"χώρας. Οι μεμονωμένοι κόμβοι αναφέρονται από ένα αναγνωριστικό που δεν "
+"αποκαλύπτει τη φυσική τους θέση. Το περιεχόμενο διαδικτύου παραμένει "
+"διαθέσιμο εντός της λογοκριμένης ζώνης ακόμη και αν διακοπεί η εξωτερική "
+"σύνδεση. Το περιεχόμενο μπορεί να μεταφερθεί στο δίκτυο και μέσω "
+"εναλλακτικών μέσων (π.χ. μεταφόρτωση από USB)."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:173-1
@@ -149,6 +196,14 @@ msgid ""
 "\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
 "button></a>"
 msgstr ""
+"<a href=\"../user-manual/el/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Μάθετε "
+"περισσότερα από το εγχειρίδιο χρήσης!</button></a> <a href=\"https://github."
+"com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
+"\"fas fa-scroll\"></span> Για ένα ποιο λεπτομερέστατο τεχνικό εγχειρίδιο, "
+"δείτε τη λευκή βίβλο Ouinet.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:192-9
 msgid ""
@@ -159,6 +214,13 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
+"επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την ασφάλεια "
+"διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές λύσεις και "
+"καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/values/\">αξίες</"
+"a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και των φιλοδοξιών όλων "
+"στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:194-23
@@ -166,3 +228,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
