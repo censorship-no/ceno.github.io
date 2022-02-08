@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-24 13:33+0200\n"
+"POT-Creation-Date: 2022-02-08 19:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,41 +16,41 @@ msgstr ""
 msgid "en"
 msgstr ""
 
-#: about.html%2Bhtml.head.title:23-5
+#: about.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - How It Works"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:82-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
 msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:85-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "User Manual"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Get Involved!"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.div:94-10
+#: about.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Get CENO Browser"
 msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:96-1
+#: about.html%2Bhtml.body.nav.div.div.div:97-1
 msgid "EN"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
-#: about.html%2Bhtml.body.nav.div.div.div.div:102-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:103-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -58,49 +58,50 @@ msgid ""
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
 "lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
 "\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
-"\">Pусский</a>"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/about.html\">Українська</a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.h1:122-6
+#: about.html%2Bhtml.body.main.div.h1:124-6
 msgid "How CENO Browser Works"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:126-13
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:128-13
 msgid ""
 "﻿Most web traffic in countries that filter internet is routed through "
 "centralized exchanges."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:129-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:131-16
 msgid ""
 "﻿This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:132-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:134-16
 msgid ""
 "﻿In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:137-16
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:140-16
 msgid ""
 "﻿CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:143-16
 msgid ""
 "﻿Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.p:146-5
+#: about.html%2Bhtml.body.main.div.div.p:148-5
 msgid ""
 "The majority of internationally-bound traffic in countries that filter "
 "content requests are routed through a fixed number of centralized exchanges "
@@ -110,7 +111,7 @@ msgid ""
 "locating and blocking popular proxies, VPN servers, relays, bridges, etc."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.p:154-5
+#: about.html%2Bhtml.body.main.div.div.p:156-5
 msgid ""
 "CENO proposes a fundamentally different solution: reduce the requests to "
 "externally available proxy servers and enable the storage of retrieved "
@@ -118,7 +119,7 @@ msgid ""
 "transport and a storage solution."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.p:161-5
+#: about.html%2Bhtml.body.main.div.div.p:163-5
 msgid ""
 "Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario "
 "that most circumvention providers end up playing with the censor. Clients "
@@ -127,7 +128,7 @@ msgid ""
 "bridge in the uncensored zone."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.p:166-5
+#: about.html%2Bhtml.body.main.div.div.p:168-5
 msgid ""
 "Once a website is accessed by a single user (node), it is stored and "
 "continues to propagate inside the country peer-to-peer. Individual nodes are "
@@ -138,7 +139,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:173-1
+#: about.html%2Bhtml.body.main.div.div:175-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
@@ -150,7 +151,7 @@ msgid ""
 "button></a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.footer.div.p:192-9
+#: about.html%2Bhtml.body.footer.div.p:194-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -161,7 +162,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:194-23
+#: about.html%2Bhtml.body.footer:196-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

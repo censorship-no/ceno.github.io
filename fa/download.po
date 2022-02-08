@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-31 11:22+0200\n"
+"POT-Creation-Date: 2022-02-08 19:08+0200\n"
 "PO-Revision-Date: 2022-02-01 19:55+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,42 +18,54 @@ msgstr ""
 msgid "en"
 msgstr "Fa"
 
-#: download.html%2Bhtml.head.title:23-5
+#: download.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - Download"
 msgstr "Censorship.no! - دانلود"
 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:82-17
+#: download.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
 msgstr "نحوه عملکرد"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
+#: download.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "User Manual"
 msgstr "راهنمای کاربر"
 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#: download.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Get Involved!"
 msgstr "همراه شوید!"
 
-#: download.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
+#: download.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
 msgstr "CENO را دریافت کنید"
 
-#: download.html%2Bhtml.body.nav.div.div.div:94-10
-msgctxt "download.html+html.body.nav.div.div.div:94-10"
+#: download.html%2Bhtml.body.nav.div.div.div:95-10
+#, fuzzy
+#| msgctxt "download.html+html.body.nav.div.div.div:94-10"
+#| msgid "Get CENO Browser"
+msgctxt "download.html+html.body.nav.div.div.div:95-10"
 msgid "Get CENO Browser"
 msgstr "مرورگر CENO را دریافت کنید"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: download.html%2Bhtml.body.nav.div.div.div:96-1
+#: download.html%2Bhtml.body.nav.div.div.div:97-1
 msgid "EN"
 msgstr "FA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/download.html">Français</a
-#: download.html%2Bhtml.body.nav.div.div.div.div:102-5
+#: download.html%2Bhtml.body.nav.div.div.div.div:103-5
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
+#| "download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
+#| "\"es\" href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
+#| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+#| "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+#| "href=\"../ru/download.html\">Pусский</a>"
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -61,7 +73,8 @@ msgid ""
 "hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
 "\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
-"\">Pусский</a>"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/download.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -71,16 +84,19 @@ msgstr ""
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
 "\">Pусский</a>"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:127-13
 msgid "CENO Browser banner"
 msgstr "نشان مرورگر CENO"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
-msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:129-7"
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:131-7
+#, fuzzy
+#| msgctxt "download.html+html.body.nav.div.div.div:94-10"
+#| msgid "Get CENO Browser"
+msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 msgid "Get CENO Browser"
 msgstr "مرورگر CENO را دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:130-3
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:132-3
 msgid ""
 "The safest way to install CENO Browser on your Android phone is through the "
 "Google Play Store:"
@@ -88,11 +104,11 @@ msgstr ""
 "امن‌ترین راه برای نصب مرورگر CENO روی تلفن اندروید شما از طریق فروشگاه گوگل "
 "پلی است:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:132-15
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:134-15
 msgid "Get it on Google Play"
 msgstr "آن را از روی گوگل پلی دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:133-19
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:135-19
 msgid ""
 "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
 "download the APK directly via GitHub:"
@@ -100,19 +116,19 @@ msgstr ""
 "یک راه دیگر این است که CENO را از طریق فروشگاه پسکوچه نصب کنید، یا APK را "
 "مستقیماً از طریق GitHub دانلود کنید:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:135-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:137-17
 msgid "Get it on Paskoocheh"
 msgstr "آن را از روی پسکوچه دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:138-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:140-17
 msgid "Get it on GitHub"
 msgstr "آن را از روی GitHub دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.h3:152-15
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:154-15
 msgid "Direct Download"
 msgstr "دانلود مستقیم"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:153-15
+#: download.html%2Bhtml.body.main.section.div.div.div.p:155-15
 msgid ""
 "For advanced users or those unable to install CENO Browser via the above "
 "links, you can download the latest APK directly:"
@@ -120,19 +136,19 @@ msgstr ""
 "کاربران پیشرفته یا کسانی که نمی‌توانند مرورگر CENO را از طریق لینک‌های بالا "
 "نصب کنند، می توانند آخرین APK را مستقیماً دانلود کنند:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:154-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:156-3
 msgid "CENO Browser 1.2.0"
 msgstr "مرورگر 1.2.0 CENO"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:155-6
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:157-6
 msgid "Download (32-bit ARM)"
 msgstr "دانلود (32-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:156-6
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:158-6
 msgid "Download (64-bit ARM)"
 msgstr "دانلود (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:157-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:159-3
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -143,7 +159,7 @@ msgstr ""
 "دارای اثر انگشت نشان‌داده‌شده در زیر را دارد:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:160-1
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:162-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -153,7 +169,7 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:162-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v1.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -162,14 +178,14 @@ msgid ""
 "\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
-"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1"
-".2.0/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
+"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/"
+"v1.2.0/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
 "amazonaws.com/ceno/v1.2.0/sha256sums.txt\">فایل هش</a> را در مقابل <a href="
 "\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">کلید PGP</a> با "
 "اثر انگشت <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> "
 "تأیید کنید."
 
-#: download.html%2Bhtml.body.footer.div.p:183-9
+#: download.html%2Bhtml.body.footer.div.p:185-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -186,13 +202,17 @@ msgstr ""
 "تمامی افراد هدایت کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:185-23
+#: download.html%2Bhtml.body.footer:187-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:129-7"
+#~ msgid "Get CENO Browser"
+#~ msgstr "مرورگر CENO را دریافت کنید"
 
 #~ msgid "CENO Browser 1.1.1"
 #~ msgstr "مرورگر 1.1.1 CENO"
