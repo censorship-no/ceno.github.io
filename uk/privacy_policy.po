@@ -3,49 +3,52 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-14 10:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-02-08 17:06+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"website-privacy/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.6\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "uk"
 
 #: privacy_policy.html%2Bhtml.head.title:23-5
 msgid "Censorship.no! - Privacy Notice"
-msgstr ""
+msgstr "Censorship.no! — Повідомлення про конфіденційність"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:82-17
 msgid "How It Works"
-msgstr ""
+msgstr "Як це працює"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "User Manual"
-msgstr ""
+msgstr "Посібник користувача"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "Візьміть участь!"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Завантажити CENO"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:94-10
 msgid "Get CENO Browser"
-msgstr ""
+msgstr "Завантажити браузер CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:96-1
 msgid "EN"
-msgstr ""
+msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -60,10 +63,19 @@ msgid ""
 "../my/privacy_policy.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\""
 " hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
+"privacy_policy.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/privacy_policy.html\">Español</a> <a class"
+"=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/privacy_policy."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\""
+"../my/privacy_policy.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\""
+" hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a class"
+"=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/privacy_policy."
+"html\">Українська</a>"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h1:122-1
 msgid "CENO Privacy Notice"
-msgstr ""
+msgstr "Повідомлення про конфіденційність CENO"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:124-1
 msgid ""
@@ -75,18 +87,27 @@ msgid ""
 "reflect Canadian and Quebec privacy laws and statutes. For further "
 "information regarding Canadian and Quebec privacy laws, please visit:"
 msgstr ""
+"Компанія eQualit.ie прагне захищати інтереси конфіденційності своїх "
+"клієнтів, кінцевих користувачів, дистриб'юторів та постачальників. Це "
+"повідомлення про конфіденційність призначене для надання вам загальної "
+"інформації про те, як може використовуватись ваша особиста інформація. "
+"eQualit.ie є канадською корпорацією, офіс якої розташований у Монреалі і "
+"наше повідомлення про конфіденційність було розроблено з огляду на закони та "
+"статути щодо конфіденційності Канади та Квебеку. Для отримання додаткової "
+"інформації про закони про конфіденційність Канади та Квебеку, будь ласка, "
+"відвідайте:"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:126-1
 msgid "Office of the Privacy Commissioner of Canada"
-msgstr ""
+msgstr "Управління уповноваженого з питань конфіденційності Канади"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:127-1
 msgid "Office of the Information and Privacy Commissioner of Quebec"
-msgstr ""
+msgstr "Управління уповноваженого з питань конфіденційності Квебеку"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:129-1
 msgid "Effective Date and Scope"
-msgstr ""
+msgstr "Дата набуття чинності та сфера застосування"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:130-1
 msgid ""
@@ -95,19 +116,25 @@ msgid ""
 "This Privacy notice governs our practices with respect to Data that we "
 "collect through the CENO browser."
 msgstr ""
+"Це повідомлення про конфіденційність набирає чинності з 1 грудня 2018 року. "
+"В рамках цього повідомлення про конфіденційність терміни «ми», «наш« і «нас» "
+"означають eQualit.ie. Дане повідомлення про конфіденційність регулює наші "
+"дії щодо даних, які ми збираємо за допомогою браузера CENO."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:132-1
 msgid "About CENO"
-msgstr ""
+msgstr "Про CENO"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:133-1
 msgid ""
 "CENO is designed to provide you with open access to online censored content."
 msgstr ""
+"CENO створено для того, щоб надати вам відкритий доступ до цензурованого "
+"контенту в інтернеті."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:135-1
 msgid "Interaction data"
-msgstr ""
+msgstr "Дані про взаємодії"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:136-1
 msgid ""
@@ -117,6 +144,12 @@ msgid ""
 "early stages of development and it is possible private web pages viewed by "
 "users might be stored this way by accident."
 msgstr ""
+"CENO зберігає зведену колекцію всіх публічних веб-сторінок, переглянутих "
+"користувачами CENO, щоб надати іншим користувачам системи доступ до цих "
+"сторінок. Хоча ми дуже намагаємося дотримуватись конфіденційності "
+"користувачів при використанні цього механізму, він все ще знаходиться на "
+"ранній стадії розробки, і можливо, що приватні веб-сторінки, переглянуті "
+"користувачами, можуть бути випадково збережені таким чином."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:138-1
 msgid ""
@@ -126,18 +159,24 @@ msgid ""
 "classification. This log data is used by the CENO development team to track "
 "down issues with the CENO infrastructure, and is not disclosed to others."
 msgstr ""
+"Ця тестова версія CENO зберігає файли журналу для всіх сторінок, що "
+"запитуються за допомогою схем обходу цензури. Ці файли зберігаються навіть "
+"для сторінок, які вважаються приватними, а також включають інформацію про "
+"міркування, на підставі яких класифікація приватності була визначена. Ці "
+"дані журналу використовуються командою розробників CENO для відстеження "
+"проблем з інфраструктурою CENO та не розголошуються іншим особам."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:140-1
 msgid "Storage of Data Outside Canada"
-msgstr ""
+msgstr "Зберігання даних за межами Канади"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:141-1
 msgid "We store data outside of Canada."
-msgstr ""
+msgstr "Ми зберігаємо дані за межами Канади."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:143-1
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Політика зберігання даних"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:144-1
 msgid ""
@@ -145,11 +184,16 @@ msgid ""
 "testing purposes will be retained for the duration of the testing and "
 "analysis period, and will be deleted afterwards."
 msgstr ""
+"Веб-сторінки зберігаються у базі CENO необмежений час. Журнали для цілей "
+"тестування зберігатимуться протягом усього періоду тестування та аналізу, "
+"після чого будуть видалені."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:146-1
 msgid ""
 "How Can You Access and Modify Your Personal Information or Make a Complaint?"
 msgstr ""
+"Як можна отримати доступ до своєї персональної інформації, змінити її чи "
+"подати скаргу?"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:147-1
 msgid ""
@@ -159,10 +203,15 @@ msgid ""
 "user. If you have questions or concerns, you can reach us at: privacy@equalit"
 ".ie"
 msgstr ""
+"Дані, що зберігаються в колекції веб-сторінок або в журналах тестування — не "
+"пов'язані безпосередньо з конкретним користувачем. Як наслідок, неможливо "
+"отримати доступ або змінити інформацію, пов'язану з конкретним користувачем. "
+"Якщо у вас виникли питання або проблеми, ви можете зв'язатися з нами за "
+"адресою: privacy@equalit.ie"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:149-1
 msgid "Notice to Persons Outside of Canada"
-msgstr ""
+msgstr "Повідомлення для осіб, які перебувають за межами Канади"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:150-1
 msgid ""
@@ -171,10 +220,14 @@ msgid ""
 "that your Personal Information will be subject to the laws of Canada and "
 "applicable provincial laws."
 msgstr ""
+"Це повідомлення про конфіденційність регулюється законодавством Канади та "
+"чинним законодавством провінції Квебек. Надаючи нам персональну інформацію, "
+"ви розумієте, що ваша персональна інформація буде підпорядковуватися законам "
+"Канади та чинним законам провінції Квебек."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:152-1
 msgid "Changes to Our Privacy notice"
-msgstr ""
+msgstr "Зміни в нашому повідомленні про конфіденційність"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:153-1
 msgid ""
@@ -182,6 +235,10 @@ msgid ""
 "time. We will email you and post any substantive changes to this notice on "
 "our website along with the effective date of those changes."
 msgstr ""
+"Час від часу нам може знадобитися змінити деякі пункти повідомлення про "
+"конфіденційність. Ми повідомимо вас електронною поштою та опублікуємо на "
+"нашому веб-сайті будь-які значні зміни до цього повідомлення разом з датою "
+"набуття чинності цих змін."
 
 #: privacy_policy.html%2Bhtml.body.footer.div.p:170-9
 msgid ""
@@ -192,6 +249,12 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
+"Браузер CENO — це проект канадської компанії <a href=\"https://equalit.ie\""
+">eQualit.ie</a>, яка розробляє відкриті та багатофункціональні системи, "
+"орієнтовані на конфіденційність, онлайн-безпеку та свободу слова. "
+"Технологічні рішення та інновації ґрунтуються на наших <a href=\"https"
+"://equalit.ie/en/values/\">цінностях</a>, які допомагають нам захищати права "
+"та прагнення всіх, хто перебуває в мережі."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: privacy_policy.html%2Bhtml.body.footer:172-23
@@ -199,3 +262,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
