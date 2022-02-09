@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-08 19:08+0200\n"
-"PO-Revision-Date: 2022-01-13 10:53+0000\n"
+"PO-Revision-Date: 2022-02-09 14:05+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -53,15 +53,6 @@ msgstr "EL"
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
 #: index.html%2Bhtml.body.nav.div.div.div.div:103-5
-#, fuzzy
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#| "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#| "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
-#| "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
-#| "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-#| "html\">Pусский</a>"
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -72,18 +63,19 @@ msgid ""
 "\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
 "\"../uk/index.html\">Українська</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" href="
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
+"html\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" href="
 "\"../el/index.html\">Ελληνικά</a> <a class=\"navbar-item\" lang=\"es\" "
-"hreflang=\"es\" href=\"../es/index.html\">Español</a> <a class=\"navbar-item"
-"\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class="
-"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
-"\"../ru/index.html\">Pусский</a>"
+"hreflang=\"es\" href=\"../es/index.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/index.html\">Українська</a>"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:127-13
 msgid "CENO Browser banner"
-msgstr "Τίτλος περιηγητή CENO"
+msgstr "Τίτλος CENO Browser"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h1:131-7
 msgid "Censorship.no!"
@@ -164,17 +156,11 @@ msgstr ""
 "διαθεσιμότητα των αποκλεισμένων ιστότοπων στις χώρες με λογοκρισία."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:165-13
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:163-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
 msgid "Free and Open Source"
 msgstr "Ελεύθερο και Ανοιχτό Λογισμικό"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.h3:166-15
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:163-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.h3:166-15"
 msgid "Free and Open Source"
 msgstr "Ελεύθερο και Ανοιχτό Λογισμικό"
