@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 10:54+0200\n"
-"PO-Revision-Date: 2022-02-08 17:06+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"POT-Creation-Date: 2022-02-08 19:08+0200\n"
+"PO-Revision-Date: 2022-02-09 14:18+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/uk/>\n"
 "Language: uk\n"
@@ -19,70 +19,69 @@ msgstr ""
 msgid "en"
 msgstr "uk"
 
-#: index.html%2Bhtml.head.title:23-5
+#: index.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - Browse Freely"
 msgstr "Censorship.no! — Переглядайте інтернет-сторінки вільно"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:82-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
 msgstr "Як це працює"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:85-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "User Manual"
 msgstr "Посібник користувача"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Get Involved!"
 msgstr "Візьміть участь!"
 
-#: index.html%2Bhtml.body.nav.div.div.div.a[title]:94-15
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
 msgstr "Завантажити CENO"
 
-#: index.html%2Bhtml.body.nav.div.div.div:94-10
+#: index.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Get CENO Browser"
 msgstr "Завантажити браузер CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: index.html%2Bhtml.body.nav.div.div.div:96-1
+#: index.html%2Bhtml.body.nav.div.div.div:97-1
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
-#: index.html%2Bhtml.body.nav.div.div.div.div:102-5
+#: index.html%2Bhtml.body.nav.div.div.div.div:103-5
 msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
 "lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class"
 "=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\""
-">Pусский</a>"
-msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a>\n"
-"<a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/index."
-"html\">Español</a>\n"
-"<a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index."
-"html\">فارسی</a>\n"
-"<a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a>\n"
-"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-"html\">Pусский</a>"
+">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
+"uk/index.html\">Українська</a>"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:125-13
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:127-13
 msgid "CENO Browser banner"
 msgstr "Банер браузера CENO"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h1:129-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h1:131-7
 msgid "Censorship.no!"
 msgstr "Censorship.no!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:130-3
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:132-3
 msgid ""
 "CENO (short for Censorship.no!) is a mobile Web browser using a novel "
 "approach to circumvent Internet censorship infrastructure, allowing users "
@@ -94,7 +93,7 @@ msgstr ""
 "користувачам, які живуть у зоні цензури, обмінюватися отриманим контентом "
 "один з одним у піринговій мережі (P2P)."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:131-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:133-7
 msgid ""
 "Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
 "org/en/universal-declaration-human-rights/\">Universal Declaration of Human "
@@ -105,27 +104,27 @@ msgstr ""
 "about-us/universal-declaration-of-human-rights/\">Загальної декларації прав "
 "людини</a>, CENO представляє нове покоління можливостей обходу цензури."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:133-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:135-15
 msgid "Get it on Google Play"
 msgstr "Завантажити з Google Play"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:136-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:138-17
 msgid "Get it on Paskoocheh"
 msgstr "Завантажити з Paskoocheh"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:139-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:141-17
 msgid "Get it on Github"
 msgstr "Завантажити з Github"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:153-13
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:155-13
 msgid "Browse Freely"
 msgstr "Переглядайте інтрнет-сторінки вільно"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:154-15
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:156-15
 msgid "Unlock the Web"
 msgstr "Розблокуйте інтернет"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:155-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:157-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
 "internet is down or censored. Install CENO Browser today and be prepared for "
@@ -135,15 +134,15 @@ msgstr ""
 "одним, навіть якщо інтернет не працює або підпадає під цензуру. Встановіть "
 "браузер CENO сьогодні та будьте напоготові, якщо вас 🔌 відключать від мережі."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:158-13
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:160-13
 msgid "Grow the network - Become a bridge!"
 msgstr "Розширюйте мережу — Станьте мостом!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:159-15
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:161-15
 msgid "Grow the Network, Fight Censorship"
 msgstr "Розширюйте мережу, боріться із цензурою"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:160-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:162-15
 msgid ""
 "Fight censorship by becoming a bridge! Install and run CENO Browser to "
 "instantly join the network and expand the availability of blocked websites "
@@ -153,51 +152,55 @@ msgstr ""
 "щоб миттєво підключитись до мережі та розблокувати доступ до веб-сайтів для "
 "користувачів з країн, де інтернет цензурується."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:163-13
-msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:163-13"
+#: index.html%2Bhtml.body.main.section.div.div.div.img[alt]:165-13
+msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
 msgid "Free and Open Source"
 msgstr "Безкоштовно та з відкритим вихідним кодом"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.h3:164-15
-msgctxt "index.html+html.body.main.section.div.div.div.h3:164-15"
+#: index.html%2Bhtml.body.main.section.div.div.div.h3:166-15
+msgctxt "index.html+html.body.main.section.div.div.div.h3:166-15"
 msgid "Free and Open Source"
 msgstr "Безкоштовно та з відкритим вихідним кодом"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.p:165-15
+#: index.html%2Bhtml.body.main.section.div.div.div.p:167-15
 msgid ""
-"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/\""
-">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
 "the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
 "library</a> - enabling third party developers to incorporate the CENO "
 "network into their apps for peer-to-peer connectivity."
 msgstr ""
-"CENO заснований на <a href=\"https://www.mozilla.org/firefox/android/\""
-">Firefox для Android</a> (також відомий як Mozilla Fennec), доповненому "
+"CENO заснований на <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox для Android</a> (також відомий як Mozilla Fennec), доповненому "
 "інноваційною <a href=\"https:// github.com/equalitie/ouinet\">бібліотекою "
 "Ouinet</a>, що дозволяє стороннім розробникам включати мережу CENO у свої "
 "додатки для пірингового зв'язку."
 
-#: index.html%2Bhtml.body.footer.div.p:183-9
+#: index.html%2Bhtml.body.footer.div.p:185-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
-">values</a> that guide us to protect the rights and aspirations of everyone "
-"online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
 msgstr ""
-"Браузер CENO — це проект канадської компанії <a href=\"https://equalit.ie\""
-">eQualit.ie</a>, яка розробляє відкриті та багатофункціональні системи, "
+"Браузер CENO — це проект канадської компанії <a href=\"https://equalit.ie"
+"\">eQualit.ie</a>, яка розробляє відкриті та багатофункціональні системи, "
 "орієнтовані на конфіденційність, онлайн-безпеку та свободу слова. "
-"Технологічні рішення та інновації ґрунтуються на наших <a href=\"https"
-"://equalit.ie/en/values/\">цінностях</a>, які допомагають нам захищати права "
-"та прагнення всіх, хто перебуває в мережі."
+"Технологічні рішення та інновації ґрунтуються на наших <a href=\"https://"
+"equalit.ie/en/values/\">цінностях</a>, які допомагають нам захищати права та "
+"прагнення всіх, хто перебуває в мережі."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:185-23
+#: index.html%2Bhtml.body.footer:187-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "index.html+html.body.main.section.div.div.div.h3:164-15"
+#~ msgid "Free and Open Source"
+#~ msgstr "Безкоштовно та з відкритим вихідним кодом"
