@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-08 19:08+0200\n"
-"PO-Revision-Date: 2022-02-09 14:18+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/uk/>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -21,7 +21,7 @@ msgstr "uk"
 
 #: help.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - Get Involved!"
-msgstr "Censorship.no! — Візьміть участь!"
+msgstr "Censorship.no! – Долучайтеся!"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
@@ -36,15 +36,15 @@ msgstr "Посібник користувача"
 #: help.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgctxt "help.html+html.body.nav.div.div.ul.li:91-17"
 msgid "Get Involved!"
-msgstr "Візьміть участь!"
+msgstr "Долучайтеся!"
 
 #: help.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
-msgstr "Завантажити CENO"
+msgstr "Отримати CENO"
 
 #: help.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Get CENO Browser"
-msgstr "Завантажити браузер CENO"
+msgstr "Отримати оглядач CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: help.html%2Bhtml.body.nav.div.div.div:97-1
@@ -77,63 +77,63 @@ msgstr ""
 #: help.html%2Bhtml.body.main.div.h1:123-5
 msgctxt "help.html+html.body.main.div.h1:123-5"
 msgid "Get Involved!"
-msgstr "Візьміть участь!"
+msgstr "Долучайтеся!"
 
 #: help.html%2Bhtml.body.main.div.p:124-2
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible."
 msgstr ""
-"Ми будемо раді вашій підтримці у тому, щоб зробити браузер CENO максимально "
-"корисним та доступним."
+"Ми будемо раді Вашій підтримці в тому, щоб зробити оглядач CENO кориснішим "
+"та доступнішим."
 
 #: help.html%2Bhtml.body.main.div.h1:126-6
 msgid "Run a Bridge Node"
-msgstr "Підтримувати міст"
+msgstr "Запустіть вузол моста"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:129-16
 msgid "﻿Want to help grow the network? Join the swarm!"
-msgstr "Хочете допомогти з розширенням мережі? Приєднуйтесь до нас!"
+msgstr "Бажаєте допомогти з розширенням мережі? Долучайтеся до нас!"
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:132-16
 msgid ""
 "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
 "spare, always-on device."
 msgstr ""
-"Найпростіше: Android. Запустіть браузер CENO на своєму пристрої Android та/"
-"або на запасному, постійно увімкненому пристрої."
+"Найпростіше: Android. Запустіть оглядач CENO на своєму пристрої Android та/"
+"або на запасному, постійно ввімкненому пристрої."
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
 msgid ""
 "﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
 "up a bridge on your computer or VPS."
 msgstr ""
-"Запустіть клієнт CENO у Docker: Крім того, за допомогою всього однієї "
-"команди ви можете налаштувати міст на своєму комп'ютері або VPS."
+"Запустіть Docker-клієнта CENO: Крім того, за допомогою всього однієї команди "
+"Ви можете налаштувати міст на своєму компʼютері або VPS."
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
 msgid ""
 "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
 "up port forwarding."
 msgstr ""
-"ВІДКРИЙТЕ ДОСТУП ДО ІНТЕРНЕТУ: Переконайтеся, що на вашому роутері увімкнено "
-"UPnP, або налаштуйте переадресацію портів."
+"ВІДКРИЙТЕ ПОРТАЛ В ІНТЕРНЕТ: Переконайтеся, що на Вашому маршрутизаторі "
+"ввімкнено UPnP або налаштуйте переадресацію портів."
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
 msgid ""
 "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
 "proxy to localhost, port 8077."
 msgstr ""
-"ЩОБ ПЕРЕВІРИТИ, ЧИ ВСЕ ПРАЦЮЄ: Створіть новий профіль Firefox та налаштуйте "
-"як проксі-сервер localhost на порту 8077."
+"ПЕРЕВІРТЕ ЧИ ПРАЦЮЄ: Створіть новий профіль Firefox та вкажіть як проксі-"
+"сервер – localhost і порт – 8077."
 
 #: help.html%2Bhtml.body.main.div.div.div.img[alt]:144-16
 msgid ""
 "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
 "provided certificate to test it out!"
 msgstr ""
-"ДЯКУЄМО, ЩО ВИ З НАМИ! Встановіть веб-розширення CENO та запропонований "
-"сертифікат, щоб протестити!"
+"ДЯКУЄМО, ЩО ВИ З НАМИ! Встановіть веб-розширення CENO та наданий сертифікат "
+"для тестування!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.main.div.p:147-2
@@ -141,8 +141,8 @@ msgid ""
 "To learn more about setting up a bridge, please consult the <a href=\"../"
 "user-manual/en/browser/bridging.html\">user manual.</a>"
 msgstr ""
-"Детальнішу інформацію про налаштування мосту можна отримати у <a href=\"../"
-"user-manual/ua/browser/bridging.html\">Посібнику користувача.</a>"
+"Детальнішу інформацію про налаштування моста можна отримати в <a href"
+"=\"../user-manual/ua/browser/bridging.html\">посібнику користувача.</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:152-6
 msgid "Translations"
@@ -152,8 +152,8 @@ msgstr "Переклади"
 msgid ""
 "Help translate the CENO Browser app, web extension, user manual and website!"
 msgstr ""
-"Допоможіть перекласти браузер CENO, веб-розширення, посібник користувача та "
-"веб-сайт!"
+"Допоможіть перекласти оглядач CENO, веброзширення, посібник користувача і "
+"вебсайт!"
 
 #: help.html%2Bhtml.body.main.div.p:154-2
 msgid "To get started:"
@@ -165,9 +165,9 @@ msgid ""
 "with your Github or Gitlab ID. Note: Account creation is not required, but "
 "you will only be able to suggest translations in this case."
 msgstr ""
-"Зареєструйтесь на сайті <a href=\"https://weblate.org/\">Weblate</a> або "
-"увійдіть через свій обліковий запис на Github чи Gitlab. Примітка: Створення "
-"облікового запису не потрібне, але в цьому випадку ви зможете лише "
+"Зареєструйтеся на сайті <a href=\"https://weblate.org/\">Weblate</a> або "
+"ввійдіть через свій обліковий запис Github або Gitlab. Примітка: Створювати "
+"обліковий запис необовʼязково, але в цьому випадку Ви зможете лише "
 "пропонувати переклади."
 
 #: help.html%2Bhtml.body.main.div.ol.li:157-6
@@ -177,10 +177,10 @@ msgid ""
 "strings (including Android app strings, the web browser extension, the User "
 "Manual and the website)."
 msgstr ""
-"Відвідайте <a href=\"https://hosted.weblate.org/projects/censorship-no/"
-"\">сторінку проекту Censorship.no</a>, де перераховані всі компоненти "
-"проєкту та їх рядки (включно з рядками програми Android, розширенням веб -"
-"браузера, посібниками користувача та веб-сайту)."
+"Відвідайте <a href=\"https://hosted.weblate.org/projects/censorship-no/\""
+">сторінку проєкту Censorship.no</a>, де перераховані всі компоненти проєкту "
+"та їх рядки (включно з рядками застосунку Android, розширення веб-оглядача, "
+"посібника користувача та вебсайту)."
 
 #: help.html%2Bhtml.body.main.div.ol.li:158-6
 msgid ""
@@ -190,26 +190,26 @@ msgid ""
 "new language by selecting a component from the main project page and "
 "clicking on the \"Start a new translation\" button."
 msgstr ""
-"На вкладці <a href=\"https://hosted.weblate.org/projects/censorship-no/"
-"#languages\">«Мови» на сторінці проекту Censorship.no</a> оберіть мову, над "
-"якою хочете попрацювати, або, якщо не знайдете своєї мови — додайте нову "
-"мову, обравши компонент на головній сторінці проєкту і натиснувши кнопку "
-"«Почати новий переклад»."
+"У вкладці <a href=\"https://hosted.weblate.org/projects/censorship-no/#"
+"languages\">«Мови» на сторінці проєкту Censorship.no</a> оберіть мову, над "
+"якою хочете працювати, або, якщо не знайдете своєї мови – додайте нову мову, "
+"обравши компонент на головній сторінці проєкту і натиснувши кнопку «Почати "
+"новий переклад»."
 
 #: help.html%2Bhtml.body.main.div.p:159-6
 msgid ""
 "Please contact the CENO team via the contact form below if you're interested "
 "in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
-"Будь ласка, зв'яжіться з командою CENO через контактну форму нижче, якщо б "
-"ви хотіли перевіряти переклади вашою мовою (мовами)."
+"Будь ласка, звʼяжіться з командою CENO через контактну форму нижче, якщо Ви "
+"хочете перевіряти переклади своєю мовою (мовами)."
 
 #: help.html%2Bhtml.body.main.div.p:160-6
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
-"Додаткову інформацію про використання Weblate можна отримати у <a href="
+"Додаткову інформацію про використання Weblate можна отримати в <a href="
 "\"https://docs.weblate.org/\">документації Weblate.</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:162-6
@@ -221,9 +221,9 @@ msgid ""
 "CENO is completely Free/Libre/Open Source Software. If you are interested in "
 "its source code please check the following Git repositories:"
 msgstr ""
-"CENO — це повністю безкоштовне та вільне програмне забезпечення з відкритим "
-"вихідним кодом. Якщо вас цікавить вихідний код, ознайомтеся з наступними "
-"репозиторіями Git:"
+"CENO – це повністю вільне і безкоштовне програмне забезпечення з відкритим "
+"вихідним кодом. Якщо Вас цікавить вихідний код, ознайомтеся з наступними "
+"Git-репозиторіями:"
 
 #: help.html%2Bhtml.body.main.div.ul.li:165-5
 msgid ""
@@ -233,11 +233,12 @@ msgid ""
 "ceno-distribution\">included extensions</a>, <a href=\"https://github.com/"
 "censorship-no/ceno-ext-settings\">settings extension source</a>"
 msgstr ""
-"Компоненти браузера: <a href=\"https://github.com/censorship-no/ceno-browser"
-"\">конструктор пакетів</a>, <a href=\"https://github.com/censorship-no/gecko "
-"-dev/tree/ceno\">форк Firefox</a>, <a href=\"https://github.com/censorship-"
-"no/ceno-distribution\">додані розширення</a>, <a href=\"https ://github.com/"
-"censorship-no/ceno-ext-settings\">вихідний код розширення налаштувань</a>"
+"Компоненти оглядача: <a href=\"https://github.com/censorship-no/ceno-"
+"browser\">конструктор пакунків</a>, <a href=\"https://github.com/"
+"censorship-no/gecko -dev/tree/ceno\">відгілка Firefox</a>, <a href=\"https"
+"://github.com/censorship-no/ceno-distribution\">додаткові розширення</a>, <a "
+"href=\"https ://github.com/censorship-no/ceno-ext-settings\">вихідний код "
+"розширення для налаштування</a>"
 
 #: help.html%2Bhtml.body.main.div.ul.li:166-5
 msgid "Ouinet source"
@@ -254,9 +255,9 @@ msgid ""
 msgstr ""
 "Вас також може зацікавити (більше не підтримується) <a href=\"https://github."
 "com/censorship-no-archive/ceno1\">попередня версія CENO</a>, побудована на "
-"мережі анонімного обміну файлами та публікації контенту <a href=\"https://"
-"freenetproject.org/\">Freenet</a>. Інші неактивні репозиторії проєкту можна "
-"знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
+"мережі анонімного обміну файлами та публікування вмісту <a href=\"https"
+"://freenetproject.org/\">Freenet</a>. Інші неактивні репозиторії проєкту "
+"можна знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
 "Censorship.no!</a>."
 
 #: help.html%2Bhtml.body.footer.div.p:183-9
@@ -268,12 +269,12 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Браузер CENO — це проект канадської компанії <a href=\"https://equalit.ie"
-"\">eQualit.ie</a>, яка розробляє відкриті та багатофункціональні системи, "
-"орієнтовані на конфіденційність, онлайн-безпеку та свободу слова. "
-"Технологічні рішення та інновації ґрунтуються на наших <a href=\"https://"
-"equalit.ie/en/values/\">цінностях</a>, які допомагають нам захищати права та "
-"прагнення всіх, хто перебуває в мережі."
+"Оглядач CENO – це проєкт канадської компанії <a href=\"https://equalit.ie\""
+">eQualit.ie</a>, яка розробляє відкриті та багаторазові системи, орієнтовані "
+"на конфіденційність, мережеву безпеку та свободу слова. Технологічні рішення "
+"та інновації ґрунтуються на наших <a href=\"https://equalit.ie/en/values/\""
+">цінностях</a>, які допомагають нам захищати права та прагнення всіх, хто "
+"перебуває в мережі."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: help.html%2Bhtml.body.footer:185-23
