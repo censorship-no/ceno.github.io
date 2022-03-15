@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="ru" class="light">
+<html lang="ru" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -170,8 +170,7 @@
 </ol>
 <p>Если такая настройка вам не подходит, не отчаивайтесь! Если у вас есть компьютер с хорошим подключением, который остается включенным большую часть времени, продолжайте читать.</p>
 <h2 id="Запуск-моста-на-компьютере"><a class="header" href="#Запуск-моста-на-компьютере">Запуск моста на компьютере</a></h2>
-<p>Если ваш компьютер поддерживает <a href="https://ru.wikipedia.org/wiki/Docker">контейнеры Docker</a>, вы можете запустить
-на нем предварительно настроенный клиент CENO для работы в качестве моста. Если Docker еще не установлен, следуйте инструкциям по <a href="https://docs.docker.com/engine/install/">установке Docker Engine</a> на вашей платформе. В производных дистрибутивах Debian, таких как Ubuntu или Linux Mint, вы можете просто запустить: <code>sudo apt install docker.io</code></p>
+<p>Если ваш компьютер поддерживает <a href="https://ru.wikipedia.org/wiki/Docker">контейнеры Docker</a>, вы можете запустить на нем предварительно настроенный клиент CENO для работы в качестве моста. Если Docker еще не установлен, следуйте инструкциям по <a href="https://docs.docker.com/engine/install/">установке Docker Engine</a> на вашей платформе. В производных дистрибутивах Debian, таких как Ubuntu или Linux Mint, вы можете просто запустить: <code>sudo apt install docker.io</code></p>
 <p>Чтобы распаковать контейнер клиента CENO, достаточно выполнить следующую команду в терминале (она выглядит устрашающе, но вы можете просто скопировать и вставить ее как есть в командную строку):</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -183,8 +182,7 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>Команда запустит контейнер с именем <code>ceno-client</code>, который будет запускаться при
-каждой загрузке, пока вы не остановите его. Пожалуйста, ознакомьтесь с <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">документацией клиента Docker CENO</a> для получения дополнительной информации о том, как управлять контейнером.</p>
+<p>Команда запустит контейнер с именем <code>ceno-client</code>, который будет запускаться при каждой загрузке, пока вы не остановите его. Пожалуйста, ознакомьтесь с <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">документацией клиента Docker CENO</a> для получения дополнительной информации о том, как управлять контейнером.</p>
 <blockquote>
 <p><strong>Примечание:</strong> У этого клиента нет <em>настроек CENO</em>: когда ниже будут даны указания перейти на страницу настроек, откройте вместо этого <a href="../client/front-end.html">интерфейс клиента</a>, который по большей части содержит ту же информацию.</p>
 </blockquote>
@@ -195,37 +193,40 @@
 </blockquote>
 <p>Состояние, подобное показанному на предыдущем рисунке, означает, что UPnP не включен на вашем роутере WiFi:</p>
 <blockquote>
-<p><strong>Состояние UPnP</strong></p>
-</blockquote>
-<pre><code>inactive
-</code></pre>
-<blockquote>
 <p><strong>Состояние доступности</strong></p>
 </blockquote>
 <pre><code>undecided
+</code></pre>
+<blockquote>
+<p><strong>Состояние UPnP</strong></p>
+</blockquote>
+<pre><code>disabled / inactive
 </code></pre>
 <p>Состояние ниже указывает на то, что UPnP, вероятно, работает, и CENO в настоящее время проверяет возможность подключения:</p>
 <blockquote>
-<p><strong>Состояние UPnP</strong></p>
-</blockquote>
-<pre><code>enabled
-</code></pre>
-<blockquote>
 <p><strong>Состояние доступности</strong></p>
 </blockquote>
 <pre><code>undecided
 </code></pre>
-<p>Состояние ниже означает, что UPnP работает, и вы можете создавать мостовые соединения для других пользователей CENO:</p>
 <blockquote>
 <p><strong>Состояние UPnP</strong></p>
 </blockquote>
 <pre><code>enabled
 </code></pre>
+<p>Состояние ниже означает, что UPnP работает, и вы можете создавать мостовые соединения для других пользователей CENO:</p>
 <blockquote>
 <p><strong>Состояние доступности</strong></p>
 </blockquote>
 <pre><code>likely reachable / reachable
 </code></pre>
+<blockquote>
+<p><strong>Состояние UPnP</strong></p>
+</blockquote>
+<pre><code>enabled
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Even if UPnP is working, your router may still not be reachable from the outside. This can be the case when <em>CENO Settings</em> reports <em>External UDP endpoints</em> which look like <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> addresses <code>100.X.Y.Z:N</code> with X between 64 and 127 (increasingly common among home ISPs), or like private addresses <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> with X between 16 and 31, and <code>192.168.X.Y:N</code>. If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.</p>
+</blockquote>
 <p>На рынке представлено множество роутеров Wi-Fi, и каждый из них имеет свои особенности. Ниже приведен список инструкций некоторых производителей по включению UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -233,6 +234,8 @@
 <li><a href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
 <li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+<li><a href="https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router">Netgear</a></li>
+<li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="Использование-переадресации-портов-в-качестве-альтернативы-upnp"><a class="header" href="#Использование-переадресации-портов-в-качестве-альтернативы-upnp">Использование переадресации портов в качестве альтернативы UPnP</a></h2>
 <p>Вместо включения UPnP на роутере можно создать правило переадресации портов, чтобы соединения из сети CENO направлялись на ваше устройство. Вам необходимо войти в панель управления роутера и найти опцию <em>переадресация портов</em>. Чтобы узнать, на какой IP-адрес и порт вам нужно перенаправлять соединения, откройте страницу <em>Настройки CENO</em> и найдите раздел <em>Локальная конечные точки UDP</em>.</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="light">
+<html lang="es" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -167,8 +167,7 @@
 <p>Sí. Sin embargo, los inyectores no pueden distinguir si una solicitud vino desde un usuario de CENO o un puente. Por lo que entonces a las solicitudes yendo hasta el inyector no se les puede asignar confiablemente una dirección IP de origen.</p>
 <h3 id="mis-datos-privados-pueden-filtrarse-a-la-caché-distribuída"><a class="header" href="#mis-datos-privados-pueden-filtrarse-a-la-caché-distribuída">¿Mis datos privados pueden filtrarse a la caché distribuída?</a></h3>
 <p>Esperamos que no. Como se mencionó arriba, el Navegador CENO intenta con todas sus fuerzas eliminar cualesquiera datos privados (contraseñas, cookies…) de cualquier solicitud para inyección. Además, el inyector no siembra por sí mismo; de hecho, su único propósito es firmar contenido de manera que los clientes Ouinet puedan sembrarlo. Esto significa que cuando el contenido vuelve al cliente, es vuelto a analizar, y si el servidor de origen indicó que es de naturaleza privada, CENO tampoco lo sembrará.</p>
-<p>Aún así, pudiera haber casos de páginas pobremente diseñadas o maliciosas, las
-cuales podrían recolectar alguna información sobre tí (como una dirección electrónica en un formulario o algunas huellas digitales del navegador usando JavaScript) e incluirlas en otro vínculo URL como componentes normales de la ruta (ej., <code>http://example.com/subscribe/you@example.org</code>). Si sospechas que una página podría estar haciendo eso, mejor elegir el lado seguro y usar navegación privada para ella.</p>
+<p>Aún así, pudiera haber casos de páginas pobremente diseñadas o maliciosas, las cuales podrían recolectar alguna información sobre tí (como una dirección electrónica en un formulario o algunas huellas digitales del navegador usando JavaScript) e incluirlas en otro vínculo URL como componentes normales de la ruta (ej., <code>http://example.com/subscribe/you@example.org</code>). Si sospechas que una página podría estar haciendo eso, mejor elegir el lado seguro y usar navegación privada para ella.</p>
 <h3 id="el-servidor-de-origen-puede-saber-si-estoy-usando-ceno"><a class="header" href="#el-servidor-de-origen-puede-saber-si-estoy-usando-ceno">¿El servidor de origen puede saber si estoy usando CENO?</a></h3>
 <p>Muy probablemente no. Cada vez que CENO contacta un servidor de origen directamente, se comporta como lo hace un Firefox para Android normal, por lo que tu dispositivo particular aparece como una aplicación Firefox normal de la misma versión.</p>
 <p>Sin embargo, cuando usa un inyector para obtener algún contenido desde su servidor de origen, hay (al menos) dos maneras para que este sepa que CENO o Ouinet están involucrados:</p>
