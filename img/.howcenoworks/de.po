@@ -4,35 +4,50 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 11:32-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-09 10:06+0000\n"
+"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
+"howcenoworks/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: howcenoworks.txt:2
 msgid "Most web traffic in countries that filter internet is routed through centralized exchanges.\n"
 msgstr ""
+"Der Großteil des Internet-Verkehrs in Ländern die das Internet zensieren, "
+"wird über zentralisierte Server geleitet.\n"
 
 #: howcenoworks.txt:4
 msgid "This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, etc.\n"
 msgstr ""
+"Dieses Design gibt dem Betreiber der zentralisierten Server die Möglichkeit "
+"bekannte Proxies, VPN-Server, Relays, usw. zu lokalisieren und blockieren.\n"
 
 #: howcenoworks.txt:6
 msgid "In these cases, reaching origin web servers is difficult or impossible, and your device will not be able to get that content.\n"
 msgstr ""
+"In diesen Fällen wird das Erreichen der Ursprungs-Webserver erschwert oder "
+"unmöglich und ihr Gerät ist nicht dazu in der Lage den Inhalt erhalten.\n"
 
 #: howcenoworks.txt:8
 msgid "CENO is a mobile web browser for storing and sharing web content anywhere.\n"
 msgstr ""
+"CENO ist ein mobiler Webbrowser zum Speichern und Teilen von Webinhalten von "
+"überall.\n"
 
 #: howcenoworks.txt:10
 msgid "CENO users create small-world networks to connect to each other, and thereafter to a bridge outside the censored zone.\n"
 msgstr ""
+"CENO-Nutzer erstellen kleine lokale Netzwerke, um diese miteinander zu "
+"verbinden und danach verbinden sie sich zu einer Brücke außerhalb des "
+"Zensors.\n"
 
 #: howcenoworks.txt:11
 msgid "Once a website is accessed by a single CENO user, it is stored and shared inside the country peer-to-peer.\n"
 msgstr ""
+"Sobald ein CENO-Nutzer eine Webseite aufruft, wird diese gespeichert und "
+"innerhalb des Landes Peer-to-Peer geteilt.\n"
