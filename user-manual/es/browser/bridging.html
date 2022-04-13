@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="es" class="light">
+<html lang="es" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -156,7 +156,7 @@
 <p>Esta funcionalidad ya está incorporada dentro del Navegador CENO. Tu dispositivo necesitará estar conectado a una red Wi-Fi que tenga habilitado UPnP o bien configurada explícitamente para redirigir puertos para CENO. Mira las siguientes secciones para mayores detalles.</p>
 <p>Sin embargo, por favor nota que Android solamente le permitirá a un dispositivo móvil actuar como un puente apropiado mientras que estés usándolo activamente, de lo contrario, las características de ahorro de energía reducirán la operación de CENO.</p>
 <blockquote>
-<p><strong>Nota técnica:</strong> Esto principalmente es debido al <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Desarrolladores de Android – Optimizar para Doze y Standby de Aplicación">modo doze</a> de Android haciendo más lenta la operación de la biblioteca Ouinet nativa. Desafortunadamente, deshabilitar la optimización de la batería para CENO no parece excluir a Ouinet de ello. Tu dispositivo particular también podría incluir sus propias características de ahorro de energía, las cuales podrían interferir con CENO; por favor comprueba [¡No mates a mi aplicación!][Don't kill my app!] para la marca de tu dispositivo.</p>
+<p><strong>Nota técnica:</strong> Esto principalmente es debido al <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Desarrolladores de Android – Optimizar para Doze y Standby de Aplicación">modo doze</a> de Android haciendo más lenta la operación de la biblioteca Ouinet nativa. Desafortunadamente, deshabilitar la optimización de la batería para CENO no parece excluir a Ouinet de ello. Tu dispositivo particular también podría incluir sus propias características de ahorro de energía, las cuales podrían interferir con CENO; por favor comprueba <a href="https://dontkillmyapp.com/">¡No mates a mi aplicación!</a> para la marca de tu dispositivo.</p>
 </blockquote>
 <p>Por lo que si tu intención es tener a CENO actuando como un puente permanente, alcanzable siempre, además de una red Wi-Fi apropiadamente configurada, necesitarás:</p>
 <ol>
@@ -170,8 +170,7 @@
 </ol>
 <p>Si esa configuración no es una opción para tí, ¡no te des aún por vencido! Si tienes una computadora con buena conectividad que está activa la mayor parte del tiempo, por favor continúa leyendo.</p>
 <h2 id="ejecutando-un-puente-en-una-computadora"><a class="header" href="#ejecutando-un-puente-en-una-computadora">Ejecutando un puente en una computadora</a></h2>
-<p>Si tu computadora soporta <a href="https://es.wikipedia.org/wiki/Docker_(software)">contenedores Docker</a>, puedes ejecutar un
-cliente CENO preconfigurado en ella para que actúe como puente. Si Docker aún no está instalado, por favor sigue las instrucciones para <a href="https://docs.docker.com/engine/install/">instalar el Motor Docker</a> en tu platforma. Para derivados de Debian como Ubuntu o Linux Mint, solamente ejecuta: <code>sudo apt install docker.io</code></p>
+<p>Si tu computadora soporta <a href="https://es.wikipedia.org/wiki/Docker_(software)">contenedores Docker</a>, puedes ejecutar un cliente CENO preconfigurado en ella para que actúe como puente. Si Docker aún no está instalado, por favor sigue las instrucciones para <a href="https://docs.docker.com/engine/install/">instalar el Motor Docker</a> en tu platforma. Para derivados de Debian como Ubuntu o Linux Mint, solamente ejecuta: <code>sudo apt install docker.io</code></p>
 <p>Para implementar un contenedor con un cliente CENO, solamente necesitas ejecutar el siguiente comando en una terminal (da un poco de miedo, pero puedes copiar y pegarlo como está en la línea de comando):</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -183,49 +182,51 @@ cliente CENO preconfigurado en ella para que actúe como puente. Si Docker aún 
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>El comando iniciará un contenedor llamado <code>ceno-client</code> que se ejecutará en cada
-inicio de la máquina a menos que explícitamente le digas que se detenga. Por favor comprueba la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">Documentación del cliente CENO de Docker</a> para más información sobre cómo manipular al contenedor.</p>
+<p>El comando iniciará un contenedor llamado <code>ceno-client</code> que se ejecutará en cada inicio de la máquina a menos que explícitamente le digas que se detenga. Por favor comprueba la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">Documentación del cliente CENO de Docker</a> para más información sobre cómo manipular al contenedor.</p>
 <blockquote>
 <p><strong>Nota:</strong> Este cliente no tiene <em>Configuración de CENO</em>: cuando se lo instruya abajo para que acceda a esa página, abre en vez la <a href="../client/front-end.html">interfaz de usuario del cliente</a>, la cual contiene información mayormente equivalente.</p>
 </blockquote>
 <h2 id="habilitando-upnp-en-tu-enrutador-wi-fi"><a class="header" href="#habilitando-upnp-en-tu-enrutador-wi-fi">Habilitando UPnP en tu enrutador Wi-Fi</a></h2>
 <p><a href="https://es.wikipedia.org/wiki/Universal_Plug_and_Play">&quot;Plug and Play&quot; Universal</a> es la manera más fácil de hacer que tu Navegador CENO (o cliente de computadora) sea alcanzable para la red CENO. La página de <a href="settings.html">Configuración de CENO</a> indicará el estado de UPnP en tu red local.</p>
 <blockquote>
-<p><strong>Nota:</strong> Habilitar UPnP en el enrutador Wi-Fi podría exponer a los dispositivos en tu red a interferencia externa. Por favor sé [ conciente de los riesgos][upnp-risks] y también considera usar métodos alternativos como se explicó a continuación.</p>
+<p><strong>Nota:</strong> Habilitar UPnP en el enrutador Wi-Fi podría exponer a los dispositivos en tu red a interferencia externa. Por favor sé [consciente de los riesgos][upnp-risks] y también considera usar métodos alternativos como se explica a continuación.</p>
 </blockquote>
-<p>Un estado como el siguiente indica que UPnP no está habilitado en tu enrutador Wi-Fi:</p>
-<blockquote>
-<p><strong>Estado UPnP</strong></p>
-</blockquote>
-<pre><code>inactive
-</code></pre>
+<p>Un estado como el siguiente indica que UPnP no está disponible o no funciona en tu enrutador Wi-Fi:</p>
 <blockquote>
 <p><strong>Estado de alcanzabilidad</strong></p>
 </blockquote>
 <pre><code>undecided
+</code></pre>
+<blockquote>
+<p><strong>Estado UPnP</strong></p>
+</blockquote>
+<pre><code>disabled / inactive
 </code></pre>
 <p>El estado de siguiente indica que UPnP probablemente está funcionando, y en este momento CENO está verificando la conectividad:</p>
 <blockquote>
-<p><strong>Estado UPnP</strong></p>
-</blockquote>
-<pre><code>enabled
-</code></pre>
-<blockquote>
 <p><strong>Estado de alcanzabilidad</strong></p>
 </blockquote>
 <pre><code>undecided
 </code></pre>
-<p>El estado a continuación indica que UPnP está funcionando, y puedes actuar como puente para las conexiones de otros usuarios de CENO:</p>
 <blockquote>
 <p><strong>Estado UPnP</strong></p>
 </blockquote>
 <pre><code>enabled
 </code></pre>
+<p>El estado a continuación indica que UPnP está funcionando, y puedes actuar como puente para las conexiones de otros usuarios de CENO:</p>
 <blockquote>
 <p><strong>Estado de alcanzabilidad</strong></p>
 </blockquote>
 <pre><code>likely reachable / reachable
 </code></pre>
+<blockquote>
+<p><strong>Estado UPnP</strong></p>
+</blockquote>
+<pre><code>enabled
+</code></pre>
+<blockquote>
+<p><strong>Nota:</strong> Incluso si UPnP funciona, tu enrutador podría no ser alcanzable desde el exterior. Esto puede ocurrir cuando la <em>Configuración de CENO</em> indique <em>Puntos finales UDP externos</em> que correspondan a direcciones <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code> con X entre 64 y 127 (cada vez más comunes entre ISP domésticos), o a direcciones privadas <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> con X entre 16 y 31, y <code>192.168.X.Y:N</code>. En tal caso, contacta con tu ISP o administrador de red para obtener una dirección pública en tu enrutador o para establecer redireccionamientos de puertos hacia el punto final externo.</p>
+</blockquote>
 <p>Hay muchos enrutadores Wi-Fi en el mercado, y cada uno tiene sus propias características particulares. He aquí una lista de las instrucciones de algunos fabricantes para habilitar UPnP:</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -233,6 +234,8 @@ inicio de la máquina a menos que explícitamente le digas que se detenga. Por f
 <li><a href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
 <li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+<li><a href="https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router">Netgear</a></li>
+<li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="usando-redireccionamiento-de-puertos-como-alternativa-a-upnp"><a class="header" href="#usando-redireccionamiento-de-puertos-como-alternativa-a-upnp">Usando redireccionamiento de puertos como alternativa a UPnP</a></h2>
 <p>En vez de habilitar UPnP en tu enrutador, puedes crear una regla de redireccionamiento de puerto para asegurarte que las conexiones desde la red CENO sean dirigidas a tu dispositivo. Necesitarás iniciar sesión en la interfaz administrativa del enrutador, y ubicar la opción <em>redireccionamiento de puertos</em>. Para ver a cuál dirección IP necesitas redirigir las conexiones y el puerto relevante, abre la página <em>Configuración de CENO</em> y mira la sección <em>Puntos finales UDP locales</em>.</p>
@@ -243,7 +246,7 @@ inicio de la máquina a menos que explícitamente le digas que se detenga. Por f
 </code></pre>
 <p>La redirección de puerto debe ser para el protocolo UDP (no TCP). CENO elige un puerto aleatorio en la primera ejecución y lo mantiene por las subsiguientes, pero la dirección IP de tu dispositivo en la red local podría cambiar de tiempo en tiempo. Por lo que periódicamente deberías revisar la página <em>Configuración de CENO</em> para ver que tu dispositivo sea alcanzable para la red CENO.</p>
 <blockquote>
-<p><strong>Nota tácnica:</strong> Alternativamente, puedes asegurarte de que el enrutador siempre confiera la misma dirección IP a tu dispositivo (ej., a través de una asignación DHCP estática para la dirección MAC del dispositivo).</p>
+<p><strong>Nota técnica:</strong> Alternativamente, puedes asegurarte de que el enrutador siempre confiera la misma dirección IP a tu dispositivo (ej., a través de una asignación DHCP estática para la dirección MAC del dispositivo).</p>
 </blockquote>
 
                     </main>

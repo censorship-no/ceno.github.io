@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="light">
+<html lang="fa" class="light" dir="rtl">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <!-- Custom theme stylesheets -->
         
             </head>
-    <body dir="rtl" class="sidebar-visible no-js">
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -160,11 +160,14 @@
 <blockquote>
 <p><strong>نکته‌ی فنی:</strong> اگر نرم‌افزار دیگری از قبل در حال شنود درگاه‌های TCP یعنی <code>127.0.0.1:8077</code> یا <code>127.0.0.1:8078</code> باشد ممکن است این اتفاق بیفتد.</p>
 </blockquote>
+<h2 id="the-ouinet-client-state-under-ceno-settings-is-not-started"><a class="header" href="#the-ouinet-client-state-under-ceno-settings-is-not-started">The <em>Ouinet client state</em> under <em>CENO Settings</em> is not <code>started</code></a></h2>
+<p>The Ouinet client run by CENO is finding problems starting on your device.</p>
+<p>When you launch CENO, the state may read <code>starting</code> for a few seconds; this is normal. However, if the state remains <code>starting</code> for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network. Please check your network connection and try restarting CENO. If you have a working connection but the state remains <code>starting</code>, please contact us.</p>
+<p>If you see some other state, there may be some internal error in the Ouinet client. Please report the issue to us.</p>
 <h2 id="صفحه-محتوایی-جعلی-مانند-یک-پیغام-نامربوط-را-نشان-میدهد"><a class="header" href="#صفحه-محتوایی-جعلی-مانند-یک-پیغام-نامربوط-را-نشان-میدهد">صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد</a></h2>
 <p>CENO توانسته به یک سرور وب مستقیماً متصل شود و محتوا را از آن بازیابی کند. اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر هدایت کرده است.</p>
 <p>این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما به این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما به سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد.</p>
-<p>بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی HTTPS از
-طریق کلیک روی نوار آدرس و تبدیل <code>http://</code> به <code>https://</code> در ابتدای نشانی اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که سایت مورد نظرتان HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام &quot;بازیابی منبع ناموفق بود&quot; را دریافت خواهید کرد، باید به <a href="settings.html">صفحه تنظیمات</a> بروید، دسترسی به اصل را غیرفعال کنید، و دوباره امتحان کنید.</p>
+<p>بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی HTTPS از طریق کلیک روی نوار آدرس و تبدیل <code>http://</code> به <code>https://</code> در ابتدای نشانی اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که سایت مورد نظرتان HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام &quot;بازیابی منبع ناموفق بود&quot; را دریافت خواهید کرد، باید به <a href="settings.html">صفحه تنظیمات</a> بروید، دسترسی به اصل را غیرفعال کنید، و دوباره امتحان کنید.</p>
 <p>از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای همه سایتها از طریق افزونه <a href="https://www.eff.org/https-everywhere/">HTTPS Everywhere</a> از HTTPS استفاده کند: در منو اصلی برنامه گزینه <em>HTTPS Everywhere</em> را انتخاب کنید، سپس گزینه <em>Encrypt All Sites Eligible</em> (EASE) نشان داده شده در زیر را فعال کنید. CENO این تنظیمات را به خاطر می سپارد.</p>
 <p><img src="images/httpsew-ease-on.png" alt="شکل: تنظیمات استفاده از HTTPS Everywhere با فعال کردن EASE" /></p>
 <p>اگر وقتی EASE فعال است هنوز نیاز به دسترسی به سایت خاصی روی همان HTTP معمولی دارید، می توانید از آن سایت بازدید کنید (حتی اگر دسترسی ناموفق بود)، سپس از آن زبانه تنظیمات HTTPS Everywhere را باز کنید و روی دکمه &quot;روی این سایت غیرفعال شود&quot; نشان داده شده در بالا کلیک کنید تا آن سایت مورد استثنا قرار گیرد.</p>

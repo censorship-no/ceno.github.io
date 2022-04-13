@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="my" class="light">
+<html lang="my" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -170,8 +170,7 @@
 </ol>
 <p>ထိုပြင်ဆင်မှုသည် သင့်အတွက် ရွေးချယ်စရာတစ်ခုမဟုတ်ပါက လက်မလျှော့ပါနဲ့ဦး။ အကယ်၍ သင့်မှာ ကွန်ပျူတာနှင့် အင်တာနက်ချိတ်ဆက်မှု ကောင်းမွန်စွာလည်းရှိနေပါက ကျေးဇူးပြုပြီး ဆက်လက်ဖတ်ရှုပေးပါ။</p>
 <h2 id="ကွနပျူတာပေါတွင-ပေါငးကူးကို-လုပဆောငခြငး"><a class="header" href="#ကွနပျူတာပေါတွင-ပေါငးကူးကို-လုပဆောငခြငး">ကွန်ပျူတာပေါ်တွင် ပေါင်းကူးကို လုပ်ဆောင်ခြင်း</a></h2>
-<p>အကယ်၍ သင့်ကွန်ပျူတာသည် <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker ကွန်တိန်နာ</a> ကို ထောက်ပံ့ပေးနိုင်ပါက
-သင်သည် ကြိုတင်ပြင်ဆင်ထားသော CENO client ကို ပေါင်းကူးအနေဖြင့် သုံးနိုင်ပါတယ်။ Docker ကို မထည့်ရသေးပါက <a href="https://docs.docker.com/engine/install/">Docker Engine ကို ထည့်သွင်းရန်</a> တွင် ပါဝင်သော ညွှန်ကြားချက်များကို လိုက်နာပြီး သင့်စက်တွင် ထည့်သွင်းနိုင်ပါတယ်။ Ubuntu သို့မဟုတ် Linux Mint ကဲ့သို့ Debian အမျိုးအစားများအတွက် <code>sudo apt install docker.io</code> ညွှန်ကြားချက်ကို ရိုက်ထည့်လိုက်ရုံဖြင့် ထည့်သွင်းနိုင်ပါတယ်။</p>
+<p>အကယ်၍ သင့်ကွန်ပျူတာသည် <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker ကွန်တိန်နာ</a> ကို ထောက်ပံ့ပေးနိုင်ပါက သင်သည် ကြိုတင်ပြင်ဆင်ထားသော CENO client ကို ပေါင်းကူးအနေဖြင့် သုံးနိုင်ပါတယ်။ Docker ကို မထည့်ရသေးပါက <a href="https://docs.docker.com/engine/install/">Docker Engine ကို ထည့်သွင်းရန်</a> တွင် ပါဝင်သော ညွှန်ကြားချက်များကို လိုက်နာပြီး သင့်စက်တွင် ထည့်သွင်းနိုင်ပါတယ်။ Ubuntu သို့မဟုတ် Linux Mint ကဲ့သို့ Debian အမျိုးအစားများအတွက် <code>sudo apt install docker.io</code> ညွှန်ကြားချက်ကို ရိုက်ထည့်လိုက်ရုံဖြင့် ထည့်သွင်းနိုင်ပါတယ်။</p>
 <p>CENO client ကွန်တိန်နာကို ထိထိရောက်ရောက်အသုံးချနိုင်ဖို့အတွက် သင့်အနေဖြင့် terminal တွင် ညွှန်ကြားချက်တစ်ခုကို ရိုက်ထည့်လိုက်ဖို့ပဲ လိုအပ်ပါတယ်။ (ထိုအရာက အနည်းငယ် ထိတ်လန့်စရာကောင်းတယ်လို့ ထင်ရသော်လည်း ညွှန်ကြားချက်စာကို ကူးယူပြီး command line တွင် ရိုက်ထည့်ဖို့ပဲလိုအပ်ပါတယ်။) -</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -183,8 +182,7 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>ညွှန်ကြားချက်သည် <code>ceno-client</code> နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက်
-သင့်အနေဖြင့် ရပ်မည့်အကြောင်းအတိအလင်းမပြောမချင်း အချိန်တိုင်းမှာ အလုပ်လုပ်နေပါလိမ့်မည်။ ကွန်တိန်နာကို ကိုင်တွယ်ထိန်းချုပ်ရန်အတွက် အချက်အလက်များကိုထပ်မံသိလိုပါက <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker အသုံးပြုသူ စာရွက်စာတမ်း</a> တွင် ကျေးဇူးပြုပြီး ဝင်ရောက်လေ့လာပါ။</p>
+<p>ညွှန်ကြားချက်သည် <code>ceno-client</code> နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက် သင့်အနေဖြင့် ရပ်မည့်အကြောင်းအတိအလင်းမပြောမချင်း အချိန်တိုင်းမှာ အလုပ်လုပ်နေပါလိမ့်မည်။ ကွန်တိန်နာကို ကိုင်တွယ်ထိန်းချုပ်ရန်အတွက် အချက်အလက်များကိုထပ်မံသိလိုပါက <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker အသုံးပြုသူ စာရွက်စာတမ်း</a> တွင် ကျေးဇူးပြုပြီး ဝင်ရောက်လေ့လာပါ။</p>
 <blockquote>
 <p><strong>မှတ်ချက်</strong> ယခုအသုံးပြုသူတွင် <em>CENO ဆက်တင်များ</em> မရှိပါ - စာမျက်နှာကို ဝင်ရောက်ရန် အောက်တွင် ညွှန်ကြားထားသောအခါ ထိုစာမျက်နှာအစား တူညီတဲ့အချက်အလက်တွေပဲ များသောအားဖြင့် ပါဝင်တဲ့ <a href="../client/front-end.html">အသုံးပြုသူ စာမျက်နှာ</a>ကို ဖွင့်ပါ။</p>
 </blockquote>
@@ -195,37 +193,40 @@
 </blockquote>
 <p>ယခင်ပုံတွင် ပြထားသကဲ့သို့ အခြေအနေသည် သင့် WiFi ရောက်တာတွင် UPnP ကို ဖွင့်မထားကြောင်း ညွှန်ပြသည်။</p>
 <blockquote>
-<p><strong>UPnP အခြေအနေ</strong></p>
-</blockquote>
-<pre><code>inactive
-</code></pre>
-<blockquote>
 <p><strong>ရောက်ရှိနိုင်မှု အခြေအနေ</strong></p>
 </blockquote>
 <pre><code>undecided
+</code></pre>
+<blockquote>
+<p><strong>UPnP အခြေအနေ</strong></p>
+</blockquote>
+<pre><code>disabled / inactive
 </code></pre>
 <p>အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နိုင်ခြေရှိပြီး CENO က လက်ရှိတွင် ချိတ်ဆက်နိုင်မှုကို မှန်ကန်ကြောင်း စစ်ဆေးနေသည်ဟု ညွှန်ပြသည် -</p>
 <blockquote>
-<p><strong>UPnP အခြေအနေ</strong></p>
-</blockquote>
-<pre><code>enabled
-</code></pre>
-<blockquote>
 <p><strong>ရောက်ရှိနိုင်မှု အခြေအနေ</strong></p>
 </blockquote>
 <pre><code>undecided
 </code></pre>
-<p>အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နေပြီး သင်သည် အခြား CENO သုံးစွဲသူများအတွက် ချိတ်ဆက်မှုများကို ပေါင်းကူးနိုင်ကြောင်း ညွှန်ပြသည် -</p>
 <blockquote>
 <p><strong>UPnP အခြေအနေ</strong></p>
 </blockquote>
 <pre><code>enabled
 </code></pre>
+<p>အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နေပြီး သင်သည် အခြား CENO သုံးစွဲသူများအတွက် ချိတ်ဆက်မှုများကို ပေါင်းကူးနိုင်ကြောင်း ညွှန်ပြသည် -</p>
 <blockquote>
 <p><strong>ရောက်ရှိနိုင်မှု အခြေအနေ</strong></p>
 </blockquote>
 <pre><code>likely reachable / reachable
 </code></pre>
+<blockquote>
+<p><strong>UPnP အခြေအနေ</strong></p>
+</blockquote>
+<pre><code>enabled
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Even if UPnP is working, your router may still not be reachable from the outside. This can be the case when <em>CENO Settings</em> reports <em>External UDP endpoints</em> which look like <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> addresses <code>100.X.Y.Z:N</code> with X between 64 and 127 (increasingly common among home ISPs), or like private addresses <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> with X between 16 and 31, and <code>192.168.X.Y:N</code>. If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.</p>
+</blockquote>
 <p>ဈေးကွက်တွင် Wi-Fi ရောက်တာများစွာ ရှိပြီး တစ်ခုစီတွင် ၎င်းတို့၏ တိကျသော ကိုယ်ပိုင် လုပ်ဆောင်ချက်များ ရှိသည်။ ဤသည်တို့မှာ UPnP ဖွင့်ရန်အတွက် ထုတ်လုပ်သူအချို့၏ လမ်းညွှန်ချက် စာရင်း ဖြစ်သည်-</p>
 <ul>
 <li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
@@ -233,6 +234,8 @@
 <li><a href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
 <li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
 <li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+<li><a href="https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router">Netgear</a></li>
+<li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="upnp-အစား-ပေါတ-တစဆငပိုခြငးကို-အသုံးပြုခြငး"><a class="header" href="#upnp-အစား-ပေါတ-တစဆငပိုခြငးကို-အသုံးပြုခြငး">UPnP အစား ပေါ့တ် တစ်ဆင့်ပို့ခြင်းကို အသုံးပြုခြင်း</a></h2>
 <p>သင့်ရောက်တာတွင် UPnP ကို ဖွင့်မည့်အစား သင်သည် CENO ကွန်ရက်မှ ချိတ်ဆက်မှုများကို သင့်စက်သို့ တစ်ဆင့်ပို့ကြောင်း သေချာစေရန် ပေါ့တ်တစ်ဆင့်ပို့ခြင်း စည်းကမ်းတစ်ခုကို သတ်မှတ်နိုင်သည်။ သင်သည် ရောက်တာ၏ စီမံခန့်ခွဲမှု ကြားခံစနစ်သို့ ဝင်ရောက်ပြီး <em>ပေါ့တ်တစ်ဆင့်ပို့ခြင်း</em> ရွေးချယ်စရာကို ရှာဖွေရန် လိုအပ်ပါမည်။ သင် ချိတ်ဆက်မှုများ တစ်ဆင့်ပို့ရန် လိုအပ်သည့် IP လိပ်စာကို ကြည့်ရန် <em>CENO ဆက်တင်များ</em> စာမျက်နှာကို ဖွင့်ပြီး <em>ဒေသတွင်း UDP အဆုံးမှတ်(များ)</em> အောက်တွင် ကြည့်ပါ။</p>
