@@ -3,70 +3,70 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-11 13:05-0700\n"
-"PO-Revision-Date: 2022-03-30 19:11+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
-"indexhtml/tr/>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2022-04-04 21:08+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
+"indexhtml/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "en"
+msgstr "id"
 
 #: about.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - How It Works"
-msgstr "Censorship.no! -Nasıl Çalışır"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
-msgstr "Nasıl Çalışır"
+msgstr "Cara Kerjanya"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "User Manual"
-msgstr "Kullanıcı Kılavuzu"
+msgstr "Panduan Pengguna"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Get Involved!"
-msgstr "Katılın!"
+msgstr "Ikut terlibat!"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Install CENO"
 
 #: about.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Get CENO Browser"
-msgstr "CENO Tarayıcı indirin"
+msgstr "Install Browser CENO"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:97-1
 msgid "EN"
-msgstr "EN"
+msgstr "ID"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
 #: about.html%2Bhtml.body.nav.div.div.div.div:103-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
-"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
-"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
-"\"../uk/about.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
+"uk/about.html\">Українська</a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.main.div.h1:124-6
 msgid "How CENO Browser Works"
-msgstr "CENO Tarayıcı Nasıl Çalışır"
+msgstr ""
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:128-13
 msgid ""
@@ -90,8 +90,6 @@ msgstr ""
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
-"CENO, heryerde web içeriğini muhafaza eden ve paylaşan bir mobil web "
-"tarayıcısıdır."
 
 #: about.html%2Bhtml.body.main.div.div.div.img[alt]:140-16
 msgid ""
@@ -146,13 +144,13 @@ msgstr ""
 #: about.html%2Bhtml.body.main.div.div:175-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
 "the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
 "blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
-"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
-"button></a>"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll\""
+"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.footer.div.p:194-9
@@ -160,14 +158,16 @@ msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
 "privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
-"\">values</a> that guide us to protect the rights and aspirations of "
-"everyone online."
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
+">values</a> that guide us to protect the rights and aspirations of everyone "
+"online."
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:196-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
