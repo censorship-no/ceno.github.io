@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"PO-Revision-Date: 2022-04-04 21:08+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
+"indexhtml/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: about.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr "id"
+
+#: about.html%2Bhtml.head.title:24-5
+msgid "Censorship.no! - How It Works"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
+msgid "How It Works"
+msgstr "Cara Kerjanya"
+
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "User Manual"
+msgstr "Panduan Pengguna"
+
+#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
+msgid "Get Involved!"
+msgstr "Ikut terlibat!"
+
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+msgid "Get CENO"
+msgstr "Install CENO"
+
+#: about.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Get CENO Browser"
+msgstr "Install Browser CENO"
+
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: about.html%2Bhtml.body.nav.div.div.div:97-1
+msgid "EN"
+msgstr "ID"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
+#: about.html%2Bhtml.body.nav.div.div.div.div:103-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
+"uk/about.html\">Українська</a>"
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.h1:124-6
+msgid "How CENO Browser Works"
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:128-13
+msgid ""
+"﻿Most web traffic in countries that filter internet is routed through "
+"centralized exchanges."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:131-16
+msgid ""
+"﻿This design gives the censor an advantage in locating and blocking popular "
+"proxies, VPN servers, relays, etc;"
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:134-16
+msgid ""
+"﻿In these cases, reaching origin web servers is difficult or impossible, and "
+"your device will not be able to get that content."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:137-16
+msgid ""
+"CENO is a mobile web browser for storing and sharing web content anywhere."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:140-16
+msgid ""
+"﻿CENO users create small-world networks to connect to each other, and "
+"thereafter to a bridge outside the censored zone."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.div.img[alt]:143-16
+msgid ""
+"﻿Once a website is accessed by a single CENO user, it is stored and shared "
+"inside the country peer-to-peer."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.p:148-5
+msgid ""
+"The majority of internationally-bound traffic in countries that filter "
+"content requests are routed through a fixed number of centralized exchanges "
+"where surveillance and censorship technology is installed. Traditional "
+"circumvention technologies require the user to connect directly to a proxy "
+"in the uncensored zone. This design gives the censor an advantage in "
+"locating and blocking popular proxies, VPN servers, relays, bridges, etc."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.p:156-5
+msgid ""
+"CENO proposes a fundamentally different solution: reduce the requests to "
+"externally available proxy servers and enable the storage of retrieved "
+"content inside the censored zone. CENOs advantage comes from being both a "
+"transport and a storage solution."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.p:163-5
+msgid ""
+"Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario "
+"that most circumvention providers end up playing with the censor. Clients "
+"need not know the location of a proxy to relay censored content, instead "
+"using small-world networks to connect to their peers, and thereafter to a "
+"bridge in the uncensored zone."
+msgstr ""
+
+#: about.html%2Bhtml.body.main.div.div.p:168-5
+msgid ""
+"Once a website is accessed by a single user (node), it is stored and "
+"continues to propagate inside the country peer-to-peer. Individual nodes are "
+"referenced by an identifier which does not give away their physical "
+"location. Content remains available inside the censored zone even if "
+"external connectivity is cut. Content can be seeded into the network via "
+"alternative means as well (e.g. uploaded from a USB drive)."
+msgstr ""
+
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.main.div.div:175-1
+msgid ""
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
+"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll\""
+"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
+msgstr ""
+
+#: about.html%2Bhtml.body.footer.div.p:194-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a Canadian company developing open and reusable systems with a focus on "
+"privacy, online security and freedom of association. Technology solutions "
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/\""
+">values</a> that guide us to protect the rights and aspirations of everyone "
+"online."
+msgstr ""
+
+#.  TRANSLATORS: Please do not translate this. 
+#: about.html%2Bhtml.body.footer:196-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
