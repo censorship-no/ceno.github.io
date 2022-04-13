@@ -41,9 +41,6 @@ msgid "Get CENO"
 msgstr "Αποκτήστε το CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:95-10"
-#| msgid "Get CENO Browser"
 msgctxt "download.html+html.body.nav.div.div.div:95-10"
 msgid "Get CENO Browser"
 msgstr "Λήψη CENO Browser"
@@ -128,7 +125,6 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:156-3
 #, fuzzy
-#| msgid "CENO Browser 1.3.0"
 msgid "CENO Browser 1.4.0"
 msgstr "Φυλλομετρητής CENO 1.3.0"
 
@@ -163,13 +159,6 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
 #, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v1.3.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v1.3.0/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-#| "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F "
-#| "C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v1.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -211,9 +200,27 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:156-3
+msgid "CENO Browser 1.3.0"
+msgstr "Φυλλομετρητής CENO 1.3.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.3.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.3.0/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
+msgstr ""
+"Μπορείτε να επαληθεύσετε τις <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v1.3.0/sha256sums.txt.asc\">υπογραφές</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.3.0/sha256sums.txt\">του αρχείου "
+"επιβεβαίωσης</a> με το <a href=\"https://ceno-download.s3.amazonaws.com/keys/"
+"cenoers.asc\">κλειδί PGP</a> (με το αναγνωριστικό <code>51BE 600C 2711 926C "
+"865D F93F C7DC C123 F0DD B862</code>)."
+
 #, fuzzy
-#~| msgctxt "download.html+html.body.nav.div.div.div:95-10"
-#~| msgid "Get CENO Browser"
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:133-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Λήψη CENO Browser"
