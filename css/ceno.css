@@ -4,7 +4,7 @@
 body {
     font-family: Inter, sans-serif;
     font-size: 1.08em;
-    background-color: #f4f4f3;
+    background-color: #F0F9FF;
     min-height: 75rem;
     padding-top: 4.5rem;
 }
@@ -12,7 +12,7 @@ body {
 h1 {
     font-family: Metropolis, sans-serif;
     font-size: 2.5em;
-    color: #e53323;
+    color: #0369A1;
     margin-bottom: 20px;
 }
 
@@ -24,22 +24,22 @@ h2 {
 
 hr {
     border-width: 6px 0 0;
-    border-color: #E43624;
+    border-color: #0C4A6E;
     border-style: solid none none;
     margin: 30px 0 10px;
     opacity: 100;
 }
 
 a {
-    color: #E43624;
+    color: #0EA5E9;
 }
 
 a:visited {
-    color: #e43624;
+    color: #EA580C;
 }
 
 a:hover {
-    color: #4c4a4a;
+    color: #0C4A6E;
 }
 
 a, a:visited, a:hover {
@@ -68,12 +68,12 @@ div.row {
 }
 
 .section > h2 {
-    -margin-top: 40px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
 .btn-outline-danger {
-    border-color: #ef412e;
+    border-color: #0369A1;
     font-size:1em;
 }
 
