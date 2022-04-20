@@ -2,7 +2,7 @@
 @import 'all.css';  /* Font Awesome */
 
 body {
-    font-family: Lato, sans-serif !important;
+    font-family: Inter, sans-serif;
     font-size: 1.08em;
     background-color: #f4f4f3;
     min-height: 75rem;
@@ -10,12 +10,14 @@ body {
 }
 
 h1 {
+    font-family: Metropolis, sans-serif;
     font-size: 2.5em;
     color: #e53323;
     margin-bottom: 20px;
 }
 
 h2 {
+    font-family: Metropolis, sans-serif;
     font-size: 1.4em;
     font-weight: bold;
 }
@@ -45,6 +47,7 @@ a, a:visited, a:hover {
 }
 
 p {
+    font-family: Inter, sans-serif; 
     font-size: 1.08em;
 }
 
