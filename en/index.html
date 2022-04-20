@@ -69,17 +69,17 @@
 <img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />
 <!-- End Matomo -->
 
-<nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
-    <div class="container">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
+	<div class="container">
 	<!--div class="navbar-header"-->
-        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="../img/logo_color.png"></a>
+        	<a class="navbar-brand" href="index.html"><img style="width:150px" id="CENOLogo" src="../img/logo_color.png"></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CENOnav">
 		<span class="navbar-toggler-icon"></span>
 		</button>
 	<!--/div--> <!-- end navbar header-->
 	  
-        <div class="collapse navbar-collapse" id="CENOnav">
-            <ul class="navbar-nav mx-auto me-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="CENOnav">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="about.html"><span class="fas fa-wrench"></span> How It Works</a>
                 </li>
@@ -92,7 +92,7 @@
                     <a class="nav-link" href="help.html"><span class="fas fa-hands-helping"></span> Get Involved</a>
                 </li>
          </ul> 
-         <div><a class="btn btn-danger navbar-button" href="download.html" role="button" title="Download CENO">Download</a></div>
+         <div><a class="btn btn-danger" href="download.html" role="button" title="Download CENO">Download</a></div>
 
 <div class="navbar-item has-dropdown is-hoverable">
 <a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector">
@@ -148,24 +148,37 @@
   </section> <!-- end section 2 -->
 
   <section>
-    <div class="container" style="align-content:center; justify-content;">
-	<!--div class="card border-0"-->
-      <div class="row homepage">
-          <div class="col-lg-4 order-first">
+    <div class="container">
+	<!--div class="card border"-->
+      <div class="row">
+          <div class="col-lg-4 bg-light border">
+		<div class="card">
+		<div class="card-body">
             <img src="../img/web_unlock.png" alt="Browse Freely"><br>
-              <h3 class="card-title text-danger">Unlock the Web</h3>
+              <h3 class="card-title">Unlock the Web</h3>
               <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
+	      </div>
             </div>
-          <div class="col-lg-4">
+	  </div>
+          <div class="col-lg-4 bg-light border">
+             <div class="card">
+                <div class="card-body">
             <img src="../img/bridge-icon.png" alt="Grow the network - Become a bridge!">
-              <h3 class="card-title text-danger">Grow the Network, Fight Censorship</h3>
+              <h3 class="card-title">Grow the Network</h3>
               <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
-          </div> <!-- end card 2 -->
-         <div class="col-lg-4">
+	    </div>
+          </div>
+         </div> <!-- end card 2 -->
+          <div class="col-lg-4 bg-light border">
+             <div class="card">
+                <div class="card-body">
             <img src="../img/opensourcery.png" style="text-align:center;" alt="Free and Open Source">
-              <h3 class="card-title text-danger">Free and Open Source</h3>
+              <h3 class="card-title">Free and Open Source</h3>
               <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
+	   </div>
+          </div>
          </div> <!-- end card 3 -->
+      </div> <!-- end row -->
     </div> <!-- end container -->
    </div>
 </section>

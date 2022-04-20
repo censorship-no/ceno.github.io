@@ -18,24 +18,31 @@ h1 {
 
 h2 {
     font-family: Metropolis, sans-serif;
+    color: #0369A1;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Metropolis, sans-serif;
     font-size: 1.4em;
+    color: #0369A1;
     font-weight: bold;
 }
 
 hr {
     border-width: 6px 0 0;
-    border-color: #0C4A6E;
+    border-color: #0369A1;
     border-style: solid none none;
     margin: 30px 0 10px;
     opacity: 100;
 }
 
 a {
-    color: #0EA5E9;
+    color: #0284C7;
 }
 
 a:visited {
-    color: #EA580C;
+    color: #0284C7;
 }
 
 a:hover {
@@ -59,17 +66,27 @@ img#equalitieLogo {
 
 
 div.row {
-    margin: 0 !important;
+    margin: 20 !important;
 }
 
 .section {
-    -margin-top: 40px;
+    margin-top: 40px;
     -margin-bottom: 20px;
 }
 
 .section > h2 {
     margin-top: 40px;
     margin-bottom: 30px;
+}
+
+.icons i,
+.icons svg {
+   color: #0369A1;
+}
+
+.btn-danger {
+    background-color: #0369A1;
+    font-size:1em;
 }
 
 .btn-outline-danger {
