@@ -11,10 +11,10 @@ body {
 
 h1 {
     font-family: Metropolis, sans-serif;
-    font-size: 2.5em;
+    font-size: 2.6em;
     color: #0369A1;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 30px;
+    font-weight: 500;
 }
 
 h2 {
@@ -54,6 +54,10 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+#language-selector {
+    color: #0369A1;
+}
+
 p {
     font-family: Inter, sans-serif; 
     font-size: 1.08em;
@@ -86,7 +90,7 @@ div.row {
 }
 
 .btn-danger {
-    background-color: #0369A1;
+    color: #0369A1;
     font-size:1em;
 }
 
@@ -95,8 +99,9 @@ div.row {
     font-size:1em;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
+.navbar-light .navbar-nav .nav-link {
+    background-color: white;
+    color: #0369A1;
 }
 
 
