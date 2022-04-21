@@ -57,6 +57,7 @@ a, a:visited, a:hover {
 
 #language-selector {
     color: #0369A1;
+    padding-left: 1rem;
 }
 
 p {
@@ -100,11 +101,15 @@ div.row {
     font-size:1em;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {    
     background-color: white;
     color: #0369A1;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .75rem;
+    padding-left: .75rem;
+}
 
 [dir=ltr] .fa-pull-start {
     float: left;
