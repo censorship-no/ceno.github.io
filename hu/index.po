@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"POT-Creation-Date: 2022-04-22 16:36-0700\n"
 "PO-Revision-Date: 2021-07-30 09:27+0000\n"
 "Last-Translator: Viktor Varga <viktor.varga@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,20 +14,153 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
-#~ msgid "How It Works"
-#~ msgstr "Hogyan működik"
+#: index.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr ""
 
-#~ msgid "User Manual"
-#~ msgstr "Felhasználói kézikönyv"
+#: index.html%2Bhtml.head.title:24-5
+msgid "Censorship.no! - Browse Freely"
+msgstr ""
 
-#~ msgid "Get Involved!"
-#~ msgstr "Vegyél részt!"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:83-17
+msgid "How It Works"
+msgstr "Hogyan működik"
+
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "User Manual"
+msgstr "Felhasználói kézikönyv"
+
+#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
+msgstr "Vegyél részt!"
+
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+msgid "Download CENO"
+msgstr ""
+
+#: index.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Download"
+msgstr ""
+
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: index.html%2Bhtml.body.nav.div.div.div:97-1
+msgid "EN"
+msgstr "HU"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
+#: index.html%2Bhtml.body.nav.div.div.div.div:103-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:128-14
+#, fuzzy
+#| msgid "Get CENO Browser"
+msgid "CENO Browser banner"
+msgstr "CENO Böngésző beszerzése"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:134-7
+msgid "Share retrieved content, peer to peer"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:135-3
+msgid ""
+"CENO (short for Censorship.no!) is a mobile Web browser using a novel "
+"approach to circumvent Internet censorship infrastructure, allowing users "
+"living in a censored zone to share retrieved content with each other, peer "
+"to peer."
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:138-15
+msgid "Get it on Google Play"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:141-17
+msgid "Get it on Paskoocheh"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:144-17
+msgid "Get it on Github"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:159-13
+msgid "Browse Freely"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:160-15
+msgid "Unlock the Web"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:161-15
+msgid ""
+"Access web content through a network of cooperating peers - even when the "
+"internet is down or censored. Install CENO Browser today and be prepared for "
+"the next time you get 🔌 unplugged."
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:168-13
+msgid "Grow the network - Become a bridge!"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:169-15
+msgid "Grow the Network"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:170-15
+msgid ""
+"Fight censorship by becoming a bridge! Install and run CENO Browser to "
+"instantly join the network and expand the availability of blocked websites "
+"to those in censored countries."
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-13
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:177-13"
+msgid "Free and Open Source"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:178-15"
+msgid "Free and Open Source"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
+msgid ""
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
+"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"developers to incorporate the CENO network into their apps for P2P "
+"connectivity."
+msgstr ""
+
+#: index.html%2Bhtml.body.footer.div.p:199-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a Canadian company developing open and reusable systems with a focus on "
+"privacy, online security and freedom of association. Technology solutions "
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+
+#.  TRANSLATORS: Please do not translate this. 
+#: index.html%2Bhtml.body.footer:201-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
 
 #~ msgid "Get CENO"
 #~ msgstr "CENO beszerzése"
-
-#~ msgid "Get CENO Browser"
-#~ msgstr "CENO Böngésző beszerzése"
-
-#~ msgid "EN"
-#~ msgstr "HU"

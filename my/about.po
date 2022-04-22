@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"POT-Creation-Date: 2022-04-22 16:36-0700\n"
 "PO-Revision-Date: 2022-02-09 14:18+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,92 +14,245 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.11-dev\n"
 
-#~ msgid "en"
-#~ msgstr "my"
+#: about.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr "my"
 
-#~ msgid "Censorship.no! - How It Works"
-#~ msgstr "Censorship.no! - အလုပ်လုပ်ပုံ"
+#: about.html%2Bhtml.head.title:24-5
+msgid "Censorship.no! - How It Works"
+msgstr "Censorship.no! - အလုပ်လုပ်ပုံ"
 
-#~ msgid "How It Works"
-#~ msgstr "အလုပ်လုပ်ပုံ"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
+msgid "How It Works"
+msgstr "အလုပ်လုပ်ပုံ"
 
-#~ msgid "User Manual"
-#~ msgstr "သုံးစွဲသူ လက်စွဲ"
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "User Manual"
+msgstr "သုံးစွဲသူ လက်စွဲ"
 
-#~ msgid "Get Involved!"
-#~ msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
+msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
+
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+msgid "Download CENO"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Download"
+msgstr ""
+
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: about.html%2Bhtml.body.nav.div.div.div:97-1
+msgid "EN"
+msgstr "MY"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
+#: about.html%2Bhtml.body.nav.div.div.div.div:103-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/about.html\">Українська</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/about.html\">Українська</a>"
+
+#: about.html%2Bhtml.body.main.div.h1:124-6
+msgid "How CENO Browser Works"
+msgstr "CENO ဘရောက်ဇာ အလုပ်လုပ်ပုံ"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:131-13
+msgid ""
+"﻿Most web traffic in countries that filter internet is routed through "
+"centralized exchanges."
+msgstr ""
+"အင်တာနက်ကို စစ်ထုတ်သော နိုင်ငံများရှိ ဝက်ဘ်ဆိုက် ဝင်ကြည့်သူအများစုကို ဗဟိုကြားခံအဖွဲ့အစည်းများကို ဖြတ်၍ "
+"လမ်းကြောင်းဖွင့်ပေးသည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:132-15
+#, fuzzy
+#| msgid ""
+#| "﻿Most web traffic in countries that filter internet is routed through "
+#| "centralized exchanges."
+msgid ""
+"Most web traffic in countries that filter internet is routed through "
+"centralized exchanges, such as Google."
+msgstr ""
+"အင်တာနက်ကို စစ်ထုတ်သော နိုင်ငံများရှိ ဝက်ဘ်ဆိုက် ဝင်ကြည့်သူအများစုကို ဗဟိုကြားခံအဖွဲ့အစည်းများကို ဖြတ်၍ "
+"လမ်းကြောင်းဖွင့်ပေးသည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:139-15
+msgid ""
+"﻿This design gives the censor an advantage in locating and blocking popular "
+"proxies, VPN servers, relays, etc;"
+msgstr ""
+"ဤဒီဇိုင်းသည် လူကြိုက်များသော ပရောက်စီများ၊ VPN ဆာဗာများနှင့် ဖွင့်/ပိတ် ခလုတ်များ စသည်တို့ကို "
+"တည်နေရာရှာပြီး ပိတ်ဆို့ရာတွင် စိစစ်ရေးအဖွဲ့ဘက်မှ အားသာစေသည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-15
+#, fuzzy
+#| msgid ""
+#| "﻿This design gives the censor an advantage in locating and blocking "
+#| "popular proxies, VPN servers, relays, etc;"
+msgid ""
+"This design gives the censor an advantage in locating and blocking popular "
+"proxies, VPN servers, relays, etc;"
+msgstr ""
+"ဤဒီဇိုင်းသည် လူကြိုက်များသော ပရောက်စီများ၊ VPN ဆာဗာများနှင့် ဖွင့်/ပိတ် ခလုတ်များ စသည်တို့ကို "
+"တည်နေရာရှာပြီး ပိတ်ဆို့ရာတွင် စိစစ်ရေးအဖွဲ့ဘက်မှ အားသာစေသည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:147-16
+msgid ""
+"﻿In these cases, reaching origin web servers is difficult or impossible, and "
+"your device will not be able to get that content."
+msgstr ""
+"ဤအခြေအနေများတွင် မူလ ဝက်ဘ်ဆာဗာများသို့ ရောက်ရှိရန် ခက်ခဲသည် သို့မဟုတ် မဖြစ်နိုင်ပါ၊ ထို့ပြင် သင့်စက်သည် "
+"ထိုအကြောင်းအရာကို ရနိုင်မည် မဟုတ်ပါ။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-15
+#, fuzzy
+#| msgid ""
+#| "﻿In these cases, reaching origin web servers is difficult or impossible, "
+#| "and your device will not be able to get that content."
+msgid ""
+"In these cases, reaching origin web servers is difficult or impossible, and "
+"your device won't be able to get content."
+msgstr ""
+"ဤအခြေအနေများတွင် မူလ ဝက်ဘ်ဆာဗာများသို့ ရောက်ရှိရန် ခက်ခဲသည် သို့မဟုတ် မဖြစ်နိုင်ပါ၊ ထို့ပြင် သင့်စက်သည် "
+"ထိုအကြောင်းအရာကို ရနိုင်မည် မဟုတ်ပါ။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:155-16
+msgid ""
+"CENO is a mobile web browser for storing and sharing web content anywhere."
+msgstr ""
+"CENO သည် ဝက်ဘ် အကြောင်းအရာကို မည်သည့်နေရာတွင်မဆို သိုလှောင်ပြီး မျှဝေနိုင်သည့် မိုဘိုင်း ဝက်ဘ်ဘရောက်ဇာ ဖြစ်သည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-15
+#, fuzzy
+#| msgid ""
+#| "CENO is a mobile web browser for storing and sharing web content anywhere."
+msgid ""
+"CENO is a mobile web browser for storing and sharing web content anywhere, "
+"despite network availability."
+msgstr ""
+"CENO သည် ဝက်ဘ် အကြောင်းအရာကို မည်သည့်နေရာတွင်မဆို သိုလှောင်ပြီး မျှဝေနိုင်သည့် မိုဘိုင်း ဝက်ဘ်ဘရောက်ဇာ ဖြစ်သည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:163-16
+msgid ""
+"﻿CENO users create small-world networks to connect to each other, and "
+"thereafter to a bridge outside the censored zone."
+msgstr ""
+"CENO သုံးစွဲသူများသည် တစ်ဦးနှင့်တစ်ဦး ချိတ်ဆက်ရန် ကမ္ဘာငယ် ကွန်ရက်များကို ဖန်တီးပြီးနောက် "
+"ဆင်ဆာဖြတ်ထားသော ဇုန်ပြင်ပတွင် ပေါင်းကူးတစ်ခုနှင့် ချိတ်ဆက်သည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-15
+#, fuzzy
+#| msgid ""
+#| "﻿CENO users create small-world networks to connect to each other, and "
+#| "thereafter to a bridge outside the censored zone."
+msgid ""
+"CENO users create small-world networks to connect to each other, and then to "
+"a bridge outside a censored zone."
+msgstr ""
+"CENO သုံးစွဲသူများသည် တစ်ဦးနှင့်တစ်ဦး ချိတ်ဆက်ရန် ကမ္ဘာငယ် ကွန်ရက်များကို ဖန်တီးပြီးနောက် "
+"ဆင်ဆာဖြတ်ထားသော ဇုန်ပြင်ပတွင် ပေါင်းကူးတစ်ခုနှင့် ချိတ်ဆက်သည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.img[alt]:171-16
+msgid ""
+"﻿Once a website is accessed by a single CENO user, it is stored and shared "
+"inside the country peer-to-peer."
+msgstr ""
+"ဝက်ဘ်ဆိုက်တစ်ခုကို CENO သုံးစွဲသူတစ်ဦးက ဝင်ရောက်သုံးစွဲသည်နှင့် ၎င်းကို သိုလှောင်ပြီး နိုင်ငံတွင်း တစ်ဦးနှင့်တစ်ဦးကြား "
+"မျှဝေသည်။"
+
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-15
+#, fuzzy
+#| msgid ""
+#| "﻿Once a website is accessed by a single CENO user, it is stored and shared "
+#| "inside the country peer-to-peer."
+msgid ""
+"Once a website is accessed by a single CENO user, it is stored and shared "
+"inside the country peer-to-peer."
+msgstr ""
+"ဝက်ဘ်ဆိုက်တစ်ခုကို CENO သုံးစွဲသူတစ်ဦးက ဝင်ရောက်သုံးစွဲသည်နှင့် ၎င်းကို သိုလှောင်ပြီး နိုင်ငံတွင်း တစ်ဦးနှင့်တစ်ဦးကြား "
+"မျှဝေသည်။"
+
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.main.div.div:180-1
+#, fuzzy
+#| msgid ""
+#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+#| "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+#| "\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+#| "the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
+#| "ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+#| "btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+#| "scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
+#| "whitepaper.</button></a>"
+msgid ""
+"<a href=\"../user-manual/en/\" class=\"btn is-large\" type=\"button\" style="
+"\"font-size: 1.5rem; text-align: center; color: #EA580C;\"><span class=\"fas "
+"fa-book\"></span> Learn more in the User Manual!</a> <a href=\"https://"
+"github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\" "
+"class=\"btn\" style=\"font-size: 1.5rem; color: #EA580C;\" type=\"button"
+"\"><span class=\"fas fa-scroll\"></span> For a more in-depth, technical "
+"guide, see the Ouinet whitepaper.</a>"
+msgstr ""
+"<a href=\"../user-manual/my/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> သုံးစွဲသူ လက်စွဲတွင် "
+"နောက်ထပ် လေ့လာပါ။</button></a><a href=\"https://github.com/equalitie/ouinet/"
+"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
+"\"></span> ပိုမိုအသေးစိတ်သော နည်းပညာဆိုင်ရာ လမ်းညွှန်အတွက် Ouinet စက္ကူဖြူစာတမ်းကို ကြည့်ပါ။</"
+"button></a>"
+
+#: about.html%2Bhtml.body.footer.div.p:199-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a Canadian company developing open and reusable systems with a focus on "
+"privacy, online security and freedom of association. Technology solutions "
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+"CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် "
+"နည်းစနစ်များ စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https://equalit."
+"ie\">eQualit.ie</a>အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ ကျွန်ပ်တို့၏ အားလုံးအတွက် အွန်လိုင်းတွင် "
+"ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် ဆိုသော<a href=\"https://equalit.ie/en/values/"
+"\">တန်ဖိုးများ</a>က နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း ဖြစ်ပါသည်။"
+
+#.  TRANSLATORS: Please do not translate this. 
+#: about.html%2Bhtml.body.footer:201-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "Get CENO"
 #~ msgstr "CENO ကို ရယူမည်"
 
 #~ msgid "Get CENO Browser"
 #~ msgstr "CENO ဘရောက်ဇာ ကို ရယူမည်"
-
-#~ msgid "EN"
-#~ msgstr "MY"
-
-#~ msgid ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/about.html\">Українська</a>"
-#~ msgstr ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/about.html\">Українська</a>"
-
-#~ msgid "How CENO Browser Works"
-#~ msgstr "CENO ဘရောက်ဇာ အလုပ်လုပ်ပုံ"
-
-#~ msgid ""
-#~ "﻿Most web traffic in countries that filter internet is routed through "
-#~ "centralized exchanges."
-#~ msgstr ""
-#~ "အင်တာနက်ကို စစ်ထုတ်သော နိုင်ငံများရှိ ဝက်ဘ်ဆိုက် ဝင်ကြည့်သူအများစုကို ဗဟိုကြားခံအဖွဲ့အစည်းများကို ဖြတ်၍ "
-#~ "လမ်းကြောင်းဖွင့်ပေးသည်။"
-
-#~ msgid ""
-#~ "﻿This design gives the censor an advantage in locating and blocking "
-#~ "popular proxies, VPN servers, relays, etc;"
-#~ msgstr ""
-#~ "ဤဒီဇိုင်းသည် လူကြိုက်များသော ပရောက်စီများ၊ VPN ဆာဗာများနှင့် ဖွင့်/ပိတ် ခလုတ်များ စသည်တို့ကို "
-#~ "တည်နေရာရှာပြီး ပိတ်ဆို့ရာတွင် စိစစ်ရေးအဖွဲ့ဘက်မှ အားသာစေသည်။"
-
-#~ msgid ""
-#~ "﻿In these cases, reaching origin web servers is difficult or impossible, "
-#~ "and your device will not be able to get that content."
-#~ msgstr ""
-#~ "ဤအခြေအနေများတွင် မူလ ဝက်ဘ်ဆာဗာများသို့ ရောက်ရှိရန် ခက်ခဲသည် သို့မဟုတ် မဖြစ်နိုင်ပါ၊ ထို့ပြင် သင့်စက်သည် "
-#~ "ထိုအကြောင်းအရာကို ရနိုင်မည် မဟုတ်ပါ။"
-
-#~ msgid ""
-#~ "CENO is a mobile web browser for storing and sharing web content anywhere."
-#~ msgstr ""
-#~ "CENO သည် ဝက်ဘ် အကြောင်းအရာကို မည်သည့်နေရာတွင်မဆို သိုလှောင်ပြီး မျှဝေနိုင်သည့် မိုဘိုင်း ဝက်ဘ်ဘရောက်ဇာ "
-#~ "ဖြစ်သည်။"
-
-#~ msgid ""
-#~ "﻿CENO users create small-world networks to connect to each other, and "
-#~ "thereafter to a bridge outside the censored zone."
-#~ msgstr ""
-#~ "CENO သုံးစွဲသူများသည် တစ်ဦးနှင့်တစ်ဦး ချိတ်ဆက်ရန် ကမ္ဘာငယ် ကွန်ရက်များကို ဖန်တီးပြီးနောက် "
-#~ "ဆင်ဆာဖြတ်ထားသော ဇုန်ပြင်ပတွင် ပေါင်းကူးတစ်ခုနှင့် ချိတ်ဆက်သည်။"
-
-#~ msgid ""
-#~ "﻿Once a website is accessed by a single CENO user, it is stored and shared "
-#~ "inside the country peer-to-peer."
-#~ msgstr ""
-#~ "ဝက်ဘ်ဆိုက်တစ်ခုကို CENO သုံးစွဲသူတစ်ဦးက ဝင်ရောက်သုံးစွဲသည်နှင့် ၎င်းကို သိုလှောင်ပြီး နိုင်ငံတွင်း "
-#~ "တစ်ဦးနှင့်တစ်ဦးကြား မျှဝေသည်။"
 
 #~ msgid ""
 #~ "The majority of internationally-bound traffic in countries that filter "
@@ -154,43 +307,3 @@ msgstr ""
 #~ "အမှတ်သင်္ကေတတစ်ခုဖြင့် ရည်ညွှန်းသည်။ ပြင်ပ ချိတ်ဆက်နိုင်မှု ဖြတ်တောက်ထားသည့်တိုင်အောင် ဆင်ဆာလုပ်ထားသော "
 #~ "ဇုန်အတွင်း အကြောင်းအရာကို ရရှိနိုင်သေးသည်။ အကြောင်းအရာကို ကွန်ရက်တွင်းသို့ အခြားနည်းလမ်းဖြင့်လည်း "
 #~ "တင်ပို့နိုင်သည် (ဥပမာ- USB ဒရိုက်မှ အပ်လုဒ်လုပ်နိုင်သည်)။"
-
-#~ msgid ""
-#~ "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-#~ "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-#~ "\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
-#~ "the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
-#~ "ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
-#~ "btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
-#~ "scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
-#~ "whitepaper.</button></a>"
-#~ msgstr ""
-#~ "<a href=\"../user-manual/my/\" style=\"text-align:center\"><button class="
-#~ "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-#~ "\"text-align: center;\"><span class=\"fas fa-book\"></span> သုံးစွဲသူ လက်စွဲတွင် "
-#~ "နောက်ထပ် လေ့လာပါ။</button></a><a href=\"https://github.com/equalitie/ouinet/"
-#~ "blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-#~ "outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
-#~ "\"></span> ပိုမိုအသေးစိတ်သော နည်းပညာဆိုင်ရာ လမ်းညွှန်အတွက် Ouinet စက္ကူဖြူစာတမ်းကို ကြည့်ပါ။</"
-#~ "button></a>"
-
-#~ msgid ""
-#~ "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#~ "a> – a Canadian company developing open and reusable systems with a focus "
-#~ "on privacy, online security and freedom of association. Technology "
-#~ "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#~ "en/values/\">values</a> that guide us to protect the rights and "
-#~ "aspirations of everyone online."
-#~ msgstr ""
-#~ "CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် "
-#~ "နည်းစနစ်များ စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https://"
-#~ "equalit.ie\">eQualit.ie</a>အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ ကျွန်ပ်တို့၏ အားလုံးအတွက် "
-#~ "အွန်လိုင်းတွင် ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် ဆိုသော<a href=\"https://equalit.ie/en/values/"
-#~ "\">တန်ဖိုးများ</a>က နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း ဖြစ်ပါသည်။"
-
-#~ msgid ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
-#~ msgstr ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"

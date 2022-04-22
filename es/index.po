@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"POT-Creation-Date: 2022-04-22 16:36-0700\n"
 "PO-Revision-Date: 2022-03-28 13:12+0000\n"
 "Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,20 +14,198 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-#~ msgid "en"
-#~ msgstr "es"
+#: index.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr "es"
 
-#~ msgid "Censorship.no! - Browse Freely"
-#~ msgstr "Censorship.no! - Navega Libremente"
+#: index.html%2Bhtml.head.title:24-5
+msgid "Censorship.no! - Browse Freely"
+msgstr "Censorship.no! - Navega Libremente"
 
-#~ msgid "How It Works"
-#~ msgstr "Cómo funciona"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:83-17
+msgid "How It Works"
+msgstr "Cómo funciona"
 
-#~ msgid "User Manual"
-#~ msgstr "Manual del usuario"
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "User Manual"
+msgstr "Manual del usuario"
 
-#~ msgid "Get Involved!"
-#~ msgstr "¡Involúcrate!"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
+msgstr "¡Involúcrate!"
+
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+msgid "Download CENO"
+msgstr ""
+
+#: index.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Download"
+msgstr ""
+
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: index.html%2Bhtml.body.nav.div.div.div:97-1
+msgid "EN"
+msgstr "ES"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
+#: index.html%2Bhtml.body.nav.div.div.div.div:103-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:128-14
+msgid "CENO Browser banner"
+msgstr "Anuncio del navegador CENO"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:134-7
+msgid "Share retrieved content, peer to peer"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:135-3
+msgid ""
+"CENO (short for Censorship.no!) is a mobile Web browser using a novel "
+"approach to circumvent Internet censorship infrastructure, allowing users "
+"living in a censored zone to share retrieved content with each other, peer "
+"to peer."
+msgstr ""
+"CENO (una abreviatura para Censorship.no!) es un navegador Web móvil que usa "
+"un enfoque novedoso para eludir la infraestructura de censura en Internet, "
+"permitiéndole a los usuarios que viven en una zona censurada compartir "
+"contenido descargado entre ellos, de par a par."
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:138-15
+msgid "Get it on Google Play"
+msgstr "Obtenlo en Google Play"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:141-17
+msgid "Get it on Paskoocheh"
+msgstr "Obtenlo en Paskoocheh"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:144-17
+msgid "Get it on Github"
+msgstr "Obtenlo en Github"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:159-13
+msgid "Browse Freely"
+msgstr "Navega libremente"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:160-15
+msgid "Unlock the Web"
+msgstr "Desbloquea la Web"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:161-15
+msgid ""
+"Access web content through a network of cooperating peers - even when the "
+"internet is down or censored. Install CENO Browser today and be prepared for "
+"the next time you get 🔌 unplugged."
+msgstr ""
+"Accede al contenido web a través de una red de pares cooperativos - aún "
+"cuando Internet esté caída o censurada. Instala al Navegador CENO hoy y "
+"prepárate para la próxima vez que estés 🔌 desconectado."
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:168-13
+msgid "Grow the network - Become a bridge!"
+msgstr "Haz crecer la red - ¡Conviértete en un puente!"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:169-15
+#, fuzzy
+#| msgid "Grow the Network, Fight Censorship"
+msgid "Grow the Network"
+msgstr "Haz crecer la red, lucha contra la Censura"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:170-15
+msgid ""
+"Fight censorship by becoming a bridge! Install and run CENO Browser to "
+"instantly join the network and expand the availability of blocked websites "
+"to those in censored countries."
+msgstr ""
+"¡Lucha contra la censura convirtiéndote en un puente! Instala y ejecuta el "
+"Navegador CENO para unirte instantáneamente a la red y expandir la "
+"disponibilidad de sitios web bloqueados para aquellos en países censurados."
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-13
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:177-13"
+msgid "Free and Open Source"
+msgstr "Código libre y abierto"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:178-15"
+msgid "Free and Open Source"
+msgstr "Código libre y abierto"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
+#, fuzzy
+#| msgid ""
+#| "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+#| "\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use "
+#| "of the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
+#| "library</a> - enabling third party developers to incorporate the CENO "
+#| "network into their apps for peer-to-peer connectivity."
+msgid ""
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
+"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"developers to incorporate the CENO network into their apps for P2P "
+"connectivity."
+msgstr ""
+"CENO está basado en <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox para Android</a> (conocido como Mozilla Fennec), extendido para "
+"hacer uso de la innovadora <a href=\"https://github.com/equalitie/ouinet"
+"\">biblioteca Ouinet</a> - habilitando a otros desarrolladores para "
+"incorporar la red CENO dentro de sus aplicaciones para conectividad de par a "
+"par."
+
+#: index.html%2Bhtml.body.footer.div.p:199-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a Canadian company developing open and reusable systems with a focus on "
+"privacy, online security and freedom of association. Technology solutions "
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+"El navegador CENO es un proyecto de <a href=\"https://equalit.ie\">eQualit."
+"ie</a> – una compañía canadiense que desarrolla sistemas abiertos y "
+"reutilizables con foco en la privacidad, seguridad en línea y libertad de "
+"asociación. Las soluciones tecnológicas e innovaciones están impulsadas por "
+"nuestros <a href=\"https://equalit.ie/en/values/\">valores</a>, que nos "
+"guían para proteger los derechos y aspiraciones en línea de todos."
+
+#.  TRANSLATORS: Please do not translate this. 
+#: index.html%2Bhtml.body.footer:201-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "Get CENO"
 #~ msgstr "Obtén CENO"
@@ -35,44 +213,8 @@ msgstr ""
 #~ msgid "Get CENO Browser"
 #~ msgstr "Obtén el Navegador CENO"
 
-#~ msgid "EN"
-#~ msgstr "ES"
-
-#~ msgid ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/index.html\">Українська</a>"
-#~ msgstr ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/index.html\">Українська</a>"
-
-#~ msgid "CENO Browser banner"
-#~ msgstr "Anuncio del navegador CENO"
-
 #~ msgid "Censorship.no!"
 #~ msgstr "Censorship.no!"
-
-#~ msgid ""
-#~ "CENO (short for Censorship.no!) is a mobile Web browser using a novel "
-#~ "approach to circumvent Internet censorship infrastructure, allowing users "
-#~ "living in a censored zone to share retrieved content with each other, "
-#~ "peer to peer."
-#~ msgstr ""
-#~ "CENO (una abreviatura para Censorship.no!) es un navegador Web móvil que "
-#~ "usa un enfoque novedoso para eludir la infraestructura de censura en "
-#~ "Internet, permitiéndole a los usuarios que viven en una zona censurada "
-#~ "compartir contenido descargado entre ellos, de par a par."
 
 #~ msgid ""
 #~ "Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
@@ -85,90 +227,9 @@ msgstr ""
 #~ "Derechos Humanos</a>, CENO presenta una nueva generación de posibilidades "
 #~ "para la elusión de la censura."
 
-#~ msgid "Get it on Google Play"
-#~ msgstr "Obtenlo en Google Play"
-
-#~ msgid "Get it on Paskoocheh"
-#~ msgstr "Obtenlo en Paskoocheh"
-
-#~ msgid "Get it on Github"
-#~ msgstr "Obtenlo en Github"
-
-#~ msgid "Browse Freely"
-#~ msgstr "Navega libremente"
-
-#~ msgid "Unlock the Web"
-#~ msgstr "Desbloquea la Web"
-
-#~ msgid ""
-#~ "Access web content through a network of cooperating peers - even when the "
-#~ "internet is down or censored. Install CENO Browser today and be prepared "
-#~ "for the next time you get 🔌 unplugged."
-#~ msgstr ""
-#~ "Accede al contenido web a través de una red de pares cooperativos - aún "
-#~ "cuando Internet esté caída o censurada. Instala al Navegador CENO hoy y "
-#~ "prepárate para la próxima vez que estés 🔌 desconectado."
-
-#~ msgid "Grow the network - Become a bridge!"
-#~ msgstr "Haz crecer la red - ¡Conviértete en un puente!"
-
-#~ msgid "Grow the Network, Fight Censorship"
-#~ msgstr "Haz crecer la red, lucha contra la Censura"
-
-#~ msgid ""
-#~ "Fight censorship by becoming a bridge! Install and run CENO Browser to "
-#~ "instantly join the network and expand the availability of blocked "
-#~ "websites to those in censored countries."
-#~ msgstr ""
-#~ "¡Lucha contra la censura convirtiéndote en un puente! Instala y ejecuta "
-#~ "el Navegador CENO para unirte instantáneamente a la red y expandir la "
-#~ "disponibilidad de sitios web bloqueados para aquellos en países "
-#~ "censurados."
-
-#~ msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#~ msgid "Free and Open Source"
-#~ msgstr "Código libre y abierto"
-
 #~ msgctxt "index.html+html.body.main.section.div.div.div.h3:166-15"
 #~ msgid "Free and Open Source"
 #~ msgstr "Código libre y abierto"
-
-#~ msgid ""
-#~ "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-#~ "\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use "
-#~ "of the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
-#~ "library</a> - enabling third party developers to incorporate the CENO "
-#~ "network into their apps for peer-to-peer connectivity."
-#~ msgstr ""
-#~ "CENO está basado en <a href=\"https://www.mozilla.org/firefox/android/"
-#~ "\">Firefox para Android</a> (conocido como Mozilla Fennec), extendido "
-#~ "para hacer uso de la innovadora <a href=\"https://github.com/equalitie/"
-#~ "ouinet\">biblioteca Ouinet</a> - habilitando a otros desarrolladores para "
-#~ "incorporar la red CENO dentro de sus aplicaciones para conectividad de "
-#~ "par a par."
-
-#~ msgid ""
-#~ "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#~ "a> – a Canadian company developing open and reusable systems with a focus "
-#~ "on privacy, online security and freedom of association. Technology "
-#~ "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#~ "en/values/\">values</a> that guide us to protect the rights and "
-#~ "aspirations of everyone online."
-#~ msgstr ""
-#~ "El navegador CENO es un proyecto de <a href=\"https://equalit.ie"
-#~ "\">eQualit.ie</a> – una compañía canadiense que desarrolla sistemas "
-#~ "abiertos y reutilizables con foco en la privacidad, seguridad en línea y "
-#~ "libertad de asociación. Las soluciones tecnológicas e innovaciones están "
-#~ "impulsadas por nuestros <a href=\"https://equalit.ie/en/values/"
-#~ "\">valores</a>, que nos guían para proteger los derechos y aspiraciones "
-#~ "en línea de todos."
-
-#~ msgid ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
-#~ msgstr ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgctxt "index.html+html.body.main.section.div.div.div.h3:168-15"
 #~ msgid "Free and Open Source"

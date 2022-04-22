@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"POT-Creation-Date: 2022-04-22 16:36-0700\n"
 "PO-Revision-Date: 2022-03-29 18:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,20 +14,195 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-#~ msgid "en"
-#~ msgstr "my"
+#: index.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr "my"
 
-#~ msgid "Censorship.no! - Browse Freely"
-#~ msgstr "Censorship.no! - လွတ်လပ်စွာ ရှာဖွေပါ"
+#: index.html%2Bhtml.head.title:24-5
+msgid "Censorship.no! - Browse Freely"
+msgstr "Censorship.no! - လွတ်လပ်စွာ ရှာဖွေပါ"
 
-#~ msgid "How It Works"
-#~ msgstr "အလုပ်လုပ်ပုံ"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:83-17
+msgid "How It Works"
+msgstr "အလုပ်လုပ်ပုံ"
 
-#~ msgid "User Manual"
-#~ msgstr "သုံးစွဲသူ လက်စွဲ"
+#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "User Manual"
+msgstr "သုံးစွဲသူ လက်စွဲ"
 
-#~ msgid "Get Involved!"
-#~ msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
+msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
+
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+msgid "Download CENO"
+msgstr ""
+
+#: index.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Download"
+msgstr ""
+
+#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: index.html%2Bhtml.body.nav.div.div.div:97-1
+msgid "EN"
+msgstr "MY"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
+#: index.html%2Bhtml.body.nav.div.div.div.div:103-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:128-14
+msgid "CENO Browser banner"
+msgstr "CENO ဘရောက်ဇာ နဖူးစည်း"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:134-7
+msgid "Share retrieved content, peer to peer"
+msgstr ""
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:135-3
+msgid ""
+"CENO (short for Censorship.no!) is a mobile Web browser using a novel "
+"approach to circumvent Internet censorship infrastructure, allowing users "
+"living in a censored zone to share retrieved content with each other, peer "
+"to peer."
+msgstr ""
+"CENO (Censorship.no! ၏ အတိုကောက်) သည် အင်တာနက် ဆင်ဆာလုပ်ခြင်း အခြေခံအဆောက်အအုံကို ရှောင်ရှားရန် "
+"ချဉ်းကပ်နည်း အသစ်ကို အသုံးပြုသော မိုဘိုင်းဝက်ဘ်ဘရောက်ဇာ ဖြစ်ပြီး ဆင်ဆာလုပ်ထားသော ဇုန်တွင် နေထိုင်သည့် "
+"သုံးစွဲသူများအား ပြန်ထုတ်ထားသော အကြောင်းအရာကို တစ်ဦးနှင့်တစ်ဦး အချင်းချင်း မျှဝေခွင့်ပြုသည်။"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:138-15
+msgid "Get it on Google Play"
+msgstr "Google Play တွင် ရယူပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:141-17
+msgid "Get it on Paskoocheh"
+msgstr "Paskoocheh တွင်ရယူပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:144-17
+msgid "Get it on Github"
+msgstr "Github တွင် ရယူပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:159-13
+msgid "Browse Freely"
+msgstr "လွတ်လပ်စွာ ရှာဖွေပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:160-15
+msgid "Unlock the Web"
+msgstr "ဝက်ဘ်ကို လော့ခ်ဖြေပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:161-15
+msgid ""
+"Access web content through a network of cooperating peers - even when the "
+"internet is down or censored. Install CENO Browser today and be prepared for "
+"the next time you get 🔌 unplugged."
+msgstr ""
+"ပူးပေါင်းဆောင်ရွက်သော မိတ်ဆွေအချင်းချင်း၏ ကွန်ရက်မှတစ်ဆင့် အင်တာနက် လိုင်းကျချိန် သို့မဟုတ် "
+"ဆင်ဆာလုပ်ခံရချိန်တွင်ပင် ဝက်ဘ်ကို ဝင်ရောက်သုံးစွဲပါ။ CENO ဘရောက်ဇာကို ယနေ့ ထည့်သွင်းပြီး နောက်တစ်ကြိမ် 🔌 "
+"ပလပ်ဖြုတ်ခံရမည့် အချိန်အတွက် ပြင်ဆင်ပါ။"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:168-13
+msgid "Grow the network - Become a bridge!"
+msgstr "ကွန်ရက်ကို ကျယ်ပြန့်အောင်လုပ်ပါ - ပေါင်းကူးအဖြစ် ဆောင်ရွက်ပါ။"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:169-15
+#, fuzzy
+#| msgid "Grow the Network, Fight Censorship"
+msgid "Grow the Network"
+msgstr "ကွန်ရက်ကို ကျယ်ပြန့်အောင်လုပ်ပါ၊ ဆင်ဆာလုပ်ခြင်းကို တိုက်ဖျက်ပါ"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:170-15
+msgid ""
+"Fight censorship by becoming a bridge! Install and run CENO Browser to "
+"instantly join the network and expand the availability of blocked websites "
+"to those in censored countries."
+msgstr ""
+"ပေါင်းကူးတစ်ခု ဖြစ်လာခြင်းဖြင့် ဆင်ဆာလုပ်ခြင်းကို တိုက်ဖျက်ပါ။ ကွန်ရက်တွင် ချက်ချင်း ပါဝင်ရန် CENO "
+"ဘရောက်ဇာကို တပ်ဆင်၍ လုပ်ဆောင်ပြီး ဆင်ဆာလုပ်ထားသော နိုင်ငံများတွင် နေထိုင်သူများပါ ပိတ်ဆို့ထားသော "
+"ဝက်ဘ်ဆိုက်များကို ရရှိနိုင်ရန် ချဲ့ထွင်ပါ။"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-13
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:177-13"
+msgid "Free and Open Source"
+msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
+#, fuzzy
+#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:178-15"
+msgid "Free and Open Source"
+msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
+#, fuzzy
+#| msgid ""
+#| "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+#| "\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use "
+#| "of the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
+#| "library</a> - enabling third party developers to incorporate the CENO "
+#| "network into their apps for peer-to-peer connectivity."
+msgid ""
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
+"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"developers to incorporate the CENO network into their apps for P2P "
+"connectivity."
+msgstr ""
+"CENO ကို <a href=\"https://www.mozilla.org/firefox/android/\">Firefox for "
+"Android</a> (ခေါ် Mozilla Fennec) ပေါ်တွင် အခြေခံ၍ ဆန်းသစ်တီထွင်မှုရှိသော <a href="
+"\"https://github.com/equalitie/ouinet\">Ouinet စာကြည့်တိုက်</a> ကို အသုံးပြုရန် "
+"ချဲ့ထွင်ထားသည့်အတွက် ပြင်ပအဖွဲ့အစည်း ဆော့ဖ်ဝဲရေးသားသူတို့အား အချင်းချင်း ချိတ်ဆက်နိုင်မှုအတွက် ၎င်းတို့၏ "
+"အက်ပ်များထဲသို့ CENO ကွန်ရက်ကို ထည့်သွင်းခွင့်ပြုသည်။"
+
+#: index.html%2Bhtml.body.footer.div.p:199-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a Canadian company developing open and reusable systems with a focus on "
+"privacy, online security and freedom of association. Technology solutions "
+"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
+"\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+"CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် "
+"နည်းစနစ်များ စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https://equalit."
+"ie\">eQualit.ie</a>အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ ကျွန်ပ်တို့၏ အားလုံးအတွက် အွန်လိုင်းတွင် "
+"ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် ဆိုသော<a href=\"https://equalit.ie/en/values/"
+"\">တန်ဖိုးများ</a>က နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း ဖြစ်ပါသည်။"
+
+#.  TRANSLATORS: Please do not translate this. 
+#: index.html%2Bhtml.body.footer:201-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "Get CENO"
 #~ msgstr "CENO ကို ရယူမည်"
@@ -35,44 +210,8 @@ msgstr ""
 #~ msgid "Get CENO Browser"
 #~ msgstr "CENO ဘရောက်ဇာ ကို ရယူမည်"
 
-#~ msgid "EN"
-#~ msgstr "MY"
-
-#~ msgid ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/index.html\">Українська</a>"
-#~ msgstr ""
-#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
-#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
-#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
-#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-#~ "href=\"../uk/index.html\">Українська</a>"
-
-#~ msgid "CENO Browser banner"
-#~ msgstr "CENO ဘရောက်ဇာ နဖူးစည်း"
-
 #~ msgid "Censorship.no!"
 #~ msgstr "Censorship.no!"
-
-#~ msgid ""
-#~ "CENO (short for Censorship.no!) is a mobile Web browser using a novel "
-#~ "approach to circumvent Internet censorship infrastructure, allowing users "
-#~ "living in a censored zone to share retrieved content with each other, "
-#~ "peer to peer."
-#~ msgstr ""
-#~ "CENO (Censorship.no! ၏ အတိုကောက်) သည် အင်တာနက် ဆင်ဆာလုပ်ခြင်း အခြေခံအဆောက်အအုံကို "
-#~ "ရှောင်ရှားရန် ချဉ်းကပ်နည်း အသစ်ကို အသုံးပြုသော မိုဘိုင်းဝက်ဘ်ဘရောက်ဇာ ဖြစ်ပြီး ဆင်ဆာလုပ်ထားသော ဇုန်တွင် "
-#~ "နေထိုင်သည့် သုံးစွဲသူများအား ပြန်ထုတ်ထားသော အကြောင်းအရာကို တစ်ဦးနှင့်တစ်ဦး အချင်းချင်း "
-#~ "မျှဝေခွင့်ပြုသည်။"
 
 #~ msgid ""
 #~ "Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
@@ -84,86 +223,9 @@ msgstr ""
 #~ "\">အပြည်ပြည်ဆိုင်ရာ လူ့အခွင့်အရေး ကြေညာစာတမ်း</a> ၏ ပိုဒ်ခွဲ ၁၈၊ ၁၉ နှင့် ၂၀ ကို ထောက်ခံသည့်အနေဖြင့် "
 #~ "တည်ဆောက်ထားသော CENO သည် ဆင်ဆာရှောင်ရှားမှုဆိုင်ရာ ဖြစ်နိုင်ခြေများ၏ မျိုးဆက်သစ်တစ်ခုကို တင်ဆက်ပေးသည်။"
 
-#~ msgid "Get it on Google Play"
-#~ msgstr "Google Play တွင် ရယူပါ"
-
-#~ msgid "Get it on Paskoocheh"
-#~ msgstr "Paskoocheh တွင်ရယူပါ"
-
-#~ msgid "Get it on Github"
-#~ msgstr "Github တွင် ရယူပါ"
-
-#~ msgid "Browse Freely"
-#~ msgstr "လွတ်လပ်စွာ ရှာဖွေပါ"
-
-#~ msgid "Unlock the Web"
-#~ msgstr "ဝက်ဘ်ကို လော့ခ်ဖြေပါ"
-
-#~ msgid ""
-#~ "Access web content through a network of cooperating peers - even when the "
-#~ "internet is down or censored. Install CENO Browser today and be prepared "
-#~ "for the next time you get 🔌 unplugged."
-#~ msgstr ""
-#~ "ပူးပေါင်းဆောင်ရွက်သော မိတ်ဆွေအချင်းချင်း၏ ကွန်ရက်မှတစ်ဆင့် အင်တာနက် လိုင်းကျချိန် သို့မဟုတ် "
-#~ "ဆင်ဆာလုပ်ခံရချိန်တွင်ပင် ဝက်ဘ်ကို ဝင်ရောက်သုံးစွဲပါ။ CENO ဘရောက်ဇာကို ယနေ့ ထည့်သွင်းပြီး နောက်တစ်ကြိမ် 🔌 "
-#~ "ပလပ်ဖြုတ်ခံရမည့် အချိန်အတွက် ပြင်ဆင်ပါ။"
-
-#~ msgid "Grow the network - Become a bridge!"
-#~ msgstr "ကွန်ရက်ကို ကျယ်ပြန့်အောင်လုပ်ပါ - ပေါင်းကူးအဖြစ် ဆောင်ရွက်ပါ။"
-
-#~ msgid "Grow the Network, Fight Censorship"
-#~ msgstr "ကွန်ရက်ကို ကျယ်ပြန့်အောင်လုပ်ပါ၊ ဆင်ဆာလုပ်ခြင်းကို တိုက်ဖျက်ပါ"
-
-#~ msgid ""
-#~ "Fight censorship by becoming a bridge! Install and run CENO Browser to "
-#~ "instantly join the network and expand the availability of blocked "
-#~ "websites to those in censored countries."
-#~ msgstr ""
-#~ "ပေါင်းကူးတစ်ခု ဖြစ်လာခြင်းဖြင့် ဆင်ဆာလုပ်ခြင်းကို တိုက်ဖျက်ပါ။ ကွန်ရက်တွင် ချက်ချင်း ပါဝင်ရန် CENO "
-#~ "ဘရောက်ဇာကို တပ်ဆင်၍ လုပ်ဆောင်ပြီး ဆင်ဆာလုပ်ထားသော နိုင်ငံများတွင် နေထိုင်သူများပါ ပိတ်ဆို့ထားသော "
-#~ "ဝက်ဘ်ဆိုက်များကို ရရှိနိုင်ရန် ချဲ့ထွင်ပါ။"
-
-#~ msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#~ msgid "Free and Open Source"
-#~ msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
-
 #~ msgctxt "index.html+html.body.main.section.div.div.div.h3:166-15"
 #~ msgid "Free and Open Source"
 #~ msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
-
-#~ msgid ""
-#~ "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-#~ "\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use "
-#~ "of the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
-#~ "library</a> - enabling third party developers to incorporate the CENO "
-#~ "network into their apps for peer-to-peer connectivity."
-#~ msgstr ""
-#~ "CENO ကို <a href=\"https://www.mozilla.org/firefox/android/\">Firefox for "
-#~ "Android</a> (ခေါ် Mozilla Fennec) ပေါ်တွင် အခြေခံ၍ ဆန်းသစ်တီထွင်မှုရှိသော <a href="
-#~ "\"https://github.com/equalitie/ouinet\">Ouinet စာကြည့်တိုက်</a> ကို အသုံးပြုရန် "
-#~ "ချဲ့ထွင်ထားသည့်အတွက် ပြင်ပအဖွဲ့အစည်း ဆော့ဖ်ဝဲရေးသားသူတို့အား အချင်းချင်း ချိတ်ဆက်နိုင်မှုအတွက် ၎င်းတို့၏ "
-#~ "အက်ပ်များထဲသို့ CENO ကွန်ရက်ကို ထည့်သွင်းခွင့်ပြုသည်။"
-
-#~ msgid ""
-#~ "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#~ "a> – a Canadian company developing open and reusable systems with a focus "
-#~ "on privacy, online security and freedom of association. Technology "
-#~ "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#~ "en/values/\">values</a> that guide us to protect the rights and "
-#~ "aspirations of everyone online."
-#~ msgstr ""
-#~ "CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် "
-#~ "နည်းစနစ်များ စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https://"
-#~ "equalit.ie\">eQualit.ie</a>အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ ကျွန်ပ်တို့၏ အားလုံးအတွက် "
-#~ "အွန်လိုင်းတွင် ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် ဆိုသော<a href=\"https://equalit.ie/en/values/"
-#~ "\">တန်ဖိုးများ</a>က နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း ဖြစ်ပါသည်။"
-
-#~ msgid ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
-#~ msgstr ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgctxt "index.html+html.body.main.section.div.div.div.h3:168-15"
 #~ msgid "Free and Open Source"
