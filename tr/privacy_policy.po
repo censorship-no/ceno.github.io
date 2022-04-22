@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 13:05-0700\n"
+"POT-Creation-Date: 2022-04-22 16:27-0700\n"
 "PO-Revision-Date: 2022-03-30 19:11+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
@@ -33,16 +33,18 @@ msgid "User Manual"
 msgstr "Kullanıcı Kılavuzu"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
 msgstr "Katılın!"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
-msgid "Get CENO"
+msgid "Download CENO"
 msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:95-10
-msgid "Get CENO Browser"
-msgstr "CENO Tarayıcı indirin"
+msgid "Download"
+msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:97-1
@@ -203,3 +205,6 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+
+#~ msgid "Get CENO Browser"
+#~ msgstr "CENO Tarayıcı indirin"

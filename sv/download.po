@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-13 14:47-0700\n"
+"POT-Creation-Date: 2022-04-22 16:27-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -31,19 +31,18 @@ msgid "User Manual"
 msgstr "Användarmanual"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
 msgstr "Bli involverad!"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
-msgid "Get CENO"
-msgstr "Hämta CENO"
+msgid "Download CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
-#, fuzzy
-#| msgid "Get CENO"
-msgctxt "download.html+html.body.nav.div.div.div:95-10"
-msgid "Get CENO Browser"
-msgstr "Hämta CENO"
+msgid "Download"
+msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:97-1
@@ -72,7 +71,6 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:131-7
 #, fuzzy
 #| msgid "Get CENO"
-msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 msgid "Get CENO Browser"
 msgstr "Hämta CENO"
 
@@ -165,6 +163,15 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+
+#~ msgid "Get CENO"
+#~ msgstr "Hämta CENO"
+
+#, fuzzy
+#~| msgid "Get CENO"
+#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
+#~ msgid "Get CENO Browser"
+#~ msgstr "Hämta CENO"
 
 #, fuzzy
 #~| msgid "Get CENO"

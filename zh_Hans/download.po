@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-13 14:47-0700\n"
+"POT-Creation-Date: 2022-04-22 16:27-0700\n"
 "PO-Revision-Date: 2021-09-19 18:34+0000\n"
 "Last-Translator: Mark MA <daomeideshu@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -33,20 +33,20 @@ msgid "User Manual"
 msgstr "用户手册"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
+#, fuzzy
+#| msgid "Get Involved!"
+msgid "Get Involved"
 msgstr "加入我们！"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
-msgid "Get CENO"
-msgstr "获取 CENO"
+msgid "Download CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
 #, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:94-10"
-#| msgid "Get CENO Browser"
-msgctxt "download.html+html.body.nav.div.div.div:95-10"
-msgid "Get CENO Browser"
-msgstr "下载 CENO 浏览器"
+#| msgid "Direct Download"
+msgid "Download"
+msgstr "直接下载"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:97-1
@@ -76,7 +76,6 @@ msgstr ""
 #, fuzzy
 #| msgctxt "download.html+html.body.nav.div.div.div:94-10"
 #| msgid "Get CENO Browser"
-msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 msgid "Get CENO Browser"
 msgstr "下载 CENO 浏览器"
 
@@ -171,6 +170,16 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Get CENO"
+#~ msgstr "获取 CENO"
+
+#, fuzzy
+#~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
+#~| msgid "Get CENO Browser"
+#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
+#~ msgid "Get CENO Browser"
+#~ msgstr "下载 CENO 浏览器"
 
 #, fuzzy
 #~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
