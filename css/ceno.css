@@ -43,10 +43,6 @@ a {
     color: #0284C7;
 }
 
-a:visited {
-    color: #0284C7;
-}
-
 a:hover {
     color: #0C4A6E;
 }
@@ -97,8 +93,15 @@ div.row {
 }
 
 .btn-outline-danger {
-    border-color: #0369A1;
-    font-size:1em;
+    border-color: #EA580C;
+    font-size:3em;
+    color: #EA580C;
+}
+
+.btn-outline-danger:hover {
+   background-color: #EA580C;
+   border-color: #EA580C;
+   color: #FFFFFF;
 }
 
 .navbar-light .navbar-nav .nav-link {    
