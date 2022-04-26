@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 14:19-0700\n"
+"POT-Creation-Date: 2022-04-26 15:31-0700\n"
 "PO-Revision-Date: 2021-10-28 05:38+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
@@ -68,80 +68,43 @@ msgstr ""
 msgid "How CENO Browser Works"
 msgstr "Så här fungerar CENO-navigatorn"
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:128-13
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:132-3
 msgid ""
-"﻿Most web traffic in countries that filter internet is routed through "
-"centralized exchanges."
+"Most web traffic in countries that filter internet is routed through "
+"centralized exchanges, such as Google."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:131-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-3
 msgid ""
-"﻿This design gives the censor an advantage in locating and blocking popular "
+"This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:134-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-3
 msgid ""
-"﻿In these cases, reaching origin web servers is difficult or impossible, and "
+"In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:137-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:140-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-3
 msgid ""
-"﻿CENO users create small-world networks to connect to each other, and "
+"CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:143-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-3
 msgid ""
-"﻿Once a website is accessed by a single CENO user, it is stored and shared "
+"Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.div.p:148-5
-msgid ""
-"The majority of internationally-bound traffic in countries that filter "
-"content requests are routed through a fixed number of centralized exchanges "
-"where surveillance and censorship technology is installed. Traditional "
-"circumvention technologies require the user to connect directly to a proxy "
-"in the uncensored zone. This design gives the censor an advantage in "
-"locating and blocking popular proxies, VPN servers, relays, bridges, etc."
-msgstr ""
-
-#: about.html%2Bhtml.body.main.div.div.p:156-5
-msgid ""
-"CENO proposes a fundamentally different solution: reduce the requests to "
-"externally available proxy servers and enable the storage of retrieved "
-"content inside the censored zone. CENOs advantage comes from being both a "
-"transport and a storage solution."
-msgstr ""
-
-#: about.html%2Bhtml.body.main.div.div.p:163-5
-msgid ""
-"Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario "
-"that most circumvention providers end up playing with the censor. Clients "
-"need not know the location of a proxy to relay censored content, instead "
-"using small-world networks to connect to their peers, and thereafter to a "
-"bridge in the uncensored zone."
-msgstr ""
-
-#: about.html%2Bhtml.body.main.div.div.p:168-5
-msgid ""
-"Once a website is accessed by a single user (node), it is stored and "
-"continues to propagate inside the country peer-to-peer. Individual nodes are "
-"referenced by an identifier which does not give away their physical "
-"location. Content remains available inside the censored zone even if "
-"external connectivity is cut. Content can be seeded into the network via "
-"alternative means as well (e.g. uploaded from a USB drive)."
-msgstr ""
-
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:175-1
+#: about.html%2Bhtml.body.main.div.div:180-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
@@ -153,7 +116,7 @@ msgid ""
 "button></a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.footer.div.p:194-9
+#: about.html%2Bhtml.body.footer.div.p:199-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -164,7 +127,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:196-23
+#: about.html%2Bhtml.body.footer:201-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
