@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 14:19-0700\n"
-"PO-Revision-Date: 2022-04-13 22:12+0000\n"
+"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"PO-Revision-Date: 2022-04-26 23:29+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -42,10 +42,8 @@ msgid "Get CENO"
 msgstr "Отримати CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
-#, fuzzy
-#| msgid "Direct Download"
 msgid "Download"
-msgstr "Пряме завантаження"
+msgstr "завантаження"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:97-1
@@ -162,18 +160,18 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.4.0/sha256sums.txt\">file hashes</a> "
+"ceno/v1.5.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.5.0/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
 "\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
 "Також можете перевірити <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.4.0/sha256sums.txt.asc\">підписи</a> <a href=\"https://ceno -"
-"download.s3.amazonaws.com/ceno/v1.4.0/sha256sums.txt\">хешів файлів</a> "
-"через наш <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers .asc"
-"\">PGP-ключ</a> (з відбитком <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
-"F0DD B862</code>)."
+"ceno/v1.5.0/sha256sums.txt.asc\">підписи</a> <a href=\"https://ceno -download"
+".s3.amazonaws.com/ceno/v1.5.0/sha256sums.txt\">хешів файлів</a> через наш <a "
+"href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers .asc\">PGP-ключ</"
+"a> (з відбитком <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:185-9
 msgid ""

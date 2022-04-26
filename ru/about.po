@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 14:19-0700\n"
-"PO-Revision-Date: 2022-02-09 14:18+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"PO-Revision-Date: 2022-04-26 23:29+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -43,7 +43,7 @@ msgstr "Скачать CENO"
 
 #: about.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Download"
-msgstr ""
+msgstr "Скачать"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:97-1
@@ -77,113 +77,59 @@ msgstr ""
 msgid "How CENO Browser Works"
 msgstr "Как работает Браузер CENO"
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:128-13
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:132-3
+#, fuzzy
+#| msgid ""
+#| "﻿Most web traffic in countries that filter internet is routed through "
+#| "centralized exchanges."
 msgid ""
-"﻿Most web traffic in countries that filter internet is routed through "
-"centralized exchanges."
+"Most web traffic in countries that filter internet is routed through "
+"centralized exchanges, such as Google."
 msgstr ""
 "Большая часть трафика в странах, фильтрующих интернет, проходит через "
 "централизованные серверы."
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:131-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-3
 msgid ""
-"﻿This design gives the censor an advantage in locating and blocking popular "
+"This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
 "Такая схема дает цензору преимущество при обнаружении и блокировке "
 "популярных прокси, VPN-серверов, ретрансляторов и т.д;"
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:134-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-3
 msgid ""
-"﻿In these cases, reaching origin web servers is difficult or impossible, and "
+"In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
 "В этом случае доступ к исходным веб-серверам будет ограничен или невозможен, "
 "и ваше устройство не сможет получить нужный контент."
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:137-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "CENO — это мобильный браузер для хранения и обмена веб-контентом из любой "
 "точки мира."
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:140-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-3
 msgid ""
-"﻿CENO users create small-world networks to connect to each other, and "
+"CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
 "Пользователи CENO создают небольшие сети для соединения сперва друг с "
 "другом, а затем с мостом за пределами зоны цензуры."
 
-#: about.html%2Bhtml.body.main.div.div.div.img[alt]:143-16
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-3
 msgid ""
-"﻿Once a website is accessed by a single CENO user, it is stored and shared "
+"Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
 "Когда сайт открывается одним пользователем CENO, он сохраняется и совместно "
 "используется в пиринговой (p2p) сети страны."
 
-#: about.html%2Bhtml.body.main.div.div.p:148-5
-msgid ""
-"The majority of internationally-bound traffic in countries that filter "
-"content requests are routed through a fixed number of centralized exchanges "
-"where surveillance and censorship technology is installed. Traditional "
-"circumvention technologies require the user to connect directly to a proxy "
-"in the uncensored zone. This design gives the censor an advantage in "
-"locating and blocking popular proxies, VPN servers, relays, bridges, etc."
-msgstr ""
-"Основная часть международного трафика в странах, фильтрующих интернет, "
-"проходит через несколько централизованных серверов, на которых установлены "
-"технологии наблюдения и цензуры. Традиционные технологии обхода цензуры "
-"требуют, чтобы пользователь напрямую подключился к прокси-серверу в зоне без "
-"цензуры. Такая схема дает цензору преимущество в обнаружении и блокировке "
-"популярных прокси, VPN-серверов, реле, мостов и т.д."
-
-#: about.html%2Bhtml.body.main.div.div.p:156-5
-msgid ""
-"CENO proposes a fundamentally different solution: reduce the requests to "
-"externally available proxy servers and enable the storage of retrieved "
-"content inside the censored zone. CENOs advantage comes from being both a "
-"transport and a storage solution."
-msgstr ""
-"CENO предлагает принципиально другое решение: уменьшить количество запросов "
-"к доступным извне прокси-серверам и разрешить хранение загружаемого контента "
-"внутри зоны цензуры. Преимущество CENO заключается в том, что он "
-"одновременно решает проблемы и с передачей, и с хранением данных."
-
-#: about.html%2Bhtml.body.main.div.div.p:163-5
-msgid ""
-"Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario "
-"that most circumvention providers end up playing with the censor. Clients "
-"need not know the location of a proxy to relay censored content, instead "
-"using small-world networks to connect to their peers, and thereafter to a "
-"bridge in the uncensored zone."
-msgstr ""
-"Пиринговая (p2p) маршрутизация — идеальное решение при сценарии «кошки-"
-"мышки», когда цензоры и анти-цензоры постоянно соревнуются друг с другом. "
-"Клиентам не нужно знать местоположение прокси-сервера для ретрансляции "
-"цензурированного контента, вместо этого они используют небольшие сети для "
-"подключения сперва к своим соратникам, а затем к мосту в зоне без цензуры."
-
-#: about.html%2Bhtml.body.main.div.div.p:168-5
-msgid ""
-"Once a website is accessed by a single user (node), it is stored and "
-"continues to propagate inside the country peer-to-peer. Individual nodes are "
-"referenced by an identifier which does not give away their physical "
-"location. Content remains available inside the censored zone even if "
-"external connectivity is cut. Content can be seeded into the network via "
-"alternative means as well (e.g. uploaded from a USB drive)."
-msgstr ""
-"Когда сайт запрашивается одним пользователем (узлом), он сохраняется и "
-"продолжает распространение в пиринговой сети внутри страны. Узлы обращаются "
-"друг к другу с помощью идентификаторов, которые не раскрывают их физическое "
-"местоположение. Контент остается доступным внутри цензурированной зоны, даже "
-"если внешнее подключение отсутствует. Также контент может быть загружен в "
-"сеть другими способами (например, с флешки)."
-
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:175-1
+#: about.html%2Bhtml.body.main.div.div:180-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
@@ -203,7 +149,7 @@ msgstr ""
 "\"fas fa-scroll\"></span> Более детальное техническое руководство можно "
 "найти в whitepaper (подробной статье) Ouinet.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:194-9
+#: about.html%2Bhtml.body.footer.div.p:199-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -220,13 +166,70 @@ msgstr ""
 "стремления всех, кто находится в сети."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:196-23
+#: about.html%2Bhtml.body.footer:201-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid ""
+#~ "The majority of internationally-bound traffic in countries that filter "
+#~ "content requests are routed through a fixed number of centralized "
+#~ "exchanges where surveillance and censorship technology is installed. "
+#~ "Traditional circumvention technologies require the user to connect "
+#~ "directly to a proxy in the uncensored zone. This design gives the censor "
+#~ "an advantage in locating and blocking popular proxies, VPN servers, "
+#~ "relays, bridges, etc."
+#~ msgstr ""
+#~ "Основная часть международного трафика в странах, фильтрующих интернет, "
+#~ "проходит через несколько централизованных серверов, на которых "
+#~ "установлены технологии наблюдения и цензуры. Традиционные технологии "
+#~ "обхода цензуры требуют, чтобы пользователь напрямую подключился к прокси-"
+#~ "серверу в зоне без цензуры. Такая схема дает цензору преимущество в "
+#~ "обнаружении и блокировке популярных прокси, VPN-серверов, реле, мостов и "
+#~ "т.д."
+
+#~ msgid ""
+#~ "CENO proposes a fundamentally different solution: reduce the requests to "
+#~ "externally available proxy servers and enable the storage of retrieved "
+#~ "content inside the censored zone. CENOs advantage comes from being both a "
+#~ "transport and a storage solution."
+#~ msgstr ""
+#~ "CENO предлагает принципиально другое решение: уменьшить количество "
+#~ "запросов к доступным извне прокси-серверам и разрешить хранение "
+#~ "загружаемого контента внутри зоны цензуры. Преимущество CENO заключается "
+#~ "в том, что он одновременно решает проблемы и с передачей, и с хранением "
+#~ "данных."
+
+#~ msgid ""
+#~ "Peer-to-peer routing is the ideal solution for the “cat and mouse” "
+#~ "scenario that most circumvention providers end up playing with the "
+#~ "censor. Clients need not know the location of a proxy to relay censored "
+#~ "content, instead using small-world networks to connect to their peers, "
+#~ "and thereafter to a bridge in the uncensored zone."
+#~ msgstr ""
+#~ "Пиринговая (p2p) маршрутизация — идеальное решение при сценарии «кошки-"
+#~ "мышки», когда цензоры и анти-цензоры постоянно соревнуются друг с другом. "
+#~ "Клиентам не нужно знать местоположение прокси-сервера для ретрансляции "
+#~ "цензурированного контента, вместо этого они используют небольшие сети для "
+#~ "подключения сперва к своим соратникам, а затем к мосту в зоне без цензуры."
+
+#~ msgid ""
+#~ "Once a website is accessed by a single user (node), it is stored and "
+#~ "continues to propagate inside the country peer-to-peer. Individual nodes "
+#~ "are referenced by an identifier which does not give away their physical "
+#~ "location. Content remains available inside the censored zone even if "
+#~ "external connectivity is cut. Content can be seeded into the network via "
+#~ "alternative means as well (e.g. uploaded from a USB drive)."
+#~ msgstr ""
+#~ "Когда сайт запрашивается одним пользователем (узлом), он сохраняется и "
+#~ "продолжает распространение в пиринговой сети внутри страны. Узлы "
+#~ "обращаются друг к другу с помощью идентификаторов, которые не раскрывают "
+#~ "их физическое местоположение. Контент остается доступным внутри "
+#~ "цензурированной зоны, даже если внешнее подключение отсутствует. Также "
+#~ "контент может быть загружен в сеть другими способами (например, с флешки)."
 
 #~ msgid "Get CENO Browser"
 #~ msgstr "Скачать Браузер CENO"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 14:19-0700\n"
-"PO-Revision-Date: 2022-04-13 22:12+0000\n"
+"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"PO-Revision-Date: 2022-04-26 23:29+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/fa/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -41,10 +41,8 @@ msgid "Get CENO"
 msgstr "CENO را دریافت کنید"
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
-#, fuzzy
-#| msgid "Direct Download"
 msgid "Download"
-msgstr "دانلود مستقیم"
+msgstr "دانلود"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:97-1
@@ -79,9 +77,6 @@ msgid "CENO Browser banner"
 msgstr "نشان مرورگر CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:131-7
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:95-10"
-#| msgid "Get CENO Browser"
 msgid "Get CENO Browser"
 msgstr "مرورگر CENO را دریافت کنید"
 
@@ -161,15 +156,15 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.4.0/sha256sums.txt\">file hashes</a> "
+"ceno/v1.5.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.5.0/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
 "\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
-"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/"
-"v1.4.0/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.4.0/sha256sums.txt\">فایل هش</a> را در مقابل <a href="
+"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1"
+".5.0/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
+"amazonaws.com/ceno/v1.5.0/sha256sums.txt\">فایل هش</a> را در مقابل <a href="
 "\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">کلید PGP</a> با "
 "اثر انگشت <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> "
 "تأیید کنید."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 14:19-0700\n"
-"PO-Revision-Date: 2022-03-29 18:11+0000\n"
+"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"PO-Revision-Date: 2022-04-26 23:29+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -43,7 +43,7 @@ msgstr "Скачать CENO"
 
 #: index.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Download"
-msgstr ""
+msgstr "Скачать"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:97-1
@@ -78,8 +78,8 @@ msgid "CENO Browser banner"
 msgstr "Баннер Браузера CENO"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:133-7
-msgid "Censorship.no!"
-msgstr "Censorship.no!"
+msgid "Share retrieved content, peer to peer"
+msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:134-3
 msgid ""
@@ -92,17 +92,6 @@ msgstr ""
 "использующий новый способ обхода цензуры в интернете, что позволяет "
 "пользователям, живущим в зоне цензуры, обмениваться полученным контентом "
 "друг с другом в пиринговой (p2p) сети."
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p:135-7
-msgid ""
-"Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
-"org/en/universal-declaration-human-rights/\">Universal Declaration of Human "
-"Rights</a>, CENO presents a new generation of censorship circumvention "
-"possibilities."
-msgstr ""
-"Созданный в поддержку статей 18, 19 и 20 <a href=\"https://www.un.org/ru/"
-"about-us/universal-declaration-of-human-rights/\">Всеобщей декларации прав "
-"человека</a>, CENO представляет новое поколение возможностей обхода цензуры."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:137-15
 msgid "Get it on Google Play"
@@ -140,8 +129,8 @@ msgid "Grow the network - Become a bridge!"
 msgstr "Расширяйте сеть — Станьте мостом!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:168-15
-msgid "Grow the Network, Fight Censorship"
-msgstr "Расширяйте сеть, боритесь с цензурой"
+msgid "Grow the Network"
+msgstr "Расширяйте сеть"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:169-15
 msgid ""
@@ -154,17 +143,11 @@ msgstr ""
 "пользователей из стран, где интернет цензурирован."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:176-13
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:176-13"
 msgid "Free and Open Source"
 msgstr "Бесплатно и с открытым исходным кодом"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:177-15
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:177-15"
 msgid "Free and Open Source"
 msgstr "Бесплатно и с открытым исходным кодом"
@@ -172,16 +155,15 @@ msgstr "Бесплатно и с открытым исходным кодом"
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:178-15
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-"\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of "
-"the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
-"library</a> - enabling third party developers to incorporate the CENO "
-"network into their apps for peer-to-peer connectivity."
+"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
+"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"developers to incorporate the CENO network into their apps for P2P "
+"connectivity."
 msgstr ""
 "CENO основан на <a href=\"https://www.mozilla.org/firefox/android/\">Firefox "
-"для Android</a> (также известен как Mozilla Fennec), дополненном "
-"инновационной <a href=\"https://github.com/equalitie/ouinet\">библиотекой "
-"Ouinet</a>, позволяющей сторонним разработчикам включать сеть CENO в своих "
-"приложениях для пиринговой связи."
+"для Android</a>, дополненном <a href=\"https://github.com/equalitie/ouinet\""
+">библиотекой Ouinet</a>, позволяющей сторонним разработчикам включать сеть "
+"CENO в своих приложениях для пиринговой связи."
 
 #: index.html%2Bhtml.body.footer.div.p:198-9
 msgid ""
@@ -207,6 +189,20 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Censorship.no!"
+#~ msgstr "Censorship.no!"
+
+#~ msgid ""
+#~ "Built in support of Articles 18, 19 and 20 of the <a href=\"http://www.un."
+#~ "org/en/universal-declaration-human-rights/\">Universal Declaration of "
+#~ "Human Rights</a>, CENO presents a new generation of censorship "
+#~ "circumvention possibilities."
+#~ msgstr ""
+#~ "Созданный в поддержку статей 18, 19 и 20 <a href=\"https://www.un.org/ru/"
+#~ "about-us/universal-declaration-of-human-rights/\">Всеобщей декларации "
+#~ "прав человека</a>, CENO представляет новое поколение возможностей обхода "
+#~ "цензуры."
 
 #~ msgid "Get CENO Browser"
 #~ msgstr "Скачать Браузер CENO"
