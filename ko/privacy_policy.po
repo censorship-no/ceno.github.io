@@ -14,7 +14,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "ko"
 
 #: privacy_policy.html%2Bhtml.head.title:24-5
 msgid "Censorship.no! - Privacy Notice"
@@ -22,21 +22,21 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:83-17
 msgid "How It Works"
-msgstr ""
+msgstr "작동 방식"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "User Manual"
-msgstr ""
+msgstr "사용자 매뉴얼"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Get Involved!"
-msgstr ""
+msgstr "참여하세요!"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO 받기"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:95-10
 msgid "Download"
@@ -45,7 +45,7 @@ msgstr ""
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:97-1
 msgid "EN"
-msgstr ""
+msgstr "KO"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -194,6 +194,11 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"CENO Browser는 개인 정보 보호, 온라인 보안 및 결사의 자유에 중점을 두고 재사"
+"용 가능한 개방형 시스템을 개발하는 캐나다 회사인 <a href=\"https://equalit.ie"
+"\">eQualit.ie</a>의 프로젝트입니다. 기술 솔루션과 혁신은 온라인에서 모든 사람"
+"의 권리와 열망을 보호하도록 안내하는 <a href=\"https://equalit.ie/en/values/"
+"\">가치</a>에 의해 주도됩니다."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: privacy_policy.html%2Bhtml.body.footer:174-23
@@ -201,3 +206,9 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div:95-10
+msgid "Get CENO Browser"
+msgstr "CENO 브라우저 받기"
