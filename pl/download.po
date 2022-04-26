@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-13 14:47-0700\n"
+"POT-Creation-Date: 2022-04-26 14:19-0700\n"
 "PO-Revision-Date: 2021-09-19 18:35+0000\n"
 "Last-Translator: Jakub Tabor <taborjakub2@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
@@ -44,11 +44,9 @@ msgstr "Pobierz CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:95-10
 #, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:94-10"
-#| msgid "Get CENO Browser"
-msgctxt "download.html+html.body.nav.div.div.div:95-10"
-msgid "Get CENO Browser"
-msgstr "Pobierz przeglądarkę CENO"
+#| msgid "Direct Download"
+msgid "Download"
+msgstr "Pobierz bezpośrednio"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:97-1
@@ -78,7 +76,6 @@ msgstr "Baner przeglądarki CENO"
 #, fuzzy
 #| msgctxt "download.html+html.body.nav.div.div.div:94-10"
 #| msgid "Get CENO Browser"
-msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 msgid "Get CENO Browser"
 msgstr "Pobierz przeglądarkę CENO"
 
@@ -183,6 +180,13 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
+#~| msgid "Get CENO Browser"
+#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
+#~ msgid "Get CENO Browser"
+#~ msgstr "Pobierz przeglądarkę CENO"
 
 #, fuzzy
 #~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
