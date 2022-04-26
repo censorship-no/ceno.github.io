@@ -53,10 +53,10 @@
     ],
     styles: {
       title: {
-        backgroundColor: "red"
+        backgroundColor: "#ea580c"
       },
       button: {
-        backgroundColor: "red"
+        backgroundColor: "#ea580c"
       }
     },
     initiallyVisible: false
@@ -69,17 +69,17 @@
 <img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" />
 <!-- End Matomo -->
 
-<nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #000000">
+<nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
     <div class="container">
 	<!--div class="navbar-header"-->
-        	<a class="navbar-brand" href="index.html"><img style="width:120px" id="CENOLogo" src="../img/logo_ceno.png"></a>
+        	<a class="navbar-brand" href="index.html"><img style="width:150px" id="CENOLogo" src="../img/logo_ceno.png"></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CENOnav">
 		<span class="navbar-toggler-icon"></span>
 		</button>
 	<!--/div--> <!-- end navbar header-->
 	  
-        <div class="collapse navbar-collapse" id="CENOnav">
-            <ul class="navbar-nav mx-auto me-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="CENOnav">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="about.html"><span class="fas fa-wrench"></span> 工作原理</a>
                 </li>
@@ -92,14 +92,14 @@
                     <a class="nav-link" href="help.html"><span class="fas fa-hands-helping"></span> 加入我们！</a>
                 </li>
          </ul> 
-         <div><a class="btn btn-outline-danger navbar-button" href="download.html" role="button" title="获取 CENO">获取CENO浏览器 <span class="ml-2 pt-1 fas fa-arrow-down fa-pull-end"> </span> </a></div>
+         <div><a class="btn btn-outline-danger" style="font-size:1.08rem; margin-left: .75rem" href="download.html" role="button" title="获取 CENO">Download</a></div>
 
 <div class="navbar-item has-dropdown is-hoverable">
-<a href="#" class="navbar-link language-selector no-underline is-arrowless text-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector">
-  <span class="icon is-small"><i class="fas fa-globe is-warning fa-pull-start" aria-hidden="true"></i></span>
+<a href="#" class="navbar-link language-selector no-underline is-arrowless" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Change Language" id="language-selector">
+  <span class="icon is-small"><i class="fas fa-globe is-primary fa-pull-start" aria-hidden="true"></i></span>
   
   <span>CN</span>
-  <span class="fas fa-caret text-danger"></span></a>
+  <span class="fas fa-caret"></span></a>
     <div class="navbar-dropdown" aria-labelledby="language-selector">
         
         
@@ -115,13 +115,15 @@
 
   <section>
     <div class="container">
-      <div class="card border-0">
+      <!--div class="card home border-0"-->
         <div class="row">
-          <div class="col-lg-6 order-lg-2 order-sm-1 homepage-icon">
-            <img src="../img/cenobanner.png" style="width:100%; margin-top:-70px;" alt="CENO Browser banner">
-          </div>
-          <div class="col-lg-6 order-lg-1 order-sm-2">
-            <div class="card-block">
+          <div class="col-lg-7 order-lg-2 order-sm-1" style="margin-top:-45px">
+             <div class="card home bg-transparent border-0" style="margin-top:-70px">
+	       <img class="card-img" src="../img/cenobanner.png" alt="CENO Browser banner">
+             </div>
+	   </div>
+          <div class="col-lg-5 order-lg-1 order-sm-2" style="margin-top:70px">
+            <div class="card home border-0" style="margin-top:70px">
     		<h1 class="card-title">Censorship.no!</h1>
 		<p class="card-text">CENO（Censorship.no!的缩写）是一个移动网络浏览器，使用一种新颖的方法来规避互联网审查设施，允许生活在审查区的用户，以点对点的方式相互分享检索的内容。</p>
     		<p>Built in support of Articles 18, 19 and 20 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a>, CENO presents a new generation of censorship circumvention possibilities.</p>
@@ -134,35 +136,46 @@
             <a href="https://github.com/censorship-no/ceno-browser/releases">
                 <img class="github-badge" src="../img/github-badge.png" alt="从Github获取">
             </a></p>
-            </div>
           </div>
-        </div><!--end download badge row-->
-      </div> <!-- end card 2 -->
+        </div><!--end card 2-->
+      </div> <!-- row -->
     </div> <!-- end container -->
-  </section> <!-- end section 2 -->
+  </section> <!-- end section 1 -->
 
   <section>
-    <div class="container" style="align-content:center; justify-content;">
+    <div class="container py-3" style="align-content:center; justify-content;">
 	<!--div class="card border-0"-->
-      <div class="row homepage">
-          <div class="col-lg-4 order-first">
-            <img src="../img/web_unlock.png" alt="自由浏览"><br>
-              <h3 class="card-title text-danger">解锁网络</h3>
+      <div class="row">
+          <div class="col-lg-4">
+           <div class="card">
+            <div class="card-body">
+             <img src="../img/web_unlock.png" style="width:40%;" alt="自由浏览"><br>
+              <h3 class="card-title">解锁网络</h3>
               <p class="card-text">Access web content through a network of cooperating peers - even when the internet is down or censored. Install CENO Browser today and be prepared for the next time you get 🔌 unplugged.</p>
             </div>
+	   </div>
+	  </div>
           <div class="col-lg-4">
-            <img src="../img/bridge-icon.png" alt="Grow the network - Become a bridge!">
-              <h3 class="card-title text-danger">壮大网络，打击审查</h3>
+           <div class="card">
+            <div class="card-body">
+            <img src="../img/bridge-icon.png" style="width:40%;" alt="Grow the network - Become a bridge!">
+              <h3 class="card-title">壮大网络，打击审查</h3>
               <p class="card-text">Fight censorship by becoming a bridge! Install and run CENO Browser to instantly join the network and expand the availability of blocked websites to those in censored countries.</p>
+            </div>
+           </div>
           </div> <!-- end card 2 -->
          <div class="col-lg-4">
-            <img src="../img/opensourcery.png" style="text-align:center;" alt="Free and Open Source">
-              <h3 class="card-title text-danger">Free and Open Source</h3>
+           <div class="card">
+            <div class="card-body">
+            <img src="../img/opensourcery.png" style="width:40%;" alt="Free and Open Source">
+              <h3 class="card-title">Free and Open Source</h3>
               <p class="card-text">CENO is based on <a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use of the innovative <a href="https://github.com/equalitie/ouinet">Ouinet library</a> - enabling third party developers to incorporate the CENO network into their apps for peer-to-peer connectivity.</p>
+            </div>
+           </div>
          </div> <!-- end card 3 -->
+       </div> <!-- end row --> 
     </div> <!-- end container -->
-   </div>
-</section>
+  </section> <!-- end section 2 -->
 
 </main>
 
