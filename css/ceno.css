@@ -63,6 +63,20 @@ p {
     font-size: 1.08em;
 }
 
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.navbar li:nth-child(n+1) {
+    list-style: none;
+}
+
+li {
+    font-size: 1.08em;
+    list-style: square;
+}
+
 img#equalitieLogo {
     margin-top: 26px;
     width: 162px;
