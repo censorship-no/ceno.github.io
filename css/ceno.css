@@ -82,6 +82,10 @@ img#equalitieLogo {
     width: 162px;
 }
 
+img.hasBorder { 
+    border:2px solid #0EA5E9;
+    border-radius: 15px;
+}
 
 div.row {
     margin: 20 !important;
