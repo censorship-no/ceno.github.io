@@ -3,49 +3,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 12:16-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-05 21:37+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
+"website-news/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: news.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "fa"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr ""
+msgstr "در باره"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr ""
+msgstr "راهنمای کاربر"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr ""
+msgstr "اخبار"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr ""
+msgstr "انجمن"
 
 #: news.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO را دریافت کنید"
 
 #: news.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr ""
+msgstr "دانلود"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: news.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr ""
+msgstr "FA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -61,6 +63,14 @@ msgid ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/news.html\""
 ">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/news.html\""
+">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../"
+"es/news.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa"
+"\" href=\"../fa/news.html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/news.html\">မြန်မာစာ</a> <a class=\"navbar-"
+"item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/news.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/news.html\""
+">Українська</a>"
 
 #: news.html%2Bhtml.body.main.div.h1:129-5
 msgid "News and Media"
@@ -140,6 +150,12 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
+"مرورگر CENO پروژه‌ای است که از طرف <a href=\"https://equalit.ie\">eQualit."
+"ie</a> - یک شرکت کانادایی برای توسعه‌ سیستم‌های باز و قابل استفاده مجدد با "
+"تمرکز بر حفظ حریم خصوصی، امنیت آنلاین و آزادی جوامع ایجاد شده است. راه‌حل‌"
+"های مدرن فناوری و نوآوری‌های ما مطابق با<a href=\"https://equalit.ie/en/"
+"values/\">ارزش‌‌هایمان</a> توسعه می‌یابند تا ما را برای محافظت از حقوق و "
+"خواسته‌های تمامی افراد هدایت کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: news.html%2Bhtml.body.footer:229-23
@@ -147,3 +163,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
