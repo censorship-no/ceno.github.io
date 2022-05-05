@@ -3,32 +3,35 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 12:16-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-05 21:37+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"website-news/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: news.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "uk"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr ""
+msgstr "Про"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr ""
+msgstr "Посібник користувача"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr ""
+msgstr "новини"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
@@ -36,16 +39,16 @@ msgstr ""
 
 #: news.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Отримати CENO"
 
 #: news.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr ""
+msgstr "Завантажити"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: news.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr ""
+msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -61,10 +64,18 @@ msgid ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/news.html\""
 ">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/news.html\""
+">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../"
+"es/news.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa"
+"\" href=\"../fa/news.html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/news.html\">မြန်မာစာ</a> <a class=\"navbar-"
+"item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/news.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/news.html\""
+">Українська</a>"
 
 #: news.html%2Bhtml.body.main.div.h1:129-5
 msgid "News and Media"
-msgstr ""
+msgstr "Новини та ЗМІ"
 
 #: news.html%2Bhtml.body.main.div.p:130-2
 msgid ""
@@ -74,7 +85,7 @@ msgstr ""
 
 #: news.html%2Bhtml.body.main.div.section.h2:134-2
 msgid "Our News"
-msgstr ""
+msgstr "Наші новини"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.a.div.div.div.h4:142-17
 msgid "eQualitie launches CENO, world's first decentralized p2p mobile browser"
@@ -82,11 +93,11 @@ msgstr ""
 
 #: news.html%2Bhtml.body.main.div.section.div.div.a.div.div.div.p:143-3
 msgid "May 6th, 2022"
-msgstr ""
+msgstr "6 травня 2022 року"
 
 #: news.html%2Bhtml.body.main.div.section.h2:153-2
 msgid "Recent Coverage"
-msgstr ""
+msgstr "Недавнє висвітлення"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.a.div.div.div.h4:161-17
 msgid ""
@@ -95,11 +106,11 @@ msgstr ""
 
 #: news.html%2Bhtml.body.main.div.section.div.div.a.div.div.div.p:162-17
 msgid "February 24th, 2022"
-msgstr ""
+msgstr "24 лютого 2022 року"
 
 #: news.html%2Bhtml.body.main.div.section.h2:171-1
 msgid "Resources"
-msgstr ""
+msgstr "Ресурси"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:178-17
 msgid "Fact Sheet"
@@ -140,6 +151,12 @@ msgid ""
 ">values</a> that guide us to protect the rights and aspirations of everyone "
 "online."
 msgstr ""
+"Оглядач CENO – це проєкт канадської компанії <a href=\"https://equalit.ie\""
+">eQualit.ie</a>, яка розробляє відкриті та багаторазові системи, орієнтовані "
+"на конфіденційність, мережеву безпеку та свободу слова. Технологічні рішення "
+"та інновації ґрунтуються на наших <a href=\"https://equalit.ie/en/values/\""
+">цінностях</a>, які допомагають нам захищати права та прагнення всіх, хто "
+"перебуває в мережі."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: news.html%2Bhtml.body.footer:229-23
@@ -147,3 +164,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
