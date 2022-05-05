@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 15:31-0700\n"
-"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"POT-Creation-Date: 2022-05-05 12:16-0700\n"
+"PO-Revision-Date: 2022-05-05 21:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/uk/>\n"
@@ -23,37 +23,41 @@ msgstr "uk"
 msgid "Censorship.no! - How It Works"
 msgstr "Censorship.no! — Як це працює"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
-msgid "How It Works"
-msgstr "Як це працює"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "About"
+msgstr "Про"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
-msgid "User Manual"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
+msgid "Support"
 msgstr "Посібник користувача"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
-msgstr "Долучайтеся!"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
+msgid "News"
+msgstr "новини"
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+#: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
+msgid "Community"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Отримати CENO"
 
-#: about.html%2Bhtml.body.nav.div.div.div:95-10
+#: about.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr "завантаження"
+msgstr "Завантажити"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:97-1
+#: about.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
-#: about.html%2Bhtml.body.nav.div.div.div.div:103-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -73,11 +77,11 @@ msgstr ""
 "\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
 "\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.div.h1:124-6
+#: about.html%2Bhtml.body.main.div.h1:130-6
 msgid "How CENO Browser Works"
 msgstr "Як працює оглядач CENO"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:132-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:138-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -85,7 +89,7 @@ msgstr ""
 "Більшість вебтрафіку в країнах, що фільтрують Інтернет, проходить через "
 "централізовані сервери на кшталт Google."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:146-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -93,7 +97,7 @@ msgstr ""
 "Така схема дозволяє цензору виявляти та блокувати популярні проксі, VPN-"
 "сервери, ретранслятори, тощо;"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:154-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -101,14 +105,14 @@ msgstr ""
 "У таких випадках доступ до веб-серверів буде обмеженим або неможливим і "
 "пристрій не зможе отримати потрібний вміст."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:162-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "CENO – це мобільний веб-оглядач для зберігання та обміну мережевим вмістом у "
 "будь-якій точці світу."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:170-3
 msgid ""
 "CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -116,7 +120,7 @@ msgstr ""
 "Користувачі CENO створюють невеликі внутрішні мережі, спочатку між собою, а "
 "потім до моста за межами цензурованої зони."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:178-3
 msgid ""
 "Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -126,7 +130,7 @@ msgstr ""
 "мережі країни."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:180-1
+#: about.html%2Bhtml.body.main.div.div:186-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
@@ -146,7 +150,7 @@ msgstr ""
 "\"fas fa-scroll\"></span> Більш поглиблений, технічний підручник шукайте в "
 "«білій книзі» Ouinet.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:199-9
+#: about.html%2Bhtml.body.footer.div.p:205-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -155,21 +159,30 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Оглядач CENO – це проєкт канадської компанії <a href=\"https://equalit.ie"
-"\">eQualit.ie</a>, яка розробляє відкриті та багаторазові системи, "
-"орієнтовані на конфіденційність, мережеву безпеку та свободу слова. "
-"Технологічні рішення та інновації ґрунтуються на наших <a href=\"https://"
-"equalit.ie/en/values/\">цінностях</a>, які допомагають нам захищати права та "
-"прагнення всіх, хто перебуває в мережі."
+"Оглядач CENO – це проєкт канадської компанії <a href=\"https://equalit.ie\""
+">eQualit.ie</a>, яка розробляє відкриті та багаторазові системи, орієнтовані "
+"на конфіденційність, мережеву безпеку та свободу слова. Технологічні рішення "
+"та інновації ґрунтуються на наших <a href=\"https://equalit.ie/en/values/\""
+">цінностях</a>, які допомагають нам захищати права та прагнення всіх, хто "
+"перебуває в мережі."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:201-23
+#: about.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "How It Works"
+#~ msgstr "Як це працює"
+
+#~ msgid "User Manual"
+#~ msgstr "Посібник користувача"
+
+#~ msgid "Get Involved!"
+#~ msgstr "Долучайтеся!"
 
 #~ msgid ""
 #~ "The majority of internationally-bound traffic in countries that filter "

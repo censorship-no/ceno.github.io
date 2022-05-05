@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"POT-Creation-Date: 2022-05-05 12:16-0700\n"
 "PO-Revision-Date: 2022-03-15 17:58+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -22,38 +22,41 @@ msgstr "el"
 msgid "Censorship.no! - Get Involved!"
 msgstr "Censorship.no! - Συμμετέχετε!"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:83-17
-msgid "How It Works"
-msgstr "Πώς λειτουργεί"
+#: help.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "About"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:86-17
-msgid "User Manual"
-msgstr "Εγχειρίδιο χρήσης"
+#: help.html%2Bhtml.body.nav.div.div.ul.li:89-17
+msgid "Support"
+msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgctxt "help.html+html.body.nav.div.div.ul.li:91-17"
-msgid "Get Involved!"
-msgstr "Συμμετέχετε!"
+#: help.html%2Bhtml.body.nav.div.div.ul.li:94-17
+msgid "News"
+msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+#: help.html%2Bhtml.body.nav.div.div.ul.li:97-17
+msgid "Community"
+msgstr ""
+
+#: help.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Αποκτήστε το CENO"
 
-#: help.html%2Bhtml.body.nav.div.div.div:95-10
+#: help.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: help.html%2Bhtml.body.nav.div.div.div:97-1
+#: help.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/help.html">Français</a
-#: help.html%2Bhtml.body.nav.div.div.div.div:103-5
+#: help.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -73,12 +76,14 @@ msgstr ""
 "\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
 "\"../uk/help.html\">Українська</a>"
 
-#: help.html%2Bhtml.body.main.div.h1:123-5
-msgctxt "help.html+html.body.main.div.h1:123-5"
+#: help.html%2Bhtml.body.main.div.h1:129-5
+#, fuzzy
+#| msgctxt "help.html+html.body.nav.div.div.ul.li:91-17"
+#| msgid "Get Involved!"
 msgid "Get Involved!"
 msgstr "Συμμετέχετε!"
 
-#: help.html%2Bhtml.body.main.div.p:124-2
+#: help.html%2Bhtml.body.main.div.p:130-2
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible."
@@ -86,16 +91,16 @@ msgstr ""
 "Χρειαζόμαστε την υποστήριξή σας για να κάνουμε τον φυλλομετρητή CENO όσο το "
 "δυνατόν πιο χρήσιμο και προσβάσιμο."
 
-#: help.html%2Bhtml.body.main.div.h2:126-1
+#: help.html%2Bhtml.body.main.div.h2:132-1
 msgid "Run a Bridge Node"
 msgstr "Εκτελέστε έναν κόμβο γεφύρωσης"
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:129-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
 msgid "﻿Want to help grow the network? Join the swarm!"
 msgstr ""
 "Θέλετε να βοηθήσετε στην ανάπτυξη του δικτύου; Γίνετε μέλος της κοινότητας!"
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:132-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
 msgid ""
 "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
 "spare, always-on device."
@@ -103,7 +108,7 @@ msgstr ""
 "Ο εύκολος τρόπος: Android. Εκτελέστε τον φυλλομετρητή CENO στη συσκευή σας "
 "Android ή/και σε μια εφεδρική, πάντα ενεργοποιημένη συσκευή σας."
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
 msgid ""
 "﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
 "up a bridge on your computer or VPS."
@@ -111,7 +116,7 @@ msgstr ""
 "Εκτελέστε το πρόγραμμα πελάτη CENO Docker: Εναλλακτικά, με μία μόνο εντολή "
 "μπορείτε να δημιουργήσετε μια γέφυρα στον υπολογιστή ή το VPS σας."
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:144-16
 msgid ""
 "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
 "up port forwarding."
@@ -119,7 +124,7 @@ msgstr ""
 "ΑΝΟΙΞΤΕ ΜΙΑ ΠΥΛΗ ΣΤΟ ΔΙΑΔΙΚΤΥΟ: Βεβαιωθείτε ότι το UPnP είναι ενεργοποιημένο "
 "στο δρομολογητή σας ή ρυθμίστε την προώθηση θύρας."
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:147-16
 msgid ""
 "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
 "proxy to localhost, port 8077."
@@ -127,7 +132,7 @@ msgstr ""
 "ΓΙΑ ΝΑ ΔΕΙΤΕ ΕΑΝ ΛΕΙΤΟΥΡΓΕΙ: Δημιουργήστε και ανοίξτε ένα νέο προφίλ στο "
 "Firefox και ορίστε το διακομιστή μεσολάβησης σε localhost, θύρα 8077."
 
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:144-16
+#: help.html%2Bhtml.body.main.div.div.div.img[alt]:150-16
 msgid ""
 "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
 "provided certificate to test it out!"
@@ -136,7 +141,7 @@ msgstr ""
 "και το πιστοποιητικό που σας παρέχετε για να το δοκιμάσετε!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.p:147-2
+#: help.html%2Bhtml.body.main.div.p:153-2
 msgid ""
 "To learn more about setting up a bridge, please consult the <a href=\"../"
 "user-manual/en/browser/bridging.html\">user manual.</a>"
@@ -145,22 +150,22 @@ msgstr ""
 "συμβουλευτείτε το <a href=\"../user-manual/el/browser/bridging.html\"> "
 "εγχειρίδιο χρήσης.</a>"
 
-#: help.html%2Bhtml.body.main.div.h2:153-1
+#: help.html%2Bhtml.body.main.div.h2:159-1
 msgid "Translations"
 msgstr "Μεταφράσεις"
 
-#: help.html%2Bhtml.body.main.div.p:154-2
+#: help.html%2Bhtml.body.main.div.p:160-2
 msgid ""
 "Help translate the CENO Browser app, web extension, user manual and website!"
 msgstr ""
 "Βοηθήστε στη μετάφραση της εφαρμογής του φυλλομετρητή CENO, του διαδικτυακού "
 "πρόσθετου, του εγχειριδίου χρήσης και του ιστότοπου!"
 
-#: help.html%2Bhtml.body.main.div.p:155-2
+#: help.html%2Bhtml.body.main.div.p:161-2
 msgid "To get started:"
 msgstr "Για να ξεκινήσετε:"
 
-#: help.html%2Bhtml.body.main.div.ol.li:157-6
+#: help.html%2Bhtml.body.main.div.ol.li:163-6
 msgid ""
 "Make an account on <a href=\"https://weblate.org/\">Weblate</a> or sign in "
 "with your Github or Gitlab ID. Note: Account creation is not required, but "
@@ -171,7 +176,7 @@ msgstr ""
 "λογαριασμού δεν είναι απαραίτητη, αλλιώς θα μπορείτε μόνο να προτείνετε "
 "μεταφράσεις μόνο σε αυτή την περίπτωση."
 
-#: help.html%2Bhtml.body.main.div.ol.li:158-6
+#: help.html%2Bhtml.body.main.div.ol.li:164-6
 msgid ""
 "Visit the <a href=\"https://hosted.weblate.org/projects/censorship-no/"
 "\">Censorship.no project page</a> - which lists all components and their "
@@ -183,7 +188,7 @@ msgstr ""
 "τις συμβολοσειρές τους (συμπεριλαμβανομένων των συμβολοσειρών των εφαρμογών "
 "Android, του πρόσθετου διαδικτύου, του εγχειριδίου χρήστη και του ιστότοπου)."
 
-#: help.html%2Bhtml.body.main.div.ol.li:159-6
+#: help.html%2Bhtml.body.main.div.ol.li:165-6
 msgid ""
 "On the <a href=\"https://hosted.weblate.org/projects/censorship-no/#languages"
 "\">Censorship.no project page's 'Languages' tab</a>, choose the language you "
@@ -197,7 +202,7 @@ msgstr ""
 "υπάρχει ακόμα, ξεκινήστε μια νέα γλώσσα επιλέγοντας ένα στοιχείο από την "
 "κύρια σελίδα έργου και κάνοντας κλικ στο κουμπί \"Έναρξη νέας μετάφρασης\"."
 
-#: help.html%2Bhtml.body.main.div.p:160-6
+#: help.html%2Bhtml.body.main.div.p:166-6
 msgid ""
 "Please contact the CENO team via the contact form below if you're interested "
 "in becoming a reviewer for translation(s) in your language(s)."
@@ -206,7 +211,7 @@ msgstr ""
 "επικοινωνίας εάν ενδιαφέρεστε να γίνετε ελεγκτής για τη μετάφραση (ή τις "
 "μεταφράσεις) στη γλώσσα (ή τις γλώσσες) σας."
 
-#: help.html%2Bhtml.body.main.div.p:161-6
+#: help.html%2Bhtml.body.main.div.p:167-6
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
@@ -214,11 +219,11 @@ msgstr ""
 "Για περισσότερες πληροφορίες σχετικά με τη χρήση του Weblate, δείτε την <a "
 "href=\"https://docs.weblate.org/\">τεκμηρίωση του Weblate</a>"
 
-#: help.html%2Bhtml.body.main.div.h2:163-1
+#: help.html%2Bhtml.body.main.div.h2:169-1
 msgid "Source Code"
 msgstr "Πηγαίος κώδικας"
 
-#: help.html%2Bhtml.body.main.div.p:164-2
+#: help.html%2Bhtml.body.main.div.p:170-2
 msgid ""
 "CENO is completely Free/Libre/Open Source Software. If you are interested in "
 "its source code please check the following Git repositories:"
@@ -227,7 +232,7 @@ msgstr ""
 "ενδιαφέρεστε για τον πηγαίο κώδικα του, παρακαλούμε ελέγξτε τα ακόλουθα "
 "αποθετήρια στο Git:"
 
-#: help.html%2Bhtml.body.main.div.ul.li:166-5
+#: help.html%2Bhtml.body.main.div.ul.li:172-5
 msgid ""
 "Browser components: <a href=\"https://github.com/censorship-no/ceno-browser"
 "\">package builder</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
@@ -242,11 +247,11 @@ msgstr ""
 "href=\"https://github.com/censorship-no/ceno-ext-settings\">ρυθμίσεις πηγής "
 "πρόσθετου</a>"
 
-#: help.html%2Bhtml.body.main.div.ul.li:167-5
+#: help.html%2Bhtml.body.main.div.ul.li:173-5
 msgid "Ouinet source"
 msgstr "Πηγή Ouinet"
 
-#: help.html%2Bhtml.body.main.div.p:169-2
+#: help.html%2Bhtml.body.main.div.p:175-2
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</a>, "
@@ -263,7 +268,7 @@ msgstr ""
 "στην <a href=\"https://github.com/censorship-no-archive\">αρχειοθήκη "
 "Censorship.no!</a>."
 
-#: help.html%2Bhtml.body.footer.div.p:184-9
+#: help.html%2Bhtml.body.footer.div.p:190-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -281,13 +286,23 @@ msgstr ""
 "στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:186-23
+#: help.html%2Bhtml.body.footer:192-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "How It Works"
+#~ msgstr "Πώς λειτουργεί"
+
+#~ msgid "User Manual"
+#~ msgstr "Εγχειρίδιο χρήσης"
+
+#~ msgctxt "help.html+html.body.main.div.h1:123-5"
+#~ msgid "Get Involved!"
+#~ msgstr "Συμμετέχετε!"
 
 #~ msgid "Get CENO Browser"
 #~ msgstr "Λήψη φυλλομετρητή CENO"
