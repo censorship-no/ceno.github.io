@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 17:20-0700\n"
+"POT-Creation-Date: 2022-05-05 12:16-0700\n"
 "PO-Revision-Date: 2022-04-28 19:11+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -22,37 +22,41 @@ msgstr "Fa"
 msgid "Censorship.no! - Browse Freely"
 msgstr "نه به سانسور! آزادانه در اینترنت بگردید"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:83-17
-msgid "How It Works"
-msgstr "نحوه عملکرد"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "About"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
-msgid "User Manual"
-msgstr "راهنمای کاربر"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:89-17
+msgid "Support"
+msgstr ""
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
-msgstr "همراه شوید!"
+#: index.html%2Bhtml.body.nav.div.div.ul.li:94-17
+msgid "News"
+msgstr ""
 
-#: index.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+#: index.html%2Bhtml.body.nav.div.div.ul.li:97-17
+msgid "Community"
+msgstr ""
+
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "CENO را دریافت کنید"
 
-#: index.html%2Bhtml.body.nav.div.div.div:95-10
+#: index.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr "دانلود"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: index.html%2Bhtml.body.nav.div.div.div:97-1
+#: index.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "FA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
-#: index.html%2Bhtml.body.nav.div.div.div.div:103-5
+#: index.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -72,15 +76,15 @@ msgstr ""
 "\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
 "\"../uk/index.html\">Українська</a>"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:128-9
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:134-9
 msgid "CENO Browser banner"
 msgstr "نشان مرورگر CENO"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:133-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:139-7
 msgid "Share the web!"
 msgstr "وب را به اشتراک بگذار!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p:134-3
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:140-3
 msgid ""
 "CENO (short for Censorship.no!) is a mobile Web browser using a novel "
 "approach to circumvent Internet censorship infrastructure, allowing users "
@@ -92,27 +96,27 @@ msgstr ""
 "ساکن در یک کشور یا منطقه‌ای که تحت سانسور است، اجازه می‌دهد تا محتوای بازیابی "
 "شده را با یکدیگر به‌طور همتا به همتا به اشتراک بگذارند."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:137-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:143-15
 msgid "Get it on Google Play"
 msgstr "آن را از روی گوگل پلی دریافت کنید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:140-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:146-17
 msgid "Get it on Paskoocheh"
 msgstr "آن را از روی پسکوچه دریافت کنید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:143-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:149-17
 msgid "Get it on Github"
 msgstr "از گیت‌هاب دریافت کنید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:158-14
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:164-14
 msgid "Browse Freely"
 msgstr "آزادانه وب را مرور کنید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:159-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:165-15
 msgid "Unlock the Web"
 msgstr "قفل وب را باز کنید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:160-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:166-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
 "internet is down or censored. Install CENO Browser today and be prepared for "
@@ -122,15 +126,15 @@ msgstr ""
 "اینترنت به محتوای وب دسترسی پیدا کنید. مرورگر CENO را امروز نصب کنید تا برای "
 "دفعه بعدی که اینترنت شما قطع شد🔌، آماده باشید."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:167-13
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:173-13
 msgid "Grow the network - Become a bridge!"
 msgstr "شبکه را گسترش بدهید، تبدیل به یک پل بشوید!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:168-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:174-15
 msgid "Grow the Network"
 msgstr "شبکه را گسترش بدهید"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:169-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:175-15
 msgid ""
 "Fight censorship by becoming a bridge! Install and run CENO Browser to "
 "instantly join the network and expand the availability of blocked websites "
@@ -140,17 +144,25 @@ msgstr ""
 "بلافاصله به شبکه بپیوندید و امکان دسترسی به وب‌سایت‌های مسدود شده در کشورهای "
 "تحت سانسور را گسترش بدهید."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:176-13
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:176-13"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:182-13
+#, fuzzy
+#| msgctxt ""
+#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:176-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:182-13"
 msgid "Free and Open Source"
 msgstr "رایگان و متن‌باز"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:177-15
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:177-15"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:183-15
+#, fuzzy
+#| msgctxt ""
+#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:176-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:183-15"
 msgid "Free and Open Source"
 msgstr "رایگان و متن‌باز"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:178-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:184-15
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
 "\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
@@ -158,13 +170,13 @@ msgid ""
 "developers to incorporate the CENO network into their apps for P2P "
 "connectivity."
 msgstr ""
-"مرورگر CENO مبتنی بر <a href=\"https://www.mozilla.org/firefox/android/\""
-">فایرفاکس اندروید</a> برای استفاده از خاصیت‌های ابتکارانه <a href=\"https"
-"://github.com/equalitie/ouinet\">Ouinet library</a> توسعه یافته و توسعه‌"
-"دهندگان شخص ثالث را قادر می‌سازد تا شبکه CENO را برای اتصال همتا به همتا در "
-"برنامه‌های خود بگنجانند."
+"مرورگر CENO مبتنی بر <a href=\"https://www.mozilla.org/firefox/android/"
+"\">فایرفاکس اندروید</a> برای استفاده از خاصیت‌های ابتکارانه <a href=\"https://"
+"github.com/equalitie/ouinet\">Ouinet library</a> توسعه یافته و توسعه‌دهندگان "
+"شخص ثالث را قادر می‌سازد تا شبکه CENO را برای اتصال همتا به همتا در برنامه‌های "
+"خود بگنجانند."
 
-#: index.html%2Bhtml.body.footer.div.p:198-9
+#: index.html%2Bhtml.body.footer.div.p:204-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -181,13 +193,26 @@ msgstr ""
 "تمامی افراد هدایت کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:200-23
+#: index.html%2Bhtml.body.footer:206-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "How It Works"
+#~ msgstr "نحوه عملکرد"
+
+#~ msgid "User Manual"
+#~ msgstr "راهنمای کاربر"
+
+#~ msgid "Get Involved!"
+#~ msgstr "همراه شوید!"
+
+#~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:177-15"
+#~ msgid "Free and Open Source"
+#~ msgstr "رایگان و متن‌باز"
 
 #~ msgid "Censorship.no!"
 #~ msgstr "نه به سانسور!"

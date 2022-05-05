@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 15:31-0700\n"
+"POT-Creation-Date: 2022-05-05 12:16-0700\n"
 "PO-Revision-Date: 2022-04-04 21:08+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
@@ -22,37 +22,41 @@ msgstr "id"
 msgid "Censorship.no! - How It Works"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:83-17
-msgid "How It Works"
-msgstr "Cara Kerjanya"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
+msgid "About"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
-msgid "User Manual"
-msgstr "Panduan Pengguna"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
+msgid "Support"
+msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
-msgid "Get Involved!"
-msgstr "Ikut terlibat!"
+#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
+msgid "News"
+msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:95-15
+#: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
+msgid "Community"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Install CENO"
 
-#: about.html%2Bhtml.body.nav.div.div.div:95-10
+#: about.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:97-1
+#: about.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "ID"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
-#: about.html%2Bhtml.body.nav.div.div.div.div:103-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
 "\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -64,47 +68,47 @@ msgid ""
 "\"../uk/about.html\">Українська</a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.h1:124-6
+#: about.html%2Bhtml.body.main.div.h1:130-6
 msgid "How CENO Browser Works"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:132-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:138-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:146-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:154-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:162-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:170-3
 msgid ""
 "CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:178-3
 msgid ""
 "Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:180-1
+#: about.html%2Bhtml.body.main.div.div:186-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
@@ -116,7 +120,7 @@ msgid ""
 "button></a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.footer.div.p:199-9
+#: about.html%2Bhtml.body.footer.div.p:205-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a Canadian company developing open and reusable systems with a focus on "
@@ -127,13 +131,22 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:201-23
+#: about.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "How It Works"
+#~ msgstr "Cara Kerjanya"
+
+#~ msgid "User Manual"
+#~ msgstr "Panduan Pengguna"
+
+#~ msgid "Get Involved!"
+#~ msgstr "Ikut terlibat!"
 
 #~ msgid "Get CENO Browser"
 #~ msgstr "Install Browser CENO"
