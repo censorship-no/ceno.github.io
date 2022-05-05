@@ -63,11 +63,29 @@ p {
     font-size: 1.08em;
 }
 
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.navbar li:nth-child(n+1) {
+    list-style: none;
+}
+
+li {
+    font-size: 1.08em;
+    list-style: square;
+}
+
 img#equalitieLogo {
     margin-top: 26px;
     width: 162px;
 }
 
+img.hasBorder { 
+    border:2px solid #0EA5E9;
+    border-radius: 15px;
+}
 
 div.row {
     margin: 20 !important;
@@ -95,7 +113,7 @@ div.row {
 
 .btn-outline-danger {
     border-color: #EA580C;
-    font-size:3em;
+    font-size:1.25em;
     color: #EA580C;
 }
 
