@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 15:06-0700\n"
-"PO-Revision-Date: 2022-05-06 17:01+0000\n"
+"PO-Revision-Date: 2022-05-06 18:27+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/uk/>\n"
@@ -367,6 +367,10 @@ msgid ""
 "each user (served via injectors and received from the p2p network) and how "
 "much each user’s specific device has shared with other users."
 msgstr ""
+"Браузер CENO відображає ресурси, надані безпосередньо від джерела кожному "
+"користувачеві (обслуговуються через інжектори та отримані від мережі p2p), а "
+"також якими ресурсами конкретний пристрій кожного користувача поділився з "
+"іншими користувачами."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:233-2
 msgid ""
@@ -374,6 +378,10 @@ msgid ""
 "number of reachable bridge nodes and origin sources in the DHT, and (ii) the "
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
+"Основні показники продуктивності для версії CENO з білою етикеткою включають "
+"(i) кількість доступних вузлів мосту та основних джерел в DHT, і (ii) "
+"пропускну здатність і кількість окремих веб-ресурсів, що обслуговуються "
+"серверами-інжекторами."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:234-2
 msgid ""
@@ -384,6 +392,12 @@ msgid ""
 "of network injectors, (ii) country of origin and (iii) queries of the "
 "distributed hash table for unique device identifiers."
 msgstr ""
+"Інші показники розроблені та налаштовані для більшої видимості та "
+"вимірювання продуктивності з огляду на функцію децентралізованої роботи "
+"CENO. Без ідентифікації користувачів можна точно оцінити користування за "
+"допомогою (i) псевдонімних ідентифікаторів мережі та використання ними "
+"мережевих інжекторів, (ii) країни походження та (iii) запитів розподіленої "
+"хеш-таблиці для унікальних ідентифікаторів пристроїв."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:235-2
 msgid ""
@@ -391,10 +405,14 @@ msgid ""
 "users robust privacy-respecting analytics that measure metrics including "
 "distributed cache usage from the user’s vantage point."
 msgstr ""
+"Інтеграція Clean Insights SDK використовується як спосіб надати користувачам "
+"надійну аналітику, що побудована на засадах поваги до конфіденційності, та "
+"яка вимірює показники, включно з використанням розподіленого кешу з точки "
+"зору користувача."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:237-1
 msgid "Ouinet in March 2022"
-msgstr ""
+msgstr "Ouinet станом на березень 2022 р"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:238-2
 msgid ""
@@ -402,14 +420,16 @@ msgid ""
 "to the decentralized content-sharing network, from more than 30,000 unique "
 "websites."
 msgstr ""
+"Інжектори Ouinet ввели в децентралізовану мережу обміну контентом приблизно "
+"2 мільйони сторінок (602 Гб даних) з-понад 30 000 унікальних веб-сайтів."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:242-1
 msgid "User comments"
-msgstr ""
+msgstr "Коментарі користувачів"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:243-1
 msgid "Russia"
-msgstr ""
+msgstr "Росія"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:244-2
 msgid ""
@@ -424,22 +444,37 @@ msgid ""
 "besides helping to access websites, it also looks quite innocent which is "
 "great.”"
 msgstr ""
+"«Оскільки Росія погрожує заблокувати cервіси VPN, CENO є перспективним. "
+"Також в очах інтернет-провайдера це ніби якийсь торрент-трафік, а торренти є "
+"чимось дуже унормованим у Росії на відміну від західних країн, де авторське "
+"право дійсно поважається. Також у Москві поліція почала вимагати від людей "
+"показувати їхні телефони, і вони переглядають додатки, які у вас є. У мене "
+"була така перевірка. Вони звертають увагу передусім на VPN або месенджери, "
+"такі як Signal або Telegram. А CENO виглядає як звичайний браузер, тому, "
+"коли вони запитали, що це таке, я сказав, що це браузер, без проблем та "
+"зайвих запитань. Я просто вирішив регулярно очищати історію перегляду перед "
+"завершенням користування . Тож, крім того, що браузер допомагає отримати "
+"доступ до веб-сайтів, він також виглядає досить невинно, що чудово»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:245-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
+"«Дякую за чудовий продукт. Ваш браузер відкриває сайт http://meduza.io "
+"набагато швидше, ніж додаток від @meduzaproject»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:246-2
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
+"«Чудовий браузер. Без VPN мені вдалося відкрити заблоковані ресурси. А ще "
+"браузер корисний, коли у вас немає зв’язку»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:248-1
 msgid "Myanmar"
-msgstr ""
+msgstr "М'янма"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:249-2
 msgid ""
@@ -447,22 +482,30 @@ msgid ""
 "see that it works well with this app. This is our digital rights. So I will "
 "continue to use it sometimes.”"
 msgstr ""
+"«Те, що сайти є заблокованими, створює багато незручностей. Приємно бачити, "
+"що сайти добре працюють з цією програмою. Це наші цифрові права. Тому я й "
+"надалі час від часу використовуватиму браузер»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:250-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
+"«Я б хотів бачити більше функцій в додатку, але це абсолютно зручна та "
+"корисна програма»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:252-1
 msgid "Iran"
-msgstr ""
+msgstr "Іран"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:253-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
+"«Цей додаток є однією з небагатьох наших надій у часи серйозних збоїв в "
+"Інтернеті в Ірані. Будь ласка, продовжуйте розробляти браузер та робити його "
+"все краще і краще. Дякую\"."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:254-2
 msgid ""
@@ -470,10 +513,13 @@ msgid ""
 "possibility of free use of the Internet and everything is filtered by the "
 "government, even filter breakers.”"
 msgstr ""
+"«Це хороший браузер, особливо для нас, іранців, які не мають можливості "
+"користування вільним Інтернетом, і все фільтрується урядом, навіть сервіси "
+"для обходу фільтрації»."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:259-1
 msgid "Internet shutdowns"
-msgstr ""
+msgstr "Відключення інтернету"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:260-2
 msgid ""
@@ -482,6 +528,10 @@ msgid ""
 "shutdowns is often missing from story documentation. A shutdown can refer to "
 "the following:"
 msgstr ""
+"Відключення інтернету – це широкий термін, який охоплює різні технічні та "
+"юридичні сценарії обмеження доступу до інтернету. Точна технічна інформація "
+"про вимкнення часто відсутня під час документації таких випадків. Вимкнення "
+"може означати наступне:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:262-2
 msgid ""
@@ -493,6 +543,13 @@ msgid ""
 "international transit connections are artificially throttled (e.g., Indian "
 "Kashmir in 2019–2020 and Cuba)."
 msgstr ""
+"<strong>Рівень 1.</strong> Повний або частковий збій Інтернет-сервісів через "
+"цензуру, кібератаки, стихійні лиха, помилки або втручання поліції або служб "
+"безпеки. CENO призначений для сценаріїв надзвичайної цензури мережі, коли "
+"VPN-сервіси, як правило, більше не доступні (наприклад, Росія в 2022 році, "
+"Білорусь у 2020 році та Іран у 2019 році) або коли міжнародні транзитні "
+"сполучення штучно обмежені (наприклад, індійський Кашмір у 2019–2020 роках "
+"та Куба )."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:263-2
 msgid ""
@@ -501,6 +558,10 @@ msgid ""
 "country are accessible, yet the local or national network continues to "
 "function."
 msgstr ""
+"<strong>Рівень 2.</strong> Заборона на міжнародне транзитне сполучення ("
+"наприклад, Казахстан у 2021 році), так як сервери чи служби, що розташовані "
+"за межами країни є недоступними, але місцева чи національна мережа продовжує "
+"функціонувати."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:264-2
 msgid ""
@@ -509,6 +570,11 @@ msgid ""
 "still works peer to peer when devices remain powered and are in close "
 "proximity."
 msgstr ""
+"<strong>Рівень 3:</strong> Коли електрики більше немає, як-от під час "
+"стихійних лих на рівні країни та у воєнний час (наприклад, Маріуполь у 2022 "
+"році). CENO все ще працює у форматі однорангової мережі, коли пристрої "
+"залишаються підключеними та перебувають у безпосередній близькості один від "
+"одного."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:266-2
 msgid ""
@@ -519,6 +585,11 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"Дедалі більше країн впроваджують складні технології спостереження та "
+"фільтрації мережі з метою протидії сучасним методам обходу цензури, а також "
+"обмежити комунікації та вільний потік інформації в інтернеті. Деякі уряди "
+"вдалися до відключення цілих мереж – у різних районах, регіонах та країнах – "
+"від міжнародного підключення."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:267-2
 msgid ""
@@ -529,10 +600,17 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"Більшість відомих сьогодні методів обходу цензури потребують аби користувач "
+"спочатку підключився до ретранслятора, розташованого в зоні без цензури. "
+"Отримана в результаті гра «кішки-мишки» між цензурою та методом обходу ("
+"останній вдається до креативного поширення проксі-серверів, обфускації "
+"трафіку, побічних збитків, партнерства з провайдером для переломлення мережі "
+"тощо) більше не є достатньою аби забезпечити підключення та поширення "
+"цифрового контенту."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:269-1
 msgid "How CENO side-steps censorship"
-msgstr ""
+msgstr "Як CENO обходить цензуру"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:270-2
 msgid ""
