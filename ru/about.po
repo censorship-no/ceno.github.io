@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 12:16-0700\n"
+"POT-Creation-Date: 2022-05-09 08:43-0700\n"
 "PO-Revision-Date: 2022-05-05 22:17+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,10 +19,6 @@ msgstr ""
 msgid "en"
 msgstr "ru"
 
-#: about.html%2Bhtml.head.title:24-5
-msgid "Censorship.no! - How It Works"
-msgstr "Censorship.no! — Как это работает"
-
 #: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
 msgstr "О проекте"
@@ -32,10 +28,6 @@ msgstr "О проекте"
 #: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
 msgstr "Поддержка"
-
-#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
-msgid "News"
-msgstr "Новости"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
@@ -158,12 +150,12 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Браузер CENO — это проект канадской компании <a href=\"https://equalit.ie\""
-">eQualit.ie</a> разрабатывающей открытые и многофункциональные системы, "
+"Браузер CENO — это проект канадской компании <a href=\"https://equalit.ie"
+"\">eQualit.ie</a> разрабатывающей открытые и многофункциональные системы, "
 "ориентированные на конфиденциальность, онлайн-безопасность и свободу слова. "
-"Технологические решения и инновации основываются на наших <a href=\"https"
-"://equalit.ie/en/values/\">ценностях</a>, которые помогают нам защищать "
-"права и стремления всех, кто находится в сети."
+"Технологические решения и инновации основываются на наших <a href=\"https://"
+"equalit.ie/en/values/\">ценностях</a>, которые помогают нам защищать права и "
+"стремления всех, кто находится в сети."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:207-23
@@ -173,6 +165,12 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Censorship.no! - How It Works"
+#~ msgstr "Censorship.no! — Как это работает"
+
+#~ msgid "News"
+#~ msgstr "Новости"
 
 #~ msgid "How It Works"
 #~ msgstr "Как это работает"
