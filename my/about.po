@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 12:16-0700\n"
+"POT-Creation-Date: 2022-05-09 08:43-0700\n"
 "PO-Revision-Date: 2022-05-05 22:51+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,10 +18,6 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
-#: about.html%2Bhtml.head.title:24-5
-msgid "Censorship.no! - How It Works"
-msgstr "Censorship.no! - အလုပ်လုပ်ပုံ"
-
 #: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
 msgstr "အကြောင်းအရာ"
@@ -31,10 +27,6 @@ msgstr "အကြောင်းအရာ"
 #: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
 msgstr "အကူအညီ"
-
-#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
-msgid "News"
-msgstr "သတင်း"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
@@ -156,14 +148,11 @@ msgid ""
 "\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ "
-"လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် နည်းစနစ်များ "
-"စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https"
-"://equalit.ie\">eQualit.ie</a> အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ "
-"ကျွန်ပ်တို့၏ အားလုံးအတွက် အွန်လိုင်းတွင် ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် "
-"ဆိုသော<a href=\"https://equalit.ie/en/values/\">တန်ဖိုးများ</a>က "
-"နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း "
-"ဖြစ်ပါသည်။"
+"CENO ဘရောက်ဇာသည် ပုဂ္ဂလိကလုံခြုံမှု၊ အင်တာနက်လုံခြုံမှု၊ လွတ်လပ်စွာဖွဲ့စည်းနိုင်မှု၊ ပွင့်လင်းမှု၊ ပြန်သုံးနိုင်သည့် "
+"နည်းစနစ်များ စသည်တို့ အပေါ်တွင် အာရုံစိုက်လုပ်ဆောင်နေသည့် ကနေဒါအခြေစိုက် <a href=\"https://equalit."
+"ie\">eQualit.ie</a> အမည်ရှိ ကုမ္ပဏီ၏ စီမံကိန်းတစ်ခု ဖြစ်သည်။ ကျွန်ပ်တို့၏ အားလုံးအတွက် အွန်လိုင်းတွင် "
+"ရပိုင်ခွင့်များကို ကာကွယ်နိုင်စေရန် ဆိုသော<a href=\"https://equalit.ie/en/values/"
+"\">တန်ဖိုးများ</a>က နည်းပညာထုတ်ကုန်များနှင့် တီထွင်ဖန်တီးနိုင်မှုတို့ကို ဉီးဆောင်မောင်းနှင်ခြင်း ဖြစ်ပါသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:207-23
@@ -173,6 +162,12 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Censorship.no! - How It Works"
+#~ msgstr "Censorship.no! - အလုပ်လုပ်ပုံ"
+
+#~ msgid "News"
+#~ msgstr "သတင်း"
 
 #~ msgid "How It Works"
 #~ msgstr "အလုပ်လုပ်ပုံ"
