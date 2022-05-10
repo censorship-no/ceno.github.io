@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-09 09:02-0700\n"
+"POT-Creation-Date: 2022-05-10 10:38-0700\n"
 "PO-Revision-Date: 2022-05-05 22:51+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -27,6 +27,10 @@ msgstr "در باره"
 #: news.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
 msgstr "راهنمای کاربر"
+
+#: news.html%2Bhtml.body.nav.div.div.ul.li:94-17
+msgid "News"
+msgstr "اخبار"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
@@ -70,13 +74,15 @@ msgstr ""
 
 #: news.html%2Bhtml.body.main.div.h1:129-5
 msgid "News and Media"
-msgstr ""
+msgstr "اخبار و رسانه‌"
 
 #: news.html%2Bhtml.body.main.div.p:130-2
 msgid ""
 "Read the latest updates from the CENO team, check out past coverage, and "
 "find resources for journalists and researchers."
 msgstr ""
+"آخرین مطالب مرتبط با به‌روزرسانی‌‌های تیم CENO را بخوانید، موارد پیشین را بررسی "
+"و منابعی برای روزنامه‌نگاران و محققان پیدا کنید."
 
 #: news.html%2Bhtml.body.main.div.section.h2:134-2
 msgid "Our News"
@@ -139,12 +145,13 @@ msgid ""
 msgstr ""
 
 #: news.html%2Bhtml.body.footer.div.p:227-9
+#, fuzzy
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
-"a Canadian company developing open and reusable systems with a focus on "
-"privacy, online security and freedom of association. Technology solutions "
-"and innovations are driven by our <a href=\"https://equalit.ie/en/values/"
-"\">values</a> that guide us to protect the rights and aspirations of "
+"a not-for-profit Canadian company developing open and reusable systems with "
+"a focus on privacy, online security and freedom of association. Technology "
+"solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
+"values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
 "مرورگر CENO پروژه‌ای است که از طرف <a href=\"https://equalit.ie\">eQualit.ie</"
@@ -162,6 +169,3 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
-
-#~ msgid "News"
-#~ msgstr "اخبار"
