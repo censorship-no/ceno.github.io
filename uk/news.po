@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 12:42-0700\n"
-"PO-Revision-Date: 2022-05-09 19:38+0000\n"
+"PO-Revision-Date: 2022-05-10 20:02+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website-news/uk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: news.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "uk"
+msgstr "ua"
 
 #: news.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
@@ -39,7 +39,7 @@ msgstr "Спільнота"
 
 #: news.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
-msgstr "Отримати CENO"
+msgstr "Завантажити CENO"
 
 #: news.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
@@ -48,7 +48,7 @@ msgstr "Завантажити"
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: news.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr "UK"
+msgstr "UA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -143,17 +143,12 @@ msgid "Explore"
 msgstr "Дізнайся більше"
 
 #: news.html%2Bhtml.body.main.div.p:211-2
-#, fuzzy
-#| msgid ""
-#| "For press and media inquiries, please contact Jenny Ryan at: jenny [at] "
-#| "equalit [dot] ie [PGP: 8AA3 7DFF 2190 ADA3 7C08 05F2 E76E BE2F D25B 0F57]"
 msgid ""
 "For press and media inquiries, please contact Jenny Ryan at: press [at] "
 "equalitie [dot] org"
 msgstr ""
 "Для запитів від журналістів, будь ласка, контактуйте з Jenny Ryan через: "
-"jenny [at] equalit [dot] ie [PGP: 8AA3 7DFF 2190 ADA3 7C08 05F2 E76E BE2F "
-"D25B 0F57]"
+"press [at] equalitie [dot] org"
 
 #: news.html%2Bhtml.body.footer.div.p:227-9
 msgid ""
@@ -164,9 +159,9 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser – це проект <a href=\"https://equalit.ie\">eQualit.ie</a> – "
-"канадської компанії, що розробляє відкриті та багаторазові системи з "
-"акцентом на конфіденційності, онлайн-безпеці та свободі асоціацій. "
+"CENO Browser – це проект некомерційної канадської компанії <a href=\"https://"
+"equalit.ie\">eQualit.ie</a>, що розробляє відкриті та багатофункціональні "
+"системи з акцентом на конфіденційності, онлайн-безпеці та свободі асоціацій. "
 "Технологічні рішення та інновації походять з наших <a href=\"https://equalit."
 "ie/en/values/\">цінностей</a>, що допомагають нам захищати права та "
 "прагнення кожного в iнтернеті."
@@ -179,6 +174,15 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: news.html%2Bhtml.body.main.div.p:211-2
+msgid ""
+"For press and media inquiries, please contact Jenny Ryan at: jenny [at] "
+"equalit [dot] ie [PGP: 8AA3 7DFF 2190 ADA3 7C08 05F2 E76E BE2F D25B 0F57]"
+msgstr ""
+"Для запитів від журналістів, будь ласка, контактуйте з Jenny Ryan через: "
+"jenny [at] equalit [dot] ie [PGP: 8AA3 7DFF 2190 ADA3 7C08 05F2 E76E BE2F "
+"D25B 0F57]"
 
 #~ msgid ""
 #~ "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
