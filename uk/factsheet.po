@@ -138,6 +138,12 @@ msgid ""
 "\">Paskoocheh</a>, and <a href=\"CENO website, Google Play, Github, "
 "Paskoocheh and Zanga.tech\">Zanga.tech</a>"
 msgstr ""
+"<a href=\"https://censorship.no/download\">Censorship.no</a>, <a href="
+"\"https://play.google.com/store/apps/details?id=ie.equalit.ceno\">Google "
+"Play</a>, <a href=\"https://github.com/censorship-no/ceno-browser/releases"
+"\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/android.html?"
+"\">Paskoocheh</a>, i <a href=\"CENO website, Google Play, Github, Paskoocheh "
+"and Zanga.tech\">Zanga.tech</a>"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:150-2
 msgid "No special permissions are required"
@@ -180,10 +186,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:160-2
 #, fuzzy
-#| msgid ""
-#| "CENO content remains stable and cannot be forcibly removed by external "
-#| "tools, even during media censorship events, shutdowns, natural "
-#| "disruptions, unrest and conflict"
 msgid ""
 "CENO content remains stable and cannot be forcibly removed by external "
 "agents, even during media censorship events, shutdowns, natural disruptions, "
@@ -204,9 +206,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:162-2
 #, fuzzy
-#| msgid ""
-#| "Performance improves with scale: more users reduces latency and increases "
-#| "storage, unlike the proxy/virtual private network (VPN) model"
 msgid ""
 "Performance improves with scale (unlike the proxy/virtual private network "
 "(VPN) model); more users reduces latency and increases storage"
@@ -221,9 +220,6 @@ msgstr "Як:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:166-2
 #, fuzzy
-#| msgid ""
-#| "Works like BitTorrent, but is a browser that pulls, reserves and shares "
-#| "content from many networked sources rather than from one web server source"
 msgid ""
 "Works like BitTorrent - pulling, reserving and sharing content from many "
 "networked sources rather than from one web server source - but is a browser"
@@ -233,9 +229,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:167-2
 #, fuzzy
-#| msgid ""
-#| "Underlying decentralized p2p network uses well-weathered open-source "
-#| "Ouinet library and BitTorrent protocols, making it resilient and reliable"
 msgid ""
 "Underlying decentralized p2p network uses established open-source Ouinet "
 "library and BitTorrent protocols, making it resilient and reliable"
@@ -250,9 +243,6 @@ msgstr "При цьому виглядає й працює як інші бра�
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:169-2
 #, fuzzy
-#| msgid ""
-#| "Equipped to share cached content offline and via local area networks "
-#| "(LANs)"
 msgid ""
 "Equipped to share cached content offline and on local area networks (LANs)"
 msgstr ""
@@ -265,10 +255,6 @@ msgstr "Що є eQualitie?"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:173-9
 #, fuzzy
-#| msgid ""
-#| "Montreal-based digital security firm that has developed open-source and "
-#| "reusable systems with a focus on online privacy, resilience and self-"
-#| "determination since 2010."
 msgid ""
 "Montreal-based digital security firm that has developed open-source and "
 "reusable systems and tools since 2010, with a focus on online privacy, "
@@ -284,10 +270,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:175-2
 #, fuzzy
-#| msgid ""
-#| "Founded by Dmitri Vitaliev, eQualitie maintains the Deflect website "
-#| "security platform and leads several initiatives focused on free and "
-#| "secure communications in authoritarian states."
 msgid ""
 "Leads several initiatives focused on free and secure communications in "
 "authoritarian states"
@@ -447,7 +429,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:239-1
 #, fuzzy
-#| msgid "Ouinet in March 2022"
 msgid "Ouinet in April 2022"
 msgstr "Ouinet станом на березень 2022 р"
 
@@ -466,11 +447,6 @@ msgstr "Відключення інтернету"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:245-9
 #, fuzzy
-#| msgid ""
-#| "Internet shutdown is a broad term covering various technical and legal "
-#| "Internet access restriction scenarios. Precise technical information on "
-#| "shutdowns is often missing from story documentation. A shutdown can refer "
-#| "to the following:"
 msgid ""
 "Internet shutdowns is a broad term covering various Internet access "
 "restriction scenarios. Precise technical information on shutdowns is often "
@@ -501,11 +477,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:248-9
 #, fuzzy
-#| msgid ""
-#| "<strong>Level 2:</strong> A ban on international transit connections (e."
-#| "g., Kazakhstan in 2021), such that no servers or services located outside "
-#| "the country are accessible, yet the local or national network continues "
-#| "to function."
 msgid ""
 "<strong>Level 2:</strong> A ban on international transit connections (e.g., "
 "Kazakhstan in 2021), such that no servers or services located outside the "
@@ -605,17 +576,6 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:263-2
 #, fuzzy
-#| msgid ""
-#| "“Because Russia threatens to block VPNs CENO is promising. Also because "
-#| "for your ISP it's like some Torrent traffic, and torrents are something "
-#| "very normalized in Russia unlike western countries where copyright is "
-#| "really respected. Also in Moscow police started asking people to show "
-#| "their phones and they look at apps that you have. I had this kind of "
-#| "control. They look at VPNs or messengers like Signal or Telegram. And "
-#| "CENO looks like a normal browser, so when they asked what it is I said it "
-#| "is a browser, no problem, no questions. I just chose to regularly clear "
-#| "browsing history at exit. So besides helping to access websites, it also "
-#| "looks quite innocent which is great.”"
 msgid ""
 "“Because Russia threatens to block VPNs, CENO is promising. Also because for "
 "your ISP it's like some Torrent traffic, and torrents are something very "
@@ -694,14 +654,6 @@ msgstr ""
 "для обходу фільтрації»."
 
 #: factsheet.html%2Bhtml.body.footer.div.p:290-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a Canadian company developing open and reusable systems with a focus "
-#| "on privacy, online security and freedom of association. Technology "
-#| "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#| "en/values/\">values</a> that guide us to protect the rights and "
-#| "aspirations of everyone online."
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
