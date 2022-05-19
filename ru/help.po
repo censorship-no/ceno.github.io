@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 10:38-0700\n"
+"POT-Creation-Date: 2022-05-19 16:55-0700\n"
 "PO-Revision-Date: 2022-05-19 18:04+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.13-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
@@ -55,194 +55,159 @@ msgstr "RU"
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/help.html">Français</a
 #: help.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a class="
-"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help.html"
-"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
-"\"../uk/help.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/help.html\">Українська</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a class="
-"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help.html"
-"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
-"\"../uk/help.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/help.html\">Українська</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:129-5
 msgid "Get Involved!"
 msgstr "Примите участие!"
 
 #: help.html%2Bhtml.body.main.div.p:130-2
+#, fuzzy
+#| msgid ""
+#| "We'd love your support in making CENO Browser as useful and accessible as "
+#| "possible."
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
-"possible."
+"possible. CENO is a completely Free/Libre/Open Source project, and there are "
+"many ways to contribute!"
 msgstr ""
 "Мы будем рады вашей поддержке в том, чтобы сделать браузер CENO максимально "
 "полезным и доступным."
 
-#: help.html%2Bhtml.body.main.div.h2:132-1
-msgid "Run a Bridge Node"
-msgstr "Поддерживать мост"
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:135-16
-msgid "﻿Want to help grow the network? Join the swarm!"
-msgstr "Хотите помочь с расширением сети? Присоединяйтесь к нам!"
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:138-16
-msgid ""
-"The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
-"spare, always-on device."
-msgstr ""
-"Максимально просто: Android. Запустите Браузер CENO на личном (или другом "
-"постоянно включенном) устройстве Android."
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:141-16
-msgid ""
-"﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can set "
-"up a bridge on your computer or VPS."
-msgstr ""
-"Запустите клиент CENO в Docker: Кроме того, с помощью всего одной команды вы "
-"можете настроить мост на своем компьютере или VPS."
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:144-16
-msgid ""
-"﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or set "
-"up port forwarding."
-msgstr ""
-"ОТКРОЙТЕ ДОСТУП В ИНТЕРНЕТ: Убедитесь, что на вашем маршрутизаторе включен "
-"UPnP, или настройте переадресацию портов."
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:147-16
-msgid ""
-"﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set the "
-"proxy to localhost, port 8077."
-msgstr ""
-"ЧТОБЫ ПРОВЕРИТЬ, ВСЁ ЛИ РАБОТАЕТ: Создайте и новый профиль Firefox и "
-"настройте в качестве прокси-сервера localhost на порту 8077."
-
-#: help.html%2Bhtml.body.main.div.div.div.img[alt]:150-16
-msgid ""
-"﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
-"provided certificate to test it out!"
-msgstr ""
-"СПАСИБО, ЧТО ВЫ С НАМИ! Установите веб-расширение CENO и предоставленный "
-"сертификат, чтобы всё протестировать!"
-
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.p:153-2
-msgid ""
-"To learn more about setting up a bridge, please consult the <a href=\"../"
-"user-manual/en/browser/bridging.html\">user manual.</a>"
-msgstr ""
-"Более подробную информацию о настройке моста можно получить в <a href=\"../"
-"user-manual/ru/browser/bridging.html\">руководстве пользователя.</a>"
-
-#: help.html%2Bhtml.body.main.div.h2:159-1
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:140-17
 msgid "Translations"
 msgstr "Переводы"
 
-#: help.html%2Bhtml.body.main.div.p:160-2
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:142-9
+#, fuzzy
+#| msgid ""
+#| "Help translate the CENO Browser app, web extension, user manual and "
+#| "website!"
 msgid ""
-"Help translate the CENO Browser app, web extension, user manual and website!"
+"Help translate the CENO Browser app, web extension, user manual and website! "
+"We use Weblate to crowdsource translations."
 msgstr ""
 "Помогите перевести приложение браузера CENO, веб-расширение, руководство "
 "пользователя и веб-сайт!"
 
-#: help.html%2Bhtml.body.main.div.p:161-2
-msgid "To get started:"
-msgstr "Для начала:"
-
-#: help.html%2Bhtml.body.main.div.ol.li:163-6
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:143-13
+#, fuzzy
+#| msgid ""
+#| "Please contact the CENO team via the contact form below if you're "
+#| "interested in becoming a reviewer for translation(s) in your language(s)."
 msgid ""
-"Make an account on <a href=\"https://weblate.org/\">Weblate</a> or sign in "
-"with your Github or Gitlab ID. Note: Account creation is not required, but "
-"you will only be able to suggest translations in this case."
-msgstr ""
-"Зарегистрируйтесь на сайте <a href=\"https://weblate.org/\">Weblate</a> или "
-"войдите через свой аккаунт на Github или Gitlab. Примечание: Создание "
-"учетной записи не требуется, но в этом случае вы сможете только предлагать "
-"переводы."
-
-#: help.html%2Bhtml.body.main.div.ol.li:164-6
-msgid ""
-"Visit the <a href=\"https://hosted.weblate.org/projects/censorship-no/"
-"\">Censorship.no project page</a> - which lists all components and their "
-"strings (including Android app strings, the web browser extension, the User "
-"Manual and the website)."
-msgstr ""
-"Посетите <a href=\"https://hosted.weblate.org/projects/censorship-no/"
-"\">страницу проекта Censorship.no</a>, где перечислены все компоненты "
-"проекта и их строки (включая строки приложения Android, расширения веб-"
-"браузера, руководства пользователя и веб-сайта)."
-
-#: help.html%2Bhtml.body.main.div.ol.li:165-6
-msgid ""
-"On the <a href=\"https://hosted.weblate.org/projects/censorship-no/#languages"
-"\">Censorship.no project page's 'Languages' tab</a>, choose the language you "
-"want to work on, or -- in case the language doesn't exist yet -- initiate a "
-"new language by selecting a component from the main project page and "
-"clicking on the \"Start a new translation\" button."
-msgstr ""
-"Во вкладке <a href=\"https://hosted.weblate.org/projects/censorship-no/"
-"#languages\">«Языки» на странице проекта Censorship.no</a> выберите язык, "
-"над которым хотите поработать, или — если не найдете свой язык — добавьте "
-"новый язык, выбрав компонент на главной странице проекта и нажав кнопку "
-"«Начать новый перевод»."
-
-#: help.html%2Bhtml.body.main.div.p:166-6
-msgid ""
-"Please contact the CENO team via the contact form below if you're interested "
-"in becoming a reviewer for translation(s) in your language(s)."
+"Please contact the CENO team at cenoers [at] equalit [dot] ie (or the "
+"contact form below) if you're interested in becoming a reviewer for "
+"translation(s) in your language(s)."
 msgstr ""
 "Пожалуйста, свяжитесь с командой CENO через контактную форму ниже, если вы "
 "хотели бы вычитывать (проверять) переводы на вашем языке (или на ваших "
 "языках)."
 
-#: help.html%2Bhtml.body.main.div.p:167-6
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:144-13
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
-"Дополнительную информацию об использовании Weblate можно получить в <a href="
-"\"https://docs.weblate.org/\">документации Weblate.</a>"
+"Дополнительную информацию об использовании Weblate можно получить в <a "
+"href=\"https://docs.weblate.org/\">документации Weblate.</a>"
 
-#: help.html%2Bhtml.body.main.div.h2:169-1
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:145-17
+msgid "Join our Weblate"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:156-17
+msgid "User Research"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:157-3
+msgid ""
+"CENO relies on user feedback to understand the needs of our users and to "
+"suggest improvements and new features."
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:158-3
+msgid ""
+"Sharing your story also helps spread the word about CENO, which grows the "
+"network. With your consent, we may also highlight your story on our website!"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:159-3
+msgid ""
+"We welcome reviews on the Play Store as well as direct communications - you "
+"can get in touch with the team via the feedback button at the bottom of this "
+"website, or send us an email:"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:160-3
+msgid "cenoers [at] equalit [dot] ie"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:161-17
+msgid "Take a survey"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:172-17
 msgid "Source Code"
 msgstr "Исходный код"
 
-#: help.html%2Bhtml.body.main.div.p:170-2
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-3
+#, fuzzy
+#| msgid ""
+#| "CENO is completely Free/Libre/Open Source Software. If you are interested "
+#| "in its source code please check the following Git repositories:"
 msgid ""
-"CENO is completely Free/Libre/Open Source Software. If you are interested in "
-"its source code please check the following Git repositories:"
+"If you are interested in CENO's source code please check the following Git "
+"repositories:"
 msgstr ""
 "CENO — это полностью бесплатное и свободное программное обеспечение с "
 "открытым исходным кодом. Если вас интересует исходный код, ознакомьтесь со "
 "следующими репозиториями Git:"
 
-#: help.html%2Bhtml.body.main.div.ul.li:172-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:175-12
+#, fuzzy
+#| msgid ""
+#| "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
+#| "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
+#| "gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https://github.com/"
+#| "censorship-no/ceno-distribution\">included extensions</a>, <a "
+#| "href=\"https://github.com/censorship-no/ceno-ext-settings\">settings "
+#| "extension source</a>"
 msgid ""
-"Browser components: <a href=\"https://github.com/censorship-no/ceno-browser"
-"\">package builder</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
-"tree/ceno\">Firefox fork</a>, <a href=\"https://github.com/censorship-no/"
-"ceno-distribution\">included extensions</a>, <a href=\"https://github.com/"
-"censorship-no/ceno-ext-settings\">settings extension source</a>"
+"Browser components: <a href=\"https://github.com/censorship-no/ceno-"
+"browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
+"gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https:// ithub.com/"
+"censorship-no/ceno-distribution\">included extensions</a>, <a href=\"https://"
+"github.com/censorship-no/ceno-ext-settings\">settings extension source</a>"
 msgstr ""
-"Компоненты Браузера: <a href=\"https://github.com/censorship-no/ceno-browser"
-"\">компоновщик пакетов</a>, <a href=\"https://github.com/censorship-no/gecko-"
-"dev/tree/ceno\">форк Firefox</a>, <a href=\"https://github.com/censorship-no/"
-"ceno-distribution\">включенные расширения</a>, <a href=\"https://github.com/"
-"censorship-no/ceno-ext-settings\">исходный код расширения настроек</a>"
+"Компоненты Браузера: <a href=\"https://github.com/censorship-no/ceno-"
+"browser\">компоновщик пакетов</a>, <a href=\"https://github.com/censorship-"
+"no/gecko-dev/tree/ceno\">форк Firefox</a>, <a href=\"https://github.com/"
+"censorship-no/ceno-distribution\">включенные расширения</a>, <a "
+"href=\"https://github.com/censorship-no/ceno-ext-settings\">исходный код "
+"расширения настроек</a>"
 
-#: help.html%2Bhtml.body.main.div.ul.li:173-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:177-12
 msgid "Ouinet source"
 msgstr "Исходный код Ouinet"
 
-#: help.html%2Bhtml.body.main.div.p:175-2
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:178-12
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</a>, "
@@ -253,12 +218,106 @@ msgid ""
 msgstr ""
 "Вас также может заинтересовать (больше не поддерживаемая) <a href=\"https://"
 "github.com/censorship-no-archive/ceno1\">предыдущая версия CENO</a>, "
-"построенная на сети анонимного обмена файлами и публикации контента <a href="
-"\"https://freenetproject.org/\">Freenet</a>. Другие неактивные репозитории "
-"проекта можно найти в <a href=\"https://github.com/censorship-no-archive"
-"\">архиве Censorship.no!</a>."
+"построенная на сети анонимного обмена файлами и публикации контента <a "
+"href=\"https://freenetproject.org/\">Freenet</a>. Другие неактивные "
+"репозитории проекта можно найти в <a href=\"https://github.com/censorship-no-"
+"archive\">архиве Censorship.no!</a>."
 
-#: help.html%2Bhtml.body.footer.div.p:190-9
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:179-17
+msgid "Browse our Github"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.h2:192-1
+msgid "Run a Bridge Node"
+msgstr "Поддерживать мост"
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:198-3
+msgid "Become a bridge!"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:200-17
+#, fuzzy
+#| msgid "﻿Want to help grow the network? Join the swarm!"
+msgid "Want to help grow the network? Join the swarm!"
+msgstr "Хотите помочь с расширением сети? Присоединяйтесь к нам!"
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:207-3
+msgid "The easy way: Android"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:209-17
+#, fuzzy
+#| msgid ""
+#| "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
+#| "spare, always-on device."
+msgid ""
+"Run CENO Browser on your Android device, and/or a spare, always-on device."
+msgstr ""
+"Максимально просто: Android. Запустите Браузер CENO на личном (или другом "
+"постоянно включенном) устройстве Android."
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:216-3
+msgid "Run the CENO Docker Client"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:218-17
+msgid ""
+"Alternatively, with just one command you can set up a bridge on your "
+"computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
+"ouinet --network host --restart unless-stopped equalitie/ceno-client</code>"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:225-3
+msgid "Open a portal to the internet"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:227-17
+#, fuzzy
+#| msgid ""
+#| "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or "
+#| "set up port forwarding."
+msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
+msgstr ""
+"ОТКРОЙТЕ ДОСТУП В ИНТЕРНЕТ: Убедитесь, что на вашем маршрутизаторе включен "
+"UPnP, или настройте переадресацию портов."
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:234-3
+msgid "To see if it's working:"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:236-17
+#, fuzzy
+#| msgid ""
+#| "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set "
+#| "the proxy to localhost, port 8077."
+msgid ""
+"Create and open a new Firefox Profile, and set the proxy to localhost, port "
+"8077."
+msgstr ""
+"ЧТОБЫ ПРОВЕРИТЬ, ВСЁ ЛИ РАБОТАЕТ: Создайте и новый профиль Firefox и "
+"настройте в качестве прокси-сервера localhost на порту 8077."
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:243-3
+msgid "Thank you for growing the network!"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:245-17
+#, fuzzy
+#| msgid ""
+#| "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
+#| "provided certificate to test it out!"
+msgid ""
+"Install the CENO Web Extension and the provided certificate to test it out!"
+msgstr ""
+"СПАСИБО, ЧТО ВЫ С НАМИ! Установите веб-расширение CENO и предоставленный "
+"сертификат, чтобы всё протестировать!"
+
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: help.html%2Bhtml.body.main.div.section.div.div:251-1
+msgid "Learn more about setting up a bridge in the User Manual!"
+msgstr ""
+
+#: help.html%2Bhtml.body.footer.div.p:271-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -267,8 +326,8 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Браузер CENO — это проект некоммерческой канадской компании <a href=\"https"
-"://equalit.ie\">eQualit.ie</a> разрабатывающей открытые и "
+"Браузер CENO — это проект некоммерческой канадской компании <a "
+"href=\"https://equalit.ie\">eQualit.ie</a> разрабатывающей открытые и "
 "многофункциональные системы, ориентированные на конфиденциальность, онлайн-"
 "безопасность и свободу слова. Технологические решения и инновации "
 "основываются на наших <a href=\"https://equalit.ie/en/values/\">ценностях</"
@@ -276,13 +335,65 @@ msgstr ""
 "сети."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:192-23
+#: help.html%2Bhtml.body.footer:273-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid ""
+#~ "﻿Run the CENO Docker client: ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternatively, with just one command you can "
+#~ "set up a bridge on your computer or VPS."
+#~ msgstr ""
+#~ "Запустите клиент CENO в Docker: Кроме того, с помощью всего одной команды "
+#~ "вы можете настроить мост на своем компьютере или VPS."
+
+#~ msgid ""
+#~ "To learn more about setting up a bridge, please consult the <a href=\"../"
+#~ "user-manual/en/browser/bridging.html\">user manual.</a>"
+#~ msgstr ""
+#~ "Более подробную информацию о настройке моста можно получить в <a "
+#~ "href=\"../user-manual/ru/browser/bridging.html\">руководстве пользователя."
+#~ "</a>"
+
+#~ msgid "To get started:"
+#~ msgstr "Для начала:"
+
+#~ msgid ""
+#~ "Make an account on <a href=\"https://weblate.org/\">Weblate</a> or sign "
+#~ "in with your Github or Gitlab ID. Note: Account creation is not required, "
+#~ "but you will only be able to suggest translations in this case."
+#~ msgstr ""
+#~ "Зарегистрируйтесь на сайте <a href=\"https://weblate.org/\">Weblate</a> "
+#~ "или войдите через свой аккаунт на Github или Gitlab. Примечание: Создание "
+#~ "учетной записи не требуется, но в этом случае вы сможете только "
+#~ "предлагать переводы."
+
+#~ msgid ""
+#~ "Visit the <a href=\"https://hosted.weblate.org/projects/censorship-no/"
+#~ "\">Censorship.no project page</a> - which lists all components and their "
+#~ "strings (including Android app strings, the web browser extension, the "
+#~ "User Manual and the website)."
+#~ msgstr ""
+#~ "Посетите <a href=\"https://hosted.weblate.org/projects/censorship-no/"
+#~ "\">страницу проекта Censorship.no</a>, где перечислены все компоненты "
+#~ "проекта и их строки (включая строки приложения Android, расширения веб-"
+#~ "браузера, руководства пользователя и веб-сайта)."
+
+#~ msgid ""
+#~ "On the <a href=\"https://hosted.weblate.org/projects/censorship-no/"
+#~ "#languages\">Censorship.no project page's 'Languages' tab</a>, choose the "
+#~ "language you want to work on, or -- in case the language doesn't exist "
+#~ "yet -- initiate a new language by selecting a component from the main "
+#~ "project page and clicking on the \"Start a new translation\" button."
+#~ msgstr ""
+#~ "Во вкладке <a href=\"https://hosted.weblate.org/projects/censorship-no/"
+#~ "#languages\">«Языки» на странице проекта Censorship.no</a> выберите язык, "
+#~ "над которым хотите поработать, или — если не найдете свой язык — добавьте "
+#~ "новый язык, выбрав компонент на главной странице проекта и нажав кнопку "
+#~ "«Начать новый перевод»."
 
 #~ msgid "Censorship.no! - Get Involved!"
 #~ msgstr "Censorship.no! — Примите участие!"
