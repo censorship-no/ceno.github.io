@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-19 16:55-0700\n"
-"PO-Revision-Date: 2022-04-09 10:06+0000\n"
-"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"PO-Revision-Date: 2022-05-23 13:18+0000\n"
+"Last-Translator: Vitaliy <gvitalik+ceno@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/de/>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -20,21 +20,21 @@ msgstr "de"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr ""
+msgstr "Unterstützung"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr ""
+msgstr "Nachrichten"
 
 #: help.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr ""
+msgstr "Gemeinschaft"
 
 #: help.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
@@ -42,7 +42,7 @@ msgstr "Erhalte CENO"
 
 #: help.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: help.html%2Bhtml.body.nav.div.div.div:103-1
@@ -63,6 +63,20 @@ msgid ""
 "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
 "href=\"../uk/help.html\">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help.html\""
+">English</a>\n"
+"<a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/help.html\""
+">Español</a>\n"
+"<a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\""
+">فارسی</a>\n"
+"<a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/help.html\""
+">မြန်မာစာ</a>\n"
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help.html\""
+">Pусский</a>\n"
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/help.html\""
+">Українська</a>\n"
+"<a class=\"navbar-item\" lang=\"de\" hreflang=\"de\" href=\"../de/help.html\""
+">Deutsch</a>"
 
 #: help.html%2Bhtml.body.main.div.h1:129-5
 msgid "Get Involved!"
@@ -77,7 +91,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:140-17
 msgid "Translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:142-9
 msgid ""
@@ -100,7 +114,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:145-17
 msgid "Join our Weblate"
-msgstr ""
+msgstr "Treten Sie unserer Weblate bei"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:156-17
 msgid "User Research"
@@ -135,7 +149,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:172-17
 msgid "Source Code"
-msgstr ""
+msgstr "Quellcode"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-3
 msgid ""
@@ -168,7 +182,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:179-17
 msgid "Browse our Github"
-msgstr ""
+msgstr "Durchsuchen Sie unseren Github"
 
 #: help.html%2Bhtml.body.main.div.section.h2:192-1
 msgid "Run a Bridge Node"
@@ -190,6 +204,8 @@ msgstr ""
 msgid ""
 "Run CENO Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
+"Betreibe CENO Browser auf deinem Android-Gerät, und/oder auf einem Kleinen, "
+"always-on Gerät."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:216-3
 msgid "Run the CENO Docker Client"
@@ -209,6 +225,8 @@ msgstr ""
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:227-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
+"Vergewissern sie sich das UPnP in ihrem Router aktiviert ist, oder "
+"konfigurieren sie eine Port-Weiterleitung."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:234-3
 msgid "To see if it's working:"
@@ -219,6 +237,8 @@ msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
+"Erstellen und öffnen sie ein neues Firefox-Profil und setzen sie den Proxy "
+"auf localhost, Port 8077."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:243-3
 msgid "Thank you for growing the network!"
@@ -228,6 +248,8 @@ msgstr ""
 msgid ""
 "Install the CENO Web Extension and the provided certificate to test it out!"
 msgstr ""
+"Installieren sie die CENO Web Erweiterung und das zur Verfügung gestellte "
+"Zertifikat um es auszuprobieren!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.main.div.section.div.div:251-1
