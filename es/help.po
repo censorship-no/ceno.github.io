@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-19 16:55-0700\n"
-"PO-Revision-Date: 2022-05-12 20:15+0000\n"
+"PO-Revision-Date: 2022-05-23 23:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/es/>\n"
@@ -77,17 +77,14 @@ msgid "Get Involved!"
 msgstr "¡Involúcrate!"
 
 #: help.html%2Bhtml.body.main.div.p:130-2
-#, fuzzy
-#| msgid ""
-#| "We'd love your support in making CENO Browser as useful and accessible as "
-#| "possible."
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible. CENO is a completely Free/Libre/Open Source project, and there are "
 "many ways to contribute!"
 msgstr ""
 "Nos encantaría tu apoyo para hacer al Navegador CENO tan útil y accesible "
-"como sea posible."
+"como sea posible. CENO es un proyecto completamente Gratis/Libre/de Código "
+"Abierto, ¡y hay muchas maneras de contribuir!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:140-17
 msgid "Translations"
@@ -156,7 +153,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:160-3
 msgid "cenoers [at] equalit [dot] ie"
-msgstr ""
+msgstr "cenoers [at] equalit [dot] ie"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:161-17
 msgid "Take a survey"
@@ -167,27 +164,14 @@ msgid "Source Code"
 msgstr "Código fuente"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-3
-#, fuzzy
-#| msgid ""
-#| "CENO is completely Free/Libre/Open Source Software. If you are interested "
-#| "in its source code please check the following Git repositories:"
 msgid ""
 "If you are interested in CENO's source code please check the following Git "
 "repositories:"
 msgstr ""
-"CENO es un software completamente Gratis/Libre/de Código Abierto. Si estás "
-"interesado en su código fuente, por favor comprueba los siguientes "
+"Si estás interesado en su código fuente, por favor comprueba los siguientes "
 "repositorios Git:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:175-12
-#, fuzzy
-#| msgid ""
-#| "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
-#| "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
-#| "gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https://github.com/"
-#| "censorship-no/ceno-distribution\">included extensions</a>, <a "
-#| "href=\"https://github.com/censorship-no/ceno-ext-settings\">settings "
-#| "extension source</a>"
 msgid ""
 "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
 "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
@@ -197,9 +181,9 @@ msgid ""
 msgstr ""
 "Componentes del navegador: <a href=\"https://github.com/censorship-no/ceno-"
 "browser\">constructor del paquete</a>, <a href=\"https://github.com/"
-"censorship-no/gecko-dev/tree/ceno\">ramal Firefox</a>, <a href=\"https://"
-"github.com/censorship-no/ceno-distribution\">extensiones incluidas</a>, <a "
-"href=\"https://github.com/censorship-no/ceno-ext-settings\">fuente para "
+"censorship-no/gecko-dev/tree/ceno\">ramal Firefox</a>, <a href=\"https"
+"://github.com/censorship-no/ceno-distribution\">extensiones incluidas</a>, "
+"<a href=\"https://github.com/censorship-no/ceno-ext-settings\">fuente para "
 "configuración de extensiones</a>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:177-12
@@ -235,29 +219,23 @@ msgid "Become a bridge!"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:200-17
-#, fuzzy
-#| msgid "﻿Want to help grow the network? Join the swarm!"
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "¿Quieres ayudar a que la red crezca? ¡Únete al enjambre!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:207-3
 msgid "The easy way: Android"
-msgstr ""
+msgstr "La manera fácil: Android"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:209-17
-#, fuzzy
-#| msgid ""
-#| "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
-#| "spare, always-on device."
 msgid ""
 "Run CENO Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
-"La manera fácil: Android. Ejecuta al Navegador CENO en tu dispositivo "
-"Android, y/o en un dispositivo de respuesto, siempre activo."
+"Ejecuta al Navegador CENO en tu dispositivo Android, y/o en un dispositivo "
+"de respuesto, siempre activo."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:216-3
 msgid "Run the CENO Docker Client"
-msgstr ""
+msgstr "Ejecuta el cliente Docker de CENO"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:218-17
 msgid ""
@@ -265,56 +243,48 @@ msgid ""
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
 "ouinet --network host --restart unless-stopped equalitie/ceno-client</code>"
 msgstr ""
+"﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Alternativamente, con solo un comando puedes configurar un "
+"puente en tu computadora o VPS: <code>sudo docker run --name ceno-client -dv "
+"ceno:/var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
+"client</code>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:225-3
 msgid "Open a portal to the internet"
-msgstr ""
+msgstr "Abre un portal a Internet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:227-17
-#, fuzzy
-#| msgid ""
-#| "﻿﻿﻿OPEN A PORTAL TO THE INTERNET: Ensure UPnP is enabled on your router, or "
-#| "set up port forwarding."
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
-"ABRE UN PORTAL A INTERNET: Asegúrate de que UPnP esté habilitado en tu "
-"enrutador, o configura la redirección de puertos."
+"Asegúrate de que UPnP esté habilitado en tu enrutador, o configura la "
+"redirección de puertos."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:234-3
 msgid "To see if it's working:"
-msgstr ""
+msgstr "Para ver si está funcionando:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:236-17
-#, fuzzy
-#| msgid ""
-#| "﻿﻿﻿TO SEE IF IT'S WORKING:﻿ ﻿Create and open a new Firefox Profile, and set "
-#| "the proxy to localhost, port 8077."
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
-"PARA VER SI ESTÁ FUNCIONANDO:﻿ ﻿Crea y abre un nuevo perfil de Firefox, y "
-"dirige el proxy a localhost, puerto 8077."
+"Crea y abre un nuevo perfil de Firefox, y dirige el proxy a localhost, "
+"puerto 8077."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:243-3
 msgid "Thank you for growing the network!"
-msgstr ""
+msgstr "¡Gracias por crecer la red!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:245-17
-#, fuzzy
-#| msgid ""
-#| "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
-#| "provided certificate to test it out!"
 msgid ""
 "Install the CENO Web Extension and the provided certificate to test it out!"
-msgstr ""
-"¡﻿GRACIAS POR UNIRTE AL ENJAMBRE! ¡Instala la Extensión Web CENO y el "
-"certificado provisto para probarla!"
+msgstr "¡Instala la Extensión Web CENO y el certificado provisto para probarla!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.main.div.section.div.div:251-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
+"Para aprender más acerca de configurar un puente, por favor consulta el "
+"manual de usuario."
 
 #: help.html%2Bhtml.body.footer.div.p:271-9
 msgid ""
