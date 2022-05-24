@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 10:38-0700\n"
+"POT-Creation-Date: 2022-05-24 12:33-0700\n"
 "PO-Revision-Date: 2022-02-09 14:18+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -54,30 +54,36 @@ msgstr "EL"
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/about.html">Français</a
 #: about.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class="
-"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html"
-"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
-"\"../uk/about.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/about.html\">Українська</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" href="
-"\"../el/about.html\">Ελληνικά</a> <a class=\"navbar-item\" lang=\"es\" "
-"hreflang=\"es\" href=\"../es/about.html\">Español</a> <a class=\"navbar-item"
-"\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class="
-"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
-"\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" "
+"href=\"../el/about.html\">Ελληνικά</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/about.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.div.h1:130-6
+#: about.html%2Bhtml.body.main.title:128-1
+#, fuzzy
+#| msgid "How CENO Browser Works"
+msgid "CENO Browser | About"
+msgstr "Πώς λειτουργεί ο περιηγητής CENO"
+
+#: about.html%2Bhtml.body.main.div.h1:131-6
 msgid "How CENO Browser Works"
 msgstr "Πώς λειτουργεί ο περιηγητής CENO"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:138-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:139-3
 #, fuzzy
 #| msgid ""
 #| "﻿Most web traffic in countries that filter internet is routed through "
@@ -89,7 +95,7 @@ msgstr ""
 "Οι χώρες φιλτράρουν την περισσότερη διαδικτυακή κίνηση μέσω των κεντρικών "
 "ανταλλακτηρίων."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:146-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:147-3
 #, fuzzy
 #| msgid ""
 #| "﻿This design gives the censor an advantage in locating and blocking "
@@ -101,7 +107,7 @@ msgstr ""
 "Με αυτό τον τρόπο η λογοκρισία έχει το πλεονέκτημα να εντοπίσει και "
 "εμποδίσει δημοφιλείς διακομιστές μεσολάβησης , VPN, αναμεταδοτών κλπ."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:154-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:155-3
 #, fuzzy
 #| msgid ""
 #| "﻿In these cases, reaching origin web servers is difficult or impossible, "
@@ -113,14 +119,14 @@ msgstr ""
 "Σε αυτές τις περιπτώσεις, η πρόσβαση στους διακομιστές Διαδικτύου είναι "
 "δύσκολη ή αδύνατη και η συσκευή σας δεν θα μπορεί να λάβει τα δεδομένα."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:162-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:163-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "Το CENO είναι ένα πρόγραμμα περιήγησης για κινητά, για αποθήκευση και κοινή "
 "χρήση περιεχομένου διαδικτύου οπουδήποτε."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:170-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:171-3
 #, fuzzy
 #| msgid ""
 #| "﻿CENO users create small-world networks to connect to each other, and "
@@ -132,7 +138,7 @@ msgstr ""
 "Οι χρήστες του CENO δημιουργούν μικρά δίκτυα για να συνδεθούν μεταξύ τους "
 "και στη συνέχεια γεφυρώνουν την πρόσβαση εκτός της λογοκριμένης ζώνης."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:178-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:179-3
 #, fuzzy
 #| msgid ""
 #| "﻿Once a website is accessed by a single CENO user, it is stored and shared "
@@ -145,27 +151,27 @@ msgstr ""
 "αποθηκεύεται και διαμοιράζεται στο εσωτερικό της χώρας από χρήστη σε χρήστη."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:186-1
+#: about.html%2Bhtml.body.main.div.div:187-1
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
-"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
-"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
-"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
-"button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more "
+"in the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/el/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-"\"text-align: center;\"><span class=\"fas fa-book\"></span> Μάθετε "
+"<a href=\"../user-manual/el/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> Μάθετε "
 "περισσότερα από το εγχειρίδιο χρήσης!</button></a> <a href=\"https://github."
 "com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
-"\"fas fa-scroll\"></span> Για ένα ποιο λεπτομερέστατο τεχνικό εγχειρίδιο, "
-"δείτε τη λευκή βίβλο Ouinet.</button></a>"
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
+"class=\"fas fa-scroll\"></span> Για ένα ποιο λεπτομερέστατο τεχνικό "
+"εγχειρίδιο, δείτε τη λευκή βίβλο Ouinet.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:205-9
+#: about.html%2Bhtml.body.footer.div.p:206-9
 #, fuzzy
 #| msgid ""
 #| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
@@ -182,8 +188,8 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit.ie"
-"\">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
+"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit."
+"ie\">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
 "επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την ασφάλεια "
 "διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές λύσεις και "
 "καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/values/\">αξίες</"
@@ -191,7 +197,7 @@ msgstr ""
 "στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:207-23
+#: about.html%2Bhtml.body.footer:208-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
