@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 12:33-0700\n"
+"POT-Creation-Date: 2022-05-24 13:38-0700\n"
 "PO-Revision-Date: 2021-09-19 18:34+0000\n"
 "Last-Translator: Jakub Tabor <taborjakub2@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,41 +19,41 @@ msgstr ""
 msgid "en"
 msgstr "pl"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:86-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
 msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:89-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
 msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:94-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
 msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:97-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
 msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
+#: help.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "Pobierz CENO"
 
-#: help.html%2Bhtml.body.nav.div.div.div:101-10
+#: help.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
 msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: help.html%2Bhtml.body.nav.div.div.div:103-1
+#: help.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
 msgstr "PL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/help.html">Français</a
-#: help.html%2Bhtml.body.nav.div.div.div.div:109-5
+#: help.html%2Bhtml.body.nav.div.div.div.div:108-5
 #, fuzzy
 #| msgid ""
 #| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
@@ -81,9 +81,17 @@ msgstr ""
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
 "html\">Pусский</a>"
 
+#: help.html%2Bhtml.body.main.title:127-1
+#, fuzzy
+#| msgid "Get CENO Browser"
+msgctxt "help.html+html.body.main.title:127-1"
+msgid "CENO Browser | Community"
+msgstr "Pobierz przeglądarkę CENO"
+
 #: help.html%2Bhtml.body.main.title:128-1
 #, fuzzy
 #| msgid "Get CENO Browser"
+msgctxt "help.html+html.body.main.title:128-1"
 msgid "CENO Browser | Community"
 msgstr "Pobierz przeglądarkę CENO"
 
