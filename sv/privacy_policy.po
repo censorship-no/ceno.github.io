@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: 2021-10-28 05:38+0000\n"
+"PO-Revision-Date: 2022-06-02 22:14+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/sv/>\n"
@@ -12,29 +12,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "en"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr ""
+msgstr "Hjälp"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr ""
+msgstr "Nyheter"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr ""
+msgstr "Mötesplats"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
@@ -42,7 +42,7 @@ msgstr "Hämta CENO"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
-msgstr ""
+msgstr "Ladda ner"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:102-1
@@ -213,6 +213,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "How It Works"
 #~ msgstr "Så här fungerar det"
