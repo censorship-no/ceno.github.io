@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: 2022-06-08 15:17+0000\n"
+"PO-Revision-Date: 2022-06-10 12:18+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/fa/>\n"
@@ -324,51 +324,56 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.div:216-2
 msgid "Learn more in the User Manual!"
-msgstr ""
+msgstr "در کتابچه راهنمای کاربر بیشتر بیاموزید!"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:222-1
 msgid "Numbers"
-msgstr ""
+msgstr "شماره‌ها"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:224-1
 msgid "CENO to April 2022"
-msgstr ""
+msgstr "CENO تا آوریل ۲۰۲۲"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:226-2
 msgid "Downloads from Google Play Store: 33,297"
-msgstr ""
+msgstr "دانلود از فروشگاه گوگل‌پلی: ۳۳۲۹۷"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:227-2
 msgid "Installs from alternative marketplaces: 6,514"
-msgstr ""
+msgstr "تعداد نصب از فروشگاه‌های جایگزین: ۶۵۱۴"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:228-2
 msgid "Pulls from Docker Hub: 597"
-msgstr ""
+msgstr "دریافت از داکر‌هاب: ۵۹۷"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:229-2
 msgid "Cloned from GitHub repositories: 1,768"
-msgstr ""
+msgstr "شبیه‌سازی شده از منابع گیت‌هاب: 1768"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 msgid "Unique participants in March 2022: 28,914"
-msgstr ""
+msgstr "شرکت کنندگان منحصر به فرد در مارس ۲۰۲۲: ۲۸۹۱۴"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 msgid ""
 "CENO bridges worldwide: 25 (6 in Ukraine, 9 in Russia and others in the "
 "Middle East, Eastern Europe and Asia)"
 msgstr ""
+"پل‌های CENO در سراسر جهان: ۲۵ پل (۶ در اوکراین، ۹ در روسیه و سایر موارد در "
+"خاورمیانه، شرق اروپا و آسیا)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 msgid ""
 "Bootstrap servers to ensure that in-country nodes can use BitTorrent during "
 "complete network shutdowns: 8 (in Eastern Europe, Myanmar, Iran and Russia)"
 msgstr ""
+"سرورهای بوت‌استرپ برای اطمینان از این‌که گره‌های داخل کشور می‌توانند از بیت "
+"تورنت هنگام خاموش شدن کامل شبکه استفاده کنند: ۸ (در شرق اروپا، میانمار، "
+"ایران و روسیه)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:234-1
 msgid "CENO Analytics"
-msgstr ""
+msgstr "تجزیه و تحلیل‌های CENO"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:235-2
 msgid ""
@@ -376,13 +381,20 @@ msgid ""
 "each user (served via injectors and received from the p2p network) and how "
 "much each user’s specific device has shared with other users."
 msgstr ""
+"مرورگر CENO منابعی را که مستقیماً از مبدأ برای هر کاربر ارائه شده است (از "
+"طریق انژکتورها و دریافت شده از شبکه همتا‌به‌همتا) و میزان به‌اشتراک‌گذاری "
+"(محتوا) توسط دستگاه خاص هر کاربر با سایر کاربران را نشان می‌دهد."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:236-2
+#, fuzzy
 msgid ""
 "Key performance metrics for a CENO white-label release include (i) the "
 "number of reachable bridge nodes and origin sources in the DHT, and (ii) the "
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
+"معیارهای کلیدی عملکرد برای انتشار برچسب سفید CENO شامل (۱) تعداد گره‌های پل "
+"قابل دسترسی و منابع مبدا در DHT، و (۲) پهنای باند و تعداد منابع وب مجزای "
+"ارائه شده توسط سرورهای انژکتورها است."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:237-2
 msgid ""
@@ -393,6 +405,11 @@ msgid ""
 "of network injectors, (ii) country of origin and (iii) queries of the "
 "distributed hash table for unique device identifiers."
 msgstr ""
+"معیارهای دیگر را می‌توان برای دید بیشتر و اندازه‌گیری عملکرد، با در نظر "
+"گرفتن عملکرد تمرکززدایی CENO طراحی کرد و توسعه داد. بدون شناسایی کاربران، می‌"
+"توان مشارکت را از طریق (i) شناسه‌های شبکه مستعار و استفاده آنها از "
+"انژکتورهای شبکه، (ii) کشور مبدا و (iii) جستجوهای جدول هش توزیع‌شده برای "
+"شناسه‌های دستگاه منحصربه‌فرد برآورد کرد."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:238-2
 msgid ""
@@ -400,10 +417,13 @@ msgid ""
 "users robust privacy-respecting analytics that measure metrics including "
 "distributed cache usage from the user’s vantage point."
 msgstr ""
+"ادغام Clean Insights SDK به‌عنوان راهی برای ارائه تجزیه و تحلیل‌های قدرتمند "
+"با حفظ حریم خصوصی که معیارهایی از جمله استفاده از حافظه پنهان توزیع شده را "
+"از نگاه کاربر اندازه‌گیری می‌کند، در حال بررسی است."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:240-1
 msgid "Ouinet in April 2022"
-msgstr ""
+msgstr "وی‌نت در آوریل ۲۰۲۲"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:241-2
 msgid ""
@@ -411,10 +431,13 @@ msgid ""
 "to the decentralized content-sharing network, from more than 30,000 unique "
 "websites."
 msgstr ""
+"انژکتورهای وی‌نت به‌طور تقریبی دو میلیون صفحه (۶۰۲ گیگابایت داده) را از بیش "
+"از ۳۰هزار وب‌سایت منحصر به فرد به شبکه اشتراک‌گذاری غیرمتمرکز محتوا معرفی "
+"کردند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:245-1
 msgid "Internet shutdowns"
-msgstr ""
+msgstr "قطعی اینترنت"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:246-9
 msgid ""
@@ -422,6 +445,10 @@ msgid ""
 "restriction scenarios. Precise technical information on shutdowns is often "
 "missing from media coverage. A sutdown can refer to the following:"
 msgstr ""
+"قطعی اینترنت یک مفهوم گسترده است که سناریوهای مختلف محدودیت دسترسی به "
+"اینترنت را پوشش می‌دهد. اطلاعات فنی دقیق در مورد خاموشی‌ها اغلب در پوشش "
+"رسانه‌ای وجود ندارد. یک قطعی (اینترنت) می‌تواند به موارد زیر اشاره داشته "
+"باشد:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:248-9
 msgid ""
@@ -433,6 +460,12 @@ msgid ""
 "transit connections are artificially throttled (e.g., Indian Kashmir in 2019–"
 "2020 and Cuba)."
 msgstr ""
+"سطح یک: عدم دسترسی کامل یا جزئی به خدمات اینترنتی که به دلیل سانسور، حملات "
+"سایبری، بلایای طبیعی، اقدامات یا خطاهای پلیس یا سرویس‌های امنیتی رخ می‌دهد. "
+"CENO با سناریوهای سانسور شدید شبکه سر و کار دارد، زمانی که وی‌پی‌ان‌ها عموماً"
+" دیگر در دسترس نیستند (به عنوان مثال، روسیه در سال ۲۰۲۲، بلاروس در سال ۲۰۲۰ "
+"و ایران در سال ۲۰۱۹) یا زمانی که نقل‌وانتقال ارتباطات بین المللی به‌طور "
+"مصنوعی قطع می‌شود (مانند کشمیر هند در سال های ۲۰۱۹-۲۰۲۰ و کوبا)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:249-9
 msgid ""
@@ -441,6 +474,10 @@ msgid ""
 "country are accessible, yet the local or national network continues to "
 "function. CENO continues to work in these localized scenarios."
 msgstr ""
+"سطح  دو: ممنوعیت نقل‌وانتقال ارتباطات بین المللی (به عنوان مثال، قزاقستان در "
+"سال ۲۰۲۱)، به گونه‌ای که هیچ سرور یا سرویسی که در خارج از کشور واقع شده است، "
+"قابل دسترسی نیست، اما شبکه محلی یا ملی به کار خود ادامه می‌دهد. CENO در این "
+"شبکه‌های محلی به کار خود ادامه می‌دهد."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:250-9
 msgid ""
@@ -449,6 +486,10 @@ msgid ""
 "still works peer to peer when devices remain powered and are in close "
 "proximity."
 msgstr ""
+"سطح سه: هنگامی که سیستم برق‌رسانی دیگر کار نمی‌کند، مانند زمان‌های بلایای "
+"ملی و زمان جنگ (به عنوان مثال، ماریوپول در سال ۲۰۲۲). CENO هنوز به‌طور "
+"همتا‌به‌همتا کار می‌کند، هنگامی که دستگاه‌ها هنوز روشن هستند و در نزدیکی هم "
+"قرار دارند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:252-9
 msgid ""
@@ -459,6 +500,10 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"تعداد فزاینده‌ای از کشورها برای تضعیف روش‌های دور زدن سانسور موجود، و محدود "
+"کردن ارتباطات و جریان آزاد اطلاعات در اینترنت، فناوری‌های نظارتی و فیلترینگ "
+"شبکه‌ای پیچیده‌ای را معرفی کرده‌اند. برخی به قطع کل شبکه‌ها - در سراسر "
+"محله‌ها، مناطق و کشورها - از اتصال بین‌المللی متوسل شده‌اند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:253-9
 msgid ""
@@ -469,10 +514,16 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"اکثر شگردهای دور زدن سانسور که امروزه مورد استفاده قرار می‌گیرند، نیاز دارند "
+"که کاربر ابتدا به یک رله واقع در یک منطقه بدون سانسور متصل شود. حاصل بازی "
+"\"موش و گربه\" میان سانسورچی‌ها و روش‌های دور زدن سانسور (با متوسل شدن به "
+"توزیع خلاقانه پراکسی، مبهم‌سازی ترافیک اینترنتی، آسیب‌های موازی، مشارکت با "
+"آی‌اس‌پی برای شبکه‌های انکساری و غیره) دیگر برای اطمینان از اتصال و انتشار "
+"محتوای دیجیتال کافی نیست."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:256-1
 msgid "How CENO side-steps censorship"
-msgstr ""
+msgstr "چگونه CENO از کنار سانسور عبور می‌کند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 msgid ""
@@ -485,20 +536,30 @@ msgid ""
 "environments. Wider adoption will ensure more efficient, low latency and "
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
+"در نهایت، روش‌های حال حاضر سانسور تنها یک نقطه شکست دارند: کاربران باید به "
+"دیوار آتشی که در آن سانسورکننده در حال تماشا است، نفوذ کنند. همانطور که در "
+"ایران در نوامبر۲۰۱۹، بلاروس در سال ۲۰۲۰، قزاقستان در سال ۲۰۲۱ و در جریان قطع "
+"مداوم دسترسی بدون محدودیت به اینترنت در روسیه در سال جاری شاهد بودیم، روش‌"
+"های دور زدن سانسور به‌طور فزاینده‌ای برای کاربران این کشورها کار نمی‌کند. "
+"CENO خود را به عنوان یک راه‌حل کارآمد در این مناطق ثابت کرده است. قابلیت "
+"پذیرش به‌طور گسترده‌تر، ارتباطات همتا‌به‌همتای غیرمتمرکز با تاخیر کمتر و "
+"البته موثرتر و ذخیره‌سازی محتوای توزیع شده را تضمین می‌کند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:261-1
 msgid "User comments"
-msgstr ""
+msgstr "نظرات کاربران"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:262-1
 msgid "Russia"
-msgstr ""
+msgstr "روسیه"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:263-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
+"«مرورگر خوب. بدون وی‌پی‌ان من توانستم محتوای مسدود شده را ببینم. اما زمانی "
+"که ارتباط با اینترنت بین‌المللی هم وجود ندارد، نیز مفید است.»"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:264-2
 msgid ""
@@ -513,16 +574,29 @@ msgid ""
 "besides helping to access websites, it also looks quite innocent which is "
 "great.”"
 msgstr ""
+"\"آن‌جا که روسیه تهدید می‌کند که وی‌پی‌ان‌ها را مسدود می‌کند، CENO امیدوار "
+"کننده است. همچنین به این دلیل که برای آی‌اس‌پی شما در واقع مثل مقداری شبیه "
+"ترافیک تورنت است و استفاده از تورنت‌ها در روسیه بسیار عادی هستند برخلاف "
+"کشورهای غربی که کپی‌رایت واقعاً رعایت می‌شود. همچنین در مسکو پلیس شروع به "
+"درخواست کنترل و نظارت بر تلفن‌های همراه مردم کرد و اپلیکیشن‌های آن‌ها را "
+"بررسی و نگاه کردند. من تجربه این نوع کنترل را داشتم. آن‌ها به وی‌پی‌ان یا "
+"پیام‌رسان‌هایی مانند سیگنال یا تلگرام نگاه می‌کنند. و CENO شبیه یک مرورگر "
+"معمولی است، بنابراین وقتی  آن‌ها پرسیدند که این نرم‌افزار چیست، گفتم یک "
+"مرورگر است، مشکلی وجود ندارد، بنابراین هیچ سؤالی هم نیست. من فقط انتخاب کردم "
+"که به طور منظم سابقه مرورگری را هنگام خروج حذف کنم. بنابراین علاوه بر کمک به "
+"دسترسی به وب‌سایت‌ها، کاملاً بی‌گناه به نظر می‌رسم که عالی است.»"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:265-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
+"\"ممنون برای این محصول خوب. مرورگر شما سایت http://meduza.io را بسیار سریع‌"
+"تر از برنامه @meduzaproject باز می‌کند."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:267-1
 msgid "Myanmar"
-msgstr ""
+msgstr "میانمار"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:268-2
 msgid ""
@@ -530,22 +604,29 @@ msgid ""
 "see that it works well with this app. This is our digital rights. So I will "
 "continue to use it sometimes.”"
 msgstr ""
+"«به دلیل مسدود‌شدن وب‌سایت‌ها، مشکلات و ناراحتی‌های بسیاری را تجربه کردیم. "
+"حس خوبی است که می‌بینیم با این برنامه به خوبی کار می‌کند. این حقوق دیجیتال "
+"ماست. بنابراین گاهی اوقات به استفاده از آن ادامه خواهم داد.»"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
+"\"ویژگی‌های بیشتری وجود دارد که دوست دارم در این نرم‌افزار ببینم، اما "
+"استفاده از این برنامه کاملا آسان و مفید است.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 msgid "Iran"
-msgstr ""
+msgstr "ایران"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
+"«این اپلیکیشن یکی از معدود امیدهای ما در مواقع قطعی جدی اینترنت در ایران "
+"است. لطفا در همین راه ادامه دهید و عملکرد آن را بهتر و بهتر کنید. متشکرم.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 msgid ""
@@ -553,6 +634,8 @@ msgid ""
 "possibility of free use of the Internet and everything is filtered by the "
 "government, even filter breakers.”"
 msgstr ""
+"مرورگر خوبی است، به‌ویژه برای ما ایرانی‌ها که امکان استفاده رایگان از "
+"اینترنت را نداریم و همه چیز حتی فیلترشکن‌ها توسط دولت فیلتر می‌شود ."
 
 #: factsheet.html%2Bhtml.body.footer.div.p:291-9
 msgid ""
