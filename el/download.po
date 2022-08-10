@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-10 14:43-0700\n"
-"PO-Revision-Date: 2022-07-04 19:22+0000\n"
+"PO-Revision-Date: 2022-08-10 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -20,31 +20,29 @@ msgstr "el"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr ""
+msgstr "Υποστήριξη"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr ""
+msgstr "Νέα"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr ""
+msgstr "Κοινότητα"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "Αποκτήστε το CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:100-10
-#, fuzzy
-#| msgid "Direct Download"
 msgid "Download"
-msgstr "Άμεση λήψη"
+msgstr "Λήψη"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:102-1
@@ -57,47 +55,40 @@ msgstr "EL"
 #: download.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" "
-"lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/download.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" "
-"lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/download.html\">Українська</a>"
 
 #: download.html%2Bhtml.body.main.title:127-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "download.html+html.body.main.title:127-1"
 msgid "CENO Browser | Download"
-msgstr "Τίτλος CENO Browser"
+msgstr "Φυλλομετρητής CENO | Λήψη"
 
 #: download.html%2Bhtml.body.main.title:128-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "download.html+html.body.main.title:128-1"
 msgid "CENO Browser | Download"
-msgstr "Τίτλος CENO Browser"
+msgstr "Φυλλομετρητής CENO | Λήψη"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:134-13
 msgid "CENO Browser banner"
 msgstr "Τίτλος CENO Browser"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:138-7
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:95-10"
-#| msgid "Get CENO Browser"
 msgid "Get CENO Browser"
-msgstr "Λήψη CENO Browser"
+msgstr "Λήψη περιηγητή CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:139-3
 msgid ""
@@ -141,10 +132,8 @@ msgstr ""
 "πρόσφατο APK:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
-#, fuzzy
-#| msgid "CENO Browser 1.6.0"
 msgid "CENO Browser 1.6.1"
-msgstr "Φυλλομετρητής CENO 1.6.0"
+msgstr "Φυλλομετρητής CENO 1.6.1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:164-6
 msgid "Download (32-bit ARM)"
@@ -176,31 +165,22 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
 "download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-"asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
 "Μπορείτε να επαληθεύσετε τις <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v1.3.0/sha256sums.txt.asc\">υπογραφές</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.3.0/sha256sums.txt\">του αρχείου "
+"com/ceno/v1.6.1/sha256sums.txt.asc\">υπογραφές</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">του αρχείου "
 "επιβεβαίωσης</a> με το <a href=\"https://ceno-download.s3.amazonaws.com/keys/"
 "cenoers.asc\">κλειδί PGP</a> (με το αναγνωριστικό <code>51BE 600C 2711 926C "
 "865D F93F C7DC C123 F0DD B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:192-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a Canadian company developing open and reusable systems with a focus "
-#| "on privacy, online security and freedom of association. Technology "
-#| "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#| "en/values/\">values</a> that guide us to protect the rights and "
-#| "aspirations of everyone online."
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -209,13 +189,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit."
-"ie\">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
-"επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την ασφάλεια "
-"διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές λύσεις και "
-"καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/values/\">αξίες</"
-"a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και των φιλοδοξιών όλων "
-"στο διαδίκτυο."
+"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit.ie"
+"\">eQualit.ie</a> – μια μη κερδοσκοπική Καναδική εταιρεία που αναπτύσσει "
+"ανοιχτά και επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την "
+"ασφάλεια διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές "
+"λύσεις και καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/"
+"values/\">αξίες</a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και "
+"των φιλοδοξιών όλων στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:194-23
@@ -225,6 +205,26 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
+msgid "CENO Browser 1.6.0"
+msgstr "Φυλλομετρητής CENO 1.6.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.6.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
+msgstr ""
+"Μπορείτε να επαληθεύσετε τις <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v1.6.0/sha256sums.txt.asc\">υπογραφές</a> του <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">αρχείου "
+"επιβεβαίωσης</a> με το <a href=\"https://ceno-download.s3.amazonaws.com/keys/"
+"cenoers.asc\">κλειδί PGP</a> (με το αναγνωριστικό <code>51BE 600C 2711 926C "
+"865D F93F C7DC C123 F0DD B862</code>)."
 
 #~ msgid "Censorship.no! - Download"
 #~ msgstr "Censorship.no! - Λήψη"

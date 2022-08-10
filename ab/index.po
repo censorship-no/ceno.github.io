@@ -2,17 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: 2022-07-09 08:17+0000\n"
-"Last-Translator: Purbayan Chowdhury <pur.cho.99@gmail.com>\n"
-"Language-Team: Bengali <https://hosted.weblate.org/projects/censorship-no/"
-"websiteindex/bn/>\n"
-"Language: bn\n"
+"POT-Creation-Date: 2022-07-04 12:09-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -20,13 +18,13 @@ msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr "সম্পর্কে"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr "সমর্থন"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
@@ -55,13 +53,13 @@ msgstr ""
 #: index.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a "
-"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-"href=\"../uk/index.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
+"uk/index.html\">Українська</a>"
 msgstr ""
 
 #: index.html%2Bhtml.body.main.title:127-1
@@ -144,9 +142,9 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:184-15
 msgid ""
-"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
-"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/\""
+">Firefox for Android</a>, extended to make use of the <a href=\"https"
+"://github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
 "developers to incorporate the CENO network into their apps for P2P "
 "connectivity."
 msgstr ""
@@ -164,6 +162,6 @@ msgstr ""
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:206-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 msgstr ""

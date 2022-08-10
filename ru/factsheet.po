@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: 2022-07-02 15:17+0000\n"
-"Last-Translator: Viktor <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2022-08-04 14:21+0000\n"
+"Last-Translator: Vik <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: factsheet.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -229,25 +229,33 @@ msgid ""
 "Works like BitTorrent - pulling, reserving and sharing content from many "
 "networked sources rather than from one web server source - but is a browser"
 msgstr ""
+"Работает как BitTorrent, но является браузером, который извлекает, "
+"резервирует и обменивается контентом из многих сетевых источников, а не из "
+"одного источника веб-сервера"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:168-2
 msgid ""
 "Underlying decentralized p2p network uses established open-source Ouinet "
 "library and BitTorrent protocols, making it resilient and reliable"
 msgstr ""
+"Лежащая в основе децентрализованная сеть p2p использует установленную "
+"библиотеку Ouinet с открытым исходным кодом и протоколы BitTorrent, что "
+"делает ее отказоустойчивой и надежной"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:169-2
 msgid "Looks and feels like other browsers"
-msgstr ""
+msgstr "Выглядит и работает, как другие браузеры"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:170-2
 msgid ""
 "Equipped to share cached content offline and on local area networks (LANs)"
 msgstr ""
+"Оснащен для совместного использования кэшированного контента в автономном "
+"режиме и в локальных сетях (LAN)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:172-2
 msgid "Who is eQualitie?"
-msgstr ""
+msgstr "Кто такие eQualitie?"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:174-9
 msgid ""
@@ -255,104 +263,122 @@ msgid ""
 "reusable systems and tools since 2010, with a focus on online privacy, "
 "resilience and self-determination"
 msgstr ""
+"Фирма в области цифровой безопасности из Монреаля, которая с 2010 года "
+"разрабатывает многоразовые системы и инструменты с открытым исходным кодом и "
+"уделяет особое внимание конфиденциальности в Интернете, устойчивости и "
+"самоопределению"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:175-2
 msgid "Maintains the <a href=\"https://deflect.ca\">Deflect.ca</a> service"
-msgstr ""
+msgstr "Поддерживает службу <a href=\"https://deflect.ca\">Deflect.ca</a>"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:176-2
 msgid ""
 "Leads several initiatives focused on free and secure communications in "
 "authoritarian states"
 msgstr ""
+"Внедряет несколько инициатив, направленных на бесплатную и безопасную связь "
+"в авторитарных государствах"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:177-2
 msgid "Founded by Dmitri Vitaliev"
-msgstr ""
+msgstr "Основана Дмитрием Витальевым"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:179-2
 msgid "In use today:"
-msgstr ""
+msgstr "Используется сегодня:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:181-9
 msgid "<strong>Average monthly users:</strong> 10,000+"
-msgstr ""
+msgstr "<strong>Среднее число пользователей в месяц:</strong> 10 000+"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:182-2
 msgid "<strong>New monthly users:</strong> 10,000"
-msgstr ""
+msgstr "<strong>Новых пользователей в месяц:</strong> 10 000"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:183-2
 msgid ""
 "<strong>Majority users by country:</strong> Ukraine 48%; Russia 17%; Iran "
 "15%; Myanmar 5%; Poland, US and Germany 3%"
 msgstr ""
+"<strong>Большинство пользователей по странам:</strong> Украина 48%; Россия "
+"17%; Иран 15%; Мьянма 5%; Польша, США и Германия 3%"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:187-1
 msgid "How CENO Works"
-msgstr "Как работает CENO:"
+msgstr "Как работает CENO"
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:194-17
 msgid "A mobile user in NYC reads a BBC.com news article on her CENO Browser."
 msgstr ""
+"Мобильный пользователь из Нью-Йорка читает новостную статью BBC.com в своем "
+"браузере CENO."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:203-17
 msgid "CENO signs, caches and decentralizes the article content."
-msgstr ""
+msgstr "CENO подписывает, кэширует и децентрализует содержимое статьи."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:212-17
 msgid ""
 "CENO users everywhere access and read the same article on their mobiles, "
 "despite censorship or outages, and thereby share it with other CENO users."
 msgstr ""
+"Пользователи CENO повсюду получают доступ и читают одну и ту же статью на "
+"своих мобильных устройствах, несмотря на цензуру или перебои в работе, и "
+"таким образом делятся ею с другими пользователями CENO."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div:216-2
 msgid "Learn more in the User Manual!"
-msgstr ""
+msgstr "Узнайте больше в Руководстве пользователя!"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:222-1
 msgid "Numbers"
-msgstr ""
+msgstr "Цифры"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:224-1
 msgid "CENO to April 2022"
-msgstr ""
+msgstr "CENO на апрель 2022"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:226-2
 msgid "Downloads from Google Play Store: 33,297"
-msgstr ""
+msgstr "Загрузок из магазина Google Play: 33 297"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:227-2
 msgid "Installs from alternative marketplaces: 6,514"
-msgstr ""
+msgstr "Установок с альтернативных торговых площадок: 6 514"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:228-2
 msgid "Pulls from Docker Hub: 597"
-msgstr ""
+msgstr "Извлечений из Docker Hub: 597"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:229-2
 msgid "Cloned from GitHub repositories: 1,768"
-msgstr ""
+msgstr "Сделано клонирований из репозиториев GitHub: 1 768"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 msgid "Unique participants in March 2022: 28,914"
-msgstr ""
+msgstr "Уникальных участников в марте 2022 года: 28 914"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 msgid ""
 "CENO bridges worldwide: 25 (6 in Ukraine, 9 in Russia and others in the "
 "Middle East, Eastern Europe and Asia)"
 msgstr ""
+"Мостов CENO по всему миру: 25 (6 в Украине, 9 в России и другие на Ближнем "
+"Востоке, в Восточной Европе и Азии)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 msgid ""
 "Bootstrap servers to ensure that in-country nodes can use BitTorrent during "
 "complete network shutdowns: 8 (in Eastern Europe, Myanmar, Iran and Russia)"
 msgstr ""
+"Серверы Bootstrap для обеспечения того, чтобы узлы в стране могли "
+"использовать BitTorrent во время полного отключения сети: 8 (в Восточной "
+"Европе, Мьянме, Иране и России)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:234-1
 msgid "CENO Analytics"
-msgstr ""
+msgstr "Аналитика CENO"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:235-2
 msgid ""
@@ -360,6 +386,10 @@ msgid ""
 "each user (served via injectors and received from the p2p network) and how "
 "much each user’s specific device has shared with other users."
 msgstr ""
+"Браузер CENO отображает ресурсы, предоставленные непосредственно из "
+"источника каждому пользователю (обслуживаемые через инжекторы и полученные "
+"из сети p2p), а также то, сколько конкретное устройство каждого пользователя "
+"поделилось с другими пользователями."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:236-2
 msgid ""
@@ -387,7 +417,7 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:240-1
 msgid "Ouinet in April 2022"
-msgstr ""
+msgstr "Ouinet на апрель 2022"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:241-2
 msgid ""
@@ -398,7 +428,7 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:245-1
 msgid "Internet shutdowns"
-msgstr ""
+msgstr "Отключения Интернета"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:246-9
 msgid ""
@@ -406,6 +436,9 @@ msgid ""
 "restriction scenarios. Precise technical information on shutdowns is often "
 "missing from media coverage. A sutdown can refer to the following:"
 msgstr ""
+"Отключение Интернета — это широкий термин, охватывающий различные сценарии "
+"ограничения доступа в Интернет. Точная техническая информация об отключениях "
+"часто отсутствует в СМИ. Отключения могут быть следующими:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:248-9
 msgid ""
@@ -417,6 +450,13 @@ msgid ""
 "transit connections are artificially throttled (e.g., Indian Kashmir in 2019–"
 "2020 and Cuba)."
 msgstr ""
+"<strong>Уровень 1:</strong> Полный или частичный отказ интернет-сервисов, "
+"произошедший из-за цензуры, кибератак, стихийных бедствий, действий или "
+"ошибок полиции или служб безопасности. CENO имеет дело со сценариями "
+"экстремальной сетевой цензуры, когда сервисы VPN, как правило, больше не "
+"доступны (например, Россия в 2022 г., Беларусь в 2020 г. и Иран в 2019 г.) "
+"или когда международные транзитные соединения искусственно ограничиваются ("
+"например, индийский Кашмир в 2019–2020 гг. и Куба)."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:249-9
 msgid ""
@@ -425,6 +465,11 @@ msgid ""
 "country are accessible, yet the local or national network continues to "
 "function. CENO continues to work in these localized scenarios."
 msgstr ""
+"<strong>Уровень 2:</strong> Запрет на международные транзитные соединения ("
+"например, Казахстан в 2021 г.), при котором никакие серверы или службы, "
+"расположенные за пределами страны, недоступны, но локальная или национальная "
+"сеть продолжает функционировать. CENO продолжает работать в этих "
+"локализованных сценариях."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:250-9
 msgid ""
@@ -433,6 +478,10 @@ msgid ""
 "still works peer to peer when devices remain powered and are in close "
 "proximity."
 msgstr ""
+"<strong>Уровень 3:</strong> Когда не работает электричество, например, во "
+"время национальных бедствий и в военное время (например, Мариуполь в 2022 "
+"году). CENO по-прежнему работает в одноранговой сети, когда устройства "
+"включены и находятся в непосредственной близости."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:252-9
 msgid ""
@@ -443,6 +492,11 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"Все большее число стран внедряют сложные технологии наблюдения и сетевой "
+"фильтрации, чтобы воспрепятствовать существующим методам обхода цензуры и "
+"ограничить общение и свободный поток информации в Интернете. Некоторые "
+"прибегают к отключению целых сетей — в районах, регионах и странах — от "
+"международных связей."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:253-9
 msgid ""
@@ -453,10 +507,17 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"Большинство методов обхода цензуры, используемых сегодня, требуют, чтобы "
+"пользователь сначала подключился к узлу, расположенному в месте, где нет "
+"цензуры. Возникшая в результате игра в «кошки-мышки» между цензурой и "
+"методом ее обхода (где последний прибегает к креативному распространению "
+"прокси-серверов, скрытию трафика, побочному ущербу, партнерству с интернет-"
+"провайдером для создания преломляющей сети и т. д.) уже недостаточна для "
+"обеспечения подключения и распространения цифрового контента."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:256-1
 msgid "How CENO side-steps censorship"
-msgstr ""
+msgstr "Как CENO обходит цензуру"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 msgid ""
@@ -469,14 +530,23 @@ msgid ""
 "environments. Wider adoption will ensure more efficient, low latency and "
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
+"В конечном счете, существующие методы цензуры имеют единственную точку "
+"отказа: пользователям необходимо проникнуть через брандмауэр, за которым "
+"наблюдает цензор. Как показали события в Иране в ноябре 2019 г., Беларуси в "
+"2020 г., Казахстане в 2021 г. и во время продолжающегося ограничения "
+"свободного доступа в Интернет в России в этом году, методы обхода все чаще "
+"не работают для пользователей в этих странах. CENO зарекомендовал себя как "
+"функциональное решение в таких ситуациях. Более широкое внедрение обеспечит "
+"большую эффективность, низкую задержку, действенную децентрализованную "
+"одноранговую связь и распределенное кэширование."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:261-1
 msgid "User comments"
-msgstr ""
+msgstr "Комментарии пользователей"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:262-1
 msgid "Russia"
-msgstr ""
+msgstr "Россия"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:263-9
 msgid ""
@@ -523,7 +593,7 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 msgid "Iran"
-msgstr ""
+msgstr "Иран"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 msgid ""

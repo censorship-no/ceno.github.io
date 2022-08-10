@@ -3,49 +3,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-07-23 16:18+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"website-factsheet/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: factsheet.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "el"
 
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr ""
+msgstr "Υποστήριξη"
 
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr ""
+msgstr "Νέα"
 
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr ""
+msgstr "Κοινότητα"
 
 #: factsheet.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Αποκτήστε το CENO"
 
 #: factsheet.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
-msgstr ""
+msgstr "Λήψη"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: factsheet.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
-msgstr ""
+msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -509,6 +511,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – μια μη κερδοσκοπική Καναδική εταιρεία που αναπτύσσει "
+"ανοιχτά και επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την "
+"ασφάλεια διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές "
+"λύσεις και καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/"
+"values/\">αξίες</a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και "
+"των φιλοδοξιών όλων στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: factsheet.html%2Bhtml.body.footer:293-23
@@ -516,3 +525,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 13:38-0700\n"
-"PO-Revision-Date: 2022-03-15 17:58+0000\n"
+"PO-Revision-Date: 2022-07-23 16:18+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -20,21 +20,21 @@ msgstr "el"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr ""
+msgstr "Υποστήριξη"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr ""
+msgstr "Νέα"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr ""
+msgstr "Κοινότητα"
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
@@ -42,7 +42,7 @@ msgstr "Αποκτήστε το CENO"
 
 #: index.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
-msgstr ""
+msgstr "Λήψη"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:102-1
@@ -73,18 +73,14 @@ msgstr ""
 "href=\"../uk/index.html\">Українська</a>"
 
 #: index.html%2Bhtml.body.main.title:127-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "index.html+html.body.main.title:127-1"
 msgid "CENO Browser | Share the Web"
-msgstr "Τίτλος CENO Browser"
+msgstr "Περιηγητής CENO | Διαμοιράστε το Διαδίκτυο"
 
 #: index.html%2Bhtml.body.main.title:128-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "index.html+html.body.main.title:128-1"
 msgid "CENO Browser | Share the Web"
-msgstr "Τίτλος CENO Browser"
+msgstr "Περιηγητής CENO | Διαμοιράστε το Διαδίκτυο"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:135-9
 msgid "CENO Browser banner"
@@ -92,7 +88,7 @@ msgstr "Τίτλος CENO Browser"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:140-7
 msgid "Share the web!"
-msgstr ""
+msgstr "Διαμοιράστε το Διαδίκτυο!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:141-3
 msgid ""
@@ -101,6 +97,12 @@ msgid ""
 "allows people to access and share web information in and across regions "
 "where connectivity has been interrupted or compromised."
 msgstr ""
+"Το CENO (συντομογραφία του censorship.no!) είναι το πρώτο πρόγραμμα "
+"περιήγησης για κινητά στον κόσμο που παρακάμπτει τις τρέχουσες μεθόδους "
+"λογοκρισίας στο Διαδίκτυο. Βασίζεται σε ανταλλαγή δεδομένων από χρήστη σε "
+"χρήστη επιτρέποντας στους ανθρώπους να έχουν πρόσβαση και να μοιράζονται "
+"διαδικτυακές πληροφορίες μέσα και πέρα από περιοχές όπου η συνδεσιμότητα "
+"έχει διακοπεί ή τεθεί σε κίνδυνο."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:143-15
 msgid "Get it on Google Play"
@@ -138,10 +140,8 @@ msgid "Grow the network - Become a bridge!"
 msgstr "Μεγαλώνουμε το δίκτυο - Φιλοξενήστε μια γέφυρα!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:174-15
-#, fuzzy
-#| msgid "Grow the Network, Fight Censorship"
 msgid "Grow the Network"
-msgstr "Μεγαλώνουμε το Δίκτυο, Πολεμάμε τη Λογοκρισία"
+msgstr "Μεγαλώνουμε το Δίκτυο"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:175-15
 msgid ""
@@ -154,29 +154,16 @@ msgstr ""
 "διαθεσιμότητα των αποκλεισμένων ιστότοπων στις χώρες με λογοκρισία."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:182-13
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:182-13"
 msgid "Free and Open Source"
 msgstr "Ελεύθερο και ανοιχτό λογισμικό"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:183-15
-#, fuzzy
-#| msgctxt "index.html+html.body.main.section.div.div.div.img[alt]:165-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:183-15"
 msgid "Free and Open Source"
 msgstr "Ελεύθερο και ανοιχτό λογισμικό"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:184-15
-#, fuzzy
-#| msgid ""
-#| "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-#| "\">Firefox for Android</a> (a.k.a. Mozilla Fennec), extended to make use "
-#| "of the innovative <a href=\"https://github.com/equalitie/ouinet\">Ouinet "
-#| "library</a> - enabling third party developers to incorporate the CENO "
-#| "network into their apps for peer-to-peer connectivity."
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
 "\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
@@ -184,22 +171,13 @@ msgid ""
 "developers to incorporate the CENO network into their apps for P2P "
 "connectivity."
 msgstr ""
-"Το CENO βασίζεται στο <a href=\"https://www.mozilla.org/firefox/android/"
-"\">Firefox για Android</a>(δηλ.Mozilla Fennec), προσαρμοσμένο για χρήση της "
-"καινοτόμας <a href=\"https://github.com/equalitie/ouinet\">βιβλιοθήκης "
-"Quinet</a> - δίνοντας τη δυνατότητα σε τρίτους προγραμματιστές, να "
-"ενσωματώσουν το δίκτυο CENO στις εφαρμογές τους για συνδεσιμότητα από χρήστη "
-"σε χρήστη."
+"Το CENO βασίζεται στο <a href=\"https://www.mozilla.org/firefox/android/\""
+">Firefox για Android</a>, προσαρμοσμένο για χρήση της <a href=\"https"
+"://github.com/equalitie/ouinet\">βιβλιοθήκης Quinet</a> - δίνοντας τη "
+"δυνατότητα σε τρίτους προγραμματιστές, να ενσωματώσουν το δίκτυο CENO στις "
+"εφαρμογές τους για συνδεσιμότητα Ρ2Ρ."
 
 #: index.html%2Bhtml.body.footer.div.p:204-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a Canadian company developing open and reusable systems with a focus "
-#| "on privacy, online security and freedom of association. Technology "
-#| "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#| "en/values/\">values</a> that guide us to protect the rights and "
-#| "aspirations of everyone online."
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -208,13 +186,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit."
-"ie\">eQualit.ie</a> – μιας Καναδικής εταιρείας που αναπτύσσει ανοιχτά και "
-"επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την ασφάλεια "
-"διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές λύσεις και "
-"καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/values/\">αξίες</"
-"a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και των φιλοδοξιών όλων "
-"στο διαδίκτυο."
+"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – μια μη κερδοσκοπική Καναδική εταιρεία που αναπτύσσει "
+"ανοιχτά και επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την "
+"ασφάλεια διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές "
+"λύσεις και καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/"
+"values/\">αξίες</a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και "
+"των φιλοδοξιών όλων στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:206-23
