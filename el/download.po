@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-04 12:09-0700\n"
+"POT-Creation-Date: 2022-08-10 14:43-0700\n"
 "PO-Revision-Date: 2022-07-04 19:22+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -141,7 +141,9 @@ msgstr ""
 "πρόσφατο APK:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
-msgid "CENO Browser 1.6.0"
+#, fuzzy
+#| msgid "CENO Browser 1.6.0"
+msgid "CENO Browser 1.6.1"
 msgstr "Φυλλομετρητής CENO 1.6.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:164-6
@@ -177,8 +179,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">file hashes</a> "
+"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
 "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
