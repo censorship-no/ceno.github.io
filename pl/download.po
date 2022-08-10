@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-04 12:09-0700\n"
+"POT-Creation-Date: 2022-08-10 14:43-0700\n"
 "PO-Revision-Date: 2021-09-19 18:35+0000\n"
 "Last-Translator: Jakub Tabor <taborjakub2@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
@@ -21,31 +21,29 @@ msgstr "pl"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr ""
+msgstr "O nas"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr ""
+msgstr "Wsparcie"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr ""
+msgstr "Nowości"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr ""
+msgstr "Społeczność"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "Pobierz CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:100-10
-#, fuzzy
-#| msgid "Direct Download"
 msgid "Download"
-msgstr "Pobierz bezpośrednio"
+msgstr "Pobierz"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:102-1
@@ -58,37 +56,38 @@ msgstr "PL"
 #: download.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" "
-"lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/download.html\">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/download.html\">Українська</a>"
 
 #: download.html%2Bhtml.body.main.title:127-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "download.html+html.body.main.title:127-1"
 msgid "CENO Browser | Download"
-msgstr "Baner przeglądarki CENO"
+msgstr "Przeglądarka CENO | Pobierz"
 
 #: download.html%2Bhtml.body.main.title:128-1
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "download.html+html.body.main.title:128-1"
 msgid "CENO Browser | Download"
-msgstr "Baner przeglądarki CENO"
+msgstr "Przeglądarka CENO | Pobierz"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:134-13
 msgid "CENO Browser banner"
 msgstr "Baner przeglądarki CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:138-7
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div:94-10"
-#| msgid "Get CENO Browser"
 msgid "Get CENO Browser"
 msgstr "Pobierz przeglądarkę CENO"
 
@@ -135,8 +134,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
 #, fuzzy
-#| msgid "CENO Browser 1.1.0"
-msgid "CENO Browser 1.6.0"
+msgid "CENO Browser 1.6.1"
 msgstr "Przeglądarka CENO 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:164-6
@@ -153,6 +151,9 @@ msgid ""
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
+"Uruchom to, aby <a href=\"https://developer.android.com/studio/command-line/"
+"apksigner#usage-verify\">sprawdzić</a>, czy APK ma ważny podpis z "
+"certyfikatu z odciskiem palca pokazanym poniżej:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:169-1
@@ -168,10 +169,10 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-"asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
 
@@ -184,6 +185,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"CENO Browser jest projektem <a href=\"https://equalit.ie\">eQualit.ie</a> - "
+"kanadyjskiej firmy non-profit, która rozwija otwarte i wielokrotnego użytku "
+"systemy, koncentrując się na prywatności, bezpieczeństwie online i wolności "
+"stowarzyszeń. Rozwiązania technologiczne i innowacje są napędzane przez "
+"nasze <a href=\"https://equalit.ie/en/values/\">wartości</a>, które prowadzą "
+"nas do ochrony praw i aspiracji każdego człowieka w Internecie."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:194-23
@@ -193,6 +200,26 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
+msgid "CENO Browser 1.6.0"
+msgstr "Przeglądarka CENO 1.6.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.6.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
+msgstr ""
+"Możesz również zweryfikować podpisy <a href=\"https://ceno-download.s3."
+"amazonaws.com/ceno/v1.6.0/sha256sums.txt.asc\"></a> plików <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v1.6.0/sha256sums.txt\">hash</a> z "
+"naszym <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">kluczem PGP</a> (z odciskiem palca <code>51BE 600C 2711 926C 865D F93F "
+"C7DC C123 F0DD B862</code>)."
 
 #~ msgid "Censorship.no! - Download"
 #~ msgstr "Censorship.no! - Pobieranie"
@@ -208,15 +235,11 @@ msgstr ""
 #~ msgstr "Zaangażuj się!"
 
 #, fuzzy
-#~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
-#~| msgid "Get CENO Browser"
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Pobierz przeglądarkę CENO"
 
 #, fuzzy
-#~| msgctxt "download.html+html.body.nav.div.div.div:94-10"
-#~| msgid "Get CENO Browser"
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:133-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Pobierz przeglądarkę CENO"
