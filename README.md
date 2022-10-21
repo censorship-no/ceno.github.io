@@ -86,6 +86,7 @@ relies on users outside of censored zones to act as bridges. Therefore we're ask
 - Play Store: https://play.google.com/store/apps/details?id=ie.equalit.ceno
 - Paskoocheh: https://paskoocheh.com/tools/124/android.html
 - Direct Download: https://censorship.no/download
+- Zanga: https://zanga.tech/tools/166/android.html
 
 ## Feedback
 
