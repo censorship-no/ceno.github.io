@@ -47,7 +47,7 @@ Here is a list of important information CENO users need to know:
 
 ### Battery and data usage
 
-To prolong availability of CENO bridges, the CENO browser shall continue
+To prolong availability of CENO bridges, CENO shall continue
 working even when it goes to the background. We have not yet put in place
 functionality which would disable all networking operations when the device
 switches to cellular internet, nor when it is disconnected from the charger.
@@ -90,5 +90,5 @@ relies on users outside of censored zones to act as bridges. Therefore we're ask
 
 ## Feedback
 
-We welcome both positive and negative feedback, as well as questions at cenoers@equalit.ie.
+We welcome both positive and negative feedback, as well as questions at cenoers@equalitie.org.
 Our PGP key fingerprint is: 51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862
