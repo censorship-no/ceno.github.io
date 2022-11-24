@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 13:38-0700\n"
+"POT-Creation-Date: 2022-11-23 13:58-0700\n"
 "PO-Revision-Date: 2022-06-06 16:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.13-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
@@ -112,7 +112,9 @@ msgid "Get it on Paskoocheh"
 msgstr "Скачать в Paskoocheh"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:149-17
-msgid "Get it on Github"
+#, fuzzy
+#| msgid "Get it on Github"
+msgid "Get it on Gitlab"
 msgstr "Скачать с Github"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:164-14
@@ -174,7 +176,7 @@ msgstr ""
 "ouinet\">библиотеке Ouinet</a>, что позволяет сторонним разработчикам "
 "использовать сеть CENO в своих приложениях для пиринговой связи."
 
-#: index.html%2Bhtml.body.footer.div.p:204-9
+#: index.html%2Bhtml.body.footer.div.p:205-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -192,7 +194,7 @@ msgstr ""
 "сети."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:206-23
+#: index.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

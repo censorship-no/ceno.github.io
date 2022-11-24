@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-10 14:43-0700\n"
+"POT-Creation-Date: 2022-11-23 13:58-0700\n"
 "PO-Revision-Date: 2022-08-10 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -103,9 +103,13 @@ msgid "Get it on Google Play"
 msgstr "آن را از روی گوگل پلی دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:142-19
+#, fuzzy
+#| msgid ""
+#| "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
+#| "download the APK directly via GitHub:"
 msgid ""
 "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
-"download the APK directly via GitHub:"
+"download the APK directly via GitLab:"
 msgstr ""
 "یک راه دیگر این است که CENO را از طریق فروشگاه پسکوچه نصب کنید، یا APK را "
 "مستقیماً از طریق GitHub دانلود کنید:"
@@ -115,7 +119,9 @@ msgid "Get it on Paskoocheh"
 msgstr "آن را از روی پسکوچه دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:147-17
-msgid "Get it on GitHub"
+#, fuzzy
+#| msgid "Get it on GitHub"
+msgid "Get it on GitLab"
 msgstr "آن را از روی GitHub دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:161-15
@@ -172,14 +178,14 @@ msgid ""
 "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
 "C123 F0DD B862</code>)."
 msgstr ""
-"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1"
-".6.1/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.6.1/sha256sums.txt\">فایل هش</a> را در مقابل <a href="
-"\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">کلید PGP</a> با "
-"اثر انگشت <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> "
-"تأیید کنید."
+"شما همچنین می‌توانید <a href=\"https://ceno-download.s3.amazonaws.com/ceno/"
+"v1.6.1/sha256sums.txt.asc\">امضاهای</a><a href=\"https://ceno-download.s3."
+"amazonaws.com/ceno/v1.6.1/sha256sums.txt\">فایل هش</a> را در مقابل <a "
+"href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">کلید PGP</"
+"a> با اثر انگشت <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</"
+"code> تأیید کنید."
 
-#: download.html%2Bhtml.body.footer.div.p:192-9
+#: download.html%2Bhtml.body.footer.div.p:193-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -196,7 +202,7 @@ msgstr ""
 "تمامی افراد هدایت کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:194-23
+#: download.html%2Bhtml.body.footer:195-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

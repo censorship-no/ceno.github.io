@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 13:38-0700\n"
+"POT-Creation-Date: 2022-11-23 13:58-0700\n"
 "PO-Revision-Date: 2022-07-21 05:17+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
@@ -64,13 +64,13 @@ msgid ""
 "href=\"../uk/index.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class"
-"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\""
-">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
-"uk/index.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/index.html\">Українська</a>"
 
 #: index.html%2Bhtml.body.main.title:127-1
 msgctxt "index.html+html.body.main.title:127-1"
@@ -112,7 +112,9 @@ msgid "Get it on Paskoocheh"
 msgstr "Télécharger sur Paskoocheh"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:149-17
-msgid "Get it on Github"
+#, fuzzy
+#| msgid "Get it on Github"
+msgid "Get it on Gitlab"
 msgstr "Téléchargez-le sur Github"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:164-14
@@ -170,13 +172,13 @@ msgid ""
 "developers to incorporate the CENO network into their apps for P2P "
 "connectivity."
 msgstr ""
-"CENO est basé sur <a href=\"https://www.mozilla.org/firefox/android/\""
-">Firefox pour Android</a>, étendu à l'usage de la <a href=\"https://github."
+"CENO est basé sur <a href=\"https://www.mozilla.org/firefox/android/"
+"\">Firefox pour Android</a>, étendu à l'usage de la <a href=\"https://github."
 "com/equalitie/ouinet\">bibliothèque Ouinet</a> - permettant aux développeurs "
 "tiers d'intégrer le réseau CENO à leurs applications pour une connectivité "
 "P2P."
 
-#: index.html%2Bhtml.body.footer.div.p:204-9
+#: index.html%2Bhtml.body.footer.div.p:205-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -189,12 +191,12 @@ msgstr ""
 "ie</a> – une entreprise canadienne à but non lucratif qui conçoit des "
 "systèmes open source privilégiant le respect de la vie privée, la sécurité "
 "en ligne et la liberté d'association. Nos solutions et innovations "
-"technologiques sont empreints des <a href=\"https://equalit.ie/en/values/\""
-">valeurs</a> qui nous guident pour protéger les droits et aspirations de "
+"technologiques sont empreints des <a href=\"https://equalit.ie/en/values/"
+"\">valeurs</a> qui nous guident pour protéger les droits et aspirations de "
 "chacun en ligne."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:206-23
+#: index.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
