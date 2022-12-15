@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 13:58-0700\n"
-"PO-Revision-Date: 2022-08-10 21:58+0000\n"
+"PO-Revision-Date: 2022-12-15 18:36+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -21,7 +21,7 @@ msgstr "uk"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr "Про"
+msgstr "ПроПро"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
@@ -35,11 +35,11 @@ msgstr "новини"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
-msgstr "Спільнота"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
-msgstr "Завантажити CENO"
+msgstr "Отримати CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
@@ -104,26 +104,20 @@ msgid "Get it on Google Play"
 msgstr "Завантажити з Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:142-19
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
-#| "download the APK directly via GitHub:"
 msgid ""
 "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
 "download the APK directly via GitLab:"
 msgstr ""
 "Також можна встановити CENO через Paskoocheh Marketplace або завантажити APK "
-"безпосередньо через GitHub:"
+"безпосередньо через GitLab:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:144-17
 msgid "Get it on Paskoocheh"
 msgstr "Завантажити з Paskoocheh"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:147-17
-#, fuzzy
-#| msgid "Get it on GitHub"
 msgid "Get it on GitLab"
-msgstr "Отримати з GitHub"
+msgstr "Отримати з Gitlab"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:161-15
 msgid "Direct Download"

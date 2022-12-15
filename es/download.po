@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 13:58-0700\n"
-"PO-Revision-Date: 2022-08-10 21:58+0000\n"
+"PO-Revision-Date: 2022-12-15 18:36+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -103,26 +103,20 @@ msgid "Get it on Google Play"
 msgstr "Obtenlo en Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:142-19
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
-#| "download the APK directly via GitHub:"
 msgid ""
 "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
 "download the APK directly via GitLab:"
 msgstr ""
 "Alternativamente, puedes instalar CENO a través de Paskoocheh Marketplace, o "
-"descargar la APK directamente vía GitHub:"
+"descargar la APK directamente vía Gitlab:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:144-17
 msgid "Get it on Paskoocheh"
 msgstr "Obtenlo en Paskoocheh"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:147-17
-#, fuzzy
-#| msgid "Get it on GitHub"
 msgid "Get it on GitLab"
-msgstr "Obtenlo en GitHub"
+msgstr "Obtenlo en Gitlab"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:161-15
 msgid "Direct Download"
@@ -209,8 +203,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "Censorship.no! - Download"
 #~ msgstr "Censorship.no! - Descargar"
