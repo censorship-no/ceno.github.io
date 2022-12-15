@@ -54,27 +54,25 @@ msgstr "PL"
 #.  TRANSLATORS: Please do not translate any of these. 
 #: index.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
 msgstr ""
 
 #: index.html%2Bhtml.body.main.title:127-1
 #, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "index.html+html.body.main.title:127-1"
 msgid "CENO Browser | Share the Web"
 msgstr "Baner przeglądarki CENO"
 
 #: index.html%2Bhtml.body.main.title:128-1
 #, fuzzy
-#| msgid "CENO Browser banner"
 msgctxt "index.html+html.body.main.title:128-1"
 msgid "CENO Browser | Share the Web"
 msgstr "Baner przeglądarki CENO"
@@ -104,10 +102,8 @@ msgid "Get it on Paskoocheh"
 msgstr "Pobierz z Paskoocheh"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:149-17
-#, fuzzy
-#| msgid "Get it on Github"
 msgid "Get it on Gitlab"
-msgstr "Pobierz z Github"
+msgstr "Pobierz z Gitlab"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:164-14
 msgid "Browse Freely"
@@ -134,7 +130,6 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:174-15
 #, fuzzy
-#| msgid "Grow the Network, Fight Censorship"
 msgid "Grow the Network"
 msgstr "Rozwijaj sieć, walcz z cenzurą"
 
@@ -188,6 +183,21 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#. a class="navbar-item" lang="fr" hreflang="fr" href="../fr/index.html">Français</a
+#: index.html%2Bhtml.body.nav.div.div.div.div:108-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a class="
+"\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html"
+"\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/index.html\">Українська</a>"
+msgstr ""
 
 #~ msgid "How It Works"
 #~ msgstr "Jak to działa"
