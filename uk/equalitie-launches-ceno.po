@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 11:12-0700\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2022-12-19 19:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website-equalitie-launches-ceno/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: equalitie-launches-ceno.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -21,17 +21,17 @@ msgstr "uk"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
-msgstr "ПроПро"
+msgstr "Про"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
-msgstr "Посібник користувача"
+msgstr "Підтримка"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr "новини"
+msgstr "Новини"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
@@ -259,12 +259,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Браузер CENO – це проект некомерційної канадської компанії <a href=\"https://"
-"equalit.ie\">eQualit.ie</a>, що розробляє відкриті та багатофункціональні "
-"системи з акцентом на конфіденційності, онлайн-безпеці та свободі асоціацій. "
-"Технологічні рішення та інновації походять з наших <a href=\"https://equalit."
-"ie/en/values/\">цінностей</a>, що допомагають нам захищати права та "
-"прагнення кожного в iнтернеті."
+"CENO Браузер є проєктом\n"
+"<a href=\"https://equalit.ie\">\n"
+"eQualit.ie</a> – некомерційна канадська компанія, яка розробляє відкриті та "
+"багаторазові системи з фокусом на конфіденційності, онлайн безпеку та "
+"свободу об’єднання. Технологічні рішення та інновації вводяться в дію\n"
+"<a href=\"https://equalit.ie/en/values/\"> значення</a>, які спрямовують нас "
+"на захист прав і прагнень кожного в онлайні."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: equalitie-launches-ceno.html%2Bhtml.body.footer:169-23
@@ -272,8 +273,9 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no!\n"
+"2018<script>new Date().getFullYear()>2018&&document.write(\"-\"+new Date()."
+"getFullYear());</script>"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
