@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 13:32-0700\n"
+"POT-Creation-Date: 2023-01-03 15:21-0700\n"
 "PO-Revision-Date: 2022-12-15 21:42+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,75 +18,86 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 #: about.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
 msgstr "အကြောင်းအရာ"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
 #: about.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
 msgstr "အကူအညီ"
 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
 #: about.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
 msgstr "သတင်း"
 
+#: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
 #: about.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
 msgstr "အသိုင်းအဝိုင်း"
 
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "CENO ကို ရယူမည်"
 
+#: about.html%2Bhtml.body.nav.div.div.div:101-10
 #: about.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
 msgstr "ဒေါင်းလုဒ်လုပ်ပါ"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: about.html%2Bhtml.body.nav.div.div.div:103-1
 #: about.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
 msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: about.html%2Bhtml.body.nav.div.div.div.div:109-5
 #: about.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
-
-#: about.html%2Bhtml.body.main.title:127-1
-msgctxt "about.html+html.body.main.title:127-1"
-msgid "CENO Browser | About"
-msgstr "CENO ဘရောက်ဇာ | အကြောင်းအရာ"
 
 #: about.html%2Bhtml.body.main.title:128-1
 msgctxt "about.html+html.body.main.title:128-1"
 msgid "CENO Browser | About"
 msgstr "CENO ဘရောက်ဇာ | အကြောင်းအရာ"
 
+#: about.html%2Bhtml.body.main.title:129-1
+#, fuzzy
+msgctxt "about.html+html.body.main.title:129-1"
+msgid "CENO Browser | About"
+msgstr "CENO ဘရောက်ဇာ | အကြောင်းအရာ"
+
+#: about.html%2Bhtml.body.main.div.h1:132-6
 #: about.html%2Bhtml.body.main.div.h1:131-6
 msgid "How CENO Browser Works"
 msgstr "CENO ဘရောက်ဇာ အလုပ်လုပ်ပုံ"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:140-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:139-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
@@ -95,6 +106,7 @@ msgstr ""
 "နိုင်ငံများရှိ ဝက်ဘ်ဆိုက်အသုံးပြုခြင်း အသွားအလာတွင် အင်တာနက်ကို စစ်ထုတ်ခြင်းအတွက် Google ကဲ့သို့သော "
 "ဗဟိုကြားခံအဖွဲ့အစည်းများကို ဖြတ်၍ လမ်းကြောင်းဖွင့်ပေးသည်။"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:148-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:147-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
@@ -103,6 +115,7 @@ msgstr ""
 "ဤဒီဇိုင်းသည် လူကြိုက်များသော ပရောက်စီများ၊ VPN ဆာဗာများနှင့် ဖွင့်/ပိတ် ခလုတ်များ စသည်တို့ကို "
 "တည်နေရာရှာပြီး ပိတ်ဆို့ရာတွင် စိစစ်ခြင်းအား အားသာချက်ရစေသည်။"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:156-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:155-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
@@ -111,12 +124,14 @@ msgstr ""
 "ဤအခြေအနေများတွင် မူလ ဝက်ဘ်ဆာဗာများသို့ ရောက်ရှိရန် ခက်ခဲသည် သို့မဟုတ် မဖြစ်နိုင်ပါ၊ ထို့ပြင် သင့်စက်သည် "
 "ထိုအကြောင်းအရာကို ရနိုင်မည် မဟုတ်ပါ။"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:164-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:163-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "CENO သည် ဝက်ဘ် အကြောင်းအရာကို မည်သည့်နေရာတွင်မဆို သိုလှောင်ပြီး မျှဝေနိုင်သည့် မိုဘိုင်း ဝက်ဘ်ဘရောက်ဇာ ဖြစ်သည်။"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:172-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:171-3
 msgid ""
 "CENO users create small-world networks to connect to each other, and "
@@ -125,6 +140,7 @@ msgstr ""
 "CENO သုံးစွဲသူများသည် တစ်ဦးနှင့်တစ်ဦး ချိတ်ဆက်ရန် ကမ္ဘာငယ် ကွန်ရက်များကို ဖန်တီးပြီးနောက် "
 "ဆင်ဆာဖြတ်ထားသော ဇုန်ပြင်ပတွင် ပေါင်းကူးတစ်ခုနှင့် ချိတ်ဆက်သည်။"
 
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:180-3
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:179-3
 msgid ""
 "Once a website is accessed by a single CENO user, it is stored and shared "
@@ -134,26 +150,28 @@ msgstr ""
 "မျှဝေသည်။"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.main.div.div:188-1
 #: about.html%2Bhtml.body.main.div.div:187-1
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more "
-"in the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
-"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
-"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
-"scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
-"whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
+"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
+"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
+"button></a>"
 msgstr ""
-"<a href=\"../user-manual/my/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> သုံးစွဲသူ လက်စွဲတွင် "
+"<a href=\"../user-manual/my/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> သုံးစွဲသူ လက်စွဲတွင် "
 "နောက်ထပ် လေ့လာပါ။</button></a><a href=\"https://github.com/equalitie/ouinet/"
 "blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
-"scroll\"></span> ပိုမိုအသေးစိတ်သော နည်းပညာဆိုင်ရာ လမ်းညွှန်အတွက် Ouinet စက္ကူဖြူစာတမ်းကို ကြည့်ပါ။</"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
+"\"></span> ပိုမိုအသေးစိတ်သော နည်းပညာဆိုင်ရာ လမ်းညွှန်အတွက် Ouinet စက္ကူဖြူစာတမ်းကို ကြည့်ပါ။</"
 "button></a>"
 
+#: about.html%2Bhtml.body.footer.div.p:208-9
 #: about.html%2Bhtml.body.footer.div.p:207-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -167,11 +185,11 @@ msgstr ""
 "ပရောဂျက်တစ်ခုဖြစ်ပြီး ကိုယ်ရေးလုံခြုံမှု၊ အွန်လိုင်းပေါ်တွင် လုံခြုံမှုနှင့် လွတ်လပ်စွာ အသင်းအဖွဲ့ဖွဲ့စည်းမှုတို့ကို "
 "ဦးစားပေးသည့် ပွင့်လင်းမြင်သာမှုရှိသော ပြန်လည်အသုံးပြုနိုင်သော စနစ်များကို တီထွင်ဖန်တီးနေသည့် အကျိုးအမြတ်မယူသည့် "
 "ကနေဒါကုမ္ပဏီတစ်ခုဖြစ်သည်။ နည်းပညာဆိုင်ရာ ဖြေရှင်းချက်များနှင့် ဆန်းသစ်တီထွင်မှုများကို အွန်လိုင်းတွင် "
-"လူတိုင်း၏အခွင့်အရေးများနှင့် ဆန္ဒများကို ကာကွယ်ရန် ကျွန်ုပ်တို့အား လမ်းညွှန်ပေးသည့် ကျွန်ုပ်တို့၏ <a "
-"href=\"https://equalit.ie/en/values/\">တန်ဖိုးများ</a>မှ တွန်းအားပေးသည်။"
+"လူတိုင်း၏အခွင့်အရေးများနှင့် ဆန္ဒများကို ကာကွယ်ရန် ကျွန်ုပ်တို့အား လမ်းညွှန်ပေးသည့် ကျွန်ုပ်တို့၏ <a href="
+"\"https://equalit.ie/en/values/\">တန်ဖိုးများ</a>မှ တွန်းအားပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:209-23
+#: about.html%2Bhtml.body.footer:210-23 about.html%2Bhtml.body.footer:209-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -179,24 +197,29 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+#: about.html%2Bhtml.body.main.title:127-1
+msgctxt "about.html+html.body.main.title:127-1"
+msgid "CENO Browser | About"
+msgstr "CENO ဘရောက်ဇာ | အကြောင်းအရာ"
+
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
 #~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" "
-#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
+#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
+#~ "\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-"
+#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> "
+#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#~ "href=\"../uk/about.html\">Українська</a>"
 #~ msgstr ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
 #~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" "
-#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
+#~ "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
+#~ "\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-"
+#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> "
+#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#~ "href=\"../uk/about.html\">Українська</a>"
 
 #~ msgid "Censorship.no! - How It Works"
 #~ msgstr "Censorship.no! - အလုပ်လုပ်ပုံ"

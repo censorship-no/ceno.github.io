@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 13:32-0700\n"
+"POT-Creation-Date: 2023-01-03 15:21-0700\n"
 "PO-Revision-Date: 2022-09-06 17:20+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,56 +18,58 @@ msgstr ""
 msgid "en"
 msgstr "el"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.ul.li:86-17
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
 msgstr "Σχετικά"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: factsheet.html%2Bhtml.body.nav.div.div.ul.li:89-17
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
 msgstr "Υποστήριξη"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.ul.li:94-17
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
-msgstr "Νέα"
+msgstr "Ειδήσεις"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.ul.li:97-17
 #: factsheet.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
 msgstr "Κοινότητα"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 #: factsheet.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "Αποκτήστε το CENO"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.div:101-10
 #: factsheet.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
 msgstr "Λήψη"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: factsheet.html%2Bhtml.body.nav.div.div.div:103-1
 #: factsheet.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
 msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: factsheet.html%2Bhtml.body.nav.div.div.div.div:109-5
 #: factsheet.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/factsheet."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet."
-"html\">Українська</a>"
-msgstr ""
-
-#: factsheet.html%2Bhtml.body.main.title:127-1
-msgctxt "factsheet.html+html.body.main.title:127-1"
-msgid "CENO Browser | Fact Sheet"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet.html\">Français</"
+"a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/"
+"factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang="
+"\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet.html\">Українська</a>"
 msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.title:128-1
@@ -75,22 +77,32 @@ msgctxt "factsheet.html+html.body.main.title:128-1"
 msgid "CENO Browser | Fact Sheet"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.title:129-1
+msgctxt "factsheet.html+html.body.main.title:129-1"
+msgid "CENO Browser | Fact Sheet"
+msgstr ""
+
+#: factsheet.html%2Bhtml.body.main.div.h1:131-5
 #: factsheet.html%2Bhtml.body.main.div.h1:130-5
 msgid "CENO Fact Sheet"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:135-1
 #: factsheet.html%2Bhtml.body.main.div.section.p:134-1
 msgid "Download PDF"
 msgstr "Λήψη PDF"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:137-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:136-1
 msgid "Overview"
 msgstr "Επισκόπηση"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:138-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:137-2
 msgid "What is CENO?"
 msgstr "Τι είναι το CENO;"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:139-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:138-2
 msgid ""
 "The world’s first mobile browser that circumvents current Internet "
@@ -98,10 +110,12 @@ msgid ""
 "technology"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:141-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:140-2
 msgid "CENO stands for:"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:143-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:142-9
 msgid ""
 "<strong>ce</strong>nsorship.<strong>no</strong>, envisioned as part of an "
@@ -109,40 +123,48 @@ msgid ""
 "and oppression"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:144-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:143-2
 msgid "Developed and launched by <a href=\"https://equalit.ie\">eQualitie</a>"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:146-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:145-2
 msgid "Works on:"
 msgstr "Εργάζεται σε:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:147-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:146-9
 msgid "Android mobile devices"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:149-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:148-2
 msgid "Get it on:"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:151-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:150-9
 msgid ""
-"<a href=\"https://censorship.no/download\">CENO website</a>, <a "
-"href=\"https://play.google.com/store/apps/details?id=ie.equalit."
-"ceno\">Google Play</a>, <a href=\"https://github.com/censorship-no/ceno-"
-"browser/releases\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/"
-"android.html?\">Paskoocheh</a>, and <a href=\"https://zanga.tech/tools/166/"
-"android.html\">Zanga.tech</a>"
+"<a href=\"https://censorship.no/download\">CENO website</a>, <a href="
+"\"https://play.google.com/store/apps/details?id=ie.equalit.ceno\">Google "
+"Play</a>, <a href=\"https://github.com/censorship-no/ceno-browser/releases"
+"\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/android.html?"
+"\">Paskoocheh</a>, and <a href=\"https://zanga.tech/tools/166/android.html"
+"\">Zanga.tech</a>"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:152-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:151-2
 msgid "No special permissions are required"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:154-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:153-2
 msgid "Why:"
 msgstr "Γιατί:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:156-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:155-9
 msgid ""
 "Designed to allow people anywhere in the world to access web content in "
@@ -150,22 +172,26 @@ msgid ""
 "is unreliable or costly"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:157-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:156-2
 msgid ""
 "Can be used to create a bridge for others to access censored or restricted "
 "content"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:159-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:158-2
 msgid "So what?"
 msgstr "Και λοιπόν;"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:161-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:160-2
 msgid ""
 "Already helping thousands of civilians, NGOs, investigative journalists and "
 "independent media globally to access and share web content"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:162-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:161-2
 msgid ""
 "CENO content remains stable and cannot be forcibly removed by external "
@@ -173,47 +199,56 @@ msgid ""
 "unrest, conflict, and war"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:163-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:162-2
 msgid ""
 "CENO’s p2p routing and distribution of storage can reduce bandwidth and "
 "energy use"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:164-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:163-2
 msgid ""
 "Performance improves with scale (unlike the proxy/virtual private network "
 "(VPN) model); more users reduces latency and increases storage"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:166-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:165-2
 msgid "How:"
 msgstr "Πώς:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:168-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:167-2
 msgid ""
 "Works like BitTorrent - pulling, reserving and sharing content from many "
 "networked sources rather than from one web server source - but is a browser"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:169-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:168-2
 msgid ""
 "Underlying decentralized p2p network uses established open-source Ouinet "
 "library and BitTorrent protocols, making it resilient and reliable"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:170-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:169-2
 msgid "Looks and feels like other browsers"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:171-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:170-2
 msgid ""
 "Equipped to share cached content offline and on local area networks (LANs)"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:173-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:172-2
 msgid "Who is eQualitie?"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:175-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:174-9
 msgid ""
 "Montreal-based digital security firm that has developed open-source and "
@@ -221,104 +256,127 @@ msgid ""
 "resilience and self-determination"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:176-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:175-2
 msgid "Maintains the <a href=\"https://deflect.ca\">Deflect.ca</a> service"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:177-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:176-2
 msgid ""
 "Leads several initiatives focused on free and secure communications in "
 "authoritarian states"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:178-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:177-2
 msgid "Founded by Dmitri Vitaliev"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:180-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:179-2
 msgid "In use today:"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:182-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:181-9
 msgid "<strong>Average monthly users:</strong> 10,000+"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:183-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:182-2
 msgid "<strong>New monthly users:</strong> 10,000"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:184-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:183-2
 msgid ""
 "<strong>Majority users by country:</strong> Ukraine 48%; Russia 17%; Iran "
 "15%; Myanmar 5%; Poland, US and Germany 3%"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:188-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:187-1
 msgid "How CENO Works"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:195-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:194-17
 msgid "A mobile user in NYC reads a BBC.com news article on her CENO Browser."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:204-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:203-17
 msgid "CENO signs, caches and decentralizes the article content."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:213-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:212-17
 msgid ""
 "CENO users everywhere access and read the same article on their mobiles, "
 "despite censorship or outages, and thereby share it with other CENO users."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.div:217-2
 #: factsheet.html%2Bhtml.body.main.div.section.div:216-2
 msgid "Learn more in the User Manual!"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:223-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:222-1
 msgid "Numbers"
 msgstr "Αριθμοί"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:225-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:224-1
 msgid "CENO to April 2022"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:227-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:226-2
 msgid "Downloads from Google Play Store: 33,297"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:228-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:227-2
 msgid "Installs from alternative marketplaces: 6,514"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:229-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:228-2
 msgid "Pulls from Docker Hub: 597"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:229-2
 msgid "Cloned from GitHub repositories: 1,768"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 msgid "Unique participants in March 2022: 28,914"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 msgid ""
 "CENO bridges worldwide: 25 (6 in Ukraine, 9 in Russia and others in the "
 "Middle East, Eastern Europe and Asia)"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:233-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 msgid ""
 "Bootstrap servers to ensure that in-country nodes can use BitTorrent during "
 "complete network shutdowns: 8 (in Eastern Europe, Myanmar, Iran and Russia)"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:235-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:234-1
 msgid "CENO Analytics"
 msgstr "Ανάλυση CENO"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:236-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:235-2
 msgid ""
 "The CENO browser displays the resources provided directly from the origin to "
@@ -326,6 +384,7 @@ msgid ""
 "much each user’s specific device has shared with other users."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:237-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:236-2
 msgid ""
 "Key performance metrics for a CENO white-label release include (i) the "
@@ -333,6 +392,7 @@ msgid ""
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:238-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:237-2
 msgid ""
 "Other metrics can be designed and developed for greater visibility and "
@@ -343,6 +403,7 @@ msgid ""
 "distributed hash table for unique device identifiers."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:239-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:238-2
 msgid ""
 "Integration of the Clean Insights SDK is being explored as a way to give "
@@ -350,10 +411,12 @@ msgid ""
 "distributed cache usage from the user’s vantage point."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:241-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:240-1
 msgid "Ouinet in April 2022"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:242-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:241-2
 msgid ""
 "Ouinet’s injectors introduced approximately 2 million pages (602 GB of data) "
@@ -361,10 +424,12 @@ msgid ""
 "websites."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:246-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:245-1
 msgid "Internet shutdowns"
 msgstr "Διακοπές λειτουργίας Διαδικτύου"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:247-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:246-9
 msgid ""
 "Internet shutdowns is a broad term covering various Internet access "
@@ -372,6 +437,7 @@ msgid ""
 "missing from media coverage. A shutdown can refer to the following:"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:249-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:248-9
 msgid ""
 "<strong>Level 1:</strong> A complete or partial failure of Internet "
@@ -383,6 +449,7 @@ msgid ""
 "2020 and Cuba)."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:250-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:249-9
 msgid ""
 "<strong>Level 2:</strong> A ban on international transit connections (e.g., "
@@ -391,6 +458,7 @@ msgid ""
 "function. CENO continues to work in these localized scenarios."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:251-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:250-9
 msgid ""
 "<strong>Level 3:</strong> When electricity no longer functions, such as "
@@ -399,6 +467,7 @@ msgid ""
 "proximity."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:253-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:252-9
 msgid ""
 "A growing number of countries have introduced sophisticated surveillance and "
@@ -409,6 +478,7 @@ msgid ""
 "connectivity."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:254-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:253-9
 msgid ""
 "Most circumvention techniques in use today require the user to first connect "
@@ -419,10 +489,12 @@ msgid ""
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:257-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:256-1
 msgid "How CENO side-steps censorship"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:258-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 msgid ""
 "Ultimately, existing censorship methods have a single point of failure: "
@@ -435,20 +507,24 @@ msgid ""
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:262-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:261-1
 msgid "User comments"
 msgstr "Σχόλια χρηστών"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:263-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:262-1
 msgid "Russia"
 msgstr "Ρωσία"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:264-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:263-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:265-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:264-2
 msgid ""
 "“Because Russia threatens to block VPNs, CENO is promising. Also because for "
@@ -463,16 +539,19 @@ msgid ""
 "great.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:266-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:265-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:268-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:267-1
 msgid "Myanmar"
 msgstr "Μιανμάρ"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:268-2
 msgid ""
 "“There was a lot of inconvenience due to the blocked websites. It's good to "
@@ -480,22 +559,26 @@ msgid ""
 "continue to use it sometimes.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:270-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:272-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 msgid "Iran"
 msgstr "Ιράν"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:274-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 msgid ""
 "“It is a good browser, especially for us Iranians, who do not have the "
@@ -503,6 +586,7 @@ msgid ""
 "government, even filter breakers.”"
 msgstr ""
 
+#: factsheet.html%2Bhtml.body.footer.div.p:293-9
 #: factsheet.html%2Bhtml.body.footer.div.p:292-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -512,15 +596,16 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ο φυλλομετρητής CENO είναι ένα έργο της <a href=\"https://equalit."
-"ie\">eQualit.ie</a> – μια μη κερδοσκοπική Καναδική εταιρεία που αναπτύσσει "
-"ανοιχτά και επαναχρησιμοποιήσιμα συστήματα με έμφαση στην ιδιωτικότητα , την "
-"ασφάλεια διαδικτύου και την ελευθερία του συνεταιρίζεστε. Οι τεχνολογικές "
-"λύσεις και καινοτομίες βασίζονται στις <a href=\"https://equalit.ie/en/"
-"values/\">αξίες</a> που μας καθοδηγούν στην προστασία των δικαιωμάτων και "
-"των φιλοδοξιών όλων στο διαδίκτυο."
+"Το CENO Browser είναι ένα έργο της <a href=\"https://equalit.ie\">eQualit."
+"ie</a>, μιας μη κερδοσκοπικής καναδικής εταιρείας που αναπτύσσει ανοικτά και "
+"επαναχρησιμοποιήσιμα συστήματα με έμφαση στην προστασία της ιδιωτικής ζωής, "
+"την ασφάλεια στο διαδίκτυο και την ελευθερία του συνεταιρίζεσθαι. Οι "
+"τεχνολογικές λύσεις και οι καινοτομίες καθοδηγούνται από τις <a href="
+"\"https://equalit.ie/en/values/\"> αξίες μας</a> που μας καθοδηγούν για την "
+"προστασία των δικαιωμάτων και των προσδοκιών όλων στο διαδίκτυο."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: factsheet.html%2Bhtml.body.footer:295-23
 #: factsheet.html%2Bhtml.body.footer:294-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -528,3 +613,8 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: factsheet.html%2Bhtml.body.main.title:127-1
+msgctxt "factsheet.html+html.body.main.title:127-1"
+msgid "CENO Browser | Fact Sheet"
+msgstr ""

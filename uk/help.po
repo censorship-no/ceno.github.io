@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 13:32-0700\n"
+"POT-Creation-Date: 2023-01-03 15:21-0700\n"
 "PO-Revision-Date: 2022-12-19 19:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,40 +19,40 @@ msgstr ""
 msgid "en"
 msgstr "uk"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:85-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
 msgstr "Про"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:88-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
 msgstr "Підтримка"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:93-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
 msgstr "Новини"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:96-17
+#: help.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
 msgstr "Спільнота"
 
-#: help.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
+#: help.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Отримати CENO"
 
-#: help.html%2Bhtml.body.nav.div.div.div:100-10
+#: help.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr "Завантажити"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: help.html%2Bhtml.body.nav.div.div.div:102-1
+#: help.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: help.html%2Bhtml.body.nav.div.div.div.div:108-5
+#: help.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
@@ -74,21 +74,24 @@ msgstr ""
 "href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a>"
 
-#: help.html%2Bhtml.body.main.title:127-1
-msgctxt "help.html+html.body.main.title:127-1"
-msgid "CENO Browser | Community"
-msgstr "браузер CENO | Спільнота"
-
 #: help.html%2Bhtml.body.main.title:128-1
 msgctxt "help.html+html.body.main.title:128-1"
 msgid "CENO Browser | Community"
 msgstr "браузер CENO | Спільнота"
 
-#: help.html%2Bhtml.body.main.div.h1:130-5
+#: help.html%2Bhtml.body.main.title:129-1
+#, fuzzy
+#| msgctxt "help.html+html.body.main.title:127-1"
+#| msgid "CENO Browser | Community"
+msgctxt "help.html+html.body.main.title:129-1"
+msgid "CENO Browser | Community"
+msgstr "браузер CENO | Спільнота"
+
+#: help.html%2Bhtml.body.main.div.h1:131-5
 msgid "Get Involved!"
 msgstr "Долучайтеся!"
 
-#: help.html%2Bhtml.body.main.div.p:131-2
+#: help.html%2Bhtml.body.main.div.p:132-2
 msgid ""
 "We'd love your support in making CENO Browser as useful and accessible as "
 "possible. CENO is a completely Free/Libre/Open Source project, and there are "
@@ -98,11 +101,11 @@ msgstr ""
 "доступним. CENO – це повністю вільне і безкоштовне програмне забезпечення з "
 "відкритим вихідним кодом!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:141-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:142-17
 msgid "Translations"
 msgstr "Переклади"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:143-9
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:144-9
 msgid ""
 "Help translate the CENO Browser app, web extension, user manual and website! "
 "We use Weblate to crowdsource translations."
@@ -110,7 +113,7 @@ msgstr ""
 "Допоможіть перекласти браузер CENO, розширення, посібник користувача і "
 "вебсайт! Ми використовуємо Weblate для краудсорсингу перекладів."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:144-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:145-13
 msgid ""
 "Please contact the CENO team at cenoers [at] equalit [dot] ie (or the "
 "contact form below) if you're interested in becoming a reviewer for "
@@ -120,7 +123,7 @@ msgstr ""
 "через форму нижче, якщо Ви хочете долучитися аби перевірити переклади своєю "
 "мовою (мовами)."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:145-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:146-13
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
@@ -128,15 +131,15 @@ msgstr ""
 "Додаткову інформацію про використання Weblate можна отримати в <a "
 "href=\"https://docs.weblate.org/\">документації Weblate.</a>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:146-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:147-17
 msgid "Join our Weblate"
 msgstr "Приєднуйтесь до нашого Weblate"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:157-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:158-17
 msgid "User Research"
 msgstr "Зворотній зв'язок від користувачів"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:158-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:159-3
 msgid ""
 "CENO relies on user feedback to understand the needs of our users and to "
 "suggest improvements and new features."
@@ -144,7 +147,7 @@ msgstr ""
 "CENO покладається на відгуки користувачів, щоб зрозуміти їхні потреби і "
 "запропонувати удосконалення та нові функції браузера."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:159-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:160-3
 msgid ""
 "Sharing your story also helps spread the word about CENO, which grows the "
 "network. With your consent, we may also highlight your story on our website!"
@@ -153,7 +156,7 @@ msgstr ""
 "користувачів CENO. З вашої згоди ми також можемо висвітлити вашу історію "
 "користування чи відгук на нашому веб-сайті!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:160-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:161-3
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via the feedback button at the bottom of this "
@@ -163,26 +166,26 @@ msgstr ""
 "– ви можете зв’язатися з командою за допомогою кнопки зворотного зв’язку "
 "внизу цього веб-сайту або надіслати нам електронний лист:"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:161-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:162-3
 msgid "cenoers [at] equalit [dot] ie"
 msgstr "cenoers [at] equalit [dot] ie"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:162-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:163-17
 msgid "Take a survey"
 msgstr "Пройдіть опитування"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:173-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:174-17
 msgid "Source Code"
 msgstr "Вихідний код"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:174-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:175-3
 msgid ""
 "If you are interested in CENO's source code please check the following Git "
 "repositories:"
 msgstr ""
 "Якщо Вас цікавить вихідний код, ознайомтеся з наступними Git-репозиторіями:"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:176-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:177-12
 msgid ""
 "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
 "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
@@ -197,11 +200,11 @@ msgstr ""
 "href=\"https ://github.com/censorship-no/ceno-ext-settings\">вихідний код "
 "розширення для налаштування</a>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:178-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:179-12
 msgid "Ouinet source"
 msgstr "Вихідний код Ouinet"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:179-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:180-12
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "github.com/censorship-no-archive/ceno1\">previous incarnation of CENO</a>, "
@@ -217,38 +220,38 @@ msgstr ""
 "знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
 "Censorship.no!</a>."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:180-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:181-17
 msgid "Browse our Github"
 msgstr "Перегляньте наш Github"
 
-#: help.html%2Bhtml.body.main.div.section.h2:193-1
+#: help.html%2Bhtml.body.main.div.section.h2:194-1
 msgid "Run a Bridge Node"
 msgstr "Запустіть вузол моста"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:199-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:200-3
 msgid "Become a bridge!"
 msgstr "СТАНЬТЕ МОСТОМ!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:201-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:202-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "Бажаєте допомогти з розширенням мережі? Долучайтеся до нас!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:208-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:209-3
 msgid "The easy way: Android"
 msgstr "Найпростіше: Android"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:210-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:211-17
 msgid ""
 "Run CENO Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
 "Запустіть браузер CENO на своєму пристрої Android та/або на запасному, "
 "постійно ввімкненому пристрої."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:217-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:218-3
 msgid "Run the CENO Docker Client"
 msgstr "Запустіть Docker-клієнта CENO"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:219-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:220-17
 msgid ""
 "Alternatively, with just one command you can set up a bridge on your "
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
@@ -259,21 +262,21 @@ msgstr ""
 "ceno:/var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
 "client</code>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:226-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:227-3
 msgid "Open a portal to the internet"
 msgstr "ВІДКРИЙТЕ ПОРТАЛ В ІНТЕРНЕТ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:228-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:229-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
 "Переконайтеся, що на Вашому маршрутизаторі ввімкнено UPnP або налаштуйте "
 "переадресацію портів."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:235-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:236-3
 msgid "To see if it's working:"
 msgstr "ПЕРЕВІРТЕ ЧИ ПРАЦЮЄ:"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:237-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:238-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
@@ -281,23 +284,23 @@ msgstr ""
 "Створіть новий профіль Firefox та вкажіть як проксі-сервер – localhost і "
 "порт – 8077."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:244-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:245-3
 msgid "Thank you for growing the network!"
 msgstr "ДЯКУЄМО, ЩО ВИ З НАМИ!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:246-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:247-17
 msgid ""
 "Install the CENO Web Extension and the provided certificate to test it out!"
 msgstr "Встановіть веб-розширення CENO та наданий сертифікат для тестування!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.section.div.div:252-1
+#: help.html%2Bhtml.body.main.div.section.div.div:253-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
 "Детальнішу інформацію про налаштування моста можна отримати в посібнику "
 "користувача!"
 
-#: help.html%2Bhtml.body.footer.div.p:273-9
+#: help.html%2Bhtml.body.footer.div.p:274-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -315,7 +318,7 @@ msgstr ""
 "на захист прав і прагнень кожного в онлайні."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:275-23
+#: help.html%2Bhtml.body.footer:276-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
