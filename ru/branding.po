@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
+"POT-Creation-Date: 2023-01-06 13:49-0700\n"
 "PO-Revision-Date: 2022-12-20 21:47+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
 #: branding.html%2Bhtml[lang]:4-1
@@ -20,67 +20,61 @@ msgid "en"
 msgstr "ru"
 
 #: branding.html%2Bhtml.body.nav.div.div.ul.li:86-17
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:85-17
 msgid "About"
 msgstr "О проекте"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: branding.html%2Bhtml.body.nav.div.div.ul.li:89-17
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "Support"
 msgstr "Поддержка"
 
 #: branding.html%2Bhtml.body.nav.div.div.ul.li:94-17
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "News"
 msgstr "Новости"
 
 #: branding.html%2Bhtml.body.nav.div.div.ul.li:97-17
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "Community"
 msgstr "Сообщество"
 
 #: branding.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
-#: branding.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "Скачать CENO"
 
 #: branding.html%2Bhtml.body.nav.div.div.div:101-10
-#: branding.html%2Bhtml.body.nav.div.div.div:100-10
 msgid "Download"
 msgstr "Скачать"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: branding.html%2Bhtml.body.nav.div.div.div:103-1
-#: branding.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
 msgstr "RU"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: branding.html%2Bhtml.body.nav.div.div.div.div:109-5
-#: branding.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/branding."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/branding.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a class=\"navbar-item"
-"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/branding.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
-"\"../ru/branding.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/branding.html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
+"lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+"html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/branding."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/branding.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a class=\"navbar-item"
-"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/branding.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
-"\"../ru/branding.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/branding.html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
+"lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+"html\">Українська</a>"
 
 #: branding.html%2Bhtml.body.main.title:128-1
 msgctxt "branding.html+html.body.main.title:128-1"
@@ -94,7 +88,6 @@ msgid "CENO Browser | Brand and Style Guide"
 msgstr "Браузер CENO | Руководство по бренду и стилю"
 
 #: branding.html%2Bhtml.body.main.div.h1:131-5
-#: branding.html%2Bhtml.body.main.div.h1:130-5
 msgid "Brand and Style Guide"
 msgstr "Руководство по бренду и стилю"
 
@@ -105,7 +98,6 @@ msgid "Logo"
 msgstr "Логотип"
 
 #: branding.html%2Bhtml.body.main.div.p:134-2
-#: branding.html%2Bhtml.body.main.div.p:133-2
 msgid ""
 "In order to preserve accessibility, the color version must be used in white "
 "backgrounds and the opposite."
@@ -120,22 +112,18 @@ msgid "Logo"
 msgstr "Логотип"
 
 #: branding.html%2Bhtml.body.main.div.div.div.h3:140-26
-#: branding.html%2Bhtml.body.main.div.div.div.h3:139-26
 msgid "Logo Icon"
 msgstr "Значок логотипа"
 
 #: branding.html%2Bhtml.body.main.div.h2:146-2
-#: branding.html%2Bhtml.body.main.div.h2:145-2
 msgid "Colors"
 msgstr "Цвета"
 
 #: branding.html%2Bhtml.body.main.div.p:147-9
-#: branding.html%2Bhtml.body.main.div.p:146-9
 msgid "These are the colors that represent Ceno’s brand identity."
 msgstr "Это цвета, которые представляют фирменный стиль CENO."
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.h3:151-33
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:150-33
 msgid "Primary Color"
 msgstr "Основной цвет"
 
@@ -152,7 +140,6 @@ msgid "#0EA5E9"
 msgstr "#0EA5E9"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.h3:159-33
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:158-33
 msgid "Secondary Color"
 msgstr "Вторичный цвет"
 
@@ -169,12 +156,10 @@ msgid "#F97316"
 msgstr "#F97316"
 
 #: branding.html%2Bhtml.body.main.div.h2:171-2
-#: branding.html%2Bhtml.body.main.div.h2:170-2
 msgid "UI Colors"
 msgstr "Цвета UI"
 
 #: branding.html%2Bhtml.body.main.div.p:172-9
-#: branding.html%2Bhtml.body.main.div.p:171-9
 msgid ""
 "For accessibility and readability reasons, here’s the extended Color Palette "
 "of 10 different shades of both brand colors. When colors are used in text, "
@@ -202,7 +187,6 @@ msgid "50"
 msgstr "50"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:184-8
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:183-8
 msgid "#F0F9FF"
 msgstr "#F0F9FF"
 
@@ -225,7 +209,6 @@ msgid "100"
 msgstr "100"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:198-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:197-15
 msgid "#E0F2FE"
 msgstr "#E0F2FE"
 
@@ -248,7 +231,6 @@ msgid "200"
 msgstr "200"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:213-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:212-15
 msgid "#BAE6FD"
 msgstr "#BAE6FD"
 
@@ -259,7 +241,6 @@ msgid "700"
 msgstr "700"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:219-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:218-15
 msgid "#0369A1"
 msgstr "#0369A1"
 
@@ -270,7 +251,6 @@ msgid "300"
 msgstr "300"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:228-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:227-15
 msgid "#7DD3FC"
 msgstr "#7DD3FC"
 
@@ -281,7 +261,6 @@ msgid "800"
 msgstr "800"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:234-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:233-15
 msgid "#075985"
 msgstr "#075985"
 
@@ -292,7 +271,6 @@ msgid "400"
 msgstr "400"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:243-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:242-15
 msgid "#38BDF8"
 msgstr "#38BDF8"
 
@@ -321,7 +299,6 @@ msgid "50"
 msgstr "50"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:260-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:259-15
 msgid "#FFF7ED"
 msgstr "#FFF7ED"
 
@@ -344,7 +321,6 @@ msgid "100"
 msgstr "100"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:274-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:273-15
 msgid "#FFEDD5"
 msgstr "#FFEDD5"
 
@@ -355,7 +331,6 @@ msgid "600"
 msgstr "600"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:280-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:279-15
 msgid "#EA580C"
 msgstr "#EA580C"
 
@@ -366,7 +341,6 @@ msgid "200"
 msgstr "200"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:289-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:288-15
 msgid "#FED7AA"
 msgstr "#FED7AA"
 
@@ -377,7 +351,6 @@ msgid "700"
 msgstr "700"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:295-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:294-15
 msgid "#C2410C"
 msgstr "#C2410C"
 
@@ -388,7 +361,6 @@ msgid "300"
 msgstr "300"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:303-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:302-15
 msgid "#FDBA74"
 msgstr "#FDBA74"
 
@@ -399,7 +371,6 @@ msgid "800"
 msgstr "800"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:309-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:308-15
 msgid "#9A3412"
 msgstr "#9A3412"
 
@@ -410,7 +381,6 @@ msgid "400"
 msgstr "400"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:318-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:317-15
 msgid "#FB923C"
 msgstr "#FB923C"
 
@@ -421,22 +391,18 @@ msgid "900"
 msgstr "900"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:324-15
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:323-15
 msgid "#7C2D12"
 msgstr "#7C2D12"
 
 #: branding.html%2Bhtml.body.main.div.h2:331-1
-#: branding.html%2Bhtml.body.main.div.h2:330-1
 msgid "Typography"
 msgstr "Типография"
 
 #: branding.html%2Bhtml.body.main.div.div.div.p:334-9
-#: branding.html%2Bhtml.body.main.div.div.div.p:333-9
 msgid "Primary"
 msgstr "Основной"
 
 #: branding.html%2Bhtml.body.main.div.div.div.p:335-9
-#: branding.html%2Bhtml.body.main.div.div.div.p:334-9
 msgid ""
 "<strong>Metropolis</strong> is used as primary font of the visual identity. "
 "It can be used in lower and upper cases. It comes with a family of styles. "
@@ -448,12 +414,10 @@ msgstr ""
 "используется в таких текстах, как заголовки и заголовки."
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.p:341-9
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:340-9
 msgid "Secondary"
 msgstr "Вторичный"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.p:342-9
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:341-9
 msgid ""
 "<strong>Inter</strong> is used as secondary font of the visual identity. It "
 "can be used in lower and upper cases. It comes with a family of styles. This "
@@ -465,7 +429,6 @@ msgstr ""
 "используется в текстах, таких как основной текст."
 
 #: branding.html%2Bhtml.body.footer.div.p:364-9
-#: branding.html%2Bhtml.body.footer.div.p:363-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -474,8 +437,8 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser - это проект, разработанный <a href=\"https://equalit.ie"
-"\">eQualit.ie</a>- некоммерческая канадская организация, разрабатывающая "
+"CENO Browser - это проект, разработанный <a href=\"https://equalit."
+"ie\">eQualit.ie</a>- некоммерческая канадская организация, разрабатывающая "
 "открытые и многоразовые системы с акцентом на конфиденциальность, онлайн-"
 "безопасность и свободу убеждений. В основе технологических решений и "
 "инноваций лежат наши<a href=\"https://equalit.ie/en/values/\">ценности</a>, "
@@ -484,7 +447,6 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: branding.html%2Bhtml.body.footer:366-23
-#: branding.html%2Bhtml.body.footer:365-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -492,189 +454,158 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
-#: branding.html%2Bhtml.body.main.div.div.div.h3:135-26
-msgctxt "branding.html+html.body.main.div.div.div.h3:135-26"
-msgid "Logo"
-msgstr "Логотип"
+#~ msgctxt "branding.html+html.body.main.div.div.div.h3:135-26"
+#~ msgid "Logo"
+#~ msgstr "Логотип"
 
-#: branding.html%2Bhtml.body.main.div.div.h3:178-11
-msgctxt "branding.html+html.body.main.div.div.h3:178-11"
-msgid "Light Blue"
-msgstr "Cветло-синий"
+#~ msgctxt "branding.html+html.body.main.div.div.h3:178-11"
+#~ msgid "Light Blue"
+#~ msgstr "Cветло-синий"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:189-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:189-15"
-msgid "#0EA5E9"
-msgstr "#0EA5E9"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:189-15"
+#~ msgid "#0EA5E9"
+#~ msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:248-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:248-15"
-msgid "#0284C7"
-msgstr "#0284C7"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:248-15"
+#~ msgid "#0284C7"
+#~ msgstr "#0284C7"
 
-#: branding.html%2Bhtml.body.main.div.div.h3:254-11
-msgctxt "branding.html+html.body.main.div.div.h3:254-11"
-msgid "Orange"
-msgstr "Оранжевый"
+#~ msgctxt "branding.html+html.body.main.div.div.h3:254-11"
+#~ msgid "Orange"
+#~ msgstr "Оранжевый"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:258-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:258-15"
-msgid "50"
-msgstr "50"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:258-15"
+#~ msgid "50"
+#~ msgstr "50"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:264-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:264-15"
-msgid "500"
-msgstr "500"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:264-15"
+#~ msgid "500"
+#~ msgstr "500"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:265-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:265-15"
-msgid "#F97316"
-msgstr "#F97316"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:265-15"
+#~ msgid "#F97316"
+#~ msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:272-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:272-15"
-msgid "100"
-msgstr "100"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:272-15"
+#~ msgid "100"
+#~ msgstr "100"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:278-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:278-15"
-msgid "600"
-msgstr "600"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:278-15"
+#~ msgid "600"
+#~ msgstr "600"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:287-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:287-15"
-msgid "200"
-msgstr "200"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:287-15"
+#~ msgid "200"
+#~ msgstr "200"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:293-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:293-15"
-msgid "700"
-msgstr "700"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:293-15"
+#~ msgid "700"
+#~ msgstr "700"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:301-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:301-15"
-msgid "300"
-msgstr "300"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:301-15"
+#~ msgid "300"
+#~ msgstr "300"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:307-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:307-15"
-msgid "800"
-msgstr "800"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:307-15"
+#~ msgid "800"
+#~ msgstr "800"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:316-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:316-15"
-msgid "400"
-msgstr "400"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:316-15"
+#~ msgid "400"
+#~ msgstr "400"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:322-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:322-15"
-msgid "900"
-msgstr "900"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:322-15"
+#~ msgid "900"
+#~ msgstr "900"
 
-#: branding.html%2Bhtml.body.main.title:127-1
-msgctxt "branding.html+html.body.main.title:127-1"
-msgid "CENO Browser | Brand and Style Guide"
-msgstr "Браузер CENO | Руководство по бренду и стилю"
+#~ msgctxt "branding.html+html.body.main.title:127-1"
+#~ msgid "CENO Browser | Brand and Style Guide"
+#~ msgstr "Браузер CENO | Руководство по бренду и стилю"
 
-#: branding.html%2Bhtml.body.main.div.h2:132-2
-msgctxt "branding.html+html.body.main.div.h2:132-2"
-msgid "Logo"
-msgstr "Логотип"
+#~ msgctxt "branding.html+html.body.main.div.h2:132-2"
+#~ msgid "Logo"
+#~ msgstr "Логотип"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:153-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:153-15"
-msgid "Light Blue"
-msgstr "Cветло-синий"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:153-15"
+#~ msgid "Light Blue"
+#~ msgstr "Cветло-синий"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:154-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:154-15"
-msgid "#0EA5E9"
-msgstr "#0EA5E9"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:154-15"
+#~ msgid "#0EA5E9"
+#~ msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:161-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:161-15"
-msgid "Orange"
-msgstr "Оранжевый"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:161-15"
+#~ msgid "Orange"
+#~ msgstr "Оранжевый"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:162-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:162-15"
-msgid "#F97316"
-msgstr "#F97316"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:162-15"
+#~ msgid "#F97316"
+#~ msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:182-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:182-15"
-msgid "50"
-msgstr "50"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:182-15"
+#~ msgid "50"
+#~ msgstr "50"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:188-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:188-15"
-msgid "500"
-msgstr "500"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:188-15"
+#~ msgid "500"
+#~ msgstr "500"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:196-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:196-15"
-msgid "100"
-msgstr "100"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:196-15"
+#~ msgid "100"
+#~ msgstr "100"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:202-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:202-15"
-msgid "600"
-msgstr "600"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:202-15"
+#~ msgid "600"
+#~ msgstr "600"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:203-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:203-15"
-msgid "#0284C7"
-msgstr "#0284C7"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:203-15"
+#~ msgid "#0284C7"
+#~ msgstr "#0284C7"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:211-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:211-15"
-msgid "200"
-msgstr "200"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:211-15"
+#~ msgid "200"
+#~ msgstr "200"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:217-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:217-15"
-msgid "700"
-msgstr "700"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:217-15"
+#~ msgid "700"
+#~ msgstr "700"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:226-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:226-15"
-msgid "300"
-msgstr "300"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:226-15"
+#~ msgid "300"
+#~ msgstr "300"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:232-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:232-15"
-msgid "800"
-msgstr "800"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:232-15"
+#~ msgid "800"
+#~ msgstr "800"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:241-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:241-15"
-msgid "400"
-msgstr "400"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:241-15"
+#~ msgid "400"
+#~ msgstr "400"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:247-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:247-15"
-msgid "900"
-msgstr "900"
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:247-15"
+#~ msgid "900"
+#~ msgstr "900"
 
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
-#~ "branding.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
-#~ "\"es\" href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/branding."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/branding.html\">Pусский</a> <a class=\"navbar-item\" lang="
-#~ "\"uk\" hreflang=\"uk\" href=\"../uk/branding.html\">Українська</a>"
+#~ "branding.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/branding.html\">Español</a> <a "
+#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding."
+#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
+#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+#~ "html\">Українська</a>"
 #~ msgstr ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
-#~ "branding.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
-#~ "\"es\" href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/branding."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/branding.html\">Pусский</a> <a class=\"navbar-item\" lang="
-#~ "\"uk\" hreflang=\"uk\" href=\"../uk/branding.html\">Українська</a>"
+#~ "branding.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/branding.html\">Español</a> <a "
+#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding."
+#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
+#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+#~ "html\">Українська</a>"
 
 #~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:188-15"
 #~ msgid "#0EA5E9"
@@ -696,9 +627,9 @@ msgstr "900"
 #~ "en/values/\">values</a> that guide us to protect the rights and "
 #~ "aspirations of everyone online."
 #~ msgstr ""
-#~ "Браузер CENO — это проект канадской компании <a href=\"https://equalit.ie"
-#~ "\">eQualit.ie</a> разрабатывающей открытые и многофункциональные системы, "
-#~ "ориентированные на конфиденциальность, онлайн-безопасность и свободу "
-#~ "слова. Технологические решения и инновации основываются на наших <a href="
-#~ "\"https://equalit.ie/en/values/\">ценностях</a>, которые помогают нам "
-#~ "защищать права и стремления всех, кто находится в сети."
+#~ "Браузер CENO — это проект канадской компании <a href=\"https://equalit."
+#~ "ie\">eQualit.ie</a> разрабатывающей открытые и многофункциональные "
+#~ "системы, ориентированные на конфиденциальность, онлайн-безопасность и "
+#~ "свободу слова. Технологические решения и инновации основываются на наших "
+#~ "<a href=\"https://equalit.ie/en/values/\">ценностях</a>, которые помогают "
+#~ "нам защищать права и стремления всех, кто находится в сети."
