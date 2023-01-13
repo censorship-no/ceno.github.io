@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-13 15:00-0700\n"
-"PO-Revision-Date: 2022-12-20 21:47+0000\n"
+"PO-Revision-Date: 2023-01-13 23:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/es/>\n"
@@ -133,9 +133,8 @@ msgstr ""
 "reciente directamente:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-#, fuzzy
 msgid "CENO Browser 2.0.0b1"
-msgstr "Navegador CENO 1.6.1"
+msgstr "Navegador CENO 2.0.0b1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
@@ -170,7 +169,6 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-17
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -178,12 +176,12 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v1.6.1/sha256sums.txt.asc\">firmas</a> de los <a href=\"https://"
-"ceno-download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">hashes de "
-"archivos</a> contrastándolas con nuestra <a href=\"https://ceno-download.s3."
-"amazonaws.com/keys/cenoers.asc\">clave PGP</a> (con huella digital "
-"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"También puedes verificar las <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">firmas</a> de los <a href=\"https://dcomm.net.ua/"
+"package/ceno/sha256sums.txt\">hashes de archivos</a> contrastándolas con "
+"nuestra <a href=\"https://pgp.mit.edu/pks/lookup?op=get&search="
+"0xC7DCC123F0DDB862\">clave PGP</a> (con huella digital <code>51BE 600C 2711 "
+"926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
 #: download.html%2Bhtml.body.footer.div.p:197-9
@@ -216,19 +214,17 @@ msgstr ""
 "write(\"-\"+new Date().getFullYear());</script>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
-#, fuzzy
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown bel ow:"
 msgstr ""
-"Ejecuta esto para <a href=\"https://developer.android.com/studio/command-"
-"line/apksigner#usage-verify\">verificar</a> que la APK tenga una firma "
-"válida con el certificado con la huella digital mostrada abajo:"
+"Ejecuta esto para <a href=\"https://developer.android.com/studio/"
+"command-line/apksigner#usage-verify\">verificar</a> que la APK tenga una "
+"firma válida con el certificado con la huella digital mostrada abajo:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:172-1
-#, fuzzy
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
