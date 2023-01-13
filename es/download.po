@@ -54,26 +54,24 @@ msgstr "ES"
 #: download.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-"html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-"html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 
 #: download.html%2Bhtml.body.main.title:128-1
 msgctxt "download.html+html.body.main.title:128-1"
@@ -81,12 +79,9 @@ msgid "CENO Browser | Download"
 msgstr "Navegador CENO | Descargar"
 
 #: download.html%2Bhtml.body.main.title:129-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:127-1"
-#| msgid "CENO Browser | Download"
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
-msgstr "Navegador CENO | Descargar"
+msgstr "CENO Browser | Descargas"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:135-13
 msgid "CENO Browser banner"
@@ -139,24 +134,20 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
 #, fuzzy
-#| msgid "CENO Browser 1.6.1"
 msgid "CENO Browser 2.0.0b1"
 msgstr "Navegador CENO 1.6.1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
 msgid "Download (32-bit ARM)"
 msgstr "Descargar (32-bit ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-20
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-6
 msgid "Download (64-bit ARM)"
 msgstr "Descargar (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
-#, fuzzy
-#| msgid ""
-#| "Run this to <a href=\"https://developer.android.com/studio/command-line/"
-#| "apksigner#usage-verify\">verify</a> that the APK has a valid signature "
-#| "from the certificate with the fingerprint shown below:"
+#: download.html%2Bhtml.body.main.section.div.div.div.p:167-3
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -167,12 +158,7 @@ msgstr ""
 "válida con el certificado con la huella digital mostrada abajo:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:171-1
-#, fuzzy
-#| msgid ""
-#| "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate "
-#| "DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
-#| "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:170-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -183,14 +169,8 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
+#: download.html%2Bhtml.body.main.section.div.div.div.p:175-17
 #, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-#| "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F "
-#| "C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -206,6 +186,8 @@ msgstr ""
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
+#: download.html%2Bhtml.body.footer.div.p:197-9
+#: download.html%2Bhtml.body.footer.div.p:194-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -224,6 +206,8 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:197-23
+#: download.html%2Bhtml.body.footer:199-23
+#: download.html%2Bhtml.body.footer:196-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -231,26 +215,68 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
+#, fuzzy
+msgid ""
+"Run this to <a href=\"https://developer.android.com/studio/command-line/"
+"apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
+"the certificate with the fingerprint shown bel ow:"
+msgstr ""
+"Ejecuta esto para <a href=\"https://developer.android.com/studio/command-"
+"line/apksigner#usage-verify\">verificar</a> que la APK tenga una firma "
+"válida con el certificado con la huella digital mostrada abajo:"
+
+#.  TRANSLATORS: Please do not translate any of these. 
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:172-1
+#, fuzzy
+msgid ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
+"igest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+msgstr ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
+msgid "CENO Browser 1.6.1"
+msgstr "Navegador CENO 1.6.1"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:172-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
+msgstr ""
+"También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v1.6.1/sha256sums.txt.asc\">firmas</a> de los <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">hashes de "
+"archivos</a> contrastándolas con nuestra <a href=\"https://ceno-download.s3."
+"amazonaws.com/keys/cenoers.asc\">clave PGP</a> (con huella digital "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
-#~ "download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-#~ "hreflang=\"es\" href=\"../es/download.html\">Español</a> <a "
-#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download."
-#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#~ "href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-#~ "html\">Українська</a>"
+#~ "download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
+#~ "\"es\" href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
+#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+#~ "href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang="
+#~ "\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 #~ msgstr ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
-#~ "download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-#~ "hreflang=\"es\" href=\"../es/download.html\">Español</a> <a "
-#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download."
-#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#~ "href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-#~ "html\">Українська</a>"
+#~ "download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
+#~ "\"es\" href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
+#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+#~ "href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang="
+#~ "\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 
 #~ msgid "Censorship.no! - Download"
 #~ msgstr "Censorship.no! - Descargar"
