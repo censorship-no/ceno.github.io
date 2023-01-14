@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-13 15:00-0700\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2023-01-14 00:50+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -81,9 +81,6 @@ msgid "CENO Browser | Download"
 msgstr "Navigateur CENO | Téléchargement"
 
 #: download.html%2Bhtml.body.main.title:129-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:127-1"
-#| msgid "CENO Browser | Download"
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
 msgstr "Navigateur CENO | Téléchargement"
@@ -138,10 +135,8 @@ msgstr ""
 "le dernier APK :"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-#, fuzzy
-#| msgid "CENO Browser 1.6.1"
 msgid "CENO Browser 2.0.0b1"
-msgstr "Navigateur CENO 1.6.1"
+msgstr "Navigateur CENO 2.0.0b1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
 msgid "Download (32-bit ARM)"
@@ -152,45 +147,27 @@ msgid "Download (64-bit ARM)"
 msgstr "Téléchargement (ARM 64 bits)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
-#, fuzzy
-#| msgid ""
-#| "Run this to <a href=\"https://developer.android.com/studio/command-line/"
-#| "apksigner#usage-verify\">verify</a> that the APK has a valid signature "
-#| "from the certificate with the fingerprint shown below:"
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
-"Exécutez ceci pour <a href=\"https://developer.android.com/studio/command-"
-"line/apksigner#usage-verify\">vérifier</a> si l'APK a une signature valide "
-"du certificat avec l'empreinte numérique suivante :"
+"Exécutez ceci pour <a href=\"https://developer.android.com/studio/"
+"command-line/apksigner#usage-verify\">vérifier</a> si l'APK a une signature "
+"valide du certificat avec l'empreinte numérique suivante :"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:171-1
-#, fuzzy
-#| msgid ""
-#| "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate "
-#| "DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
-#| "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
-"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
-"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN : "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest : "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
-#, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-#| "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F "
-#| "C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -198,12 +175,12 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Vous pouvez également vérifier les <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> des <a "
-"href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.6.1/sha256sums."
-"txt\">hachages de fichier</a> par rapport à notre <a href=\"https://ceno-"
-"download.s3.amazonaws.com/keys/cenoers.asc\">clé PGP</a> (avec empreinte "
-"numérique <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"Vous pouvez également vérifier les <a href=\"https://dcomm.net.ua/package/"
+"ceno/sha256sums.txt.asc\">signatures</a> des <a href=\"https://dcomm.net.ua/"
+"package/ceno/sha256sums.txt\">hachages de fichier</a> par rapport à notre <a "
+"href=\"pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">clé PGP</a> "
+"(avec empreinte numérique <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
 msgid ""

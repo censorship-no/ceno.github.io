@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-06 13:49-0700\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2023-01-14 01:22+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -42,7 +42,7 @@ msgstr "CENO ကို ရယူမည်"
 
 #: index.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr "ဒေါင်းလုဒ်လုပ်ပါ"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:103-1
@@ -79,7 +79,6 @@ msgid "CENO Browser | Share the Web"
 msgstr "CENO ဘရောက်ဇာ | ဝဘ်ကို မျှဝေပါ"
 
 #: index.html%2Bhtml.body.main.title:129-1
-#, fuzzy
 msgctxt "index.html+html.body.main.title:129-1"
 msgid "CENO Browser | Share the Web"
 msgstr "CENO ဘရောက်ဇာ | ဝဘ်ကို မျှဝေပါ"
@@ -153,13 +152,11 @@ msgstr ""
 "ဝက်ဘ်ဆိုက်များကို ရရှိနိုင်ရန် ချဲ့ထွင်ပါ။"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:183-13
-#, fuzzy
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:183-13"
 msgid "Free and Open Source"
 msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:184-15
-#, fuzzy
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:184-15"
 msgid "Free and Open Source"
 msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
@@ -200,8 +197,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:183-15"
 #~ msgid "Free and Open Source"
