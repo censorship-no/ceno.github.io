@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
+"POT-Creation-Date: 2023-01-13 15:00-0700\n"
 "PO-Revision-Date: 2022-09-15 10:19+0000\n"
 "Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
@@ -73,16 +73,14 @@ msgid ""
 msgstr ""
 
 #: download.html%2Bhtml.body.main.title:128-1
-#, fuzzy
 msgctxt "download.html+html.body.main.title:128-1"
 msgid "CENO Browser | Download"
-msgstr "Erhalte CENO"
+msgstr "CENO Browser | Herunterladen"
 
 #: download.html%2Bhtml.body.main.title:129-1
-#, fuzzy
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
-msgstr "Erhalte CENO"
+msgstr "CENO Browser | Herunterladen"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:135-13
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:134-13
@@ -91,9 +89,8 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:139-7
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:138-7
-#, fuzzy
 msgid "Get CENO Browser"
-msgstr "Erhalte CENO"
+msgstr "CENO Browser erhalten"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:140-3
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:139-3
@@ -101,6 +98,8 @@ msgid ""
 "The safest way to install CENO Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
+"Der sicherste Weg, CENO Browser auf Ihrem Android-Telefon zu installieren, "
+"führt über den Google Play Store:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:142-15
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:141-15
@@ -127,7 +126,7 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:162-15
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:161-15
 msgid "Direct Download"
-msgstr ""
+msgstr "Direktes Herunterladen"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:163-15
 #: download.html%2Bhtml.body.main.section.div.div.div.p:162-15
@@ -136,22 +135,22 @@ msgid ""
 "links, you can download the latest APK directly:"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
-#: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
 #, fuzzy
-msgid "CENO Browser 1.6.1"
+msgid "CENO Browser 2.0.0b1"
 msgstr "Erhalte CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:164-6
 msgid "Download (32-bit ARM)"
-msgstr ""
+msgstr "Herunterladen (32-Bit ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-6
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
 msgid "Download (64-bit ARM)"
-msgstr ""
+msgstr "Herunterladen (64-Bit ARM)"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:167-3
 #: download.html%2Bhtml.body.main.section.div.div.div.p:166-3
 msgid ""
@@ -161,6 +160,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:171-1
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:170-1
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:169-1
 msgid ""
@@ -169,17 +169,18 @@ msgid ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:172-3
-#: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
+#: download.html%2Bhtml.body.main.section.div.div.div.p:175-17
 msgid ""
-"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
-"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
-"C123 F0DD B862</code>)."
+"You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
+"package/ceno/sha256sums.txt\">file hashes</a> against our <a href=\"https://"
+"pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
+"fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 
+#: download.html%2Bhtml.body.footer.div.p:195-9
+#: download.html%2Bhtml.body.footer.div.p:197-9
 #: download.html%2Bhtml.body.footer.div.p:194-9
 #: download.html%2Bhtml.body.footer.div.p:193-9
 msgid ""
@@ -193,12 +194,14 @@ msgstr ""
 "CENO Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
 "a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
 "wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
-"und Versammlungsfreiheit entwickelt. Technologielösungen und Innovationen "
+"und Vereinigungsfreiheit entwickelt. Technologielösungen und Innovationen "
 "werden von unseren <a href=\"https://equalit.ie/en/values/\">Werten</a> "
 "angetrieben, die uns leiten, um die Rechte und Bestrebungen aller Menschen "
 "im Internet zu schützen."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: download.html%2Bhtml.body.footer:197-23
+#: download.html%2Bhtml.body.footer:199-23
 #: download.html%2Bhtml.body.footer:196-23
 #: download.html%2Bhtml.body.footer:195-23
 msgid ""
@@ -209,10 +212,41 @@ msgstr ""
 "write(\"-\"+new Date().getFullYear());</script>"
 
 #: download.html%2Bhtml.body.main.title:127-1
-#, fuzzy
 msgctxt "download.html+html.body.main.title:127-1"
 msgid "CENO Browser | Download"
-msgstr "Erhalte CENO"
+msgstr "CENO Browser | Herunterladen"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
+msgid ""
+"Run this to <a href=\"https://developer.android.com/studio/command-line/"
+"apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
+"the certificate with the fingerprint shown bel ow:"
+msgstr ""
+
+#.  TRANSLATORS: Please do not translate any of these. 
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:172-1
+msgid ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
+"igest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:163-3
+msgid "CENO Browser 1.6.1"
+msgstr "CENO Browser 1.6.1"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:172-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:171-3
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
+"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
+"C123 F0DD B862</code>)."
+msgstr ""
 
 #~ msgid "How It Works"
 #~ msgstr "Wie Es Funktioniert"

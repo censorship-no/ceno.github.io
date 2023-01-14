@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
+"POT-Creation-Date: 2023-01-06 13:49-0700\n"
 "PO-Revision-Date: 2022-05-23 13:18+0000\n"
 "Last-Translator: Vitaliy <gvitalik+ceno@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
@@ -40,6 +40,7 @@ msgstr "Neuigkeiten"
 msgid "Community"
 msgstr "Gemeinschaft"
 
+#: news.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 #: news.html%2Bhtml.body.nav.div.div.div.a[title]:100-15
 msgid "Get CENO"
 msgstr "CENO erhalten"
@@ -50,12 +51,14 @@ msgid "Download"
 msgstr "Herunterladen"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: news.html%2Bhtml.body.nav.div.div.div:103-1
 #: news.html%2Bhtml.body.nav.div.div.div:102-1
 msgid "EN"
 msgstr "DE"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: news.html%2Bhtml.body.nav.div.div.div.div:109-5
 #: news.html%2Bhtml.body.nav.div.div.div.div:108-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/news.html"
@@ -88,6 +91,7 @@ msgctxt "news.html+html.body.main.title:129-1"
 msgid "CENO Browser | News and Media"
 msgstr ""
 
+#: news.html%2Bhtml.body.main.div.h1:131-5
 #: news.html%2Bhtml.body.main.div.h1:130-5
 msgid "News and Media"
 msgstr "Neuigkeiten und Medienberichte"
@@ -105,10 +109,12 @@ msgstr ""
 msgid "Our News"
 msgstr "Nachrichten"
 
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:144-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:143-17
 msgid "CENO proves itself in Iran during Internet shutdowns"
 msgstr "CENO bewährt sich im Iran bei Internetabschaltungen"
 
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:146-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:145-17
 msgid "December 15, 2022"
 msgstr "15. Dezember 2022"
@@ -129,17 +135,28 @@ msgid "Recent Coverage"
 msgstr ""
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:178-17
+msgid "WhatsApp Launches a Tool to Fight Internet Censorship"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:180-17
+msgid "January 5th, 2023"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:191-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:178-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:177-17
 msgid ""
 "A new media project is working to sneak blocked media into Russia and wants "
 "to become a hub for press freedom in totalitarian regimes"
 msgstr ""
 
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:193-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:180-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:179-17
 msgid "September 1st, 2022"
 msgstr ""
 
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:204-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:191-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:190-17
 msgid ""
@@ -147,10 +164,141 @@ msgid ""
 "with it without a VPN"
 msgstr ""
 
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:206-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:193-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:192-17
 msgid "August 12th, 2022"
 msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.p:212-9
+msgid "More Coverage >>"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.h2:218-1
+#: news.html%2Bhtml.body.main.div.section.h2:259-1
+#: news.html%2Bhtml.body.main.div.section.h2:258-1
+msgid "Events & Presentations"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:227-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:268-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:267-17
+msgid "CENO: Avoid Internet Shutdowns with Cooperative Web Browsing (Arabic)"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:228-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:269-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:268-17
+msgid "November 26th, 2021"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:239-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:280-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:279-17
+msgid "CENO: Route Around Censorship with P2P-powered Web Browsing"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:240-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:281-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:280-17
+msgid "November 4th, 2021"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:251-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:292-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:291-17
+msgid ""
+"Ouinet, a cooperative P2P web cache that helps overcome network interference"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:252-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:293-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:292-17
+msgid "August 2nd, 2018"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.h2:265-1
+#: news.html%2Bhtml.body.main.div.section.h2:306-1
+#: news.html%2Bhtml.body.main.div.section.h2:305-1
+msgid "Resources"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:272-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:313-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:312-17
+msgid "Fact Sheet"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:273-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:314-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:313-17
+msgid "Learn"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:284-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:324-17
+msgid "Case Studies"
+msgstr "Fallstudien"
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:285-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:326-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:325-17
+msgid "Read"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:296-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:337-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:336-17
+msgid "Brand & Style Guide"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:297-3
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:338-3
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:337-3
+msgid "Explore"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.p:308-2
+#: news.html%2Bhtml.body.main.div.p:349-2
+#: news.html%2Bhtml.body.main.div.p:348-2
+msgid ""
+"For press and media inquiries, please contact Jenny Ryan at: press [at] "
+"equalitie [dot] org"
+msgstr ""
+
+#: news.html%2Bhtml.body.footer.div.p:325-9
+#: news.html%2Bhtml.body.footer.div.p:366-9
+#: news.html%2Bhtml.body.footer.div.p:365-9
+msgid ""
+"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a not-for-profit Canadian company developing open and reusable systems with "
+"a focus on privacy, online security and freedom of association. Technology "
+"solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
+"values/\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+"CENO Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
+"a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
+"wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
+"und Vereinigungsfreiheit entwickelt. Technologielösungen und Innovationen "
+"werden von unseren <a href=\"https://equalit.ie/en/values/\">Werten</a> "
+"angetrieben, die uns leiten, um die Rechte und Bestrebungen aller Menschen "
+"im Internet zu schützen."
+
+#.  TRANSLATORS: Please do not translate this. 
+#: news.html%2Bhtml.body.footer:327-23 news.html%2Bhtml.body.footer:368-23
+#: news.html%2Bhtml.body.footer:367-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#: news.html%2Bhtml.body.main.title:127-1
+msgctxt "news.html+html.body.main.title:127-1"
+msgid "CENO Browser | News and Media"
+msgstr "CENO Browser | Neuigkeiten und Medienberichte"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:204-17
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:203-17
@@ -196,112 +344,3 @@ msgstr ""
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:246-17
 msgid "February 12, 2021"
 msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.h2:259-1
-#: news.html%2Bhtml.body.main.div.section.h2:258-1
-msgid "Events & Presentations"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:268-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:267-17
-msgid "CENO: Avoid Internet Shutdowns with Cooperative Web Browsing (Arabic)"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:269-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:268-17
-msgid "November 26th, 2021"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:280-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:279-17
-msgid "CENO: Route Around Censorship with P2P-powered Web Browsing"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:281-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:280-17
-msgid "November 4th, 2021"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:292-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:291-17
-msgid ""
-"Ouinet, a cooperative P2P web cache that helps overcome network interference"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:293-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:292-17
-msgid "August 2nd, 2018"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.h2:306-1
-#: news.html%2Bhtml.body.main.div.section.h2:305-1
-msgid "Resources"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:313-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:312-17
-msgid "Fact Sheet"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:314-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:313-17
-msgid "Learn"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:324-17
-msgid "Case Studies"
-msgstr "Fallstudien"
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:326-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:325-17
-msgid "Read"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:337-17
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:336-17
-msgid "Brand & Style Guide"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:338-3
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:337-3
-msgid "Explore"
-msgstr ""
-
-#: news.html%2Bhtml.body.main.div.p:349-2
-#: news.html%2Bhtml.body.main.div.p:348-2
-msgid ""
-"For press and media inquiries, please contact Jenny Ryan at: press [at] "
-"equalitie [dot] org"
-msgstr ""
-
-#: news.html%2Bhtml.body.footer.div.p:366-9
-#: news.html%2Bhtml.body.footer.div.p:365-9
-msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
-"a not-for-profit Canadian company developing open and reusable systems with "
-"a focus on privacy, online security and freedom of association. Technology "
-"solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
-"values/\">values</a> that guide us to protect the rights and aspirations of "
-"everyone online."
-msgstr ""
-"CENO Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
-"a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
-"wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
-"und Versammlungsfreiheit entwickelt. Technologielösungen und Innovationen "
-"werden von unseren <a href=\"https://equalit.ie/en/values/\">Werten</a> "
-"angetrieben, die uns leiten, um die Rechte und Bestrebungen aller Menschen "
-"im Internet zu schützen."
-
-#.  TRANSLATORS: Please do not translate this. 
-#: news.html%2Bhtml.body.footer:368-23 news.html%2Bhtml.body.footer:367-23
-msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-
-#: news.html%2Bhtml.body.main.title:127-1
-msgctxt "news.html+html.body.main.title:127-1"
-msgid "CENO Browser | News and Media"
-msgstr "CENO Browser | Neuigkeiten und Medienberichte"

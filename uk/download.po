@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
-"PO-Revision-Date: 2022-12-19 19:11+0000\n"
+"POT-Creation-Date: 2023-01-13 15:00-0700\n"
+"PO-Revision-Date: 2023-01-14 00:50+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/uk/>\n"
@@ -82,9 +82,6 @@ msgid "CENO Browser | Download"
 msgstr "браузер CENO | Завантажити"
 
 #: download.html%2Bhtml.body.main.title:129-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:127-1"
-#| msgid "CENO Browser | Download"
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
 msgstr "браузер CENO | Завантажити"
@@ -137,19 +134,19 @@ msgstr ""
 "Досвідченіші користувачі або ті, хто не може встановити браузер CENO через "
 "вказане посилання, можуть завантажити останню версію APK звідси:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
-msgid "CENO Browser 1.6.1"
-msgstr "Браузер CENO 1.6.1"
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
+msgid "CENO Browser 2.0.0b1"
+msgstr "Браузер CENO 2.0.0b1"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
 msgid "Download (32-bit ARM)"
 msgstr "Завантажити (32-біт ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-6
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-20
 msgid "Download (64-bit ARM)"
 msgstr "Завантажити (64-біт ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:167-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -160,7 +157,7 @@ msgstr ""
 "дійсний підпис сертифіката з наведеним нижче відбитком:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:170-1
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:171-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -170,23 +167,21 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:172-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
 msgid ""
-"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-"asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
-"C123 F0DD B862</code>)."
+"You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
+"package/ceno/sha256sums.txt\">file hashes</a> against our <a href=\"https://"
+"pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
+"fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Також можете перевірити <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.1/sha256sums.txt.asc\">підписи</a> <a href=\"https://ceno -"
-"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">хешів файлів</a> "
-"через наш <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers ."
-"asc\">PGP-ключ</a> (з відбитком <code>51BE 600C 2711 926C 865D F93F C7DC "
-"C123 F0DD B862</code>)."
+"Також можете перевірити <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">підписи</a> <a href=\"dcomm.net.ua/package/ceno/"
+"sha256sums.txt\">хешів файлів</a> через наш <a href=\"https://pgp.mit.edu/"
+"pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP-ключ</a> (з відбитком "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
-#: download.html%2Bhtml.body.footer.div.p:194-9
+#: download.html%2Bhtml.body.footer.div.p:195-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -204,7 +199,7 @@ msgstr ""
 "на захист прав і прагнень кожного в онлайні."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:196-23
+#: download.html%2Bhtml.body.footer:197-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
