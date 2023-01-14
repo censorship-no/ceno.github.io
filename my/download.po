@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-13 15:00-0700\n"
-"PO-Revision-Date: 2023-01-13 23:11+0000\n"
+"PO-Revision-Date: 2023-01-14 00:50+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/my/>\n"
@@ -168,7 +168,6 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-17
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -176,12 +175,12 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.6.1/"
-"sha256sums.txt\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href="
-"\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">PGP key</a> "
-"(fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) "
-"ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
+"သင့်အနေဖြင့် <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt\""
+">file hashes</a> ရဲ့ <a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
+"txt.asc\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href=\"https://pgp.mit.edu/pks/"
+"lookup?op=get&search=0xC7DCC123F0DDB86\">PGP key</a> (fingerprint <code>51BE "
+"600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) ဖြင့် စစ်ဆေး "
+"အတည်ပြုနိုင်ပါတယ်။"
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
 #: download.html%2Bhtml.body.footer.div.p:197-9
@@ -224,7 +223,6 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:172-1
-#, fuzzy
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
@@ -250,10 +248,10 @@ msgid ""
 msgstr ""
 "သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.6.1/"
 "sha256sums.txt\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href="
-"\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">PGP key</a> "
-"(fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) "
-"ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
+"amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို "
+"ကျွန်ုပ်တို့၏ <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
+"asc\">PGP key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
+"F0DD B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
 #~ msgctxt "download.html+html.body.main.title:127-1"
 #~ msgid "CENO Browser | Download"
