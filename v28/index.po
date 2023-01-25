@@ -2,66 +2,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
-"PO-Revision-Date: 2023-01-18 17:47+0000\n"
-"Last-Translator: tygyh <jonis9898@hotmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
-"websiteindex/sv/>\n"
-"Language: sv\n"
+"POT-Creation-Date: 2023-01-13 15:00-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: v28\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "sv"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr "Support"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr "Nyheter"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr "Gemenskap"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
-msgstr "Hämta CENO"
+msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr "Ladda ned"
+msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr "EN"
+msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: index.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/index.html\">Українська</a>"
 msgstr ""
 
 #: index.html%2Bhtml.body.main.title:128-1
@@ -144,9 +142,9 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:185-15
 msgid ""
-"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-"\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
-"github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
+"CENO is based on <a href=\"https://www.mozilla.org/firefox/android/\""
+">Firefox for Android</a>, extended to make use of the <a href=\"https"
+"://github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
 "developers to incorporate the CENO network into their apps for P2P "
 "connectivity."
 msgstr ""
@@ -164,20 +162,6 @@ msgstr ""
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:208-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-
-#~ msgid "How It Works"
-#~ msgstr "Så här fungerar det"
-
-#~ msgid "User Manual"
-#~ msgstr "Användarmanual"
-
-#~ msgid "Get Involved!"
-#~ msgstr "Bli involverad!"
-
-#~ msgid "Get CENO Browser"
-#~ msgstr "Hämta CENO-navigatorn"
