@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-13 15:00-0700\n"
+"POT-Creation-Date: 2023-01-25 17:10-0400\n"
 "PO-Revision-Date: 2023-01-14 01:22+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -132,31 +132,31 @@ msgstr ""
 "မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-msgid "CENO Browser 2.0.0b1"
+#, fuzzy
+#| msgid "CENO Browser 2.0.0b1"
+msgid "CENO Browser 2.0.0b2"
 msgstr "CENO ဘရောက်ဇာ ၂.၀.၀"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-6
 msgid "Download (32-bit ARM)"
 msgstr "ဒေါင်းလုတ် (32-bit ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-20
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:166-6
 msgid "Download (64-bit ARM)"
 msgstr "ဒေါင်းလုတ် (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:167-3
+#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
-"APK ဖိုင်တွင် အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း "
-"သက်သေပြရန် <a href=\"https://developer.android.com/studio/command-line/"
-"apksigner#usage-verify\">ဖွင့်လိုက်ပါ</a> -"
+"APK ဖိုင်တွင် အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း သက်သေပြရန် <a href="
+"\"https://developer.android.com/studio/command-line/apksigner#usage-verify"
+"\">ဖွင့်လိုက်ပါ</a> -"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:170-1
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:171-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -167,7 +167,6 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
-#: download.html%2Bhtml.body.main.section.div.div.div.p:175-17
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -175,16 +174,13 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"သင့်အနေဖြင့် <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt\""
-">file hashes</a> ရဲ့ <a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
-"txt.asc\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href=\"https://pgp.mit.edu/pks/"
-"lookup?op=get&search=0xC7DCC123F0DDB86\">PGP key</a> (fingerprint <code>51BE "
-"600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) ဖြင့် စစ်ဆေး "
-"အတည်ပြုနိုင်ပါတယ်။"
+"သင့်အနေဖြင့် <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt\">file "
+"hashes</a> ရဲ့ <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt.asc"
+"\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href=\"https://pgp.mit.edu/pks/lookup?"
+"op=get&search=0xC7DCC123F0DDB86\">PGP key</a> (fingerprint <code>51BE 600C "
+"2711 926C 865D F93F C7DC C123 F0DD B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
-#: download.html%2Bhtml.body.footer.div.p:197-9
-#: download.html%2Bhtml.body.footer.div.p:194-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -202,56 +198,49 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:197-23
-#: download.html%2Bhtml.body.footer:199-23
-#: download.html%2Bhtml.body.footer:196-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:168-17
-msgid ""
-"Run this to <a href=\"https://developer.android.com/studio/command-line/"
-"apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
-"the certificate with the fingerprint shown bel ow:"
-msgstr ""
-"APK ဖိုင်တွင် အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း "
-"သက်သေပြရန် <a href=\"https://developer.android.com/studio/command-line/"
-"apksigner#usage-verify\">ဖွင့်လိုက်ပါ</a> -"
+#~ msgid ""
+#~ "Run this to <a href=\"https://developer.android.com/studio/command-line/"
+#~ "apksigner#usage-verify\">verify</a> that the APK has a valid signature "
+#~ "from the certificate with the fingerprint shown bel ow:"
+#~ msgstr ""
+#~ "APK ဖိုင်တွင် အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း သက်သေပြရန် <a href="
+#~ "\"https://developer.android.com/studio/command-line/apksigner#usage-verify"
+#~ "\">ဖွင့်လိုက်ပါ</a> -"
 
-#.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:172-1
-msgid ""
-"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
-"CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
-"igest: "
-"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
-msgstr ""
-"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
-"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
-"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+#~ msgid ""
+#~ "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate "
+#~ "DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 d\n"
+#~ "igest: "
+#~ "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
+#~ msgstr ""
+#~ "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate "
+#~ "DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+#~ "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:164-3
-msgid "CENO Browser 1.6.1"
-msgstr "CENO ဘရောက်ဇာ ၁. ၆.၁"
+#~ msgid "CENO Browser 1.6.1"
+#~ msgstr "CENO ဘရောက်ဇာ ၁. ၆.၁"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:172-3
-msgid ""
-"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
-"against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc"
-"\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC "
-"C123 F0DD B862</code>)."
-msgstr ""
-"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.6.1/"
-"sha256sums.txt\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို "
-"ကျွန်ုပ်တို့၏ <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
-"asc\">PGP key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
-"F0DD B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
+#~ msgid ""
+#~ "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+#~ "ceno/v1.6.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+#~ "download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">file hashes</a> "
+#~ "against our <a href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers."
+#~ "asc\">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F "
+#~ "C7DC C123 F0DD B862</code>)."
+#~ msgstr ""
+#~ "သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v1.6.1/"
+#~ "sha256sums.txt\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
+#~ "amazonaws.com/ceno/v1.6.1/sha256sums.txt.asc\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a "
+#~ "href=\"https://ceno-download.s3.amazonaws.com/keys/cenoers.asc\">PGP key</"
+#~ "a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</"
+#~ "code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
 #~ msgctxt "download.html+html.body.main.title:127-1"
 #~ msgid "CENO Browser | Download"
