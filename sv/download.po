@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-13 15:00-0700\n"
+"POT-Creation-Date: 2023-01-25 17:10-0400\n"
 "PO-Revision-Date: 2022-07-04 19:22+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
@@ -26,7 +26,7 @@ msgstr "Om"
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr "Hjälp"
+msgstr "Support"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
@@ -34,7 +34,7 @@ msgstr "Nyheter"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr "Mötesplats"
+msgstr "Gemenskap"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
@@ -42,39 +42,36 @@ msgstr "Hämta CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr "Ladda ner"
+msgstr "Ladda ned"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr "SV"
+msgstr "EN"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/download.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-"html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
+"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.title:128-1
 #, fuzzy
-#| msgid "Get CENO"
 msgctxt "download.html+html.body.main.title:128-1"
 msgid "CENO Browser | Download"
 msgstr "Hämta CENO"
 
 #: download.html%2Bhtml.body.main.title:129-1
 #, fuzzy
-#| msgid "Get CENO"
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
 msgstr "Hämta CENO"
@@ -85,7 +82,6 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:139-7
 #, fuzzy
-#| msgid "Get CENO"
 msgid "Get CENO Browser"
 msgstr "Hämta CENO"
 
@@ -125,8 +121,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
 #, fuzzy
-#| msgid "Get CENO"
-msgid "CENO Browser 2.0.0b1"
+msgid "CENO Browser 2.0.0b2"
 msgstr "Hämta CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
@@ -180,6 +175,11 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
+#, fuzzy
+msgid "CENO Browser 2.0.0b1"
+msgstr "Hämta CENO"
+
 #~ msgid "How It Works"
 #~ msgstr "Så här fungerar det"
 
@@ -190,13 +190,11 @@ msgstr ""
 #~ msgstr "Bli involverad!"
 
 #, fuzzy
-#~| msgid "Get CENO"
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Hämta CENO"
 
 #, fuzzy
-#~| msgid "Get CENO"
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:133-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Hämta CENO"
