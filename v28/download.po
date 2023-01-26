@@ -2,52 +2,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-25 17:10-0400\n"
-"PO-Revision-Date: 2022-07-04 19:22+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
-"websitedownload/sv/>\n"
-"Language: sv\n"
+"POT-Creation-Date: 2023-01-13 15:00-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: v28\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "sv"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr "Support"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr "Nyheter"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr "Gemenskap"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
-msgstr "Hämta CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
-msgstr "Ladda ned"
+msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: download.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
-msgstr "EN"
+msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -56,34 +54,31 @@ msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/download."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
 "\"../es/download.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item"
-"\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
-"\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
+"hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> "
+"<a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\""
+" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a>"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.title:128-1
-#, fuzzy
 msgctxt "download.html+html.body.main.title:128-1"
 msgid "CENO Browser | Download"
-msgstr "Hämta CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.main.title:129-1
-#, fuzzy
 msgctxt "download.html+html.body.main.title:129-1"
 msgid "CENO Browser | Download"
-msgstr "Hämta CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:135-13
 msgid "CENO Browser banner"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:139-7
-#, fuzzy
 msgid "Get CENO Browser"
-msgstr "Hämta CENO"
+msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:140-3
 msgid ""
@@ -120,9 +115,8 @@ msgid ""
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-#, fuzzy
-msgid "CENO Browser 2.0.0b2"
-msgstr "Hämta CENO"
+msgid "CENO Browser 2.0.0b1"
+msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
 msgid "Download (32-bit ARM)"
@@ -151,9 +145,10 @@ msgstr ""
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
-"package/ceno/sha256sums.txt\">file hashes</a> against our <a href=\"https://"
-"pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
-"fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"package/ceno/sha256sums.txt\">file hashes</a> against our <a href=\"https"
+"://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> ("
+"with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 msgstr ""
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
@@ -169,32 +164,6 @@ msgstr ""
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:197-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-
-#: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-#, fuzzy
-msgid "CENO Browser 2.0.0b1"
-msgstr "Hämta CENO"
-
-#~ msgid "How It Works"
-#~ msgstr "Så här fungerar det"
-
-#~ msgid "User Manual"
-#~ msgstr "Användarmanual"
-
-#~ msgid "Get Involved!"
-#~ msgstr "Bli involverad!"
-
-#, fuzzy
-#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:131-7"
-#~ msgid "Get CENO Browser"
-#~ msgstr "Hämta CENO"
-
-#, fuzzy
-#~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:133-7"
-#~ msgid "Get CENO Browser"
-#~ msgstr "Hämta CENO"
