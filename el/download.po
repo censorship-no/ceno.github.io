@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-27 13:52-0400\n"
-"PO-Revision-Date: 2022-08-10 21:58+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-01-30 03:05+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/el/>\n"
 "Language: el\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -135,9 +135,8 @@ msgstr ""
 "πρόσφατο APK:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:164-17
-#, fuzzy
 msgid "CENO Browser 2.0.0"
-msgstr "Φυλλομετρητής CENO 1.6.1"
+msgstr "Φυλλομετρητής CENO 2.0.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:165-20
 msgid "Download (32-bit ARM)"
@@ -169,7 +168,6 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:173-17
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -177,12 +175,12 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Μπορείτε να επαληθεύσετε τις <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v1.6.1/sha256sums.txt.asc\">υπογραφές</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v1.6.1/sha256sums.txt\">του αρχείου "
-"επιβεβαίωσης</a> με το <a href=\"https://ceno-download.s3.amazonaws.com/keys/"
-"cenoers.asc\">κλειδί PGP</a> (με το αναγνωριστικό <code>51BE 600C 2711 926C "
-"865D F93F C7DC C123 F0DD B862</code>)."
+"Μπορείτε να επαληθεύσετε τις <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">υπογραφές</a> of <a href=\"https://dcomm.net.ua/package/"
+"ceno/sha256sums.txt\">του αρχείου επιβεβαίωσης</a> με το <a href=\"https"
+"://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">κλειδί PGP</a> ("
+"με το αναγνωριστικό <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:195-9
 msgid ""
