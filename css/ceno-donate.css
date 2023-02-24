@@ -1,15 +1,3 @@
-div .homepage-icon {
-    display: flex;
-    justify-content: center;
-}
-
-.google-play-badge, .paskoocheh-download-badge, .gitlab-badge {
-    width: 175px;
-    height: 67.7167px;
-    margin-left: -10px;
-    display: inline;
-}
-
 .row.homepage {
     text-align: center;
     margin-left: auto;
@@ -22,7 +10,3 @@ div .homepage-icon {
     color: white;
 }
 
-.card {
-    background-color: transparent;
-    display: inline;
-}
