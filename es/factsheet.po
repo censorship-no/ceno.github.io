@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
-"PO-Revision-Date: 2023-01-14 00:54+0000\n"
+"POT-Creation-Date: 2023-02-24 15:14-0700\n"
+"PO-Revision-Date: 2023-02-25 00:34+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: factsheet.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -36,71 +36,84 @@ msgstr "Noticias"
 msgid "Community"
 msgstr "Comunidad"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.ul.li:100-17
+msgid "Donate"
+msgstr "Donar"
+
+#: factsheet.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 #: factsheet.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Obtén CENO"
 
+#: factsheet.html%2Bhtml.body.nav.div.div.div:104-10
 #: factsheet.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr "Descargar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: factsheet.html%2Bhtml.body.nav.div.div.div:106-1
 #: factsheet.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "ES"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: factsheet.html%2Bhtml.body.nav.div.div.div.div:112-5
 #: factsheet.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/factsheet."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet."
-"html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet.html\">Français</"
+"a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/"
+"factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang="
+"\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/factsheet."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet."
-"html\">Українська</a>"
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/factsheet.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/factsheet.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/factsheet.html\">Français</"
+"a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/"
+"factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang="
+"\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet.html\">Українська</a>"
 
-#: factsheet.html%2Bhtml.body.main.title:128-1
-msgctxt "factsheet.html+html.body.main.title:128-1"
+#: factsheet.html%2Bhtml.body.main.title:131-1
+#, fuzzy
+msgctxt "factsheet.html+html.body.main.title:131-1"
 msgid "CENO Browser | Fact Sheet"
 msgstr "Navegador CENO | Hoja de datos CENO"
 
-#: factsheet.html%2Bhtml.body.main.title:129-1
-msgctxt "factsheet.html+html.body.main.title:129-1"
+#: factsheet.html%2Bhtml.body.main.title:132-1
+#, fuzzy
+msgctxt "factsheet.html+html.body.main.title:132-1"
 msgid "CENO Browser | Fact Sheet"
-msgstr "CENO Browser | Hoja informativa"
+msgstr "Navegador CENO | Hoja de datos CENO"
 
+#: factsheet.html%2Bhtml.body.main.div.h1:134-5
 #: factsheet.html%2Bhtml.body.main.div.h1:131-5
 msgid "CENO Fact Sheet"
 msgstr "Hoja de datos CENO"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:138-1
 #: factsheet.html%2Bhtml.body.main.div.section.p:135-1
 msgid "Download PDF"
 msgstr "Descargar PDF"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:140-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:137-1
 msgid "Overview"
 msgstr "Resumen"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:141-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:138-2
 msgid "What is CENO?"
 msgstr "¿Qué es CENO?"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:142-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:139-2
 msgid ""
 "The world’s first mobile browser that circumvents current Internet "
@@ -111,10 +124,12 @@ msgstr ""
 "censura de Internet y los apagones locales de Internet gracias a la "
 "tecnología par a par (p2p)"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:144-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:141-2
 msgid "CENO stands for:"
 msgstr "CENO significa:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:146-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:143-9
 msgid ""
 "<strong>ce</strong>nsorship.<strong>no</strong>, envisioned as part of an "
@@ -124,47 +139,55 @@ msgstr ""
 "<strong>ce</strong>nsorship.<strong>no</strong>, concebida como parte de una "
 "Internet libre de vigilancia, censura y opresión intrusivas e injustificadas"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:147-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:144-2
 msgid "Developed and launched by <a href=\"https://equalit.ie\">eQualitie</a>"
 msgstr ""
 "Desarrollado y publicado por <a href=\"https://equalit.ie\">eQualitie</a>"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:149-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:146-2
 msgid "Works on:"
 msgstr "Funciona en:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:150-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:147-9
 msgid "Android mobile devices"
 msgstr "Dispositivos móviles Android"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:152-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:149-2
 msgid "Get it on:"
 msgstr "Disponible en:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:154-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:151-9
 msgid ""
-"<a href=\"https://censorship.no/download\">CENO website</a>, <a "
-"href=\"https://play.google.com/store/apps/details?id=ie.equalit."
-"ceno\">Google Play</a>, <a href=\"https://github.com/censorship-no/ceno-"
-"browser/releases\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/"
-"android.html?\">Paskoocheh</a>, and <a href=\"https://zanga.tech/tools/166/"
-"android.html\">Zanga.tech</a>"
+"<a href=\"https://censorship.no/download\">CENO website</a>, <a href="
+"\"https://play.google.com/store/apps/details?id=ie.equalit.ceno\">Google "
+"Play</a>, <a href=\"https://github.com/censorship-no/ceno-browser/releases"
+"\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/android.html?"
+"\">Paskoocheh</a>, and <a href=\"https://zanga.tech/tools/166/android.html"
+"\">Zanga.tech</a>"
 msgstr ""
-"<a href=\"https://censorship.no/download\">Censorship.no</a>, <a "
-"href=\"https://play.google.com/store/apps/details?id=ie.equalit."
-"ceno\">Google Play</a>, <a href=\"https://github.com/censorship-no/ceno-"
-"browser/releases\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/"
-"android.html?\">Paskoocheh</a>, y <a href=\"https://zanga.tech/tools/166/"
-"android.html\">Zanga.tech</a>"
+"<a href=\"https://censorship.no/download\">Censorship.no</a>, <a href="
+"\"https://play.google.com/store/apps/details?id=ie.equalit.ceno\">Google "
+"Play</a>, <a href=\"https://github.com/censorship-no/ceno-browser/releases"
+"\">Github</a>, <a href=\"https://paskoocheh.com/tools/124/android.html?"
+"\">Paskoocheh</a>, y <a href=\"https://zanga.tech/tools/166/android.html"
+"\">Zanga.tech</a>"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:155-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:152-2
 msgid "No special permissions are required"
 msgstr "No se requieren permisos especiales"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:157-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:154-2
 msgid "Why:"
 msgstr "Por qué:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:159-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:156-9
 msgid ""
 "Designed to allow people anywhere in the world to access web content in "
@@ -175,6 +198,7 @@ msgstr ""
 "a contenido web en regiones con censura o acceso restringido a Internet, y "
 "en países donde la conectividad no es confiable o es costosa"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:160-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:157-2
 msgid ""
 "Can be used to create a bridge for others to access censored or restricted "
@@ -183,10 +207,12 @@ msgstr ""
 "Se puede usar para crear un puente para que otros accedan a contenido "
 "censurado o restringido"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:162-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:159-2
 msgid "So what?"
 msgstr "¿Y entonces?"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:164-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:161-2
 msgid ""
 "Already helping thousands of civilians, NGOs, investigative journalists and "
@@ -195,6 +221,7 @@ msgstr ""
 "Ya está ayudando a miles de civiles, ONG, periodistas de investigación y "
 "medios independientes de todo el mundo a acceder y compartir contenido web"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:165-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:162-2
 msgid ""
 "CENO content remains stable and cannot be forcibly removed by external "
@@ -205,6 +232,7 @@ msgstr ""
 "fuerza por agentes externos, incluso durante eventos de censura de medios, "
 "cierres, interrupciones naturales, disturbios, conflictos y guerras"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:166-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:163-2
 msgid ""
 "CENO’s p2p routing and distribution of storage can reduce bandwidth and "
@@ -213,6 +241,7 @@ msgstr ""
 "El encaminamiento y almacenamiento p2p de CENO pueden reducir el ancho de "
 "banda y el uso de energía"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:167-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:164-2
 msgid ""
 "Performance improves with scale (unlike the proxy/virtual private network "
@@ -221,10 +250,12 @@ msgstr ""
 "El rendimiento mejora con la escala (a diferencia del modelo proxy/red "
 "privada virtual (VPN)); a más usuarios, menor latencia y mayor almacenamiento"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:169-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:166-2
 msgid "How:"
 msgstr "Cómo:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:171-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:168-2
 msgid ""
 "Works like BitTorrent - pulling, reserving and sharing content from many "
@@ -233,6 +264,7 @@ msgstr ""
 "Funciona como BitTorrent: extrae, reserva y comparte contenido de muchas "
 "fuentes en red en lugar de una fuente de servidor web, pero es un navegador"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:172-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:169-2
 msgid ""
 "Underlying decentralized p2p network uses established open-source Ouinet "
@@ -242,10 +274,12 @@ msgstr ""
 "protocolos BitTorrent, abiertos y bien establecidos, lo que la hace "
 "resistente y confiable"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:173-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:170-2
 msgid "Looks and feels like other browsers"
 msgstr "Se ve y se siente como otros navegadores"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:174-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:171-2
 msgid ""
 "Equipped to share cached content offline and on local area networks (LANs)"
@@ -253,10 +287,12 @@ msgstr ""
 "Equipado para compartir contenido almacenado en caché sin conexión y en "
 "redes de área local (LAN)"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:176-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:173-2
 msgid "Who is eQualitie?"
 msgstr "¿Quién es eQualitie?"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:178-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:175-9
 msgid ""
 "Montreal-based digital security firm that has developed open-source and "
@@ -267,10 +303,12 @@ msgstr ""
 "sistemas y herramientas de código abierto y reutilizables desde 2010, con un "
 "enfoque en la privacidad, la resiliencia y la autodeterminación en línea"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:179-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:176-2
 msgid "Maintains the <a href=\"https://deflect.ca\">Deflect.ca</a> service"
 msgstr "Mantiene el servicio <a href=\"https://deflect.ca\">Deflect.ca</a>"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:180-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:177-2
 msgid ""
 "Leads several initiatives focused on free and secure communications in "
@@ -279,22 +317,27 @@ msgstr ""
 "Lidera varias iniciativas enfocadas en comunicaciones libres y seguras en "
 "estados autoritarios"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:181-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:178-2
 msgid "Founded by Dmitri Vitaliev"
 msgstr "Fundada por Dmitri Vitaliev"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:183-2
 #: factsheet.html%2Bhtml.body.main.div.section.h3:180-2
 msgid "In use today:"
 msgstr "En uso hoy:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:185-9
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:182-9
 msgid "<strong>Average monthly users:</strong> 10,000+"
 msgstr "<strong>Usuarios promedio mensuales:</strong> 10.000+"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:186-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:183-2
 msgid "<strong>New monthly users:</strong> 10,000"
 msgstr "<strong>Nuevos usuarios mensuales:</strong> 10.000"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:187-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:184-2
 msgid ""
 "<strong>Majority users by country:</strong> Ukraine 48%; Russia 17%; Iran "
@@ -303,20 +346,24 @@ msgstr ""
 "<strong>Usuarios mayoritarios por país:</strong> Ucrania 48%; Rusia 17%; "
 "Irán 15%; Birmania 5%; Polonia, Estados Unidos y Alemania 3%"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:191-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:188-1
 msgid "How CENO Works"
 msgstr "Cómo funciona CENO"
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:198-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:195-17
 msgid "A mobile user in NYC reads a BBC.com news article on her CENO Browser."
 msgstr ""
 "Un usuario móvil en Nueva York lee un artículo de noticias de BBC.com en su "
 "navegador CENO."
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:207-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:204-17
 msgid "CENO signs, caches and decentralizes the article content."
 msgstr "CENO firma, cachea y descentraliza el contenido del artículo."
 
+#: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:216-17
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:213-17
 msgid ""
 "CENO users everywhere access and read the same article on their mobiles, "
@@ -326,38 +373,47 @@ msgstr ""
 "móviles, a pesar de la censura o las interrupciones, y así lo comparten con "
 "otros usuarios de CENO."
 
+#: factsheet.html%2Bhtml.body.main.div.section.div:220-2
 #: factsheet.html%2Bhtml.body.main.div.section.div:217-2
 msgid "Learn more in the User Manual!"
 msgstr "¡Aprenda más en el Manual del Usuario!"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:226-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:223-1
 msgid "Numbers"
 msgstr "Números"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:228-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:225-1
 msgid "CENO to April 2022"
 msgstr "CENO en abril de 2022"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:227-2
 msgid "Downloads from Google Play Store: 33,297"
 msgstr "Descargas desde Google Play Store: 33,297"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:228-2
 msgid "Installs from alternative marketplaces: 6,514"
 msgstr "Instalaciones desde mercados alternativos: 6.514"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:229-2
 msgid "Pulls from Docker Hub: 597"
 msgstr "Descargas de Docker Hub: 597"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:233-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:230-2
 msgid "Cloned from GitHub repositories: 1,768"
 msgstr "Clonados de repositorios de GitHub: 1.768"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:234-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:231-2
 msgid "Unique participants in March 2022: 28,914"
 msgstr "Participantes únicos en marzo de 2022: 28.914"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:235-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:232-2
 msgid ""
 "CENO bridges worldwide: 25 (6 in Ukraine, 9 in Russia and others in the "
@@ -366,6 +422,7 @@ msgstr ""
 "Puentes CENO en todo el mundo: 25 (6 en Ucrania, 9 en Rusia y otros en "
 "Oriente Medio, Europa del Este y Asia)"
 
+#: factsheet.html%2Bhtml.body.main.div.section.ul.li:236-2
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:233-2
 msgid ""
 "Bootstrap servers to ensure that in-country nodes can use BitTorrent during "
@@ -375,10 +432,12 @@ msgstr ""
 "BitTorrent durante los cierres completos de la red: 8 (en Europa del Este, "
 "Myanmar, Irán y Rusia)"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:238-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:235-1
 msgid "CENO Analytics"
 msgstr "Estadísticas de CENO"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:239-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:236-2
 msgid ""
 "The CENO browser displays the resources provided directly from the origin to "
@@ -390,6 +449,7 @@ msgstr ""
 "p2p) y cuánto ha compartido el dispositivo específico de cada usuario con "
 "otros usuarios."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:240-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:237-2
 msgid ""
 "Key performance metrics for a CENO white-label release include (i) the "
@@ -401,6 +461,7 @@ msgstr ""
 "en la DHT, y (ii) el ancho de banda y la cantidad de recursos web distintos "
 "servidos por servidores inyectores."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:241-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:238-2
 msgid ""
 "Other metrics can be designed and developed for greater visibility and "
@@ -417,6 +478,7 @@ msgstr ""
 "inyectores de red, (ii) país de origen y (iii) consultas de la tabla hash "
 "distribuida para identificadores de dispositivos únicos."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:242-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:239-2
 msgid ""
 "Integration of the Clean Insights SDK is being explored as a way to give "
@@ -428,10 +490,12 @@ msgstr ""
 "midan métricas, incluido el uso de caché distribuido desde el punto de vista "
 "del usuario."
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:244-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:241-1
 msgid "Ouinet in April 2022"
 msgstr "Ouinet en abril de 2022"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:245-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:242-2
 msgid ""
 "Ouinet’s injectors introduced approximately 2 million pages (602 GB of data) "
@@ -442,10 +506,12 @@ msgstr ""
 "(602 GB de datos) en la red descentralizada de intercambio de contenido, "
 "desde más de 30.000 sitios web únicos."
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:249-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:246-1
 msgid "Internet shutdowns"
 msgstr "Apagones de internet"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:250-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:247-9
 msgid ""
 "Internet shutdowns is a broad term covering various Internet access "
@@ -457,6 +523,7 @@ msgstr ""
 "los cierres suele faltar en la cobertura de los medios. Un apagón puede "
 "referirse a lo siguiente:"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:252-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:249-9
 msgid ""
 "<strong>Level 1:</strong> A complete or partial failure of Internet "
@@ -475,6 +542,7 @@ msgstr ""
 "2019) o cuando las conexiones de tránsito internacional se restringen "
 "artificialmente (p. ej., la Cachemira india en 2019-2020 y Cuba )."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:253-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:250-9
 msgid ""
 "<strong>Level 2:</strong> A ban on international transit connections (e.g., "
@@ -488,6 +556,7 @@ msgstr ""
 "local o nacional siga funcionando. CENO sigue funcionando en estos "
 "escenarios localizados."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:254-9
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:251-9
 msgid ""
 "<strong>Level 3:</strong> When electricity no longer functions, such as "
@@ -500,6 +569,7 @@ msgstr ""
 "2022). CENO todavía funciona de igual a igual cuando los dispositivos "
 "permanecen encendidos y están muy cerca."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:256-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:253-9
 msgid ""
 "A growing number of countries have introduced sophisticated surveillance and "
@@ -515,6 +585,7 @@ msgstr ""
 "de información en Internet. Algunos han recurrido a cortar redes enteras (en "
 "vecindarios, regiones y naciones) de la conectividad internacional."
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:254-9
 msgid ""
 "Most circumvention techniques in use today require the user to first connect "
@@ -532,10 +603,12 @@ msgstr ""
 "redes de refracción, etc.) ya no es suficiente para garantizar la "
 "conectividad y la propagación del contenido digital."
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:260-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:257-1
 msgid "How CENO side-steps censorship"
 msgstr "Cómo CENO esquiva la censura"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:261-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:258-9
 msgid ""
 "Ultimately, existing censorship methods have a single point of failure: "
@@ -557,14 +630,17 @@ msgstr ""
 "comunicaciones descentralizadas entre pares y almacenamiento en caché "
 "distribuido más eficientes, de baja latencia y efectivos."
 
+#: factsheet.html%2Bhtml.body.main.div.section.h2:265-1
 #: factsheet.html%2Bhtml.body.main.div.section.h2:262-1
 msgid "User comments"
 msgstr "Comentarios del usuario"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:266-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:263-1
 msgid "Russia"
 msgstr "Rusia"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:267-9
 #: factsheet.html%2Bhtml.body.main.div.section.p:264-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
@@ -573,6 +649,7 @@ msgstr ""
 "“Buen navegador. Sin VPN pude abrir recursos bloqueados. Pero también es "
 "útil cuando no tienes conexión.”"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:268-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:265-2
 msgid ""
 "“Because Russia threatens to block VPNs, CENO is promising. Also because for "
@@ -599,6 +676,7 @@ msgstr ""
 "a acceder a los sitios web, también parece bastante inocente, lo cual es "
 "genial.”"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:266-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
@@ -607,10 +685,12 @@ msgstr ""
 "\"Gracias por un gran producto. Su navegador abre el sitio http://meduza.io "
 "mucho más rápido que la aplicación de @meduzaproject.”"
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:268-1
 msgid "Myanmar"
 msgstr "Birmania"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 msgid ""
 "“There was a lot of inconvenience due to the blocked websites. It's good to "
@@ -621,6 +701,7 @@ msgstr ""
 "que funciona bien con esta aplicación. Estos son nuestros derechos "
 "digitales. Así que continuaré usándolo de vez en cuando.”"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:270-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
@@ -629,10 +710,12 @@ msgstr ""
 "\"Hay más funciones que me gustaría ver en la aplicación, pero es una "
 "aplicación totalmente conveniente y útil.\""
 
+#: factsheet.html%2Bhtml.body.main.div.section.h3:275-1
 #: factsheet.html%2Bhtml.body.main.div.section.h3:272-1
 msgid "Iran"
 msgstr "Irán"
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:276-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
@@ -642,6 +725,7 @@ msgstr ""
 "interrupciones de Internet en Irán. Por favor, seguid así y hacedla cada vez "
 "mejor. Gracias.\""
 
+#: factsheet.html%2Bhtml.body.main.div.section.p:277-2
 #: factsheet.html%2Bhtml.body.main.div.section.p:274-2
 msgid ""
 "“It is a good browser, especially for us Iranians, who do not have the "
@@ -652,6 +736,7 @@ msgstr ""
 "la posibilidad de usar Internet libremente y todo lo filtra el gobierno, "
 "incluso los rompefiltros.”"
 
+#: factsheet.html%2Bhtml.body.footer.div.p:296-9
 #: factsheet.html%2Bhtml.body.footer.div.p:293-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -661,43 +746,54 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"El Navegador CENO es un proyecto de <a href=\"https://equalit.ie\">eQualit."
-"ie</a> una empresa Canadiense sin ánimo de lucro que desarrolla sistemas de "
-"código abierto y reutilizables. Centrados en la privacidad, la seguridad en "
-"línea y la libertad de asociación. Las soluciones e innovaciones "
-"tecnológicas están impulsadas por nuestros <a href=\"https://equalit.ie/en/"
-"values/\">valores</a> que nos guían para proteger los derechos y "
-"aspiraciones de todo el mundo conectado."
+"CENO Browser es un proyecto de <a href=\"https://equalit.ie\">eQualit.ie</"
+"a>, una empresa canadiense sin fines de lucro que desarrolla sistemas "
+"abiertos y reutilizables centrados en la privacidad, la seguridad en línea y "
+"libertad de asociación. Las soluciones e innovaciones tecnológicas están "
+"impulsadas por nuestros <a href=\"https://equalit.ie/en/values/\">valores</"
+"a> que nos guían para proteger los derechos y las aspiraciones de todos en "
+"línea."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: factsheet.html%2Bhtml.body.footer:298-23
 #: factsheet.html%2Bhtml.body.footer:295-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
+
+#: factsheet.html%2Bhtml.body.main.title:129-1
+msgctxt "factsheet.html+html.body.main.title:129-1"
+msgid "CENO Browser | Fact Sheet"
+msgstr "CENO Browser | Hoja informativa"
+
+#: factsheet.html%2Bhtml.body.main.title:128-1
+msgctxt "factsheet.html+html.body.main.title:128-1"
+msgid "CENO Browser | Fact Sheet"
+msgstr "Navegador CENO | Hoja de datos CENO"
 
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
 #~ "factsheet.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-#~ "hreflang=\"es\" href=\"../es/factsheet.html\">Español</a> <a "
-#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet."
-#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#~ "href=\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet."
-#~ "html\">Українська</a>"
+#~ "hreflang=\"es\" href=\"../es/factsheet.html\">Español</a> <a class="
+#~ "\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet.html"
+#~ "\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href="
+#~ "\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" "
+#~ "hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a class="
+#~ "\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet.html"
+#~ "\">Українська</a>"
 #~ msgstr ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
 #~ "factsheet.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-#~ "hreflang=\"es\" href=\"../es/factsheet.html\">Español</a> <a "
-#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet."
-#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#~ "href=\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet."
-#~ "html\">Українська</a>"
+#~ "hreflang=\"es\" href=\"../es/factsheet.html\">Español</a> <a class="
+#~ "\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/factsheet.html"
+#~ "\">فارسی</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href="
+#~ "\"../my/factsheet.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" "
+#~ "hreflang=\"ru\" href=\"../ru/factsheet.html\">Pусский</a> <a class="
+#~ "\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/factsheet.html"
+#~ "\">Українська</a>"
 
 #~ msgid ""
 #~ "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
@@ -707,8 +803,8 @@ msgstr ""
 #~ "en/values/\">values</a> that guide us to protect the rights and "
 #~ "aspirations of everyone online."
 #~ msgstr ""
-#~ "El navegador CENO es un proyecto de <a href=\"https://equalit."
-#~ "ie\">eQualit.ie</a> – una compañía canadiense que desarrolla sistemas "
+#~ "El navegador CENO es un proyecto de <a href=\"https://equalit.ie"
+#~ "\">eQualit.ie</a> – una compañía canadiense que desarrolla sistemas "
 #~ "abiertos y reutilizables con foco en la privacidad, seguridad en línea y "
 #~ "libertad de asociación. Las soluciones tecnológicas e innovaciones están "
 #~ "impulsadas por nuestros <a href=\"https://equalit.ie/en/values/"

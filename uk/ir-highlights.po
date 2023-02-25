@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
-"PO-Revision-Date: 2022-12-19 19:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"POT-Creation-Date: 2023-02-24 15:14-0700\n"
+"PO-Revision-Date: 2023-02-25 00:34+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website-ir-highlights/uk/>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ir-highlights.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -37,33 +37,41 @@ msgstr "Новини"
 msgid "Community"
 msgstr "Спільнота"
 
+#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:100-17
+msgid "Donate"
+msgstr "Донат"
+
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Отримати CENO"
 
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div:104-10
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr "Завантажити"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div:106-1
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div.div:112-5
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/ir-"
-"highlights.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-"hreflang=\"es\" href=\"../es/ir-highlights.html\">Español</a> <a "
-"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/ir-highlights."
-"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
-"href=\"../fr/ir-highlights.html\">Français</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/ir-highlights.html\">မြန်မာစာ</a> <a "
-"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/ir-highlights."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-"href=\"../uk/ir-highlights.html\">Українська</a>"
+"highlights.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang="
+"\"es\" href=\"../es/ir-highlights.html\">Español</a> <a class=\"navbar-item"
+"\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/ir-highlights.html\">فارسی</a> "
+"<a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/ir-"
+"highlights.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang="
+"\"my\" href=\"../my/ir-highlights.html\">မြန်မာစာ</a> <a class=\"navbar-item"
+"\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/ir-highlights.html\">Pусский</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/ir-"
+"highlights.html\">Українська</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/ir-"
 "highlights.html\">\n"
@@ -87,31 +95,34 @@ msgstr ""
 "highlights.html\">\n"
 "Українська</a>"
 
-#: ir-highlights.html%2Bhtml.body.main.title:128-1
-msgctxt "ir-highlights.html+html.body.main.title:128-1"
+#: ir-highlights.html%2Bhtml.body.main.title:131-1
+#, fuzzy
+msgctxt "ir-highlights.html+html.body.main.title:131-1"
 msgid "CENO Browser | Highlights from the Ground in Iran"
 msgstr "CENO Браузер | Найцікавіше з місця в Ірані"
 
-#: ir-highlights.html%2Bhtml.body.main.title:129-1
+#: ir-highlights.html%2Bhtml.body.main.title:132-1
 #, fuzzy
-#| msgctxt "ir-highlights.html+html.body.main.title:127-1"
-#| msgid "CENO Browser | Highlights from the Ground in Iran"
-msgctxt "ir-highlights.html+html.body.main.title:129-1"
+msgctxt "ir-highlights.html+html.body.main.title:132-1"
 msgid "CENO Browser | Highlights from the Ground in Iran"
-msgstr "Браузер CENO | Найцікавіше з місця в Ірані"
+msgstr "CENO Браузер | Найцікавіше з місця в Ірані"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.h2:136-5
 #: ir-highlights.html%2Bhtml.body.main.div.div.h2:133-5
 msgid "Highlights from the Ground in Iran"
 msgstr "Найцікавіше з місця в Ірані"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:137-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.h3:134-2
 msgid "December 2022"
 msgstr "Грудень 2022"
 
+#: ir-highlights.html%2Bhtml.body.main.div.h3:139-2
 #: ir-highlights.html%2Bhtml.body.main.div.h3:136-2
 msgid "CENO User Experiences"
 msgstr "CENO Досвід користувачів"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:142-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:139-2
 msgid ""
 "User experiences have varied from region to region as ISPs have applied "
@@ -120,6 +131,7 @@ msgstr ""
 "Досвід користувачів змінювався від регіону до регіону, оскільки ISP "
 "застосовував інтернет-цензуру та заходи зі зриву непослідовно."
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:143-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:140-2
 msgid ""
 "Where Iran’s intranet (National Information Network or NIN) is the only "
@@ -129,6 +141,7 @@ msgstr ""
 "доступним з'єднанням, користувачі CENO все ще можуть отримати доступ до "
 "заблокованого вебконтенту."
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:144-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:141-2
 msgid ""
 "Users have been able to access blocked content on some WiFi networks and "
@@ -137,6 +150,7 @@ msgstr ""
 "Користувачі можуть отримати доступ до заблокованого вмісту в деяких мережах "
 "Wi-Fi та деяких провайдерів мобільних мереж."
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:145-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:142-2
 msgid ""
 "Anyone globally can help expand the CENO network by installing the app and "
@@ -150,6 +164,7 @@ msgstr ""
 "Користувачі, які не обмежуються регіонами, можуть безпечно поділитися "
 "вебконтентом з користувачами у більш обмежених регіонах."
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:146-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:143-2
 msgid ""
 "On CENO, users receive the information that they have requested. Network "
@@ -158,10 +173,12 @@ msgstr ""
 "На CENO, користувачі отримують інформацію, яку вони запитували. Вузли "
 "безпеки мережі використовуються для перевірки вхідного вмісту."
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:150-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.h3:147-2
 msgid "User Comments"
 msgstr "Коментарі користувачів"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:151-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:148-2
 msgid ""
 "\"Impressive platform. You can't imagine how useful and brilliant it is if "
@@ -170,6 +187,7 @@ msgstr ""
 "\"Вражаюча платформа. Ви не можете уявити, наскільки це корисно та блискуче, "
 "якщо ви не живете в таких країнах, як Іран.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:152-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:149-2
 msgid ""
 "\"This app is one of our few hopes in times of serious Internet disruptions "
@@ -178,6 +196,7 @@ msgstr ""
 "\"Цей застосунок є однією з наших небагатьох надій у часи серйозних перебоїв "
 "в роботі Інтернету в Ірані.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:153-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:150-2
 msgid ""
 "\"Everyone should install these two apps (CENO and NewNode). With these "
@@ -186,6 +205,7 @@ msgstr ""
 "\"Всі повинні встановити ці два застосунки (CENO та NewNode). За допомогою "
 "цих застосунків фільтрація/цензура не буде ефективною.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:154-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:151-2
 msgid ""
 "\"Internet users living outside of Iran can support the free Internet by "
@@ -197,6 +217,7 @@ msgstr ""
 "у країні отримати доступ до вмісту, навіть коли міжнародний трафік "
 "скорочується.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:155-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:152-2
 msgid ""
 "\"Install the CENO browser (for Android). It can be used when the global "
@@ -207,6 +228,7 @@ msgstr ""
 "глобальна мережа Інтернет не працює. Важливо мати багато користувачів, щоб "
 "швидкість збільшувалася з розширенням мережі.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:156-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:153-2
 msgid ""
 "\"It is a good browser, especially for us Iranians, who do not have the "
@@ -217,10 +239,12 @@ msgstr ""
 "вільного використання Інтернету, і все фільтрується урядом, навіть "
 "фільтрувальні зломи.\""
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:158-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.h3:155-2
 msgid "CENO in the Media"
 msgstr "CENO в Медіа"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:159-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:156-2
 msgid ""
 "\"<a href=\"https://www.independentpersian.com/node/270686/\">Software for "
@@ -230,6 +254,7 @@ msgstr ""
 "<a href=\"https://www.independentpersian.com/node/270686/\">Програмне "
 "забезпечення, коли інтернет не працює,</a>” Незалежна перська"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:160-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:157-2
 msgid ""
 "\"<a href=\"https://www.instagram.com/tv/Ci-zKL5vDzV/?"
@@ -241,6 +266,7 @@ msgstr ""
 "utm_source=ig_web_copy_link\">\n"
 "Який стан інтернету Ірану?</a>” Іранський дріт"
 
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:161-2
 #: ir-highlights.html%2Bhtml.body.main.div.div.p:158-2
 msgid ""
 "\"<a href=\"https://www.tribunezamaneh.com/archives/105862\">Back alley "
@@ -251,6 +277,7 @@ msgstr ""
 "<a href=\"https://www.tribunezamaneh.com/archives/105862\">Цифрова безпека "
 "та онлайн ринок для фільтрів та інструментів,</a>” Zamaneh Tribune"
 
+#: ir-highlights.html%2Bhtml.body.footer.div.p:178-9
 #: ir-highlights.html%2Bhtml.body.footer.div.p:175-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -269,6 +296,7 @@ msgstr ""
 "на захист прав і прагнень кожного в онлайні."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: ir-highlights.html%2Bhtml.body.footer:180-23
 #: ir-highlights.html%2Bhtml.body.footer:177-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -277,3 +305,13 @@ msgstr ""
 "© Censorship.no!\n"
 "2018<script>new Date().getFullYear()>2018&&document.write(\"-\"+new Date()."
 "getFullYear());</script>"
+
+#: ir-highlights.html%2Bhtml.body.main.title:129-1
+msgctxt "ir-highlights.html+html.body.main.title:129-1"
+msgid "CENO Browser | Highlights from the Ground in Iran"
+msgstr "Браузер CENO | Найцікавіше з місця в Ірані"
+
+#: ir-highlights.html%2Bhtml.body.main.title:128-1
+msgctxt "ir-highlights.html+html.body.main.title:128-1"
+msgid "CENO Browser | Highlights from the Ground in Iran"
+msgstr "CENO Браузер | Найцікавіше з місця в Ірані"

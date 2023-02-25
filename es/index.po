@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 15:21-0700\n"
-"PO-Revision-Date: 2023-01-14 00:50+0000\n"
+"POT-Creation-Date: 2023-02-24 15:14-0700\n"
+"PO-Revision-Date: 2023-02-25 00:34+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -36,61 +36,74 @@ msgstr "Noticias"
 msgid "Community"
 msgstr "Comunidad"
 
+#: index.html%2Bhtml.body.nav.div.div.ul.li:100-17
+msgid "Donate"
+msgstr "Donar"
+
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
 msgid "Get CENO"
 msgstr "Obtén CENO"
 
+#: index.html%2Bhtml.body.nav.div.div.div:104-10
 #: index.html%2Bhtml.body.nav.div.div.div:101-10
 msgid "Download"
 msgstr "Descargar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
+#: index.html%2Bhtml.body.nav.div.div.div:106-1
 #: index.html%2Bhtml.body.nav.div.div.div:103-1
 msgid "EN"
 msgstr "ES"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: index.html%2Bhtml.body.nav.div.div.div.div:112-5
 #: index.html%2Bhtml.body.nav.div.div.div.div:109-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href="
+"\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
 
-#: index.html%2Bhtml.body.main.title:128-1
-msgctxt "index.html+html.body.main.title:128-1"
+#: index.html%2Bhtml.body.main.title:131-1
+#, fuzzy
+msgctxt "index.html+html.body.main.title:131-1"
 msgid "CENO Browser | Share the Web"
 msgstr "Navegador CENO | Comparte la Web"
 
-#: index.html%2Bhtml.body.main.title:129-1
-msgctxt "index.html+html.body.main.title:129-1"
+#: index.html%2Bhtml.body.main.title:132-1
+#, fuzzy
+msgctxt "index.html+html.body.main.title:132-1"
 msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Compartir la web"
+msgstr "Navegador CENO | Comparte la Web"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:139-9
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:136-9
 msgid "CENO Browser banner"
 msgstr "Anuncio del navegador CENO"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:144-7
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:141-7
 msgid "Share the web!"
 msgstr "¡Comparte la web!"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:145-3
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:142-3
 msgid ""
 "CENO (short for censorship.no!) is the world’s first mobile browser that "
@@ -103,26 +116,32 @@ msgstr ""
 "pares permite a las personas acceder y compartir información web en y entre "
 "regiones donde la conectividad se ha visto interrumpida o comprometida."
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:147-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:144-15
 msgid "Get it on Google Play"
 msgstr "Obtenlo en Google Play"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:150-17
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:147-17
 msgid "Get it on Paskoocheh"
 msgstr "Obtenlo en Paskoocheh"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:153-17
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:150-17
 msgid "Get it on Gitlab"
 msgstr "Obtenlo en Gitlab"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:168-14
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:165-14
 msgid "Browse Freely"
 msgstr "Navega libremente"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:169-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:166-15
 msgid "Unlock the Web"
 msgstr "Desbloquea la Web"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:170-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:167-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
@@ -133,14 +152,17 @@ msgstr ""
 "cuando Internet esté caída o censurada. Instala al Navegador CENO hoy y "
 "prepárate para la próxima vez que estés 🔌 desconectado."
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-13
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:174-13
 msgid "Grow the network - Become a bridge!"
 msgstr "Haz crecer la red - ¡Conviértete en un puente!"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:175-15
 msgid "Grow the Network"
 msgstr "Haz crecer la red"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:176-15
 msgid ""
 "Fight censorship by becoming a bridge! Install and run CENO Browser to "
@@ -151,16 +173,19 @@ msgstr ""
 "Navegador CENO para unirte instantáneamente a la red y expandir la "
 "disponibilidad de sitios web bloqueados para aquellos en países censurados."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:183-13
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:183-13"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:186-13
+#, fuzzy
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:186-13"
 msgid "Free and Open Source"
 msgstr "Libre y de código abierto"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:184-15
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:184-15"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:187-15
+#, fuzzy
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:187-15"
 msgid "Free and Open Source"
 msgstr "Libre y de código abierto"
 
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:188-15
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:185-15
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
@@ -170,11 +195,12 @@ msgid ""
 "connectivity."
 msgstr ""
 "CENO está basado en <a href=\"https://www.mozilla.org/firefox/android/"
-"\">Firefox para Android</a>, extendido para hacer uso de la <a "
-"href=\"https://github.com/equalitie/ouinet\">biblioteca Ouinet</a> - "
-"habilitando a otros desarrolladores para incorporar la red CENO dentro de "
-"sus aplicaciones para conectividad de par a par."
+"\">Firefox para Android</a>, extendido para hacer uso de la <a href="
+"\"https://github.com/equalitie/ouinet\">biblioteca Ouinet</a> - habilitando "
+"a otros desarrolladores para incorporar la red CENO dentro de sus "
+"aplicaciones para conectividad de par a par."
 
+#: index.html%2Bhtml.body.footer.div.p:209-9
 #: index.html%2Bhtml.body.footer.div.p:206-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -184,22 +210,42 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"El Navegador CENO es un proyecto de <a href=\"https://equalit.ie\">eQualit."
-"ie</a> una empresa Canadiense sin ánimo de lucro que desarrolla sistemas de "
-"código abierto y reutilizables. Centrados en la privacidad, la seguridad en "
-"línea y la libertad de asociación. Las soluciones e innovaciones "
-"tecnológicas están impulsadas por nuestros <a href=\"https://equalit.ie/en/"
-"values/\">valores</a> que nos guían para proteger los derechos y "
-"aspiraciones de todo el mundo conectado."
+"CENO Browser es un proyecto de <a href=\"https://equalit.ie\">eQualit.ie</"
+"a>, una empresa canadiense sin fines de lucro que desarrolla sistemas "
+"abiertos y reutilizables centrados en la privacidad, la seguridad en línea y "
+"libertad de asociación. Las soluciones e innovaciones tecnológicas están "
+"impulsadas por nuestros <a href=\"https://equalit.ie/en/values/\">valores</"
+"a> que nos guían para proteger los derechos y las aspiraciones de todos en "
+"línea."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:208-23
+#: index.html%2Bhtml.body.footer:211-23 index.html%2Bhtml.body.footer:208-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
+
+#: index.html%2Bhtml.body.main.title:129-1
+msgctxt "index.html+html.body.main.title:129-1"
+msgid "CENO Browser | Share the Web"
+msgstr "CENO Browser | Compartir la web"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:184-15
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:184-15"
+msgid "Free and Open Source"
+msgstr "Libre y de código abierto"
+
+#: index.html%2Bhtml.body.main.title:128-1
+msgctxt "index.html+html.body.main.title:128-1"
+msgid "CENO Browser | Share the Web"
+msgstr "Navegador CENO | Comparte la Web"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:183-13
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:183-13"
+msgid "Free and Open Source"
+msgstr "Libre y de código abierto"
 
 #~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:183-15"
 #~ msgid "Free and Open Source"
@@ -208,21 +254,21 @@ msgstr ""
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
 #~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" "
-#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
+#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
+#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
+#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
+#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#~ "href=\"../uk/index.html\">Українська</a>"
 #~ msgstr ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
 #~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" "
-#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-#~ "href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" "
-#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
+#~ "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa"
+#~ "\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-"
+#~ "item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> "
+#~ "<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#~ "href=\"../uk/index.html\">Українська</a>"
 
 #~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:182-15"
 #~ msgid "Free and Open Source"

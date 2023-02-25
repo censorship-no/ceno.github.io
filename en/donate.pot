@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-27 13:52-0400\n"
+"POT-Creation-Date: 2023-02-24 15:16-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,22 +34,26 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#: donate.html%2Bhtml.body.nav.div.div.div.a[title]:101-15
+#: donate.html%2Bhtml.body.nav.div.div.ul.li:100-17
+msgid "Donate"
+msgstr ""
+
+#: donate.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 msgid "Get CENO"
 msgstr ""
 
-#: donate.html%2Bhtml.body.nav.div.div.div:101-10
+#: donate.html%2Bhtml.body.nav.div.div.div:104-10
 msgid "Download"
 msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: donate.html%2Bhtml.body.nav.div.div.div:103-1
+#: donate.html%2Bhtml.body.nav.div.div.div:106-1
 msgid "EN"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: donate.html%2Bhtml.body.nav.div.div.div.div:109-5
+#: donate.html%2Bhtml.body.nav.div.div.div.div:112-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
@@ -62,31 +66,64 @@ msgid ""
 "\"uk\" href=\"../uk/donate.html\">Українська</a>"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.title:128-1
-msgctxt "donate.html+html.body.main.title:128-1"
+#: donate.html%2Bhtml.body.main.title:131-1
 msgid "CENO Browser | Download"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.title:129-1
-msgctxt "donate.html+html.body.main.title:129-1"
-msgid "CENO Browser | Download"
+#: donate.html%2Bhtml.body.main.title:132-1
+msgid "CENO Browser | Donate"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:135-13
-msgid "CENO Browser banner"
+#: donate.html%2Bhtml.body.main.div.h1:134-6
+msgid "Donate to Ceno Browser"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.section.div.div.div.div.div.h1:139-7
-msgid "Coming soon!"
-msgstr ""
-
-#: donate.html%2Bhtml.body.main.section.div.div.div.div.div.p:140-3
+#: donate.html%2Bhtml.body.main.div.p:135-3
 msgid ""
-"The CENO team is currently in the process of setting up systems for one-time "
-"and recurring donations. Check back soon!"
+"Ceno Browser is completely free and open source software funded solely "
+"through grants and donations. Below are some of the ways you can support its "
+"continued development through financial contributions. For other ways of "
+"getting involved and contributing, please visit <a href=\"help.html\">the "
+"Community page</a>!"
 msgstr ""
 
-#: donate.html%2Bhtml.body.footer.div.p:170-9
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:144-18
+msgid "Make a Donation"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:145-11
+msgid "Make a one-time donation using our Stripe payment portal."
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:146-18
+msgid "Donate via Stripe"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:157-17
+msgid "Become a Sponsor"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:158-3
+msgid "We are currently exploring fundraising platforms and communities:"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:159-17
+msgid "Sponsor on Github"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:170-20
+msgid "Donate Bitcoin"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:171-3
+msgid "Our wallet address is:"
+msgstr ""
+
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-4
+msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
+msgstr ""
+
+#: donate.html%2Bhtml.body.footer.div.p:196-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -97,7 +134,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:172-23
+#: donate.html%2Bhtml.body.footer:198-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
