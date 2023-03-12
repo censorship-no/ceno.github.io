@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 15:14-0700\n"
-"PO-Revision-Date: 2022-08-30 02:15+0000\n"
-"Last-Translator: Gerardo Lisboa <gvlx@sapo.pt>\n"
+"PO-Revision-Date: 2023-03-13 17:37+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/pt/>\n"
 "Language: pt\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "port"
+msgstr "en"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
@@ -38,15 +38,15 @@ msgstr "Comunidade"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Donate"
-msgstr ""
+msgstr "Doar"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Obter CENO"
 
 #: about.html%2Bhtml.body.nav.div.div.div:104-10
 msgid "Download"
-msgstr ""
+msgstr "Transferir"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:106-1
@@ -67,55 +67,76 @@ msgid ""
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/about.html\">Українська</a>"
 
 #: about.html%2Bhtml.body.main.title:131-1
 msgctxt "about.html+html.body.main.title:131-1"
 msgid "CENO Browser | About"
-msgstr ""
+msgstr "CENO Browser | Sobre"
 
 #: about.html%2Bhtml.body.main.title:132-1
 msgctxt "about.html+html.body.main.title:132-1"
 msgid "CENO Browser | About"
-msgstr ""
+msgstr "CENO Browser | Sobre"
 
 #: about.html%2Bhtml.body.main.div.h1:135-6
 msgid "How CENO Browser Works"
-msgstr ""
+msgstr "Como funciona o CENO Browser"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:143-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
+"A maioria do tráfego web nos países que filtram a Internet é encaminhada "
+"através de trocas centralizadas, tais como o Google."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:151-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"Este desenho dá ao censor uma vantagem na localização e bloqueio de proxies "
+"populares, servidores VPN, retransmissores, etc;"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:159-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"Nestes casos, chegar aos servidores web de origem é difícil ou impossível, e "
+"o seu dispositivo não será capaz de obter esse conteúdo."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:167-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
+"CENO é um navegador web móvel para armazenamento e partilha de conteúdos web "
+"em qualquer lugar."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:175-3
 msgid ""
 "CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"Os utilizadores do CENO criam pequenas redes mundiais para se ligarem uns "
+"aos outros, e posteriormente a uma ponte fora da zona censurada."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:183-3
 msgid ""
 "Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"Uma vez que um website é acedido por um único utilizador CENO, este é "
+"armazenado e partilhado dentro do país peer-to-peer."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:191-1
@@ -129,6 +150,14 @@ msgid ""
 "scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
 "whitepaper.</button></a>"
 msgstr ""
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Saiba mais no "
+"Manual do Utilizador!</button></a> <a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll\"></span> Para um guia técnico mais aprofundado, ver o Livro Branco "
+"Ouinet.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:211-9
 msgid ""
@@ -139,6 +168,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"CENO Browser é um projeto de <a href=\"https://equalit.ie\">eQualit.ie</a> - "
+"uma empresa canadiana sem fins lucrativos que desenvolve sistemas abertos e "
+"reutilizáveis com foco na privacidade, segurança em linha e liberdade de "
+"associação. As soluções e inovações tecnológicas são impulsionadas pelo "
+"nosso <a href=\"https://equalit.ie/en/values/\"> valores </a> que nos guiam "
+"para proteger os direitos e aspirações de todos online."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:213-23
@@ -146,3 +181,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
