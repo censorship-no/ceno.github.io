@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 15:14-0700\n"
-"PO-Revision-Date: 2023-03-30 00:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-03-30 10:38+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/tr/>\n"
 "Language: tr\n"
@@ -389,6 +389,9 @@ msgid ""
 "each user (served via injectors and received from the p2p network) and how "
 "much each user’s specific device has shared with other users."
 msgstr ""
+"CENO Browser, her kullanıcıya doğrudan kaynağından sağlanan kaynakları ("
+"içerik ekleyicileriyle sunulan ve P2P ağından alınan) ve her kullanıcı "
+"aygıtının diğer kullanıcılarla ne kadar paylaştığını gösterir."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:240-2
 msgid ""
@@ -396,6 +399,10 @@ msgid ""
 "number of reachable bridge nodes and origin sources in the DHT, and (ii) the "
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
+"Bir CENO beyaz etiket sürümü için temel başarım ölçümleri şunları içerir: (i)"
+" DHT'deki erişilebilir köprü düğümlerinin ve kaynakların sayısı ve (ii) "
+"içerik ekleyici sunucuları tarafından sunulan farklı internet kaynaklarının "
+"bant genişliği ve sayısı."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:241-2
 msgid ""
@@ -406,6 +413,12 @@ msgid ""
 "of network injectors, (ii) country of origin and (iii) queries of the "
 "distributed hash table for unique device identifiers."
 msgstr ""
+"CENO'nun merkezi olmayan çalışma yöntemi dikkate alınarak daha fazla "
+"görünürlük ve başarım ölçümü için başka ölçütler tasarlanabilir ve "
+"geliştirilebilir. Kullanıcıları tanımlamadan yaklaşık katılımcı sayısını "
+"tahmin etmek (i) takma adlı ağ tanımlayıcıları ve bunların ağ içerik "
+"yerleştiricilerinin kullanımı, (ii) kaynak ülke ve (iii) benzersiz cihaz "
+"tanımlayıcıları için dağıtılmış karma tablosunun sorgusu ile mümkündür."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:242-2
 msgid ""
@@ -413,6 +426,10 @@ msgid ""
 "users robust privacy-respecting analytics that measure metrics including "
 "distributed cache usage from the user’s vantage point."
 msgstr ""
+"Clean Insights SDK'nın entegrasyonu, kullanıcılara dağıtılmış önbellek "
+"kullanımı da dahil olmak üzere istatistikleri kullanıcının bakış açısından "
+"ölçen gizliliğe saygılı sağlam analizler sağlamanın bir yolu olarak "
+"deneyimlenmektedir."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:244-1
 msgid "Ouinet in April 2022"
@@ -490,6 +507,11 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"Bir çok ülke, mevcut sansür önleme yöntemlerini baltalamak ve internetteki "
+"iletişimi ve özgür bilgi akışını kısıtlamak için gelişmiş gözetim ve ağ "
+"filtreleme teknolojilerini uygulamaya koymuşlardır. Bazıları, mahalleler, "
+"bölgeler ve uluslar arasındaki tüm ağları uluslararası bağlantıdan kesmeye "
+"başvurdu."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 msgid ""
@@ -500,10 +522,16 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"Günümüzde kullanılan çoğu atlatma tekniği, kullanıcının önce sansürsüz bir "
+"bölgede bulunan bir röleye bağlanmasını gerektirir. Sansür ve atlatma "
+"yöntemi arasında ortaya çıkan “kedi ve fare” oyunu (ikinci yöntem yaratıcı "
+"vekil sunucu dağıtımına, trafik gizlemesine, yan hasara, kırılma ağı için "
+"ISS ile ortaklıklara ve dahasına başvurmak) artık bağlantı ve dijital içerik "
+"yayılımını sağlamak için yeterli değildir."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:260-1
 msgid "How CENO side-steps censorship"
-msgstr ""
+msgstr "CENO sansürün etrafından nasıl dolaşır"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:261-9
 msgid ""
@@ -516,20 +544,30 @@ msgid ""
 "environments. Wider adoption will ensure more efficient, low latency and "
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
+"Mevcut sansür yöntemlerinin tek bir hata noktası vardır: kullanıcıların "
+"sansürün izlediği bir güvenlik duvarına girmesi gerekir. Kasım 2019'da "
+"İran'da, 2020'de Belarus'ta, 2021'de Kazakistan'da ve bu yıl Rusya'da devam "
+"eden internet erişiminin kesilmesi sırasında tanık olunduğu gibi, bu "
+"ülkelerdeki kullanıcılar için atlatma yöntemleri işlevini kaybediyor. CENO, "
+"bu ortamlarda işleyen bir çözüm olarak kendini kanıtlamıştır. Daha yaygın "
+"kullanım, daha verimli, düşük gecikmeli ve merkezi olmayan uçtan uca "
+"iletişim ve dağıtılmış ön belleğe alma sağlayacaktır."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:265-1
 msgid "User comments"
-msgstr ""
+msgstr "Kullanıcı yorumları"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:266-1
 msgid "Russia"
-msgstr ""
+msgstr "Rusya"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:267-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
+"“Güzel tarayıcı, VPN olmadan engellenen kaynakları açabildim. Aynı zamanda "
+"bağlantınız olmadığında da kullanışlı.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:268-2
 msgid ""
@@ -544,16 +582,29 @@ msgid ""
 "besides helping to access websites, it also looks quite innocent which is "
 "great.”"
 msgstr ""
+"“Rusya VPN'leri engellemekle tehdit ettiği için CENO umut verici. Ayrıca, "
+"ISS'nize torrent trafiği olarak gözükür ve torrentler, telif hakkına "
+"gerçekten saygı duyulan batı ülkelerinden farklı olarak Rusya'da çok "
+"normalleşmiş bir şeydir. Ayrıca Moskova'da polis, insanlardan telefonlarını "
+"göstermelerini istemeye başladı ve sahip oldukları uygulamalara baktılar. "
+"Şöyle bir denetimle karşılaştım. Signal veya Telegram gibi yazışma "
+"uygulamalarına ve VPN'lere baktılar. CENO normal bir tarayıcıya benziyor, bu "
+"yüzden ne olduğunu sorduklarında bunun bir tarayıcı olduğunu söyledim, sorun "
+"çıkarmadılar. Çıkışta tarama geçmişini düzenli olarak temizlemeyi seçtim. "
+"İnternet sitelerine erişmeye yardımcı olmanın yanı sıra, oldukça masum "
+"görünüyor ve bu harika.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
+"“İyi bir uygulama. Tarayıcınız http://meduza.io sitesini @meduzaproject'in "
+"kendi uygulamasından daha hızlı açıyor.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 msgid ""
@@ -561,22 +612,29 @@ msgid ""
 "see that it works well with this app. This is our digital rights. So I will "
 "continue to use it sometimes.”"
 msgstr ""
+"“Engellenen sitelerden dolayı çok fazla sorun vardı. Bu uygulama ile iyi "
+"çalıştığını görmek güzel. Bu bizim dijital hakkımız. Ara sıra kullanmaya "
+"devam edeceğim.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
+"“Uygulamada görmek istediğim bir çok özellik var, yine de kolay ve "
+"kullanışlı bir uygulama.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:275-1
 msgid "Iran"
-msgstr ""
+msgstr "İran"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:276-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
+"“Bu uygulama İran'daki ciddi internet kısıtlamalarında umutlarımızdan biri. "
+"Lütfen geliştirmeye devam edin. Teşekkürler.”"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:277-2
 msgid ""
@@ -584,6 +642,9 @@ msgid ""
 "possibility of free use of the Internet and everything is filtered by the "
 "government, even filter breakers.”"
 msgstr ""
+"“Özellikle interneti özgür kullanma imkanı olmayan her şeyin hükümet "
+"tarafından filtrelendiği İran'da yaşayan biz İranlılar için iyi bir "
+"tarayıcı.”"
 
 #: factsheet.html%2Bhtml.body.footer.div.p:296-9
 msgid ""
