@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 15:14-0700\n"
 "PO-Revision-Date: 2023-04-19 06:19+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website-factsheet/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -400,8 +400,13 @@ msgid ""
 "number of reachable bridge nodes and origin sources in the DHT, and (ii) the "
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
+"As métricas-chave de performance para um lançamento white-label do CENO "
+"incluem (i) o número de nós de ponte atingíveis e fontes de origem no DHT e "
+"(ii) a largura de banda e número de recursos web distintos providos por "
+"servidores injetores."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:241-2
+#, fuzzy
 msgid ""
 "Other metrics can be designed and developed for greater visibility and "
 "performance measurement, taking into account CENO’s decentralization "
@@ -410,6 +415,13 @@ msgid ""
 "of network injectors, (ii) country of origin and (iii) queries of the "
 "distributed hash table for unique device identifiers."
 msgstr ""
+"Outras métricas podem ser projetadas e desenvolvidas para melhor medição de "
+"visibilidade e performance, levando em consideração a função de "
+"descentralização do CENO. Sem identificar os usuários, é possível ter uma "
+"estimativa aproximada da participação através de (i) pseudônimos de "
+"identificadores de rede e seu uso de injetores de rede, (ii) país de origem "
+"e (iii) consultas da tabela hash distribuída para identificadores únicos de "
+"dispositivos."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:242-2
 msgid ""
@@ -417,10 +429,14 @@ msgid ""
 "users robust privacy-respecting analytics that measure metrics including "
 "distributed cache usage from the user’s vantage point."
 msgstr ""
+"A integração do SDK do Clean Insights está sendo explorada como forma de "
+"oferecer aos usuários análises robustas, com respeito à privacidade e que "
+"calculem métricas incluindo o uso do cache distribuído a partir do ponto de "
+"vista do usuário."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:244-1
 msgid "Ouinet in April 2022"
-msgstr ""
+msgstr "Ouinet em abril de 2022"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:245-2
 msgid ""
@@ -428,10 +444,13 @@ msgid ""
 "to the decentralized content-sharing network, from more than 30,000 unique "
 "websites."
 msgstr ""
+"Os injetores do Ouinet introduziram aproximadamente 2 milhões de páginas ("
+"602 GB de dados) à rede descentralizada de compartilhamento de conteúdo, "
+"provenientes de mais de 30.000 websites únicos."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:249-1
 msgid "Internet shutdowns"
-msgstr ""
+msgstr "Desligamentos da Internet"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:250-9
 msgid ""
@@ -439,6 +458,10 @@ msgid ""
 "restriction scenarios. Precise technical information on shutdowns is often "
 "missing from media coverage. A shutdown can refer to the following:"
 msgstr ""
+"Desligamentos da Internet é um termo amplo que abarca vários cenários de "
+"restrição de acesso. Informações técnicas precisas sobre desligamentos "
+"frequentemente não circulam nas coberturas midiáticas. Um desligamento pode "
+"se referir a:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:252-9
 msgid ""
@@ -450,6 +473,13 @@ msgid ""
 "transit connections are artificially throttled (e.g., Indian Kashmir in 2019–"
 "2020 and Cuba)."
 msgstr ""
+"<strong>Nível 1:</strong> Uma falha completa ou parcial dos serviços de "
+"Internet, ocorrida por consequência de censura, ciberataques, desastres "
+"naturais, ações ou erros da polícia ou de serviços de segurança. CENO lida "
+"com cenários de extrema censura na rede, quando, em geral, VPNs não estão "
+"mais disponíveis (por exemplo, na Rússia em 2022 e no Irã em 2019) ou quando "
+"conexões de trânsito internacional são artificialmente limitados (por "
+"exemplo, Kashmir Indiano em 219-2020 e Cuba)."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:253-9
 msgid ""
@@ -458,6 +488,11 @@ msgid ""
 "country are accessible, yet the local or national network continues to "
 "function. CENO continues to work in these localized scenarios."
 msgstr ""
+"<strong>Nível 2:</strong> Uma proibição das conexões de trânsito "
+"internacionais (por exemplo, Cazaquistão em 2021), tal que nenhum servidor "
+"ou serviço localizado fora do país seja acessível, mesmo que a rede local ou "
+"nacional continue a funcionar. CENO continua a operar nestes cenários "
+"localizados."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:254-9
 msgid ""
@@ -466,6 +501,10 @@ msgid ""
 "still works peer to peer when devices remain powered and are in close "
 "proximity."
 msgstr ""
+"<strong>Nível 3:</strong> Quando a eletricidade não funciona mais, como "
+"durante desastres nacionais e em tempos de guerra (por exemplo, em "
+"Mariópolis em 2022). CENO ainda funciona P2P quando os dispositivos "
+"permanecem carregados e estão muito próximos."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:256-9
 msgid ""
@@ -476,6 +515,11 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"Um número crescente de países introduziram tecnologias sofisticadas de "
+"vigilância e filtragem de rede para sabotar métodos existentes de contorno "
+"da censura e para restringir as comunicações e o livre fluxo de informação "
+"na Internet. Alguns recorreram ao corte de redes inteiras - ao longo de "
+"bairros, regiões e nações - da conectividade internacional."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:257-9
 msgid ""
@@ -486,10 +530,17 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"A maior parte das técnicas de contorno de vigilância em uso hoje requerem do "
+"usuário, primeiramente, conectar-se a um retransmissor localizado em uma "
+"zona não-censurada. O jogo de \"gato e rato\" resultante entre censor e "
+"método de contorno (com o último recorrendo à distribuição criativa de "
+"proxy, ofuscamento de tráfego, danos colaterais, parcerias com ISP para "
+"refração de rede e etc.) não é mais suficiente para garantir a conectividade "
+"e a propagação de conteúdo digital."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:260-1
 msgid "How CENO side-steps censorship"
-msgstr ""
+msgstr "Como o CENO contorna a censura"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:261-9
 msgid ""
@@ -502,20 +553,30 @@ msgid ""
 "environments. Wider adoption will ensure more efficient, low latency and "
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
+"Em último caso, os métodos de censura existentes têm um único defeito: "
+"usuários precisam penetrar um firewall monitorado pelos censores. Como se "
+"viu no Irã em novembro de 2019, Belarus em 2020, no Cazaquistão em 2021e "
+"durante a atual desconexão do acesso irrestrito à Internet na Rússia neste "
+"ano, os métodos de contorno cada vez mais não funcionam para usuários nesses "
+"países. CENO provou ser uma solução funcional nesses ambientes. A adoção "
+"mais ampla vai assegurar comunicações P2P descentralizadas e cache "
+"distribuído mais eficientes e de baixa latência."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:265-1
 msgid "User comments"
-msgstr ""
+msgstr "Comentários de usuários"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:266-1
 msgid "Russia"
-msgstr ""
+msgstr "Rússia"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:267-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
+"\"Bom navegador. Sem VPN eu consegui abrir recursos bloqueados. Mas também é "
+"útil quando você não tem conexão.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:268-2
 msgid ""
@@ -530,16 +591,29 @@ msgid ""
 "besides helping to access websites, it also looks quite innocent which is "
 "great.”"
 msgstr ""
+"\"Por causa das ameaças russas de bloquear VPNs, o CENO é promissor. Também "
+"porque para a sua ISP é como se fosse tráfego de Torrent, e torrents são "
+"algo muito normalizado na Rússia, diferentemente de nos países ocidentais "
+"nos quais o copyright é realmente respeitado. Também em Moscou a polícia "
+"começou a pedir às pessoas para mostrar seus telefones e eles olham para os "
+"aplicativos que você possui. Eu passei por esse tipo de controle. Eles olham "
+"para VPNs ou mensageiros como Signal ou Telegram. E CENO parece um navegador "
+"normal, então quando eles perguntaram o que era e eu disse que era um "
+"navegador, não houve problema nem questões. Eu simplesmente escolhi "
+"regularmente limpar o historico de busca e sair. Assim, além de ajudar a "
+"acessar websites, tambpem parece super inocente, o que é ótimo.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:269-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
+"\"Obrigada por um ótimo produto. Seu navegador abre o website http://"
+"meduza.io muito mais rápido que o aplicativo do @meduzaproject.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:271-1
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:272-2
 msgid ""
@@ -547,22 +621,30 @@ msgid ""
 "see that it works well with this app. This is our digital rights. So I will "
 "continue to use it sometimes.”"
 msgstr ""
+"\"Havia muitos incovenientes devido aos websites bloqueados. É bom ver que "
+"eles funcionam bem neste aplicativo. Estes são nossos direitos digitais. "
+"Então eu continuo a usá-lo as vezes.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
+"\"Existem mais funcionalidades que eu gostaria de ver no aplicativo, mas é "
+"uma aplicação totalmente conveniente e útil.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:275-1
 msgid "Iran"
-msgstr ""
+msgstr "Irã"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:276-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
+"\"Este aplicativo é uma das nossas poucas esperanças em tempos de sérias "
+"interrupções da Internet no Irã. Por favor, continuem mantendo e o tornem "
+"melhor e melhor. Obrigada.\""
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:277-2
 msgid ""
@@ -570,6 +652,9 @@ msgid ""
 "possibility of free use of the Internet and everything is filtered by the "
 "government, even filter breakers.”"
 msgstr ""
+"\"É um bom navegador, especialmente para nós Iranianos, que não temos a "
+"possibilidade de uso livre da Internet e tudo é filtrado pelo governo, até "
+"mesmo os quebradores de filtro.\""
 
 #: factsheet.html%2Bhtml.body.footer.div.p:296-9
 msgid ""
