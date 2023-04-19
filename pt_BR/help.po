@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 15:14-0700\n"
 "PO-Revision-Date: 2023-04-19 17:04+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/websitehelp/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -164,24 +164,29 @@ msgid ""
 "can get in touch with the team via the feedback button at the bottom of this "
 "website, or send us an email:"
 msgstr ""
+"Comentários na Play Store são bem-vindos, assim como os contatos diretos - "
+"você pode entrar em contato com a equipe através do botão de feedback na "
+"parte inferior deste website ou nos enviar um email:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:165-3
 msgid "cenoers [at] equalit [dot] ie"
-msgstr ""
+msgstr "cenoers [em] equalit [ponto] ie"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:166-17
 msgid "Take a survey"
-msgstr ""
+msgstr "Participe da pesquisa"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:177-17
 msgid "Source Code"
-msgstr ""
+msgstr "Código-fonte"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:178-3
 msgid ""
 "If you are interested in CENO's source code please check the following Git "
 "repositories:"
 msgstr ""
+"Se você se interessa pelo código-fonte do CENO por favor, verifique os "
+"seguintes repositórios do Git:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:180-12
 msgid ""
@@ -191,10 +196,16 @@ msgid ""
 "censorship-no/ceno-distribution\">included extensions</a>, <a href=\"https://"
 "github.com/censorship-no/ceno-ext-settings\">settings extension source</a>"
 msgstr ""
+"Componentes do navegador: <a href=\"https://github.com/censorship-no/ceno-"
+"browser\">construtor de pacotes</a>, <a href=\"https://github.com/"
+"censorship-no/gecko-dev/tree/ceno\">Fork do Firefox</a>, <a href=\"https:// "
+"ithub.com/censorship-no/ceno-distribution\">extensões inclusas</a>, <a href="
+"\"https://github.com/censorship-no/ceno-ext-settings\">source de extensão de "
+"configurações</a>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:182-12
 msgid "Ouinet source"
-msgstr ""
+msgstr "Source do Ouinet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:183-12
 msgid ""
@@ -205,35 +216,44 @@ msgid ""
 "repositories can be found at the <a href=\"https://github.com/censorship-no-"
 "archive\">Censorship.no! archive</a>."
 msgstr ""
+"Você pode se interessar também pela (não mais mantida) <a href=\"https"
+"://github.com/censorship-no-archive/ceno1\">encarnação anterior do CENO</a>, "
+"construída na <a href=\"https://freenetproject.org/\">Freenet</a>, rede "
+"anônima de compartilhamento de arquivos e publicação de conteúdo. Outros "
+"repositórios inativos relacionados ao projeto podem ser encontrados no <a "
+"href=\"https://github.com/censorship-no-archive\">arquivo do Censorship."
+"no!</a>."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:184-17
 msgid "Browse our Github"
-msgstr ""
+msgstr "Navegue por nosso GitHub"
 
 #: help.html%2Bhtml.body.main.div.section.h2:197-1
 msgid "Run a Bridge Node"
-msgstr ""
+msgstr "Gerencie um Nó Ponte"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:203-3
 msgid "Become a bridge!"
-msgstr ""
+msgstr "Torne-se uma ponte!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:205-17
 msgid "Want to help grow the network? Join the swarm!"
-msgstr ""
+msgstr "Quer ajudar a rede a crescer? Junte-se ao enxame!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:212-3
 msgid "The easy way: Android"
-msgstr ""
+msgstr "O jeito fácil: Android"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:214-17
 msgid ""
 "Run CENO Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
+"Execute o Navegador CENO em seu dispositivo Android e/ou em um dispositivo "
+"reserva, conectado a todo tempo."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:221-3
 msgid "Run the CENO Docker Client"
-msgstr ""
+msgstr "Execute o Cliente Docker do CENO"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:223-17
 msgid ""
@@ -241,38 +261,47 @@ msgid ""
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
 "ouinet --network host --restart unless-stopped equalitie/ceno-client</code>"
 msgstr ""
+"Alternativamente, com apenas um comando você pode configurar uma ponte em "
+"seu computador ou VPS: <code>sudo docker run --name ceno-client -dv ceno:/"
+"var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
+"client</code>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:230-3
 msgid "Open a portal to the internet"
-msgstr ""
+msgstr "Abra um portal para a Internet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:232-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
+"Garanta que o UPnP está habilitado em seu roteador ou configure o "
+"redirecionamento de porta."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:239-3
 msgid "To see if it's working:"
-msgstr ""
+msgstr "Para ver se está funcionando:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:241-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
+"Crie e abra um novo Perfil do Firefox e defina o proxy para o localhost, "
+"porta 8077."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:248-3
 msgid "Thank you for growing the network!"
-msgstr ""
+msgstr "Agradecemos por ajudar a rede a crescer!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:250-17
 msgid ""
 "Install the CENO Web Extension and the provided certificate to test it out!"
 msgstr ""
+"Instale as Extensões Web do CENO e os certificados fornecidos para testá-lo!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.main.div.section.div.div:256-1
 msgid "Learn more about setting up a bridge in the User Manual!"
-msgstr ""
+msgstr "Saiba mais sobre configurações de ponte no Manual do Usuário!"
 
 #: help.html%2Bhtml.body.footer.div.p:277-9
 msgid ""
