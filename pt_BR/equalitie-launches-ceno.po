@@ -3,53 +3,55 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 15:14-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-21 20:52+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/website-equalitie-launches-ceno/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: equalitie-launches-ceno.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "pt-br"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr ""
+msgstr "Notícias"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr ""
+msgstr "Comunidade"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Donate"
-msgstr ""
+msgstr "Doar"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 msgid "Get CENO"
-msgstr ""
+msgstr "Obter CENO"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:104-10
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:106-1
 msgid "EN"
-msgstr ""
+msgstr "PT-BR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -67,6 +69,17 @@ msgid ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/equalitie-"
 "launches-ceno.html\">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/equalitie-"
+"launches-ceno.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/equalitie-launches-ceno.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/equalitie-"
+"launches-ceno.html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang="
+"\"fr\" href=\"../fr/equalitie-launches-ceno.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/equalitie-launches-"
+"ceno.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\""
+" href=\"../ru/equalitie-launches-ceno.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/equalitie-launches-ceno."
+"html\">Українська</a>"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.title:131-1
 msgctxt "equalitie-launches-ceno.html+html.body.main.title:131-1"
@@ -74,6 +87,8 @@ msgid ""
 "CENO Browser | eQualitie launches CENO, world’s first decentralized p2p "
 "mobile browser"
 msgstr ""
+"Navegador CENO | eQualitie lança CENO, o primeiro navegador P2P e "
+"descentralizado para dispositivos móveis"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.title:132-1
 msgctxt "equalitie-launches-ceno.html+html.body.main.title:132-1"
@@ -81,16 +96,22 @@ msgid ""
 "CENO Browser | eQualitie launches CENO, world’s first decentralized p2p "
 "mobile browser"
 msgstr ""
+"Navegador CENO | eQualitie lança CENO, o primeiro navegador P2P e "
+"descentralizado para dispositivos móveis"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h2:136-5
 msgid "eQualitie launches CENO, world’s first decentralized p2p mobile browser"
 msgstr ""
+"eQualitie lança CENO, o primeiro navegador P2P e descentralizado para "
+"dispositivos móveis"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h3:137-2
 msgid ""
 "CENO Browser lets anyone access and share information in areas with censored "
 "communications"
 msgstr ""
+"O Navegador CENO permite que qualquer pessoa acesse e compartilhe informação "
+"em áreas com comunicações censuradas"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:139-2
 msgid ""
@@ -102,6 +123,15 @@ msgid ""
 "censorship methods. It also enables people to access and share information "
 "in and across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"<strong>Montreal, 10 de maio de 2022</strong> – eQualitie, desenvolvedora de "
+"sistemas de segurança digital reutilizáveis e de código aberto, tem o prazer "
+"de anunciar o lançamento público da mais nova ferramenta de democratização, "
+"o Navegador CENO. Abreviação de <strong>ce</strong>nsorship.<strong>no</"
+"strong>, CENO é o primeiro navegador para dispositivos móveis do mundo "
+"projetado especificamente para contornar os atuais métodos de censura da "
+"Internet. Ele também permite que as pessoas acessem e compartilhem "
+"informações dentro e através das regiões onde a conectividade foi "
+"interrompida ou comprometida."
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:140-2
 msgid ""
@@ -118,6 +148,21 @@ msgid ""
 "unrest, conflict and war. CENO’s routing and distribution can also "
 "significantly reduce bandwidth consumption and associated costs."
 msgstr ""
+"CENO usa tecnologias consagradas de formas inovadoras. Enquanto a "
+"experiência do usuário é similar à em um navegador padrão para dispositivos "
+"móveis, CENO opera sobre uma rede P2P na biblioteca de código aberto Ouinet "
+"e através de protocolos BitTorrent, o que permite que ele seja executado "
+"confiavelmente onde outros navegadores não poderiam ou não conseguiriam. "
+"Porque o conteúdo web é entregue, guardado em cache e descenralizado via "
+"roteamento P2P; ele não pode ser forçosamente removido por agentes externos. "
+"Além disso, CENO é equipado para acessar e compartilhar conteúdo armazenado "
+"em cache de modo offline e via redes de área local (LAN). A resiliência do "
+"CENO o torna ideal para pessoas que precisam de acesso estável e capacidade "
+"de compartilhar informações da web durante eventos de censura da mídia, "
+"filtragem, ataques, desligamentos, imprevistos naturais, momentos de "
+"instabilidade política, conflito e guerra. O roteamento e a distribuição do "
+"CENO podem também reduzir significativamente o consumo de largura de banda e "
+"custos associados."
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:141-2
 msgid ""
@@ -127,6 +172,11 @@ msgid ""
 "civilians, NGOs, investigative journalists and independent media "
 "internationally to share information on their mobile devices.”"
 msgstr ""
+"\"CENO é deveras promissor e é lançado em um momento oportuno para quem está "
+"engajado em atividades e movimentos democráticos,\" diz Dmitri Vitaliev, "
+"fundador e diretor da eQualitie. \"Já está ajudando milhares de civis, ONGs, "
+"jornalistas investigativos e a mídia independente internacionalmente a "
+"compartilhar informações em seus dispositivos móveis.\""
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:142-2
 msgid ""
@@ -144,6 +194,19 @@ msgid ""
 "It is one of several digital democratization apps envisioned and developed "
 "by eQualitie."
 msgstr ""
+"CENO está atualmente sendo usado por centenas de milhares de pessoas "
+"globalmente, incluindo em Myanar e Irã, onde juntas e regimes militares "
+"rotineiramente desconsideram a noção de direitos digitais; na Ucrânia, onde "
+"o exército invasor da Rússia tem danificado e destruído as infraestruturas "
+"locais da Internet; e na Rússia, onde o punho da censura está evoluindo e se "
+"fechando. O CENO funciona em dispositivos Android e pode ser baixado via <a "
+"href=\"https://censorship.no/download\">website do CENO</a>, <a href=\"https"
+"://play.google.com/store/apps/details?id=ie.equalit.ceno\">Google Play</a>, "
+"<a href=\"https://github.com/censorship-no/ceno-browser/releases\">GitHub</"
+"a>, <a href=\"https://paskoocheh.com/tools/124/android.html?utm_source="
+"UpdatePage\">Paskoocheh</a> e <a href=\"https://zanga.tech/tools/166/android."
+"html?\">Zanga.tech</a>. É um dos diversos aplicativos de democratização "
+"digital concebidos e desenvolvidos pela eQualitie."
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:143-2
 msgid ""
@@ -153,7 +216,7 @@ msgstr ""
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:145-2
 msgid "About eQualitie"
-msgstr ""
+msgstr "Sobre eQualitie"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.div.p:148-25
 msgid ""
@@ -166,20 +229,30 @@ msgid ""
 "activities. For more information, visit <a href=\"https://equalit."
 "ie\">https://equalit.ie.</a>"
 msgstr ""
+"Fundada e gerenciada por Dmitri Vitaliev desde 2010, a eQualitie, empresa "
+"baseada em Montreal, é inspirada por princípios de liberdade de expressão e "
+"associação como definido nos Artigos 18, 19 e 20 da Declaração Universal do "
+"Direitos Humanos da ONU. Com sede em Montreal, a equipe da eQualitie é "
+"distribuída globalmente, incluindo em solo de áreas censuradas e "
+"conflituosas. eQualitie é financiada por prêmios públicos, fundações "
+"privadas e renda gerada por atividades comerciais. Para mais informações, "
+"visite <a href=\"https://equalit.ie\">https://equalit.ie.</a>"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:151-2
 msgid "Press Contact"
-msgstr ""
+msgstr "Contato de Mídia"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:152-2
 msgid ""
 "For press and media inquiries, please contact Jenny Ryan: press [at] "
 "equalitie [dot] org."
 msgstr ""
+"Para perguntas da imprensa e mídia, por favor entre em contato com Jenny "
+"Ryan: press [em] equalitie [ponto] org."
 
 #: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:154-2
 msgid "Download PDF"
-msgstr ""
+msgstr "Baixar PDF"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.footer.div.p:171-9
 msgid ""
@@ -190,6 +263,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"O Navegador CENO é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</"
+"a> – uma empresa canadense não orientada a lucro que desenvolve sistemas "
+"abertos e reutilizáveis com foco em privacidade, segurança online e "
+"liberdade de associação. Soluções tecnológicas e inovações são direcionadas "
+"por nossos <a href=\"https://equalit.ie/en/values/\">valores</a> que nos "
+"orientam na proteção dos direitos e aspirações de todas as pessoas online."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: equalitie-launches-ceno.html%2Bhtml.body.footer:173-23
@@ -197,3 +276,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
