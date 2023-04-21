@@ -3,53 +3,55 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-06 15:53-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-03-30 00:01+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"website-donate/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: donate.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "tr"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:86-17
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "Support"
-msgstr ""
+msgstr "Destek"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:94-17
 msgid "News"
-msgstr ""
+msgstr "Haberler"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "Community"
-msgstr ""
+msgstr "Topluluk"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Donate"
-msgstr ""
+msgstr "Bağış yapın"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
 msgid "Get CENO"
-msgstr ""
+msgstr "CENO'yu edinin"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:104-10
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: donate.html%2Bhtml.body.nav.div.div.div:106-1
 msgid "EN"
-msgstr ""
+msgstr "TR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -65,18 +67,27 @@ msgid ""
 "ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
 "\"uk\" href=\"../uk/donate.html\">Українська</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/donate.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a class=\"navbar-item\""
+" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/donate.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
 #: donate.html%2Bhtml.body.main.title:131-1
 msgid "CENO Browser | Download"
-msgstr ""
+msgstr "CENO Browser | İndir"
 
 #: donate.html%2Bhtml.body.main.title:132-1
 msgid "CENO Browser | Donate"
-msgstr ""
+msgstr "Ceno Browser | Bağış yapın"
 
 #: donate.html%2Bhtml.body.main.div.h1:134-6
 msgid "Donate to Ceno Browser"
-msgstr ""
+msgstr "CENO Browser'a bağış yapın"
 
 #: donate.html%2Bhtml.body.main.div.p:135-3
 msgid ""
@@ -86,38 +97,43 @@ msgid ""
 "getting involved and contributing, please visit <a href=\"help.html\">the "
 "Community page</a>!"
 msgstr ""
+"CENO Browser yalnızca bağışlar ve yardımlar ile desteklenen açık kaynaklı ve "
+"tamamen ücretsiz bir yazılımdır. Maddi olarak bize destek olabileceğiniz "
+"bazı yöntemleri aşağıda bulabilirsiniz. Farklı şekilde yardımcı olmak ya da "
+"katkıda bulunmak istiyorsanız <a href=\"help.html\">Topluluk sayfasına</a> "
+"bakabilirsiniz!"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:144-18
 msgid "Make a Donation"
-msgstr ""
+msgstr "Bağış yapın"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:145-11
 msgid "Make a one-time donation using our Stripe payment portal."
-msgstr ""
+msgstr "Stripe ödeme yöntemi ile tek seferlik bir bağış yapın."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:146-18
 msgid "Donate via Stripe"
-msgstr ""
+msgstr "Stripe ile bağış yapın"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:157-17
 msgid "Become a Sponsor"
-msgstr ""
+msgstr "Destekçi olun"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:158-3
 msgid "We are currently exploring fundraising platforms and communities:"
-msgstr ""
+msgstr "Şu anda bağış toplama platformlarını ve topluluklarını araştırıyoruz:"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:159-17
 msgid "Sponsor on Github"
-msgstr ""
+msgstr "Github ile destek olun"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:170-20
 msgid "Donate Bitcoin"
-msgstr ""
+msgstr "Bitcoin bağışlayın"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:171-3
 msgid "Our wallet address is:"
-msgstr ""
+msgstr "Cüzdan adresimiz:"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-4
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
@@ -132,6 +148,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"CENO Browser, gizlilik, çevrimiçi güvenlik ve örgütlenme özgürlüğüne "
+"odaklanarak açık ve yeniden kullanılabilir sistemler geliştiren Kanadalı <a "
+"href=\"https://equalit.ie\">eQualitie</a> kuruluşunun bir projesidir. "
+"Teknoloji çözümleri ve yenilikleri, çevrimiçi olan herkesin haklarını ve "
+"isteklerini korumamıza rehberlik eden <a href=\"https://equalit.ie/en/values/"
+"\">değerlerimiz</a> tarafından belirlenir."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: donate.html%2Bhtml.body.footer:198-23
