@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-24 15:14-0700\n"
+"POT-Creation-Date: 2023-04-21 14:16-0700\n"
 "PO-Revision-Date: 2023-03-30 00:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,45 +18,70 @@ msgstr ""
 msgid "en"
 msgstr "tr"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:86-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "About"
 msgstr "Hakkında"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:89-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Support"
 msgstr "Destek"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:94-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "News"
 msgstr "Haberler"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:97-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:99-17
 msgid "Community"
 msgstr "Topluluk"
 
-#: index.html%2Bhtml.body.nav.div.div.ul.li:100-17
+#: index.html%2Bhtml.body.nav.div.div.ul.li:102-17
 msgid "Donate"
 msgstr "Bağış yapın"
 
-#: index.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
+#: index.html%2Bhtml.body.nav.div.div.div.a[title]:106-15
 msgid "Get CENO"
 msgstr "CENO'yu edinin"
 
-#: index.html%2Bhtml.body.nav.div.div.div:104-10
+#: index.html%2Bhtml.body.nav.div.div.div:106-10
 msgid "Download"
 msgstr "İndir"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: index.html%2Bhtml.body.nav.div.div.div:106-1
+#: index.html%2Bhtml.body.nav.div.div.div:108-1
 msgid "EN"
 msgstr "TR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: index.html%2Bhtml.body.nav.div.div.div.div:112-5
+#: index.html%2Bhtml.body.nav.div.div.div.div:114-5
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
+#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#| "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" "
+#| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/index."
+#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#| "href=\"../my/index.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index."
+#| "html\">Українська</a>"
 msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" "
+"hreflang=\"tr\" href=\"../tr/index.html\">Türkçe</a> <a class=\"navbar-"
+"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index."
+"html\">اردو</a>"
+msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
 "href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
@@ -66,36 +91,32 @@ msgid ""
 "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
 "href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
-msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class"
-"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\""
-">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
-"ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
-"\"uk\" href=\"../uk/index.html\">Українська</a>"
 
-#: index.html%2Bhtml.body.main.title:131-1
-msgctxt "index.html+html.body.main.title:131-1"
+#: index.html%2Bhtml.body.main.title:135-1
+#, fuzzy
+#| msgctxt "index.html+html.body.main.title:131-1"
+#| msgid "CENO Browser | Share the Web"
+msgctxt "index.html+html.body.main.title:135-1"
 msgid "CENO Browser | Share the Web"
 msgstr "CENO Browser | İnterneti paylaş"
 
-#: index.html%2Bhtml.body.main.title:132-1
-msgctxt "index.html+html.body.main.title:132-1"
+#: index.html%2Bhtml.body.main.title:136-1
+#, fuzzy
+#| msgctxt "index.html+html.body.main.title:131-1"
+#| msgid "CENO Browser | Share the Web"
+msgctxt "index.html+html.body.main.title:136-1"
 msgid "CENO Browser | Share the Web"
 msgstr "CENO Browser | İnterneti paylaş"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:139-9
+#: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:143-9
 msgid "CENO Browser banner"
 msgstr "Ceno Browser afişi"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:144-7
+#: index.html%2Bhtml.body.main.section.div.div.div.div.h1:148-7
 msgid "Share the web!"
 msgstr "İnterneti paylaş!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p:145-3
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p:149-3
 msgid ""
 "CENO (short for censorship.no!) is the world’s first mobile browser that "
 "side-steps current Internet censorship methods. Its peer-to-peer backbone "
@@ -107,27 +128,27 @@ msgstr ""
 "insanların bağlantının kesildiği veya tehlikeye girdiği bölgelerde ve "
 "bölgeler arasında site bilgilerine erişmesini ve bunları paylaşmasını sağlar."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:147-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:151-15
 msgid "Get it on Google Play"
 msgstr "Google Play üzerinden alın"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:150-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:154-17
 msgid "Get it on Paskoocheh"
 msgstr "Paskoocheh üzerinden alın"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:153-17
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:157-17
 msgid "Get it on Gitlab"
 msgstr "GitLab üzerinden alın"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:168-14
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:172-14
 msgid "Browse Freely"
 msgstr "Özgürce gezinin"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:169-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:173-15
 msgid "Unlock the Web"
 msgstr "İnternet kilitlerini açın"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:170-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:174-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
 "internet is down or censored. Install CENO Browser today and be prepared for "
@@ -137,15 +158,15 @@ msgstr ""
 "kullanıcılar üzerinden internet içeriğine erişin. CENO Browser uygulamasını "
 "bugünden kurun ve bir daha fişiniz 🔌 çekildiğinde hazırlıklı olun."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-13
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:181-13
 msgid "Grow the network - Become a bridge!"
 msgstr "Bir köprü olun ağın genişlemesini sağlayın!"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:182-15
 msgid "Grow the Network"
 msgstr "Ağı büyütün"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:183-15
 msgid ""
 "Fight censorship by becoming a bridge! Install and run CENO Browser to "
 "instantly join the network and expand the availability of blocked websites "
@@ -155,17 +176,25 @@ msgstr ""
 "ülkelerdeki insanların engellenen sitelere erişebilmesini sağlamak için CENO "
 "Browser uygulamasını kurun ve çalıştırın."
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:186-13
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:186-13"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:190-13
+#, fuzzy
+#| msgctxt ""
+#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:186-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:190-13"
 msgid "Free and Open Source"
 msgstr "Özgür ve açık kaynaklı"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:187-15
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:187-15"
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:191-15
+#, fuzzy
+#| msgctxt ""
+#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:186-13"
+#| msgid "Free and Open Source"
+msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:191-15"
 msgid "Free and Open Source"
 msgstr "Özgür ve açık kaynaklı"
 
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:188-15
+#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:192-15
 msgid ""
 "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
 "\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
@@ -174,12 +203,12 @@ msgid ""
 "connectivity."
 msgstr ""
 "CENO <a href=\"https://www.mozilla.org/firefox/android/\">Android için "
-"Firefox</a> tabanlıdır ve <a href=\"https://github.com/equalitie/ouinet\""
-">Ouinet kitaplığını</a> kullanacak şekilde genişletilmiştir. Böylece üçüncü "
-"taraf geliştiriciler uçtan uca bağlantı için kendi uygulamalarına CENO ağını "
-"kolayca ekleyebilir."
+"Firefox</a> tabanlıdır ve <a href=\"https://github.com/equalitie/"
+"ouinet\">Ouinet kitaplığını</a> kullanacak şekilde genişletilmiştir. Böylece "
+"üçüncü taraf geliştiriciler uçtan uca bağlantı için kendi uygulamalarına "
+"CENO ağını kolayca ekleyebilir."
 
-#: index.html%2Bhtml.body.footer.div.p:209-9
+#: index.html%2Bhtml.body.footer.div.p:213-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -196,13 +225,21 @@ msgstr ""
 "\">değerlerimiz</a> tarafından belirlenir."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:211-23
+#: index.html%2Bhtml.body.footer:215-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "index.html+html.body.main.title:132-1"
+#~ msgid "CENO Browser | Share the Web"
+#~ msgstr "CENO Browser | İnterneti paylaş"
+
+#~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:187-15"
+#~ msgid "Free and Open Source"
+#~ msgstr "Özgür ve açık kaynaklı"
 
 #~ msgid "How It Works"
 #~ msgstr "Nasıl Çalışır"
