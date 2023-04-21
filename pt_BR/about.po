@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-24 15:14-0700\n"
+"POT-Creation-Date: 2023-04-21 14:16-0700\n"
 "PO-Revision-Date: 2023-04-17 05:49+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -18,45 +18,70 @@ msgstr ""
 msgid "en"
 msgstr "pt-br"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:86-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:88-17
 msgid "About"
 msgstr "Sobre"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:91-17
 msgid "Support"
 msgstr "Suporte"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:94-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:96-17
 msgid "News"
 msgstr "Notícias"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:99-17
 msgid "Community"
 msgstr "Comunidade"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:100-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:102-17
 msgid "Donate"
 msgstr "Doar"
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:104-15
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:106-15
 msgid "Get CENO"
 msgstr "Obter CENO"
 
-#: about.html%2Bhtml.body.nav.div.div.div:104-10
+#: about.html%2Bhtml.body.nav.div.div.div:106-10
 msgid "Download"
 msgstr "Baixar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:106-1
+#: about.html%2Bhtml.body.nav.div.div.div:108-1
 msgid "EN"
 msgstr "PT-BR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: about.html%2Bhtml.body.nav.div.div.div.div:112-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:114-5
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#| "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" "
+#| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/about."
+#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#| "href=\"../my/about.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about."
+#| "html\">Українська</a>"
 msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" "
+"hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-"
+"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about."
+"html\">اردو</a>"
+msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
 "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
@@ -66,38 +91,34 @@ msgid ""
 "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
-msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class"
-"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
-">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
-"ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
-"\"uk\" href=\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.title:131-1
-msgctxt "about.html+html.body.main.title:131-1"
+#: about.html%2Bhtml.body.main.title:135-1
+#, fuzzy
+#| msgctxt "about.html+html.body.main.title:131-1"
+#| msgid "CENO Browser | About"
+msgctxt "about.html+html.body.main.title:135-1"
 msgid "CENO Browser | About"
 msgstr "Navegador CENO | Sobre"
 
-#: about.html%2Bhtml.body.main.title:132-1
-msgctxt "about.html+html.body.main.title:132-1"
+#: about.html%2Bhtml.body.main.title:136-1
+#, fuzzy
+#| msgctxt "about.html+html.body.main.title:131-1"
+#| msgid "CENO Browser | About"
+msgctxt "about.html+html.body.main.title:136-1"
 msgid "CENO Browser | About"
 msgstr "Navegador CENO | Sobre"
 
-#: about.html%2Bhtml.body.main.div.h1:135-6
+#: about.html%2Bhtml.body.main.div.h1:139-6
 msgid "How CENO Browser Works"
 msgstr "Como Funciona o Navegador CENO"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:143-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:147-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:151-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:155-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -105,7 +126,7 @@ msgstr ""
 "Este desenho dá ao censor uma vantagem na localização e bloqueio de proxies "
 "populares, servidores VPN, retransmissores, etc;"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:159-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:163-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -113,14 +134,14 @@ msgstr ""
 "Nestes casos, alcançar o servidor de origem é difícil ou impossível, e seu "
 "dispositivo não será capaz de obter aquele conteúdo."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:167-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:171-3
 msgid ""
 "CENO is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "CENO é um navegador web para dispositivos móveis destinado a armazenar e "
 "compartilhar conteúdo web em qualquer lugar."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:175-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:179-3
 msgid ""
 "CENO users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -128,7 +149,7 @@ msgstr ""
 "Os usuários do CENO criam redes de pequeno mundo para conectarem-se entre si "
 "e, depois, a uma ponte fora da zona censurada."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:183-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:187-3
 msgid ""
 "Once a website is accessed by a single CENO user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -137,7 +158,7 @@ msgstr ""
 "armazenado e compartilhado dentro da rede P2P do país."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:191-1
+#: about.html%2Bhtml.body.main.div.div:195-1
 #, fuzzy
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -149,16 +170,16 @@ msgid ""
 "scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
 "whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Saiba mais no "
-"Manual do Usuário!</button></a> <a href=\"https://github.com/equalitie/"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> Saiba mais "
+"no Manual do Usuário!</button></a> <a href=\"https://github.com/equalitie/"
 "ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
 "btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
 "scroll\"></span> Para um documento mais técnico e aprofundado, veja o guia "
 "da Ouinet.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:211-9
+#: about.html%2Bhtml.body.footer.div.p:215-9
 msgid ""
 "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -175,10 +196,14 @@ msgstr ""
 "orientam na proteção dos direitos e aspirações de todas as pessoas online."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:213-23
+#: about.html%2Bhtml.body.footer:217-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "about.html+html.body.main.title:132-1"
+#~ msgid "CENO Browser | About"
+#~ msgstr "Navegador CENO | Sobre"
