@@ -2,7 +2,7 @@
 # Usage: ./html-update.sh LANGUAGE
 # Update HTML pages for the given language and place them under `LANGUAGE`.
 
-RTL_LANGUAGES="ar fa"
+RTL_LANGUAGES="ar fa ur"
 
 set -e
 
