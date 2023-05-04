@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-03 18:04-0700\n"
+"POT-Creation-Date: 2023-05-04 16:36-0700\n"
 "PO-Revision-Date: 2023-05-01 18:27+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -142,8 +142,10 @@ msgstr ""
 "reciente directamente:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:171-17
-msgid "CENO Browser VERSION=2.0.2"
-msgstr "Navegador CENO VERSIÓN=2.0.2"
+#, fuzzy
+#| msgid "CENO Browser 2.0.0b2"
+msgid "CENO Browser 2.0.2"
+msgstr "Navegador CENO 2.0.0b2"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:172-20
 msgid "Download (32-bit ARM)"
@@ -214,6 +216,9 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "CENO Browser VERSION=2.0.2"
+#~ msgstr "Navegador CENO VERSIÓN=2.0.2"
 
 #~ msgid "CENO Browser 2.0.1"
 #~ msgstr "Navegador CENO 2.0.1"
@@ -337,6 +342,3 @@ msgstr ""
 #~ msgctxt "download.html+html.body.nav.div.div.div:95-10"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Obtén el Navegador CENO"
-
-#~ msgid "CENO Browser 2.0.0b2"
-#~ msgstr "Navegador CENO 2.0.0b2"
