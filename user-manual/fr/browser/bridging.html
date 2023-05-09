@@ -154,7 +154,7 @@
 <p>Cette fonctionnalité est déjà intégrée au navigateur CENO. Votre appareil devra être connecté à un réseau Wi-Fi dont l'UPnP est activé ou dont la redirection de port explicite est configurée pour CENO. Voir les sections suivantes pour plus de détails.</p>
 <p>Toutefois, veuillez noter qu'Android n'autorisera votre appareil mobile à faire office de passerelle que lorsque vous l'utilisez activement. À défaut, les fonctions d'économie d'énergie limiteront le fonctionnement de CENO.</p>
 <blockquote>
-<p><strong>Note technique :</strong> Ceci est principalement lié au [mode Doze](https://developer.android.com/training/monitoring-device-state/doze-standby « Android Developers - Optimize for Doze and App Standby ») d'Android, qui ralentit le fonctionnement de la bibliothèque native Ouinet. Malheureusement, la désactivation de l'optimisation de la batterie pour CENO ne semble pas agir sur Ouinet. Votre appareil peut également inclure ses propres fonctions d'économie d'énergie qui peuvent interférer avec CENO ; veuillez consulter les informations de [Don't kill my app!][Don't kill my app!] concernant la marque de votre appareil.</p>
+<p><strong>Note technique :</strong> Ceci est principalement lié au <a href="https://developer.android.com/training/monitoring-device-state/doze-standby">mode Doze</a>(https://developer.android.com/training/monitoring-device-state/doze-standby « Android Developers - Optimize for Doze and App Standby ») d'Android, qui ralentit le fonctionnement de la bibliothèque native Ouinet. Malheureusement, la désactivation de l'optimisation de la batterie pour CENO ne semble pas agir sur Ouinet. Votre appareil peut également inclure ses propres fonctions d'économie d'énergie qui peuvent interférer avec CENO ; veuillez consulter les informations de <a href="https://dontkillmyapp.com/">Don't kill my app!</a> concernant la marque de votre appareil.</p>
 </blockquote>
 <p>Ainsi, si vous souhaitez que CENO agisse comme une passerelle permanente, toujours joignable, en plus d'un réseau Wi-Fi correctement configuré, il vous sera nécessaire de :</p>
 <ol>
@@ -168,7 +168,7 @@
 </ol>
 <p>Si cette configuration n'est pas envisageable dans votre cas, ne vous découragez pas pour autant ! Si vous avez un ordinateur avec une bonne connectivité, qui reste allumé la plupart du temps, veuillez continuez la lecture de cette section.</p>
 <h2 id="mettre-en-place-une-passerelle-sur-un-ordinateur"><a class="header" href="#mettre-en-place-une-passerelle-sur-un-ordinateur">Mettre en place une passerelle sur un ordinateur</a></h2>
-<p>Si votre ordinateur prend en charge les [conteneurs Docker][docker], vous pouvez faire fonctionner un client CENO préconfiguré qui fera office de passerelle. Si Docker n'est pas encore installé, veuillez suivre les instructions pour [installer le moteur Docker][docker-install] sur votre plateforme. Pour les dérivés de Debian, comme Ubuntu ou Linux Mint, vous pouvez simplement exécuter : <code>sudo apt install docker.io</code></p>
+<p>Si votre ordinateur prend en charge les <a href="https://fr.wikipedia.org/wiki/Docker_(logiciel)">conteneurs Docker</a>, vous pouvez faire fonctionner un client CENO préconfiguré qui fera office de passerelle. Si Docker n'est pas encore installé, veuillez suivre les instructions pour <a href="https://docs.docker.com/engine/install/">installer le moteur Docker</a> sur votre plateforme. Pour les dérivés de Debian, comme Ubuntu ou Linux Mint, vous pouvez simplement exécuter : <code>sudo apt install docker.io</code></p>
 <p>Pour lancer un conteneur client CENO, il vous suffit d'exécuter la commande suivante dans un terminal (elle a l'air effrayante, mais vous pouvez simplement la copier et la coller) :</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -180,14 +180,14 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>La commande lancera un conteneur nommé <code>ceno-client</code> qui s'exécutera à chaque démarrage, à moins que vous lui demandiez expressément de s'arrêter. Veuillez consulter la [documentation Docker du client CENO][ceno-client-doc] pour plus d'informations sur la façon de manipuler le conteneur.</p>
+<p>La commande lancera un conteneur nommé <code>ceno-client</code> qui s'exécutera à chaque démarrage, à moins que vous lui demandiez expressément de s'arrêter. Veuillez consulter la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">documentation Docker du client CENO</a> pour plus d'informations sur la façon de manipuler le conteneur.</p>
 <blockquote>
 <p><strong>Note :</strong> Ce client n'a pas de <em>Paramètres CENO</em> : lorsqu'il vous est demandé plus bas d'accéder à cette page, ouvrez plutôt le <a href="../client/front-end.html">front-end du client</a>, qui contient des informations équivalentes.</p>
 </blockquote>
 <h2 id="activer-lupnp-sur-votre-routeur-wi-fi"><a class="header" href="#activer-lupnp-sur-votre-routeur-wi-fi">Activer l'UPnP sur votre routeur Wi-Fi</a></h2>
-<p>[UPnP][UPnP] est le moyen le plus simple de rendre votre navigateur CENO (ou le client de votre ordinateur) accessible au réseau CENO. La page <a href="settings.html">Paramètres de CENO</a> vous indiquera l'état de l'UPnP sur votre réseau local.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> est le moyen le plus simple de rendre votre navigateur CENO (ou le client de votre ordinateur) accessible au réseau CENO. La page <a href="settings.html">Paramètres de CENO</a> vous indiquera l'état de l'UPnP sur votre réseau local.</p>
 <blockquote>
-<p><strong>Remarque :</strong> L'activation d'UPnP sur le routeur Wi-Fi peut exposer les périphériques de votre réseau à des interférences externes. Veuillez prendre [conscience des risques][upnp-risks] et envisager l'utilisation de méthodes alternatives comme expliqué ci-dessous.</p>
+<p><strong>Remarque :</strong> L'activation d'UPnP sur le routeur Wi-Fi peut exposer les périphériques de votre réseau à des interférences externes. Veuillez prendre <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">conscience des risques</a> et envisager l'utilisation de méthodes alternatives comme expliqué ci-dessous.</p>
 </blockquote>
 <p>Un état comme celui ci-dessous indique que l'UPnP n'est pas disponible ou ne fonctionne pas sur votre routeur WiFi :</p>
 <blockquote>
@@ -223,7 +223,7 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Remarque :</strong> Même si l'UPnP fonctionne, votre routeur peut ne pas être joignable de l'extérieur. Cela peut être le cas lorsque les <em>Paramètres de CENO</em> signalent des <em>Point limite UDP externes</em> similaires aux adresses [CGNAT][CGNAT] <code>100.X.Y.Z:N</code> avec X compris entre 64 et 127 (de plus en plus fréquent chez les FAI domestiques), ou aux adresses privées <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> avec X compris entre 16 et 31, et <code>192.168.X.Y:N</code>. Si c'est le cas, veuillez contacter votre FAI ou votre administrateur réseau pour obtenir une adresse publique sur votre routeur ou pour créer des redirections de port vers le point limite externe.</p>
+<p><strong>Remarque :</strong> Même si l'UPnP fonctionne, votre routeur peut ne pas être joignable de l'extérieur. Cela peut être le cas lorsque les <em>Paramètres de CENO</em> signalent des <em>Point limite UDP externes</em> similaires aux adresses <a href="https://fr.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code> avec X compris entre 64 et 127 (de plus en plus fréquent chez les FAI domestiques), ou aux adresses privées <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> avec X compris entre 16 et 31, et <code>192.168.X.Y:N</code>. Si c'est le cas, veuillez contacter votre FAI ou votre administrateur réseau pour obtenir une adresse publique sur votre routeur ou pour créer des redirections de port vers le point limite externe.</p>
 </blockquote>
 <p>Il existe de nombreux routeurs Wi-Fi sur le marché et chacun possède ses propres caractéristiques. Voici une liste des consignes de certains fabricants pour activer l'UPnP :</p>
 <ul>
@@ -246,14 +246,6 @@
 <blockquote>
 <p><strong>Note technique :</strong> Vous pouvez également vous assurer que le routeur attribue toujours la même adresse IP à votre appareil (par exemple via un abonnement DHCP statique pour l'adresse MAC de l'appareil).</p>
 </blockquote>
-<p>[Mode Doze] : https://developer.android.com/training/monitoring-device-state/doze-standby
-[Don't kill my app!] : https://dontkillmyapp.com/
-[docker] : https://fr.wikipedia.org/wiki/Docker_(logiciel)
-[docker-install] : https://docs.docker.com/engine/install/
-[ceno-client-doc] : https://github.com/censorship-no/ceno-docker-client#running-the-client
-[UPnP] : https://fr.wikipedia.org/wiki/Universal_Plug_and_Play
-[upnp-risks] : https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
-[CGNAT] : https://fr.wikipedia.org/wiki/Carrier-grade_NAT</p>
 
                     </main>
 

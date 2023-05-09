@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="tr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Nasıl çalışıyor? - Censorship.no! Kullanıcı Rehberi</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Giriş</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> CENO Browser nedir?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet nedir?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Hızlı başlama rehberi</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Sıkça sorulan sorular</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Temel kavramlar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html" class="active"><strong aria-hidden="true">2.1.</strong> Nasıl çalışıyor?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Herkese açık ve gizli gezinme farkları</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> CENO/Ouinet kullanmanın faydaları</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> CENO/Ouinet kullanmanın riskleri</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> CENO Browser kullanmak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> CENO kurmak</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Herkese açık ya da gizli gezinmeyi kullanmak</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO ayarları</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tarayıcıyı denemek</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Başkalarına yardım etmek</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Sorun gidermek</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Ek: Ouinet istemcisi ön yüzü</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Censorship.no! Kullanıcı Rehberi</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="nasıl-çalışır"><a class="header" href="#nasıl-çalışır">Nasıl çalışır?</a></h1>
+<p>Bu bölümde çeşitli senaryolar üzerinden CENO ve Ouinet nasıl çalışıyor öğrenebilirsiniz. Ouinet ile ilgili terimler ve kavramlar (** kalın harflerle ** belirtilmiştir) etkili olması ve karışıklığa yol açmaması için daha sonra anlatılacak ve kullanılacaktır.</p>
+<h2 id="İçeriğe-doğrudan-erişmek"><a class="header" href="#İçeriğe-doğrudan-erişmek">İçeriğe doğrudan erişmek</a></h2>
+<p>CENO Browser, Ouinet teknolojisini kullanarak internet içeriğini alan ve paylaşan bir örnek uygulamadır. Böyle uygulamalara Ouinet <strong>istemcisi</strong> denir. İstemcinizden bir sunucuda barındırılan (bu sunucuya <em>X</em> için <strong>kaynak</strong> sunucusu denir) <em>X</em> içeriğine erişmesini istediğinizde (örneğin CENO) istemciniz internet üzerinden ya da başkaları adına (<strong>vekil</strong> sunucu) sunuculara ulaşmak için yapılandırılmış diğer makinelerle iletişim kurar ve sunulan içeriği ister. Bu durumun normal internet tarayıcılarından hiçbir farkı yoktur.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Aslında bir fark var. İstemci HTTPS içerik isteklerini işlemek ve şifrelerini çözebilmek için aygıtınızda çalışan bir HTTP vekil sunucu olarak görünür. Bu durumda da istemciyi kullanan uygulamanın (internet tarayıcısı, CENO için Firefox gibi) istemci tarafından yazılmış özel bir sertifikayı kabul etmesi gerekir. CENO Browser sizi uğraştırmamak için kendi kullanacağı sertifika ayarını kendiliğinden yapar.</p>
+</blockquote>
+<p>Fakat bu yöntemler her zaman kullanılamayabilir. Örneğin internet hizmeti sağlayıcınız (ISS) mahkeme kararıyla <em>X</em> içeriğinin kaynak sunucusuna ya da vekil sunucuya erişilmesini engelliyor olabilir. Aşağıda görülebileceği gibi sol üstteki istemcinin kullanıcısı olarak her iki <em>X</em> (kaynak sunucunun yanındaki küçük belge simgesi) içeriğine erişme girişiminiz de başarısız olur. Şekildeki &quot;içerik ekleyici (injector)&quot; düğümü ise ilerleyen bölümde açıklanacaktır.</p>
+<p><img src="images/user-flow-0.svg" alt="Görsel: İstemci içeriğe doğrudan erişemiyor" /></p>
+<p>Normal bir tarayıcıda şansınız olmayacaktı, fakat Ouinet ile diğer istemcilerde varsa, <em>X</em> içeriğinin kopyalarını isteyebilirsiniz. Ouinet bu işlemi nasıl yapar görelim.</p>
+<h2 id="paylaşılan-içeriğin-aranması"><a class="header" href="#paylaşılan-içeriğin-aranması">Paylaşılan içeriğin aranması</a></h2>
+<p>Ouinet istemcilerinin depoladığı tüm içeriklere, tek bir yerde bulunmadığından <strong>dağıtılmış ön bellek</strong> denir. İstemciniz, istenilen içeriğin ön belleği oluşturan diğer istemcilerde bulunduğunu nasıl öğrenebilir?</p>
+<p>İnternet tarayıcılarında <em>X</em> içeriğine erişmek için <a href="https://tr.wikipedia.org/wiki/URL">Tekdüzen Kaynak Bulucu</a> (URL) adresinin bilinmesi gerekir. Bu adres tarayıcınızın adres çubuğunda bulunur. Örneğin<code>https://orneksite.com/deneme/a</code>. Tarayıcılar bu adresten <code>orneksite.com</code> sunucusuna SSL/TLS (programların birbiriyle iletişimi için kullanılan TCP iletişim kuralının üzerine eklenmiş bir güvenlik katmanı) üzerinden HTTP iletişim kuralı ile ulaşmaları ve <code>/deneme/a</code> kaynağını istemeleri gerektiğini çıkarır.</p>
+<p>Ouinet ise içeriği farklı şekilde arar. Kitaptan farksız olan bir dizin kullanır. Ouinet <strong>dağıtılmış ön bellek dizini</strong> üzerinde içeriğin tam adresini arayarak kopyasının bulunduğu istemcilerin listesini edinir. Bu dizinin kendisi de dağıtılmıştır ve istemciler hangi içeriğin başkları tarafından kullanıma sunulduğunu duyururlar. Aslında her adres ile ilgili olarak yalnızca bir <em>ipucu</em> duyurulur. Böylece aygıtınızın trafiğini izleyen birisi hangi içeriğe eriştiğini bilemez. Fakat belirli bir içeriği arayan kişi bu ipuçlarını kullanarak istemcinizi bulabilir.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Dizinin oluşturulması için <a href="https://tr.wikipedia.org/wiki/BitTorrent">BitTorrent</a> [Dağıtılmış Karma Tablosu][Distributed Hash Table] (DHT) kullanılarak içeriğin bulunduğu istemcilerin adresleri (IP ve bağlantı noktası) alınır. DHT dizinlerin birlikte var olması için <a href="https://tr.wikipedia.org/wiki/Kriptografik_%C3%B6zet_fonksiyonu">şifrelenmiş karma işleviyle</a> içeriğin adresi ve içerik ekleyici anahtarı (aşağıya bakın) gibi diğer ölçütleri kullanarak tablo anahtarını hesaplar.</p>
+<p>Ayrıca CENO Browser günümüz internet sayfalarında yüzlerce parça (görseller, biçim kalıpları, betikler…) bulunduğundan, barındırdığı tüm kaynakların adresini ayrı ayrı duyurarak aşırı trafik oluşturmaz. Bunun yerine, kaynaklar isteyen adres altında toplanır ve yalnızca adres duyurulur. Bu durum <em>ad hoc</em> tarayıcı eklentisi (ileride açıklanıyor) ile yapılır.</p>
+</blockquote>
+<p>Dağıtılmış ön bellek üzerinden belirli bir içerik sunan istemcilerin <strong>gönderiyor</strong> ya da <em>gönderici</em> olduğu söylenir (bu terimler uçtan uca dosya paylaşım dünyasından gelir). Örnek senaryomuza geri dönersek, bazı içerikleri gönderen iki istemci var. Ne yazık ki, biri <em>Y</em> içeriğini, diğeri ise <em>Z</em> içeriğini gönderiyor. Bu yüzden istemciniz aşağıda gösterildiği gibi dağıtılmış ön bellek dizininde <em>X</em> içeriği için herhangi bir kayıt bulamaz:</p>
+<p><img src="images/user-flow-1.svg" alt="Görsel: İçerik dağıtılmış ön bellekte bulunamıyor" /></p>
+<p>Neyse ki Ouinet, bu tür içeriği almak ve dağıtılmış ön bellekteki diğer istemcilerin kullanımına sunmak için bir yol sunuyor. Nasıl yapılacağını öğrenmek için okumayı sürdürün.</p>
+<h2 id="yeni-içeriğin-paylaşılması"><a class="header" href="#yeni-içeriğin-paylaşılması">Yeni içeriğin paylaşılması</a></h2>
+<h3 id="hormonlu-vekil-sunucular"><a class="header" href="#hormonlu-vekil-sunucular">Hormonlu vekil sunucular</a></h3>
+<p>Ouinet üzerinde, <strong>içerik ekleyici</strong> adında internetin (büyük olasılıkla) özgür tarafında duran ve yasaklamalar sırasında bile erişilebilir olmaya çalışan özel vekil sunucuları vardır:</p>
+<ul>
+<li>
+<p>Öncelikle saldırganların internet trafiğini izleyerek içerik ekleyicileri belirlemesinden kaçınmak için istemciler ve içerik ekleyiciler arasındaki bağlantılar (HTTPS üzerindeki gibi SSL/TLS kullanılarak) şifrelenir.İçerik ekleyici sertifikaları, taklit etmeye çalışanların yakalanması için CENO Browser ile birlikte gelir.</p>
+</li>
+<li>
+<p>Şifreleme yeterli değilse, içerik ekleyicilerine yapılan bağlantılar tanımlanmalarını daha da zorlaştırmak için özel gizleme (I2P ya da Tor Değiştirilebilir Taşıyıcıları gibi) yöntemleri kullanır.</p>
+</li>
+<li>
+<p>Bir içerik ekleyici tanımlanmış ve erişimi internet hizmeti sağlayıcınız tarafından engellenmiş olsa bile, birden fazla farklı içerik ekleyici vardır ve istemcinizin hangisiyle iletişim kurduğu önemli değildir.</p>
+<ul>
+<li>
+<p>İçerik ekleyicilerinin bazıları veya tümü engellenmiş olabilir ancak bu içerik ekleyiciler listesi zamanla değişebilir (yenileri eklenir).İstemciniz, içerik ekleyicilerin adreslerini önceden bilmek zorunda değildir. Bunun yerine, var olan içerik ekleyicilerin adreslerinin bulunduğu dağıtılmış bir dizin olan <strong>içerik ekleyici havuzuna</strong> (P2P dosya paylaşımından bir başka terim) bir sorgulama yapar.</p>
+</li>
+<li>
+<p>Son olarak, istemciniz hiçbir içerik ekleyiciye erişemese bile, başka istemciler erişebilir. Bir istemci, bir içerik ekleyiciye erişebildiğinde ve kendisine diğer istemciler tarafından erişilebildiği belirlendiğinde bir <strong>köprü</strong> istemcisi olur ve kendi internet adresini başka bir dağıtılmış dizin olan <strong>köprü havuzuna</strong> ekler.İstemciniz böyle bir adresi arayarak, arkasındaki köprüye bağlanabilir ve kendi adına bir içerik ekleyiciye başka bir bağlantı kurmasını söyleyebilir. Böylece istemcinizle içerik ekleyici arasında bir <strong>geçit</strong> oluşturur. Ardından bu geçit kullanılarak aralarında bir bağlantı kurulabilir.</p>
+</li>
+</ul>
+<p>İstemciyle içerik ekleyici arasındaki bağlantılar şifrelendiğinden, köprülerin aradaki bilgi akışını göremeyeceğini unutmayın.</p>
+</li>
+</ul>
+<p>İçerik ekleyiciler normal (fazladan kullanılabilir olsa da) bir vekil sunucu gibi davranabilir ve bu davranış, içeriğe erişmeye çalışırken Ouinet istemcilerinin (CENO Browser gibi) yaptığı bir şeydir. Bu durumda, içerik ekleyici, istemcinizle kaynak sunucu arasında gerçekleşen bilgi akışını göremez (bağlantı düz, şifrelenmemiş bir HTTP bağlantısı değilse).</p>
+<p>Daha sıkı ağ engelleme koşullarında vekil sunuculara erişmeyi sağlayan başka araçlar zaten var. Ouinet içerik ekleyicilerini bu kadar özel kılan şey nedir?</p>
+<h3 id="paylaşılan-içeriğe-güvenilmesi"><a class="header" href="#paylaşılan-içeriğe-güvenilmesi">Paylaşılan içeriğe güvenilmesi</a></h3>
+<p>Önemli olan nokta şudur. Bir içerik ekleyici yalnızca istemciniz adına içerik almakla kalmaz. İçerik ekleyiciye veya internetin çoğuna artık erişilemese bile o içeriği daha sonra başkalarıyla paylaşmanızı sağlar.</p>
+<p>Elbette tarayıcınızdan bir sayfayı indirebilir ve ilgili dosyaları başkalarına kopyalayabilirsiniz. Bu kullanım, birbirinizi tanıdığınız sürece sorun çıkarmayabilir. Ancak, böyle dosyaları bilinmeyen bir kişiden aldıysanız ne yapacaksınız? İçeriğin gerçekten iddia edildiği siteden geldiğinden, belirli bir tarihte alındığından veya içindeki bilginin değiştirilmediğinden nasıl emin olabilirsiniz?</p>
+<p>CENO ve Ouinet kullanımının olabildiğince çok insana olabildiğince fazla içerik sağlamasını istiyoruz. Bu nedenle tanımadığınız insanlardan içerik almanızı sağlamak istiyoruz. Ouinet bu tür içerikleri <strong>içerik imzalama</strong> kullanarak almanızı sağlar. İstemciniz, içerik ekleyicilerin kişisel anahtarını kullanarak imzaladıkları içeriğe güvenecek şekilde yapılandırılır. Bir istemci, bir içerik ekleyiciye bir internet içeriğini paylaşmak için almasını söylediğinde, içerik ekleyici içeriği kaynak sunucudan alır, anahtarını kullanarak imzalar ve imzalanmış içeriği istemciye gönderir.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> İçerik ekleyiciler büyük bir dosya alınırken gelen veri parçalarını ayrı ayrı imzalar. Böylece büyük bir veri indirilirken bağlantı kesilse bile onu alan istemci tarafından hala paylaşılabilir.</p>
+</blockquote>
+<p>Hangi içerik ekleyiciye güvenebileceğinizi seçebilmeniz için her içerik ekleyicisinin farklı anahtarı bulunur. Şöyle düşünün: Ülkenizdeki herhangi bir <em>noter</em> tarafından imzalanmış bir belgeye, size kim verirse versin (yurttaş veya yabancı) güvenebilirsiniz. Ama başka bir ülkenin noteri tarafından imzalanmış bir belgeyi kabul etmek zorunda değilsiniz. CENO Browser eQualitie tarafından yönetilen içerik ekleyicilere kendiliğinden güvenecek şekilde yapılandırılmıştır.</p>
+<blockquote>
+<p>Teknik not: İçerik ekleyiciler, Ed25519 imzaları oluşturmak için bir herkese açık ve kişisel anahtar çifti kullanır. Herkese açık anahtarlar, imzalarla birlikte gönderilebilecek kadar küçüktür ve 64 tane onaltılık karakter ya da 52 tane Base32 karakter biçiminde kodlanabilir. Bunlar telefonda konuşarak bile iletilebilir veya bir kağıda yazılabilir.</p>
+</blockquote>
+<h3 id="İçeriklerin-eklenmesi"><a class="header" href="#İçeriklerin-eklenmesi">İçeriklerin eklenmesi</a></h3>
+<p>Örnek senaryomuzda istemcinizin, X içeriğini doğrudan kaynak sunucudan ve diğer istemcilerden alamadığını hatırlayın. İstemci, diğer istemcilerle paylaşabileceği imzalanmış bir kopya almak için güvenilir bir içerik ekleyiciye başvurarak son Ouinet kartını oynar.</p>
+<p>Aşağıdaki şekilde, bu işlemin olası bir sonucunu görebilirsiniz: İstemci önce içerik ekleyiciye doğrudan ulaşmaya çalışır (örneğin, içerik ekleyici havuzundan aldığı bir internet adresini kullanır). Ancak ne yazık ki internet hizmeti sağlayıcısı tarafından engellenmiştir. Neyse ki, köprü havuzu, içerik ekleyiciye erişebilen iki farklı istemcinin internet adreslerini gösterir. İstemciniz, bu istemcilerden biri üzerinden içerik ekleyiciye bir geçit açar. Böylece içerik ekleyici, istemciden X içeriği isteğini alır ve kaynak sunucudan bunu isteyebilir.</p>
+<p><img src="images/user-flow-2.svg" alt="Görsel: İstemcinin içerik ekleyiciye erişmesi" /></p>
+<p>İçerik ekleyici, <em>X</em> içeriğini aldığında, bunu anahtarını kullanarak imzalar, imzayı içeriğe ekler ve geçit üzerinden gönderir (örneğin, engelleme arkasındaki istemci ile). İçerik istemcinize ulaştığında, üç şey yapılır:</p>
+<ol>
+<li>Size gönderilir (CENO bu içeriği tarayıcıda görüntüler).</li>
+<li>İçerik diğer istemcilere gönderilmek üzere aygıtınıza kaydedilir. Ayarlanabilir bir süre boyunca ya da kaydedilmiş içerikler silinene kadar tutulur.</li>
+<li>Diğer istemcilerin bulabilmesi için içeriğin kopyasının bulunduğu dağıtılmış ön bellek dizinine duyurulur.</li>
+</ol>
+<p>Aşağıda içeriklerin alınması, imzalanması, kaydedilmesi ve duyurulması işlemlerinin tümünü kapsayan <strong>içerik ekleme</strong> işlemini görebilirsiniz.</p>
+<p><img src="images/user-flow-3.svg" alt="Görsel: İstemci içerik ekleyiciden imzalanmış içerik alıyor" /></p>
+<h2 id="tam-engelleme-uygulandığında-gezinme"><a class="header" href="#tam-engelleme-uygulandığında-gezinme">Tam engelleme uygulandığında gezinme</a></h2>
+<p>Yukarıda açıklanan yöntemler için engelleme dışında kalan ve internetin geri kalanına erişilebilen <em>bazı yolların olması</em> gerektiğini unutmayın. Bazı durumlarda bu yollar da olmayabilir: Uluslararası bağlantı kesintileri, doğal afetler veya az olan yolların aşırı kullanılması (herkesin aynı içeriğe erişmeye çalışması) gibi durumları düşünebilirsiniz. Dağıtılmış ön belleğin gerçek gücü bu gibi durumlarda ortaya çıkar.</p>
+<p>Varsayalım ki içerik ekleyiciden <em>X</em> içeriğini aldıktan sonra bir afet bölgenizi dünyadan kopardı. <em>X</em> içeriği böyle bir durumda toplumunuza nasıl yardımcı olabileceğinizi anlattığı için daha önemli hale gelir.</p>
+<p>Bu anda, CENO Browser kullanan ikinci bir kişi de bu içeriğe erişmeye çalışır. Kaynak sunucuya veya bölgenizin ötesindeki herhangi bir şeye erişilemez. Bu nedenle CENO, dağıtılmış ön bellek dizininde bu içeriği arar ve aygıtınızın bu içeriği paylaştığını görür. CENO aşağıdaki gibi dizinden adresinizi alır, size bağlanır ve içeriği ister.</p>
+<p><img src="images/user-flow-4.svg" alt="Görsel: İstemci başka bir istemciden imzalanmış içerik alıyor" /></p>
+<p>Artık ikinci aygıt da üzerinde <em>X</em> içeriğinin bir kopyasını bulundurduğundan, bunu dağıtılmış ön bellek dizininde duyurarak bir gönderici olur. İlgilenen üçüncü bir kişi CENO Browser kullanarak bu içeriğe erişmek istediğinde, CENO artık içerik için dizinde iki adres görür: Sizin aygıtınız ve ikinci kullanıcının adresi. İçerik büyük ise (örneğin bir video), bu üçüncü aygıt içeriği her iki aygıttan da parça parça almaya çalışabilir (aşağıda gösterildiği gibi). Böylece indirme hızını artırır ve kullanılan trafiği azaltır.</p>
+<p><img src="images/user-flow-5.svg" alt="Görsel: İstemci imzalanan içeriği birden fazla istemciden alıyor" /></p>
+<p>Son olarak durum daha da kötüleşebilir ve tüm ticari ve ülke ağ altyapısı kapanabilir. Bu durumda, ağın başka kullanıcılara erişimi olmasa bile Ouinet ve CENO Browser aynı yerel ağda bulunan (örneğin, aynı kablosuz ağa bağlanmış) iki aygıt arasında <em>aygıttan aygıta</em> paylaşım sağlar.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../concepts/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../concepts/public-private.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../concepts/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../concepts/public-private.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

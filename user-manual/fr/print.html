@@ -147,28 +147,20 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="censorshipno-manuel-utilisateur"><a class="header" href="#censorshipno-manuel-utilisateur">Censorship.no! Manuel utilisateur</a></h1>
-<p>Ce manuel s'adresse aux utilisateurs du [Navigateur CENO][Navigateur CENO] et de ses technologies connexes créées pour le projet [Censorship.no!] [Censorship.no!] par [eQualitie][eQualitie].</p>
-<p>Si vous êtes à la recherche de documentation technique, veuillez vous référer au [référentiel de documentation CENO][référentiel de documentation CENO], où vous trouverez davantage de précisions sur la mise en œuvre, ainsi que sur les [caractéristiques du protocole][caractéristiques du protocole].</p>
-<p>[Navigateur CENO] : https://github.com/censorship-no/ceno-browser
-[Censorship.no!] : https://censorship.no/
-[eQualitie] : https://equalit.ie/fr/
-[Référentiel de documentation CENO] : https://github.com/censorship-no/ceno-docs/
-[caractéristiques du protocole] : https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md</p>
+<p>Ce manuel s'adresse aux utilisateurs du <a href="https://github.com/censorship-no/ceno-browser">Navigateur CENO</a> et de ses technologies connexes créées pour le projet <a href="https://censorship.no/">Censorship.no!</a> <a href="https://censorship.no/">Censorship.no!</a> par <a href="https://equalit.ie/fr/">eQualitie</a>.</p>
+<p>Si vous êtes à la recherche de documentation technique, veuillez vous référer au <a href="https://github.com/censorship-no/ceno-docs/">référentiel de documentation CENO</a>, où vous trouverez davantage de précisions sur la mise en œuvre, ainsi que sur les <a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">caractéristiques du protocole</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>Internet et le World Wide Web ont pris une ampleur considérable dans le monde en tant que source d'informations en tout genre, et comme moyen d'exercer ses droits fondamentaux. En parallèle, on a constaté ces dernières années une nette augmentation de toutes sortes de censure et autres types d'interférences sur les réseaux (voir les rapports de l'[OONI](https://ooni.org/reports/ « Open Observatory of Network Interference - Research reports »), [Magma](https://magma.lavafeld.org/publications/ « Magma publications »), [Censored Planet](https://censoredplanet.org/reports « Censored Planet - Reports »)), aussi bien de la part d'acteurs privés que de l'État.</p>
 <p>Le web repose sur la capacité de vos appareils à accéder à des ordinateurs singuliers, appelés <em>serveurs web</em> (gérés par des créateurs de contenu, des éditeurs ou des fournisseurs d'accès à Internet), qui détiennent le contenu que vous souhaitez récupérer, et ce de manière synchronisée - plus proche du chat en direct sur téléphone que de l'échange de courrier postal. Malheureusement, il faut pour cela que le serveur web dont vous avez besoin soit connecté à un réseau et dispose de suffisamment de ressources pour communiquer avec votre appareil.</p>
 <p>L'avènement des <em>réseaux de diffusion de contenus</em> (ou CDN, comme Akamai, Cloudflare ou Deflect) a permis de décharger en partie ces serveurs web en distribuant des copies de contenus aux centres de données du monde entier. De cette manière, ils sont au plus proche de vos appareils et peuvent donc les atteindre plus rapidement, tout en protégeant les serveurs d'origine d'un accès direct. Toutefois, les serveurs CDN actuels (et donc les organisations qui les gèrent) doivent être approuvés à la fois par le serveur d'origine et par vos appareils. Ils doivent également être joignables à tout moment.</p>
 <p>Malheureusement, il existe nombre de situations dans lesquelles l'accessibilité à Internet est rare (pays en développement et régions mal desservies, appauvries ou rurales), coûteuse (certains pays sur-facturant le trafic international) ou bloquée par un acteur étatique (explicitement ou suite à une coupure générale). Dans ces cas, il est difficile, voire impossible, d'accéder aux serveurs web d'origine ou aux serveurs CDN. Ainsi, votre appareil ne pourra pas afficher de contenu - même si j'ai pu y avoir accès il y a quelques heures et que nous vivons à quelques rues de distance.</p>
 <p>C'est là que le navigateur CENO et Ouinet entrent en jeu. Ce chapitre va vous les présenter.</p>
-<p>[ooni-reports] : https://ooni.org/reports/
-[magma-reports] : https://magma.lavafeld.org/publications/
-[cplan-reports] : https://censoredplanet.org/reports</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="quest-ce-que-le-navigateur-ceno-"><a class="header" href="#quest-ce-que-le-navigateur-ceno-">Qu’est-ce que le navigateur CENO ?</a></h1>
-<p>CENO (contraction de [Censorship.no!][Censorship.no!]) est un navigateur web pour appareils mobiles Android (comme les smartphones et tablettes) qui utilise une nouvelle approche pour contourner la censure sur Internet et partager le contenu récupéré entre tous les utilisateurs grâce au [pair-à-pair][P2P] (P2P). Cette méthode réduit la dépendance globale à l'égard des échanges sur les réseaux internationaux et permet aux contenus web fréquemment demandés de rester sur le réseau, même en cas de fort filtrage et d'épisodes de ralentissement.</p>
-<p>Ce qui distingue CENO de la plupart des autres initiatives de contournement, réside dans le fait que les utilisateurs sont en mesure de continuer à partager du contenu web même lorsqu'il n'existe aucune connectivité au-delà des frontières nationales (ou que celle-ci est très limitée). CENO a donc été conçu en prévision d'un filtrage agressif sur Internet et de la mise en place d'[intranets nationaux][national intranets] pour isoler des nations du web.</p>
-<p>Le navigateur CENO est construit sur une version adaptée de [Firefox pour Android][Firefox pour Android], un navigateur gratuit/libre/open source populaire, moderne, riche en fonctionnalités et sécurisé. CENO étend les capacités Firefox grâce à <strong>Ouinet</strong>, la technologie sous-jacente lui permettant de partager du contenu entre appareils (décrite dans les sections suivantes).</p>
+<p>CENO (contraction de <a href="https://censorship.no/">Censorship.no!</a>) est un navigateur web pour appareils mobiles Android (comme les smartphones et tablettes) qui utilise une nouvelle approche pour contourner la censure sur Internet et partager le contenu récupéré entre tous les utilisateurs grâce au <a href="https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair">pair-à-pair</a> (P2P). Cette méthode réduit la dépendance globale à l'égard des échanges sur les réseaux internationaux et permet aux contenus web fréquemment demandés de rester sur le réseau, même en cas de fort filtrage et d'épisodes de ralentissement.</p>
+<p>Ce qui distingue CENO de la plupart des autres initiatives de contournement, réside dans le fait que les utilisateurs sont en mesure de continuer à partager du contenu web même lorsqu'il n'existe aucune connectivité au-delà des frontières nationales (ou que celle-ci est très limitée). CENO a donc été conçu en prévision d'un filtrage agressif sur Internet et de la mise en place d'<a href="https://en.wikipedia.org/wiki/National_intranet">intranets nationaux</a> pour isoler des nations du web.</p>
+<p>Le navigateur CENO est construit sur une version adaptée de <a href="https://www.mozilla.org/fr/firefox/browsers/mobile/android/">Firefox pour Android</a>, un navigateur gratuit/libre/open source populaire, moderne, riche en fonctionnalités et sécurisé. CENO étend les capacités Firefox grâce à <strong>Ouinet</strong>, la technologie sous-jacente lui permettant de partager du contenu entre appareils (décrite dans les sections suivantes).</p>
 <h2 id="qui-développe-ceno-"><a class="header" href="#qui-développe-ceno-">Qui développe CENO ?</a></h2>
-<p>Le projet <em>Censorship.no!</em> a été conçu par [eQualitie][eQualitie] pour soutenir les articles 18, 19 et 20 de la [Déclaration universelle des droits de l'homme][Universal Declaration of Human Rights]. CENO et ses technologies connexes sont développés sous forme de logiciel gratuit/libre/open source ([source du projet](https://github.com/censorship-no/ « référentiels du code source de CENO »)), permettant à quiconque de l'utiliser, l'étudier, le partager et l'améliorer. Veuillez contacter <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> en cas de doute ou pour toute information complémentaire.</p>
+<p>Le projet <em>Censorship.no!</em> a été conçu par <a href="https://equalit.ie/fr/">eQualitie</a> pour soutenir les articles 18, 19 et 20 de la <a href="https://www.un.org/fr/about-us/universal-declaration-of-human-rights">Déclaration universelle des droits de l'homme</a>. CENO et ses technologies connexes sont développés sous forme de logiciel gratuit/libre/open source ([source du projet](https://github.com/censorship-no/ « référentiels du code source de CENO »)), permettant à quiconque de l'utiliser, l'étudier, le partager et l'améliorer. Veuillez contacter <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> en cas de doute ou pour toute information complémentaire.</p>
 <h2 id="pour-qui-est-ce-fait"><a class="header" href="#pour-qui-est-ce-fait">Pour qui est-ce fait?</a></h2>
 <p>CENO est destiné à tous, et en particulier aux personnes intéressées par le contenu web censuré sur leur réseau, et celles qui vivent dans des pays où la connectivité à Internet est instable, peu fiable ou trop coûteuse. Il stimule et permet le partage de contenu web entre utilisateurs, créant ainsi un réseau décentralisé de pairs coopérants.</p>
 <p>Il n'est pas nécessaire, pour pouvoir utiliser CENO, d'être un utilisateur avancé en informatique ou même de comprendre le fonctionnement des réseaux pair-à-pair. L'expérience utilisateur s'apparente à celle d'un navigateur web classique (les fonctionnalités spécifiques à CENO sont largement cachées sous le capot).</p>
@@ -176,33 +168,23 @@
 <blockquote>
 <p><strong>Avertissement :</strong> <em>CENO n'est pas un outil d'anonymat.</em> En réalité, l'utilisation de CENO peut permettre à d'autres de savoir si vous avez eu accès à certains contenus web ou si vous les partagez. Veuillez examiner attentivement les risques encourus par l'utilisation cet outil. Voir les sections <a href="intro/../concepts/public-priv%C3%A9.html">navigation publique/privée</a> et <a href="intro/../concepts/risques.html">risques</a> pour plus d'informations.</p>
 </blockquote>
-<p>[Censorship.no!] : https://censorship.no/
-[P2P] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair
-[national intranets] : https://en.wikipedia.org/wiki/National_intranet
-[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/android/
-[eQualitie] : https://equalit.ie/fr/
-[Universal Declaration of Human Rights] : https://www.un.org/fr/about-us/universal-declaration-of-human-rights
-[ceno-repos] : https://github.com/censorship-no/</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="quest-ce-que-ouinet-"><a class="header" href="#quest-ce-que-ouinet-">Qu'est-ce que Ouinet ?</a></h1>
-<p>[Ouinet][Ouinet] est un noyau technologique qui permet au navigateur CENO de partager du contenu web avec d'autres appareils. Ouinet se présente sous la forme d'un code informatique réutilisable (une bibliothèque), qu'une application comme CENO peut donc utiliser afin de participer au réseau de nœuds coopérants qui communiquent directement entre eux ([pair-à-pair][P2P] ou P2P) pour l'accès et le stockage de nouveau contenu web, ainsi que pour la demande et la diffusion de contenu précédemment consulté.</p>
+<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> est un noyau technologique qui permet au navigateur CENO de partager du contenu web avec d'autres appareils. Ouinet se présente sous la forme d'un code informatique réutilisable (une bibliothèque), qu'une application comme CENO peut donc utiliser afin de participer au réseau de nœuds coopérants qui communiquent directement entre eux (<a href="https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair">pair-à-pair</a> ou P2P) pour l'accès et le stockage de nouveau contenu web, ainsi que pour la demande et la diffusion de contenu précédemment consulté.</p>
 <p>Ouinet repose sur une savante combinaison de technologies existantes pour exécuter chacune de ses fonctionnalités : la localisation des autres participants s'appuie sur les techniques issues du monde du partage de fichiers (table de hachage répartie de BitTorrent), la communication entre eux utilise les protocoles classiques du web et du partage de fichiers (requêtes de proxy HTTP et µTP de BitTorrent), et les normes industrielles actuelles assurent la sécurité des communications et l'authenticité du contenu échangé (cryptage TLS et signatures Ed25519). Ouinet permet également, si nécessaire, de remplacer certaines technologies par d'autres (par exemple, certaines utilisations de µTP peuvent être remplacées par les acheminements enfichables de Tor).</p>
 <p>Sur les appareils mobiles, Ouinet peut être intégré aux applications de l'utilisateur (en tant que bibliothèque Android). Sur les ordinateurs, il peut être utilisé comme navigateur par les clients web classiques (en tant que proxy HTTP local).</p>
-<p>À l'instar du navigateur CENO, Ouinet est développé par [eQualitie][eQualitie] en tant que logiciel gratuit/libre/open-source.</p>
+<p>À l'instar du navigateur CENO, Ouinet est développé par <a href="https://equalit.ie/fr/">eQualitie</a> en tant que logiciel gratuit/libre/open-source.</p>
 <h2 id="pour-qui-est-ce-fait-1"><a class="header" href="#pour-qui-est-ce-fait-1">Pour qui est-ce fait?</a></h2>
 <p>Ouinet est surtout utile aux développeurs de logiciels, créateurs de contenu et éditeurs qui souhaitent proposer à leurs utilisateurs de partager du contenu avec d'autres utilisateurs. Cela permet de diminuer la demande globale sur le serveur d'application et d'améliorer l'accessibilité au contenu pour les utilisateurs résidant dans des pays où l'accès au serveur est bloqué.</p>
 <p>Veuillez noter que Ouinet est un projet expérimental en pleine évolution : certaines fonctionnalités peuvent, dans certains cas, ne pas marcher correctement, des bugs peuvent survenir et des pannes se produire. Nous vous invitons à nous contacter à l'adresse <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>, à le tester et à nous faire part de vos réactions - vos commentaires sont les bienvenus !</p>
 <blockquote>
 <p><strong>Attention :</strong> <em>Ouinet n'est pas un outil d'anonymat</em>. Si vous n'êtes pas sûr qu'il est adapté pour certaines tâches, n'hésitez pas à nous contacter.</p>
 </blockquote>
-<p>[Ouinet] : https://github.com/equalitie/ouinet/
-[P2P] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair
-[eQualitie] : https://equalit.ie/fr/</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="guide-de-démarrage-rapide"><a class="header" href="#guide-de-démarrage-rapide">Guide de démarrage rapide</a></h1>
 <p>Le navigateur CENO vous permet d'accéder à tous les sites Internet, même ceux censurés dans votre pays. CENO utilise le système pair-à-pair pour acheminer vos requêtes, de même que pour stocker et partager du contenu avec les autres. <a href="intro/ceno.html">En savoir plus sur CENO</a>.</p>
 <h2 id="comment-commencer"><a class="header" href="#comment-commencer">Comment commencer</a></h2>
 <p>Vous aurez besoin d'un appareil Android :</p>
 <ol>
-<li>Installez le navigateur CENO depuis <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> ou [Paskoocheh][ceno-pask]. <em>Ne nécessite aucune permission particulière</em>.</li>
+<li>Installez le navigateur CENO depuis <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> ou <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>Ne nécessite aucune permission particulière</em>.</li>
 <li>Démarrez-le.</li>
 <li>Parcourez les pages normalement pour permettre aux autres utilisateurs d'y accéder. Si vous avez des craintes au sujet de la confidentialité de certaines pages ou si elles ne se chargent pas correctement, utilisez un onglet privé (cf. <a href="intro/../concepts/public-private.html">navigation publique/privée</a>).</li>
 <li>Cliquez sur la notification CENO pour l'arrêter complètement.</li>
@@ -217,7 +199,6 @@
 <li>Consultez le <a href="intro/../browser/troubleshooting.html">guide de dépannage</a>.</li>
 <li>Contactez-nous en écrivant à <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>.</li>
 </ul>
-<p>[ceno-pask] : https://paskoocheh.com/tools/124/android.html</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="foire-aux-questions"><a class="header" href="#foire-aux-questions">Foire aux questions</a></h1>
 <h2 id="utilisation"><a class="header" href="#utilisation">Utilisation</a></h2>
 <h3 id="le-navigateur-ceno-peut-il-remplacer-mon-navigateur-actuel-chromefirefoxsafari"><a class="header" href="#le-navigateur-ceno-peut-il-remplacer-mon-navigateur-actuel-chromefirefoxsafari">Le navigateur CENO peut-il remplacer mon navigateur actuel (Chrome/Firefox/Safari)?</a></h3>
@@ -271,10 +252,10 @@
 <p>Avec un navigateur classique, vous n'auriez pas de chance. Mais avec Ouinet, vous pouvez demander à d'autres clients leurs copies du contenu <em>X</em>, s'ils en possèdent une. Voyons comment Ouinet effectue cette demande.</p>
 <h2 id="recherche-de-contenu-partagé"><a class="header" href="#recherche-de-contenu-partagé">Recherche de contenu partagé</a></h2>
 <p>L'ensemble des contenus stockés par les clients Ouinet est appelé <strong>cache distribué</strong>, autrement dit un stockage qui ne se trouve pas dans un seul et même endroit. Mais comment votre client peut-il trouver les autres clients formant le cache qui disposent du contenu désiré ?</p>
-<p>Dans tout navigateur web, pour accéder au contenu <em>X</em>, il faut connaitre son [localisateur uniforme de ressources][Uniform Resource Locator] (URL), à savoir l'adresse figurant dans la barre d'adresse du navigateur, comme par exemple <code>https://example.com/foo/x</code>. À partir de cette URL, un navigateur classique en déduirait qu'il doit contacter le serveur web appelé <code>example.com</code> en utilisant le protocole HTTP (le langage utilisé pour échanger des ressources web) sur SSL/TLS (une couche de sécurité sur TCP, les règles Internet permettant aux programmes se communiquer entre eux) et demander la ressource <code>/foo/x</code>.</p>
+<p>Dans tout navigateur web, pour accéder au contenu <em>X</em>, il faut connaitre son <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locato">localisateur uniforme de ressources</a> (URL), à savoir l'adresse figurant dans la barre d'adresse du navigateur, comme par exemple <code>https://example.com/foo/x</code>. À partir de cette URL, un navigateur classique en déduirait qu'il doit contacter le serveur web appelé <code>example.com</code> en utilisant le protocole HTTP (le langage utilisé pour échanger des ressources web) sur SSL/TLS (une couche de sécurité sur TCP, les règles Internet permettant aux programmes se communiquer entre eux) et demander la ressource <code>/foo/x</code>.</p>
 <p>Ouinet recherche le contenu de façon différente. Il utilise un index semblable à celui d'un livre : dans l'<strong>index du cache distribué</strong> de Ouinet, on recherche une URL complète de contenu et on obtient une liste des clients qui en détiennent une copie. L'index lui-même est distribué, les clients étant chargés d'annoncer aux autres le contenu dont ils disposent. En réalité, seul un <em>indice</em> de chaque URL est annoncé, de sorte que quelqu'un qui espionne le trafic de votre appareil ne peut pas savoir quel contenu vous détenez, mais quelqu'un qui cherche un contenu particulier peut suivre les indices vers votre client.</p>
 <blockquote>
-<p><strong>Note technique :</strong> L'index est notamment mis en place grâce à la [table de hachage distribuée][Distributed Hash Table] (DHT) de [BitTorrent][BitTorrent] pour obtenir les adresses (IP et port) des clients possédant le contenu. La DHT utilise une [fonction de hachage cryptographique][Cryptographic hash function] pour calculer la clé de table à partir de l'URL du contenu et d'autres paramètres comme la clé de l'injecteur (voir ci-dessous), de sorte que plusieurs index puissent coexister.</p>
+<p><strong>Note technique :</strong> L'index est notamment mis en place grâce à la [table de hachage distribuée][Distributed Hash Table] (DHT) de <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> pour obtenir les adresses (IP et port) des clients possédant le contenu. La DHT utilise une [fonction de hachage cryptographique][Cryptographic hash function] pour calculer la clé de table à partir de l'URL du contenu et d'autres paramètres comme la clé de l'injecteur (voir ci-dessous), de sorte que plusieurs index puissent coexister.</p>
 <p>De plus, le navigateur CENO ne communique pas l'URL de chaque ressource qu'il détient : étant donné que toute page moderne possède des dizaines, voire des centaines de composants (images, feuilles de style, scripts...), le trafic en serait trop encombré. C'est pourquoi les ressources sont regroupées sous l'URL de la page qui les contient, et seule cette URL est communiquée. Ceci est réalisé grâce à une extension <em>ad hoc</em> du navigateur (décrite plus loin).</p>
 </blockquote>
 <p>Les clients offrant un contenu particulier sur le cache distribué sont censés le <strong>semer</strong> ou être leurs <em>seeders</em> (ces termes proviennent du monde du partage de fichiers P2P). Pour en revenir à notre exemple de scénario, deux clients ensemencent du contenu. Malheureusement, l'un ensemence le contenu <em>Y</em> et l'autre le contenu <em>Z</em>, de sorte que votre client ne trouvera aucune entrée pour le contenu <em>X</em> dans l'index de cache distribué, comme illustré ci-dessous :</p>
@@ -336,10 +317,6 @@
 <p>Maintenant, ce deuxième périphérique contient également une copie du contenu <em>X</em>, il l'annonce donc dans l'index de cache distribué, devenant ainsi un semeur. Si une troisième personne intéressée par ce contenu utilise le navigateur CENO pour le récupérer, CENO verra désormais <em>deux</em> adresses dans l'index du contenu : celle de votre appareil et celle du deuxième utilisateur. Si le contenu est lourd (par exemple une vidéo), ce troisième appareil peut essayer d'en obtenir la moitié de chacun des autres appareils (comme indiqué ci-dessous), accélérant ainsi le téléchargement et réduisant le trafic qu'ils utilisent.</p>
 <p><img src="concepts/images/user-flow-5.svg" alt="Figure : Le client reçoit du contenu signé de plusieurs clients" /></p>
 <p>Enfin, la situation pourrait encore s'aggraver et toutes les infrastructures de réseau commerciales et étatiques pourraient être fermées. Dans ce cas, Ouinet et CENO Browser prennent également en charge le partage de contenu * appareil à appareil * entre deux clients assis sur le même réseau local (par exemple, connectés au même point d'accès Wi-Fi), même si le réseau a pas d'accès aux autres.</p>
-<p>[Uniform Resource Locator] : https://en.wikipedia.org/wiki/Uniform_Resource_Locato
-[Fonction de hachage cryptographique]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
-[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
-[Table de hachage distribuée]: https://en.wikipedia.org/wiki/Distributed_hash_table</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="navigation-publiqueprivée"><a class="header" href="#navigation-publiqueprivée">Navigation publique/privée</a></h1>
 <p>Grâce aux nombreuses techniques utilisées pour surmonter les problèmes de connectivité, CENO peut devenir très pratique pour obtenir toutes sortes de contenus web. Et, comme vous l'avez sans doute lu dans les sections précédentes, chaque fois que vous récupérez et diffusez une page web par le biais du navigateur CENO, elle devient disponible pour les autres. Il se peut toutefois que vous ne souhaitiez pas partager certains contenus (ou que d'autres sachent que vous essayiez de les récupérer ou que vous les ayez déjà récupérés). Heureusement, CENO vous apporte une solution à cela.</p>
 <p>Lorsque vous lancez l'application, le mode par défaut est <strong>navigation publique</strong>. Ce mode permet à CENO d'accéder au contenu web de la façon suivante :</p>
@@ -389,8 +366,6 @@
 <p><strong>Navigation meilleur marché :</strong> Le contenu populaire a tendance, dans certaines régions, à être copié dans les clients CENO/Ouinet de cette région, même si le serveur d'origine est à l'étranger. Si vous êtes intéressé par ce contenu, votre client l'obtiendra probablement d'un autre client de votre région. Dans les pays où le trafic international est plus cher que le trafic local (notamment en présence d'un [intranet national][intranet national]), vous pouvez alors économiser de l'argent.</p>
 </li>
 </ul>
-<p>[Slashdot effect] : https://fr.wikipedia.org/wiki/Effet_Slashdot
-[National intranet] : https://en.wikipedia.org/wiki/National_intranet</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="risques-liés-à-lutilisation-de-cenoouinet"><a class="header" href="#risques-liés-à-lutilisation-de-cenoouinet">Risques liés à l'utilisation de CENO/Ouinet</a></h1>
 <p>Comme pour tout système informatique complexe, et surtout aussi innovant, l'utilisation du navigateur CENO (et de tout client Ouinet en général) n'est pas exempte de certains risques. Dans cette section, nous allons les énumérer et les décrire pour vous aider à comprendre leurs implications en fonction des différents rôles que vous pouvez jouer en utilisant CENO :</p>
 <ul>
@@ -420,7 +395,7 @@
 <li>La présence ou l'absence de certaines informations dans la demande de contenu est caractéristique de Ouinet. Cela se produit lorsque l'injecteur demande du contenu, suite à une requête de votre client pour le récupérer et le signer, car l'injecteur supprime de la demande les informations spécifiques à votre appareil.</li>
 </ol>
 <p>Veuillez noter qu'ils sont uniquement susceptibles de constater que la demande provient de Ouinet, mais qu'ils ne peuvent la relier à vous ou à votre appareil. Toutefois, si la demande devait encore contenir, pour l'une des raisons précédemment mentionnées, des informations personnelles identifiables, elles pourraient être utilisées pour vous identifier en tant qu'utilisateur de CENO.</p>
-<p>De manière générale, si un site web (comme un site gouvernemental) attend de vous que vous soyez identifiable en tant qu'individu, à partir d'une région spécifique (ou d'un [intranet national][National intranet]), nous vous recommandons d'utiliser un navigateur web classique au lieu de CENO.</p>
+<p>De manière générale, si un site web (comme un site gouvernemental) attend de vous que vous soyez identifiable en tant qu'individu, à partir d'une région spécifique (ou d'un <a href="https://en.wikipedia.org/wiki/National_intranet">intranet national</a>), nous vous recommandons d'utiliser un navigateur web classique au lieu de CENO.</p>
 <h2 id="en-tant-que-diffuseur"><a class="header" href="#en-tant-que-diffuseur">En tant que diffuseur</a></h2>
 <h3 id="quelles-sont-les-données-diffusées-à-partir-de-mon-appareil-"><a class="header" href="#quelles-sont-les-données-diffusées-à-partir-de-mon-appareil-">Quelles sont les données diffusées à partir de mon appareil ?</a></h3>
 <p>Actuellement, le seul contenu diffusé par CENO est le contenu web non privé demandé en mode de navigation publique. Cela signifie en outre que les utilisateurs ne diffusent pas de contenu auquel ils n'ont pas déjà accédé eux-mêmes.</p>
@@ -431,19 +406,16 @@
 <p>Oui, chaque navigateur CENO capable de communiquer avec les injecteurs enregistrera son adresse IP dans l'essaim de passerelles où d'autres clients Ouinet pourront les trouver.</p>
 <h3 id="est-il-possible-que-jaide-quelquun-à-accéder-à-du-contenu-illégal-dans-mon-pays-"><a class="header" href="#est-il-possible-que-jaide-quelquun-à-accéder-à-du-contenu-illégal-dans-mon-pays-">Est-il possible que j'aide quelqu'un à accéder à du contenu illégal dans mon pays ?</a></h3>
 <p>Oui. Toutefois, les passerelles ne font que relayer les communications cryptées entre un client Ouinet et un injecteur. Autrement dit une passerelle ne fait jamais de demandes directes de contenu à un autre serveur pour quelqu'un d'autre.</p>
-<p>[National intranet] : https://en.wikipedia.org/wiki/National_intranet</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="utilisation-du-navigateur-ceno"><a class="header" href="#utilisation-du-navigateur-ceno">Utilisation du navigateur CENO</a></h1>
-<p>Ce chapitre est destiné à vous apporter des conseils sur l'utilisation du navigateur CENO au sujet de ses possibilités liées à Ouinet. Merci de toujours garder à l'esprit que CENO est basé sur [Firefox pour Android][Firefox pour Android]. Ainsi, pour toute question relative à la navigation générique, vous devriez vous référer aux pages de Mozilla [Assistance de Firefox pour Android][Assistance de Firefox pour Android].</p>
+<p>Ce chapitre est destiné à vous apporter des conseils sur l'utilisation du navigateur CENO au sujet de ses possibilités liées à Ouinet. Merci de toujours garder à l'esprit que CENO est basé sur <a href="https://www.mozilla.org/fr/firefox/browsers/mobile/android/">Firefox pour Android</a>. Ainsi, pour toute question relative à la navigation générique, vous devriez vous référer aux pages de Mozilla <a href="https://support.mozilla.org/fr/products/mobile">Assistance de Firefox pour Android</a>.</p>
 <p>Le cas échéant, des captures d'écran seront présentées pour illustrer le texte. Veuillez noter que ces visuels seront sans doute légèrement différents de ce que vous voyez sur votre appareil, compte tenu du développement en cours de CENO. Ce document est à jour pour la version 1.6.0 de CENO.</p>
 <p>Si votre application se comporte de façon légèrement différente de celle détaillée ici, n'hésitez pas à nous contacter à l'adresse <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> pour nous signaler le problème.</p>
-<p>[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/android/
-[Assistance de Firefox pour Android] : https://support.mozilla.org/fr/products/mobile</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installation-de-ceno"><a class="header" href="#installation-de-ceno">Installation de CENO</a></h1>
 <p>Le navigateur CENO peut être installé par les moyens suivants :</p>
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>CENO Browser</em> de <em>eQualitie</em>): la source recommandée pour la plupart des utilisateurs Android.</li>
+<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>CENO Browser</em> de <em>eQualitie</em>) : la source recommandée pour la plupart des utilisateurs Android.</li>
 <li><a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a>: pour les appareils Android sans Google Play.</li>
-<li>[Paskoocheh][ceno-pask] : pour les utilisateurs des pays bloquant l’accès aux canaux précédents.</li>
+<li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: pour les utilisateurs des pays bloquant l’accès aux canaux précédents.</li>
 </ul>
 <p>CENO nécessite un appareil ARM64 ou ARM32 compatible avec Neon, fonctionnant sous la version 4.1 Jelly Bean ou supérieure d'Android. Par conséquent, la plupart des appareils mobiles sortis à partir de fin 2012 devraient être compatibles. CENO ne nécessite aucune permission particulière pour fonctionner.</p>
 <blockquote>
@@ -458,7 +430,7 @@
 <blockquote>
 <p><strong>Note :</strong> Si les actions n'apparaissent pas sous la notification, faites-la glisser vers le bas pour la dérouler. Si vous ne voyez que l'action * Accueil*, votre appareil est sans doute trop vieux pour prendre en charge l'action <em>Effacer</em>.</p>
 </blockquote>
-<p>Si vous avez besoin d’arrêter rapidement CENO et d’effacer absolument toutes les données qui y sont liées (non seulement le contenu en cache mais aussi les paramètres comme les favoris, les mots de passe et tout l’historique de navigation), vous pouvez appuyer sur <em>Effacer</em>. Pour éviter de perdre accidentellement vos données, ceci supprimera rien pour l’instant, mais affichera simplement une action supplémentaire pendant un bref instant, comme illustré ci-dessous:</p>
+<p>Si vous avez besoin d’arrêter rapidement CENO et d’effacer absolument toutes les données qui y sont liées (non seulement le contenu en cache mais aussi les paramètres comme les favoris, les mots de passe et toute l’historique de navigation), vous pouvez appuyer sur <em>Effacer</em>. Pour éviter de perdre accidentellement vos données, ceci ne supprimera rien pour l’instant, mais affichera simplement une action supplémentaire pendant un bref instant, comme illustré ci-dessous:</p>
 <p><img src="browser/images/tap-purge.png" alt="Visuel : La confirmation arrête CENO et efface toutes ses données" /></p>
 <p>Si vous appuyez sur <em>Oui</em>, CENO s'arrêtera et toutes ses données seront supprimées <em>sans délai</em>, comme si CENO n'avait jamais été utilisé sur votre appareil.</p>
 <p>Si vous ne confirmez pas cette action, elle disparaitra au bout de quelques secondes.</p>
@@ -469,7 +441,6 @@
 <blockquote>
 <p><strong>Attention :</strong> Android peut éventuellement conserver des traces de l'utilisation d'une application, en dehors de ses données, dans son journal système par exemple.</p>
 </blockquote>
-<p>[ceno-pask] : https://paskoocheh.com/tools/124/android.html</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="utilisation-de-la-navigation-publique-ou-privée"><a class="header" href="#utilisation-de-la-navigation-publique-ou-privée">Utilisation de la navigation publique ou privée</a></h1>
 <p>Comme décrit <a href="browser/../concepts/public-private.html">dans une précédente section</a>, CENO a deux modes de fonctionnement différents selon que vous souhaitez partager le contenu de navigation avec d'autres personnes (navigation publique) ou non (navigation privée).</p>
 <p>Ce paramètre s'applique <em>à chaque onglet</em> ouvert dans le navigateur, sachant que vous pouvez avoir des onglets de navigation publics ou privés. Par défaut, lorsque vous démarrez CENO ou que vous ouvrez un nouvel onglet (en utilisant <em>Nouvel onglet</em> dans le menu principal de l'application), c'est la navigation publique qui est utilisée. Pour ouvrir un nouvel onglet en mode de navigation privée, il suffit de choisir <em>Nouvel onglet privé</em> dans le menu principal.</p>
@@ -582,7 +553,7 @@
 <p>Cette fonctionnalité est déjà intégrée au navigateur CENO. Votre appareil devra être connecté à un réseau Wi-Fi dont l'UPnP est activé ou dont la redirection de port explicite est configurée pour CENO. Voir les sections suivantes pour plus de détails.</p>
 <p>Toutefois, veuillez noter qu'Android n'autorisera votre appareil mobile à faire office de passerelle que lorsque vous l'utilisez activement. À défaut, les fonctions d'économie d'énergie limiteront le fonctionnement de CENO.</p>
 <blockquote>
-<p><strong>Note technique :</strong> Ceci est principalement lié au [mode Doze](https://developer.android.com/training/monitoring-device-state/doze-standby « Android Developers - Optimize for Doze and App Standby ») d'Android, qui ralentit le fonctionnement de la bibliothèque native Ouinet. Malheureusement, la désactivation de l'optimisation de la batterie pour CENO ne semble pas agir sur Ouinet. Votre appareil peut également inclure ses propres fonctions d'économie d'énergie qui peuvent interférer avec CENO ; veuillez consulter les informations de [Don't kill my app!][Don't kill my app!] concernant la marque de votre appareil.</p>
+<p><strong>Note technique :</strong> Ceci est principalement lié au <a href="https://developer.android.com/training/monitoring-device-state/doze-standby">mode Doze</a>(https://developer.android.com/training/monitoring-device-state/doze-standby « Android Developers - Optimize for Doze and App Standby ») d'Android, qui ralentit le fonctionnement de la bibliothèque native Ouinet. Malheureusement, la désactivation de l'optimisation de la batterie pour CENO ne semble pas agir sur Ouinet. Votre appareil peut également inclure ses propres fonctions d'économie d'énergie qui peuvent interférer avec CENO ; veuillez consulter les informations de <a href="https://dontkillmyapp.com/">Don't kill my app!</a> concernant la marque de votre appareil.</p>
 </blockquote>
 <p>Ainsi, si vous souhaitez que CENO agisse comme une passerelle permanente, toujours joignable, en plus d'un réseau Wi-Fi correctement configuré, il vous sera nécessaire de :</p>
 <ol>
@@ -596,7 +567,7 @@
 </ol>
 <p>Si cette configuration n'est pas envisageable dans votre cas, ne vous découragez pas pour autant ! Si vous avez un ordinateur avec une bonne connectivité, qui reste allumé la plupart du temps, veuillez continuez la lecture de cette section.</p>
 <h2 id="mettre-en-place-une-passerelle-sur-un-ordinateur"><a class="header" href="#mettre-en-place-une-passerelle-sur-un-ordinateur">Mettre en place une passerelle sur un ordinateur</a></h2>
-<p>Si votre ordinateur prend en charge les [conteneurs Docker][docker], vous pouvez faire fonctionner un client CENO préconfiguré qui fera office de passerelle. Si Docker n'est pas encore installé, veuillez suivre les instructions pour [installer le moteur Docker][docker-install] sur votre plateforme. Pour les dérivés de Debian, comme Ubuntu ou Linux Mint, vous pouvez simplement exécuter : <code>sudo apt install docker.io</code></p>
+<p>Si votre ordinateur prend en charge les <a href="https://fr.wikipedia.org/wiki/Docker_(logiciel)">conteneurs Docker</a>, vous pouvez faire fonctionner un client CENO préconfiguré qui fera office de passerelle. Si Docker n'est pas encore installé, veuillez suivre les instructions pour <a href="https://docs.docker.com/engine/install/">installer le moteur Docker</a> sur votre plateforme. Pour les dérivés de Debian, comme Ubuntu ou Linux Mint, vous pouvez simplement exécuter : <code>sudo apt install docker.io</code></p>
 <p>Pour lancer un conteneur client CENO, il vous suffit d'exécuter la commande suivante dans un terminal (elle a l'air effrayante, mais vous pouvez simplement la copier et la coller) :</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv ceno:/var/opt/ouinet --network host \
@@ -608,14 +579,14 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>La commande lancera un conteneur nommé <code>ceno-client</code> qui s'exécutera à chaque démarrage, à moins que vous lui demandiez expressément de s'arrêter. Veuillez consulter la [documentation Docker du client CENO][ceno-client-doc] pour plus d'informations sur la façon de manipuler le conteneur.</p>
+<p>La commande lancera un conteneur nommé <code>ceno-client</code> qui s'exécutera à chaque démarrage, à moins que vous lui demandiez expressément de s'arrêter. Veuillez consulter la <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">documentation Docker du client CENO</a> pour plus d'informations sur la façon de manipuler le conteneur.</p>
 <blockquote>
 <p><strong>Note :</strong> Ce client n'a pas de <em>Paramètres CENO</em> : lorsqu'il vous est demandé plus bas d'accéder à cette page, ouvrez plutôt le <a href="browser/../client/front-end.html">front-end du client</a>, qui contient des informations équivalentes.</p>
 </blockquote>
 <h2 id="activer-lupnp-sur-votre-routeur-wi-fi"><a class="header" href="#activer-lupnp-sur-votre-routeur-wi-fi">Activer l'UPnP sur votre routeur Wi-Fi</a></h2>
-<p>[UPnP][UPnP] est le moyen le plus simple de rendre votre navigateur CENO (ou le client de votre ordinateur) accessible au réseau CENO. La page <a href="browser/settings.html">Paramètres de CENO</a> vous indiquera l'état de l'UPnP sur votre réseau local.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> est le moyen le plus simple de rendre votre navigateur CENO (ou le client de votre ordinateur) accessible au réseau CENO. La page <a href="browser/settings.html">Paramètres de CENO</a> vous indiquera l'état de l'UPnP sur votre réseau local.</p>
 <blockquote>
-<p><strong>Remarque :</strong> L'activation d'UPnP sur le routeur Wi-Fi peut exposer les périphériques de votre réseau à des interférences externes. Veuillez prendre [conscience des risques][upnp-risks] et envisager l'utilisation de méthodes alternatives comme expliqué ci-dessous.</p>
+<p><strong>Remarque :</strong> L'activation d'UPnP sur le routeur Wi-Fi peut exposer les périphériques de votre réseau à des interférences externes. Veuillez prendre <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">conscience des risques</a> et envisager l'utilisation de méthodes alternatives comme expliqué ci-dessous.</p>
 </blockquote>
 <p>Un état comme celui ci-dessous indique que l'UPnP n'est pas disponible ou ne fonctionne pas sur votre routeur WiFi :</p>
 <blockquote>
@@ -651,7 +622,7 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Remarque :</strong> Même si l'UPnP fonctionne, votre routeur peut ne pas être joignable de l'extérieur. Cela peut être le cas lorsque les <em>Paramètres de CENO</em> signalent des <em>Point limite UDP externes</em> similaires aux adresses [CGNAT][CGNAT] <code>100.X.Y.Z:N</code> avec X compris entre 64 et 127 (de plus en plus fréquent chez les FAI domestiques), ou aux adresses privées <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> avec X compris entre 16 et 31, et <code>192.168.X.Y:N</code>. Si c'est le cas, veuillez contacter votre FAI ou votre administrateur réseau pour obtenir une adresse publique sur votre routeur ou pour créer des redirections de port vers le point limite externe.</p>
+<p><strong>Remarque :</strong> Même si l'UPnP fonctionne, votre routeur peut ne pas être joignable de l'extérieur. Cela peut être le cas lorsque les <em>Paramètres de CENO</em> signalent des <em>Point limite UDP externes</em> similaires aux adresses <a href="https://fr.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code> avec X compris entre 64 et 127 (de plus en plus fréquent chez les FAI domestiques), ou aux adresses privées <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> avec X compris entre 16 et 31, et <code>192.168.X.Y:N</code>. Si c'est le cas, veuillez contacter votre FAI ou votre administrateur réseau pour obtenir une adresse publique sur votre routeur ou pour créer des redirections de port vers le point limite externe.</p>
 </blockquote>
 <p>Il existe de nombreux routeurs Wi-Fi sur le marché et chacun possède ses propres caractéristiques. Voici une liste des consignes de certains fabricants pour activer l'UPnP :</p>
 <ul>
@@ -674,14 +645,6 @@
 <blockquote>
 <p><strong>Note technique :</strong> Vous pouvez également vous assurer que le routeur attribue toujours la même adresse IP à votre appareil (par exemple via un abonnement DHCP statique pour l'adresse MAC de l'appareil).</p>
 </blockquote>
-<p>[Mode Doze] : https://developer.android.com/training/monitoring-device-state/doze-standby
-[Don't kill my app!] : https://dontkillmyapp.com/
-[docker] : https://fr.wikipedia.org/wiki/Docker_(logiciel)
-[docker-install] : https://docs.docker.com/engine/install/
-[ceno-client-doc] : https://github.com/censorship-no/ceno-docker-client#running-the-client
-[UPnP] : https://fr.wikipedia.org/wiki/Universal_Plug_and_Play
-[upnp-risks] : https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
-[CGNAT] : https://fr.wikipedia.org/wiki/Carrier-grade_NAT</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dépannage"><a class="header" href="#dépannage">Dépannage</a></h1>
 <p>Cette section va vous fournir des indications sur ce qu'il faut faire lors de l'apparition de problèmes déjà connus dans CENO et Ouinet. Veuillez garder à l'esprit qu'il s'agit de projets expérimentaux et que leur fonctionnement est lié à une multitude de facteurs échappant à notre contrôle, comme la configuration particulière et l'état de l'infrastructure réseau, ainsi que le contenu récupéré par d'autres utilisateurs et les caractéristiques de leurs connexions.</p>
 <p>Si des problèmes persistent, veuillez les signaler à <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>. Nous essaierons de vous aider avec eux.</p>
@@ -759,7 +722,7 @@
 <p><img src="client/images/front-end.png" alt="Visuel : L'interface du client" /></p>
 <p>Les éléments affichés dans la page incluent :</p>
 <ul>
-<li>Un lien permettant d'activer le client en tant qu'autorité de certification (CA) dans votre navigateur, car le client doit intercepter du trafic HTTPS.Vous n'en aurez besoin que lors de l'utilisation d'un navigateur classique pour tester le client Ouinet, auquel cas vous devrez également configurer ses proxy HTTP/HTTPS sur <code>127.0.0.1:8077</code>, et activer manuellement l'[Extension CENO][CENO Extension] pour que l'injection fonctionne. Nous vous recommandons vivement d'utiliser un <em>profil de navigateur spécifique, distinct</em> pour cela.</li>
+<li>Un lien permettant d'activer le client en tant qu'autorité de certification (CA) dans votre navigateur, car le client doit intercepter du trafic HTTPS.Vous n'en aurez besoin que lors de l'utilisation d'un navigateur classique pour tester le client Ouinet, auquel cas vous devrez également configurer ses proxy HTTP/HTTPS sur <code>127.0.0.1:8077</code>, et activer manuellement l'<a href="https://github.com/censorship-no/ceno-ext-settings/">Extension CENO</a> pour que l'injection fonctionne. Nous vous recommandons vivement d'utiliser un <em>profil de navigateur spécifique, distinct</em> pour cela.</li>
 </ul>
 <p>Veuillez noter que tout cela n'est pas nécessaire s'agissant du navigateur CENO, car il est déjà configuré de cette façon.</p>
 <ul>
@@ -785,7 +748,6 @@
 <p>Le répertoire du cache externe, statique lorsqu'il est activé (CENO ne l'utilise pas actuellement).</p>
 </li>
 </ul>
-<p>[CENO Extension] : https://github.com/censorship-no/ceno-ext-settings/</p>
 
                     </main>
 

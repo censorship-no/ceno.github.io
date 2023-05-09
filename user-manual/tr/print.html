@@ -1,0 +1,794 @@
+<!DOCTYPE HTML>
+<html lang="tr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Censorship.no! Kullanıcı Rehberi</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Giriş</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/ceno.html"><strong aria-hidden="true">1.1.</strong> CENO Browser nedir?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet nedir?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Hızlı başlama rehberi</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Sıkça sorulan sorular</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Temel kavramlar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> Nasıl çalışıyor?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Herkese açık ve gizli gezinme farkları</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> CENO/Ouinet kullanmanın faydaları</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> CENO/Ouinet kullanmanın riskleri</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> CENO Browser kullanmak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> CENO kurmak</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Herkese açık ya da gizli gezinmeyi kullanmak</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO ayarları</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tarayıcıyı denemek</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Başkalarına yardım etmek</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Sorun gidermek</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Ek: Ouinet istemcisi ön yüzü</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Censorship.no! Kullanıcı Rehberi</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="censorshipno-kullanıcı-rehberi"><a class="header" href="#censorshipno-kullanıcı-rehberi">Censorship.no! Kullanıcı Rehberi</a></h1>
+<p>Bu rehber, <a href="https://equalit.ie/">eQualitie</a> tarafından <a href="https://censorship.no/">Censorship.no!</a> projesi için oluşturulan <a href="https://github.com/censorship-no/ceno-browser">CENO Browser</a> ve ilgili teknolojilerin kullanıcıları için hazırlanmıştır.</p>
+<p>Teknik belgeleri arıyorsanız, lütfen <a href="https://github.com/censorship-no/ceno-docs/">CENO belgeleri deposu</a> bölümüne bakın. Orada ayrıntılı bilgiler, uygulama ipuçları ve <a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">iletişim kuralı teknik özellikleri</a> gibi konuları bulabilirsiniz.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="giriş"><a class="header" href="#giriş">Giriş</a></h1>
+<p>İnternet, dünyadaki insanlar için her türlü bilginin kaynağı ve temel hakları kullanmanın bir yolu olarak önemini artırdı. Ayrıca, son yıllarda özel ve devlet kuruluşları tarafından her türlü ağ sansüründe ve diğer ağ etkileme türlerinde bir artış görülüyor (<a href="https://ooni.org/reports/" title="Open Observatory of Network Interference – Araştırma raporları">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Magma yayınları">Magma</a>, <a href="https://censoredplanet.org/reports" title="Censored Planet – Raporlar">Censored Planet</a>).</p>
+<p>İnternet, aygıtlarınızın <em>site sunucuları</em> adındaki özel bilgisayarlara erişebilme temeline dayanır. Bunlar içerik üreticileri ya da internet hizmeti sağlayıcıları tarafından işletilir. Erişmek istediğiniz içeriği tutar ve istedikçe ilgili içerikleri iletir. Mektup almak gibi değil telefonda sohbet etmek gibi düşünebilirsiniz. Bu yöntemde erişmek istediğiniz site sunucusu internete bağlı ve aygıtınızla iletişim kurabilecek durumda olmalıdır.</p>
+<p><em>İçerik aktarım ağlarının</em> ortaya çıkışı (CDN, Akamai ve Cloudflare gibi ticari ya da Deflect gibi sivil toplum odaklı) içeriğin kopyalarını dünya çapındaki çeşitli sunuculara kopyalayarak sunucuların yükünü hafifletir, kaynak sunucuya doğrudan erişilmesine olan gereksinimi ortadan kaldırarak onu korur ve daha hızlı erişilebilmesini sağlar. Bununla birlikte, şimdiki içerik aktarım ağı sunucularının (ve bu sunucuları işleten kuruluşların) hem kaynak sunucu hem de aygıtlarınız tarafından doğrulanmış olması gerekir. Bu nedenle bu sunucular her zaman erişilebilir olmalıdır.</p>
+<p>Ne yazık ki yine, genel bağlantının kısıtlı (gelişmekte olan ülkeler veya yetersiz hizmet verilen, yoksul ve kırsal bölgeler), pahalı (bazı ülkeler uluslararası trafik için daha fazla ücret alıyor) veya devlet tarafından (belirli bir durumda veya genel bir kapanmanın sonucu olarak) engellendiği durumlar vardır. Böyle durumlarda, aygıtınızdan birkaç saat önce eriştiğiniz içeriklere veya sunucunun yakınında yaşıyor olsanız bile kaynak sunuculara ve içerik teslim ağı (CDN) sunucularına ulaşmanız zor ya da olanaksız olabilir.</p>
+<p>CENO Browser ve Ouinet burada devreye girer. Bu bölümde ayrıntılı olarak ele alınacaktır.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ceno-browser-nedir"><a class="header" href="#ceno-browser-nedir">CENO Browser nedir?</a></h1>
+<p>CENO ([Censhorship.no!][Censhorship.no!]'nun kısaltması) Android için internet sansürünü aşmak ve diğer kullanıcılarla <a href="https://tr.wikipedia.org/wiki/Peer-to-peer">uçtan uca</a> (P2P) bağlantıyla erişilen içeriği paylaşmak için yeni bir yaklaşım sunan bir internet tarayıcısıdır. Böylece uluslararası bağlantılara duyulan gereksinim azalır, yoğun kısıtlama ve hız sınırlaması durumlarında bile sıkça erişilen internet içeriği ağ üzerinde tutulur.</p>
+<p>CENO'yu diğer sansür aşma yöntemlerinden farklı kılan şey, uluslararası internet bağlantısı olmadığında (ya da aşırı şekilde kısıtlandığında) bile kullanıcıların internet içeriğini paylaşmasını sağlayabilmesidir. CENO saldırgan internet kısıtlamaları ve [ulusal intranetlerin][national intranets] kurulması ile internet üzerinde kendine duvar ören ülkeler öngörülerek tasarlanmıştır.</p>
+<p>CENO Browser, yaygın, modern, zengin özellikleri bulunan, güvenli, özgür ve açık kaynaklı [Android için Firefox][Firefox for Android] uygulamasının değiştirilmiş bir sürümü üzerine geliştirilmiştir. CENO, Firefox tarayıcısını, içeriklerin aygıtlar arasında paylaşılmasını sağlayan (sonraki bölümlerde açıklanacak) <strong>Ouinet</strong> teknolojisi ile zenginleştirir.</p>
+<h2 id="cenoyu-kim-geliştiriyor"><a class="header" href="#cenoyu-kim-geliştiriyor">CENO'yu kim geliştiriyor?</a></h2>
+<p><em>Censorship.no!</em> projesi, <a href="https://equalit.ie/">eQualitie</a> tarafından [İnsan hakları evrensel bildirgesi][Universal Declaration of Human Rights] 18, 19 ve 20. maddelerine destek vermek amacıyla yürütülmektedir. CENO ve ilgili teknolojiler, herkesin kullanabileceği, inceleyebileceği, paylaşabileceği ve geliştirebileceği özgür/açık kaynaklı yazılım olarak(<a href="https://github.com/censorship-no/" title="CENO kaynak kodu depoları">projenin kaynağı</a>) geliştirilmektedir. Herhangi bir şüpheniz varsa ya da ayrıntılı bilgi almak için cenoers@equalit.ie](mailto:cenoers@equalit.ie) adresinden bize ulaşabilirsiniz.</p>
+<h2 id="kimler-içindir"><a class="header" href="#kimler-içindir">Kimler içindir?</a></h2>
+<p>CENO herkes içindir ama özellikle kendi ağlarında sansürlenen internet içeriğine ilgi duyan ve küresel internet ile bağlantıları kesik, dengesiz veya pahalı olan ülkelerde yaşayanlar için oldukça uygun bir seçenektir. İnternet içeriğinin kullanıcılar arasında paylaşılmasını destekler ve sağlar. Böylece birbirine yardımcı olan eşlerin katkıları ile merkezi olmayan bir ağ oluşur.</p>
+<p>CENO kullanmak için bir uzman bilgisayar kullanıcısı olmanız ya da uçtan uca ağların nasıl çalıştığını anlamanız gerekmez. Kullanımı normal bir internet tarayıcısını kullanmaya benzer (Özel CENO işlevleri genellikle arka planda gizlidir).</p>
+<p>Ancak CENO, diğer kullanıcılara ağda paylaştığı internet içeriğini bildirmek ve bu içeriğe erişmek isteyenlere iletme gereksinimi duyduğundan normal internet tarayıcınızdan daha fazla internet trafiği oluşturabilir. Bu nedenle CENO ortalama bir ülke içi internet bağlantısı kalitesine gerek duyar. Mobil veri sınırlarınızı aşmamak ve diğer kullanıcılara internet içerikleri sunabilme şansını artırmak için CENO uygulamasını kablosuz ağa bağlıyken kullanmanızı öneririz.</p>
+<blockquote>
+<p><strong>Uyarı:</strong> CENO bir anonimlik aracı değildir. CENO kullandığınızda, başkaları belirli internet içeriklerine erişip erişmediğinizi veya paylaşıp paylaşmadığınızı öğrenebilir. Bu aracı kullanarak üstlenebileceğiniz riskleri dikkatli bir şekilde değerlendirin. Ayrıntılı bilgi almak için <a href="intro/../concepts/public-private.html">gizli ve normal gezinme karşılaştırması</a> ile <a href="intro/../concepts/risks.html">riskler</a> bölümlerine bakabilirsiniz.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ouinet-nedir"><a class="header" href="#ouinet-nedir">Ouinet nedir?</a></h1>
+<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a>, internet içeriklerinin CENO Browser üzerinden diğer aygıtlara paylaşılmasını sağlayan bir teknolojidir. Ouinet, CENO gibi uygulamaların, yeni içeriğe erişim sağlamak ve önceden erişilen içeriği diğer kullanıcılara sunmak için doğrudan iletişim (<a href="https://tr.wikipedia.org/wiki/Peer-to-peer">uçtan uca</a> veya P2P) kurarak işbirliği yaptığı düğümlerden oluşan ağa katılmalarını sağlayan bir kod kitaplığıdır.</p>
+<p>Ouinet, işlevlerini gerçekleştirmek için var olan teknolojiler zekice bir araya getirilerek kullanılmıştır: Diğer katılımcıları bulmak, dosya paylaşımı dünyasından gelen tekniklerle yapılır (BitTorrent dağıtılmış karma tablosu), katılımcılarla iletişim, ortak internet ve dosya paylaşım iletişim kuralları ile gerçekleştirilir (HTTP vekil sunucu istekleri ve BitTorrent µTP) ve güncel standartlar, iletişim ve değiştirilen içeriğin güvenilirliğini doğrular (TLS şifreleme ve Ed25519 imzaları). Ouinet, gerektiğinde belirli teknolojilerin başka teknolojilerle değiştirilmesine izin verir (örneğin µTP yerine Tor Değiştirilebilir Taşıyıcıları kullanılabilir).</p>
+<p>Ouinet mobil aygıtlarda son kullanıcı uygulamaları ile bütünleştirilebilir (Android kitaplığı olarak). Bilgisayarlarda ise (yerel HTTP vekil sunucusu olarak) tarayıcılar gibi normal internet istemcileri tarafından kullanılabilir.</p>
+<p>CENO Browser gibi, Ouinet yazılımı da <a href="https://equalit.ie/">eQualitie</a> tarafından özgür ve açık kaynaklı olarak geliştirilmiştir.</p>
+<h2 id="kimler-içindir-1"><a class="header" href="#kimler-içindir-1">Kimler içindir?</a></h2>
+<p>Ouinet, uygulama geliştiriciler, içerik oluşturucular ve yayıncılar için yararlıdır. Kullanıcıların alınan içeriği diğer kullanıcılarla paylaşmasını sağlar. Uygulama sunucusuna yapılan genel istekleri azaltır ve bu sunucuya erişimin engellendiği ülkelerde yaşayan kullanıcılar için içeriğin erişilebilirliğini artırır.</p>
+<p>Unutmayın, Ouinet hala gelişmekte olan deneysel bir projedir. Bazı özellikler belirli senaryolarda yeterince dengeli çalışmayabilir. Hatalar ve çökmeler oluşabilir. Sizden denemenizi ve [cenoers@equalit.ie] adresinden bize geri bildirim göndermenizi rica ediyoruz!</p>
+<blockquote>
+<p><strong>Uyarı</strong> <em>Ouinet bir anonimlik aracı değildir</em>. Belirli bir amaç için kullanabileceğinizden emin değilseniz, bize sormaya çekinmeyin.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="hızlı-başlangıç-rehberi"><a class="header" href="#hızlı-başlangıç-rehberi">Hızlı başlangıç rehberi</a></h1>
+<p>CENO Browser, ülkenizde yasaklanmış olsalar bile internet üzerindeki tüm sitelere erişmenizi sağlar. CENO siteye yaptığınız erişim isteklerini yönlendirmek ve başkaları ile paylaşmak üzere kaydetmek için uçtan uca bir altyapı kullanır. <a href="intro/ceno.html">CENO hakkında ayrıntılı bilgi alın</a>.</p>
+<h2 id="nasıl-kullanmaya-başlayabilirsiniz"><a class="header" href="#nasıl-kullanmaya-başlayabilirsiniz">Nasıl kullanmaya başlayabilirsiniz</a></h2>
+<p>Android bir aygıta gerek duyacaksınız:</p>
+<ol>
+<li>CENO Browser uygulamasını <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> ya da <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh (Türkçe desteklenmiyor)</a> üzerinden indirin. <em>Hiçbir özel izin vermeniz gerekmez</em>.</li>
+<li>Uygulamayı açın.</li>
+<li>Başka kullanıcıların da erişmesine yardımcı olarak internette normal bir şekilde gezinin. Gizlilik endişeleriniz varsa ya da bir sayfa farklı şekilde yükleniyorsa, gizli sekme kullanın (<a href="intro/../concepts/public-private.html">herkese açık ve gizli genizme karşılaştırması</a> bölümüne bakabilirsiniz).</li>
+<li>Tamamen durdurmak için CENO bildirimine dokunun.</li>
+</ol>
+<p>Ayrıntılı kurulum yönergelerine <a href="intro/../browser/install.html">buradan</a> ulaşabilirsiniz.</p>
+<h2 id="yapılandırma"><a class="header" href="#yapılandırma">Yapılandırma</a></h2>
+<p>CENO Browser açıldığı anda kullanılabilir. Menüdeki <em>CENO</em> seçeneğinde çeşitli <a href="intro/../browser/settings.html">tanılayıcılar ve ayarlar</a> bulabilirsiniz.</p>
+<p>Uygulamanızın başkalarının da yasaklanan içeriğe erişmesine yardımcı olmasını isterseniz, lütfen <a href="intro/../browser/bridging.html">bu bölümü okuyun</a>.</p>
+<h2 id="başka-sorularınız-mı-var"><a class="header" href="#başka-sorularınız-mı-var">Başka sorularınız mı var?</a></h2>
+<ul>
+<li><a href="intro/faq.html">SSS</a> bölümüne bakabilirsiniz.</li>
+<li><a href="intro/../browser/troubleshooting.html">Sorun giderme rehberi</a> bölümüne bakabilirsiniz.</li>
+<li><a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> adresinden bize yazabilirsiniz.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="sıkça-sorulan-sorular"><a class="header" href="#sıkça-sorulan-sorular">Sıkça sorulan sorular</a></h1>
+<h2 id="kullanım"><a class="header" href="#kullanım">Kullanım</a></h2>
+<h3 id="kullandığım-tarayıcıyı-chromefirefoxsafari-ceno-browser-ile-değiştirebilir-miyim"><a class="header" href="#kullandığım-tarayıcıyı-chromefirefoxsafari-ceno-browser-ile-değiştirebilir-miyim">Kullandığım tarayıcıyı (Chrome/Firefox/Safari) CENO Browser ile değiştirebilir miyim?</a></h3>
+<p>Kısa yanıt: En azından aşırı önemli olmayan internet gezinmelerinizde evet.</p>
+<p>CENO, Mozilla tarafından geliştirilen Android için Firefox tarayıcısını temel alarak hazırlanmıştır. Bu nedenle günümüz tarayıcılarından beklenen tüm özellikleri sağlar. Fakat internet içeriğine, Ouinet teknolojisini kullanarak eriştiğinden çalışma şekli biraz farklı olabilir (bu farklardan birisi gizliliğinizle ilgilidir).</p>
+<p>Ayrıca, CENO ve Ouinet sürekli geliştirildiğinden bazı dengesizliklerle karşılaşabilirsiniz. Bazı eskiyle uyumlu olmayan değişiklikler yapılmış olabilir ve uygulamayı ya da verilerini (yer imleri ve site ayarları) güncellemeden önce silip yeniden kurmanız gerekebilir.</p>
+<p>Sansür uygulanmayan sitelerdeki önemli işleriniz için CENO yerine normal tarayıcınızı kullanmanızı öneririz. Ayrıntılı bilgi almak için <a href="intro/../concepts/risks.html">riskler</a> bölümünü okuyabilirsiniz.</p>
+<h2 id="sosyal-ağlara-ve-e-postalarıma-ceno-browser-ile-erişebilir-miyim"><a class="header" href="#sosyal-ağlara-ve-e-postalarıma-ceno-browser-ile-erişebilir-miyim">Sosyal ağlara ve e-postalarıma CENO Browser ile erişebilir miyim?</a></h2>
+<p>Kısa yanıt: Evet, gizli sekmeleri kullanarak.</p>
+<p>CENO, olabildiğince normal internet gezinmesine benzer bir kullanıcı deneyimi sunmaya çalışır. Ancak ağ kısıtlamalarından kaçınmak için kullanılan bazı teknikler böyle devingen sitelerle iyi çalışmaz. Bu durum, varsayılan CENO çalışma kipi (yani, herkese açık gezinme) ile ilgilidir. Kişisel veriler (parolalar ve çerezler gibi), diğer güvenilmeyen CENO veya Ouinet kullanıcılarına sızmaması için internet trafiğinden çıkarılır.</p>
+<p>Bunu önlemek ve CENO ile bu tür devingen sitelere erişebilmek için gizli sekmeleri kullanabilirsiniz. Gizli sekmelerde kişisel verileriniz olduğu gibi kalır ve şifrelenmiş bağlantılar kullanılarak herkesten korunur. Ancak, bunun için aygıtınızın ağ trafiğinin bu sitelere bir şekilde ulaşabilmesi gerekir.</p>
+<p>Ayrıntılı bilgi almak için <a href="intro/../concepts/public-private.html">herkese açık ve gizli gezinmenin farkları</a> bölümüne bakabilirsiniz.</p>
+<h2 id="gizlilik-ve-güvenlik"><a class="header" href="#gizlilik-ve-güvenlik">Gizlilik ve güvenlik</a></h2>
+<h3 id="aygıtımda-istemediğim-içerikler-depolanacak-mı"><a class="header" href="#aygıtımda-istemediğim-içerikler-depolanacak-mı">Aygıtımda istemediğim içerikler depolanacak mı?</a></h3>
+<p>Kısa yanıt: Hayır.</p>
+<p>CENO yalnızca <a href="intro/../concepts/public-private.html">herkese açık gezinme</a> ile erişmeye çalıştığınız içerikleri paylaşır.</p>
+<p>Unutmayın, kötü amaçlı bir site, sizden habersiz olarak aygıtınızı diğer kullanıcılarla paylaşmak üzere bazı içerikleri almaya zorlayabilir. Firefox kodu bu tür girişimleri algılayıp engellemekte oldukça iyi bir iş çıkarsa da, yine de şüpheli sitelere girmekten kaçınmanız önemlidir.</p>
+<p>CENO Browser internet içeriğini nasıl alıp paylaştığı ile ilgili ayrıntılı bilgi almak için <a href="intro/../concepts/how.html">buraya</a> bakabilirsiniz.</p>
+<h3 id="ceno-browser-kullanarak-sansürlenen-sitelere-erişmeye-çalıştığımı-başkaları-görebilir-mi"><a class="header" href="#ceno-browser-kullanarak-sansürlenen-sitelere-erişmeye-çalıştığımı-başkaları-görebilir-mi">CENO Browser kullanarak sansürlenen sitelere erişmeye çalıştığımı başkaları görebilir mi?</a></h3>
+<p>Kısa yanıt: Evet, teknik bilgi ve kaynağa sahip oldukları sürece.</p>
+<p>CENO bir anonimlik aracı değildir. Ağ trafiğinizi izleme yeteneği olan bir saldırgan, başka bir kullanıcının aygıtınızdan istediği veya aldığı içerikleri görebilir. Saldırgan ayrıca belirli bir siteyi paylaşıp paylaşmadığınızı da anlayabilir, ancak paylaştığınız tüm içeriği göremez.</p>
+<p>Ancak, ağa ilk kez alınan içerik ya da <a href="intro/../concepts/public-private.html">gizli gezinme</a> ile erişilen içerik şifrelenmiş bağlantılar üzerinden gönderilir. Ayrıntılı bilgi almak için <a href="intro/../concepts/how.html">içerik alımı nasıl çalışır</a> ve <a href="intro/../concepts/risks.html">riskler nelerdir</a> bölümlerine bakabilirsiniz.</p>
+<h2 id="kaynak-kullanımı"><a class="header" href="#kaynak-kullanımı">Kaynak kullanımı</a></h2>
+<h3 id="ceno-browser-çok-fazla-veri-tüketir-mi"><a class="header" href="#ceno-browser-çok-fazla-veri-tüketir-mi">CENO Browser çok fazla veri tüketir mi?</a></h3>
+<p>Kısa yanıt: Normal tarayıcınızdan daha fazla veri tüketir.</p>
+<p>CENO Browser, başka bir kullanıcıya içerik gönderirken ya da trafik aktarırken, içeriğin yaygınlığına, büyüklüğüne ve aygıtınızın bağlantı kalitesine bağlı olarak daha fazla veri kullanabilir. İçerik paylaşımı arttıkça veri kullanımı da artar.</p>
+<p>CENO diğer veri paylaşım uygulamalarına göre daha az kaynak kullansa da veri kullanımı ve ücretleri daha yüksek olabilir. Bu yüzden, uygulamanın veri kullanımına (Android ayarlarından) dikkat etmeniz ve yalnızca kablosuz ağ bağlantınız varken CENO kullanmanız önerilir.</p>
+<h3 id="ceno-browser-aygıtımın-pilini-daha-çabuk-bitirir-mi"><a class="header" href="#ceno-browser-aygıtımın-pilini-daha-çabuk-bitirir-mi">CENO Browser aygıtımın pilini daha çabuk bitirir mi?</a></h3>
+<p>Kısa yanıt: Normal tarayıcınızdan daha fazla veri tüketir.</p>
+<p>CENO ve Ouinet ağ ksıtılamaları ve kesintilerden kaçınmak için çeşitli yöntemler kullanır. Diğer kullanıcılar için içerik sağlama ve trafik aktarma işlemleri fazladan güç tüketir. Aygıtınız başkalarına etkin şekilde yardım etmediği zaman bile ağ üzerinde erişilebilir olmalıdır. Bu yüzden bazı pil koruma özellikleri kullanılamaz.</p>
+<p>CENO kullanmadığınız zaman bile aygıtınızın pilini tüketebilir. Denemelerimizde güç tüketiminde aşırı bir artış görünmüyor. Ama bu durum kullanımınıza bağlı olarak değişebilir. Şarja gerek duyduğunuzda CENO uygulamasını tümüyle kapatmanız önerilir (bu işlem için kolayca erişilebilir bir kısayolu <a href="intro/../browser/install.html">buradan</a> bulabilirsiniz).</p>
+<h3 id="ceno-browser-kullanmak-için-kablosuz-ağa-bağlı-olmam-şart-mı"><a class="header" href="#ceno-browser-kullanmak-için-kablosuz-ağa-bağlı-olmam-şart-mı">CENO Browser kullanmak için kablosuz ağa bağlı olmam şart mı?</a></h3>
+<p>Kısa yanıt: Hayır, ama şiddetle önerilir.</p>
+<p>CENO mobil veri ile de çalışabilir fakat iki nedenle kablosuz ağ kullanmanızı öneriyoruz:</p>
+<ol>
+<li>CENO normal tarayıcılardan daha fazla veri kullanır. Bu nedenle telefon faturanız daha yüksek gelebilir (yukarıya bakın).</li>
+<li>Aygıtınız mobil veri kullanırken, kablosuz bağlantılara göre dışarıdan daha az bağlantı kurulabilir. Bu da başkalarının içeriğe erişimesine yardım etme şansınızı azaltır.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ana-kavramlar"><a class="header" href="#ana-kavramlar">Ana kavramlar</a></h1>
+<p>CENO, ağı izleme ve kesme girişimlerini önleme hedefini gerçekleştirmek için internet, dosya paylaşım sistemleri ve gelişmiş şifreleme gibi alanlardan çeşitli teknikleri kullanır. Bu teknikler, CENO kullanma deneyimi internette normal gezinmeye olabildiğince yaklaştırmak için Ouinet tarafından akıllıca birleştirilmiştir .</p>
+<p>Yine de, en iyi CENO deneyimini elde etmek için, Ouinet'in çalışma ilkelerini, erişmeye çalıştığımız içeriğin türüne bağlı olarak nasıl kullanılabileceğini ve bunların getirdiği fayda ve riskleri anlamanın yardımı olur. Bu bölümde bu konular ele alınacaktır.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="nasıl-çalışır"><a class="header" href="#nasıl-çalışır">Nasıl çalışır?</a></h1>
+<p>Bu bölümde çeşitli senaryolar üzerinden CENO ve Ouinet nasıl çalışıyor öğrenebilirsiniz. Ouinet ile ilgili terimler ve kavramlar (** kalın harflerle ** belirtilmiştir) etkili olması ve karışıklığa yol açmaması için daha sonra anlatılacak ve kullanılacaktır.</p>
+<h2 id="İçeriğe-doğrudan-erişmek"><a class="header" href="#İçeriğe-doğrudan-erişmek">İçeriğe doğrudan erişmek</a></h2>
+<p>CENO Browser, Ouinet teknolojisini kullanarak internet içeriğini alan ve paylaşan bir örnek uygulamadır. Böyle uygulamalara Ouinet <strong>istemcisi</strong> denir. İstemcinizden bir sunucuda barındırılan (bu sunucuya <em>X</em> için <strong>kaynak</strong> sunucusu denir) <em>X</em> içeriğine erişmesini istediğinizde (örneğin CENO) istemciniz internet üzerinden ya da başkaları adına (<strong>vekil</strong> sunucu) sunuculara ulaşmak için yapılandırılmış diğer makinelerle iletişim kurar ve sunulan içeriği ister. Bu durumun normal internet tarayıcılarından hiçbir farkı yoktur.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Aslında bir fark var. İstemci HTTPS içerik isteklerini işlemek ve şifrelerini çözebilmek için aygıtınızda çalışan bir HTTP vekil sunucu olarak görünür. Bu durumda da istemciyi kullanan uygulamanın (internet tarayıcısı, CENO için Firefox gibi) istemci tarafından yazılmış özel bir sertifikayı kabul etmesi gerekir. CENO Browser sizi uğraştırmamak için kendi kullanacağı sertifika ayarını kendiliğinden yapar.</p>
+</blockquote>
+<p>Fakat bu yöntemler her zaman kullanılamayabilir. Örneğin internet hizmeti sağlayıcınız (ISS) mahkeme kararıyla <em>X</em> içeriğinin kaynak sunucusuna ya da vekil sunucuya erişilmesini engelliyor olabilir. Aşağıda görülebileceği gibi sol üstteki istemcinin kullanıcısı olarak her iki <em>X</em> (kaynak sunucunun yanındaki küçük belge simgesi) içeriğine erişme girişiminiz de başarısız olur. Şekildeki &quot;içerik ekleyici (injector)&quot; düğümü ise ilerleyen bölümde açıklanacaktır.</p>
+<p><img src="concepts/images/user-flow-0.svg" alt="Görsel: İstemci içeriğe doğrudan erişemiyor" /></p>
+<p>Normal bir tarayıcıda şansınız olmayacaktı, fakat Ouinet ile diğer istemcilerde varsa, <em>X</em> içeriğinin kopyalarını isteyebilirsiniz. Ouinet bu işlemi nasıl yapar görelim.</p>
+<h2 id="paylaşılan-içeriğin-aranması"><a class="header" href="#paylaşılan-içeriğin-aranması">Paylaşılan içeriğin aranması</a></h2>
+<p>Ouinet istemcilerinin depoladığı tüm içeriklere, tek bir yerde bulunmadığından <strong>dağıtılmış ön bellek</strong> denir. İstemciniz, istenilen içeriğin ön belleği oluşturan diğer istemcilerde bulunduğunu nasıl öğrenebilir?</p>
+<p>İnternet tarayıcılarında <em>X</em> içeriğine erişmek için <a href="https://tr.wikipedia.org/wiki/URL">Tekdüzen Kaynak Bulucu</a> (URL) adresinin bilinmesi gerekir. Bu adres tarayıcınızın adres çubuğunda bulunur. Örneğin<code>https://orneksite.com/deneme/a</code>. Tarayıcılar bu adresten <code>orneksite.com</code> sunucusuna SSL/TLS (programların birbiriyle iletişimi için kullanılan TCP iletişim kuralının üzerine eklenmiş bir güvenlik katmanı) üzerinden HTTP iletişim kuralı ile ulaşmaları ve <code>/deneme/a</code> kaynağını istemeleri gerektiğini çıkarır.</p>
+<p>Ouinet ise içeriği farklı şekilde arar. Kitaptan farksız olan bir dizin kullanır. Ouinet <strong>dağıtılmış ön bellek dizini</strong> üzerinde içeriğin tam adresini arayarak kopyasının bulunduğu istemcilerin listesini edinir. Bu dizinin kendisi de dağıtılmıştır ve istemciler hangi içeriğin başkları tarafından kullanıma sunulduğunu duyururlar. Aslında her adres ile ilgili olarak yalnızca bir <em>ipucu</em> duyurulur. Böylece aygıtınızın trafiğini izleyen birisi hangi içeriğe eriştiğini bilemez. Fakat belirli bir içeriği arayan kişi bu ipuçlarını kullanarak istemcinizi bulabilir.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Dizinin oluşturulması için <a href="https://tr.wikipedia.org/wiki/BitTorrent">BitTorrent</a> [Dağıtılmış Karma Tablosu][Distributed Hash Table] (DHT) kullanılarak içeriğin bulunduğu istemcilerin adresleri (IP ve bağlantı noktası) alınır. DHT dizinlerin birlikte var olması için <a href="https://tr.wikipedia.org/wiki/Kriptografik_%C3%B6zet_fonksiyonu">şifrelenmiş karma işleviyle</a> içeriğin adresi ve içerik ekleyici anahtarı (aşağıya bakın) gibi diğer ölçütleri kullanarak tablo anahtarını hesaplar.</p>
+<p>Ayrıca CENO Browser günümüz internet sayfalarında yüzlerce parça (görseller, biçim kalıpları, betikler…) bulunduğundan, barındırdığı tüm kaynakların adresini ayrı ayrı duyurarak aşırı trafik oluşturmaz. Bunun yerine, kaynaklar isteyen adres altında toplanır ve yalnızca adres duyurulur. Bu durum <em>ad hoc</em> tarayıcı eklentisi (ileride açıklanıyor) ile yapılır.</p>
+</blockquote>
+<p>Dağıtılmış ön bellek üzerinden belirli bir içerik sunan istemcilerin <strong>gönderiyor</strong> ya da <em>gönderici</em> olduğu söylenir (bu terimler uçtan uca dosya paylaşım dünyasından gelir). Örnek senaryomuza geri dönersek, bazı içerikleri gönderen iki istemci var. Ne yazık ki, biri <em>Y</em> içeriğini, diğeri ise <em>Z</em> içeriğini gönderiyor. Bu yüzden istemciniz aşağıda gösterildiği gibi dağıtılmış ön bellek dizininde <em>X</em> içeriği için herhangi bir kayıt bulamaz:</p>
+<p><img src="concepts/images/user-flow-1.svg" alt="Görsel: İçerik dağıtılmış ön bellekte bulunamıyor" /></p>
+<p>Neyse ki Ouinet, bu tür içeriği almak ve dağıtılmış ön bellekteki diğer istemcilerin kullanımına sunmak için bir yol sunuyor. Nasıl yapılacağını öğrenmek için okumayı sürdürün.</p>
+<h2 id="yeni-içeriğin-paylaşılması"><a class="header" href="#yeni-içeriğin-paylaşılması">Yeni içeriğin paylaşılması</a></h2>
+<h3 id="hormonlu-vekil-sunucular"><a class="header" href="#hormonlu-vekil-sunucular">Hormonlu vekil sunucular</a></h3>
+<p>Ouinet üzerinde, <strong>içerik ekleyici</strong> adında internetin (büyük olasılıkla) özgür tarafında duran ve yasaklamalar sırasında bile erişilebilir olmaya çalışan özel vekil sunucuları vardır:</p>
+<ul>
+<li>
+<p>Öncelikle saldırganların internet trafiğini izleyerek içerik ekleyicileri belirlemesinden kaçınmak için istemciler ve içerik ekleyiciler arasındaki bağlantılar (HTTPS üzerindeki gibi SSL/TLS kullanılarak) şifrelenir.İçerik ekleyici sertifikaları, taklit etmeye çalışanların yakalanması için CENO Browser ile birlikte gelir.</p>
+</li>
+<li>
+<p>Şifreleme yeterli değilse, içerik ekleyicilerine yapılan bağlantılar tanımlanmalarını daha da zorlaştırmak için özel gizleme (I2P ya da Tor Değiştirilebilir Taşıyıcıları gibi) yöntemleri kullanır.</p>
+</li>
+<li>
+<p>Bir içerik ekleyici tanımlanmış ve erişimi internet hizmeti sağlayıcınız tarafından engellenmiş olsa bile, birden fazla farklı içerik ekleyici vardır ve istemcinizin hangisiyle iletişim kurduğu önemli değildir.</p>
+<ul>
+<li>
+<p>İçerik ekleyicilerinin bazıları veya tümü engellenmiş olabilir ancak bu içerik ekleyiciler listesi zamanla değişebilir (yenileri eklenir).İstemciniz, içerik ekleyicilerin adreslerini önceden bilmek zorunda değildir. Bunun yerine, var olan içerik ekleyicilerin adreslerinin bulunduğu dağıtılmış bir dizin olan <strong>içerik ekleyici havuzuna</strong> (P2P dosya paylaşımından bir başka terim) bir sorgulama yapar.</p>
+</li>
+<li>
+<p>Son olarak, istemciniz hiçbir içerik ekleyiciye erişemese bile, başka istemciler erişebilir. Bir istemci, bir içerik ekleyiciye erişebildiğinde ve kendisine diğer istemciler tarafından erişilebildiği belirlendiğinde bir <strong>köprü</strong> istemcisi olur ve kendi internet adresini başka bir dağıtılmış dizin olan <strong>köprü havuzuna</strong> ekler.İstemciniz böyle bir adresi arayarak, arkasındaki köprüye bağlanabilir ve kendi adına bir içerik ekleyiciye başka bir bağlantı kurmasını söyleyebilir. Böylece istemcinizle içerik ekleyici arasında bir <strong>geçit</strong> oluşturur. Ardından bu geçit kullanılarak aralarında bir bağlantı kurulabilir.</p>
+</li>
+</ul>
+<p>İstemciyle içerik ekleyici arasındaki bağlantılar şifrelendiğinden, köprülerin aradaki bilgi akışını göremeyeceğini unutmayın.</p>
+</li>
+</ul>
+<p>İçerik ekleyiciler normal (fazladan kullanılabilir olsa da) bir vekil sunucu gibi davranabilir ve bu davranış, içeriğe erişmeye çalışırken Ouinet istemcilerinin (CENO Browser gibi) yaptığı bir şeydir. Bu durumda, içerik ekleyici, istemcinizle kaynak sunucu arasında gerçekleşen bilgi akışını göremez (bağlantı düz, şifrelenmemiş bir HTTP bağlantısı değilse).</p>
+<p>Daha sıkı ağ engelleme koşullarında vekil sunuculara erişmeyi sağlayan başka araçlar zaten var. Ouinet içerik ekleyicilerini bu kadar özel kılan şey nedir?</p>
+<h3 id="paylaşılan-içeriğe-güvenilmesi"><a class="header" href="#paylaşılan-içeriğe-güvenilmesi">Paylaşılan içeriğe güvenilmesi</a></h3>
+<p>Önemli olan nokta şudur. Bir içerik ekleyici yalnızca istemciniz adına içerik almakla kalmaz. İçerik ekleyiciye veya internetin çoğuna artık erişilemese bile o içeriği daha sonra başkalarıyla paylaşmanızı sağlar.</p>
+<p>Elbette tarayıcınızdan bir sayfayı indirebilir ve ilgili dosyaları başkalarına kopyalayabilirsiniz. Bu kullanım, birbirinizi tanıdığınız sürece sorun çıkarmayabilir. Ancak, böyle dosyaları bilinmeyen bir kişiden aldıysanız ne yapacaksınız? İçeriğin gerçekten iddia edildiği siteden geldiğinden, belirli bir tarihte alındığından veya içindeki bilginin değiştirilmediğinden nasıl emin olabilirsiniz?</p>
+<p>CENO ve Ouinet kullanımının olabildiğince çok insana olabildiğince fazla içerik sağlamasını istiyoruz. Bu nedenle tanımadığınız insanlardan içerik almanızı sağlamak istiyoruz. Ouinet bu tür içerikleri <strong>içerik imzalama</strong> kullanarak almanızı sağlar. İstemciniz, içerik ekleyicilerin kişisel anahtarını kullanarak imzaladıkları içeriğe güvenecek şekilde yapılandırılır. Bir istemci, bir içerik ekleyiciye bir internet içeriğini paylaşmak için almasını söylediğinde, içerik ekleyici içeriği kaynak sunucudan alır, anahtarını kullanarak imzalar ve imzalanmış içeriği istemciye gönderir.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> İçerik ekleyiciler büyük bir dosya alınırken gelen veri parçalarını ayrı ayrı imzalar. Böylece büyük bir veri indirilirken bağlantı kesilse bile onu alan istemci tarafından hala paylaşılabilir.</p>
+</blockquote>
+<p>Hangi içerik ekleyiciye güvenebileceğinizi seçebilmeniz için her içerik ekleyicisinin farklı anahtarı bulunur. Şöyle düşünün: Ülkenizdeki herhangi bir <em>noter</em> tarafından imzalanmış bir belgeye, size kim verirse versin (yurttaş veya yabancı) güvenebilirsiniz. Ama başka bir ülkenin noteri tarafından imzalanmış bir belgeyi kabul etmek zorunda değilsiniz. CENO Browser eQualitie tarafından yönetilen içerik ekleyicilere kendiliğinden güvenecek şekilde yapılandırılmıştır.</p>
+<blockquote>
+<p>Teknik not: İçerik ekleyiciler, Ed25519 imzaları oluşturmak için bir herkese açık ve kişisel anahtar çifti kullanır. Herkese açık anahtarlar, imzalarla birlikte gönderilebilecek kadar küçüktür ve 64 tane onaltılık karakter ya da 52 tane Base32 karakter biçiminde kodlanabilir. Bunlar telefonda konuşarak bile iletilebilir veya bir kağıda yazılabilir.</p>
+</blockquote>
+<h3 id="İçeriklerin-eklenmesi"><a class="header" href="#İçeriklerin-eklenmesi">İçeriklerin eklenmesi</a></h3>
+<p>Örnek senaryomuzda istemcinizin, X içeriğini doğrudan kaynak sunucudan ve diğer istemcilerden alamadığını hatırlayın. İstemci, diğer istemcilerle paylaşabileceği imzalanmış bir kopya almak için güvenilir bir içerik ekleyiciye başvurarak son Ouinet kartını oynar.</p>
+<p>Aşağıdaki şekilde, bu işlemin olası bir sonucunu görebilirsiniz: İstemci önce içerik ekleyiciye doğrudan ulaşmaya çalışır (örneğin, içerik ekleyici havuzundan aldığı bir internet adresini kullanır). Ancak ne yazık ki internet hizmeti sağlayıcısı tarafından engellenmiştir. Neyse ki, köprü havuzu, içerik ekleyiciye erişebilen iki farklı istemcinin internet adreslerini gösterir. İstemciniz, bu istemcilerden biri üzerinden içerik ekleyiciye bir geçit açar. Böylece içerik ekleyici, istemciden X içeriği isteğini alır ve kaynak sunucudan bunu isteyebilir.</p>
+<p><img src="concepts/images/user-flow-2.svg" alt="Görsel: İstemcinin içerik ekleyiciye erişmesi" /></p>
+<p>İçerik ekleyici, <em>X</em> içeriğini aldığında, bunu anahtarını kullanarak imzalar, imzayı içeriğe ekler ve geçit üzerinden gönderir (örneğin, engelleme arkasındaki istemci ile). İçerik istemcinize ulaştığında, üç şey yapılır:</p>
+<ol>
+<li>Size gönderilir (CENO bu içeriği tarayıcıda görüntüler).</li>
+<li>İçerik diğer istemcilere gönderilmek üzere aygıtınıza kaydedilir. Ayarlanabilir bir süre boyunca ya da kaydedilmiş içerikler silinene kadar tutulur.</li>
+<li>Diğer istemcilerin bulabilmesi için içeriğin kopyasının bulunduğu dağıtılmış ön bellek dizinine duyurulur.</li>
+</ol>
+<p>Aşağıda içeriklerin alınması, imzalanması, kaydedilmesi ve duyurulması işlemlerinin tümünü kapsayan <strong>içerik ekleme</strong> işlemini görebilirsiniz.</p>
+<p><img src="concepts/images/user-flow-3.svg" alt="Görsel: İstemci içerik ekleyiciden imzalanmış içerik alıyor" /></p>
+<h2 id="tam-engelleme-uygulandığında-gezinme"><a class="header" href="#tam-engelleme-uygulandığında-gezinme">Tam engelleme uygulandığında gezinme</a></h2>
+<p>Yukarıda açıklanan yöntemler için engelleme dışında kalan ve internetin geri kalanına erişilebilen <em>bazı yolların olması</em> gerektiğini unutmayın. Bazı durumlarda bu yollar da olmayabilir: Uluslararası bağlantı kesintileri, doğal afetler veya az olan yolların aşırı kullanılması (herkesin aynı içeriğe erişmeye çalışması) gibi durumları düşünebilirsiniz. Dağıtılmış ön belleğin gerçek gücü bu gibi durumlarda ortaya çıkar.</p>
+<p>Varsayalım ki içerik ekleyiciden <em>X</em> içeriğini aldıktan sonra bir afet bölgenizi dünyadan kopardı. <em>X</em> içeriği böyle bir durumda toplumunuza nasıl yardımcı olabileceğinizi anlattığı için daha önemli hale gelir.</p>
+<p>Bu anda, CENO Browser kullanan ikinci bir kişi de bu içeriğe erişmeye çalışır. Kaynak sunucuya veya bölgenizin ötesindeki herhangi bir şeye erişilemez. Bu nedenle CENO, dağıtılmış ön bellek dizininde bu içeriği arar ve aygıtınızın bu içeriği paylaştığını görür. CENO aşağıdaki gibi dizinden adresinizi alır, size bağlanır ve içeriği ister.</p>
+<p><img src="concepts/images/user-flow-4.svg" alt="Görsel: İstemci başka bir istemciden imzalanmış içerik alıyor" /></p>
+<p>Artık ikinci aygıt da üzerinde <em>X</em> içeriğinin bir kopyasını bulundurduğundan, bunu dağıtılmış ön bellek dizininde duyurarak bir gönderici olur. İlgilenen üçüncü bir kişi CENO Browser kullanarak bu içeriğe erişmek istediğinde, CENO artık içerik için dizinde iki adres görür: Sizin aygıtınız ve ikinci kullanıcının adresi. İçerik büyük ise (örneğin bir video), bu üçüncü aygıt içeriği her iki aygıttan da parça parça almaya çalışabilir (aşağıda gösterildiği gibi). Böylece indirme hızını artırır ve kullanılan trafiği azaltır.</p>
+<p><img src="concepts/images/user-flow-5.svg" alt="Görsel: İstemci imzalanan içeriği birden fazla istemciden alıyor" /></p>
+<p>Son olarak durum daha da kötüleşebilir ve tüm ticari ve ülke ağ altyapısı kapanabilir. Bu durumda, ağın başka kullanıcılara erişimi olmasa bile Ouinet ve CENO Browser aynı yerel ağda bulunan (örneğin, aynı kablosuz ağa bağlanmış) iki aygıt arasında <em>aygıttan aygıta</em> paylaşım sağlar.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="herkese-açık-ve-gizli-gezinme-karşılaştırması"><a class="header" href="#herkese-açık-ve-gizli-gezinme-karşılaştırması">Herkese açık ve gizli gezinme karşılaştırması</a></h1>
+<p>Bağlantı sorunlarının üstesinden gelmek için kullanılan birçok yöntemden dolayı CENO, istediğiniz internet içeriğine erişmeniz için uygun bir yol olabilir. CENO Browser kullanarak bir sayfaya eriştiğinizde ya da paylaştığınızda, sayfa başkaları tarafından da kullanılabilir olur. Paylaşmak istemediğiniz (ya da eriştiğinizi başkalarının bilmesini istemediğiniz) bazı içerikler olabilir. CENO bu durumlarda da size de yardımcı olabilir.</p>
+<p>Uygulamayı açtığınızda varsayılan kip <strong>herkese açık gezinme</strong> olur. CENO bu ağ içeriğine önceden açıklandığı gibi erişir:</p>
+<ol>
+<li>Doğrudan erişim denenir.</li>
+<li>Başarısız olunursa, dağıtılmış ön bellek aranır.</li>
+<li>Başarısız olunursa, içerik bir ekleyiciden (ya da başka bir istemciden) istenir.</li>
+</ol>
+<p>CENO aynı zamanda <strong>gizli gezinme</strong> kipinde de kullanılabilir. Bu gezinme türünde paylaşılan ön bellek asla aranmaz ve içerik ekleme girişiminde bulunulmaz:</p>
+<ol>
+<li>Doğrudan erişim denenir.</li>
+<li>Başarısız olunursa, içerik ekleyiciye (ya da başka bir istemciye) erişilir ve <em>normal bir vekil sunucu</em> olarak kullanılır. Bu durumda, dağıtılmış ön belleğin içerik ekleyici ya da istemciniz tarafından sayfanızla güncellenmeyeceğini unutmayın.</li>
+</ol>
+<p>Farklı davranışlar farklı sonuçlar verir. Böylelikle herkese açık gezinmede:</p>
+<ol>
+<li>İnternet içeriğini alıp, başkalarının erişmesine yardımcı olma olasılığınız yüksektir.</li>
+<li>İçeriği değişken olan (gerçek zamanlı güncellenen) sayfalarda açıkça ya da belli belirsiz bozulmalar olabilir.</li>
+<li>Kimlik doğrulaması gereken sayfalar çalışmaz (parolalar ve çerezler istemci tarafından silinir).</li>
+<li>Bazı gezinme eylemleri diğer kullanıcılara sızabilir (<a href="concepts/risks.html">riskler sayfasına</a> bakın)).</li>
+<li>Bazı gezinme eylemleri diğer içerik ekleyicilere sızabilir (<a href="concepts/risks.html">riskler sayfasına</a> bakın)).</li>
+<li>İnternet içeriğini almak ve doğrulamak için içerik ekleyicilerine güvenmeniz gereklidir.</li>
+</ol>
+<p>Gizli gezinme kipinde:</p>
+<ol>
+<li>Uluslar arası bağlantılar çok sınırlıysa internet içeriğine erişemeyebilirsiniz. Erişebilseniz bile diğer CENO kullanıcıları sizden bu içeriği alamayabilir.</li>
+<li>İçeriği değişken olan sayfalar büyük olasılıkla çalışır.</li>
+<li>Kimlik doğrulaması gereken sayfalar büyük olasılıkla çalışır (bağlantınız HTTPS ile korunduğu sürece içerik ekleyici parolalarınızı göremez).</li>
+<li>Gezinme eylemleri diğer kullanıcılara sızmaz.</li>
+<li>İçerik ekleyicilerine sınırlı gezinme eylemleri sızar (HTTPS kullanıldığında yalnızca kaynak sunucu adı veya adresi).</li>
+<li>İçerik ekleyicilerine güvenmeniz gerekmez (HTTPS kullanıldığında sertifika tabanlı güvenlik çalışmayı sürdürür).</li>
+</ol>
+<p>Sonuç olarak, CENO ile haberleri okumak, video izlemek, Vikipedi'de gezinmek ve normal ağınızda sansürlenmiş sabit kaynaklara erişmek gibi işlemler yapacaksanız <em>herkese açık gezinme</em> kullanmalısınız. Sosyal ağlarda oturum açmak ya da WordPress sitenizi düzenlemek gibi işlemler için <em>gizli gezinme</em> kullanmalısınız.</p>
+<p>Lütfen ayrıntılı bilgi almak için <a href="concepts/risks.html">riskler sayfasına</a> bakın. Unutmayın istemciniz herkese açık ya da gizli gezinme kullanmanızdan bağımsız olarak köprü ve gönderici şeklinde çalışabilir. Bu durumu rehberin <a href="concepts/../browser/bridging.html">Diğerlerine yardım etmek</a> bölüömünde daha ayrıntılı açıkladık.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cenoouinet-kullanmanın-yararları"><a class="header" href="#cenoouinet-kullanmanın-yararları">CENO/Ouinet kullanmanın yararları</a></h1>
+<p>Diğer sansür aşma teknolojilerine kıyasla CENO ve Ouinet temel olarak, istemcilerin ve içerik ekleyicilerinin birbirleri için trafiği yönlendirmesi, sonradan doğrulama için içeriği imzalaması ve imzalanmış içeriği diğer kullanıcılara göndermek amacıyla saklaması gibi alanlarda farklılaşır. Bazı önemli yararları şunlardır:</p>
+<ul>
+<li>
+<p><strong>Alışılmış kullanım:</strong> CENO Browser ile internet içeriğine erişmek, internet tamamen kapatıldığında bile normalde kullandığınız tarayıcıya benzer. Sık erişilen içerikler için yeni özel bağlantılar kurmak ya da uygulamalar arası dosya aktarımı yapmak gibi özel bir etkileşim gerekmez.</p>
+<ul>
+<li><strong>İçerik kullanılabilirliğinin artırılması:</strong> Ouinet, aşırı ağ kısıtlamalarında bile içeriği etkili ve güvenli bir biçimde sunabilir. İçeriğe daha çok erişilmesi daha fazla kopyasının CENO/Ouinet istemcileri tarafından gönderilmesi ve kullanılabilirliğinin artması anlamına gelir.İmzalanmış içerik, çevrimdışı yöntemlerle (örneğin bir USB sürücüsü ile) belirli istemcilere taşınabilir. Böylece diğer istemciler tarafından da kullanılması sağlanabilir.</li>
+</ul>
+</li>
+<li>
+<p><strong>Daha hızlı gezinme:</strong> Aynı içeriğin farklı parçalarının aynı anda farklı istemcilerden alınabilmesi sayesinde, içeriğin aktarılması yükü farklı ağlara ve aygıtlara dağıtılır ve tek bir istemciden gelen yolların tıkanması engellenir (özellikle görüntü gibi büyük bir kaynak aktarılırken). Böylece yalnızca diğer ülkelere bağlantı kuran altyapının sınırlı olduğu durumlarda değil, yayıncıların bazı içeriklerine çok erişilmesi durumunda da sunuculardaki kaynak kullanımı artışlarını önlemeye yardımcı olur ([Slashdot etkisi][Slashdot effect] olarak adlandırılır).</p>
+</li>
+<li>
+<p><strong>Daha ucuza gezinme:</strong> Belirli bir bölgede yaygın olarak erişilen içerik, sunucusu başka bir ülkede olsa bile, o bölgedeki CENO/Ouinet istemcilerine kopyalanır. Bu içeriğe erişmek isterseniz, istemciniz büyük olasılıkla kaynak sunucu yerine bölgenizdeki başka bir istemciyi kullanacaktır. Uluslararası trafiğin yerel trafiğe göre daha pahalı olduğu bazı ülkelerde (örneğin [ulusal intranet][National intranet] varlığında) daha az harcama yapmanızı sağlayabilir.</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cenoouinet-kullanmanın-riskleri"><a class="header" href="#cenoouinet-kullanmanın-riskleri">CENO/Ouinet kullanmanın riskleri</a></h1>
+<p>CENO Browser (ve genel olarak herhangi bir Ouinet istemcisini) kullanmak, yeterince karmaşık herhangi bir bilgi işlem sisteminde olduğu gibi, bazı riskler içermektedir. Bu bölümde, CENO kullanırken üstlenebileceğiniz farklı rollerin etkilerini anlamanıza yardımcı olmak için riskleri derleyeceğiz ve açıklayacağız:</p>
+<ul>
+<li>sitelerde gezinen bir <em>kullanıcı</em> olarak</li>
+<li>önceden eriştiğiniz içerikleri dağıtılmış ön bellekte paylaşan bir <em>gönderici</em> olarak</li>
+<li>diğer kullanıcıların içerik ekleyicilerine erişmesini sağlayan bir <em>köprü</em> olarak</li>
+</ul>
+<h2 id="kullanıcı-olarak"><a class="header" href="#kullanıcı-olarak">Kullanıcı olarak</a></h2>
+<h3 id="köprüler-kaynak-sunucu-ile-iletişimimi-görebilir-mi"><a class="header" href="#köprüler-kaynak-sunucu-ile-iletişimimi-görebilir-mi">Köprüler kaynak sunucu ile iletişimimi görebilir mi?</a></h3>
+<p>Hayır. Köprünün tek görevi istemci ve içerik ekleyicisi arasındaki trafiği değiştirmeden aktarmaktır. Bu iletişim her zaman şifrelenmiş olarak kurulur ve köprüler iletişimin içeriğine erişmek için gereken kişisel anahtarı bilmez.</p>
+<h3 id="İçerik-ekleyiciler-kaynak-sunucuy-ile-iletişimimi-görebilir-mi"><a class="header" href="#İçerik-ekleyiciler-kaynak-sunucuy-ile-iletişimimi-görebilir-mi">İçerik ekleyiciler, kaynak sunucuy ile iletişimimi görebilir mi?</a></h3>
+<p>Hem evet, hem hayır. Kullanıcı <a href="concepts/public-private.html">herkese açık gezinme</a> kipinde bir içeriğe erişmek istediğinde tüm kişisel veriler (parolalar ve çerezler gibi) istemci tarafından silinir ve ardından şifrelenerek içerik ekleyiciye gönderilir.</p>
+<p>Gizli gezinme kullanıldığında ise istemci tarafından hiçbir değişiklik yapılmaz fakat tüm iletişim kaynak sunucuya göre şifrelenir. Bu durumda içerik ekleyici içeriğin şifresini çözemez.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> İçerik eklemek için, yalnızca sorgu parametreleri kaldırılmış, temel ve gizlilik koruyucu HTTP üst bigileri alanlarının sınırlı bir bölümü dışındaki tüm üst bilgi alanları çıkarılmış HTTP <code>GET</code> istekleri uygundur.</p>
+</blockquote>
+<h3 id="İçerik-ekleyiciler-ip-adresimi-görebilir-mi"><a class="header" href="#İçerik-ekleyiciler-ip-adresimi-görebilir-mi">İçerik ekleyiciler IP adresimi görebilir mi?</a></h3>
+<p>Evet, fakat isteğin CENO kullanıcısından mı yoksa bir köprüden mi geldiğini ayırt edemezler. Böylelikle içerik ekleyicisine giden isteklere kesin doğrulukla bir kaynak IP adresi atanamaz.</p>
+<h3 id="kişisel-verilerim-dağıtılmış-ön-belleğe-sızabilir-mi"><a class="header" href="#kişisel-verilerim-dağıtılmış-ön-belleğe-sızabilir-mi">Kişisel verilerim dağıtılmış ön belleğe sızabilir mi?</a></h3>
+<p>Umarız sızmaz. Yukarıda belirtildiği gibi CENO Browser içerik ekleyicilerine yapılan isteklerden tüm kişisel verileri (parolalar, çerezler...) çıkarak şekilde ayarlanmıştır. Ayrıca içerik ekleyicileri hiçbir gönderme işlemi yapmaz, yalnızca diğer Ouinet istemcilerinin içerik gönderimi yapabilmesi için içeriği imzalar. İçerik istemciye geldiğinde, yeniden incelenir ve kaynak sunucu kişisel gibi görünüyorsa, CENO gönderim yapmaz.</p>
+<p>Yine de özellikle kötü niyetle veya zayıf güvenlikle tasarlanmış sayfalar kişisel bilgilerinizi (bir formdaki e-posta adresi ya da JavaScript ile tarayıcının parmak izi gibi) başka bir adres bağlantısı yolu üzerinden (<code>http://orneksite.com/aboneol/adiniz@baskaorneksite.org</code>) elde edebilir. Bir sitenin böyle bir şey yaptığından şüpheleniyorsanız, güvenliğiniz için bu sitede gizli gezinme kullanın.</p>
+<h3 id="kaynak-sunucu-ceno-kullandığımı-bilebilir-mi"><a class="header" href="#kaynak-sunucu-ceno-kullandığımı-bilebilir-mi">Kaynak sunucu CENO kullandığımı bilebilir mi?</a></h3>
+<p>Büyük olasılıkla hayır. CENO kaynak sunucuya doğrudan ulaştığında normal bir Firefox uygulaması gibi davranır. Yani aygıtınız aynı sürümdeki bir Firefox uygulaması gibi gözükür.</p>
+<p>Ancak, bir içerik ekleyici kullanarak kaynak sunucudan bazı içerikler yüklendiğinde, sunucunun CENO ya da Ouinet kullanıldığını anlamasının (en az) iki yolu vardır:</p>
+<ol>
+<li>Kaynak sunucuya ulaşan bağlantının kaynak adresinin, içerik ekleyici havuzunda bulunması (bağlantı zaten içerik ekleyiciden geldiğinden);</li>
+<li>İçerik isteğinde belirli bilgilerin varlığı ya da yokluğu karakteristik bir Ouinet özelliğidir ve izlenebilir. Bu durum, içerik ekleyici, istemcinizin alması ve imzalaması için içeriği istediğinde, isteğinizden aygıtınıza özgü bilgileri kaldırdığı için ortaya çıkar.</li>
+</ol>
+<p>Bu durumun yalnızca isteğin Ouinet üzerinden geldiğinin belirlenmesinde etkili olduğunu ve aygıtınızla herhangi bir bağ kurulamayacağını unutmayın. Fakat önceki soruda belirtilen nedenlerden dolayı istekte herhangi bir kişisel bilgi bulunuyorsa, CENO kullanıcısı olduğunuz belirlenebilir.</p>
+<p>Genel olarak, bir sitenin (devlet sitesi gibi) kim olduğunuzu ve hangi bölgeden olduğunuzu öğrenmesi gerekiyorsa, CENO yerine normal internet taraycınızı kullanmanız önerilir.</p>
+<h2 id="gönderici-olarak"><a class="header" href="#gönderici-olarak">Gönderici olarak</a></h2>
+<h3 id="aygıtımdaki-hangi-veriler-gönderilir"><a class="header" href="#aygıtımdaki-hangi-veriler-gönderilir">Aygıtımdaki hangi veriler gönderilir?</a></h3>
+<p>CENO şu anda yalnızca herkese açık gezinme kipinde erişilen tüm internet içeriklerini gönderir. Yani kullanıcıların yakın zamanda erişmediği hiçbir şeyi göndermez.</p>
+<h3 id="ne-gönderdiğimi-herhangi-bir-kişi-öğrenebilir-mi"><a class="header" href="#ne-gönderdiğimi-herhangi-bir-kişi-öğrenebilir-mi">Ne gönderdiğimi herhangi bir kişi öğrenebilir mi?</a></h3>
+<p>Hem evet, hem hayır. Ouinet altyapısının çalışma şeklini yeterince anlayan bir kişi belirli bir içeriğin hangi IP adreslerinden paylaşıldığını (BitTorrent ile olduğu gibi) gösteren bir araç geliştirebilir. Fakat bir IP adresini seçerek buradan gönderilen tüm içerik ve arkasındaki istemciler öğrenilemez.</p>
+<h2 id="köprü-olarak"><a class="header" href="#köprü-olarak">Köprü olarak</a></h2>
+<h3 id="diğer-kişiler-ip-adresimi-öğrenebilir-mi"><a class="header" href="#diğer-kişiler-ip-adresimi-öğrenebilir-mi">Diğer kişiler IP adresimi öğrenebilir mi?</a></h3>
+<p>Evet, içerik ekleyiciler ile iletişim kurabilen her CENO Browser uygulaması IP adresini diğer Ouinet istemcilerinin bulabileceği köprü havuzuna kaydeder.</p>
+<h3 id="Ülkemde-yasal-olmayan-bir-içeriğe-başka-bir-kişinin-erişmesine-yardım-ediyor-olabilir-miyim"><a class="header" href="#Ülkemde-yasal-olmayan-bir-içeriğe-başka-bir-kişinin-erişmesine-yardım-ediyor-olabilir-miyim">Ülkemde yasal olmayan bir içeriğe başka bir kişinin erişmesine yardım ediyor olabilir miyim?</a></h3>
+<p>Evet. Fakat köprüler Ouinet istemcileri ve içerik ekleyicileri arasındaki iletişimi yalnızca şifrelenmiş olarak iletir. Yani bir köprü, bir içeriğe asla başka bir kişi adına doğrudan istekte bulunmaz.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ceno-browser-kullanımı"><a class="header" href="#ceno-browser-kullanımı">CENO Browser kullanımı</a></h1>
+<p>Bu bölümde CENO Browser ve Ouinet ile ilgili özelliklerinin kullanımı hakkında bilgiler bulunur. Lütfen unutmayın: CENO <a href="https://www.mozilla.org/tr/firefox/android/">Android için Firefox</a> tabanlıdır. Bu nedenle internet üzerinde genel gezinme hakkındaki tüm konularda Mozilla <a href="https://support.mozilla.org/tr/products/mobile">Android için Firefox Desteği</a> sayfalarına bakmalısınız.</p>
+<p>Gerektiğinde yazıya ek olarak ekran görüntüleri de bulunur. Bu görüntülerden bazıları aygıtınızda görünenden biraz farklı olabilir. Bunun nedeni CENO'nun sürekli geliştirilen bir uygulama olmasıdır. Bu belgeler 1.6.0 sürümü için günceldir.</p>
+<p>Uygulama burada anlatıldığından farklı davranışlar sergiliyorsa, lütfen <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> adresine yazarak bize durumu bildirin.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ceno-kurmak"><a class="header" href="#ceno-kurmak">Ceno kurmak</a></h1>
+<p>CENO Browser şu kaynaklardan kurulabilir:</p>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>eQualitie</em> tarafından <em>CENO Browser</em>): çoğu Android kullanıcı için önerilen kaynak.</li>
+<li><a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a>: Google Play bulunmayan Android aygıtlar için.</li>
+<li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: Diğer yöntemlere erişilmesine izin verilmeyen ülkelerdeki kullanıcılar için.</li>
+</ul>
+<p>CENO için en az Android 4.1 Jelly Bean ile çalışan, ARM64 ya da Neon destekli ARM32 bir aygıt gerekir. 2012 yılının sonundan bugüne kadar çıkmış çoğu aygıt desteklenir. CENO çalışmak için <em>özel bir izne</em> gerek duymaz.</p>
+<blockquote>
+<p>** Uyarı:** Lütfen yukarıda listelenenler dışında bir kaynaktan CENO Browser kurarken <em>son derece şüpheci</em> olun. Uygulamanın doğası gereği kullanıcıları, diğer CENO ve Ouinet kullanıcılarına saldırmak ve kullanıcıların özel bilgilerini ele geçirmek için kullanılan her türlü sahte veya değiştirilmiş sürümün hedefi olabilir. Şüpheniz varsa, lütfen uygulamayı kurmadan önce <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> adresinden bize iletin.</p>
+</blockquote>
+<h2 id="ceno-uygulamasını-tamamen-kapatmak"><a class="header" href="#ceno-uygulamasını-tamamen-kapatmak">CENO uygulamasını tamamen kapatmak</a></h2>
+<p>Uygulama her açıldığında aygıtınızın bildirim çubuğunda bir CENO simgesi belirir. Bu simge görünürken <em>CENO Browser hizmeti</em> arka planda (uygulamayı kullanmadığınızda bile) çalışıyor ve içeriklere erişmek isteyen başkalarının aygıtınızı köprü olarak kullanmasını sağlıyor demektir.</p>
+<p>Böyle bir hizmetin sürekli çalışması ağ ve işlemci kaynaklarını kullanacağından, dışardayken (kablosuz ağa bağlı olmadığınızda ya da şarj aletiniz yanınızda olmadığında) bunu kapatmak isteyebilirsiniz. Simgedeki bildirime dokunduğunuzda, CENO hizmeti, CENO yeniden açılana kadar kapatılır.</p>
+<p><img src="browser/images/tap-stop.png" alt="Görsel: CENO hizmetini durdurmak için bildirime dokunun" /></p>
+<h2 id="tüm-ceno-verilerini-silmek-panik-düğmesi"><a class="header" href="#tüm-ceno-verilerini-silmek-panik-düğmesi">Tüm CENO verilerini silmek (&quot;panik&quot; düğmesi)</a></h2>
+<p>Yukarıda gösterilen <em>CENO Browser hizmeti</em> bildirimine dokunarak bazı işlemler yapılabilir. <em>Giriş sayfası</em> işlemi, herkese açık yeni bir CENO sekmesi açar ve giriş sayfasını gösterir. <em>Sil</em> işlemini daha ayrıntılı açıklamak gerekir.</p>
+<blockquote>
+<p><strong>Not:</strong> Bildirimin altındaki işlemler görüntülenmiyorsa bildirimin ortasından aşağıya doğru çekerek bildirimi genişletmeye çalışın. Yalnızca <em>Giriş sayfası</em> işlemini görüyorsanız, aygıtınız <em>Sil</em> işlemini desteklemeyecek kadar eski olabilir.</p>
+</blockquote>
+<p>CENO uygulamasını hızlıca durdurup ilişkili tüm verileri (ön bellekteki verilerin yanında, yer imleri, parolalar ve gezinme geçmişi gibi ayarlar) silmeniz gerekirse, <em>Sil</em> düğmesine dokunabilirsiniz. Yanlışlıkla dokunduğunuzda verilerinizi kaybetmemeniz için, veriler hemen silinmez ve kısa bir süre için aşağıdaki gibi bir ek ileti görüntülenir:</p>
+<p><img src="browser/images/tap-purge.png" alt="Görsel: Tüm CENO verilerini silip uygulamayı durdurmak için son işlem" /></p>
+<p><em>Evet</em> (görseldeki Yes) işlemine dokunursanız CENO durdurulur ve tüm veriler <em>hiçbir soru sorulmadan</em> silinir. Aygıtınız hiç CENO kullanmamış gibi olur.</p>
+<p>Bu işleme dokunmazsanız birkaç saniye sonra kendiliğinden kaybolur.</p>
+<blockquote>
+<p><strong>Not:</strong> Yukarıda belirtilen yöntem için CENO aygıtınızda çalışıyor olmalıdır. CENO kapalıyken aynı işlemi yapmak için Android genel <em>Ayarlar</em> bölümüne giderek <em>Uygulamalar</em> kısmından CENO'yu seçip <em>Verileri temizle</em> seçeneğini kullanabilirsiniz.</p>
+<p>Ya da daha sert bir yöntem olarak, uygulamayı kaldırabilirsiniz.</p>
+</blockquote>
+<blockquote>
+<p><strong>Dikkat:</strong> Android CENO uygulamasının kullanılmasından kalan izleri uygulama verileri dışında sistem kayıtları gibi konumlarda tutabilir.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="herkese-açık-ya-da-gizli-gezinmeyi-kullanmak"><a class="header" href="#herkese-açık-ya-da-gizli-gezinmeyi-kullanmak">Herkese açık ya da gizli gezinmeyi kullanmak</a></h1>
+<p><a href="browser/../concepts/public-private.html">Önceki bölümde</a> anlatıldığı gibi, CENO internet üzerinde gezindiğiniz içeriğin başkalarına aktarıldığı (herkese açık gezinme) ya da aktarılmadığı (gizli gezinme) iki şekilde çalışır.</p>
+<p>Bu seçenek tarayıcıda açtığınız <em>her sekmeye</em> uygulanır. Aynı anda hem herkese açık hem de gizli sekmeleri kullanabilirsiniz. CENO açılışında ya da yeni sekme açıldığında (uygulamanın ana menüsündeki <em>Yeni sekme</em> ile) varsayılan olarak herkese açık gezinme yapılır. Yeni bir gizli gezinme sekmesi açmak için ana menüden <em>Yeni gizli sekme</em> seçeneğini kullanın.</p>
+<p>Renklerine bakarak herkese açık sekmeleri gizli olanlardan ayırt edebilirsiniz. Herkese açık sekmelerin araç çubuğu daha açık renklidir:</p>
+<p><img src="browser/images/public-tab.png" alt="Görsel: Herkese açık sekme" /></p>
+<p>Diğer taraftan, gizli sekmelerin araç çubuğu daha koyu renklidir:</p>
+<p><img src="browser/images/private-tab.png" alt="Görsel: Gizli sekme" /></p>
+<p>Bir sayfayı yüklediğinizde, adres çubuğundaki renkli CENO simgesi içeriğin farklı kısımlarının nasıl yüklendiğini anlamanıza yardımcı olur. Bu simgeyi ileride daha ayrıntılı inceleyeceğiz.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ceno-ayarları"><a class="header" href="#ceno-ayarları">CENO ayarları</a></h1>
+<p>CENO Browser, normal işlemler için gerekli olmasa da, ağ kısıtlama ve kesme girişimlerine karşı farklı stratejileri denemek ve uygulamayla ilgili sorunları bildirmek için bazı Ouinet özel ayarlarını değiştirmenizi ve istemciniz hakkında bilgi alınmasını sağlar.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Bu seçenekler CENO ile birlikte gelen bir Firefox uzantısı olan <em>CENO Extension</em> tarafından sağlanır ve düzgün Ouinet bütünleştirmesi sağlar. Örneğin, herkese açık gezinme sırasında araya içerik eklenmesi ve ön bellekten kullanım, görüntülenen içeriğin kaynağı hakkında bilgi sağlama ve yeni Ouinet sürümleri hakkında bilgilendirme gibi özellikler sağlar.</p>
+</blockquote>
+<p>Bu özelliklere uygulama menüsündeki <em>CENO</em> seçeneğinden erişilebilir. Uygulama ilk kez açıldığında bu menü seçeneğinin gözükmesinin biraz zaman alabilir. Sayfa şu şekilde görüntülenmelidir:</p>
+<p><img src="browser/images/settings.png" alt="Görsel:CENO ayarları bölümü" /></p>
+<h2 id="erişim-yöntemlerinin-seçimi"><a class="header" href="#erişim-yöntemlerinin-seçimi">Erişim yöntemlerinin seçimi</a></h2>
+<p>Sayfanın üst kısmındaki dört işaret kutusu, CENO Ouinet istemcisi olarak <a href="browser/public-private.html">herkese açık ya da gizli gezinme</a> ile kullanılırken, içerikleri alma yöntemleri ile kaynaklarını seçmenizi sağlar. Varsayılan olarak tüm kutular işaretlidir.</p>
+<ul>
+<li><em>Doğrudan siteden</em> (veya <strong>kaynaktan erişim</strong>) seçeneğinde CENO, aşağıdaki diğer yöntemleri denemeden önce kaynak sunucuya bağlanmaya çalışır.Bu yöntem herkese açık ve gizli gezinme kiplerinde çalışsa bile, alınan içerik diğer kullanıcılarla paylaşılamaz.</li>
+</ul>
+<p>İnternet içeriklerini yüklemek yavaş veya pahalı değilse bu yöntem çoğu kullanım senaryosu için yeterlidir. Doğrudan bağlantılar internet hizmeti sağlayıcınız ya da hükumetiniz tarafından izlenebilir. Bu seçeneği kapatmak bu tarz bağlantıların kurulmasından kaçınır ve izlenmeyi kısıtlar (tümüyle kısıtlamaz, <a href="browser/../concepts/risks.html">tehlikeler</a> bölümüne bakın).</p>
+<p>İnternet sitelerine güvenli olmayan HTTP (daha güvenli olan HTTPS yerine) ile erişirken bağlantı izlenebilir ve kullanıcıya CENO tarafından algılanamayacak sahte bir site gönderebilir. Böyle durumlarda bu seçeneği kapatarak daha güvenli CENO yöntemlerine başvurulması önerilir. Bu sorun hakkında ayrıntılı bilgi almak için <a href="browser/troubleshooting.html">sorun giderme</a> bölümüne bakabilirsiniz.</p>
+<ul>
+<li><em>CENO ağı üzerinden (gizli)</em> (veya <strong>vekil sunucu erişimi</strong>) seçeneğinde, CENO içerik ekleyicileri HTTP vekil sunucu olarak kullanarak kaynak sunuculara erişir.Bu yöntem yalnızca gizli gezinme kipinde çalışır.</li>
+</ul>
+<p>Bir içeriğe HTTPS kullanarak erişirken yalnızca kaynak sunucular trafiğin şifresini çözebilir. Düz HTTP kullanıldığında içerik ekleyici şifrelenmemiş trafiği görebilir (yine de içeriği imzalamaz ve başkalarıyla paylaşmaz). Köprüler gibi diğer katılımcılar asla şifrelenmemiş trafiği görmez.</p>
+<ul>
+<li><em>CENO ağı üzerinden (herkese açık)</em> (veya <strong>içerik ekleyici erişimi</strong>) seçeneğinde kişisel bilgiler isteklerden silinir ve bir içerik ekleyiciye gönderilir. İçerik ekleyici kaynak sunucudan içeriği alır, imzalar ve dağıtması için tekrar CENO'ya gönderir.Diğer katılımcılar (köprüler gibi) şifrelenmemiş trafiği görmez.</li>
+</ul>
+<p>Bu yöntem yalnızca herkese açık gezinme kipinde çalışır.</p>
+<ul>
+<li><em>Diğer CENO kullanıcılarının paylaşımlarından</em> seçeneğinde, içerikler içeriği dağıtan diğer Ouinet istemcileri ve CENO gibi <strong>dağıtılmış ön bellekten</strong> alınmaya çalışılır.Bu yöntem yalnızca herkese açık gezinme kipinde çalışır.</li>
+</ul>
+<p>Herkese açık ya da gizli gezinme kipleri için tüm yöntemleri kapatmak bunları yararsız yapar. Böyle bir yapılandırma uygularsanız aşağıdaki gibi bir uyarı görüntülenir:</p>
+<p><img src="browser/images/settings-no-private.png" alt="Görsel: Gizli gezinme için geçersiz ayarlar" /></p>
+<h2 id="uygulamanız-hakkında"><a class="header" href="#uygulamanız-hakkında">Uygulamanız hakkında</a></h2>
+<p>Bu sayfa CENO Browser uygulamanız ve Ouinet istemciniz hakkında da bilgiler verir:</p>
+<ul>
+<li><em>Yerel ön bellek boyutu</em> aygıtınızın yerel ön belleğinden içeriklerin gönderilmesi için kullanılan yaklaşık depolama alanını gösterir.</li>
+<li><em>Paylaştığınız içerik</em> aygıtınızdan ağa dağıtılan içerikleri görmenizi sağlar.</li>
+<li>Ouinet istemciniz sorunsuz olarak çalışıyorsa <em>Ouinet istemci durumu</em> bölümünde <code>başlatıldı</code>görüntülenir. Diğer durumlarda bağlantı veya yazılım kaynaklı sorunlar olabilir. Lütfen sorun bildirirken bu bilgileri de ekleyin.</li>
+<li><em>Erişebilirlik durumu</em> aygıtınızın diğer istemcilere içerik dağıtabilme yeteneğini gösterir. Sorun bildirirken bunu da ekleyin.</li>
+<li><em>UPnP durumu</em> Gelen bağlantıların CENO tarafından alınabilmesi için yönlendiriciniz veya bağlantı noktanız ile etkileşim kurulabildiğini gösterir. Sorun bildirirken bunu da ekleyin.</li>
+<li><em>Yerel UDP uç noktaları</em> İmzalı içeriklerin CENO tarafından diğer istemcilere gönderilmesi için kullanulan internet adresleridir. Uygulamanın sınanmasında ve hata ayıklamasında yararlıdır ve genellikle gizli tutulmalıdır.</li>
+<li><em>Dış UDP uç noktaları</em> yönlendiricinizin CENO trafiğine verdiği internet adresleridir. Yalnızca UPnP özelliğinin açık olduğu yönlendiricilerde bulunur. Sorun tanılamasında yararlıdır ve genellikle gizli tutulmalıdır.</li>
+<li><em>Herkese açık UDP uç noktaları</em> ağınız dışındaki Ouinet istemcilerinin aygıtınızla iletişim kurarken göreceği internet adresleridir. Sorun tanılamasında yararlıdır ve gizli tutulmalıdır.</li>
+<li><em>Ek BitTorrent ön yükleyicileri</em> aygıtınız varsayılan ön yükleyiciler ile BitTorrent ağına giremediği zaman kullanılan sunuculardır. Sorun bildirirken bunu da ekleyin. Boşluk ile ayrılmış etki alanı listesini (ek bağlantı noktaları ile) düzenleyebilir ve ardından <em>Kaydet</em> ile kaydedebilirsiniz. Değişiklikler Ouinet istemcinizin bir sonraki çalıştırılmasında uygulanır.</li>
+<li><em>CENO Browser</em> hangi CENO sürümünü kullandığınızı gösterir. Sorun bildirirken bunu da ekleyin.</li>
+<li><em>CENO uzantısı</em> Firefox ile CENO bütünleştirme uzantısının sürümünü gösterir. Sorun bildirirken bunu da ekleyin.</li>
+<li><em>Ouinet</em> CENO tarafından kullanılan Ouinet sürümünü gösterir. Sorun bildirirken bunu da ekleyin.</li>
+<li><em>Ouinet iletişim kuralı</em> CENO'nun diğer Ouinet istemcileri ve içerik ekleyicileri ile iletişim kurarken kullandığı iletişim kuralı sürümünü gösterir. Sorun bildirirken bunu da ekleyin.</li>
+</ul>
+<h2 id="yerel-ön-belleği-temizlemek"><a class="header" href="#yerel-ön-belleği-temizlemek">Yerel ön belleği temizlemek</a></h2>
+<p>Yukarıdaki <em>Yerel ön bellek boyutunun</em> yanında aygıtınızın Ouinet üzerinden paylaştığı tüm içeriklerin paylaşımını durdurup aygıtınızdan silinmesini sağlayan bir düğme bulubur. Yer imleri gibi CENO ayarlarını silmeden aygıtınızda boş alan açmanızı sağlar.</p>
+<p>CENO normal gezinme ön belleğini (tarayıcı tarafından kullanılıp diğerleri ile paylaşılmayan) ya da çerezler, gezinme geçmişi ve sık kullanılanlar gibi diğer ögeleri temizlemek istiyorsanız, uygulama ana menüsündeki <em>Ayarlar</em> bölümüne giderek <em>Kişisel verileri temizle</em> üzerine dokunun. Hangi ögeleri silmek istediğinizi soran bir pencere açılır.</p>
+<p>Tek seferde her şeyi silmek için (aceleniz olduğunda), <a href="browser/install.html">CENO kurmak</a> bölümünde açıklanan &quot;panik düğmesi&quot; özelliğinin nasıl kullanıldığını öğrenin.</p>
+<h2 id="günlük-kayıtlarını-tutmak"><a class="header" href="#günlük-kayıtlarını-tutmak">Günlük kayıtlarını tutmak</a></h2>
+<p>Sayfanın altında bulunan <em>Günlük tutulsun</em> seçeneği tüm Ouinet iç iletilerinin bir dosyaya kaydedilmesini sağlar. Yalnızca CENO sorunlarını tanılamak için kullanılmalıdır. Şu adımları izleyin:</p>
+<ol>
+<li><em>CENO ayarları</em> bölümüne giderek <em>Günlük tutulsun</em> seçeneğini işaretleyin.</li>
+<li>Gezinmeye dönün ve sorun çıkan işlemleri yeniden yapın.</li>
+<li>Yeniden <em>CENO ayarları</em> bölümüne gidin ve <em>Günlük tutulsun</em> seçeneğinin yanındaki <em>İndir</em> üzerine dokunup dosyayı kaydedin. Android üzerinde CENO için dosya erişim izni istenebilir, bu izin dosyayı kaydetmek için gereklidir.</li>
+<li>Günlük kayıtlarının aşırı büyük dosyalar haline gelmemesi için <em>Günlük tutulsun</em> seçeneğinin işaretini kaldırın.</li>
+</ol>
+<p>Kaydedilen günlük dosyasını bir sorun bildirmek için kullanabilirsiniz. Ancak internet gezinmenizle ilgili hassas bilgiler içerebileceğinden bu dosyayı herkese açık hale getirmekten kaçının.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tarayıcıyı-denemek"><a class="header" href="#tarayıcıyı-denemek">Tarayıcıyı denemek</a></h1>
+<p>Artık CENO uygulamasını nasıl <a href="browser/install.html">kurup</a>, <a href="browser/settings.html">yapılandıracağınızı</a> bildiğinize göre çeşitli Ouinet özelliklerinin çalışıp çalışmadığını deneyebiliriz. Deneme süresince farklı erişim yöntemlerini açıp kapatacağız. Normal CENO kullanımında varsayılan ayarları değiştirmeniz pek gerekmez.</p>
+<p>Aşağıdaki tüm sınamaları tamamlamak için aynı kablosuz ağa bağlı en az iki aygıt ve tümüyle başka bir ağda bulunan üçüncü bir aygıt gereklidir.</p>
+<p>Tüm sınamalar <a href="browser/public-private.html">herkese açık gezinme</a> kullanılarak yapılır. Bir şeyler beklendiği gibi çalışmazsa lütfen sabırlı olun ve <a href="browser/troubleshooting.html">sorun giderme</a> bölümüne bakın. Tarayıcı bir sayfayı yüklerken bir kaç dakikadan daha uzun süre beklerse, durdurup yeniden yükleyebilirsiniz (sonuçları biraz etkileyebilir).</p>
+<h2 id="bir-içerik-ekleyiciye-erişmek"><a class="header" href="#bir-içerik-ekleyiciye-erişmek">Bir içerik ekleyiciye erişmek</a></h2>
+<p>Öncelikle CENO Browser uygulamanızın bir içerik ekleyicisine erişebilirliğini denetlememiz gerekiyor. Önemsiz gelebilir fakat istemciniz bu işlem sırasında birçok Ouinet özelliklerini de sınar. Bu işlemler; içerik ekleyici havuzundan adres denetiminin yapılması, doğrudan erişim ve internet hizmeti sağlayıcınız veya devletiniz tarafından engelleme yapılıyorsa köprü havuzundan başka bir Ouinet istemcisi ile içerik ekleyiciye erişilmeye çalışılmasıdır.</p>
+<p>Birinci aygıtta şu adımları uygulayın:</p>
+<ol>
+<li>Öncelikle CENO uygulamasını kurun ve başlatın. Giriş sayfası görüntülenir.</li>
+<li>Uygulamanın ana menüsünü açın ve <em>CENO ayarlarını</em> açmak için <em>CENO</em> seçeneğine dokunun. Yalnızca içerik ekleyici erişimi sınaması yapacağımız için, içerik kaynakları kısmında <em>CENO ağı üzerinden (herkese açık)</em> seçeneği dışındaki tüm seçeneklerin işaretini kaldırın.</li>
+<li>CENO giriş sayfasına geri dönün. Önerilen sitelerden birini seçin ya da pencerenin üst kısmındaki adres çubuğuna başka bir sitenin adresini yazın. Erişimeniz engellenen bir site biliyorsanız onu deneyin!</li>
+<li>Seçtiğiniz site bir süre sonra açılır.</li>
+</ol>
+<p><strong>Not:</strong> Asıl site yerine sahte bir siteyle karşılaşırsanız, adres çubuğunda site adresinin başlangıcını <code>https://</code> olarak (<code>http://</code>yerine) değiştirin ve sınamayı yineleyin.</p>
+<p>Site yüklenirse, aygıtınız içerik ekleyiciye erişebiliyor demektir! Havuz sorguları yapıp diğer istemcilerle iletişim kurabildiğiniz için dağıtılmış ön bellekten içerikleri de yükleyebiliyor olmalısınız.</p>
+<p>Adres çubuğundaki CENO simgesine dokunursanız aşağıdaki gibi bir pencere açılır. Bu pencerede sitenin kaç parçasının farklı kaynaklardan yüklendiğini görebilirsiniz. Diğer kaynakları önceki adımda kapattığımız için yalnızca <em>CENO ağı üzerinden (herkese açık)</em> dışındaki tüm veriler sıfır olmalıdır.</p>
+<p><img src="browser/images/sources-inject.png" alt="Görsel: İçerik ekleyici sınanırken kullanılan kaynaklar" /></p>
+<p>Aksine, varsayılan ayarlarla gizli bir sekme kullanmış olsaydınız bu pencerede aşağıdaki gibi <em>Doğrudan siteden</em> ya da <em>CENO ağı üzerinden (gizli)</em> bölümlerinde sayılar görebilirdiniz.</p>
+<p><img src="browser/images/sources-proxy.png" alt="Görsel: Gizli gezinmede kullanılan kaynaklar" /></p>
+<h2 id="yakındaki-kullanıcılardan-içerik-alma"><a class="header" href="#yakındaki-kullanıcılardan-içerik-alma">Yakındaki kullanıcılardan içerik alma</a></h2>
+<p>Birinci aygıtınız bir içerik ekleyiciden içerik yükleyebildiği için şimdi bu içeriği dağıtılmış ön bellek ile başka bir aygıt ile paylaşmasını sınayacağız. İmzalanmış içeriğin alımı ve doğrulanmasının çalıştığını denetlemenin en kolay yolu aygıttan aygıta CENO desteğini kullanmaktır.</p>
+<p>Birinci aygıtta yukarıdaki sınamayı tamamladıktan sonra, CENO'yu çalışır olarak bırakın (CENO simgesi bildirim çubuğunda gözükmeli). İkinci aygıtınızı alın (yardımcı olması için bir arkadaşınıza söyleyebilirsiniz) ve aynı kablosuz ağa bağlanın. Sonrasında ikinci aygıtınızda aşağıdaki adımları izleyin:</p>
+<ol>
+<li>Kurmadıysanız, CENO uygulamasını kurun ve yukarıdaki gibi başlatın.</li>
+<li>Uygulamanın ana menüsünü açın ve <em>CENO ayarlarını</em> açmak için <em>CENO</em> seçeneğine dokunun. Yalnızca içerik ekleyici erişim sınaması yapacağımız için, içerik kaynakları kısmında <em>CENO ağı üzerinden (herkese açık)</em> seçeneği dışındaki tüm seçeneklerin işaretini kaldırın.</li>
+<li>CENO giriş sayfasına geri dönün ve yukarıda yaptığınız gibi aynı siteyi ziyaret edin (önerilen sitelerden birini seçerek ya da adres çubuğuna adresini yazarak).</li>
+<li>Seçtiğiniz site bir süre sonra açılır.</li>
+</ol>
+<p>Çalışmazsa, kablosuz ağınız aygıtlar arasında doğrudan erişimi engelliyor olabilir. Bu &quot;İstemci yalıtımı&quot; durumu ile herkese açık ağlarda (parklar, barlar, oteller gibi yerlerde) karşılaşılabilir. Lütfen başka bir ağ kullanarak yeniden deneyin.</p>
+<p>Çalışıyorsa, iki aygıt da diğer istemcilere içerik gönderebiliyordur. Adres çubuğundaki CENO simgesine dokunarak pencereyi açtığınızda aşağıdaki gibi <em>Diğer CENO kullanıcılarının paylaşımlarından</em> değerinin sıfır olmadığını görebilirsiniz.</p>
+<p><img src="browser/images/sources-dcache.png" alt="Görsel: Dağıtılmış ön bellekten yükleme sınanırken kullanılan kaynaklar" /></p>
+<p>Son olarak <em>Paylaştıklarınız</em> için de bir sayaç olduğunu farketmiş olabilirsiniz. Bu <em>ayrı</em> bir kaynak değildir. Burada sayılan içerikler dağıtılmış ön belleğin bir parçasıdır ve sizin aygıtınızda önceden kaydedilmiştir. Böylece CENO bu içerikleri ağ üzerinden yeniden almaya gerek duymaz.</p>
+<h2 id="uzak-kullanıcılardan-içerik-alma"><a class="header" href="#uzak-kullanıcılardan-içerik-alma">Uzak kullanıcılardan içerik alma</a></h2>
+<p>Dağıtılmış ön bellek için küçük bir sınama yaptık. Şimdi internet üzerinden nasıl çalıştığını sınayalım.</p>
+<p>Yukarıdaki sınama tamamlandıktan sonra CENO uygulamasını birinci aygıttaki gibi açık bırakın ve ikinci aygıtta bildirimlerden CENO uygulamasını durdurun.</p>
+<p>Şimdi başka bir kablosuz ağa bağlanan üçüncü bir aygıt gerekiyor (başka bir arkadaşınız kendi evinden yardım edebilir). Bu aygıt için izlenmesi gereken adımlar bir önceki aygıt ile aynıdır.</p>
+<p>Üçüncü aygıt sınama için kullanılan siteyi yükleyebiliyorsa, her şey hazır demektir. Birinci aygıt diğerlerine içerik gönderebiliyor ve büyük olasılıkla köprü olarak da çalışabilir.</p>
+<p>Tebrikler!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="diğer-ceno-kullanıcılarının-internet-üzerinde-gezinmesine-yardımcı-olmak"><a class="header" href="#diğer-ceno-kullanıcılarının-internet-üzerinde-gezinmesine-yardımcı-olmak">Diğer CENO kullanıcılarının internet üzerinde gezinmesine yardımcı olmak</a></h1>
+<p>Bağlanan tüm düğümlerden (bu sizi de içeriyor) uçtan uca bir ağ kurulur. Düğümlerin artması, ağı hızlandırır ve güçlendirir. CENO Browser uygulamasını internet sansürü uygulamayan (veya az uygulayan) bir ülkeden kullanıyorsanız, bir <strong>köprü</strong> düğümü olarak diğer CENO kullanıcılarına yardım etmeyi değerlendirin. Böylece aşırı sansür uygulanan ülkelerde yaşayan istemciler ve içerik ekleyiciler arasındaki trafiği aktarabilirsiniz. Onların trafiğini göremeyecek (şifrelenmiş olarak aktarılır) veya aygıtınızda tutmayacaksınız.</p>
+<blockquote>
+<p><strong>Not:</strong> Bu bölümde anlatılan yapılandırma aynı zamanda dağıtılmış ön bellekteki diğer istemcilere verimli olarak içerik göndermenizi sağlayabilir. Bu yüzden sansür uygulanan bir ülkede bulunuyorsanız bu CENO yapılandırmasını kullanmayı değerlendirin (ama <a href="browser/../concepts/risks.html">riskleri</a> unutmayın).</p>
+</blockquote>
+<h2 id="nasıl-bir-ceno-köprüsü-olunur"><a class="header" href="#nasıl-bir-ceno-köprüsü-olunur">Nasıl bir CENO köprüsü olunur</a></h2>
+<p>Bu özellik zaten CENO Browser uygulamasının içinde vardır. Aygıtınızın, UPnP etkinleştirilmiş veya CENO için açık bağlantı noktası yönlendirmesi yapılandırılmış olan bir kablosuz ağa bağlı olması gereklidir. Ayrıntılar için bir sonraki bölüme bakın.</p>
+<p>Bununla birlikte, Android aygıtlar yalnızca etkin olarak kullanılırken köprü işlevi görebilir. Güç koruma özellikleri CENO işlemlerini kısıtlar.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Bunun asıl nedeni Android üzerindeki <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">hazırda bekleme kipi</a> tarafından Ouinet kitaplığının çalışmasının yavaşlatılmasıdır. Ne yazık ki CENO uygulamasını pil iyileştirme ayarlarından çıkartmak Ouinet için geçerli olmuyor. Bunun yanında aygıtınızın CENO uygulamasını da etkileyebilecek pil koruma özellikleri olabilir. Lütfen aygıtınızın markasına <a href="https://dontkillmyapp.com/">Don't kill my app!</a> üzerinden bakın.</p>
+</blockquote>
+<p>CENO uygulamasını yapılandırılmış bir kablosuz ağ üzerinde kalıcı olarak çalışan ve her zaman erişilebilecek bir köprü olarak kullanmak istiyorsanız, şunları yapmalısınız:</p>
+<ol>
+<li>
+<p>Aygıtınız sürekli fişe takılı olmalı.</p>
+<ol>
+<li>Aygıtın ekranı sürekli açık olmalı.Bu kullanım Android ekran koruyucusunu kullanarak aşırı güç tüketimi olmadan sağlanabilir. <em>Ayarlar &gt; Ekran &gt; Ekran koruyucu (ya da Daydream)</em> bölümünden etkinleştirebilirsiniz. <em>Saat</em> seçeneğini seçin. Menüden <em>Ekran koruyucu başlangıç zamanı</em> seçip, <em>Şarj olurken</em> ya da <em>Her zaman</em> seçeneğini seçin. Aygıt etkin kullanılmadığında siyah arka planda karartılmış olarak saat görüntülenir.</li>
+</ol>
+<p>Ekranı kapatacağı için aygıtı kilitlemek için güç tuşunu kullanmayın. Aygıt ekranı açıkken bir süre sonra kendini kilitler.</p>
+</li>
+</ol>
+<p>Bu seçenek uygun değilse, henüz pes etmeyin! Sürekli açık iyi bir internet bağlantısı bulunan bir bilgisayarınız varsa okumayı sürdürün.</p>
+<h2 id="bilgisayarda-köprü-çalıştırmak"><a class="header" href="#bilgisayarda-köprü-çalıştırmak">Bilgisayarda köprü çalıştırmak</a></h2>
+<p>Bilgisayarınız <a href="https://tr.wikipedia.org/wiki/Docker">Docker depoları</a> kullanabiliyorsa, köprü olarak çalışması için yapılandırılmış CENO istemcisi çalıştırabilirsiniz. Docker kurulu değilse bilgisayarınıza uygun <a href="https://docs.docker.com/engine/install/">Docker yazılımını kurmak</a> için yönergelere bakabilirsiniz. Debian tabanlı Ubuntu ya da Linux Mint gibi sistemler için, şu komutu yürütmeniz yeterlidir: <code>sudo apt install docker.io</code></p>
+<p>CENO istemcisini depoda çalıştırmak için şu komutu uçbirim uygulamanızda yürütmeniz yeterlidir (korkutucu görünüyor ama kopyalayıp komut satırına yapıştırabilirsiniz):</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>Bilgisayarınız GNU/Linux tabanlı değilse, komut biraz farklı olmalıdır:</p>
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
+  -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
+  --restart unless-stopped equalitie/ceno-client
+</code></pre>
+<p>Bu komut, durdurulmadığı sürece her açılışta <code>ceno-client</code> adında bir depo başlatır. Deponun yönetimi hakkında ayrıntılı bilgi almak için <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker istemcisi belgeleri</a> bölümüne bakabilirsiniz.</p>
+<blockquote>
+<p><strong>Not:</strong> Bu istemcinin <em>CENO ayarları</em> yoktur: Aşağıda ayarlara erişmeniz istendiğinde, neredeyse aynı bilgilerin bulunduğu <a href="browser/../client/front-end.html">istemci ön yüzünü</a> açın.</p>
+</blockquote>
+<h2 id="kablosuz-yönlendiricinizde-upnp-ayarını-açmak"><a class="header" href="#kablosuz-yönlendiricinizde-upnp-ayarını-açmak">Kablosuz yönlendiricinizde UPnP ayarını açmak</a></h2>
+<p><a href="https://tr.wikipedia.org/wiki/UPnP">UPnP</a>, Ceno Browser uygulamanızın CENO ağına erişilebilir olmasını sağlamanın en kolay yoludur. <a href="browser/settings.html">CENO ayarları</a> bölümünde yerel ağınızdaki UPnP durumunu görebilirsiniz.</p>
+<blockquote>
+<p><strong>Not:</strong> Kablosuz ağınızdaki UPnP ayarını açmak aygıtlarınızın dışarıya açık olmasına neden olabilir. <a href="https://tr.phhsnews.com/articles/howto/is-upnp-a-security-risk.html">Tehlikelerin</a> farkında olun ve aşağıda belirtilen farklı yöntemlere göz atın.</p>
+</blockquote>
+<p>Aşağıdaki durum UPnP özelliğinin çalışmadığını ya da kablosuz yönlendiricinizde kullanılamadığını gösterir:</p>
+<blockquote>
+<p><strong>Erişilebilirlik durumu</strong></p>
+</blockquote>
+<pre><code>undecided
+</code></pre>
+<blockquote>
+<p><strong>UPnP durumu</strong></p>
+</blockquote>
+<pre><code>disabled / inactive
+</code></pre>
+<p>Aşağıdaki durum UPnP özelliğinin büyük olasılıkla çalıştığını ve bağlantının CENO tarafından denetlendiğini gösterir:</p>
+<blockquote>
+<p><strong>Erişilebilirlik durumu</strong></p>
+</blockquote>
+<pre><code>undecided
+</code></pre>
+<blockquote>
+<p><strong>UPnP durumu</strong></p>
+</blockquote>
+<pre><code>enabled
+</code></pre>
+<p>Aşağıdaki durum UPnP özelliğinin çalıştığını ve bağlantıların diğer CENO kullanıcılarına köprü olarak aktarılabileceğini gösterir:</p>
+<blockquote>
+<p><strong>Erişilebilirlik durumu</strong></p>
+</blockquote>
+<pre><code>likely reachable / reachable
+</code></pre>
+<blockquote>
+<p><strong>UPnP durumu</strong></p>
+</blockquote>
+<pre><code>enabled
+</code></pre>
+<blockquote>
+<p><strong>Not:</strong> UPnP çalışıyor olsa bile yönlendiricinize ağ dışından erişilemeyebilir. <em>CENO ayarlarındaki</em> <em>Dış UDP uç noktaları</em> değerleri <code>100.A.B.C:D</code> şeklindeki bir IP adresinde A değeri 64 ile 127 arasında olan bir <a href="https://www.technopat.net/2021/06/13/cgnat-carrier-grade-nat-nedir/">CGNAT</a> adresiyse (kişisel kullanım sağlayan internet hizmeti sağlayıcılarında sık görülür), özel <code>10.A.B.C:D</code>, <code>172.A.B.C:D</code>,<code>192.168.B.C:D</code> ve A değeri 16 ile 31 arasında olan bir adres ise bu durum görülebilir. Bu durumda internet hizmeti sağlayıcınıza ya da ağ yöneticinize ulaşarak, yönlendiriciniz için herkese açık bir adres alın ya da dış uç noktalara bağlantı noktası yönlendirmesi yapın.</p>
+</blockquote>
+<p>Piyasada bir çok kablosuz yönlendirici var ve hepsinin kendine özgü çeşitli özellikleri var. Bazı markaların UPnP açma yönergelerinin (İngilizce) bulunduğu listeye bakabilirsiniz:</p>
+<ul>
+<li><a href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
+<li><a href="https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router">D-Link</a></li>
+<li><a href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
+<li><a href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
+<li><a href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+<li><a href="https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router">Netgear</a></li>
+<li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
+</ul>
+<h2 id="upnp-yerine-bağlantı-noktası-yönlendirmesi-kullanmak"><a class="header" href="#upnp-yerine-bağlantı-noktası-yönlendirmesi-kullanmak">UPnP yerine bağlantı noktası yönlendirmesi kullanmak</a></h2>
+<p>Yönlendiricinizin UPnP seçeneğini açmak yerine CENO ağındaki bağlantıların aygıtınıza yönlendirilmesi için bir bağlantı noktası yönlendirme kuralı oluşturabilirsiniz. Yönlendiricinin yönetim arayüzüne girmeli ve <em>bağlantı noktası (port) yönlendirme</em> seçeneğini bulmalısınız. Hangi IP adresi ve bağlantı noktasına yönlendirme yapmanız gerektiğini öğrenmek için, <em>CENO ayarları</em> bölümünü açın ve <em>Yerel UDP uç noktaları</em> bölümüne bakın.</p>
+<blockquote>
+<p><strong>Yerel UDP uç noktaları</strong></p>
+</blockquote>
+<pre><code>192.168.1.132:28729
+</code></pre>
+<p>Bağlantı noktası yönlendirme UDP (TCP değil) iletişim kuralına özgü olmalıdır. CENO ilk kez açıldığında rastgele bir bağlantı noktası seçer ve sonraki açılışlarında aynı bağlantı noktasını kullanır. Ancak aygıtınızın yerel ağdaki IP adresi zaman zaman değişebilir. Aygıtınızın CENO ağına erişilebileceğinden emin olmak için arada bir <em>CENO ayarları</em> bölümüne bakmalısınız.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Ayrıca yönlendiricinizden aygıtınızın yerel IP adresini sabitleyebilirsiniz (örneğin DHCP ayarlarından aygıtınızın MAC adresine bir sabit IP atayabilirsiniz.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="sorunları-gidermek"><a class="header" href="#sorunları-gidermek">Sorunları gidermek</a></h1>
+<p>Bu bölümde CENO ve Ouinet ile ilgili bilinen sorunlarla karşılaştığınızda neler yapacağınızla ilgili ipuçları bulabilirsiniz. Bu projelerin deneysel olduğunu ve çalışmasında kontrolümüz dışında etkenler olabileceğini unutmayın. Bunlar ağ altyapısının durumu ve yapılandırması, diğer kullanıcıların yüklediği içerikler ve bağlantı türleri gibi bir çok etkenden kaynaklanabilir.</p>
+<p>Sorun sürerse lütfen <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> adresine yazın. Yardımcı olmaya çalışacağız.</p>
+<h2 id="uygulama-menüsünde-ceno-seçeneği-yok"><a class="header" href="#uygulama-menüsünde-ceno-seçeneği-yok">Uygulama menüsünde CENO seçeneği yok</a></h2>
+<p>CENO eklentisi henüz yüklenmemiş olabilir. Lütfen bekleyin.</p>
+<h2 id="ceno-ayarları-bölümündeki-tüm-seçenekler-grileşti-ve-kullanılamıyor"><a class="header" href="#ceno-ayarları-bölümündeki-tüm-seçenekler-grileşti-ve-kullanılamıyor"><em>CENO ayarları</em> bölümündeki tüm seçenekler grileşti ve kullanılamıyor</a></h2>
+<p>CENO eklentisi yüklendi fakat henüz Ouinet üzerinden durum bilgilerini alamadı. Ouinet altyapısının hazır olması biraz zaman alabilir, lütfen bekleyin.</p>
+<p>Ayarlar bölümü iki dakikadan uzun süre bu şekilde kalırsa, Ouinet başlarken bir sorun çıkmış olabilir.</p>
+<p>Yapabiliyorsanız genellikle ulaşabildiğiniz bir sayfayı ziyaret etmeyi deneyin. Karşılaştığınız hata iletisi &quot;Kaynak alınamadı (tüm yapılandırılmış yöntemler denendi)&quot; ise CENO bağlantı sorunları (BitTorrent ağına katılamama gibi) yaşıyor olabilir. Mobil veri kullanıyorsanız kablosuz ağ ile yeniden deneyin.</p>
+<p>Bir sayfayı ziyaret ettiğinizde &quot;Vekil sunucu bağlantıları reddediyor&quot; hata iletisini görüyorsanız, aygıtınızda çalışan diğer uygulamaları kapatıp CENO uygulamasını yeniden başlatmayı deneyin.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> <code>127.0.0.1:8077</code> veya <code>127.0.0.1:8078</code> TCP bağlantı noktalarında çalışan başka bir uygulama varsa bu durum olabilir.</p>
+</blockquote>
+<h2 id="ceno-ayarları-altındaki-ouinet-istemci-durumu-başlatıldı-olarak-görünmüyor"><a class="header" href="#ceno-ayarları-altındaki-ouinet-istemci-durumu-başlatıldı-olarak-görünmüyor"><em>CENO ayarları</em> altındaki <em>Ouinet istemci durumu</em> <code>başlatıldı</code> olarak görünmüyor</a></h2>
+<p>Aygıtınızda CENO tarafından çalıştırılan Ouinet istemcisi başlatılırken sorun yaşıyor.</p>
+<p>CENO başlatıldığında durum bir kaç saniyeliğine <code>başlatılıyor</code> olarak görünebilir. Uzun süre <code>başlatılıyor</code> olarak kalırsa, uygulamanın BitTorrent ağına erişimini engelleyen bağlantı sorunları olabilir. İnternetiniz çalışıyorsa ve durum <code>başlatılıyor</code> olarak kalıyorsa, lütfen bize ulaşın (özellikle bir önceki başlatmanızda durum <code>başlatıldı</code> olarak kaldıysa).</p>
+<p>BitTorrent ağına giremiyorsanız (özellikle ilk kez CENO çalıştırdığınızda), Ouinet istemcisinin kullandığı varsayılan ön yükleme sunucuları engellenmiş veya erişilemiyor olabilir. Ayarlar bölümünden CENO için ek BitTorrent ön yükleme sunucuları eklemeniz gerekebilir. Böyle bir sunucu bilmiyorsanız bize sorabilirsiniz. Ek ön yükleyiciler ayarlandıktan sonra, uygulamayı yeniden başlatın. Sorun sürerse, bizimle görüşün.</p>
+<p>Farklı bir durum yaşıyorsanız, Ouinet istemcinizin kendisinde bir sorun olabilir. Lütfen sorunu bize bildirin.</p>
+<h2 id="bazı-içeriklere-erişirken-kaynak-alınamadı-hata-iletisi-görüntüleniyor"><a class="header" href="#bazı-içeriklere-erişirken-kaynak-alınamadı-hata-iletisi-görüntüleniyor">Bazı içeriklere erişirken &quot;Kaynak alınamadı&quot; hata iletisi görüntüleniyor</a></h2>
+<p>Bu durumda, CENO içeriğe erişmek için tüm yöntemleri denemiş ancak hepsi başarısız olmuştur.</p>
+<p>CENO çalıştırmak için şu gereksinimlerin sağlandığından emin olun:</p>
+<ul>
+<li>Güncel bir CENO Browser sürümünü kullandığınızdan emin olun. Eski sürümler diğer istemcilerle veya yeni içerik ekleyicilerle iletişim kuramayabilir. Yeni sürümleri nasıl edinebileceğinizi <a href="browser/install.html">kurulum yönergeleri</a> bölümünden öğrenebilirsiniz.</li>
+<li><a href="browser/settings.html">Ayarlar bölümündeki</a> tüm erişim yöntemlerinin açık olduğundan emin olun. Yoksa CENO içeriğe erişirken bazı bağlantı sorunlarını aşamaz.</li>
+<li>İnternet bağlantınızın çalıştığından emin olun, yani normalde kullandığınız tarayıcı, sayfaları yükleyebiliyor olmalı. CENO ve Ouinet tüm ağ bağlantıları kapatıldığında çalışamaz (kullanıcılar yine de aygıttan aygıta paylaşım için ortak bir ağ bulabilirler).</li>
+</ul>
+<p>Durum buysa, tüm erişim yöntemlerinin başarısız olmasına neyin neden olduğunu açıklamak CENO kullanarak içerik alma olasılığınızla ilgili bir fikriniz olmasını sağlayabilir.</p>
+<h3 id="kaynaktan-erişim"><a class="header" href="#kaynaktan-erişim">Kaynaktan erişim</a></h3>
+<p>CENO Browser içeriğin kaynak sunucusuna doğrudan erişemiyor. Sunucuda teknik sorunlar (bakım ya da saldırı) olabileceği gibi birisi bağlantınıza karışıyor da olabilir.</p>
+<p>Asıl CENO kullanım durumu budur ve diğer yöntemler bu sorunu çözmelidir.</p>
+<h3 id="vekil-sunucu-veya-içerik-ekleyici-erişimi"><a class="header" href="#vekil-sunucu-veya-içerik-ekleyici-erişimi">Vekil sunucu veya içerik ekleyici erişimi</a></h3>
+<p>Birisi içerik ekleyici havuzundaki adreslere olan bağlantınıza karışıyor olabilir. CENO ilgi gördükçe bu durum yaşanabilir. CENO içerik ekleyicilere erişmek için köprü olarak çalışan diğer istemcilere başvurur.</p>
+<p>Bu istemcilere CENO ile erişilememesinin farklı nedenleri olabilir:</p>
+<ul>
+<li>
+<p>Erişebileceğiniz başka bir istemci olmaması. Yalnızca birkaç Ouinet istemcisi çevrimiçiyse hiçbiri dışarıdan erişilebilen bir ağda bulunmuyor olabilir. CENO ve Ouinet yaygınlaştıkça ve yüksek kapasiteli bağlantıları olan diğer istemciler çevrimiçi oldukça bu durumun olasılığı azalır.Buradaki sıradışı durum Ouinet istemcilerinin arasındaki bağlantıların sansürleyiciler tarafından fark edilip engellenmiş olmasıdır. Bu durumun olma olasılığı azdır (çünkü tüm BitTorrent trafiğinin engellenmesini gerektirebilir) ve Ouinet kapsamı dışındadır. Ancak bu tarz saldırılara daha dayanıklı olmayı planlıyoruz.</p>
+</li>
+<li>
+<p>Herhangi bir içerik ekleyiciye erişebilen istemci olmaması. Tüm içerik ekleyicilerinin aynı anda kapalı olmasının olasılığı düşük olduğundan yalnızca bağlantınızdaki gibi bulundukları ağa karışılan istemcilere erişiyor olabilirsiniz.Bulunduğunuz ülkedeki tüm ağ trafiğine karışıldığında bu durum ortaya çıkabilir. CENO, eski olsa bile dağıtılmış ön bellekteki içerikleri yüklemeye çalışır.</p>
+</li>
+</ul>
+<p>CENO ve Ouinet yaygınlaştıkça, uluslararası sitelere bir şekilde erişebilen en az birkaç istemci bulunma olasığı artar. Erişim güvenli olmasa bile, ülkeye bir parça içerik ekleyebilen tek bir Ouinet istemcisi, ülke dışına erişmeye gerek kalmadan (dağıtılmış ön bellek üzerinden) içeriğin yayılmasını sağlamaya yeterli olabilir.</p>
+<p>Bu iki durumdan kaçınmaya çalışmak için (umarız ki) sansürsüz ülkelerde iyi bağlantısı olan bazı Ouinet istemcileri işletiyoruz. Ancak internet adresleri sabit olan böyle istemcilerin de engellenebileceğini unutmayın.</p>
+<h3 id="dağıtılmış-ön-bellek"><a class="header" href="#dağıtılmış-ön-bellek">Dağıtılmış ön bellek</a></h3>
+<p>herhangi bir içeriği dağıtılmış ön bellekten alabilmek için, bu içeriğin başka bir CENO veya Ouinet kullanıcısı tarafından daha önce eklenmiş olması gerektiğini unutmayın. Yaygın içeriklerin doğal bir şekilde eklenme ve çoğaltılma olasılığı daha yüksekken az bilinen içerikler birisi tarafından CENO veya başka bir Ouinet istemcisi ile eklenip paylaşılmak üzere ilgilenilmediği sürece (bu da onları bazı <a href="browser/../concepts/risks.html">tehlikelerle</a> karşı karşıya bırakabilir) daha azdır.</p>
+<p>Ne kadar çok kişi herkese açık gezinme ile alsa bile, paylaşımı güvenli olmayan içeriklerin asla eklenmeyeceğini unutmayın. Bunlar, kaynak sunucu tarafından kişisel veya gizli olduğu belirtilen, kimlik doğrulaması gerektiren veya çeşitli değişken site uygulamalarının trafik içerikleri olabilir.</p>
+<p>Ayrıca eklenen içeriklerin kopyalarını tutan istemcilerine erişebilmeniz gerektiğini de unutmayın. Önceki konuda köprü istemcilerine erişmek için gerekli olan durumlar burada da geçerlidir.</p>
+<h3 id="yalnızca-http-kullanan-sitelerle-ilgili-bir-not"><a class="header" href="#yalnızca-http-kullanan-sitelerle-ilgili-bir-not">Yalnızca HTTP kullanan sitelerle ilgili bir not</a></h3>
+<p>Sitelere güvenli olmayan ve düz HTTP kullanarak erişilmeden önce CENO kendiliğinden daha güvenli olan HTTPS iletişim kuralına geçer. Bu işlem adres çubuğuna düz bir adres <code>orneksite.com/</code> ya da <code>http://orneksite.com/…</code>gibi güvenli olmayan bir adres yazdığınızda ya da sayfadaki bağlantılara tıkladığınızda yerleşik [Varsayılan olarak HTTPS][HTTPS by default] eklentisi tarafından yapılır.</p>
+<p>Kendiliğinden HTTPS iletişim kuralına geçiş, birinin bir HTTP bağlantısını kesmesini ve başka bir sunucuya yönlendirip sahte içerik göstermesini (erişim engellendi iletileri gibi) önlemek için yapılır. HTTPS kullanıldığında bu tür bir ele geçirmenin algılanması önemini yitirir. Böylece CENO kandırılarak sahte içeriği yüklemek yerine sorunun etrafından dolaşabilir.</p>
+<p>Nadir de olsa bazı siteler HTTPS desteklemeyebilir ve bu sitelerde hiçbir yöntem işe yaramaz. CENO ile yükleyemediğiniz sitenin HTTPS desteklemediğinden eminseniz adres çubuğundan <code>https://</code> bölümünü <code>http://</code> olarak değiştirip yeniden deneyin.</p>
+<p>Belirli bir siteye her zaman düz HTTP ile erişmek istiyorsanız şu şekilde bir kalıcı istisna ekleyebilirsiniz:</p>
+<ol>
+<li>Uygulamanın ana menüsünden <em>Varsayılan olarak HTTPS</em> seçeneğini seçin. Eklentinin ayarlar sayfasını göreceksiniz.</li>
+<li>Aşağıda gösterildiği gibi sitenin etki alanını metin alanına yazın. Birden fazla siteyi boşluk ya da yeni satır ile ayırarak yazabilirsiniz. <code>orneksite.com</code>adresini eklediğinizde o site altındaki tüm etki alanlarının da (<code>www.orneksite.com</code> veya <code>a.b.orneksite.com</code> gibi) kapsanacağını unutmayın.</li>
+<li>Tamamladığınızda geri dönün ya da sekmeyi kapatın.</li>
+</ol>
+<p><img src="browser/images/httpsbd-exceptions.png" alt="Görsel: Yalnızca HTTP kullanan siteler için istisna ekleme" /></p>
+<p><strong>Not:</strong> Sitenin yalnızca HTTP ile erişilebilir olduğu ve sansürleyiciler tarafından içeriğinin değiştirildiği durumlarda, <a href="browser/settings.html">Ayarlar bölümüne</a> giderek <em>Kaynaktan erişim</em> seçeneğini kapatıp yeniden deneyin. Bu seçeneğin tüm siteleri etkilediğini ve bir sonraki açılışta CENO tarafından hatırlanmayacağını unutmayın. Site yöneticilerine ulaşarak HTTPS desteğini etkinleştirmelerini söylemenizi öneririz.</p>
+<h2 id="bir-site-sayfası-sahte-içerik-görüntülüyor-engelleme-iletisi-gibi"><a class="header" href="#bir-site-sayfası-sahte-içerik-görüntülüyor-engelleme-iletisi-gibi">Bir site sayfası sahte içerik görüntülüyor (engelleme iletisi gibi)</a></h2>
+<p>Siteye erişmek için daha önce eski bir CENO sürümü kullanmış ve bağlantınıza birisi tarafından karışılarak yanlış sunucuya yönlendirilmiş olabilirsiniz. CENO bu yönlendirmeyi hatırlayarak kendiliğinden önceki siteye erişmeye çalıştığınızda yanlış yönlendirilen siteyi açıyor olabilir.</p>
+<p>Bu sorunu çözmek için uygulama ana menüsünden <em>Ayarlar</em> bölümüne gidip <em>Kişisel verileri temizle</em> üzerine dokunarak CENO'nun normal gezinme ön belleğini temizleyebilirsiniz.</p>
+<p>Önceki bölümde de anlatıldığı gibi, 1.3.0 ve üzeri CENO sürümleri yeni ziyaret edilen sitelere yapılan bağlantıların ele geçirilmesini önlemek için her zaman HTTPS kullanır.</p>
+<h2 id="aygıtımdan-gönderilen-içerik-başkaları-tarafından-alınamıyor"><a class="header" href="#aygıtımdan-gönderilen-içerik-başkaları-tarafından-alınamıyor">Aygıtımdan gönderilen içerik başkaları tarafından alınamıyor</a></h2>
+<p>Öncelikle <a href="browser/settings.html"><em>CENO ayarları</em> bölümüne</a> gidip yalnızca <em>Diğer CENO kullanıcılarının paylaşımlarından</em> seçeneğinin açık bırakarak aygıtınızın içerikleri gönderdiğinden emin olun ve içeriğe yeniden erişmeyi deneyin. İçerik yüklendiğinde (bir parçası da olsa) CENO adres çubuğu simgesine dokunduğunuzda <em>Diğer CENO kullanıcılarının paylaşımlarından</em> ya da <em>Sizin paylaşımlarınızdan</em> bölümünde sıfırdan farklı değerler görmelisiniz.</p>
+<p>İçerik yüklenmezse, CENO eski içerikleri (varsayılan ayar bir haftadan eski) yerel ön bellekten kendiliğinden temizlediği için zaten silmiş olabilir. Ayarlar sayfasından <em>CENO ağı üzerinden (herkese açık)</em> seçeneğini açın ve içeriğe yeniden erişmeye çalışın. Aygıtınızın dağıtılmış ön bellek dizinlerinde içeriği duyurması için bir kaç dakika bekleyin. Yalnızca <em>Diğer CENO kullanıcılarının paylaşımlarından</em> seçeneğini yeniden açın ve içeriğe bir kez daha erişmeye çalışın. Yine yüklenmezse içerik Ouinet tarafından paylaşılmak üzere güvenli bulunmamış olabilir.</p>
+<p>Önceki adım çalışıyor fakat kaynak olarak <em>Diğer CENO kullanıcılarının paylaşımlarından</em> seçeneği açık olan başka bir aygıtta &quot;Kaynak alınamadı...&quot; hatası görüntüleniyorsa iki olasılık vardır. İki aygıtta aynı ağda olabilir (aynı kablosuz ağa bağlanmış) ya da ağ, bağlanan aygıtların aralarında doğrudan iletişim kurmalarına izin vermiyor olabilir. Herkese açık kablosuz ağlarda bu durum görülebilir, özel bir ağ kullanmayı deneyin.</p>
+<p>Aygıtlar farklı ağlarda ise sorunun bir kaç nedeni olabilir. Bu nedenlerden biri, ilk aygıtın ağının gelen bağlantıları engellemesi olabilir, <em>CENO ayarları</em> bölümünde <em>Erişilebilirlik durumu</em> için <em>Erişilebilir</em> ya da <em>Erişilebilir olmalı</em> yazmalıdır. Yoksa bu şekliyle o ağ üzerinden paylaşım yapılamaz.</p>
+<blockquote>
+<p><strong>Teknik not:</strong> Aygıtınızın erişilebilirliği <em>Kararlaştırılmamış</em> olarak görüntüleniyorsa ve kablosuz ağ yapılandırmasını değiştirebiliyorsanız, istemcinize kalıcı bir yönlendirme oluşturabilirsiniz. Ayrıntılı yönergeler için <a href="browser/bridging.html">buraya</a> bakın.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ek-ouinet-istemci-ön-yüzü"><a class="header" href="#ek-ouinet-istemci-ön-yüzü">Ek: Ouinet istemci ön yüzü</a></h1>
+<p>Ouinet istemcisinde (örneğin CENO Browser tarafından çalıştırılan) hata ayıklama gibi durumlarda kullanışlı olan bilgi ve işlemlerin bulunduğu bir ön yüz sayfası bulunur. Bu seçeneklerden çoğuna CENO uzantısının <a href="client/../browser/settings.html"><em>CENO ayarları</em> bölümünden</a> erişebilirsiniz. Fakat bazı seçenekler yalnızca burada bulunur.</p>
+<p>Ara yüze, aynı aygıtta çalışan herhangi bir tarayıcı ile erişilebilirsiniz (CENO da kullanabilirsiniz). Varsayılan adres: &lt;http://127.0.0.1:8078 /&gt;. Eriştiğinizde aşağıdaki görseldeki gibi bir şey göreceksiniz.</p>
+<p><img src="client/images/front-end.png" alt="Görsel: İstemci ara yüzü" /></p>
+<p>Sayfada görüntülenen ögeler şunlardır:</p>
+<ul>
+<li>İstemcinin HTTPS trafiğini işlemesi gerektiğinden, istemciyi tarayıcınızda sertifika kuruluşu (CA) olarak etkinleştireceği bir bağlantı.Bunu yalnızca Ouinet istemcisini farklı bir tarayıcı ile denerken kullanmanız gerekir. İçerik ekleyicilerin çalışması için HTTP/HTTPS vekil sunucularını <code>127.0.0.1: 8077</code> olarak yapılandırmanız ve [CENO uzantısını][CENO Extension] el ile etkinleştirmeniz gereklidir. Bu amaç için <em>ayrı, özel bir tarayıcı profili</em> kullanmanız önerilir.</li>
+</ul>
+<p>CENO Browser bu şekilde yapılandırılmış olarak geldiğinden bunların gerekmeyeceğini unutmayın.</p>
+<ul>
+<li>
+<p>İstemci tarafından içeriğe erişmek için kullanılacak farklı yöntemlerin açıp kapatma düğmeleri.</p>
+<ul>
+<li>Günlük ayrıntı düzeyi seçenekleri, varsayılan <code>INFO</code> (bilgi iletileri, uyarılar ve hatalar) ya da <code>DEBUG</code> (hataları bildirmek için kullanışlı ayrıntılı çıktı) gibi. Günlük dosyası da buradan etkinleştirilip alınabilir.Günlük dosyası etkinleştirilirken ayrıntı düzeyi kendiliğinden <code>DEBUG</code>olarak ayarlanır. Bunu istediğiniz zaman değiştirebilirsiniz. Günlük dosyası kapatılırken varsayılan ayrıntı düzeyi yeniden ayarlanır.</li>
+</ul>
+</li>
+<li>
+<p>Genel istemci durumu ve sürüm bilgileri. Hataları bildirirken yararlıdır.</p>
+</li>
+<li>
+<p>İstemci bağlanabilirliği ve içerik ekleyici adreslemesi hakkında bilgiler. Varsayılan <code>bep5</code> yöntemi <a href="client/../concepts/how.html">burada açıklandığı gibi</a> BitTorrent içerik ekleyici havuzundan internet adreslerine bakar.</p>
+</li>
+<li>
+<p>Dağıtılmış ön bellekteki içerik ekleyicilerinin imzaları doğrulanırken kullanılan herkese açık anahtar.</p>
+</li>
+<li>
+<p>Yerel ön belleğinizdeki en eski içeriğin yaşı, ön belleğin yaklaşık boyutu, tümüyle silme düğmesi ve ağ üzerinde duyurulan ön bellek kayıtlarının bağlantısı gibi bilgiler.</p>
+</li>
+<li>
+<p>Açıksa, dış, sabit ön bellek klasörü (CENO şu anda bunu kullanmıyor).</p>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
