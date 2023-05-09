@@ -1,13 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="fr" class="sidebar-visible no-js light">
+<html lang="fr" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Comment ça marche ? - Censorship.no! Manuel de l&#x27;Utilisateur</title>
-
-
         <!-- Custom HTML head -->
-        
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,20 +16,17 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
-
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
-
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
@@ -61,22 +55,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -89,7 +84,7 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -119,7 +114,6 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-
                     </div>
                 </div>
 
@@ -133,7 +127,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -157,10 +150,10 @@
 <p>Avec un navigateur classique, vous n'auriez pas de chance. Mais avec Ouinet, vous pouvez demander à d'autres clients leurs copies du contenu <em>X</em>, s'ils en possèdent une. Voyons comment Ouinet effectue cette demande.</p>
 <h2 id="recherche-de-contenu-partagé"><a class="header" href="#recherche-de-contenu-partagé">Recherche de contenu partagé</a></h2>
 <p>L'ensemble des contenus stockés par les clients Ouinet est appelé <strong>cache distribué</strong>, autrement dit un stockage qui ne se trouve pas dans un seul et même endroit. Mais comment votre client peut-il trouver les autres clients formant le cache qui disposent du contenu désiré ?</p>
-<p>Dans tout navigateur web, pour accéder au contenu <em>X</em>, il faut connaitre son [localisateur uniforme de ressources][Uniform Resource Locator] (URL), à savoir l'adresse figurant dans la barre d'adresse du navigateur, comme par exemple <code>https://example.com/foo/x</code>. À partir de cette URL, un navigateur classique en déduirait qu'il doit contacter le serveur web appelé <code>example.com</code> en utilisant le protocole HTTP (le langage utilisé pour échanger des ressources web) sur SSL/TLS (une couche de sécurité sur TCP, les règles Internet permettant aux programmes se communiquer entre eux) et demander la ressource <code>/foo/x</code>.</p>
+<p>Dans tout navigateur web, pour accéder au contenu <em>X</em>, il faut connaitre son <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locato">localisateur uniforme de ressources</a> (URL), à savoir l'adresse figurant dans la barre d'adresse du navigateur, comme par exemple <code>https://example.com/foo/x</code>. À partir de cette URL, un navigateur classique en déduirait qu'il doit contacter le serveur web appelé <code>example.com</code> en utilisant le protocole HTTP (le langage utilisé pour échanger des ressources web) sur SSL/TLS (une couche de sécurité sur TCP, les règles Internet permettant aux programmes se communiquer entre eux) et demander la ressource <code>/foo/x</code>.</p>
 <p>Ouinet recherche le contenu de façon différente. Il utilise un index semblable à celui d'un livre : dans l'<strong>index du cache distribué</strong> de Ouinet, on recherche une URL complète de contenu et on obtient une liste des clients qui en détiennent une copie. L'index lui-même est distribué, les clients étant chargés d'annoncer aux autres le contenu dont ils disposent. En réalité, seul un <em>indice</em> de chaque URL est annoncé, de sorte que quelqu'un qui espionne le trafic de votre appareil ne peut pas savoir quel contenu vous détenez, mais quelqu'un qui cherche un contenu particulier peut suivre les indices vers votre client.</p>
 <blockquote>
-<p><strong>Note technique :</strong> L'index est notamment mis en place grâce à la [table de hachage distribuée][Distributed Hash Table] (DHT) de [BitTorrent][BitTorrent] pour obtenir les adresses (IP et port) des clients possédant le contenu. La DHT utilise une [fonction de hachage cryptographique][Cryptographic hash function] pour calculer la clé de table à partir de l'URL du contenu et d'autres paramètres comme la clé de l'injecteur (voir ci-dessous), de sorte que plusieurs index puissent coexister.</p>
+<p><strong>Note technique :</strong> L'index est notamment mis en place grâce à la [table de hachage distribuée][Distributed Hash Table] (DHT) de <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> pour obtenir les adresses (IP et port) des clients possédant le contenu. La DHT utilise une [fonction de hachage cryptographique][Cryptographic hash function] pour calculer la clé de table à partir de l'URL du contenu et d'autres paramètres comme la clé de l'injecteur (voir ci-dessous), de sorte que plusieurs index puissent coexister.</p>
 <p>De plus, le navigateur CENO ne communique pas l'URL de chaque ressource qu'il détient : étant donné que toute page moderne possède des dizaines, voire des centaines de composants (images, feuilles de style, scripts...), le trafic en serait trop encombré. C'est pourquoi les ressources sont regroupées sous l'URL de la page qui les contient, et seule cette URL est communiquée. Ceci est réalisé grâce à une extension <em>ad hoc</em> du navigateur (décrite plus loin).</p>
 </blockquote>
 <p>Les clients offrant un contenu particulier sur le cache distribué sont censés le <strong>semer</strong> ou être leurs <em>seeders</em> (ces termes proviennent du monde du partage de fichiers P2P). Pour en revenir à notre exemple de scénario, deux clients ensemencent du contenu. Malheureusement, l'un ensemence le contenu <em>Y</em> et l'autre le contenu <em>Z</em>, de sorte que votre client ne trouvera aucune entrée pour le contenu <em>X</em> dans l'index de cache distribué, comme illustré ci-dessous :</p>
@@ -222,10 +215,6 @@
 <p>Maintenant, ce deuxième périphérique contient également une copie du contenu <em>X</em>, il l'annonce donc dans l'index de cache distribué, devenant ainsi un semeur. Si une troisième personne intéressée par ce contenu utilise le navigateur CENO pour le récupérer, CENO verra désormais <em>deux</em> adresses dans l'index du contenu : celle de votre appareil et celle du deuxième utilisateur. Si le contenu est lourd (par exemple une vidéo), ce troisième appareil peut essayer d'en obtenir la moitié de chacun des autres appareils (comme indiqué ci-dessous), accélérant ainsi le téléchargement et réduisant le trafic qu'ils utilisent.</p>
 <p><img src="images/user-flow-5.svg" alt="Figure : Le client reçoit du contenu signé de plusieurs clients" /></p>
 <p>Enfin, la situation pourrait encore s'aggraver et toutes les infrastructures de réseau commerciales et étatiques pourraient être fermées. Dans ce cas, Ouinet et CENO Browser prennent également en charge le partage de contenu * appareil à appareil * entre deux clients assis sur le même réseau local (par exemple, connectés au même point d'accès Wi-Fi), même si le réseau a pas d'accès aux autres.</p>
-<p>[Uniform Resource Locator] : https://en.wikipedia.org/wiki/Uniform_Resource_Locato
-[Fonction de hachage cryptographique]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
-[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
-[Table de hachage distribuée]: https://en.wikipedia.org/wiki/Distributed_hash_table</p>
 
                     </main>
 
@@ -234,11 +223,9 @@
                             <a rel="prev" href="../concepts/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-
                             <a rel="next" href="../concepts/public-private.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
-
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -248,7 +235,6 @@
                     <a rel="prev" href="../concepts/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-
                     <a rel="next" href="../concepts/public-private.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -256,24 +242,16 @@
 
         </div>
 
-
-
-
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-
-
         <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-
         <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-
-
     </body>
 </html>

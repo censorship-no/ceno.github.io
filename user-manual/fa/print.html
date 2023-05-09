@@ -1,14 +1,11 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="sidebar-visible no-js light">
+<html lang="fa" class="light" dir="rtl">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
         <meta name="robots" content="noindex" />
-
-
         <!-- Custom HTML head -->
-        
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,20 +17,17 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
-
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
-
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
@@ -62,22 +56,23 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -90,7 +85,7 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -120,7 +115,6 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-
                     </div>
                 </div>
 
@@ -134,7 +128,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -661,7 +654,7 @@
 </blockquote>
 <h2 id="وضعیت-وینت-ouinet-سرویسگیرنده-تحت-تنظیمات-ceno-آغاز-نشده-است"><a class="header" href="#وضعیت-وینت-ouinet-سرویسگیرنده-تحت-تنظیمات-ceno-آغاز-نشده-است">وضعیت وی‌نت (Ouinet) سرویس‌گیرنده تحت تنظیمات CENO آغاز نشده است</a></h2>
 <p>مشکلاتی برای سرویس‌گیرنده Ouinet که توسط CENO اجرا می‌شود، پدید آمده که آغاز آن از دستگاه شما بوده است.</p>
-<p>وقتی CENO را راه‌اندازی می‌کنید، ممکن است وضعیت برای چند ثانیه در حالت «شروع» باشد. این طبیعی است با این حال، اگر وضعیت برای مدت طولانی در حالت &quot;شروع&quot; باقی بماند، ممکن است سیگنالی از مشکلات جدی اتصال باشد که مانع از دسترسی برنامه به شبکه BitTorrent می شود. لطفاً اتصال شبکه خود را بررسی کنید و CENO را مجدداً راه اندازی کنید. اگر اتصال فعال دارید اما وضعیت همچنان در حالت &quot;شروع&quot; است، لطفاً با ما تماس بگیرید (به‌ویژه اگر وضعیت در اجراهای قبلی در حالت «شروع‌شده» یا Started باشد)</p>
+<p>وقتی CENO را راه‌اندازی می‌کنید، ممکن است وضعیت برای چند ثانیه در حالت «شروع» باشد. این طبیعی است با این حال، اگر وضعیت برای مدت طولانی در حالت &quot;شروع&quot; باقی بماند، ممکن است سیگنالی از مشکلات جدی اتصال باشد که مانع از دسترسی برنامه به شبکه BitTorrent می شود. لطفاً اتصال شبکه خود را بررسی کنید و CENO را مجدداً راه اندازی کنید. اگر اتصال فعال دارید اما وضعیت همچنان در حالت &quot;شروع&quot; است، لطفاً با ما تماس بگیرید (به‌ویژه اگر وضعیت در اجراهای قبلی در حالت «شروع‌شده» یا Started باشد).</p>
 <p>یکی از علت‌های احتمالی برای عدم امکان ورود به شبکه «بیت‌تورنت» - بیشتر وقتی که CENO را برای اولین‌بار اجرا می‌کنید-، این است که سرورهای بوت استرپ پیش‌فرض استفاده شده توسط کلاینت Ouinet مسدود یا غیرقابل دسترسی هستند. در این صورت شاید قصد استفاده از «سرورهای بوت‌استرپ اضافی بیت‌تورنت» از طریق صفحه تنظیمات «سنو» (settings.md) را داشته باشید. اگر این‌چنین سروری را نمی‌شناسید، می توانید از ما بپرسید. پس از تنظیم بوت‌استرپ های اضافی، لطفاً برنامه را مجدداً راه‌اندازی کنید. اگر مشکل همچنان ادامه داشت، با ما تماس بگیرید.</p>
 <p>اگر همواره وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در سرویس‌گیرنده Ouinet وجود داشته باشد. لطفا مشکل را به ما گزارش دهید.</p>
 <h2 id="دسترسی-به-محتوایی-خاص-پیغام-بازیابی-منبع-ناموفق-بود-را-نشان-میدهد"><a class="header" href="#دسترسی-به-محتوایی-خاص-پیغام-بازیابی-منبع-ناموفق-بود-را-نشان-میدهد">دسترسی به محتوایی خاص پیغام «بازیابی منبع ناموفق بود» را نشان می‌دهد</a></h2>
@@ -754,42 +747,31 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-
-
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-
             </nav>
 
         </div>
 
-
-
-
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-
-
         <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-
         <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-
         <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
-
     </body>
 </html>
