@@ -2,12 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2023-05-10 11:57-0700\n"
-=======
 "POT-Creation-Date: 2023-05-10 13:29-0700\n"
->>>>>>> origin/master
-"PO-Revision-Date: 2023-04-21 22:59+0000\n"
+"PO-Revision-Date: 2023-05-10 22:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/tr/>\n"
@@ -59,6 +55,7 @@ msgstr "TR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
+<<<<<<< HEAD
 #: about.html%2Bhtml.body.nav.div.div.div.div:115-5
 #, fuzzy
 #| msgid ""
@@ -72,6 +69,9 @@ msgstr "TR"
 #| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a "
 #| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about."
 #| "html\">Українська</a>"
+=======
+#: about.html%2Bhtml.body.nav.div.div.div.div:114-5
+>>>>>>> f9fac02b (Translated using Weblate (Turkish))
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
@@ -88,6 +88,7 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+<<<<<<< HEAD
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
 "href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
@@ -96,6 +97,19 @@ msgstr ""
 "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
+=======
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
+"ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang="
+"\"tr\" href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-item\" lang="
+"\"uk\" hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> <a class"
+"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\""
+">اردو</a>"
+>>>>>>> f9fac02b (Translated using Weblate (Turkish))
 
 #: about.html%2Bhtml.body.main.title:137-1
 #, fuzzy
@@ -163,7 +177,7 @@ msgid ""
 "inside the country peer-to-peer."
 msgstr ""
 "Bir CENO kullanıcısı bir siteye eriştiğinde site içeriği kaydedilir ve "
-"ülkedeki uçtan uca ağ üzerinde paylaşılır."
+"ülkedeki eşler arası ağ üzerinde paylaşılır."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
@@ -211,9 +225,55 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+<<<<<<< HEAD
 #~ msgctxt "about.html+html.body.main.title:136-1"
 #~ msgid "CENO Browser | About"
 #~ msgstr "CENO Browser | Hakkında"
+=======
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: about.html%2Bhtml.body.nav.div.div.div.div:115-5
+msgid ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href="
+"\"../pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item"
+"\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a class="
+"\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html"
+"\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href="
+"\"../ur/about.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
+"pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html\""
+">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
+"../ur/about.html\">اردو</a>"
+
+#: about.html%2Bhtml.body.main.title:137-1
+#, fuzzy
+msgctxt "about.html+html.body.main.title:137-1"
+msgid "CENO Browser | About"
+msgstr "CENO Browser | Hakkında"
+
+#: about.html%2Bhtml.body.main.title:138-1
+#, fuzzy
+msgctxt "about.html+html.body.main.title:138-1"
+msgid "CENO Browser | About"
+msgstr "CENO Browser | Hakkında"
+>>>>>>> 163a78c5 (Translated using Weblate (Turkish))
 
 #~ msgctxt "about.html+html.body.main.title:132-1"
 #~ msgid "CENO Browser | About"
