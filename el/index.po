@@ -2,8 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2023-05-10 11:57-0700\n"
+=======
 "POT-Creation-Date: 2023-05-10 13:29-0700\n"
-"PO-Revision-Date: 2023-05-10 18:59+0000\n"
+>>>>>>> origin/master
+"PO-Revision-Date: 2023-04-06 06:38+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/el/>\n"
@@ -12,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -55,7 +59,6 @@ msgstr "EL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-<<<<<<< HEAD
 #: index.html%2Bhtml.body.nav.div.div.div.div:115-5
 #, fuzzy
 #| msgid ""
@@ -69,9 +72,6 @@ msgstr "EL"
 #| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a "
 #| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index."
 #| "html\">Українська</a>"
-=======
-#: index.html%2Bhtml.body.nav.div.div.div.div:114-5
->>>>>>> 000309f3 (Translated using Weblate (Greek))
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
 "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
@@ -88,7 +88,6 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-<<<<<<< HEAD
 "html\">English</a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" "
 "href=\"../el/about.html\">Ελληνικά</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/index.html\">Español</a> <a class=\"navbar-"
@@ -98,46 +97,22 @@ msgstr ""
 "href=\"../my/index.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" "
 "hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-"
 "item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
-=======
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class"
-"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\""
-">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../"
-"ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang="
-"\"tr\" href=\"../tr/index.html\">Türkçe</a> <a class=\"navbar-item\" lang="
-"\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a> <a class"
-"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</"
-"a> <a class=\"navbar-item\" lang=\"el\" hreflang=\"el\" href=\"../ur/index."
-"html\">Ελληνικά</a>"
->>>>>>> 000309f3 (Translated using Weblate (Greek))
 
-<<<<<<< HEAD
 #: index.html%2Bhtml.body.main.title:137-1
 #, fuzzy
 #| msgctxt "index.html+html.body.main.title:131-1"
 #| msgid "CENO Browser | Share the Web"
 msgctxt "index.html+html.body.main.title:137-1"
-=======
-#: index.html%2Bhtml.body.main.title:135-1
-msgctxt "index.html+html.body.main.title:135-1"
->>>>>>> 10157658 (Translated using Weblate (Greek))
 msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Διαμοιράστε τον Ιστό"
+msgstr "CENO Browser | Διαμοιράστε το Διαδίκτυο"
 
-<<<<<<< HEAD
 #: index.html%2Bhtml.body.main.title:138-1
 #, fuzzy
 #| msgctxt "index.html+html.body.main.title:131-1"
 #| msgid "CENO Browser | Share the Web"
 msgctxt "index.html+html.body.main.title:138-1"
-=======
-#: index.html%2Bhtml.body.main.title:136-1
-msgctxt "index.html+html.body.main.title:136-1"
->>>>>>> 10157658 (Translated using Weblate (Greek))
 msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Διαμοιράστε τον Ιστό"
+msgstr "CENO Browser | Διαμοιράστε το Διαδίκτυο"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:145-9
 msgid "CENO Browser banner"
@@ -212,7 +187,6 @@ msgstr ""
 "φυλλομετρητή CENO για άμεση πρόσβαση στο δίκτυο και βοηθήστε στη "
 "διαθεσιμότητα των αποκλεισμένων ιστότοπων στις χώρες με λογοκρισία."
 
-<<<<<<< HEAD
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
 #, fuzzy
 #| msgctxt ""
@@ -228,15 +202,6 @@ msgstr "Ελεύθερο και ανοιχτό λογισμικό"
 #| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:186-13"
 #| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:196-15"
-=======
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:190-13
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:190-13"
-msgid "Free and Open Source"
-msgstr "Ελεύθερο και ανοιχτό λογισμικό"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:191-15
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:191-15"
->>>>>>> 10157658 (Translated using Weblate (Greek))
 msgid "Free and Open Source"
 msgstr "Ελεύθερο και ανοιχτό λογισμικό"
 
@@ -286,7 +251,6 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
-<<<<<<< HEAD
 #, fuzzy
 #~| msgctxt "index.html+html.body.main.title:131-1"
 #~| msgid "CENO Browser | Share the Web"
@@ -301,77 +265,6 @@ msgstr ""
 #~ msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:191-15"
 #~ msgid "Free and Open Source"
 #~ msgstr "Ελεύθερο και ανοιχτό λογισμικό"
-=======
-#.  Sorted alphabetically by language code. 
-#.  TRANSLATORS: Please do not translate any of these. 
-#: index.html%2Bhtml.body.nav.div.div.div.div:115-5
-msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class="
-"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href="
-"\"../pt_BR/index.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-"hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item"
-"\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/index.html\">Türkçe</a> <a class="
-"\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html"
-"\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href="
-"\"../ur/index.html\">اردو</a>"
-msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a class"
-"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index.html\""
-">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
-"pt_BR/index.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-"hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-"
-"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/index.html\">Türkçe</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\""
-">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
-"../ur/index.html\">اردو</a> <a class=\"navbar-item\" lang=\"el\" hreflang="
-"\"el\" href=\"../ur/index.html\">Ελληνικά</a>"
-
-#: index.html%2Bhtml.body.main.title:137-1
-msgctxt "index.html+html.body.main.title:137-1"
-msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Διαμοιράστε τον Ιστό"
-
-#: index.html%2Bhtml.body.main.title:138-1
-msgctxt "index.html+html.body.main.title:138-1"
-msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Διαμοιράστε τον Ιστό"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:156-17
-msgid "Get it on F-droid"
-msgstr "Λήψη από F-droid"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
-msgid "Free and Open Source"
-msgstr "Ελεύθερο και ανοιχτό λογισμικό"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:196-15
-msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:196-15"
-msgid "Free and Open Source"
-msgstr "Ελεύθερο και ανοιχτό λογισμικό"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:197-15
-msgid ""
-"CENO is based on <a href=\"https://mozac.org/\">Mozilla Android Components</"
-"a>, extended to make use of the <a href=\"https://github.com/equalitie/ouinet"
-"\">Ouinet library</a> - enabling third party developers to incorporate the "
-"CENO network into their apps for P2P connectivity."
-msgstr ""
-"Το CENO βασίζεται στο <a href=\"https://mozac.org/\">Mozilla Android "
-"Components</a>, προσαρμοσμένο για χρήση της <a href=\"https://github.com/"
-"equalitie/ouinet\">βιβλιοθήκης Quinet</a>, δίνοντας τη δυνατότητα σε τρίτους "
-"προγραμματιστές, να ενσωματώσουν το δίκτυο CENO στις εφαρμογές τους για "
-"συνδεσιμότητα Ρ2Ρ."
->>>>>>> 000309f3 (Translated using Weblate (Greek))
 
 #~ msgctxt "index.html+html.body.main.title:132-1"
 #~ msgid "CENO Browser | Share the Web"
