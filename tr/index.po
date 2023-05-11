@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-09 18:08-0700\n"
-"PO-Revision-Date: 2023-04-21 22:59+0000\n"
+"PO-Revision-Date: 2023-05-11 17:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/tr/>\n"
@@ -99,17 +99,11 @@ msgstr ""
 "html\">اردو</a>"
 
 #: index.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgctxt "index.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Share the Web"
 msgctxt "index.html+html.body.main.title:137-1"
 msgid "CENO Browser | Share the Web"
 msgstr "CENO Browser | İnterneti paylaş"
 
 #: index.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgctxt "index.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Share the Web"
 msgctxt "index.html+html.body.main.title:138-1"
 msgid "CENO Browser | Share the Web"
 msgstr "CENO Browser | İnterneti paylaş"
@@ -139,10 +133,8 @@ msgid "Get it on Google Play"
 msgstr "Google Play üzerinden alın"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:156-17
-#, fuzzy
-#| msgid "Get it on Gitlab"
 msgid "Get it on F-droid"
-msgstr "GitLab üzerinden alın"
+msgstr "F-Droid üzerinden alın"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:159-17
 msgid "Get it on Paskoocheh"
@@ -185,31 +177,16 @@ msgstr ""
 "Browser uygulamasını kurun ve çalıştırın."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:190-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
 msgid "Free and Open Source"
 msgstr "Özgür ve açık kaynaklı"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:196-15
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:190-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:196-15"
 msgid "Free and Open Source"
 msgstr "Özgür ve açık kaynaklı"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:197-15
-#, fuzzy
-#| msgid ""
-#| "CENO is based on <a href=\"https://www.mozilla.org/firefox/android/"
-#| "\">Firefox for Android</a>, extended to make use of the <a href=\"https://"
-#| "github.com/equalitie/ouinet\">Ouinet library</a> - enabling third party "
-#| "developers to incorporate the CENO network into their apps for P2P "
-#| "connectivity."
 msgid ""
 "CENO is based on <a href=\"https://mozac.org/\">Mozilla Android Components</"
 "a>, extended to make use of the <a href=\"https://github.com/equalitie/"
@@ -217,10 +194,10 @@ msgid ""
 "the CENO network into their apps for P2P connectivity."
 msgstr ""
 "CENO <a href=\"https://www.mozilla.org/firefox/android/\">Android için "
-"Firefox</a> tabanlıdır ve <a href=\"https://github.com/equalitie/"
-"ouinet\">Ouinet kitaplığını</a> kullanacak şekilde genişletilmiştir. Böylece "
-"üçüncü taraf geliştiriciler uçtan uca bağlantı için kendi uygulamalarına "
-"CENO ağını kolayca ekleyebilir."
+"Firefox</a> tabanlıdır ve <a href=\"https://github.com/equalitie/ouinet\""
+">Ouinet kitaplığını</a> kullanacak şekilde genişletilmiştir. Böylece üçüncü "
+"taraf geliştiriciler uçtan uca bağlantı için kendi uygulamalarına CENO ağını "
+"kolayca ekleyebilir."
 
 #: index.html%2Bhtml.body.footer.div.p:218-9
 msgid ""
@@ -244,8 +221,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #~ msgctxt "index.html+html.body.main.title:136-1"
 #~ msgid "CENO Browser | Share the Web"
