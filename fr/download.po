@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-09 16:02-0700\n"
-"PO-Revision-Date: 2023-05-01 18:27+0000\n"
+"PO-Revision-Date: 2023-05-11 18:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/fr/>\n"
@@ -96,17 +96,11 @@ msgstr ""
 "html\">Українська</a>"
 
 #: download.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Download"
 msgctxt "download.html+html.body.main.title:137-1"
 msgid "CENO Browser | Download"
 msgstr "Navigateur CENO | Téléchargement"
 
 #: download.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Download"
 msgctxt "download.html+html.body.main.title:138-1"
 msgid "CENO Browser | Download"
 msgstr "Navigateur CENO | Téléchargement"
@@ -132,22 +126,16 @@ msgid "Get it on Google Play"
 msgstr "Télécharger sur Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:152-19
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
-#| "download the APK directly via GitLab:"
 msgid ""
 "Alternatively, you can install CENO via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
-"Vous pouvez également installer CENO via le marketplace Paskoocheh, ou "
-"télécharger l'APK directement via Gitlab :"
+"Vous pouvez également installer CENO via F-Droid, le marketplace Paskoocheh, "
+"ou télécharger l'APK directement via Gitlab :"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:154-21
-#, fuzzy
-#| msgid "Get it on GitLab"
 msgid "Get it on F-droid"
-msgstr "Télécharger sur Gitlab"
+msgstr "Télécharger sur F-droid"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:157-17
 msgid "Get it on Paskoocheh"
@@ -171,10 +159,8 @@ msgstr ""
 "le dernier APK :"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
-#, fuzzy
-#| msgid "CENO Browser 1.5.0"
 msgid "CENO Browser 2.0.2"
-msgstr "Navigateur CENO 1.5.0"
+msgstr "Navigateur CENO 2.0.2"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
 msgid "Download (32-bit ARM)"
@@ -190,9 +176,9 @@ msgid ""
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
-"Exécutez ceci pour <a href=\"https://developer.android.com/studio/command-"
-"line/apksigner#usage-verify\">vérifier</a> si l'APK a une signature valide "
-"du certificat avec l'empreinte numérique suivante :"
+"Exécutez ceci pour <a href=\"https://developer.android.com/studio/"
+"command-line/apksigner#usage-verify\">vérifier</a> si l'APK a une signature "
+"valide du certificat avec l'empreinte numérique suivante :"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:183-1
@@ -233,8 +219,8 @@ msgstr ""
 "ie</a> – une entreprise canadienne à but non lucratif qui conçoit des "
 "systèmes open source privilégiant le respect de la vie privée, la sécurité "
 "en ligne et la liberté d'association. Nos solutions et innovations "
-"technologiques sont empreints des <a href=\"https://equalit.ie/en/values/"
-"\">valeurs</a> qui nous guident pour protéger les droits et aspirations de "
+"technologiques sont empreints des <a href=\"https://equalit.ie/en/values/\""
+">valeurs</a> qui nous guident pour protéger les droits et aspirations de "
 "chacun en ligne."
 
 #.  TRANSLATORS: Please do not translate this. 
@@ -243,8 +229,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no ! 2018<script>new Date().getFullYear()>2018&&document.write("
+"\"-\"+new Date().getFullYear());</script>"
 
 #~ msgctxt "download.html+html.body.main.title:136-1"
 #~ msgid "CENO Browser | Download"
