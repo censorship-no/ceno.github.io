@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
+"POT-Creation-Date: 2023-05-12 12:20-0700\n"
 "PO-Revision-Date: 2023-04-04 16:41+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -41,7 +41,9 @@ msgid "Donate"
 msgstr "Δωρεά"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
+#, fuzzy
+#| msgid "Get CENO"
+msgid "Get Ceno"
 msgstr "Αποκτήστε το CENO"
 
 #: download.html%2Bhtml.body.nav.div.div.div:107-10
@@ -100,7 +102,6 @@ msgstr ""
 #, fuzzy
 #| msgctxt "download.html+html.body.main.title:131-1"
 #| msgid "CENO Browser | Download"
-msgctxt "download.html+html.body.main.title:137-1"
 msgid "CENO Browser | Download"
 msgstr "CENO Browser | Λήψη"
 
@@ -108,21 +109,28 @@ msgstr "CENO Browser | Λήψη"
 #, fuzzy
 #| msgctxt "download.html+html.body.main.title:131-1"
 #| msgid "CENO Browser | Download"
-msgctxt "download.html+html.body.main.title:138-1"
-msgid "CENO Browser | Download"
+msgid "Ceno Browser | Download"
 msgstr "CENO Browser | Λήψη"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:144-13
-msgid "CENO Browser banner"
+#, fuzzy
+#| msgid "CENO Browser banner"
+msgid "Ceno Browser banner"
 msgstr "Τίτλος CENO Browser"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:148-7
-msgid "Get CENO Browser"
+#, fuzzy
+#| msgid "Get CENO Browser"
+msgid "Get Ceno Browser"
 msgstr "Λήψη περιηγητή CENO"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:149-3
+#, fuzzy
+#| msgid ""
+#| "The safest way to install CENO Browser on your Android phone is through "
+#| "the Google Play Store:"
 msgid ""
-"The safest way to install CENO Browser on your Android phone is through the "
+"The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
 "Ο ασφαλέστερος τρόπος εγκατάστασης του περιηγητή CENO στο android τηλέφωνό "
@@ -138,7 +146,7 @@ msgstr "Λήψη από Google Play"
 #| "Alternatively, you can install CENO via the Paskoocheh Marketplace, or "
 #| "download the APK directly via GitLab:"
 msgid ""
-"Alternatively, you can install CENO via F-Droid, the Paskoocheh Marketplace, "
+"Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
 "Εναλλακτικά, μπορείτε να εγκαταστήσετε το CENO μέσω του Paskoocheh ή να "
@@ -163,8 +171,12 @@ msgid "Direct Download"
 msgstr "Άμεση λήψη"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-15
+#, fuzzy
+#| msgid ""
+#| "For advanced users or those unable to install CENO Browser via the above "
+#| "links, you can download the latest APK directly:"
 msgid ""
-"For advanced users or those unable to install CENO Browser via the above "
+"For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
 "Για προχωρημένους χρήστες ή όσους δεν μπορούν να εγκαταστήσουν τον CENO "
@@ -174,7 +186,7 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
 #, fuzzy
 #| msgid "CENO Browser 1.6.1"
-msgid "CENO Browser 2.0.2"
+msgid "Ceno Browser 2.0.2"
 msgstr "Φυλλομετρητής CENO 1.6.1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
@@ -222,8 +234,16 @@ msgstr ""
 "code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:207-9
+#, fuzzy
+#| msgid ""
+#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
+#| "a> – a not-for-profit Canadian company developing open and reusable "
+#| "systems with a focus on privacy, online security and freedom of "
+#| "association. Technology solutions and innovations are driven by our <a "
+#| "href=\"https://equalit.ie/en/values/\">values</a> that guide us to "
+#| "protect the rights and aspirations of everyone online."
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
@@ -246,6 +266,13 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgctxt "download.html+html.body.main.title:131-1"
+#~| msgid "CENO Browser | Download"
+#~ msgctxt "download.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | Download"
+#~ msgstr "CENO Browser | Λήψη"
 
 #, fuzzy
 #~| msgctxt "download.html+html.body.main.title:131-1"
