@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:20-0700\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
 "PO-Revision-Date: 2023-03-10 07:39+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
@@ -100,13 +100,6 @@ msgstr ""
 "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/"
 "privacy_policy.html\">Українська</a>"
-
-#: privacy_policy.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgctxt "privacy_policy.html+html.body.main.title:128-1"
-#| msgid "CENO Browser | Privacy Policy"
-msgid "CENO Browser | Privacy Policy"
-msgstr "Περιηγητής CENO | Σημειώσεις Απορρήτου"
 
 #: privacy_policy.html%2Bhtml.body.main.title:138-1
 #, fuzzy
@@ -347,6 +340,12 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgctxt "privacy_policy.html+html.body.main.title:128-1"
+#~| msgid "CENO Browser | Privacy Policy"
+#~ msgid "CENO Browser | Privacy Policy"
+#~ msgstr "Περιηγητής CENO | Σημειώσεις Απορρήτου"
 
 #, fuzzy
 #~| msgctxt "privacy_policy.html+html.body.main.title:128-1"

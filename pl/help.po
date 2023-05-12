@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:20-0700\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
 "PO-Revision-Date: 2022-07-23 16:18+0000\n"
 "Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
@@ -90,12 +90,6 @@ msgstr ""
 "lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a "
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
 "html\">Pусский</a>"
-
-#: help.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgid "Get CENO Browser"
-msgid "CENO Browser | Community"
-msgstr "Pobierz przeglądarkę CENO"
 
 #: help.html%2Bhtml.body.main.title:138-1
 #, fuzzy
@@ -333,6 +327,11 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgid "Get CENO Browser"
+#~ msgid "CENO Browser | Community"
+#~ msgstr "Pobierz przeglądarkę CENO"
 
 #, fuzzy
 #~| msgid "Get CENO Browser"
