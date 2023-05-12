@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-11 17:38+0000\n"
+"PO-Revision-Date: 2023-05-12 21:47+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/tr/>\n"
@@ -41,10 +41,8 @@ msgid "Donate"
 msgstr "Bağış yapın"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-#, fuzzy
-#| msgid "Get CENO"
 msgid "Get Ceno"
-msgstr "CENO'yu edinin"
+msgstr "Ceno'yu edinin"
 
 #: download.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -87,34 +85,23 @@ msgstr ""
 "html\">Українська</a>"
 
 #: download.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgctxt "download.html+html.body.main.title:137-1"
-#| msgid "CENO Browser | Download"
 msgid "Ceno Browser | Download"
-msgstr "CENO Browser | İndir"
+msgstr "Ceno Browser | İndir"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:144-13
-#, fuzzy
-#| msgid "CENO Browser banner"
 msgid "Ceno Browser banner"
 msgstr "Ceno Browser afişi"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:148-7
-#, fuzzy
-#| msgid "Get CENO Browser"
 msgid "Get Ceno Browser"
-msgstr "CENO Browser edinin"
+msgstr "CENO Browser’ı indirin"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:149-3
-#, fuzzy
-#| msgid ""
-#| "The safest way to install CENO Browser on your Android phone is through "
-#| "the Google Play Store:"
 msgid ""
 "The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
-"CENO Browser Android telefonunuza kurmanın en güvenli yolu Google Play Store "
+"Ceno Browser Android telefonunuza kurmanın en güvenli yolu Google Play Store "
 "kullanmaktır:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:151-15
@@ -122,16 +109,12 @@ msgid "Get it on Google Play"
 msgstr "Google Play üzerinden alın"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:152-19
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install CENO via F-Droid, the Paskoocheh "
-#| "Marketplace, or download the APK directly via GitLab:"
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
-"Ayrıca Paskoocheh ya da GitLab üzerinden APK dosyasını doğrudan "
-"indirebilirsiniz:"
+"Ayrıca, Ceno’yu F-Droid ve Paskoocheh aracılığıyla indirebilir ya da GitLab "
+"üzerinden APK dosyasını indirebilirsiniz:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:154-21
 msgid "Get it on F-droid"
@@ -147,25 +130,19 @@ msgstr "GitLab üzerinden alın"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:174-15
 msgid "Direct Download"
-msgstr "Doğrudan indirme"
+msgstr "Direkt İndirme"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-15
-#, fuzzy
-#| msgid ""
-#| "For advanced users or those unable to install CENO Browser via the above "
-#| "links, you can download the latest APK directly:"
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
-"Yukarıdaki bağlantılardan kuramıyorsanız ya da uzman bir kullanıcıysanız APK "
-"dosyasını doğrudan indirebilirsiniz:"
+"Deneyimli kullanıcılar ya da yukarıdaki bağlantılardan kurulum yapamayanlar "
+"APK dosyasını indirebilir:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
-#, fuzzy
-#| msgid "CENO Browser 2.0.2"
 msgid "Ceno Browser 2.0.2"
-msgstr "CENO Browser 2.0.2"
+msgstr "Ceno Browser 2.0.2"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
 msgid "Download (32-bit ARM)"
@@ -181,9 +158,9 @@ msgid ""
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
-"APK dosyasının imzasını, parmak izi aşağıdaki gibi olan sertifikalar ile <a "
-"href=\"https://developer.android.com/studio/command-line/apksigner#usage-"
-"verify\">doğrulamak için</a> şu komutu yürütün:"
+"APK'nın aşağıda gösterilen parmak izine sahip sertifikadan geçerli bir "
+"imzaya sahip olduğunu <a href=\"https://developer.android.com/studio/"
+"command-line/apksigner#usage-verify\">doğrulamak</a> için bunu çalıştırın:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:183-1
@@ -204,22 +181,14 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Ayrıca <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt\">dosya "
-"karmaları</a> için <a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
-"txt.asc\">imzaları</a>, <a href=\"https://pgp.mit.edu/pks/lookup?"
-"op=get&search=0xC7DCC123F0DDB862\">PGP anahtarımızla</a> (<code>(51 BE 600C "
-"2711 926C 865D F93F C7DC C123 F0DD B862)</code> parmak izi koduyla) "
-"karşılaştırarak da doğrulayabilirsiniz."
+"<a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt\">Dosya "
+"karmalarının</a> <a href=\"https://dcomm.net.ua/package/ceno/sha256sums.txt."
+"asc\">imzalarını</a>, <a href=\"https://pgp.mit.edu/pks/lookup?op=get&search="
+"0xC7DCC123F0DDB862\">PGP anahtarımızla</a> göre de doğrulayabilirsiniz ("
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> parmak "
+"iziyle)."
 
 #: download.html%2Bhtml.body.footer.div.p:207-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a not-for-profit Canadian company developing open and reusable "
-#| "systems with a focus on privacy, online security and freedom of "
-#| "association. Technology solutions and innovations are driven by our <a "
-#| "href=\"https://equalit.ie/en/values/\">values</a> that guide us to "
-#| "protect the rights and aspirations of everyone online."
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -228,12 +197,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser, gizlilik, çevrimiçi güvenlik ve örgütlenme özgürlüğüne "
-"odaklanarak açık ve yeniden kullanılabilir sistemler geliştiren Kanadalı <a "
-"href=\"https://equalit.ie\">eQualitie</a> kuruluşunun bir projesidir. "
-"Teknoloji çözümleri ve yenilikleri, çevrimiçi olan herkesin haklarını ve "
-"isteklerini korumamıza rehberlik eden <a href=\"https://equalit.ie/en/values/"
-"\">değerlerimiz</a> tarafından belirlenir."
+"Ceno Browser bir <a href=\"https://equalit.ie\">eQualitie</a> projesidir. "
+"eQualitie gizlilik, çevrimiçi güvenlik ve örgütlenme özgürlüğüne odaklanarak "
+"açık ve yeniden kullanılabilir sistemler geliştiren bir Kanadalı kar amacı "
+"gütmeyen şirkettir. Teknoloji çözümleri ve yenilikleri, çevrimiçi olan "
+"herkesin haklarını ve isteklerini korumamıza rehberlik eden <a href=\"https"
+"://equalit.ie/en/values/\">değerlerimiz</a> tarafından belirlenir."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:209-23
@@ -241,8 +210,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #, fuzzy
 #~| msgctxt "download.html+html.body.main.title:137-1"

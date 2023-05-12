@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2022-07-23 16:18+0000\n"
-"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"PO-Revision-Date: 2023-05-12 22:41+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/pl/>\n"
 "Language: pl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -42,10 +42,8 @@ msgid "Donate"
 msgstr ""
 
 #: help.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-#, fuzzy
-#| msgid "Get CENO"
 msgid "Get Ceno"
-msgstr "Pobierz CENO"
+msgstr "Pobierz Ceno"
 
 #: help.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -92,10 +90,8 @@ msgstr ""
 "html\">Pусский</a>"
 
 #: help.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgid "Get CENO Browser"
 msgid "Ceno Browser | Community"
-msgstr "Pobierz przeglądarkę CENO"
+msgstr "Pobierz przeglądarkę Ceno"
 
 #: help.html%2Bhtml.body.main.div.h1:140-5
 msgid "Get Involved!"
@@ -113,28 +109,20 @@ msgid "Translations"
 msgstr "Tłumaczenia"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:153-9
-#, fuzzy
-#| msgid ""
-#| "Help translate the CENO Browser app, web extension, user manual and "
-#| "website!"
 msgid ""
 "Help translate the Ceno Browser app, web extension, user manual and website! "
 "We use Weblate to crowdsource translations."
 msgstr ""
-"Pomóż przetłumaczyć aplikację Przeglądarka CENO, rozszerzenie, instrukcję "
+"Pomóż przetłumaczyć aplikację Przeglądarka Ceno, rozszerzenie, instrukcję "
 "obsługi oraz stronę internetową!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:154-13
-#, fuzzy
-#| msgid ""
-#| "Please contact the CENO team via the contact form below if you're "
-#| "interested in becoming a reviewer for translation(s) in your language(s)."
 msgid ""
 "Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
 "contact form below) if you're interested in becoming a reviewer for "
 "translation(s) in your language(s)."
 msgstr ""
-"Skontaktuj się z zespołem CENO poprzez formularz kontaktowy poniżej jeżeli "
+"Skontaktuj się z zespołem Ceno poprzez formularz kontaktowy poniżej jeżeli "
 "jesteś zainteresowany zostaniem recenzentem dla tłumaczeń w twoim języku."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:155-13
@@ -226,8 +214,6 @@ msgid "Become a bridge!"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:211-17
-#, fuzzy
-#| msgid "﻿Want to help grow the network? Join the swarm!"
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "Chcesz pomóc w rozwoju sieci? Dołącz do roju!"
 
@@ -236,14 +222,10 @@ msgid "The easy way: Android"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:220-17
-#, fuzzy
-#| msgid ""
-#| "The easy way: Android. ﻿﻿﻿﻿﻿Run CENO Browser on your Android device, and/or a "
-#| "spare, always-on device."
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
-"Najprostsza droga: Android. Uruchom przeglądarkę CENO na Twoim urządzeniu "
+"Najprostsza droga: Android. Uruchom przeglądarkę Ceno na Twoim urządzeniu "
 "Android i/lub na zapasowym, zawsze włączonym urządzeniu."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:227-3
@@ -280,14 +262,10 @@ msgid "Thank you for growing the network!"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:256-17
-#, fuzzy
-#| msgid ""
-#| "﻿﻿﻿THANK YOU FOR JOINING THE SWARM! Install the CENO Web Extension and the "
-#| "provided certificate to test it out!"
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr ""
-"DZIĘKUJEMY ZA DOŁĄCZENIE DO ROJU! Zainstaluj rozszerzenie CENO oraz "
+"DZIĘKUJEMY ZA DOŁĄCZENIE DO ROJU! Zainstaluj rozszerzenie Ceno oraz "
 "dostarczony certyfikat, aby go przetestować!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
@@ -296,14 +274,6 @@ msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
 
 #: help.html%2Bhtml.body.footer.div.p:283-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a not-for-profit Canadian company developing open and reusable "
-#| "systems with a focus on privacy, online security and freedom of "
-#| "association. Technology solutions and innovations are driven by our <a "
-#| "href=\"https://equalit.ie/en/values/\">values</a> that guide us to "
-#| "protect the rights and aspirations of everyone online."
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -312,7 +282,7 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser jest projektem <a href=\"https://equalit.ie\">eQualit.ie</a> - "
+"Ceno Browser jest projektem <a href=\"https://equalit.ie\">eQualit.ie</a> - "
 "kanadyjskiej firmy non-profit, która rozwija otwarte i wielokrotnego użytku "
 "systemy, koncentrując się na prywatności, bezpieczeństwie online i wolności "
 "stowarzyszeń. Rozwiązania technologiczne i innowacje są napędzane przez "
