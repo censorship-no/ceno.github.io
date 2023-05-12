@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2023-04-29 14:48+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 21:47+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website-donate/es/>\n"
 "Language: es\n"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr "Donar"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "Obtén CENO"
+msgid "Get Ceno"
+msgstr "Obtén Ceno"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -93,17 +93,13 @@ msgstr ""
 "href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
-#: donate.html%2Bhtml.body.main.title:137-1
-msgid "CENO Browser | Download"
-msgstr "Navegador CENO | Descargar"
-
 #: donate.html%2Bhtml.body.main.title:138-1
-msgid "CENO Browser | Donate"
-msgstr "Navegador CENO | Donar"
+msgid "Ceno Browser | Donate"
+msgstr "Navegador Ceno | Donar"
 
 #: donate.html%2Bhtml.body.main.div.h1:140-6
 msgid "Donate to Ceno Browser"
-msgstr "Donar al Navegador CENO"
+msgstr "Donar al Navegador Ceno"
 
 #: donate.html%2Bhtml.body.main.div.p:141-3
 msgid ""
@@ -160,14 +156,14 @@ msgstr ""
 
 #: donate.html%2Bhtml.body.footer.div.p:202-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"El Navegador CENO es un proyecto de <a href=\"https://equalit.ie\">eQualit."
+"El Navegador Ceno es un proyecto de <a href=\"https://equalit.ie\">eQualit."
 "ie</a> - una empresa canadiense sin fines de lucro que desarrolla sistemas "
 "abiertos y reutilizables con enfoque en la privacidad, seguridad en línea y "
 "libertad de asociación. Las soluciones tecnológicas e innovaciones están "
@@ -183,3 +179,6 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "CENO Browser | Download"
+#~ msgstr "Navegador CENO | Descargar"

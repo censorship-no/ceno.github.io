@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 16:02-0700\n"
-"PO-Revision-Date: 2023-05-11 17:26+0000\n"
-"Last-Translator: Viktor Varga <viktor.varga@gmail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:45+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/hu/>\n"
 "Language: hu\n"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "CENO beszerzése"
+msgid "Get Ceno"
+msgstr "Ceno beszerzése"
 
 #: about.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -57,36 +57,28 @@ msgstr "HU"
 #.  TRANSLATORS: Please do not translate any of these. 
 #: about.html%2Bhtml.body.nav.div.div.div.div:115-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
-"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href="
-"\"../pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-"hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item"
-"\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a class="
-"\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html"
-"\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href="
-"\"../ur/about.html\">اردو</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/about.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-msgctxt "about.html+html.body.main.title:137-1"
-msgid "CENO Browser | About"
-msgstr "Hogyan működik a CENO Böngésző"
-
 #: about.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-msgctxt "about.html+html.body.main.title:138-1"
-msgid "CENO Browser | About"
-msgstr "Hogyan működik a CENO Böngésző"
+msgid "Ceno Browser | About"
+msgstr "Hogyan működik a Ceno Böngésző"
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
-msgid "How CENO Browser Works"
-msgstr "Hogyan működik a CENO Böngésző"
+msgid "How Ceno Browser Works"
+msgstr "Hogyan működik a Ceno Böngésző"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:149-3
 msgid ""
@@ -108,37 +100,37 @@ msgstr ""
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:173-3
 msgid ""
-"CENO is a mobile web browser for storing and sharing web content anywhere."
+"Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:181-3
 msgid ""
-"CENO users create small-world networks to connect to each other, and "
+"Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:189-3
 msgid ""
-"Once a website is accessed by a single CENO user, it is stored and shared "
+"Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
-"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
-"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
-"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
-"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
-"button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more "
+"in the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
@@ -153,24 +145,14 @@ msgid ""
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 
-#.  Sorted alphabetically by language code. 
-#.  TRANSLATORS: Please do not translate any of these. 
-#: about.html%2Bhtml.body.nav.div.div.div.div:115-5
-msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
-"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
-"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
-"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" "
-"href=\"../pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru"
-"\" hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
-"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a "
-"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html"
-"\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href="
-"\"../ur/about.html\">اردو</a>"
-msgstr ""
+#, fuzzy
+#~ msgid "CENO Browser | About"
+#~ msgstr "Hogyan működik a CENO Böngésző"
+
+#, fuzzy
+#~ msgctxt "about.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | About"
+#~ msgstr "Hogyan működik a CENO Böngésző"
 
 #, fuzzy
 #~ msgctxt "about.html+html.body.main.title:136-1"

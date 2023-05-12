@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2023-04-23 13:48+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:32+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/de/>\n"
 "Language: de\n"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr "Spenden"
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "CENO erhalten"
+msgid "Get Ceno"
+msgstr "Ceno erhalten"
 
 #: index.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -93,24 +93,12 @@ msgstr ""
 "href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
 
-#: index.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgctxt "index.html+html.body.main.title:131-1"
-#| msgid "CENO Browser | Share the Web"
-msgctxt "index.html+html.body.main.title:137-1"
-msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Teile das Internet"
-
 #: index.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgctxt "index.html+html.body.main.title:131-1"
-#| msgid "CENO Browser | Share the Web"
-msgctxt "index.html+html.body.main.title:138-1"
-msgid "CENO Browser | Share the Web"
-msgstr "CENO Browser | Teile das Internet"
+msgid "Ceno Browser | Share the Web"
+msgstr "Ceno Browser | Teile das Internet"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:145-9
-msgid "CENO Browser banner"
+msgid "Ceno Browser banner"
 msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:150-7
@@ -119,12 +107,12 @@ msgstr "Teile das Internet!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:151-3
 msgid ""
-"CENO (short for censorship.no!) is the world’s first mobile browser that "
+"Ceno (short for censorship.no!) is the world’s first mobile browser that "
 "side-steps current Internet censorship methods. Its peer-to-peer backbone "
 "allows people to access and share web information in and across regions "
 "where connectivity has been interrupted or compromised."
 msgstr ""
-"CENO (kurz für censorship.no!) ist der weltweit erste mobile Browser, der "
+"Ceno (kurz für censorship.no!) ist der weltweit erste mobile Browser, der "
 "die derzeitigen Methoden der Internet-Zensur umgeht. Durch sein Peer-to-Peer-"
 "Backbone können Menschen in Regionen, in denen die Internetverbindung "
 "unterbrochen oder eingeschränkt ist, auf das Internet zugreifen und "
@@ -153,7 +141,7 @@ msgstr ""
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
 msgid ""
 "Access web content through a network of cooperating peers - even when the "
-"internet is down or censored. Install CENO Browser today and be prepared for "
+"internet is down or censored. Install Ceno Browser today and be prepared for "
 "the next time you get 🔌 unplugged."
 msgstr ""
 
@@ -167,7 +155,7 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:188-15
 msgid ""
-"Fight censorship by becoming a bridge! Install and run CENO Browser to "
+"Fight censorship by becoming a bridge! Install and run Ceno Browser to "
 "instantly join the network and expand the availability of blocked websites "
 "to those in censored countries."
 msgstr ""
@@ -184,22 +172,22 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:197-15
 msgid ""
-"CENO is based on <a href=\"https://mozac.org/\">Mozilla Android Components</"
+"Ceno is based on <a href=\"https://mozac.org/\">Mozilla Android Components</"
 "a>, extended to make use of the <a href=\"https://github.com/equalitie/"
 "ouinet\">Ouinet library</a> - enabling third party developers to incorporate "
-"the CENO network into their apps for P2P connectivity."
+"the Ceno network into their apps for P2P connectivity."
 msgstr ""
 
 #: index.html%2Bhtml.body.footer.div.p:218-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
+"Ceno Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
 "a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
 "wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
 "und Vereinigungsfreiheit entwickelt. Technologielösungen und Innovationen "
@@ -215,6 +203,19 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgctxt "index.html+html.body.main.title:131-1"
+#~| msgid "CENO Browser | Share the Web"
+#~ msgid "CENO Browser | Share the Web"
+#~ msgstr "CENO Browser | Teile das Internet"
+
+#, fuzzy
+#~| msgctxt "index.html+html.body.main.title:131-1"
+#~| msgid "CENO Browser | Share the Web"
+#~ msgctxt "index.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | Share the Web"
+#~ msgstr "CENO Browser | Teile das Internet"
 
 #, fuzzy
 #~| msgctxt "index.html+html.body.main.title:131-1"

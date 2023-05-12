@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2023-04-17 18:13+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 21:38+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website-donate/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: donate.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr "Doar"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "Obter CENO"
+msgid "Get Ceno"
+msgstr "Obter Ceno"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -82,17 +82,13 @@ msgstr ""
 "href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
-#: donate.html%2Bhtml.body.main.title:137-1
-msgid "CENO Browser | Download"
-msgstr "Navegador CENO | Baixar"
-
 #: donate.html%2Bhtml.body.main.title:138-1
-msgid "CENO Browser | Donate"
-msgstr "Navegador CENO | Doar"
+msgid "Ceno Browser | Donate"
+msgstr "Navegador Ceno | Doar"
 
 #: donate.html%2Bhtml.body.main.div.h1:140-6
 msgid "Donate to Ceno Browser"
-msgstr "Doar para o Navegador CENO"
+msgstr "Doar para o Navegador Ceno"
 
 #: donate.html%2Bhtml.body.main.div.p:141-3
 msgid ""
@@ -102,12 +98,12 @@ msgid ""
 "getting involved and contributing, please visit <a href=\"help.html\">the "
 "Community page</a>!"
 msgstr ""
-"O Navegador CENO é um software completamente gratuito e de código aberto, "
+"O Navegador Ceno é um software completamente gratuito e de código aberto, "
 "financiado apenas a partir de prêmios e doações. Abaixo, estão algumas das "
 "formas pelas quais você pode apoiar o seu contínuo desenvolvimento através "
 "de contribuições financeiras. Para descobrir outras formas de se envolver e "
-"contribuir, por favor, visite <a href=\"help.html\">a página da Comunidade</"
-"a>!"
+"contribuir, por favor, visite <a href=\"help.html\">a página da "
+"Comunidade</a>!"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:150-18
 msgid "Make a Donation"
@@ -148,14 +144,14 @@ msgstr ""
 
 #: donate.html%2Bhtml.body.footer.div.p:202-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"O Navegador CENO é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</"
+"O Navegador Ceno é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</"
 "a> – uma empresa canadense não orientada a lucro que desenvolve sistemas "
 "abertos e reutilizáveis com foco em privacidade, segurança online e "
 "liberdade de associação. Soluções tecnológicas e inovações são direcionadas "
@@ -168,3 +164,6 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+
+#~ msgid "CENO Browser | Download"
+#~ msgstr "Navegador CENO | Baixar"

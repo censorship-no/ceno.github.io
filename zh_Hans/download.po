@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2021-09-19 18:34+0000\n"
-"Last-Translator: Mark MA <daomeideshu@gmail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:36+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/websitedownload/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -41,11 +41,10 @@ msgid "Donate"
 msgstr ""
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "获取 CENO"
+msgid "Get Ceno"
+msgstr "获取 Ceno"
 
 #: download.html%2Bhtml.body.nav.div.div.div:107-10
-#, fuzzy
 msgid "Download"
 msgstr "直接下载"
 
@@ -74,30 +73,21 @@ msgid ""
 "download.html\">اردو</a>"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-msgctxt "download.html+html.body.main.title:137-1"
-msgid "CENO Browser | Download"
-msgstr "CENO 浏览器 1.1.0"
-
 #: download.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-msgctxt "download.html+html.body.main.title:138-1"
-msgid "CENO Browser | Download"
-msgstr "CENO 浏览器 1.1.0"
+msgid "Ceno Browser | Download"
+msgstr "Ceno 浏览器 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:144-13
-msgid "CENO Browser banner"
+msgid "Ceno Browser banner"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:148-7
-#, fuzzy
-msgid "Get CENO Browser"
-msgstr "下载 CENO 浏览器"
+msgid "Get Ceno Browser"
+msgstr "下载 Ceno 浏览器"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:149-3
 msgid ""
-"The safest way to install CENO Browser on your Android phone is through the "
+"The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
 
@@ -107,13 +97,11 @@ msgstr "在 Google Play 获取"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:152-19
 msgid ""
-"Alternatively, you can install CENO via F-Droid, the Paskoocheh Marketplace, "
+"Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:154-21
-#, fuzzy
-#| msgid "Get it on GitLab"
 msgid "Get it on F-droid"
 msgstr "在 Gitlab 获取"
 
@@ -131,14 +119,13 @@ msgstr "直接下载"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-15
 msgid ""
-"For advanced users or those unable to install CENO Browser via the above "
+"For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
-#, fuzzy
-msgid "CENO Browser 2.0.2"
-msgstr "CENO 浏览器 1.1.0"
+msgid "Ceno Browser 2.0.2"
+msgstr "Ceno 浏览器 1.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
 msgid "Download (32-bit ARM)"
@@ -174,7 +161,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.footer.div.p:207-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
@@ -190,6 +177,15 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~ msgid "CENO Browser | Download"
+#~ msgstr "CENO 浏览器 1.1.0"
+
+#, fuzzy
+#~ msgctxt "download.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | Download"
+#~ msgstr "CENO 浏览器 1.1.0"
 
 #, fuzzy
 #~ msgctxt "download.html+html.body.main.title:136-1"

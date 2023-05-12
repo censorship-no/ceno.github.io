@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2023-04-23 13:48+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "website-donate/de/>\n"
 "Language: de\n"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr "Spenden"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "CENO erhalten"
+msgid "Get Ceno"
+msgstr "Ceno erhalten"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -72,13 +72,9 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.title:137-1
-msgid "CENO Browser | Download"
-msgstr "CENO-Browser | Herunterladen"
-
 #: donate.html%2Bhtml.body.main.title:138-1
-msgid "CENO Browser | Donate"
-msgstr "CENO-Browser | Spenden"
+msgid "Ceno Browser | Donate"
+msgstr "Ceno-Browser | Spenden"
 
 #: donate.html%2Bhtml.body.main.div.h1:140-6
 msgid "Donate to Ceno Browser"
@@ -131,13 +127,20 @@ msgstr ""
 
 #: donate.html%2Bhtml.body.footer.div.p:202-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Ceno Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
+"a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
+"wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
+"und Vereinigungsfreiheit entwickelt. Technologielösungen und Innovationen "
+"werden von unseren <a href=\"https://equalit.ie/en/values/\">Werten</a> "
+"angetrieben, die uns leiten, um die Rechte und Bestrebungen aller Menschen "
+"im Internet zu schützen."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: donate.html%2Bhtml.body.footer:204-23
@@ -145,3 +148,6 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+
+#~ msgid "CENO Browser | Download"
+#~ msgstr "CENO-Browser | Herunterladen"

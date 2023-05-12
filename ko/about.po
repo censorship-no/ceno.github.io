@@ -2,16 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2022-04-20 08:09+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:45+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.3.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -40,8 +41,8 @@ msgid "Donate"
 msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "CENO 받기"
+msgid "Get Ceno"
+msgstr "Ceno 받기"
 
 #: about.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -90,89 +91,53 @@ msgstr ""
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgid "How CENO Browser Works"
-msgctxt "about.html+html.body.main.title:137-1"
-msgid "CENO Browser | About"
-msgstr "CENO 브라우저 작동 방식"
-
 #: about.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgid "How CENO Browser Works"
-msgctxt "about.html+html.body.main.title:138-1"
-msgid "CENO Browser | About"
-msgstr "CENO 브라우저 작동 방식"
+msgid "Ceno Browser | About"
+msgstr "Ceno 브라우저 작동 방식"
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
-msgid "How CENO Browser Works"
-msgstr "CENO 브라우저 작동 방식"
+msgid "How Ceno Browser Works"
+msgstr "Ceno 브라우저 작동 방식"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:149-3
-#, fuzzy
-#| msgid ""
-#| "﻿Most web traffic in countries that filter internet is routed through "
-#| "centralized exchanges."
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
-msgstr ""
-"인터넷을 필터링하는 국가의 대부분의 웹 트래픽은 중앙 집중식 교환을 통해 라우"
-"팅됩니다."
+msgstr "인터넷을 필터링하는 국가의 대부분의 웹 트래픽은 중앙 집중식 교환을 통해 "
+"라우팅됩니다."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:157-3
-#, fuzzy
-#| msgid ""
-#| "﻿This design gives the censor an advantage in locating and blocking "
-#| "popular proxies, VPN servers, relays, etc;"
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
-msgstr ""
-"이러한 설계는 일반적인 프록시, VPN 서버, 릴레이 등을 찾아 차단하는 데 유리합"
-"니다;"
+msgstr "이러한 설계는 일반적인 프록시, VPN 서버, 릴레이 등을 찾아 차단하는 데 "
+"유리합니다;"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:165-3
-#, fuzzy
-#| msgid ""
-#| "﻿In these cases, reaching origin web servers is difficult or impossible, "
-#| "and your device will not be able to get that content."
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
-msgstr ""
-"이러한 경우, 원본 웹 서버에 도달하는 것이 어렵거나 불가능하며 장치에서 해당 "
+msgstr "이러한 경우, 원본 웹 서버에 도달하는 것이 어렵거나 불가능하며 장치에서 해당 "
 "콘텐츠를 가져올 수 없습니다."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:173-3
 msgid ""
-"CENO is a mobile web browser for storing and sharing web content anywhere."
-msgstr ""
-"CENO는 웹 콘텐츠를 어디서나 저장하고 공유할 수 있는 모바일 웹 브라우저입니다."
+"Ceno is a mobile web browser for storing and sharing web content anywhere."
+msgstr "Ceno는 웹 콘텐츠를 어디서나 저장하고 공유할 수 있는 모바일 웹 브라우저입니다."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:181-3
-#, fuzzy
-#| msgid ""
-#| "﻿CENO users create small-world networks to connect to each other, and "
-#| "thereafter to a bridge outside the censored zone."
 msgid ""
-"CENO users create small-world networks to connect to each other, and "
+"Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
-msgstr ""
-"CENO 사용자는 소규모 네트워크를 만들어 서로 연결한 후 검열 영역 밖의 브리지"
-"에 연결합니다."
+msgstr "Ceno 사용자는 소규모 네트워크를 만들어 서로 연결한 후 검열 영역 밖의 "
+"브리지에 연결합니다."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:189-3
-#, fuzzy
-#| msgid ""
-#| "﻿Once a website is accessed by a single CENO user, it is stored and shared "
-#| "inside the country peer-to-peer."
 msgid ""
-"Once a website is accessed by a single CENO user, it is stored and shared "
+"Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
-msgstr ""
-"단일 CENO 사용자가 웹 사이트에 액세스하면 해당 웹 사이트는 국가 P2P 내부에 저"
-"장 및 공유됩니다."
+msgstr "단일 Ceno 사용자가 웹 사이트에 액세스하면 해당 웹 사이트는 국가 P2P 내부에 "
+"저장 및 공유됩니다."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
@@ -196,27 +161,19 @@ msgstr ""
 "a>"
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#| "a> – a Canadian company developing open and reusable systems with a focus "
-#| "on privacy, online security and freedom of association. Technology "
-#| "solutions and innovations are driven by our <a href=\"https://equalit.ie/"
-#| "en/values/\">values</a> that guide us to protect the rights and "
-#| "aspirations of everyone online."
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser는 개인 정보 보호, 온라인 보안 및 결사의 자유에 중점을 두고 재사"
-"용 가능한 개방형 시스템을 개발하는 캐나다 회사인 <a href=\"https://equalit."
-"ie\">eQualit.ie</a>의 프로젝트입니다. 기술 솔루션과 혁신은 온라인에서 모든 사"
-"람의 권리와 열망을 보호하도록 안내하는 <a href=\"https://equalit.ie/en/"
-"values/\">가치</a>에 의해 주도됩니다."
+"Ceno Browser는 개인 정보 보호, 온라인 보안 및 결사의 자유에 중점을 두고 "
+"재사용 가능한 개방형 시스템을 개발하는 캐나다 회사인 <a href=\"https"
+"://equalit.ie\">eQualit.ie</a>의 프로젝트입니다. 기술 솔루션과 혁신은 "
+"온라인에서 모든 사람의 권리와 열망을 보호하도록 안내하는 <a href=\"https"
+"://equalit.ie/en/values/\">가치</a>에 의해 주도됩니다."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:219-23
@@ -226,6 +183,17 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgid "How CENO Browser Works"
+#~ msgid "CENO Browser | About"
+#~ msgstr "CENO 브라우저 작동 방식"
+
+#, fuzzy
+#~| msgid "How CENO Browser Works"
+#~ msgctxt "about.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | About"
+#~ msgstr "CENO 브라우저 작동 방식"
 
 #, fuzzy
 #~| msgid "How CENO Browser Works"

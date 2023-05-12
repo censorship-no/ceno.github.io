@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 11:56-0700\n"
-"PO-Revision-Date: 2023-04-23 13:48+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-05-12 22:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/de/>\n"
 "Language: de\n"
@@ -41,8 +41,8 @@ msgid "Donate"
 msgstr "Spenden"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
-msgid "Get CENO"
-msgstr "CENO erhalten"
+msgid "Get Ceno"
+msgstr "Ceno erhalten"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -86,25 +86,13 @@ msgstr ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/"
 "privacy_policy.html\">Українська</a"
 
-#: privacy_policy.html%2Bhtml.body.main.title:137-1
-#, fuzzy
-#| msgctxt "privacy_policy.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Privacy Policy"
-msgctxt "privacy_policy.html+html.body.main.title:137-1"
-msgid "CENO Browser | Privacy Policy"
-msgstr "CENO-Browser | Datenschutzerklärung"
-
 #: privacy_policy.html%2Bhtml.body.main.title:138-1
-#, fuzzy
-#| msgctxt "privacy_policy.html+html.body.main.title:135-1"
-#| msgid "CENO Browser | Privacy Policy"
-msgctxt "privacy_policy.html+html.body.main.title:138-1"
-msgid "CENO Browser | Privacy Policy"
-msgstr "CENO-Browser | Datenschutzerklärung"
+msgid "Ceno Browser | Privacy Policy"
+msgstr "Ceno-Browser | Datenschutzerklärung"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h1:141-1
-msgid "CENO Privacy Notice"
-msgstr "CENO Datenschutz Hinweis"
+msgid "Ceno Privacy Notice"
+msgstr "Ceno Datenschutz Hinweis"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:143-1
 msgid ""
@@ -134,16 +122,16 @@ msgid ""
 "This Privacy notice is effective as of December 1, 2018. In this privacy "
 "notice (Privacy notice), the terms “we”, “our” and “us” mean eQualit.ie. "
 "This Privacy notice governs our practices with respect to Data that we "
-"collect through the CENO browser."
+"collect through the Ceno browser."
 msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:151-1
-msgid "About CENO"
-msgstr "Über CENO"
+msgid "About Ceno"
+msgstr "Über Ceno"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:152-1
 msgid ""
-"CENO is designed to provide you with open access to online censored content."
+"Ceno is designed to provide you with open access to online censored content."
 msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:154-1
@@ -152,7 +140,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:155-1
 msgid ""
-"CENO stores a summary collection of all public web pages viewed by CENO "
+"Ceno stores a summary collection of all public web pages viewed by Ceno "
 "users to enable other users of the system access to those pages. While we "
 "very much attempt to honor user privacy with this mechanism, it is still in "
 "early stages of development and it is possible private web pages viewed by "
@@ -161,11 +149,11 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:157-1
 msgid ""
-"This testing version of CENO stores logs of all pages requested via the "
+"This testing version of Ceno stores logs of all pages requested via the "
 "censorship-circumvention mechanisms. Logs exist even for pages deemed "
 "private, as well as the considerations made to determine this privacy "
-"classification. This log data is used by the CENO development team to track "
-"down issues with the CENO infrastructure, and is not disclosed to others."
+"classification. This log data is used by the Ceno development team to track "
+"down issues with the Ceno infrastructure, and is not disclosed to others."
 msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:159-1
@@ -230,14 +218,14 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.footer.div.p:190-9
 msgid ""
-"CENO Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
 "a focus on privacy, online security and freedom of association. Technology "
 "solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"CENO Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
+"Ceno Browser ist ein Projekt von <a href=\"https://equalit.ie\">eQualit.ie</"
 "a> - einem gemeinnützigen kanadischen Unternehmen, das offene und "
 "wiederverwendbare Systeme mit Schwerpunkt auf Datenschutz, Online-Sicherheit "
 "und Vereinigungsfreiheit entwickelt. Technologielösungen und Innovationen "
@@ -253,6 +241,19 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgctxt "privacy_policy.html+html.body.main.title:135-1"
+#~| msgid "CENO Browser | Privacy Policy"
+#~ msgid "CENO Browser | Privacy Policy"
+#~ msgstr "CENO-Browser | Datenschutzerklärung"
+
+#, fuzzy
+#~| msgctxt "privacy_policy.html+html.body.main.title:135-1"
+#~| msgid "CENO Browser | Privacy Policy"
+#~ msgctxt "privacy_policy.html+html.body.main.title:138-1"
+#~ msgid "CENO Browser | Privacy Policy"
+#~ msgstr "CENO-Browser | Datenschutzerklärung"
 
 #~ msgctxt "privacy_policy.html+html.body.main.title:136-1"
 #~ msgid "CENO Browser | Privacy Policy"
