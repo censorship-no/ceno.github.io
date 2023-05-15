@@ -143,7 +143,7 @@
 <p>Para completar todos os testes abaixo, você precisará de ao menos dois dispositivos conectados à mesma rede WiFi e um terceiro conectado a uma rede completamente diferente.</p>
 <p>Todos os testes serão performados usando <a href="public-private.html">navegação pública</a>. Se algo não funcionar como esperado, por favor, seja paciente e verifique a seção sobre <a href="troubleshooting.html">solução de problemas</a>. Especificamente, se o navegador ficar travado por mais de alguns minutos ao carregar uma página, você pode apertar interromper e atualizá-la (embora isso possa alterar levemente os resultados).</p>
 <h2 id="acessando-um-injetor"><a class="header" href="#acessando-um-injetor">Acessando um injetor</a></h2>
-<p>Vamos primeiramente verificar se o seu Navegador CENO consegue alcançar um injetor. Essa ação pode parecer trivial, mas o seu cliente já estará exercitando diversas funcionalidades da Ouinet nesse processo: procurar o endereço do swarm injetor, tentando contatá-lo diretamente e, se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um swarm ponte e tentar contatar o injetor via algum outro cliente Ouinet.</p>
+<p>Vamos primeiramente verificar se o seu Navegador CENO consegue alcançar um injetor. Essa ação pode parecer trivial, mas o seu cliente já estará exercitando diversas funcionalidades da Ouinet nesse processo: procurar o endereço do injetor no enxame de injetores, tentar contatá-lo diretamente e, se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um enxame de pontes e tentar contatar o injetor via algum outro cliente Ouinet.</p>
 <p>No primeiro dispositivo, realize as seguintes etapas:</p>
 <ol>
 <li>Primeiramente, instale o CENO e o inicie. A página de início aparecerá.</li>
@@ -152,7 +152,7 @@
 <li>O website escolhido deve eventualmente aparecer.</li>
 </ol>
 <p><strong>Nota:</strong> Se você obtiver uma página falsa ao invés de uma legítima, use a barra de endereço para inserir a URL do website com <code>https://</code> no começo (ao invés de <code>http://</code>) e repita o teste.</p>
-<p>Se o website carregar, você pode comemorar que o seu dispositivo conseguiu alcançar o injetor! Por você ter sido capaz de consultar swarms e contatar outros clientes, é provável que seja capaz, também, de recuperar conteúdo do cache distribuído.</p>
+<p>Se o website carregar, você pode comemorar que o seu dispositivo conseguiu alcançar o injetor! Por você ter sido capaz de consultar enxames e contatar outros clientes, é provável que seja capaz, também, de recuperar conteúdo do cache distribuído.</p>
 <p>A propósito, se você pressionar o ícone do CENO na barra de endereço, ele abrirá um popup como o abaixo, mostrando quantos elementos do website foram recuperados das diferentes sources. Somente em <em>Via rede CENO (pública)</em> deve haver um valor diferente de zero, dado que as outras sources estavam desabilitadas.</p>
 <p><img src="images/sources-inject.png" alt="Figura: Sources usadas ao testar a injeção" /></p>
 <p>Em contrapartida, se usou a navegação privativa com configurações padrão, você pode ter visto um popup como o abaixo, com contagens diferentes de zero em <em>Direto do website</em> ou <em>Via rede CENO (privativa)</em>.</p>
