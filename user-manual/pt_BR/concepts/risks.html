@@ -163,7 +163,7 @@
 <p>É mais provável que não. No momento em que o CENO contata um servidor de origem diretamente, ele se comporta como um Firefox para Android comum, então seu dispositivo específico aparece como um aplicativo normal do Firefox da mesma versão.</p>
 <p>Contudo, ao utilizar um injetor para obter conteúdo do seu servidor de origem, há (pelo menos) duas formas de o último saber que o CENO ou a Ouinet estão envolvidos:</p>
 <ol>
-<li>O endereço source da conexão alcançando o servidor de origem é encontrado no swarm injetor (já que a conexão vem, de fato, do injetor);</li>
+<li>O endereço source da conexão alcançando o servidor de origem é encontrado no enxame de injetores (já que a conexão vem, de fato, do injetor);</li>
 <li>A presença ou ausência de certas informações na solicitação de conteúdo é característica da Ouinet. Isso acontece quando o injetor está solicitando o conteúdo porque seu cliente pediu a ele para recuperar e assinar aquele conteúdo, já que o injetor remove da solicitação informações exclusivas do seu dispositivo específico.</li>
 </ol>
 <p>Por favor, observe que essas maneiras apenas marcam a solicitação como advinda da Ouinet, mas não a conectam a você ou ao seu dispositivo específico. No entanto, se a solicitação por alguma das razões mencionadas nas questões anteriores ainda contém algumas informações passíveis de identificação pessoal, ela poderia ser usada para marcar você como um usuário do CENO.</p>
@@ -175,7 +175,7 @@
 <p>Sim e não. Qualquer pessoa com entendimento suficiente das operações da Ouinet poderia construir uma ferramenta para descobrir a partir de quais endereços de IP um determinado conteúdo está sendo compartilhado (como com BitTorrent). Porém, não é possível definir um endereço de IP específico como alvo e obter uma lista de todo o conteúdo semeado por clientes atrás dele.</p>
 <h2 id="como-uma-ponte"><a class="header" href="#como-uma-ponte">Como uma ponte</a></h2>
 <h3 id="outras-pessoas-podem-encontrar-meu-endereço-de-ip"><a class="header" href="#outras-pessoas-podem-encontrar-meu-endereço-de-ip">Outras pessoas podem encontrar meu endereço de IP?</a></h3>
-<p>Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus endereços de IP no swarm ponte onde outros clientes Ouinet podem encontrá-los.</p>
+<p>Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus endereços de IP no enxame de pontes onde outros clientes Ouinet podem encontrá-los.</p>
 <h3 id="É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país"><a class="header" href="#É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país">É possível que eu esteja ajudando alguém a acessar conteúdo considerado ilegal em meu país?</a></h3>
 <p>Sim. No entanto, pontes apenas retransmitem comunicações criptografadas entre um cliente e um injetor Ouinet. Isso significa que uma ponte nunca deve fazer solicitações diretas de conteúdo para nenhum outro servidor em nome de outra pessoa.</p>
 

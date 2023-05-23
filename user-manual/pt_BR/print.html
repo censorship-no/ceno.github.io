@@ -268,10 +268,10 @@
 <p>Ainda que um injetor tenha sido identificado e tido seu acesso bloqueado por seu ISP, há diversos deles e não importa qual o seu cliente contate pela Internet.</p>
 <ul>
 <li>
-<p>Alguns ou todos os injetores podem ser bloqueados mas, nesse caso, o conjunto de injetores pode variar ao longo do tempo (com adição de novos).Seu cliente não precisa saber seus endereços de Internet com antecedência; ao invés disso, ele realiza uma busca no <strong>injetor swarm</strong> (outro termo de compartilhamento de arquivos P2P), um índex distribuído de entrada única similar ao índex do cache distribuído que fornece os endereços dos injetores disponíveis no momento.</p>
+<p>Alguns ou todos os injetores podem ser bloqueados mas, nesse caso, o conjunto de injetores pode variar ao longo do tempo (com adição de novos).Seu cliente não precisa saber seus endereços de Internet com antecedência; ao invés disso, ele realiza uma busca no <strong>enxame de injetores</strong> (outro termo de compartilhamento de arquivos P2P), um índex distribuído de entrada única similar ao índex do cache distribuído que fornece os endereços dos injetores disponíveis no momento.</p>
 </li>
 <li>
-<p>Por fim, mesmo que seu cliente possa não ser capaz de alcançar qualquer injetor, alguns outros clientes podem. Quando um cliente é capaz de alcançar um injetor e acredita ser ele mesmo alcançável por outros clientes, ele se torna um cliente <strong>ponte</strong> e adiciona seu próprio endereço de Internet ao <strong>swarm ponte</strong>, outro índex distribuído de entrada única.Assim, seu cliente pode procurar por tal endereço, conectar-se à ponte por trás e dizer a ela para estabelecer outra conexão com um injetor em seu nome, criando um <strong>túnel</strong> entre o seu cliente e o injetor. Uma conexão pode, então, ser estabelecida entre eles dentro do túnel.</p>
+<p>Por fim, mesmo que seu cliente possa não ser capaz de alcançar qualquer injetor, alguns outros clientes podem. Quando um cliente é capaz de alcançar um injetor e acredita ser ele mesmo alcançável por outros clientes, ele se torna um cliente <strong>ponte</strong> e adiciona seu próprio endereço de Internet ao <strong>enxame de pontes</strong>, outro índex distribuído de entrada única.Assim, seu cliente pode procurar por tal endereço, conectar-se à ponte por trás e dizer a ela para estabelecer outra conexão com um injetor em seu nome, criando um <strong>túnel</strong> entre o seu cliente e o injetor. Uma conexão pode, então, ser estabelecida entre eles dentro do túnel.</p>
 </li>
 </ul>
 <p>Por favor, observe que devido às conexões entre cliente e injetor serem criptografadas, pontes não são capazes de ver a informação circulando entre eles.</p>
@@ -292,7 +292,7 @@
 </blockquote>
 <h3 id="injeção-de-conteúdo"><a class="header" href="#injeção-de-conteúdo">Injeção de conteúdo</a></h3>
 <p>Lembre-se de que em nosso cenário de exemplo seu cliente já havia tentado recuperar o conteúdo <em>X</em> diretamente do servidor de origem e a partir de outros clientes sem sucesso. O cliente joga a sua última carta Ouinet e tenta contatar um injector confiável para obter uma cópia assinada do conteúdo que ele pode compartilhar com outros clientes.</p>
-<p>Na figura abaixo, você pode ver um possível resultado dessa operação: o cliente primeiro tenta contatar o injetor diretamente (exemplo, usando o endereço de Internet que ele obteve do swarm injetor), mas infelizmente ele está bloqueado pelo seu ISP. Por sorte, o swarm ponte exibe os endereços de Internet para dois outros clientes que ainda conseguem alcançar um injetor. Seu cliente abre um túnel para o injetor através de um desses clientes, de modo que o injetor obtém a solicitação para o conteúdo <em>X</em> advinda do seu cliente e pede tal conteúdo ao servidor de origem.</p>
+<p>Na figura abaixo, você pode ver um possível resultado dessa operação: o cliente primeiro tenta contatar o injetor diretamente (exemplo, usando o endereço de Internet que ele obteve do enxame de injetores), mas infelizmente ele está bloqueado pelo seu ISP. Por sorte, o enxame de pontes exibe os endereços de Internet para dois outros clientes que ainda conseguem alcançar um injetor. Seu cliente abre um túnel para o injetor através de um desses clientes, de modo que o injetor obtém a solicitação para o conteúdo <em>X</em> advinda do seu cliente e pede tal conteúdo ao servidor de origem.</p>
 <p><img src="concepts/images/user-flow-2.svg" alt="Figura: Cliente alcança o injector" /></p>
 <p>Conforme o conteúdo <em>X</em> é recebido pelo injetor, este o assina com sua chave, adiciona a assinatura ao conteúdo e o devolve ao seu cliente pelo túnel de onde ele veio (digamos, através do cliente localizado além do bloqueio). Uma vez que o conteúdo alcança o seu cliente, ele realiza três ações:</p>
 <ol>
@@ -384,7 +384,7 @@
 <p>É mais provável que não. No momento em que o CENO contata um servidor de origem diretamente, ele se comporta como um Firefox para Android comum, então seu dispositivo específico aparece como um aplicativo normal do Firefox da mesma versão.</p>
 <p>Contudo, ao utilizar um injetor para obter conteúdo do seu servidor de origem, há (pelo menos) duas formas de o último saber que o CENO ou a Ouinet estão envolvidos:</p>
 <ol>
-<li>O endereço source da conexão alcançando o servidor de origem é encontrado no swarm injetor (já que a conexão vem, de fato, do injetor);</li>
+<li>O endereço source da conexão alcançando o servidor de origem é encontrado no enxame de injetores (já que a conexão vem, de fato, do injetor);</li>
 <li>A presença ou ausência de certas informações na solicitação de conteúdo é característica da Ouinet. Isso acontece quando o injetor está solicitando o conteúdo porque seu cliente pediu a ele para recuperar e assinar aquele conteúdo, já que o injetor remove da solicitação informações exclusivas do seu dispositivo específico.</li>
 </ol>
 <p>Por favor, observe que essas maneiras apenas marcam a solicitação como advinda da Ouinet, mas não a conectam a você ou ao seu dispositivo específico. No entanto, se a solicitação por alguma das razões mencionadas nas questões anteriores ainda contém algumas informações passíveis de identificação pessoal, ela poderia ser usada para marcar você como um usuário do CENO.</p>
@@ -396,7 +396,7 @@
 <p>Sim e não. Qualquer pessoa com entendimento suficiente das operações da Ouinet poderia construir uma ferramenta para descobrir a partir de quais endereços de IP um determinado conteúdo está sendo compartilhado (como com BitTorrent). Porém, não é possível definir um endereço de IP específico como alvo e obter uma lista de todo o conteúdo semeado por clientes atrás dele.</p>
 <h2 id="como-uma-ponte"><a class="header" href="#como-uma-ponte">Como uma ponte</a></h2>
 <h3 id="outras-pessoas-podem-encontrar-meu-endereço-de-ip"><a class="header" href="#outras-pessoas-podem-encontrar-meu-endereço-de-ip">Outras pessoas podem encontrar meu endereço de IP?</a></h3>
-<p>Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus endereços de IP no swarm ponte onde outros clientes Ouinet podem encontrá-los.</p>
+<p>Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus endereços de IP no enxame de pontes onde outros clientes Ouinet podem encontrá-los.</p>
 <h3 id="É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país"><a class="header" href="#É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país">É possível que eu esteja ajudando alguém a acessar conteúdo considerado ilegal em meu país?</a></h3>
 <p>Sim. No entanto, pontes apenas retransmitem comunicações criptografadas entre um cliente e um injetor Ouinet. Isso significa que uma ponte nunca deve fazer solicitações diretas de conteúdo para nenhum outro servidor em nome de outra pessoa.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="usando-o-navegador-ceno"><a class="header" href="#usando-o-navegador-ceno">Usando o Navegador CENO</a></h1>
@@ -477,10 +477,10 @@
 <li><em>Estado do cliente Ouinet</em>, se <code>iniciado</code>, significa que o seu cliente Ouinet conseguiu ser executado com sucesso. De outro modo, pode haver problemas de conectividade ou algum erro interno. Por favor, inclua essa informação em seus relatórios de problemas.</li>
 <li><em>Estado de acessibilidade</em> indica o quão provável é que o seu dispositivo consiga efetivamente semear conteúdo para outros clientes. Inclua também nos relatórios.</li>
 <li><em>Estado UPnP</em> indica se o CENO conseguiu solicitar que o seu roteador ou ponto de acesso permitisse que as conexões de entrada passassem por ele. Inclua também nos relatórios.</li>
-<li><em>Local UDP endpoints</em> are the Internet addresses in your device used by CENO to seed signed content to other clients. These are shown to help test and debug the app, and should not be generally disclosed.</li>
-<li><em>External UDP endpoints</em> are the Internet addresses in your router given to your CENO traffic. Only available with UPnP-enabled routers, they are also useful for diagnostics and not to be generally disclosed.</li>
-<li><em>Public UDP endpoints</em> are the Internet addresses that Ouinet clients outside of your network see when communicating with your device. Also for diagnostics and not to be disclosed.</li>
-<li><em>Extra BitTorrent bootstraps</em> are servers used to help your device get into the BitTorrent network, should the default ones not work. Also include in reports. You may edit the space-separated list of hosts (with optional ports) to set or add your own, then choose <em>Save</em>. The changes will be applied the next time that your Ouinet client is started.</li>
+<li><em>Endpoints UDP locais</em> são os endereços de Internet em seu dispositivo usados pelo CENO para semear conteúdo assinado para outros clientes. Eles são mostrados para ajudar a testar e depurar o aplicativo e não devem, em geral, ser divulgados.</li>
+<li><em>Endpoints UDP externos</em> são os endereços de Internet em seu roteador atribuídos para o seu tráfego do CENO. Somente disponíveis em roteadores com UPnP habilitado, eles também são úteis para diagnóstico e em geral não são divulgados.</li>
+<li><em>Endpoints UDP públicos</em> são os endereços de Internet que clientes Ouinet fora da sua rede vêem quando se comunicam com o seu dispositivo. Também são úteis para diagnóstico e não devem ser divulgados.</li>
+<li><em>Bootstraps extra do BitTorrent</em> são servidores usados para ajudar o seu dispositivo a entrar na rede BitTorrent, caso os servidores padrão não funcionem. Também incluir nos relatórios. Você pode editar a lista de hosts separada por espaços (com portas opcionais) para configurar ou adicionar o seu próprio host e depois escolher <em>Salvar</em>. As mudanças serão aplicadas na próxima vez em que o seu cliente Ouinet for inicializado.</li>
 <li><em>Navegador CENO</em> indica a versão exata do CENO que você está usando. Também inclua nos relatórios.</li>
 <li><em>Extensão CENO</em> exibe a versão da extensão que integra o Firefox com CENO. Inclua também nos relatórios.</li>
 <li><em>Ouinet</em> exibe a versão da Ouinet por trás do CENO. Inclua também nos relatórios.</li>
@@ -504,7 +504,7 @@
 <p>Para completar todos os testes abaixo, você precisará de ao menos dois dispositivos conectados à mesma rede WiFi e um terceiro conectado a uma rede completamente diferente.</p>
 <p>Todos os testes serão performados usando <a href="browser/public-private.html">navegação pública</a>. Se algo não funcionar como esperado, por favor, seja paciente e verifique a seção sobre <a href="browser/troubleshooting.html">solução de problemas</a>. Especificamente, se o navegador ficar travado por mais de alguns minutos ao carregar uma página, você pode apertar interromper e atualizá-la (embora isso possa alterar levemente os resultados).</p>
 <h2 id="acessando-um-injetor"><a class="header" href="#acessando-um-injetor">Acessando um injetor</a></h2>
-<p>Vamos primeiramente verificar se o seu Navegador CENO consegue alcançar um injetor. Essa ação pode parecer trivial, mas o seu cliente já estará exercitando diversas funcionalidades da Ouinet nesse processo: procurar o endereço do swarm injetor, tentando contatá-lo diretamente e, se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um swarm ponte e tentar contatar o injetor via algum outro cliente Ouinet.</p>
+<p>Vamos primeiramente verificar se o seu Navegador CENO consegue alcançar um injetor. Essa ação pode parecer trivial, mas o seu cliente já estará exercitando diversas funcionalidades da Ouinet nesse processo: procurar o endereço do injetor no enxame de injetores, tentar contatá-lo diretamente e, se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um enxame de pontes e tentar contatar o injetor via algum outro cliente Ouinet.</p>
 <p>No primeiro dispositivo, realize as seguintes etapas:</p>
 <ol>
 <li>Primeiramente, instale o CENO e o inicie. A página de início aparecerá.</li>
@@ -513,7 +513,7 @@
 <li>O website escolhido deve eventualmente aparecer.</li>
 </ol>
 <p><strong>Nota:</strong> Se você obtiver uma página falsa ao invés de uma legítima, use a barra de endereço para inserir a URL do website com <code>https://</code> no começo (ao invés de <code>http://</code>) e repita o teste.</p>
-<p>Se o website carregar, você pode comemorar que o seu dispositivo conseguiu alcançar o injetor! Por você ter sido capaz de consultar swarms e contatar outros clientes, é provável que seja capaz, também, de recuperar conteúdo do cache distribuído.</p>
+<p>Se o website carregar, você pode comemorar que o seu dispositivo conseguiu alcançar o injetor! Por você ter sido capaz de consultar enxames e contatar outros clientes, é provável que seja capaz, também, de recuperar conteúdo do cache distribuído.</p>
 <p>A propósito, se você pressionar o ícone do CENO na barra de endereço, ele abrirá um popup como o abaixo, mostrando quantos elementos do website foram recuperados das diferentes sources. Somente em <em>Via rede CENO (pública)</em> deve haver um valor diferente de zero, dado que as outras sources estavam desabilitadas.</p>
 <p><img src="browser/images/sources-inject.png" alt="Figura: Sources usadas ao testar a injeção" /></p>
 <p>Em contrapartida, se usou a navegação privativa com configurações padrão, você pode ter visto um popup como o abaixo, com contagens diferentes de zero em <em>Direto do website</em> ou <em>Via rede CENO (privativa)</em>.</p>
@@ -615,7 +615,7 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Nota:</strong> Mesmo quando UPnP está funcioanndo, seu roteador pode não ser alcançável do exterior. Esse pode ser o caso quando as <em>Configurações do CENO</em> relatam <em>Endpoints UDP externos</em> que parece com endereços <a href="https://pt.wikipedia.org/wiki/Carrier_Grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code>com X entre 64 e 127 (cada dia mais comum entre ISPs domésticos), ou como endereços privados <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code>com X entre 16 e 31, e <code>192.168.X.Y:N</code>. Se for o caso, por favor contacte seu ISP ou administrador de rede para obter o endereço público em seu roteador ou para estabelecer redirecionamentos de porta para o endpoint externo.</p>
+<p><strong>Nota:</strong> Mesmo quando UPnP está funcionando, seu roteador pode não ser alcançável do exterior. Esse pode ser o caso quando as <em>Configurações do CENO</em> relatam <em>Endpoints UDP externos</em> que parecem com endereços <a href="https://pt.wikipedia.org/wiki/Carrier_Grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code> com X entre 64 e 127 (cada dia mais comum entre ISPs domésticos), ou como endereços privados <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> com X entre 16 e 31, e <code>192.168.X.Y:N</code>. Se for o caso, por favor contate seu ISP ou administrador de rede para obter o endereço público em seu roteador ou para estabelecer redirecionamentos de porta para o endpoint externo.</p>
 </blockquote>
 <p>Há muitos roteadores WiFi no mercado, e cada um tem suas características específicas. Aqui está uma lista das instruções de alguns fabricantes para habilitar o UPnP:</p>
 <ul>
@@ -669,7 +669,7 @@
 <p>Seu Navegador CENO não pode alcançar diretamente o conteúdo do servidor de origem. Ou o servidor está, ele mesmo, enfrentando dificuldades (por exemplo, caiu ou está sob ataque), ou alguém está interferindo em sua conexão com ele.</p>
 <p>Este é o principal caso de uso do CENO e os outros mecanismos devem compensá-lo.</p>
 <h3 id="acesso-ao-proxyinjetor"><a class="header" href="#acesso-ao-proxyinjetor">Acesso ao proxy/injetor</a></h3>
-<p>Alguém está interferindo na sua conexão com os endereços de Internet no swarm injetor. Já que se espera que esse problema aconteça eventualmente, conforme CENO (e Ouinet) se popularizem, CENO recorre ao alcance dos injetores através de outros clientes agindo como pontes.</p>
+<p>Alguém está interferindo na sua conexão com os endereços de Internet no enxame de injetores. Já que se espera que esse problema aconteça eventualmente, conforme CENO (e Ouinet) se popularizem, CENO recorre ao alcance dos injetores através de outros clientes agindo como pontes.</p>
 <p>Há diferentes razões para o CENO não conseguir alcançar tais clientes:</p>
 <ul>
 <li>
@@ -729,7 +729,7 @@
 <p>Estado global do cliente e informações de versão. Útil ao reportar erros.</p>
 </li>
 <li>
-<p>Informações sobre conectividade do cliente e endereçamento do injetor. O método padrão <code>bep5</code> procura endereços da Internet em um swarm injetor BitTorrent, como explicado <a href="client/../concepts/how.html">aqui</a>.</p>
+<p>Informações sobre conectividade do cliente e endereçamento do injetor. O método padrão <code>bep5</code> procura endereços da Internet em um enxame de injetores BitTorrent, como explicado <a href="client/../concepts/how.html">aqui</a>.</p>
 </li>
 <li>
 <p>A chave pública usada para verificar assinaturas dos injetores no cache distribuído.</p>
