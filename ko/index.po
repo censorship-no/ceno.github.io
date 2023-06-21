@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-12 22:32+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-06-21 07:48+0000\n"
+"Last-Translator: Yonggen <vizualizer@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/ko/>\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -20,25 +20,25 @@ msgstr "ko"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "About"
-msgstr ""
+msgstr "소개"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:92-17
 msgid "Support"
-msgstr ""
+msgstr "지원"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "News"
-msgstr ""
+msgstr "뉴스"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Community"
-msgstr ""
+msgstr "커뮤니티"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr ""
+msgstr "후원하기"
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
@@ -46,7 +46,7 @@ msgstr "Ceno 받기"
 
 #: index.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: index.html%2Bhtml.body.nav.div.div.div:109-1
@@ -91,18 +91,21 @@ msgid ""
 "allows people to access and share web information in and across regions "
 "where connectivity has been interrupted or compromised."
 msgstr ""
+"Ceno(censorship.no!의 줄임말)는 오늘날의 인터넷 검열 수단을 회피하는 세계 "
+"최초의 모바일 브라우저입니다. P2P 백본은 인터넷 연결이 취약하거나 단절된 "
+"지역 안팎에서 사람들이 웹에 접속해 정보를 공유할 수 있도록 합니다."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:153-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "구글 플레이에서 다운로드"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:156-17
 msgid "Get it on F-droid"
-msgstr ""
+msgstr "F-droid에서 다운로드"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:159-17
 msgid "Get it on Paskoocheh"
-msgstr ""
+msgstr "Paskoocheh에서 다운로드"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-14
 msgid "Browse Freely"
@@ -133,6 +136,8 @@ msgid ""
 "instantly join the network and expand the availability of blocked websites "
 "to those in censored countries."
 msgstr ""
+"다리가 되어 검열과 싸우세요! Ceno 브라우저를 설치해 실행하면, 검열이 "
+"존재하는 국가의 사람들이 차단된 웹사이트에 접속할 수 있는 기회가 늘어납니다."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
@@ -151,6 +156,10 @@ msgid ""
 "ouinet\">Ouinet library</a> - enabling third party developers to incorporate "
 "the Ceno network into their apps for P2P connectivity."
 msgstr ""
+"Ceno는 <a href=\"https://mozac.org/\">Mozilla Android Components</a>를 "
+"기반으로 <a href=\"https://github.com/equalitie/ouinet\">Ouinet 라이브러리</"
+"a>를 사용할 수 있도록 확장되어 타사 개발자들이 P2P 연결을 위해 Ceno "
+"네트워크를 자신들의 앱에 통합할 수 있습니다."
 
 #: index.html%2Bhtml.body.footer.div.p:218-9
 msgid ""
