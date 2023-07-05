@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-12 22:49+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-06-30 21:12+0000\n"
+"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "website-donate/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: donate.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -26,11 +26,11 @@ msgstr "À propos"
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:92-17
 msgid "Support"
-msgstr "Assistance technique"
+msgstr "Assistance"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "News"
-msgstr "Actualités"
+msgstr "Nouvelles"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Community"
@@ -42,7 +42,7 @@ msgstr "Faire un don"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
-msgstr "Télécharger Ceno"
+msgstr "Obtenir Ceno"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
@@ -88,7 +88,7 @@ msgstr "Navigateur Ceno | Faire un don"
 
 #: donate.html%2Bhtml.body.main.div.h1:140-6
 msgid "Donate to Ceno Browser"
-msgstr "Faire un don au navigateur Ceno"
+msgstr "Faire un don au Navigateur Ceno"
 
 #: donate.html%2Bhtml.body.main.div.p:141-3
 msgid ""
@@ -98,11 +98,12 @@ msgid ""
 "getting involved and contributing, please visit <a href=\"help.html\">the "
 "Community page</a>!"
 msgstr ""
-"Le navigateur Ceno est un logiciel entièrement libre et à code source "
-"ouvert, financé uniquement par des subventions et des dons. Vous trouverez "
-"en dessous d'autres manières de soutenir son développement par contributions "
-"financières. Pour les autres façon de vous impliquer et de contribuer, "
-"veuillez consulter <a href=\"help.html\">la page communautaire</a> !"
+"Le Navigateur Ceno est un logiciel entièrement libre et à code source "
+"ouvert, financé uniquement par des subventions et des dons. Ci-dessous se "
+"trouvent quelques-unes des façons dont vous pouvez soutenir son "
+"développement continu par des contributions financières. D’autres façons de "
+"vous impliquer et de contribuer sont présentées sur <a href=\"help.html\">la "
+"page Communauté</a>."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:150-18
 msgid "Make a Donation"
@@ -110,7 +111,7 @@ msgstr "Faire un don"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:151-11
 msgid "Make a one-time donation using our Stripe payment portal."
-msgstr "Faites un don en une fois sur notre portail Stripe."
+msgstr "Faites un don unique sur notre portail Stripe."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:152-18
 msgid "Donate via Stripe"
@@ -118,25 +119,25 @@ msgstr "Faire un don sur Stripe"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:163-17
 msgid "Become a Sponsor"
-msgstr "Être un sponsor"
+msgstr "Devenez commanditaire"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:164-3
 msgid "We are currently exploring fundraising platforms and communities:"
 msgstr ""
-"Nous sommes en train d'exporer les platformes et communautés de collecte de "
-"fonds :"
+"Nous explorons actuellement les plateformes et les communautés de collecte "
+"de fonds :"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:165-17
 msgid "Sponsor on Github"
-msgstr "Sponsor Github"
+msgstr "Soutenez-nous sur GitHub"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:176-20
 msgid "Donate Bitcoin"
-msgstr "Faire un don de Bitcoin"
+msgstr "Faites un don en bitcoins"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:177-3
 msgid "Our wallet address is:"
-msgstr "L'adresse de notre portefeuille numérique est :"
+msgstr "L’adresse de notre porte-monnaie est :"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:178-4
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
@@ -151,13 +152,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Le navigateur Ceno est un projet d'<a href=\"https://equalit.ie\">eQualit."
-"ie</a> – une entreprise canadienne à but non lucratif qui conçoit des "
-"systèmes open source privilégiant le respect de la vie privée, la sécurité "
-"en ligne et la liberté d'association. Nos solutions et innovations "
-"technologiques sont empreints des <a href=\"https://equalit.ie/en/values/\""
-">valeurs</a> qui nous guident pour protéger les droits et aspirations de "
-"chacun en ligne."
+"Le Navigateur Ceno est un projet d’<a href=\"https://equalit.ie\">eQualit."
+"ie</a> , une entreprise canadienne sans but lucratif qui conçoit des "
+"systèmes ouverts et réutilisables axés sur la confidentialité et la "
+"protection des renseignements personnels, la sécurité en ligne et la liberté "
+"d’association. Nos solutions et innovations technologiques sont guidées par "
+"nos <a href=\"https://equalit.ie/en/values/\">valeurs</a> afin de protéger "
+"les droits et aspirations de tous en ligne."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: donate.html%2Bhtml.body.footer:204-23
