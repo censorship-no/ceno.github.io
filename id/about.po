@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-25 16:48+0000\n"
-"Last-Translator: Anjar Yudikta Swareka <anjarys@gmail.com>\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/id/>\n"
 "Language: id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -78,42 +78,54 @@ msgstr "Install Browser Ceno"
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
 msgid "How Ceno Browser Works"
-msgstr ""
+msgstr "Cara Kerja Peramban Ceno"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:149-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
+"Sebagian besar lalu lintas web di negara-negara yang menyaring internet "
+"dialihkan melalui pertukaran terpusat, seperti Google."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:157-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"Desain ini memberikan sensor tersebut keuntungan dalam menemukan dan "
+"memblokir proksi populer, server VPN, relai, dll."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:165-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"Dalam kasus ini, menjangkau server web asal akan sulit atau tidak mungkin, "
+"dan perangkat Anda tidak akan bisa mendapatkan konten tersebut."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:173-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
+"Ceno adalah peramban web seluler untuk menyimpan dan berbagi konten web di "
+"mana saja."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:181-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"Pengguna Ceno membuat jaringan dunia kecil untuk terhubung dengan satu sama "
+"lain dan setelah itu membuat jembatan ke luar zona yang disensor."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:189-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"Setelah situs web diakses oleh satu pengguna Ceno, situs itu disimpan dan "
+"dibagikan di dalam negara peer-to-peer."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
@@ -127,6 +139,14 @@ msgid ""
 "scroll\"></span> For a more in-depth, technical guide, see the Ouinet "
 "whitepaper.</button></a>"
 msgstr ""
+"<a href=\"../user-manual/id/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book\"></span> Pelajari lebih "
+"lanjut di dalam Panduan Pengguna!</button></a> <a href=\"https://github.com/"
+"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
+"\"fas fa-scroll\"></span> Untuk panduan teknis yang lebih mendalam, lihat "
+"laporan resmi Ouinet.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
 msgid ""
@@ -137,6 +157,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – sebuah perusahaan nirlaba Kanada yang mengembangkan sistem "
+"terbuka dan dapat digunakan kembali yang berfokus pada privasi, keamanan "
+"daring, dan kebebasan berserikat. Solusi dan inovasi teknologi didorong oleh "
+"<a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> kami yang memandu "
+"kami untuk melindungi hak dan aspirasi setiap orang secara daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:219-23
