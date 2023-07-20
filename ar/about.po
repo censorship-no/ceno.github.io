@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-11 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-07-21 22:04+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/ar/>\n"
 "Language: ar\n"
@@ -13,46 +13,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "ar"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "About"
-msgstr ""
+msgstr "حول"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:92-17
 msgid "Support"
-msgstr ""
+msgstr "دعم"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "News"
-msgstr ""
+msgstr "أخبار"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Community"
-msgstr ""
+msgstr "المجتمع"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr ""
+msgstr "تبرّع"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
-msgstr ""
+msgstr "احصل على Ceno"
 
 #: about.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
-msgstr ""
+msgstr "تنزيل"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:109-1
 msgid "EN"
-msgstr ""
+msgstr "AR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -138,6 +138,11 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"متصفح Ceno هو مشروع من قبل <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"وهي شركة كندية غير ربحية تقوم بتطوير أنظمة مفتوحة وقابلة لإعادة الاستخدام مع "
+"التركيز على الخصوصية والأمن عبر الإنترنت وحرية تكوين الجمعيات. الحلول "
+"والابتكارات التكنولوجية تقودها <a href=\"https://equalit.ie/en/values/\""
+">قيم</a> و التي ترشدنا لحماية حقوق وتطلعات الجميع عبر الإنترنت."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:219-23
@@ -145,3 +150,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
