@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-25 16:48+0000\n"
-"Last-Translator: Anjar Yudikta Swareka <anjarys@gmail.com>\n"
+"PO-Revision-Date: 2023-07-20 11:04+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/id/>\n"
 "Language: id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -38,7 +38,7 @@ msgstr "Komunitas"
 
 #: index.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr ""
+msgstr "Donasi"
 
 #: index.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
@@ -74,15 +74,15 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | Share the Web"
-msgstr ""
+msgstr "Peramban Ceno | Berbagi Web"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:145-9
 msgid "Ceno Browser banner"
-msgstr ""
+msgstr "Spanduk Peramban Ceno"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:150-7
 msgid "Share the web!"
-msgstr ""
+msgstr "Bagikan webnya!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:151-3
 msgid ""
@@ -91,26 +91,31 @@ msgid ""
 "allows people to access and share web information in and across regions "
 "where connectivity has been interrupted or compromised."
 msgstr ""
+"Ceno (kependekan dari censorship.no!) adalah peramban seluler pertama di "
+"dunia yang dapat menghindari metode sensor internet saat ini. Tulang "
+"punggung peer-to-peer memungkinkan orang-orang untuk mengakses dan berbagi "
+"informasi web di dalam dan di seluruh wilayah di mana konektivitas telah "
+"terganggu atau disusupi."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:153-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Dapatkan di Google Play"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:156-17
 msgid "Get it on F-droid"
-msgstr ""
+msgstr "Dapatkan di F-droid"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:159-17
 msgid "Get it on Paskoocheh"
-msgstr ""
+msgstr "Dapatkan di Paskoocheh"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-14
 msgid "Browse Freely"
-msgstr ""
+msgstr "Bebas Menjelajah"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
 msgid "Unlock the Web"
-msgstr ""
+msgstr "Membuka Akses Web"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
 msgid ""
@@ -118,14 +123,17 @@ msgid ""
 "internet is down or censored. Install Ceno Browser today and be prepared for "
 "the next time you get 🔌 unplugged."
 msgstr ""
+"Akses konten web melalui jaringan rekan yang bekerja sama bahkan saat "
+"internet mati atau disensor. Instal Peramban Ceno hari ini dan bersiaplah "
+"untuk saat berikutnya Anda 🔌 kehilangan akses internet."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:186-13
 msgid "Grow the network - Become a bridge!"
-msgstr ""
+msgstr "Kembangkan jaringan - Menjadi jembatan!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:187-15
 msgid "Grow the Network"
-msgstr ""
+msgstr "Kembangkan Jaringan"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:188-15
 msgid ""
@@ -133,16 +141,19 @@ msgid ""
 "instantly join the network and expand the availability of blocked websites "
 "to those in censored countries."
 msgstr ""
+"Lawan sensor dengan menjadi jembatan! Instal dan jalankan Peramban Ceno "
+"untuk langsung bergabung dengan jaringan dan memperluas ketersediaan situs "
+"web yang diblokir ke negara-negara yang disensor."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "Gratis dan Sumber Terbuka"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:196-15
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:196-15"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "Gratis dan Sumber Terbuka"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:197-15
 msgid ""
@@ -151,6 +162,11 @@ msgid ""
 "ouinet\">Ouinet library</a> - enabling third party developers to incorporate "
 "the Ceno network into their apps for P2P connectivity."
 msgstr ""
+"Ceno didasarkan pada <a href=\"https://mozac.org/\">Komponen Mozilla "
+"Android</a> yang diperluas untuk memanfaatkan <a href=\"https://github.com/"
+"equalitie/ouinet\">pustaka Ouinet </a> - memungkinkan pengembang pihak "
+"ketiga untuk memasukkan jaringan Ceno ke dalam aplikasi mereka untuk "
+"konektivitas P2P."
 
 #: index.html%2Bhtml.body.footer.div.p:218-9
 msgid ""
@@ -161,6 +177,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – sebuah perusahaan nirlaba Kanada yang mengembangkan sistem "
+"terbuka dan dapat digunakan kembali yang berfokus pada privasi, keamanan "
+"daring, dan kebebasan berserikat. Solusi dan inovasi teknologi didorong oleh "
+"<a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> kami yang memandu "
+"kami untuk melindungi hak dan aspirasi setiap orang secara daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:220-23

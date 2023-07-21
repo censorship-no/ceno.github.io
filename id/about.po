@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 14:38-0700\n"
-"PO-Revision-Date: 2023-05-25 16:48+0000\n"
-"Last-Translator: Anjar Yudikta Swareka <anjarys@gmail.com>\n"
+"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Bottan Hermawan <bottantester@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/id/>\n"
 "Language: id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -38,7 +38,7 @@ msgstr "Komunitas"
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr ""
+msgstr "Donasi"
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
@@ -57,19 +57,19 @@ msgstr "ID"
 #.  TRANSLATORS: Please do not translate any of these. 
 #: about.html%2Bhtml.body.nav.div.div.div.div:115-5
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about.html"
+"\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
-"hreflang=\"pt_BR\" href=\"../pt_BR/about.html\">Português</a> <a "
-"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
-"href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> <a class=\"navbar-"
-"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class="
+"\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html"
+"\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" "
+"href=\"../pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru"
+"\" hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html"
+"\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href="
+"\"../ur/about.html\">اردو</a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.main.title:138-1
@@ -78,55 +78,75 @@ msgstr "Install Browser Ceno"
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
 msgid "How Ceno Browser Works"
-msgstr ""
+msgstr "Cara Kerja Peramban Ceno"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:149-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
+"Sebagian besar lalu lintas web di negara-negara yang menyaring internet "
+"dialihkan melalui pertukaran terpusat, seperti Google."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:157-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"Desain ini memberikan sensor tersebut keuntungan dalam menemukan dan "
+"memblokir proksi populer, server VPN, relai, dll."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:165-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"Dalam kasus ini, menjangkau server web asal akan sulit atau tidak mungkin, "
+"dan perangkat Anda tidak akan bisa mendapatkan konten tersebut."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:173-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
+"Ceno adalah peramban web seluler untuk menyimpan dan berbagi konten web di "
+"mana saja."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:181-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"Pengguna Ceno membuat jaringan dunia kecil untuk terhubung dengan satu sama "
+"lain dan setelah itu membuat jembatan ke luar zona yang disensor."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:189-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"Setelah situs web diakses oleh satu pengguna Ceno, situs itu disimpan dan "
+"dibagikan di dalam negara peer-to-peer."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-"Learn more in the User Manual!</button></a> <a href=\"https://github.com/"
-"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
-"see the Ouinet whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> Learn more in "
+"the User Manual!</button></a> <a href=\"https://github.com/equalitie/ouinet/"
+"blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll"
+"\"></span> For a more in-depth, technical guide, see the Ouinet whitepaper.</"
+"button></a>"
 msgstr ""
+"<a href=\"../user-manual/id/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book\"></span> Pelajari lebih "
+"lanjut di dalam Panduan Pengguna!</button></a> <a href=\"https://github.com/"
+"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
+"\"fas fa-scroll\"></span> Untuk panduan teknis yang lebih mendalam, lihat "
+"laporan resmi Ouinet.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
 msgid ""
@@ -137,6 +157,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie"
+"\">eQualit.ie</a> – sebuah perusahaan nirlaba Kanada yang mengembangkan "
+"sistem terbuka dan dapat digunakan kembali yang berfokus pada privasi, "
+"keamanan daring, dan kebebasan berserikat. Solusi dan inovasi teknologi "
+"didorong oleh <a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> "
+"kami yang memandu kami untuk melindungi hak dan aspirasi setiap orang secara "
+"daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:219-23
@@ -146,6 +173,19 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
+#: about.html%2Bhtml.body.main.div.div:197-1
+msgid ""
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style="
+"\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Learn more "
+"in the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll fa-xl\"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
+msgstr ""
 
 #, fuzzy
 #~ msgid "CENO Browser | About"
