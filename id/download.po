@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-05-25 16:48+0000\n"
-"Last-Translator: Anjar Yudikta Swareka <anjarys@gmail.com>\n"
+"PO-Revision-Date: 2023-07-19 10:05+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/id/>\n"
 "Language: id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -38,7 +38,7 @@ msgstr "Komunitas"
 
 #: download.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr ""
+msgstr "Donasi"
 
 #: download.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
@@ -79,7 +79,7 @@ msgstr "Install Ceno"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:144-13
 msgid "Ceno Browser banner"
-msgstr ""
+msgstr "Spanduk Peramban Ceno"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:148-7
 msgid "Get Ceno Browser"
@@ -90,38 +90,45 @@ msgid ""
 "The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
+"Cara paling aman untuk menginstal Peramban Ceno di ponsel Android Anda "
+"adalah melalui Google Play Store:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:151-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Dapatkan di Google Play"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:152-19
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
+"Opsi lainnya, Anda dapat menginstal Ceno melalui F-Droid, Lokapasar "
+"Paskoocheh, atau mengunduh APK langsung melalui GitLab:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:154-21
 msgid "Get it on F-droid"
-msgstr ""
+msgstr "Dapatkan di F-droid"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:157-17
 msgid "Get it on Paskoocheh"
-msgstr ""
+msgstr "Dapatkan di Paskoocheh"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:160-17
 msgid "Get it on GitLab"
-msgstr ""
+msgstr "Dapatkan di GitLab"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:174-15
 msgid "Direct Download"
-msgstr ""
+msgstr "Unduh Langsung"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-15
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
+"Untuk pengguna tingkat lanjut atau jika Anda tidak dapat menginstal Peramban "
+"Ceno melalui tautan di atas, Anda dapat mengunduh APK terbaru secara "
+"langsung:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
 msgid "Ceno Browser 2.0.2"
@@ -129,11 +136,11 @@ msgstr "Install Ceno"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
 msgid "Download (32-bit ARM)"
-msgstr ""
+msgstr "Unduh (ARM 32-bit)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:178-20
 msgid "Download (64-bit ARM)"
-msgstr ""
+msgstr "Unduh (ARM 64-bit)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:180-17
 msgid ""
@@ -141,6 +148,10 @@ msgid ""
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
+"Jalankan ini untuk <a href=\"https://developer.android.com/studio/"
+"command-line/apksigner#usage-verify\">memverifikasi</a> bahwa APK memiliki "
+"tanda tangan yang valid dari sertifikat dengan sidik jari yang ditampilkan "
+"di bawah ini:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:183-1
@@ -149,6 +160,9 @@ msgid ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:185-17
 msgid ""
@@ -158,6 +172,12 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
+"Anda juga dapat memverifikasi <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt.asc\">tanda tangan</a> dari <a href=\"https://dcomm.net.ua/"
+"package/ceno/sha256sums.txt\">berkas hash</a> terhadap <a href=\"https://pgp."
+"mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">kunci PGP</a> kami ("
+"dengan sidik jari <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:207-9
 msgid ""
@@ -168,6 +188,12 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie\""
+">eQualit.ie</a> – sebuah perusahaan nirlaba Kanada yang mengembangkan sistem "
+"terbuka dan dapat digunakan kembali yang berfokus pada privasi, keamanan "
+"daring, dan kebebasan berserikat. Solusi dan inovasi teknologi didorong oleh "
+"<a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> kami yang memandu "
+"kami untuk melindungi hak dan aspirasi setiap orang secara daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:209-23
