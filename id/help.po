@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
-"Last-Translator: Bottan Hermawan <bottantester@gmail.com>\n"
+"PO-Revision-Date: 2023-07-25 04:02+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/id/>\n"
 "Language: id\n"
@@ -86,16 +86,21 @@ msgid ""
 "possible. Ceno is a completely Free/Libre/Open Source project, and there are "
 "many ways to contribute!"
 msgstr ""
+"Kami sangat mengharapkan dukungan Anda untuk membuat Peramban Ceno berguna "
+"dan dapat diakses semaksimal mungkin. Ceno adalah proyek yang sepenuhnya "
+"Gratis/Libre/Sumber Terbuka dan ada banyak cara untuk berkontribusi!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:151-17
 msgid "Translations"
-msgstr ""
+msgstr "Penerjemahan"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:153-9
 msgid ""
 "Help translate the Ceno Browser app, web extension, user manual and website! "
 "We use Weblate to crowdsource translations."
 msgstr ""
+"Bantu menerjemahkan aplikasi, pengaya web, panduan pengguna, dan situs web "
+"Peramban Ceno! Kami menggunakan Weblate untuk melakukan urun daya terjemahan."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:154-13
 msgid ""
@@ -103,32 +108,42 @@ msgid ""
 "contact form below) if you're interested in becoming a reviewer for "
 "translation(s) in your language(s)."
 msgstr ""
+"Silakan hubungi tim Ceno di cenoers [at] equalit [dot] ie (atau formulir "
+"kontak di bawah ini) jika Anda tertarik untuk menjadi peninjau terjemahan "
+"dalam bahasa Anda."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:155-13
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
 msgstr ""
+"Untuk informasi lebih lanjut tentang cara menggunakan Weblate, lihat <a href="
+"\"https://docs.weblate.org/\">dokumentasi Weblate.</a>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:156-17
 msgid "Join our Weblate"
-msgstr ""
+msgstr "Bergabunglah dengan Weblate kami"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:167-17
 msgid "User Research"
-msgstr ""
+msgstr "Riset Pengguna"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:168-3
 msgid ""
 "Ceno relies on user feedback to understand the needs of our users and to "
 "suggest improvements and new features."
 msgstr ""
+"Ceno mengandalkan umpan balik dari pengguna untuk memahami kebutuhan "
+"pengguna kami dan untuk menyarankan perbaikan dan fitur baru."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:169-3
 msgid ""
 "Sharing your story also helps spread the word about Ceno, which grows the "
 "network. With your consent, we may also highlight your story on our website!"
 msgstr ""
+"Berbagi cerita Anda juga membantu menyebarkan berita tentang Ceno, yang mana "
+"akan mengembangkan jaringan Ceno. Dengan persetujuan Anda, kami juga dapat "
+"menyorot kisah Anda di situs web kami!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:170-3
 msgid ""
@@ -136,24 +151,29 @@ msgid ""
 "can get in touch with the team via the feedback button at the bottom of this "
 "website, or send us an email:"
 msgstr ""
+"Kami menerima ulasan di Play Store dan juga komunikasi langsung. Anda dapat "
+"menghubungi tim melalui tombol umpan balik di bagian bawah situs web ini "
+"atau mengirim surel kepada kami:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:171-3
 msgid "cenoers [at] equalit [dot] ie"
-msgstr ""
+msgstr "cenoers [at] equalit [dot] ie"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:172-17
 msgid "Take a survey"
-msgstr ""
+msgstr "Ikuti survei"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:183-17
 msgid "Source Code"
-msgstr ""
+msgstr "Kode Sumber"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:184-3
 msgid ""
 "If you are interested in Ceno's source code please check the following Git "
 "repositories:"
 msgstr ""
+"Jika Anda tertarik dengan kode sumber Ceno, silakan periksa repositori Git "
+"berikut ini:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:186-12
 msgid ""
@@ -163,10 +183,16 @@ msgid ""
 "censorship-no/ceno-distribution\">included extensions</a>, <a href=\"https://"
 "github.com/censorship-no/ceno-ext-settings\">settings extension source</a>"
 msgstr ""
+"Komponen peramban: <a href=\"https://github.com/censorship-no/ceno-browser\""
+">pembangun paket</a>, <a href=\"https://github.com/censorship-no/gecko-dev/"
+"tree/ceno\">salin dari Firefox</a>, <a href=\"https:// ithub.com/"
+"censorship-no/ceno-distribution\">pengaya yang disertakan</a>, <a href="
+"\"https://github.com/censorship-no/ceno-ext-settings\">sumber pengaturan "
+"pengaya</a>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
 msgid "Ouinet source"
-msgstr ""
+msgstr "Sumber Ouinet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-12
 msgid ""
@@ -177,35 +203,45 @@ msgid ""
 "repositories can be found at the <a href=\"https://github.com/censorship-no-"
 "archive\">Censorship.no! archive</a>."
 msgstr ""
+"Anda juga mungkin tertarik dengan (tidak lagi dikelola) <a href=\"https"
+"://github.com/censorship-no-archive/ceno1\">titisan sebelumnya dari Ceno</"
+"a>, yang dibangun di atas <a href=\"https://freenetproject.org/\">Freenet</"
+"a> jaringan berbagi berkas anonim dan penerbitan konten. Repositori terkait "
+"proyek lain yang tidak aktif dapat ditemukan di <a href=\"https://github.com/"
+"censorship-no-archive\">arsip Censorship.no!</a>."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:190-17
 msgid "Browse our Github"
-msgstr ""
+msgstr "Jelajahi Github kami"
 
 #: help.html%2Bhtml.body.main.div.section.h2:203-1
 msgid "Run a Bridge Node"
-msgstr ""
+msgstr "Menjalankan Simpul Jembatan"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:209-3
 msgid "Become a bridge!"
-msgstr ""
+msgstr "Jadilah jembatan!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:211-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr ""
+"Ingin membantu dalam mengembangkan jaringan? Bergabunglah dengan kumpulan "
+"jembatan kami!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:218-3
 msgid "The easy way: Android"
-msgstr ""
+msgstr "Cara yang mudah: Android"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:220-17
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
+"Jalankan Peramban Ceno di perangkat Android Anda, dan/atau perangkat "
+"cadangan yang selalu aktif."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:227-3
 msgid "Run the Ceno Docker Client"
-msgstr ""
+msgstr "Jalankan Klien Ceno Docker"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:229-17
 msgid ""
@@ -213,38 +249,46 @@ msgid ""
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
 "ouinet --network host --restart unless-stopped equalitie/ceno-client</code>"
 msgstr ""
+"Atau, hanya dengan satu perintah, Anda dapat menyiapkan jembatan pada "
+"komputer atau VPS Anda: <code>sudo docker run --name ceno-client -dv ceno:/"
+"var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
+"client</code>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:236-3
 msgid "Open a portal to the internet"
-msgstr ""
+msgstr "Buka portal ke internet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:238-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
-msgstr ""
+msgstr "Pastikan UPnP diaktifkan pada ruter Anda, atau atur penerusan porta."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:245-3
 msgid "To see if it's working:"
-msgstr ""
+msgstr "Untuk mengetahui apakah hal itu berfungsi:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:247-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
+"Buat dan buka Profil Firefox baru dan atur proksi ke host lokal, porta 8077."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:254-3
 msgid "Thank you for growing the network!"
-msgstr ""
+msgstr "Terima kasih karena telah mengembangkan jaringan!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:256-17
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr ""
+"Instal Pengaya Web Ceno dan sertifikat yang disediakan untuk mengujinya!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: help.html%2Bhtml.body.main.div.section.div.div:262-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
+"Pelajari lebih lanjut tentang cara menyiapkan jembatan dalam Panduan "
+"Pengguna!"
 
 #: help.html%2Bhtml.body.footer.div.p:283-9
 msgid ""
@@ -256,11 +300,12 @@ msgid ""
 "everyone online."
 msgstr ""
 "Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie\""
-">eQualit.ie</a> – sebuah perusahaan nirlaba Kanada yang mengembangkan sistem "
-"terbuka dan dapat digunakan kembali yang berfokus pada privasi, keamanan "
-"daring, dan kebebasan berserikat. Solusi dan inovasi teknologi didorong oleh "
-"<a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> kami yang memandu "
-"kami untuk melindungi hak dan aspirasi setiap orang secara daring."
+">eQualit.ie</a> – sebuah perusahaan nirlaba asal Kanada yang mengembangkan "
+"sistem terbuka dan dapat digunakan kembali yang berfokus pada privasi, "
+"keamanan daring, dan kebebasan berserikat. Solusi dan inovasi teknologi "
+"didorong oleh <a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> "
+"kami yang memandu kami untuk melindungi hak dan aspirasi setiap orang secara "
+"daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: help.html%2Bhtml.body.footer:285-23
