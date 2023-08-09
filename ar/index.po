@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-07-21 22:04+0000\n"
+"PO-Revision-Date: 2023-07-23 03:02+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "websiteindex/ar/>\n"
@@ -75,15 +75,15 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | Share the Web"
-msgstr ""
+msgstr "متصفح Ceno | شارك الويب"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:145-9
 msgid "Ceno Browser banner"
-msgstr ""
+msgstr "شعار متصفح Ceno"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.h1:150-7
 msgid "Share the web!"
-msgstr ""
+msgstr "شارك الويب!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p:151-3
 msgid ""
@@ -92,26 +92,30 @@ msgid ""
 "allows people to access and share web information in and across regions "
 "where connectivity has been interrupted or compromised."
 msgstr ""
+"Ceno (اختصار لـ censorship.no!) هو أول متصفح جوال في العالم يتخطى أساليب "
+"الرقابة الحالية على الإنترنت. عمودها الفقري من نظير إلى نظير، يسمح للأشخاص "
+"بالوصول إلى معلومات الويب ومشاركتها عبر المناطق التي تم فيها قطع الاتصال أو "
+"اختراقه."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:153-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "احصل عليه من متجر جوجل بلاي (Google Play)"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:156-17
 msgid "Get it on F-droid"
-msgstr ""
+msgstr "احصل عليه من F-droid"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:159-17
 msgid "Get it on Paskoocheh"
-msgstr ""
+msgstr "احصل عليه من Paskoocheh"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:177-14
 msgid "Browse Freely"
-msgstr ""
+msgstr "تصفح بحرية"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:178-15
 msgid "Unlock the Web"
-msgstr ""
+msgstr "افتح قفل الويب"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:179-15
 msgid ""
@@ -119,14 +123,17 @@ msgid ""
 "internet is down or censored. Install Ceno Browser today and be prepared for "
 "the next time you get 🔌 unplugged."
 msgstr ""
+"قم بالوصول إلى محتوى الويب من خلال شبكة من النظراء المتعاونين - حتى عندما "
+"يكون الإنترنت معطلا أو يخضع للرقابة. قم بتثبيت متصفح Ceno اليوم وكن مستعدًا "
+"في المرة القادمة التي تحصل فيها على 🔌 غير متصل."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:186-13
 msgid "Grow the network - Become a bridge!"
-msgstr ""
+msgstr "قم بتنمية الشبكة - كن جسرا!"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:187-15
 msgid "Grow the Network"
-msgstr ""
+msgstr "قم بتنمية الشبكة"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:188-15
 msgid ""
@@ -134,16 +141,19 @@ msgid ""
 "instantly join the network and expand the availability of blocked websites "
 "to those in censored countries."
 msgstr ""
+"حارب الرقابة عن طريق أن تصبح جسرا! قم بتثبيت وتشغيل Ceno Browser للانضمام "
+"على الفور إلى الشبكة وتوسيع نطاق توافر المواقع المحجوبة في البلدان الخاضعة "
+"للرقابة."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:195-13
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "مجاني ومفتوح المصدر"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:196-15
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:196-15"
 msgid "Free and Open Source"
-msgstr ""
+msgstr "مجاني ومفتوح المصدر"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.p:197-15
 msgid ""
@@ -152,6 +162,10 @@ msgid ""
 "ouinet\">Ouinet library</a> - enabling third party developers to incorporate "
 "the Ceno network into their apps for P2P connectivity."
 msgstr ""
+"يعتمد Ceno على<a href=\"https://mozac.org/\">مكونات Mozilla لأندرويد</a>، تم "
+"تمدديدها للاستفادة من<a href=\"https://github.com/equalitie/ouinet\">مكتبة "
+"Ouinet</a>- والذي يمكن مطوري الطرف الثالث من دمج شبكة Ceno في تطبيقاتهم من "
+"أجل اتصال P2P."
 
 #: index.html%2Bhtml.body.footer.div.p:218-9
 msgid ""
