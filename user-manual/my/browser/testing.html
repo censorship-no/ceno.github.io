@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="my" class="light" dir="ltr">
+<html lang="my" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>ဘရောက်ဇာ စမ်းသပ်ခြင်း - Censorship.no! သုံးစွဲသူ လက်စွဲ</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> မိတ်ဆက်</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet ဆိုတာ ဘာလဲ။</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> အမြန် စတင်မှု လမ်းညွှန်</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> မေးလေ့ရှိသော မေးခွန်းများ</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> အဓိက အယူအဆများ</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> ဘယ်လို အလုပ်လုပ်သလဲ။</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> အများသုံးနှင့် သီးသန့် ရှာဖွေမှု</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html" class="active"><strong aria-hidden="true">3.4.</strong> ဘရောက်ဇာ စမ်းသပ်ခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> အခြားသူများအား ကူညီခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> ပြဿနာ ဖြေရှင်းခြင်း</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> မိတ်ဆက်</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet ဆိုတာ ဘာလဲ။</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> အမြန် စတင်မှု လမ်းညွှန်</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> မေးလေ့ရှိသော မေးခွန်းများ</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> အဓိက အယူအဆများ</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> ဘယ်လို အလုပ်လုပ်သလဲ။</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> အများသုံးနှင့် သီးသန့် ရှာဖွေမှု</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ceno/Ouinet အသုံးပြုခြင်း၏ အားသာချက်များ</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ceno/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Ceno ဘရောက်ဇာ အသုံးပြုခြင်း</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Ceno ထည့်သွင်းခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Ceno ဆက်တင်များ</a></li><li class="chapter-item expanded "><a href="../browser/testing.html" class="active"><strong aria-hidden="true">3.4.</strong> ဘရောက်ဇာ စမ်းသပ်ခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> အခြားသူများအား ကူညီခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> ပြဿနာ ဖြေရှင်းခြင်း</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,40 +170,40 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="ဘရောကဇာ-စမးသပခြငး"><a class="header" href="#ဘရောကဇာ-စမးသပခြငး">ဘရောက်ဇာ စမ်းသပ်ခြင်း</a></h1>
-<p>Now that you know how to <a href="install.html">install</a> and <a href="settings.html">configure</a> CENO, let us follow some steps to test whether different Ouinet-specific features work. This will involve selectively enabling and disabling different access mechanisms. Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
+<p>ယခု သင်သည် Ceno ကို မည်သို့ <a href="install.html">ထည့်သွင်း</a> ပြီး <a href="settings.html">စီစဉ်သတ်မှတ်</a> ရမည်ကို သိပြီဖြစ်သောကြောင့် ကွဲပြားသော Ouinet သီးသန့် လုပ်ဆောင်ချက်များ အလုပ်လုပ်၊ မလုပ် စမ်းသပ်ရန် အဆင့်အချို့ကို လုပ်ဆောင်ကြည့်ရအောင်။ ယင်းတွင် ကွဲပြားသော ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာများကို ရွေးချယ်၍ ဖွင့်ခြင်းနှင့် ပိတ်ခြင်း ပါဝင်ပါမည်။ သို့သော် Ceno ကို နေ့စဉ် အသုံးပြုရာတွင် သင်သည် ပုံသေ ဆက်တင်များကို ပြောင်းလဲရန် တခါတရံမှသာ လိုအပ်မည် ဖြစ်ကြောင်း သိမှတ်ထားပါ။</p>
 <p>အောက်ပါ စမ်းသပ်မှုအားလုံးကို ပြီးမြောက်ရန် သင်သည် Wi-Fi ကွန်ရက် တစ်ခုတည်းသို့ ချိတ်ဆက်ထားသော စက် အနည်းဆုံး နှစ်လုံး လိုအပ်မည်ဖြစ်ပြီး တတိယစက်ကို လုံးဝ ကွဲပြားသော ကွန်ရက်သို့ ချိတ်ဆက်ထားရမည်။</p>
 <p>စမ်းသပ်မှုအားလုံးကို <a href="public-private.html">အများသုံး ရှာဖွေမှု</a> အသုံးပြု၍ လုပ်ဆောင်ပါမည်။ တစ်စုံတစ်ရာ မျှော်လင့်ထားသည့်အတိုင်း ဖြစ်မလာပါက ကျေးဇူးပြု၍ စိတ်ရှည်ပြီး <a href="troubleshooting.html">ပြဿနာဖြေရှင်းခြင်း</a> ရှိ အပိုင်းကို စစ်ဆေးပါ။ တိတိကျကျ ဆိုရလျှင် စာမျက်နှာ တင်နေစဉ် ဘရောက်ဇာသည် နှစ်မိနစ်ထက်ပို၍ ကပ်နေလျှင် သင်သည် ရပ်တန့်ရန် နှိပ်ပြီး ၎င်းကို ပြန်တင်နိုင်ပါသည် (သို့သော် ယင်းသည် ရလဒ်များကို အနည်းငယ် ပြောင်းလဲနိုင်သည်)။</p>
 <h2 id="ထိုးသွငးဖိုင-ဝငရောကသုံးစွဲခြငး"><a class="header" href="#ထိုးသွငးဖိုင-ဝငရောကသုံးစွဲခြငး">ထိုးသွင်းဖိုင် ဝင်ရောက်သုံးစွဲခြင်း</a></h2>
-<p>Let us first check whether your CENO Browser can reach an injector. This may look trivial, but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
+<p>ပထမဦးစွာ သင့် Ceno ဘရောက်ဇာသည် ထိုးသွင်းဖိုင်ကို ရောက်နိုင်ခြင်း ရှိ၊ မရှိ စစ်ဆေးကြည့်ရအောင်။ ယင်းသည် မပြောပလောက်ဟု ထင်ရသော်လည်း သင့်လက်ခံစက်သည် လုပ်ငန်းစဉ်တွင် Ouinet လုပ်ဆောင်ချက် အနည်းငယ်ကို ကျင့်သုံးပြီး ဖြစ်နေပါမည် - ထိုးသွင်းဖိုင် အုပ်စုတွင် ထိုးသွင်းဖိုင် လိပ်စာကို ရှာကြည့်ခြင်း၊ ၎င်းကို တိုက်ရိုက် ဆက်သွယ်ရန် ကြိုးစားခြင်းနှင့် ၎င်းကို သင်၏ ဝင်ရောက် သုံးစွဲခွင့်ပေးသူ သို့မဟုတ် နိုင်ငံက ပိတ်ဆို့ထားပါက ပေါင်းကူး အုပ်စုတွင် ရှာကြည့်ပြီး ထိုးသွင်းဖိုင်ကို အခြား Ouinet လက်ခံစက် တစ်ခုခုမှတစ်ဆင့် ဆက်သွယ်ရန် ကြိုးစားခြင်း။</p>
 <p>ပထမစက်တွင် အောက်ပါ အဆင့်များကို လုပ်ဆောင်ပါ -</p>
 <ol>
-<li>First of all, install CENO and start it. Its home page will appear.</li>
-<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page. Since we only want to test injector access, uncheck all the boxes for content sources except <em>Via the CENO network (public)</em>.</li>
-<li>Go back to CENO's home page. Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window. If you know about a site which is usually blocked for you, go ahead and enter it!</li>
+<li>ပထမဆုံးအနေဖြင့် Ceno ကို ထည့်သွင်းပါ၊ စတင်ပါ၊ ၎င်း၏ ပင်မစာမျက်နှာ ပေါ်လာပါလိမ့်မယ်။</li>
+<li><em>Ceno ဆက်တင်များ</em> စာမျက်နှာကို ဖွင့်ရန် အက်ပ်၏ အဓိက မီနူးကို ဖွင့်ပြီး <em>Ceno</em> ကို ရွေးချယ်ပါ။ ကျွန်ုပ်တို့သည် ထိုးသွင်းဖိုင် ဝင်ရောက်သုံးစွဲခွင့်ကိုသာ စမ်းသပ်လိုသောကြောင့် ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာများအတွက် <em>Ceno ကွန်ရက်မှတစ်ဆင့် (အများသုံး)</em> မှလွဲ၍ အကွက်အားလုံးကို အမှန်ခြစ်ဖြုတ်ပါ။</li>
+<li>Ceno ၏ ပင်မ စာမျက်နှာသို့ ပြန်သွားပါ။ အကြံပြုထားသော ဝက်ဘ်ဆိုက်များမှ တစ်ခုကို ရွေးချယ်ပါ သို့မဟုတ် ဝင်းဒိုး၏ ထိပ်ဘက်ရှိ လိပ်စာဘားတွင် အခြားဆိုက်တစ်ခုခု၏ URL ကို ရိုက်ထည့်ပါ။ သင့်အတွက် ပိတ်ဆို့ထားလေ့ရှိသော ဆိုက်တစ်ခုအကြောင်း သိပါက ရှေ့ဆက်ပြီး ၎င်းကို ရိုက်ထည့်ပါ။</li>
 <li>ရွေးချယ်ထားသော ဆိုက်သည် နောက်ဆုံးတွင် ပေါ်လာပါမည်။</li>
 </ol>
 <p><strong>မှတ်ချက်</strong> အကယ်၍သင်သည် စိတ်ချရသော တရားဝင် စာမျက်နှာတစ်ခုအစား စာမျက်နှာအတုတစ်ခုကို ရောက်ရှိသွားသောအခါ ဆိုက်၏ URLအစတွင် <code>https://</code>ကို (<code>http://</code>အစား) လိပ်စာဘားတွင် ရိုက်ထည့်ပြီး ပြန်စမ်းကြည့်ပါ။</p>
 <p>ဆိုက် အမှန်တကယ် တင်ပါက သင့်စက်သည် ထိုးသွင်းဖိုင်ကို ရောက်ရှိနိုင်သဖြင့် သင် ဝမ်းသာနိုင်ပါပြီ။ သင်သည် အုပ်စုများကို မေးမြန်းပြီး အခြားလက်ခံစက်များကို ဆက်သွယ်နိုင်သောကြောင့် သင်သည် ဖြန့်ချိထားသော ယာယီ သိမ်းဆည်းထားသည့် မှတ်ဉာဏ်မှ အကြောင်းအရာကို ပြန်ထုတ်နိုင်ရန်လည်း ဖြစ်နိုင်ခြေရှိသည်။</p>
-<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved form the different sources. Only <em>Via CENO network (public)</em> should have a non-zero value since the other sources were disabled.</p>
+<p>စကားမစပ် သင်သည် လိပ်စာဘားရှိ Ceno အိုင်ကွန်ကို နှိပ်ပါက ၎င်းသည် အောက်ပါ သတိပေးချက်ကဲ့သို့ သတိပေးချက်တစ်ခုကို ပွင့်စေပြီး ကွဲပြားသော ဝင်ရောက်သုံးစွဲခွင့်ဆိုင်ရာ စက်ကိရိယာများမှ တစ်ခုစီကို အသုံးပြု၍ ဆိုက်မှ အကြောင်းအရာ မည်မျှကို ပြန်ထုတ်ခဲ့ကြောင်း ပြသပါမည်။ အခြားစက်ကိရိယာများကို ပိတ်ထားသောကြောင့် <em>Ceno ကွန်ရက်မှတစ်ဆင့် (အများသုံး)</em> တွင်သာ သုညမဟုတ်သော တန်ဖိုး ရှိသင့်သည်။</p>
 <p><img src="images/sources-inject.png" alt="ပုံ - ထိုးသွင်းမှုကို စမ်းသပ်စဉ် အသုံးပြုသော စက်ကိရိယာများ" /></p>
-<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from website</em> or <em>Via CENO network (private)</em>.</p>
+<p>ဆန့်ကျင်ဘက်အနေဖြင့် သင်သည် ပုံသေ ဆက်တင်များဖြင့် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခဲ့ပါက သင်သည် အောက်ပါ သတိပေးချက်ကဲ့သို့ သတိပေးချက်တစ်ခုကို မြင်ခဲ့နိုင်ပြီး <em>ဝက်ဘ်ဆိုက်မှ တိုက်ရိုက်</em> သို့မဟုတ် <em>Ceno ကွန်ရက်မှတစ်ဆင့် (သီးသန့်)</em> တွင် သုည မဟုတ်သော အရေအတွက်များ ရှိပါသည်။</p>
 <p><img src="images/sources-proxy.png" alt="ပုံ- သီးသန့် ရှာဖွေမှု အသုံးပြုထားသော ရင်းမြစ်များ" /></p>
 <h2 id="နီးကပသော-သုံးစွဲသူများထံမှ-အကြောငးအရာ-ရယူခြငး"><a class="header" href="#နီးကပသော-သုံးစွဲသူများထံမှ-အကြောငးအရာ-ရယူခြငး">နီးကပ်သော သုံးစွဲသူများထံမှ အကြောင်းအရာ ရယူခြင်း</a></h2>
-<p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache. The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
-<p>After successfully completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar). Then get hold of a second device (you can invite a friend over to help test) and connect it to the same Wi-Fi network. Next, follow the steps below on the second device:</p>
+<p>သင်၏ ပထမစက်က ထိုးသွင်းဖိုင်တစ်ခုထံမှ အကြောင်းအရာအချို့ကို ရယူနိုင်ခဲ့သည့်အတွက် ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ် သုံး၍ ၎င်းကို သင့်စက်က အခြားစက်နှင့် မျှဝေနိုင်ခြင်း ရှိ၊ မရှိ စမ်းသပ်ကြည့်ရအောင်။ အရိုးရှင်းဆုံး နည်းလမ်းမှာ Ceno ၏ စက်အချင်းချင်း ပံ့ပိုးမှုကို အသုံးပြု၍ လက်မှတ်ထိုးထားသော အကြောင်းအရာကို ရယူပြီး မှန်ကန်ကြောင်း စစ်ဆေးခြင်း အလုပ်လုပ်၊ မလုပ် စစ်ဆေးရန် ဖြစ်သည်။</p>
+<p>အထက်ပါ စမ်းသပ်မှုကို ပထမစက်တွင် ပြီးစီးပြီးနောက် Ceno ကို ၎င်းတွင် လုပ်ဆောင်ထားပါ (သတိပေးအချက်ပြမှုဘားတွင် Ceno အိုင်ကွန် ပေါ်နေရပါမည်)။ ထို့နောက် ဒုတိယစက်ကို ယူပြီး (သင်သည် စမ်းသပ်မှု ပြုလုပ်ရန် သူငယ်ချင်းတစ်ယောက်ကို ဖိတ်နိုင်သည်) ၎င်းကို တူညီသော Wi-Fi ကွန်ရက်သို့ ချိတ်ဆက်ပါ။ ထို့နောက် ထိုစက်တွင် အောက်ပါအဆင့်များကို လုပ်ဆောင်ပါ -</p>
 <ol>
-<li>Install CENO if needed and start it as above.</li>
-<li>Open the <em>CENO Settings</em> page as above. Since we only want to test distributed cache access, uncheck all the boxes for content sources except <em>Shared by other CENO users</em>.</li>
-<li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
+<li>လိုအပ်ပါက Ceno ကို ထည့်သွင်းပါ၊ ၎င်းကို စတင်ပြီး အထက်ပါအတိုင်း Ceno ၏ ပင်မ စာမျက်နှာသို့ ဆက်သွားပါ။</li>
+<li><em>Ceno ဆက်တင်များ</em> စာမျက်နှာကို အထက်ပါအတိုင်း ဖွင့်ပါ။ ကျွန်ုပ်တို့သည် ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ် ဝင်ရောက်သုံးစွဲခွင့်ကိုသာ စမ်းသပ်လိုသောကြောင့် <em>အခြား Ceno သုံးစွဲသူများက မျှဝေထားသည်</em> မှလွဲ၍ ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာများအတွက် အကွက်အားလုံးကို အမှန်ခြစ်ဖြုတ်ပါ။</li>
+<li>Ceno ၏ ပင်မ စာမျက်နှာသို့ ပြန်သွားပြီး သင် အထက်တွင် ပြုလုပ်ခဲ့သည့်အတိုင်း တူညီသော အပြုအမူဖြင့် တူညီသော ဆိုက်သို့ ဝင်ကြည့်ပါ (ဆိုလိုသည်မှာ အကြံပြုထားသော ဝက်ဘ်ဆိုက်များမှတစ်ခုကို ရွေးချယ်ခြင်းဖြင့် ဖြစ်စေ၊ လိပ်စာဘားတွင် ၎င်း၏ URL ကို ရိုက်ထည့်ခြင်းဖြင့် ဖြစ်စေ)။</li>
 <li>ရွေးချယ်ထားသော ဆိုက်သည် နောက်ဆုံးတွင် ပေါ်လာပါမည်။</li>
 </ol>
 <p>အကယ်၍ အလုပ်မလုပ်ပါက သင့် Wi-Fi ကွန်ရက်က စက်များကြားထဲက တိုက်ရိုက်ချိတ်ဆက်မှုကို ပိတ်ထားခြင်း ဖြစ်နိုင်ပါသည်။ ဤ လက်ခံစက် သီးသန့်ဖြစ်မှုသည် ပန်းခြံ၊ ဘား၊ သို့မဟုတ် ဟိုတယ် စသော အများသုံးကွန်ရက်များတွင် ဖြစ်နိုင်ပါသည်။ ကျေးဇူးပြုပြီး မတူညီသော ကွန်ရက်တစ်ခုခုကို အသုံးပြုပြီး ထပ်မံ ကြိုးစားကြည့်ပါ။</p>
-<p>If it works, it means that both devices are able to deliver that content to other clients. Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by other CENO users</em> has a non-zero value.</p>
+<p>၎င်းသည် အလုပ်လုပ်ပါက စက်နှစ်ခုလုံးသည် ထိုအကြောင်းအရာကို အခြားလက်ခံစက်များသို့ ပို့ဆောင်နိုင်သည်ဟု ဆိုလိုသည်။ Ceno လိပ်စာဘား အိုင်ကွန်ကို နှိပ်လျှင် အောက်ပါ အသိပေးချက်ကဲ့သို့ အသိပေးချက်တစ်ခု ပေါ်လာမည်ဖြစ်ပြီး <em>အခြား Ceno သုံးစွဲသူများက မျှဝေထားသည်</em> တွင်သာ သုည မဟုတ်သော တန်ဖိုး ရှိသည်။</p>
 <p><img src="images/sources-dcache.png" alt="ပုံ- ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ် ပြန်ထုတ်မှုကို စမ်းသပ်ချိန်တွင် အသုံးပြုသော ရင်းမြစ်များ" /></p>
-<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>. This is not a different source <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+<p>နောက်ဆုံးတွင် <em>သင်မျှဝေထားသည်</em> ဆိုသော ရေတွက်ပြသည့် ကိရိယာတစ်ခုရှိနေသည်ကို သတိပြုမိပါလိမ့်မည်။ ဤအရာသည် <em>per se</em> နှင့်တူညီသော နည်းပညာတစ်ခုဖြစ်ပါသည်။ ဤနေရာတွင် ရေတွက်သောအရာများသည် ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်ပါသည်။ သို့သော် ၎င်းတို့ကို သင်၏စက်တွင် သိုလှောင်ထားပြီးဖြစ်သဖြင့် Ceno သည် ၎င်းတို့အား ကွန်ရက်မှ ပြန်လည်ရယူရန် မလိုအပ်ပါ။</p>
 <h2 id="ဝေးလံသော-သုံးစွဲသူများထံမှ-အကြောငးအရာ-ရယူခြငး"><a class="header" href="#ဝေးလံသော-သုံးစွဲသူများထံမှ-အကြောငးအရာ-ရယူခြငး">ဝေးလံသော သုံးစွဲသူများထံမှ အကြောင်းအရာ ရယူခြင်း</a></h2>
 <p>ကျွန်ုပ်တို့သည် ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်ကို အသေးစား စမ်းသပ်မှု ပြုလုပ်ပြီးပါပြီ။ ယခု အင်တာနက် သုံး၍ ၎င်းမည်သို့ အလုပ်လုပ်ကြောင်း စမ်းသပ်ကြည့်ရအောင်။</p>
-<p>After successfully completing the test above, leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).</p>
+<p>အထက်ပါ စမ်းသပ်မှုကို အောင်မြင်စွာ ပြီးဆုံးသွားပါက ပထမစက်တွင် Ceno ကို ယခင်စမ်းသပ်မှုအတိုင်း အလုပ်လုပ်ထားလိုက်ပါ၊ ဒုတိယစက်တွင် Ceno လုပ်ဆောင်ချက်ကို ရပ်တန့်လိုက်ပါ(၎င်း၏ အသိပေးချက်တွင် &quot;ရပ်ရန်နှိပ်ပါ&quot; ကို နှိပ်ပါ)။</p>
 <p>ဤအကြိမ်တွင် သင်သည် တတိယစက်ကို လိုအပ်မည် ဖြစ်သော်လည်း ၎င်းကို ကွဲပြားသော Wi-Fi ကွန်ရက်သို့ ချိဆက်ထားရမည် (အခြားသူငယ်ချင်းတစ်ဦးက အိမ်မှ ကူညီကောင်း ကူညီနိုင်ပါမည်)။ ထိုစက်အတွက် လုပ်ဆောင်ရမည့် အဆင့်များမှာ ယခင် စမ်းသပ်မှုမှ အဆင့်များနှင့် လုံးဝ တူညီပါသည်။</p>
 <p>တတိယစက်သည် စမ်းသပ်မှုအတွက် အသုံးပြုသော ဆိုက်ကို တင်နိုင်ပါက သင်သည် အသင့်ဖြစ်နေပါပြီ။ ပထမစက်သည် အခြားစက်များသို့ အကြောင်းအရာ တင်ပို့နိုင်ပြီး ၎င်းသည် ပေါင်းကူးအဖြစ်လည်း လုပ်ဆောင်နိုင်ခြေများသည်။</p>
 <p>ဂုဏ်ယူပါတယ်။</p>
@@ -184,9 +215,11 @@
                             <a rel="prev" href="../browser/settings.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../browser/bridging.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -196,6 +229,7 @@
                     <a rel="prev" href="../browser/settings.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../browser/bridging.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -203,16 +237,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

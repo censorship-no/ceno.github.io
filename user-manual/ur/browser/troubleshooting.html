@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="ur" class="light" dir="rtl">
+<html lang="ur" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>خرابیوں کا سراغ لگانا - Censorship.no! یوزر مینوئل</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> تعارف</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet کیا ہے؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> فوری آغاز گائیڈ</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> اکثر پوچھے گئے سوالات</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مرکزی تصورات</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> یہ کیسے کام کرتا ہے؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> عوامی بمقابلہ نجی براؤزنگ</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> براؤزر کی جانچ کرنا</a></li><li class="chapter-item expanded "><a href="../browser/bridge.html"><strong aria-hidden="true">3.5.</strong> دوسروں کی مدد کرنا</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html" class="active"><strong aria-hidden="true">3.6.</strong> خرابیوں کا سراغ لگانا</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> تعارف</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet کیا ہے؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> فوری آغاز گائیڈ</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> اکثر پوچھے گئے سوالات</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مرکزی تصورات</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> یہ کیسے کام کرتا ہے؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> عوامی بمقابلہ نجی براؤزنگ</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ceno/Ouinet استعمال کرنے کے فوائد</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ceno/Ouinet استعمال کرنے میں خطرات</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Ceno براؤزر کا استعمال کرتے ہوئے</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Ceno انسٹال کرنا</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Ceno ترتیبات</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> براؤزر کی جانچ کرنا</a></li><li class="chapter-item expanded "><a href="../browser/bridge.html"><strong aria-hidden="true">3.5.</strong> دوسروں کی مدد کرنا</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html" class="active"><strong aria-hidden="true">3.6.</strong> خرابیوں کا سراغ لگانا</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,56 +170,56 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="خرابیوں-کا-سراغ-لگانا"><a class="header" href="#خرابیوں-کا-سراغ-لگانا">خرابیوں کا سراغ لگانا</a></h1>
-<p>This section will give you some hints about what to do when different, known problems arise with CENO and Ouinet. Please bear in mind that these are experimental projects, and that their operation is subject to a multitude of factors beyond our control, like the particular configuration and status of network infrastructure, as well as which content other users have retrieved and the characteristics of their connections.</p>
-<p>اگر مسائل اب بھی برقرار رہتے ہیں، تو براہ کرم ان کی اطلاع <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> پر دیں۔ ہم آپ کی ان کے ساتھ مدد کرنے کی کوشش کریں گے۔</p>
-<h2 id="there-is-no-ceno-entry-in-the-app-menu"><a class="header" href="#there-is-no-ceno-entry-in-the-app-menu">There is no CENO entry in the app menu</a></h2>
-<p>The CENO Extension may still be loading. Please be patient.</p>
-<h2 id="all-widgets-are-grayed-out-in-the-ceno-settings-page"><a class="header" href="#all-widgets-are-grayed-out-in-the-ceno-settings-page">All widgets are grayed-out in the <em>CENO Settings</em> page</a></h2>
-<p>The CENO Extension has loaded, but it has not yet been able to retrieve status from Ouinet. Since it may take a moment for Ouinet to be ready, please be patient.</p>
+<p>یہ سیکشن آپ کو کچھ اشارے دے گا کہ جب CENO اور Ouinet کے ساتھ مختلف، معلوم مسائل پیدا ہوں تو کیا کرنا ہے۔ براہ کرم ذہن میں رکھیں کہ یہ تجرباتی منصوبے ہیں، اور یہ کہ ان کا آپریشن ہمارے کنٹرول سے باہر بہت سے عوامل سے مشروط ہے، جیسے نیٹ ورک کے بنیادی ڈھانچے کی مخصوص ترتیب اور حیثیت، نیز دوسرے صارفین نے کون سا مواد بازیافت کیا ہے اور ان کے کنکشن کی خصوصیات .</p>
+<p>If problems still persist, please report them to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>. We will try to help you with them.</p>
+<h2 id="ایپ-مینو-میں-کوئی-ceno-اندراج-نہیں-ہے"><a class="header" href="#ایپ-مینو-میں-کوئی-ceno-اندراج-نہیں-ہے">ایپ مینو میں کوئی CENO اندراج نہیں ہے</a></h2>
+<p>CENO ایکسٹینشن اب بھی لوڈ ہو رہی ہے۔ برائے مہربانی صبر کریں۔</p>
+<h2 id="تمام-ویجٹس-ceno-ترتیبات-صفحہ-میں-سرمئی-رنگ-کا-ہو-گا"><a class="header" href="#تمام-ویجٹس-ceno-ترتیبات-صفحہ-میں-سرمئی-رنگ-کا-ہو-گا">تمام ویجٹس <em>CENO ترتیبات</em> صفحہ میں سرمئی رنگ کا ہو گا</a></h2>
+<p>CENO ایکسٹینشن لوڈ ہو گئی ہے، لیکن یہ ابھی تک Ouinet سے اسٹیٹس بازیافت کرنے کے قابل نہیں ہے۔ چونکہ Ouinet کے تیار ہونے میں ایک لمحہ لگ سکتا ہے، براہ کرم صبر کریں۔</p>
 <p>اگر ترتیبات کا صفحہ دو منٹ سے زیادہ کے بعد بھی ایسا ہی رہتا ہے، تو Ouinet کو شروع کرتے وقت کچھ مسئلہ درپیش ہو سکتا ہے۔</p>
-<p>Try to visit some page, if possible one which is usually available. If you get an error like &quot;Failed to retrieve the resource (after attempting all configured mechanisms)&quot;, CENO may be experiencing some issues with general connectivity (like being unable to join the BitTorrent network). If you are on a mobile connection, try again with Wi-Fi.</p>
-<p>If you get an error like &quot;The proxy server is refusing connections&quot; when visiting the page, try to stop other applications which may be offering some service to the device, then restart CENO.</p>
+<p>اگر ممکن ہو تو کوئی صفحہ دیکھنے کی کوشش کریں جو عام طور پر دستیاب ہوتا ہے۔ اگر آپ کو &quot;وسائل کو بازیافت کرنے میں ناکام (تمام ترتیب شدہ طریقہ کار کو آزمانے کے بعد)&quot; جیسی خرابی ملتی ہے، تو CENO کو عام رابطے کے ساتھ کچھ مسائل کا سامنا ہو سکتا ہے (جیسے BitTorrent نیٹ ورک میں شامل ہونے سے قاصر ہونا)۔ اگر آپ موبائل کنکشن پر ہیں تو Wi-Fi کے ساتھ دوبارہ کوشش کریں۔</p>
+<p>اگر آپ کو صفحہ پر جاتے وقت &quot;پراکسی سرور کنکشن سے انکار کر رہا ہے&quot; جیسی خرابی ملتی ہے، تو دوسری ایپلیکیشنز کو روکنے کی کوشش کریں جو ہو سکتا ہے ڈیوائس کو کچھ سروس پیش کر رہی ہوں، پھر CENO کو دوبارہ شروع کریں۔</p>
 <blockquote>
 <p><strong>تکنیکی نوٹ:</strong> ایسا ہو سکتا ہے اگر کوئی اور ایپلیکیشن پہلے سے ہی TCP پورٹس <code>127.0.0.1:8077</code> یا <code>127.0.0.1:8078</code> پر سن رہی ہو۔</p>
 </blockquote>
-<h2 id="the-ouinet-client-state-under-ceno-settings-is-not-started"><a class="header" href="#the-ouinet-client-state-under-ceno-settings-is-not-started">The <em>Ouinet client state</em> under <em>CENO Settings</em> is not <code>started</code></a></h2>
-<p>The Ouinet client run by CENO is finding problems starting on your device.</p>
-<p>When you launch CENO, the state may read <code>starting</code> for a few seconds; this is normal. However, if the state remains <code>starting</code> for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network. Please check your network connection and try restarting CENO. If you have a working connection but the state remains <code>starting</code>, please contact us (especially if the state was <code>started</code> in some previous run).</p>
-<p>One possible reason for not being able to get into BitTorrent (more so when you run CENO for the first time), is that the default bootstrap servers used by the Ouinet client are blocked or unreachable. In that case you may want to try providing CENO with extra BitTorrent bootstrap servers in the <a href="settings.html">Settings page</a>. You can ask us if you do not know of any such server. After setting the extra bootstraps, please restart the application. If the problem persists, contact us.</p>
+<h2 id="ceno-ترتیبات-کے-تحت-ouinet-کلائنٹ-کی-حالت-شروع-نہیں-ہوئی-ہے"><a class="header" href="#ceno-ترتیبات-کے-تحت-ouinet-کلائنٹ-کی-حالت-شروع-نہیں-ہوئی-ہے"><em>CENO ترتیبات</em> کے تحت <em>Ouinet کلائنٹ کی حالت</em> 'شروع' نہیں ہوئی ہے</a></h2>
+<p>CENO کے ذریعے چلائے جانے والے Ouinet کلائنٹ کو آپ کے ڈیوائس پر شروع ہونے والی دشواریوں کا سامنا ہے۔</p>
+<p>جب آپ CENO لانچ کرتے ہیں، تو حالت چند سیکنڈ کے لیے 'شروع ہو رہا ہے' پڑھ سکتی ہے۔ یہ عام ہے. تاہم، اگر حالت بہت دیر تک 'شروع ہو رہا ہے' رہتی ہے، تو یہ کنیکٹیویٹی کے سنگین مسائل کا اشارہ ہو سکتا ہے جو ایپلیکیشن کو BitTorrent نیٹ ورک تک پہنچنے سے روکتا ہے۔ براہ کرم اپنا نیٹ ورک کنکشن چیک کریں اور CENO کو دوبارہ شروع کرنے کی کوشش کریں۔ اگر آپ کے پاس ورکنگ کنکشن ہے لیکن حالت 'شروع ہو رہا ہے' بنی ہوئی ہے، تو براہ کرم ہم سے رابطہ کریں (خاص طور پر اگر حالت کسی پچھلے رن میں 'شروع ہو رہا ہے' ہوئی تھی)۔</p>
+<p>BitTorrent میں جانے کے قابل نہ ہونے کی ایک ممکنہ وجہ (جب آپ پہلی بار CENO چلاتے ہیں) تو یہ ہے کہ Ouinet کلائنٹ کے ذریعے استعمال ہونے والے ڈیفالٹ بوٹسٹریپ سرورز بلاک یا ناقابل رسائی ہیں۔ اس صورت میں آپ CENO کو اضافی BitTorrent بوٹسٹریپ سرور فراہم کرنے کی کوشش کر سکتے ہیں <a href="settings.html">ترتیبات کا صفحہ</a>۔ اگر آپ ایسے کسی سرور کے بارے میں نہیں جانتے تو آپ ہم سے پوچھ سکتے ہیں۔ اضافی بوٹسٹریپس سیٹ کرنے کے بعد، براہ کرم ایپلیکیشن کو دوبارہ شروع کریں۔ اگر مسئلہ برقرار رہتا ہے تو ہم سے رابطہ کریں۔</p>
 <p>اگر آپ کو کبھی کوئی دوسری حالت نظر آتی ہے تو، Ouinet کلائنٹ میں کچھ اندرونی خرابی ہو سکتی ہے۔ براہ کرم ہمیں اس مسئلے کی اطلاع دیں۔</p>
 <h2 id="کچھ-مواد-تک-رسائی-سے-پتہ-چلتا-ہے-کہ-وسائل-کی-بازیافت-میں-ناکام"><a class="header" href="#کچھ-مواد-تک-رسائی-سے-پتہ-چلتا-ہے-کہ-وسائل-کی-بازیافت-میں-ناکام">کچھ مواد تک رسائی سے پتہ چلتا ہے کہ &quot;وسائل کی بازیافت میں ناکام&quot;</a></h2>
-<p>This means that CENO tried all available mechanisms to access the content, but none of them succeeded.</p>
-<p>You should make sure that the following requirements are fulfilled for CENO to work:</p>
+<p>اس کا مطلب ہے کہ CENO نے مواد تک رسائی کے لیے تمام دستیاب طریقہ کار آزمائے، لیکن ان میں سے کوئی بھی کامیاب نہیں ہوا۔</p>
+<p>آپ کو یہ یقینی بنانا چاہیے کہ CENO کے کام کرنے کے لیے درج ذیل تقاضے پورے کیے گئے ہیں:</p>
 <ul>
-<li>You are running a recent version of CENO Browser. Obsolete versions may not be able to communicate with newer injectors or other clients. Check the <a href="install.html">installation instructions</a> to know where to get new versions.</li>
-<li>All access mechanisms in the <a href="settings.html">Settings page</a> are enabled. Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.</li>
-<li>Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites. CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).</li>
+<li>آپ CENO براؤزر کا حالیہ ورژن چلا رہے ہیں۔ متروک ورژن نئے انجیکٹرز یا دوسرے کلائنٹس کے ساتھ بات چیت کرنے کے قابل نہیں ہوسکتے ہیں۔ یہ جاننے کے لیے کہ نئے ورژن کہاں سے حاصل کیے جائیں <a href="install.html">انسٹالیشن ہدایات</a> کو چیک کریں۔</li>
+<li><a href="settings.html">ترتیبات کے صفحہ</a> میں رسائی کے تمام طریقہ کار فعال ہیں۔ بصورت دیگر CENO مواد تک رسائی کے وقت کنیکٹوٹی کے کچھ مسائل کو دور نہیں کر سکے گا۔</li>
+<li>آپ کے ڈیوائس کا نیٹ ورک کے ساتھ کام کرنے والا کنکشن ہے، یعنی آپ کا عام ویب براؤزر کچھ ویب سائٹس کھولنے کے قابل ہے۔ تمام نیٹ ورک کنیکٹیویٹی بند ہونے پر CENO اور Ouinet کام نہیں کر سکتے ہیں (حالانکہ صارفین اب بھی ڈیوائس ٹو ڈیوائس شیئرنگ کرنے کے لیے ایک عام Wi-Fi رسائی پوائنٹ تلاش کر سکتے ہیں)۔</li>
 </ul>
-<p>If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, to give you an idea of your chances for getting content using CENO.</p>
+<p>اگر ایسا ہے تو، یہ وضاحت کرنے کے قابل ہے کہ رسائی کے تمام طریقہ کار کے ناکام ہونے کے لیے کیا ہو رہا ہے، تاکہ آپ کو CENO کا استعمال کرتے ہوئے مواد حاصل کرنے کے امکانات کا اندازہ ہو سکے۔</p>
 <h3 id="اصل-رسائی"><a class="header" href="#اصل-رسائی">اصل رسائی</a></h3>
-<p>Your CENO Browser cannot directly reach the content's origin server. Either the server is having some difficulties itself (e.g. it is down or under some attack), or someone is interfering with your connection to it.</p>
-<p>This is the main use case for CENO and the other mechanisms should compensate for it.</p>
+<p>آپ کا CENO براؤزر براہ راست مواد کے اصل سرور تک نہیں پہنچ سکتا۔ یا تو سرور کو خود کچھ دشواریوں کا سامنا ہے (مثلاً یہ نیچے ہے یا کسی حملے کی زد میں ہے)، یا کوئی اس سے آپ کے کنکشن میں مداخلت کر رہا ہے۔</p>
+<p>یہ CENO کے لیے استعمال کا بنیادی معاملہ ہے اور دیگر طریقہ کار کو اس کی تلافی کرنی چاہیے۔</p>
 <h3 id="پراکسیانجیکٹر-تک-رسائی"><a class="header" href="#پراکسیانجیکٹر-تک-رسائی">پراکسی/انجیکٹر تک رسائی</a></h3>
-<p>Someone is interfering with your connection to Internet addresses in the injector swarm. Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reaching injectors via other clients acting as bridges.</p>
-<p>There are different reasons for CENO being unable to reach such clients:</p>
+<p>کوئی انجیکٹر بھیڑ میں انٹرنیٹ پتوں سے آپ کے کنکشن میں مداخلت کر رہا ہے۔ چونکہ CENO (اور Ouinet) کے گرفت حاصل کرنے کے بعد ایسا ہونے کی توقع ہے، CENO پل کے طور پر کام کرنے والے دوسرے کلائنٹس کے ذریعے انجیکٹر تک پہنچنے کا سہارا لیتا ہے۔</p>
+<p>CENO کے ایسے کلائنٹس تک پہنچنے میں ناکام ہونے کی مختلف وجوہات ہیں:</p>
 <ul>
 <li>
-<p>No other client is reachable by you. If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside. This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.یہاں انتہائی معاملہ یہ ہے کہ Ouinet کلائنٹس کے درمیان روابط کا پتہ سنسر کے ذریعہ لگایا جاتا ہے اور اسے بلاک کردیا جاتا ہے۔ اس کا امکان بہت کم ہے (کیونکہ اس میں تمام BitTorrent ٹریفک کو روکنا شامل ہوسکتا ہے) اور فی الحال اس سے آگے جو Ouinet کی حمایت کرتا ہے، لیکن ہم اسے ان حملوں کے خلاف مزید مزاحم بنانے کا ارادہ رکھتے ہیں۔</p>
+<p>کوئی دوسرا کلائنٹ آپ تک نہیں پہنچ سکتا۔ اگر صرف چند Ouinet کلائنٹس آن لائن ہیں، تو یہ مکمل طور پر ممکن ہے کہ ان میں سے کوئی بھی ایسے نیٹ ورک میں نہ ہو جس تک باہر سے پہنچا جا سکے۔ اس کا امکان کم ہونا چاہئے کیونکہ CENO اور Ouinet مقبول ہو جاتے ہیں اور متنوع کنیکٹیویٹی والے زیادہ سے زیادہ کلائنٹ آن لائن آتے ہیں۔یہاں انتہائی معاملہ یہ ہے کہ Ouinet کلائنٹس کے درمیان روابط کا پتہ سنسر کے ذریعہ لگایا جاتا ہے اور اسے بلاک کردیا جاتا ہے۔ اس کا امکان بہت کم ہے (کیونکہ اس میں تمام BitTorrent ٹریفک کو روکنا شامل ہوسکتا ہے) اور فی الحال اس سے آگے جو Ouinet کی حمایت کرتا ہے، لیکن ہم اسے ان حملوں کے خلاف مزید مزاحم بنانے کا ارادہ رکھتے ہیں۔</p>
 </li>
 <li>
-<p>کوئی دوسرا کلائنٹ انجیکٹر تک نہیں پہنچ سکتا۔ چونکہ اس بات کا امکان نہیں ہے کہ تمام انجیکٹر بیک وقت نیچے ہوں، اس کا مطلب یہ ہو سکتا ہے کہ آپ صرف Ouinet کلائنٹس تک پہنچ سکتے ہیں جو خود آپ کی طرح نیٹ ورک کی مداخلت سے متاثر ہیں۔This can happen when all traffic leaving or entering the country you are in is interrupted. CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.</p>
+<p>کوئی دوسرا کلائنٹ انجیکٹر تک نہیں پہنچ سکتا۔ چونکہ اس بات کا امکان نہیں ہے کہ تمام انجیکٹر بیک وقت نیچے ہوں، اس کا مطلب یہ ہو سکتا ہے کہ آپ صرف Ouinet کلائنٹس تک پہنچ سکتے ہیں جو خود آپ کی طرح نیٹ ورک کی مداخلت سے متاثر ہیں۔یہ اس وقت ہو سکتا ہے جب آپ جس ملک میں ہیں وہاں سے نکلنے یا داخل ہونے والی تمام ٹریفک میں خلل پڑتا ہے۔ CENO اس معاملے میں تقسیم شدہ کیش سے مواد حاصل کرنے اور استعمال کرنے کا سہارا لے گا، چاہے وہ پرانا ہی کیوں نہ ہو۔</p>
 </li>
 </ul>
-<p>Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites. Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.</p>
+<p>ایک بار پھر، جیسے CENO اور Ouinet زیادہ مقبول ہو جاتے ہیں، اس بات کے امکانات بڑھ جاتے ہیں کہ کم از کم چند کلائنٹس ایسے ہیں جن کی بین الاقوامی سائٹس تک کسی قسم کی رسائی ہے۔ یہاں تک کہ اگر رسائی ناگزیر ہے، تو ایک واحد Ouinet کلائنٹ جو ملک میں کچھ مواد داخل کرنے کے قابل ہو اسے باہر کی دنیا تک رسائی کی مزید ضرورت کے بغیر اسے پھیلانے کے لیے کافی ہو سکتا ہے۔</p>
 <p>آخر میں، ہم ان دو حالات سے بچنے کی کوشش کرنے کے لیے (امید ہے کہ) سنسر شپ سے پاک ممالک میں اچھی کنیکٹیویٹی کے ساتھ کچھ Ouinet کلائنٹس چلاتے ہیں، لیکن براہ کرم نوٹ کریں کہ ایسے مستحکم انٹرنیٹ ایڈریس والے کلائنٹس بھی بلاک ہو سکتے ہیں۔</p>
 <h3 id="تقسیم-شدہ-کیش"><a class="header" href="#تقسیم-شدہ-کیش">تقسیم شدہ کیش</a></h3>
-<p>Keep in mind that an absolute requirement to be able to retrieve any content from the distributed cache is that it has already been injected by some other CENO or Ouinet user. This means that popular content is more likely to eventually get injected and replicated in a natural manner, while more obscure content is less so, unless someone takes care of using CENO or some other Ouinet client to inject and keep seeding it (which may further expose them to some <a href="../concepts/risks.html">risks</a>).</p>
+<p>اس بات کو ذہن میں رکھیں کہ تقسیم شدہ کیش سے کسی بھی مواد کو بازیافت کرنے کے قابل ہونے کے لئے ایک مطلق ضرورت یہ ہے کہ اسے پہلے ہی کسی دوسرے CENO یا Ouinet صارف کے ذریعہ انجیکشن لگایا گیا ہے۔ اس کا مطلب یہ ہے کہ مقبول مواد کے بالآخر قدرتی انداز میں انجیکشن اور نقل کیے جانے کا امکان زیادہ ہوتا ہے، جب کہ زیادہ غیر واضح مواد کم ہوتا ہے، جب تک کہ کوئی CENO یا کسی دوسرے Ouinet کلائنٹ کو انجیکشن لگانے اور اسے سیڈنگ کرنے کا خیال نہ رکھے (جو انہیں کچھ مزید <a href="../concepts/risks.html">خطرات</a>) میں بے نقاب کر سکتا ہے۔</p>
 <p>براہ کرم نوٹ کریں کہ کچھ مواد جو اشتراک کے لیے محفوظ نہیں سمجھا جاتا ہے کبھی بھی انجیکٹ نہیں كيا جائے گا، چاہے کتنے ہی لوگ عوامی براؤزنگ کا استعمال کرتے ہوئے اسے بازیافت کریں۔ اس میں اصل سرور کے ذریعہ نجی طور پر نشان زد کردہ مواد، وہ مواد جس کی توثیق کی ضرورت ہوتی ہے، اور بعض متحرک ویب ایپلیکیشنز کے ذریعہ کچھ ٹریفک کا تبادلہ شامل ہے۔</p>
 <p>یہ بھی نوٹ کریں کہ انجیکٹ شدہ مواد کی کاپیاں رکھنے والے کلائنٹس کو آپ تک رسائی حاصل کرنے کی ضرورت ہے۔ پل کلائنٹس تک پہنچنے کے لیے پچھلے نقطہ میں بیان کیے گئے وہی مشاہدات یہاں لاگو ہوتے ہیں۔</p>
 <h3 id="صرف-http-سائٹس-پر-ایک-نوٹ"><a class="header" href="#صرف-http-سائٹس-پر-ایک-نوٹ">صرف HTTP سائٹس پر ایک نوٹ</a></h3>
-<p>CENO automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP. This is done by the embedded <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> extension when you enter a bare domain name like <code>example.com</code> or an HTTP URL like <code>http://example.com/…</code> in the location bar, or when you follow a link with such a URL in a page.</p>
-<p>The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message). This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.</p>
-<p>Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them. If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change <code>https://</code> to <code>http://</code>, and try again.</p>
+<p>CENO خود بخود زیادہ محفوظ HTTPS پروٹوکول میں تبدیل ہو جاتا ہے تاکہ ان سائٹس تک رسائی حاصل کی جا سکے جو بصورت دیگر سادہ، غیر محفوظ HTTP کا استعمال کرتے ہوئے حاصل کی جا سکتی ہیں۔ یہ سرایت شدہ <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> ایکسٹینشن کے ذریعے کیا جاتا ہے جب آپ لوکیشن بار میں 'example.com' جیسا ایک واضح ڈومین نام یا 'http://example.com/…` جیسا HTTP URL درج کرتے ہیں۔ ، یا جب آپ کسی صفحہ میں اس طرح کے URL والے لنک کی پیروی کرتے ہیں۔</p>
+<p>HTTPS میں خودکار سوئچنگ کسی کو HTTP کنکشن کو روکنے اور اسے کسی ناجائز سرور پر بھیجنے سے روکنے کے لیے کیا جاتا ہے، جس کے نتیجے میں جعلی مواد (جیسے بلاک پیغام) ہوتا ہے۔ HTTPS کے ساتھ اس قسم کی ہائی جیکنگ کا پتہ لگانا معمولی بات ہے، اس لیے CENO جعلی مواد کو لوڈ کرنے کے لیے دھوکہ دہی کے بجائے اس کے ارد گرد کام کر سکتا ہے۔</p>
+<p>اگرچہ بہت غیر معمولی ہے، کچھ سائٹس HTTPS کو سپورٹ نہیں کرتی ہیں، اور ان کے لیے رسائی کا کوئی طریقہ کار کام نہیں کرے گا۔ اگر آپ کو پوری طرح یقین ہے کہ یہ اس سائٹ کا معاملہ ہے جو ابھی CENO میں لوڈ ہونے میں ناکام رہی ہے، تو آپ لوکیشن بار میں اس کے URL میں ترمیم کر سکتے ہیں، <code>https://</code> کو <code>http://</code> میں تبدیل کر سکتے ہیں، اور دوبارہ کوشش کر سکتے ہیں۔</p>
 <p>اگر آپ ہمیشہ سادہ HTTP پر کسی خاص سائٹ تک رسائی حاصل کرنا چاہتے ہیں، تو آپ اس طرح ایک مستقل استثناء شامل کر سکتے ہیں:</p>
 <ol>
 <li>ایپ کے مین مینو میں، <em>HTTPS بذریعہ ڈیفالٹ</em> منتخب کریں۔ آپ اس ایکسٹینشن کی ترتیبات کا صفحہ دیکھیں گے۔</li>
@@ -196,16 +227,16 @@
 <li>جب ہو جائے، واپس جائیں یا ٹیب بند کریں۔</li>
 </ol>
 <p><img src="images/httpsbd-exceptions.png" alt="تصویر: صرف HTTP سائٹس کے لیے مستثنیات شامل کرنا" /></p>
-<p><strong>Note:</strong> In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the <a href="settings.html">Settings page</a>, disable Origin access, and try again. Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs. We encourage you to contact the site administrators and tell them to enable HTTPS support.</p>
+<p><strong>نوٹ:</strong> بدقسمتی کی صورت میں کہ ایک سائٹ صرف HTTP کے ذریعے قابل رسائی ہے، اور اسے ایک سنسر کے ذریعے ہائی جیک بھی کیا جا رہا ہے، آپ کو <a href="settings.html">ترتیبات کے صفحہ</a> پر جانے کی ضرورت ہوگی، اوریجن تک رسائی کو غیر فعال کریں، اور دوبارہ کوشش کریں۔ براہ کرم نوٹ کریں کہ یہ ترتیب تمام سائٹس پر اثر انداز ہوتی ہے، اور اسے بعد کے رنز کے لیے CENO کے ذریعے یاد نہیں رکھا جاتا ہے۔ ہم آپ کو سائٹ کے منتظمین سے رابطہ کرنے اور HTTPS معاونت کو فعال کرنے کے لیے کہنے کی ترغیب دیتے ہیں۔</p>
 <h2 id="ایک-صفحہ-جعلی-مواد-دکھاتا-ہے-جیسے-بلاک-پیغام"><a class="header" href="#ایک-صفحہ-جعلی-مواد-دکھاتا-ہے-جیسے-بلاک-پیغام">ایک صفحہ جعلی مواد دکھاتا ہے (جیسے بلاک پیغام)</a></h2>
-<p>This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server. CENO then remembered that redirection, and now it automatically opens the latter site when trying to visit the former.</p>
-<p>One way to fix this issue is to clear CENO's normal browsing cache by choosing <em>Settings</em> in the app's main menu, then <em>Clear private data</em>, and disabling all boxes but <em>Cache</em> before tapping on <em>Clear data</em>.</p>
-<p>Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visited sites by always using HTTPS, as explained in the previous section.</p>
+<p>ایسا اس وقت ہو سکتا ہے جب آپ نے ماضی میں کسی بلاک شدہ سائٹ پر جانے کے لیے CENO کا پرانا ورژن استعمال کیا ہو، اور کسی نے کنکشن کو روک کر اسے کسی ناجائز سرور پر بھیج دیا ہو۔ CENO کو پھر اس ری ڈائریکشن کو یاد آیا، اور اب یہ خود بخود مؤخر الذکر سائٹ کو کھولتا ہے جب سابقہ کو دیکھنے کی کوشش کی جاتی ہے۔</p>
+<p>اس مسئلے کو حل کرنے کا ایک طریقہ یہ ہے کہ ایپ کے مین مینو میں <em>ترتیبات</em> کو منتخب کرکے CENO کے عام براؤزنگ کیش کو صاف کریں، پھر <em>نجی ڈیٹا کو صاف کریں</em>، اور <em>ڈیٹا کو صاف کریں</em> پر دبانے سے پہلے <em>کیش</em> کے علاوہ تمام باکسز کو غیر فعال کریں۔</p>
+<p>براہ کرم نوٹ کریں کہ CENO ورژن 1.3.0 اور اس سے نئے ورژن ہمیشہ HTTPS استعمال کرکے نئی وزٹ کی گئی سائٹس کو ہائی جیک کرنے سے بچتے ہیں، جیسا کہ پچھلے حصے میں بیان کیا گیا ہے۔</p>
 <h2 id="دوسرے-میرے-ڈیوائس-کے-ذریعے-سیڈ-کردہ-مواد-کو-بازیافت-نہیں-کر-سکتے-ہیں"><a class="header" href="#دوسرے-میرے-ڈیوائس-کے-ذریعے-سیڈ-کردہ-مواد-کو-بازیافت-نہیں-کر-سکتے-ہیں">دوسرے میرے ڈیوائس کے ذریعے سیڈ کردہ مواد کو بازیافت نہیں کر سکتے ہیں</a></h2>
-<p>First, make sure that your device is still seeding the content by going to the <a href="settings.html"><em>CENO Settings</em> page</a>, only leaving the <em>Shared by other CENO users</em> source box checked, then accessing that content again: it should load (at least partially), and tapping the CENO address bar icon should only show non-zero values under <em>Shared by other CENO users</em> or <em>Shared by you</em>.</p>
-<p>If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache. Enable the <em>Via the CENO network (public)</em> source in the Settings page and access the content again. Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index. Make <em>Shared by other CENO users</em> the only checked box again and access the content once more; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.</p>
-<p>If the previous step works, but another device with only the <em>Shared by other CENO users</em> source enabled still shows &quot;Failed to retrieve the resource…&quot;, there are two possible scenarios. If both devices are in the same network (e.g. on the same Wi-Fi access point), it could be that the network does not allow direct communication between devices connected to it. This happens in some public Wi-Fi networks, so try using a private one.</p>
-<p>If the devices are in different networks, it could be due to a variety of reasons. One of them is that the network of the first device does not allow incoming connections: if you open its <em>CENO Settings</em> page, under <em>Reachability status</em> it should say <em>reachable</em> or <em>likely reachable</em>. Otherwise seeding may not be possible from that network as it is.</p>
+<p>سب سے پہلے، یقینی بنائیں کہ آپ کا آلہ اب بھی [<em>CENO ترتیبات</em> صفحہ] (settings.md) پر جا کر مواد کو سیڈ کر رہا ہے، صرف <em>دوسرے CENO صارفین کے ذریعے اشتراک کردہ۔</em> سورس باکس کو نشان زد چھوڑ کر، پھر اس مواد تک دوبارہ رسائی حاصل کریں: اسے لوڈ ہونا چاہیے (کم از کم جزوی طور پر)، اور CENO ایڈریس بار کے دبانے سے صرف <em>دوسرے CENO صارفین کے ذریعے اشتراک کردہ</em> یا <em>آپ کے ذریعہ اشتراک کردہ</em> کے تحت غیر صفر اقدار دکھائی جانی چاہئیں۔</p>
+<p>اگر مواد لوڈ نہیں ہوتا ہے، تو یہ ہو سکتا ہے کہ CENO نے اسے پہلے ہی ہٹا دیا ہو، کیونکہ یہ آپ کے مقامی کیش سے خود بخود پرانا مواد (بطور ایک ہفتہ پرانا) صاف کر دیتا ہے۔ ترتیبات کے صفحے میں <em>بذریعہ CENO نیٹ ورک (عوامی)</em> ماخذ کو فعال کریں اور مواد تک دوبارہ رسائی حاصل کریں۔ تقسیم شدہ کیش انڈیکس میں مواد کا اعلان کرنے کے لیے براہ کرم ڈیوائس کو چند منٹ گزرنے دیں۔ <em>دوسرے CENO صارفین کے ذریعے اشتراک کردہ</em> کو دوبارہ سے واحد نشان زد باکس بنائیں اور ایک بار پھر مواد تک رسائی حاصل کریں۔ اگر یہ اب بھی لوڈ نہیں ہوتا ہے، تو ہو سکتا ہے کہ مخصوص مواد کو Ouinet کے ذریعے اشتراک کرنے کے لیے محفوظ نہ سمجھا جائے۔</p>
+<p>اگر پچھلا مرحلہ کام کرتا ہے، لیکن دوسرا ڈیوائس جس میں صرف <em>دوسرے CENO صارفین کے ذریعہ اشتراک کردہ</em> ذریعہ فعال ہے پھر بھی ظاہر کرتا ہے کہ &quot;وسائل کو بازیافت کرنے میں ناکام…&quot;، دو ممکنہ منظرنامے ہیں۔ اگر دونوں ڈیوائسز ایک ہی نیٹ ورک میں ہیں (مثال کے طور پر ایک ہی Wi-Fi رسائی پوائنٹ پر)، تو یہ ہو سکتا ہے کہ نیٹ ورک اس سے منسلک ڈیوائسز کے درمیان براہ راست مواصلت کی اجازت نہ دے۔ یہ کچھ عوامی Wi-Fi نیٹ ورکس میں ہوتا ہے، لہذا ایک نجی Wi-Fi کو استعمال کرنے کی کوشش کریں۔</p>
+<p>اگر ڈیوائسز مختلف نیٹ ورکس میں ہیں، تو یہ مختلف وجوہات کی وجہ سے ہو سکتا ہے۔ ان میں سے ایک یہ ہے کہ پہلے ڈیوائس کا نیٹ ورک آنے والے رابطوں کی اجازت نہیں دیتا: اگر آپ اس کا <em>CENO ترتیبات</em> صفحہ کھولتے ہیں، تو <em>رسائی کی حیثیت</em> کے تحت اسے <em>قابل رسائی</em> یا <em>ممکنہ طور پر قابل رسائی</em> کہنا چاہیے۔ بصورت دیگر اس نیٹ ورک سے سيڈنگ ممکن نہیں جیسا کہ یہ ہے۔</p>
 <blockquote>
 <p><strong>تکنیکی نوٹ:</strong> اگر آپ کا ڈیوائس<em>غیر فیصلہ کن</em> رسائی کی اطلاع دیتا ہے اور آپ رسائی پوائنٹ کی ترتیب کو تبدیل کر سکتے ہیں، تو آپ اپنے کلائنٹ کے لیے ایک مستقل پورٹ فارورڈنگ اصول بنا سکتے ہیں۔ مزید ہدایات کے لیے <a href="bridging.html">یہاں</a> دیکھیں۔</p>
 </blockquote>
@@ -217,9 +248,11 @@
                             <a rel="prev" href="../browser/bridge.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../client/front-end.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -229,6 +262,7 @@
                     <a rel="prev" href="../browser/bridge.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../client/front-end.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -236,16 +270,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

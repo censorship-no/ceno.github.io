@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="pt_BR" class="light" dir="ltr">
+<html lang="pt_BR" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Solução de problemas - Censorship.no! Manual de Usuário</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introdução</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> O que é Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guia para Início Rápido</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Perguntas Mais Frequentes</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Conceitos Principais</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Como funciona?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegação pública versus privativa</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegação pública ou privativa</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Testando o Navegador</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ajudando outras pessoas</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html" class="active"><strong aria-hidden="true">3.6.</strong> Solução de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: o cliente front-end da Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introdução</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> O que é Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guia para Início Rápido</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Perguntas Mais Frequentes</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Conceitos Principais</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Como funciona?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegação pública versus privativa</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Vantagens de usar Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Riscos de usar Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Usando o Navegador Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Instalando o Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegação pública ou privativa</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Configurações do Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Testando o Navegador</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ajudando outras pessoas</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html" class="active"><strong aria-hidden="true">3.6.</strong> Solução de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: o cliente front-end da Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,56 +170,56 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="solução-de-problemas"><a class="header" href="#solução-de-problemas">Solução de Problemas</a></h1>
-<p>This section will give you some hints about what to do when different, known problems arise with CENO and Ouinet. Please bear in mind that these are experimental projects, and that their operation is subject to a multitude of factors beyond our control, like the particular configuration and status of network infrastructure, as well as which content other users have retrieved and the characteristics of their connections.</p>
-<p>Se os problemas persistirem, por favor os relate para <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>. Tentaremos ajudar você a resolvê-los.</p>
-<h2 id="there-is-no-ceno-entry-in-the-app-menu"><a class="header" href="#there-is-no-ceno-entry-in-the-app-menu">There is no CENO entry in the app menu</a></h2>
-<p>The CENO Extension may still be loading. Please be patient.</p>
-<h2 id="all-widgets-are-grayed-out-in-the-ceno-settings-page"><a class="header" href="#all-widgets-are-grayed-out-in-the-ceno-settings-page">All widgets are grayed-out in the <em>CENO Settings</em> page</a></h2>
-<p>The CENO Extension has loaded, but it has not yet been able to retrieve status from Ouinet. Since it may take a moment for Ouinet to be ready, please be patient.</p>
+<p>Esta seção dará algumas dicas sobre o que fazer quando problemas diferentes e conhecidos surgem com Ceno e Ouinet. Por favor, tenha em mente que estes projetos são experimentais e que suas operações estão sujeitas a uma multitude de fatores além do nosso controle, como a configuração específica e o estado da infraestrutura da rede, bem como qual conteúdo outros usuários recuperaram e as características das conexões deles.</p>
+<p>If problems still persist, please report them to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>. We will try to help you with them.</p>
+<h2 id="não-há-a-entrada-ceno-no-menu-do-aplicativo"><a class="header" href="#não-há-a-entrada-ceno-no-menu-do-aplicativo">Não há a entrada Ceno no menu do aplicativo</a></h2>
+<p>A Extensão Ceno pode ainda estar carregando. Por favor, seja paciente.</p>
+<h2 id="todos-os-widgets-estão-acinzentados-na-página-configurações-do-ceno"><a class="header" href="#todos-os-widgets-estão-acinzentados-na-página-configurações-do-ceno">Todos os widgets estão acinzentados na página <em>Configurações do Ceno</em></a></h2>
+<p>A Extensão Ceno carregou, mas ainda não foi possível recuperar o estado da Ouinet. Já que pode demorar um tempo para a Ouinet estar pronta, por favor, seja paciente.</p>
 <p>Se a página Configurações permanecer dessa maneira por mais de dois minutos, Ouinet pode ter encontrado algum problema durante a inicialização.</p>
-<p>Try to visit some page, if possible one which is usually available. If you get an error like &quot;Failed to retrieve the resource (after attempting all configured mechanisms)&quot;, CENO may be experiencing some issues with general connectivity (like being unable to join the BitTorrent network). If you are on a mobile connection, try again with Wi-Fi.</p>
-<p>If you get an error like &quot;The proxy server is refusing connections&quot; when visiting the page, try to stop other applications which may be offering some service to the device, then restart CENO.</p>
+<p>Tente visitar alguma página, se possível uma que esteja habitualmente disponível. Se você obtiver um erro como &quot;Falha em recuperar o recurso (após tentar todos os mecanismos configurados)&quot;, Ceno pode estar encontrando alguns problemas com a conectividade em geral (como não conseguir entrar na rede BitTorrent). Se estiver em uma conexão móvel, tente novamente com WiFi.</p>
+<p>Se obtiver um erro como &quot;O servidor proxy está recusando conexões&quot; ao visitar a página, tente interromper outras aplicações que podem estar oferecendo algum serviço ao dispositivo e, então, reinicie Ceno.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Isso pode acontecer caso outra aplicação já esteja ouvindo as portas TCP <code>127.0.0.1:8077</code> ou <code>127.0.0.1:8078</code>.</p>
 </blockquote>
-<h2 id="the-ouinet-client-state-under-ceno-settings-is-not-started"><a class="header" href="#the-ouinet-client-state-under-ceno-settings-is-not-started">The <em>Ouinet client state</em> under <em>CENO Settings</em> is not <code>started</code></a></h2>
-<p>The Ouinet client run by CENO is finding problems starting on your device.</p>
-<p>When you launch CENO, the state may read <code>starting</code> for a few seconds; this is normal. However, if the state remains <code>starting</code> for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network. Please check your network connection and try restarting CENO. If you have a working connection but the state remains <code>starting</code>, please contact us (especially if the state was <code>started</code> in some previous run).</p>
-<p>One possible reason for not being able to get into BitTorrent (more so when you run CENO for the first time), is that the default bootstrap servers used by the Ouinet client are blocked or unreachable. In that case you may want to try providing CENO with extra BitTorrent bootstrap servers in the <a href="settings.html">Settings page</a>. You can ask us if you do not know of any such server. After setting the extra bootstraps, please restart the application. If the problem persists, contact us.</p>
+<h2 id="o-estado-do-cliente-ouinet-dentro-das-configurações-do-ceno-não-é-iniciado"><a class="header" href="#o-estado-do-cliente-ouinet-dentro-das-configurações-do-ceno-não-é-iniciado">O <em>estado do cliente Ouinet</em> dentro das <em>Configurações do Ceno</em> não é <code>iniciado</code></a></h2>
+<p>O cliente Ouinet executado por Ceno está encontrando problemas para inicializar em seu dispositivo.</p>
+<p>Quando você abre Ceno, o estado pode indicar <code>inicializando</code> por alguns segundos, esse comportamento é normal. No entanto, se o estado permanece <code>inicializando</code> por muito tempo, pode ser um sinal de sérios problemas de conectividade que impedem a aplicação de alcançar a rede BitTorrent. Por favor, verifique a sua conexão de rede e tente reiniciar Ceno. Se você tem uma conexão funcional mas o estado permanece <code>inicializando</code>, por favor fale conosco (especialmente se o estado já foi <code>iniciado</code> em alguma execução anterior).</p>
+<p>Uma possível razão para não conseguir entrar no BitTorrent (principalmente ao executar Ceno pela primeira vez), é que os servidores bootstrap padrão usados pelo cliente Ouinet estão bloqueados ou inalcançáveis. Nesse caso, você pode querer tentar oferecer ao Ceno servidores bootstrap BitTorrent adicionais na <a href="settings.html">página Configurações</a>. Você pode nos perguntar caso não conheça nenhum servidor do tipo. Após configurar os bootstraps adicionais, por favor, reinicie a aplicação. Se o problema persistir, fale conosco.</p>
 <p>Se alguma vez você vir um outro estado, pode haver um erro interno no cliente Ouinet. Por favor, relate o problema para nós.</p>
 <h2 id="acessar-algum-conteúdo-retorna-falha-em-recuperar-o-recurso"><a class="header" href="#acessar-algum-conteúdo-retorna-falha-em-recuperar-o-recurso">Acessar algum conteúdo retorna &quot;Falha em recuperar o recurso&quot;</a></h2>
-<p>This means that CENO tried all available mechanisms to access the content, but none of them succeeded.</p>
-<p>You should make sure that the following requirements are fulfilled for CENO to work:</p>
+<p>Isso significa que o Ceno tentou todos os mecanismos disponíveis para acessar o conteúdo, mas nenhum deles obteve sucesso.</p>
+<p>Você deve certificar-se de que os seguintes requisitos foram preenchidos para o Ceno funcionar:</p>
 <ul>
-<li>You are running a recent version of CENO Browser. Obsolete versions may not be able to communicate with newer injectors or other clients. Check the <a href="install.html">installation instructions</a> to know where to get new versions.</li>
-<li>All access mechanisms in the <a href="settings.html">Settings page</a> are enabled. Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.</li>
-<li>Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites. CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).</li>
+<li>Você está executando uma versão recente do Navegador Ceno. Versões obsoletas podem não ser capazes de se comunicar com injetores mais novos ou com outros clientes. Verifique as <a href="install.html">instruções de instalação</a> para saber onde obter novas versões.</li>
+<li>Todos os mecanismos de acesso na <a href="settings.html">página Configurações</a> estão ativados. De outra forma, Ceno não conseguirá contornar alguns problemas de conectividade ao acessar o conteúdo.</li>
+<li>Seu dispositivo tem uma conexão funcional com a rede, isto é, seu navegador Web comum é capaz de abrir alguns websites. Ceno e Ouinet não conseguem funcionar quando toda a conectividade de rede está cortada (apesar de usuários ainda poderem encontrar um ponto de acesso WiFi em comum para fazer compartilhamento de dispositivo para dispositivo).</li>
 </ul>
-<p>If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, to give you an idea of your chances for getting content using CENO.</p>
+<p>Se esse é o caso, vale a pena explicar o que pode estar acontecendo para que todos os mecanismos de acesso estejam falhando, para que você tenha uma ideia de suas chances em obter conteúdo usando o Ceno.</p>
 <h3 id="acesso-à-origem"><a class="header" href="#acesso-à-origem">Acesso à origem</a></h3>
-<p>Your CENO Browser cannot directly reach the content's origin server. Either the server is having some difficulties itself (e.g. it is down or under some attack), or someone is interfering with your connection to it.</p>
-<p>This is the main use case for CENO and the other mechanisms should compensate for it.</p>
+<p>Seu Navegador Ceno não pode alcançar diretamente o conteúdo do servidor de origem. Ou o servidor está, ele mesmo, enfrentando dificuldades (por exemplo, caiu ou está sob ataque), ou alguém está interferindo em sua conexão com ele.</p>
+<p>Este é o principal caso de uso do Ceno e os outros mecanismos devem compensá-lo.</p>
 <h3 id="acesso-ao-proxyinjetor"><a class="header" href="#acesso-ao-proxyinjetor">Acesso ao proxy/injetor</a></h3>
-<p>Someone is interfering with your connection to Internet addresses in the injector swarm. Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reaching injectors via other clients acting as bridges.</p>
-<p>There are different reasons for CENO being unable to reach such clients:</p>
+<p>Alguém está interferindo na sua conexão com os endereços de Internet no enxame de injetores. Já que se espera que esse problema aconteça eventualmente, conforme Ceno (e Ouinet) se popularizem, Ceno recorre ao alcance dos injetores através de outros clientes agindo como pontes.</p>
+<p>Há diferentes razões para o Ceno não conseguir alcançar tais clientes:</p>
 <ul>
 <li>
-<p>No other client is reachable by you. If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside. This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.O caso extremo aqui é o de as conexões entre clientes Ouinet serem identificadas como tais por um censor e então bloqueadas. Esta situação é bem improvável (pois ela poderia implicar um bloqueio de todo o tráfego BitTorrent) e, atualmente, está além do suportado pela Ouinet. Mas nós planejamos torná-la mais resistente a estes ataques.</p>
+<p>Nenhum outro cliente é alcançável por você. Se apenas alguns clientes Ouinet estiverem online, é totalmente possível que nenhum deles esteja em uma rede que possa ser alcançada a partir do exterior. Esse cenário deverá se tornar menos provável à medida que Ceno e Ouinet se tornarem populares e mais clientes com conectividade diversificada ficarem online.O caso extremo aqui é o de as conexões entre clientes Ouinet serem identificadas como tais por um censor e então bloqueadas. Esta situação é bem improvável (pois ela poderia implicar um bloqueio de todo o tráfego BitTorrent) e, atualmente, está além do suportado pela Ouinet. Mas nós planejamos torná-la mais resistente a estes ataques.</p>
 </li>
 <li>
-<p>Nenhum outro cliente consegue alcançar o injetor. Por ser improvável que todos os injetores estejam simultaneamente inativos, isso pode significar que você apenas pode alcançar clientes Ouinet que estejam afetados por uma interferência na rede similar à sua.This can happen when all traffic leaving or entering the country you are in is interrupted. CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.</p>
+<p>Nenhum outro cliente consegue alcançar o injetor. Por ser improvável que todos os injetores estejam simultaneamente inativos, isso pode significar que você apenas pode alcançar clientes Ouinet que estejam afetados por uma interferência na rede similar à sua.Tal situação pode acontecer quando todo o tráfego saindo ou entrando no país em que você se encontra estiver interrompido. O Ceno iria recorrer, nesse caso, à obtenção e ao uso do conteúdo do cache distribuído, mesmo se estiver obsoleto.</p>
 </li>
 </ul>
-<p>Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites. Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.</p>
+<p>Novamente, conforme Ceno e Ouinet se tornarem mais populares, aumentarão as chances de que haja ao menos alguns clientes com algum tipo de acesso a websites internacionais. Mesmo se o acesso for precário, um único cliente Ouinet capaz de injetar algum conteúdo dentro do país pode ser suficiente para permitir que ele se propague (através do cache distribuído) sem necessidade de acessar o mundo exterior.</p>
 <p>Por fim, nós executamos alguns clientes Ouinet com boa conectividade em (esperamos) países livres de censura para tentar evitar essas duas situações. Porém, note que clientes com tais endereços de Internet estáveis poderiam ser igualmente bloqueados.</p>
 <h3 id="cache-distribuído"><a class="header" href="#cache-distribuído">Cache distribuído</a></h3>
-<p>Keep in mind that an absolute requirement to be able to retrieve any content from the distributed cache is that it has already been injected by some other CENO or Ouinet user. This means that popular content is more likely to eventually get injected and replicated in a natural manner, while more obscure content is less so, unless someone takes care of using CENO or some other Ouinet client to inject and keep seeding it (which may further expose them to some <a href="../concepts/risks.html">risks</a>).</p>
+<p>Tenha em mente que um requisito absoluto para conseguir recuperar qualquer conteúdo do cache distribuído é tal conteúdo já ter sido injetado por algum outro usuário do Ceno ou da Ouinet. Ou seja, muito provavelmente conteúdos populares serão injetados e replicados de maneira orgânica e conteúdos mais desconhecidos, não. A menos que alguém se disponha a usar Ceno ou algum outro cliente Ouinet para injetá-lo e o manter semeando (o que pode gerar ainda mais exposição a alguns <a href="../concepts/risks.html">riscos</a>).</p>
 <p>Por favor, observe que alguns conteúdos não considerados seguros para compartilhamento nunca serão injetados, não importa quantas pessoas os recuperem usando a navegação pública. Isso inclui conteúdo marcado como privado pelo servidor de origem, conteúdo que requer autenticação e algum tráfego intercambiado por certas aplicações Web dinâmicas.</p>
 <p>Observe também que os clientes detentores de cópias de conteúdo injetado precisam estar alcançáveis por você. As mesmas observações descritas no ponto anterior sobre alcançar uma ponte se aplicam aqui.</p>
 <h3 id="uma-nota-sobre-websites-unicamente-http"><a class="header" href="#uma-nota-sobre-websites-unicamente-http">Uma nota sobre websites unicamente HTTP</a></h3>
-<p>CENO automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP. This is done by the embedded <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> extension when you enter a bare domain name like <code>example.com</code> or an HTTP URL like <code>http://example.com/…</code> in the location bar, or when you follow a link with such a URL in a page.</p>
-<p>The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message). This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.</p>
-<p>Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them. If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change <code>https://</code> to <code>http://</code>, and try again.</p>
+<p>Ceno automaticamente seleciona o protocolo mais seguro HTTPS para acessar websites que seriam de outra maneira acessados usando o simples e inseguro HTTP. A seleção é feita pela extensão <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> incorporada quando você entra um nome de domínio cru como <code>example.com</code> ou uma URL HTTP como <code>http://example.com/…</code> na barra de endereço, ou quando você segue um link com tal URL em uma página.</p>
+<p>A escolha automática do HTTPS é feita para evitar que alguém intercepte uma conexão HTTP e a direcione para um servidor ilegítimo, resultando em conteúdo falso (como uma mensagem de bloqueio). Esse tipo de sequestro é trivial de detectar com HTTPS, portanto, Ceno pode contorná-lo em vez de ser induzido a carregar conteúdo falso.</p>
+<p>Apesar de muito incomum, alguns websites não suportam HTTPS e nenhum mecanismo de acesso funcionará para eles. Se tem total certeza de que este é o caso para um website cujo carregamento no Ceno acaba de falhar, você pode editar a URL dele na barra de endereços: mude <code>https://</code> para <code>http://</code> e tente novamente.</p>
 <p>Se quiser sempre acessar um website particular através de HTTP simples, você pode adicionar uma exceção permanente como esta:</p>
 <ol>
 <li>No menu principal do aplicativo, escolha <em>HTTPS by default</em>. Você verá a página de configurações dessa extensão.</li>
@@ -196,16 +227,16 @@
 <li>Quando terminar, volte ou feche a aba.</li>
 </ol>
 <p><img src="images/httpsbd-exceptions.png" alt="Figura: Adicionando exceções para websites unicamente HTTP" /></p>
-<p><strong>Note:</strong> In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the <a href="settings.html">Settings page</a>, disable Origin access, and try again. Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs. We encourage you to contact the site administrators and tell them to enable HTTPS support.</p>
+<p><strong>Nota:</strong> No infeliz caso de um website apenas ser acessível via HTTP e também estar sendo sequestrado por um censor, você precisará ir à <a href="settings.html">página Configurações</a>, desabilitar o acesso à Origem e tentar novamente. Por favor, observe que essa configuração afeta todos os websites e ela não é lembrada pelo Ceno em execuções subsequentes. Encorajamos você a contatar os administradores do website e dizer a eles para habilitar o suporte HTTPS.</p>
 <h2 id="uma-página-mostra-conteúdo-falso-como-uma-mensagem-de-bloqueio"><a class="header" href="#uma-página-mostra-conteúdo-falso-como-uma-mensagem-de-bloqueio">Uma página mostra conteúdo falso (como uma mensagem de bloqueio)</a></h2>
-<p>This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server. CENO then remembered that redirection, and now it automatically opens the latter site when trying to visit the former.</p>
-<p>One way to fix this issue is to clear CENO's normal browsing cache by choosing <em>Settings</em> in the app's main menu, then <em>Clear private data</em>, and disabling all boxes but <em>Cache</em> before tapping on <em>Clear data</em>.</p>
-<p>Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visited sites by always using HTTPS, as explained in the previous section.</p>
+<p>Isso pode acontecer quando você usou uma versão antiga do Ceno para visitar um website bloqueado no passado e alguém interceptou a conexão e a direcionou para um servidor ilegítimo. Ceno, então, lembrou desse redirecionamento e agora automaticamente abre o último website ao tentar visitar o primeiro.</p>
+<p>Uma forma de consertar esse problema é limpar o cache de navegação normal do Ceno escolhendo <em>Configurações</em> no menu principal do aplicativo, depois clicando em <em>Limpar dados privados</em> e desabilitando todas as caixas exceto <em>Cache</em> antes de tocar em <em>Limpar dados</em>.</p>
+<p>Por favor, observe que as versões 1.3.0 e posteriores do Ceno evitam o sequestro de websites recentemente visitados pelo uso perene de HTTPS, como explicado na seção anterior.</p>
 <h2 id="outras-pessoas-não-conseguem-recuperar-conteúdo-semeado-pelo-meu-dispositivo"><a class="header" href="#outras-pessoas-não-conseguem-recuperar-conteúdo-semeado-pelo-meu-dispositivo">Outras pessoas não conseguem recuperar conteúdo semeado pelo meu dispositivo</a></h2>
-<p>First, make sure that your device is still seeding the content by going to the <a href="settings.html"><em>CENO Settings</em> page</a>, only leaving the <em>Shared by other CENO users</em> source box checked, then accessing that content again: it should load (at least partially), and tapping the CENO address bar icon should only show non-zero values under <em>Shared by other CENO users</em> or <em>Shared by you</em>.</p>
-<p>If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache. Enable the <em>Via the CENO network (public)</em> source in the Settings page and access the content again. Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index. Make <em>Shared by other CENO users</em> the only checked box again and access the content once more; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.</p>
-<p>If the previous step works, but another device with only the <em>Shared by other CENO users</em> source enabled still shows &quot;Failed to retrieve the resource…&quot;, there are two possible scenarios. If both devices are in the same network (e.g. on the same Wi-Fi access point), it could be that the network does not allow direct communication between devices connected to it. This happens in some public Wi-Fi networks, so try using a private one.</p>
-<p>If the devices are in different networks, it could be due to a variety of reasons. One of them is that the network of the first device does not allow incoming connections: if you open its <em>CENO Settings</em> page, under <em>Reachability status</em> it should say <em>reachable</em> or <em>likely reachable</em>. Otherwise seeding may not be possible from that network as it is.</p>
+<p>Primeiro, certifique-se de que seu dispositivo ainda está semeando o conteúdo indo à <a href="settings.html">página <em>Configurações do Ceno</em></a>, deixando marcada apenas a caixa source <em>Compartilhado por outros usuários Ceno</em> e então acessando esse conteúdo novamente: ele deve carregar (ao menos parcialmente) e tocar no ícone da barra de endereço do Ceno deve mostrar apenas valores diferentes de zero em <em>Compartilhado por outros usuários Ceno</em> ou <em>Compartilhado por você</em>.</p>
+<p>Se o conteúdo não carregar, pode ser que o Ceno já o tenha removido, pois ele automaticamente limpa conteúdo obsoleto (mais antigo que uma semana, por padrão) do seu cache local. Ative a source <em>Via rede do Ceno (pública)</em> na página de Configurações e acesse o conteúdo novamente. Por favor, espere alguns minutos se passarem para que o dispositivo anuncie o conteúdo no índex do cache distribuído. Torne <em>Compartilhado por outros usuários Ceno</em> a única caixa marcada novamente e acesse o conteúdo mais uma vez. Se ele ainda não carregar, pode ser que esse conteúdo em particular não seja considerado seguro para compartilhamento pela Ouinet.</p>
+<p>Se a etapa anterior funcionar, mas outro dispositivo com apenas a source <em>Compartilhado por outros usuários Ceno</em> ativada ainda exibir &quot;Falha em recuperar o recurso…&quot;, há dois cenários possíveis. Se ambos os dispositivos estão na mesma rede (por exemplo, no mesmo ponto de acesso WiFi), pode ser que a rede não permita comunicações diretas entre dispositivos conectados a ela. Isso acontece em algumas redes WiFi públicas, então tente usar uma privada.</p>
+<p>Se os dispositivos estão em redes diferentes, pode ser devido a uma gama de razões. Uma delas é a rede do primeiro dispositivo não permitir conexões ingressantes: se você abrir a página <em>Configurações do Ceno</em>, em <em>Estado de acessibilidade</em> deve constar <em>alcançável</em> ou <em>provavelmente alcançável</em>. Caso contrário, pode não ser possível semear dessa rede tal como ela está.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Se o seu dispositivo relata acessibilidade <em>não decidida</em> e é possível modificar a configuração do ponto de acesso, você pode criar uma regra permanente de redirecionamento de porta na direção do seu cliente. Veja <a href="bridging.html">aqui</a> para maiores instruções.</p>
 </blockquote>
@@ -217,9 +248,11 @@
                             <a rel="prev" href="../browser/bridging.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../client/front-end.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -229,6 +262,7 @@
                     <a rel="prev" href="../browser/bridging.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../client/front-end.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -236,16 +270,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

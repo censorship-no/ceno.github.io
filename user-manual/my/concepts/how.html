@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="my" class="light" dir="ltr">
+<html lang="my" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>ဘယ်လို အလုပ်လုပ်သလဲ။ - Censorship.no! သုံးစွဲသူ လက်စွဲ</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> မိတ်ဆက်</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet ဆိုတာ ဘာလဲ။</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> အမြန် စတင်မှု လမ်းညွှန်</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> မေးလေ့ရှိသော မေးခွန်းများ</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> အဓိက အယူအဆများ</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html" class="active"><strong aria-hidden="true">2.1.</strong> ဘယ်လို အလုပ်လုပ်သလဲ။</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> အများသုံးနှင့် သီးသန့် ရှာဖွေမှု</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> ဘရောက်ဇာ စမ်းသပ်ခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> အခြားသူများအား ကူညီခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> ပြဿနာ ဖြေရှင်းခြင်း</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> မိတ်ဆက်</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet ဆိုတာ ဘာလဲ။</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> အမြန် စတင်မှု လမ်းညွှန်</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> မေးလေ့ရှိသော မေးခွန်းများ</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> အဓိက အယူအဆများ</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html" class="active"><strong aria-hidden="true">2.1.</strong> ဘယ်လို အလုပ်လုပ်သလဲ။</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> အများသုံးနှင့် သီးသန့် ရှာဖွေမှု</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ceno/Ouinet အသုံးပြုခြင်း၏ အားသာချက်များ</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ceno/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Ceno ဘရောက်ဇာ အသုံးပြုခြင်း</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Ceno ထည့်သွင်းခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Ceno ဆက်တင်များ</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> ဘရောက်ဇာ စမ်းသပ်ခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> အခြားသူများအား ကူညီခြင်း</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> ပြဿနာ ဖြေရှင်းခြင်း</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,11 +170,11 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="ဘယလို-အလုပလုပသလဲ"><a class="header" href="#ဘယလို-အလုပလုပသလဲ">ဘယ်လို အလုပ်လုပ်သလဲ။</a></h1>
-<p>This section will explain CENO and Ouinet operation by going over a series of scenarios. Terminology and concepts important to Ouinet will be introduced (highlighted <strong>in bold letters</strong>) and used afterwards for efficiency and to avoid confusion.</p>
+<p>ဤအပိုင်းတွင် အခြေအနေများကို စီးရီးလိုက် ကြည့်ခြင်းဖြင့် CENO နှင့် Ouinet ၏ လုပ်ဆောင်ချက်ကို ရှင်းပြပါမည်။ Ouinet အတွက် အရေးကြီးသော ဝေါဟာရများနှင့် အယူအဆများကို မိတ်ဆက်မည် (<strong>စာလုံးအမဲများဖြင့်</strong> အသားပေး ဖော်ပြထားသည်) ဖြစ်ပြီး ထိရောက်မှုရှိရန်နှင့် ရောထွေးမှုကို ရှောင်ရှားရန် နောက်ပိုင်းတွင် အသုံးပြုပါမည်။</p>
 <h2 id="အကြောငးအရာကို-တိုကရိုက-ဝငရောကသုံးစွဲခြငး"><a class="header" href="#အကြောငးအရာကို-တိုကရိုက-ဝငရောကသုံးစွဲခြငး">အကြောင်းအရာကို တိုက်ရိုက် ဝင်ရောက်သုံးစွဲခြင်း</a></h2>
-<p>CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content. We call such an application a Ouinet <strong>client</strong>. When you use your client (i.e. CENO) to try to access some content <em>X</em>, hosted on a Web server (which we will call <em>X</em>'s <strong>origin</strong> server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called <strong>proxy</strong> server) and then requests the desired content. This is no different from the way in which any normal Web browser works.</p>
+<p>CENO ဘရောက်ဇာသည် ဝက်ဘ်အကြောင်းအရာကို ပြန်ထုတ်ရန်နှင့် မျှဝေရန် Ouinet နည်းပညာ အသုံးပြုသည့် အက်ပလီကေးရှင်း ဥပမာတစ်ခု ဖြစ်သည်။ ကျွန်ုပ်တို့သည် ထိုကဲ့သို့သော အက်ပလီကေးရှင်းကို Ouinet <strong>လက်ခံစက်</strong> ဟု ခေါ်သည်။ သင်သည် ဝက်ဘ်ဆာဗာတစ်ခု (ကျွန်ုပ်တို့က <em>X</em> ၏ <strong>မူလ</strong> ဆာဗာဟု ခေါ်ပါမည်) တွင် လက်ခံထားသည့် အကြောင်းအရာ <em>X</em> ကို ဝင်ရောက်သုံးစွဲဖို့ ကြိုးစားရန် သင့်လက်ခံစက် (ဆိုလိုသည်မှာ CENO) ကို အသုံးပြုသောအခါ သင့်လက်ခံစက်သည် အင်တာနက် သုံး၍ မူလ ဆာဗာကို တိုက်ရိုက်ဖြစ်စေ၊ အခြားစက်များကိုယ်စား ဝက်ဘ်ဆာဗာများကို ဆက်သွယ်ရန် စီစဉ်သတ်မှတ်ထားသော အခြားစက်တစ်ခုခု (<strong>ပရောက်စီ</strong> ဆာဗာဟု ခေါ်သည်) မှတစ်ဆင့်ဖြစ်စေ ဆက်သွယ်ရန် ကြိုးစားပြီး အလိုရှိသော အကြောင်းအရာကို တောင်းဆိုသည်။ ယင်းသည် ပုံမှန် ဝက်ဘ်ဘရောက်ဇာတစ်ခု အလုပ်လုပ်ပုံနှင့် ကွဲပြားမှု မရှိပါ။</p>
 <blockquote>
-<p><strong>Technical note:</strong> There is in fact one small gotcha. Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device). CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.</p>
+<p><strong>နည်းပညာဆိုင်ရာ မှတ်ချက် -</strong> တကယ်တမ်းတွင် အနည်းငယ် အံ့အားသင့်စရာတစ်ခု ရှိပါသည်။ လက်ခံစက်သည် သင့်စက်တွင် လုပ်ဆောင်နေသည့် HTTP ပရောက်စီတစ်ခုအဖြစ် ဆောင်ရွက်သောကြောင့် လက်ခံစက်အနေဖြင့် ကုဒ်ဖြေရန်နှင့် HTTPS အကြောင်းအရာ တောင်းဆိုမှုများကို တုံ့ပြန်ဆောင်ရွက်ရန် လက်ခံစက် (ဆိုလိုသည်မှာ CENO ရှိ Firefox ကဲ့သို့ ဝက်ဘ်ဘရောက်ဇာ အစိတ်အပိုင်း) ကို အသုံးပြုနေသော အက်ပလီကေးရှင်းသည် လက်ခံစက်ကိုယ်တိုင်က ထုတ်ပေးသည့် (သင့်စက်ပေါ်တွင်သာ အသုံးပြုသော) အထူး အသိအမှတ်ပြုလက်မှတ်ကို လက်ခံရန် လိုအပ်သည်။ CENO ဘရောက်ဇာသည် ဤအသိအမှတ်ပြုလက်မှတ်ကို သီးသန့်အသုံးပြုရန်အတွက် ပြင်ဆင်သတ်မှတ်ခြင်းကို တာဝန်ယူပြီး ဖြစ်သောကြောင့် သင် စိတ်ပူရန် မလိုအပ်ပါ။</p>
 </blockquote>
 <p>သို့သော် ဤတိုက်ရိုက်လမ်းကြောင်းများကို မရကောင်းမရနိုင်ပါ။ ဥပမာ- သင့် အင်တာနက် ဝန်ဆောင်မှု ပံ့ပိုးသူ (ISP) သည် အစိုးရ အမိန့်ကြောင့် (အခြားအသွားအလာကို ခွင့်ပြုသေးသည့်တိုင်အောင်) <em>X</em> ၏ မူလ ဆာဗာ သို့မဟုတ် ပရောက်စီကို ဝင်ရောက်သုံးစွဲခွင့် ပိတ်ဆို့ထားနိုင်သည်။ အောက်တွင်ဖော်ပြထားသော ဘယ်ဘက်ထိပ်ရှိ လက်ခံစက်ကို သုံးစွဲသူအဖြစ် အကြောင်းအရာ <em>X</em> (၎င်း၏ မူလ ဆာဗာအနီးရှိ စာရွက်စာတမ်းငယ်) သို့ ရောက်ရှိရန် ကြိုးပမ်းမှု နှစ်ခုလုံးသည် သင့်အတွက် အောင်မြင်မည် မဟုတ်ပါ။ သင်သည် ပုံပေါ်ရှိ &quot;ထိုးသွင်းဖိုင်&quot; ဆက်သွယ်ရေးပွိုင့်ကိုလည်း သတိပြုမိနိုင်သည်။ ကျွန်ုပ်တို့သည် ခဏအကြာတွင် ထိုအကြောင်းကို ရှင်းပြပါမည်။</p>
 <p><img src="images/user-flow-0.svg" alt="ပုံ - လက်ခံစက်သည် အကြောင်းအရာသို့ တိုက်ရိုက် မရောက်ရှိနိုင်ပါ" /></p>
@@ -154,7 +185,7 @@
 <p>Ouinet သည် အကြောင်းအရာကို မတူညီသော နည်းလမ်းဖြင့် ရှာဖွေသည်။ ၎င်းသည် စာအုပ်အညွှန်းနှင့် ဆင်တူသော အညွှန်းကို အသုံးပြုသည်- Ouinet ၏ <strong>ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်အညွှန်း</strong> တွင် သင်သည် အကြောင်းအရာ၏ URL တစ်ခုလုံးကို ရှာကြည့်သောအခါ ၎င်း၏ မိတ္တူ ရှိသော လက်ခံစက် စာရင်းကို ရရှိသည်။ အညွှန်းကို အခြားသူများအတွက် ၎င်းတို့တွင် မည်သည့်အကြောင်းအရာ ရှိကြောင်း ကြေညာထားသည့် လက်ခံစက်များထံ ဖြန့်ချိထားသည်။ တကယ်တမ်းတွင် URL တစ်ခုစီအတွက် <em>သဲလွန်စ</em> တစ်ခုကိုသာ ကြေညာထားသည်။ ဤသို့ဖြင့် သင့်စက်၏ အသွားအလာကို လျှို့ဝှက်စွာ စောင့်ကြည့်နေသူသည် သင့်တွင် မည်သည့်အကြောင်းအရာရှိသည်ကို မပြောနိုင်သော်လည်း တိကျသော အကြောင်းအရာ ရှာနေသူသည် သဲလွန်စများကို လိုက်၍ သင့်လက်ခံစက်ထံ ရောက်နိုင်သည်။</p>
 <blockquote>
 <p><strong>နည်းပညာဆိုင်ရာမှတ်ချက်</strong> ဤအညွှန်းကို အကောင်အထည်ဖော်နိုင်သည့် နည်းလမ်းတစ်ခုမှာ <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a>၏ <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">ခွဲဖြန့်ထားသော ဒေတာတည်ဆောက်ပုံ ဇယား</a> (DHT) ကို အသုံးပြုပြီး လက်ခံစက်နှင့် အကြောင်းအရာများ၏ လိပ်စာ (အိုင်ပီနှင့် port) တို့ကို ရယူခြင်း ဖြစ်သည်။ DHT က <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">၀ှက်စာအဖြစ် ပြောင်းလဲအလုပ်လုပ်သော နည်းပညာ</a> ကို အသုံးပြု၍ အကြောင်းအရာ၏ URL နှင့် ထိုးသွင်းသော့ (အောက်တွင်ကြည့်) ကဲ့သို့ အခြား သတ်မှတ်ကိန်းများမှတဆင့် ဇယားသော့ကို တွက်ထုတ်သည်။ သို့မှသာ ညွှန်ကိန်း အမျိုးမျိုး သည် အတူတကွ ရှိနေနိုင်မည်ဖြစ်သည်။</p>
-<p>Also, CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic. Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced. This is done with the help of an <em>ad hoc</em> browser extension (described later on).</p>
+<p>ထို့အပြင် CENO ဘရောက်ဇာသည် ၎င်းကိုအသုံးပြု၍ ဝင်ရောက်ထားသော ရင်းမြစ်တိုင်း၏ URL ကို မကြေငြာပါ။ အဘယ်ကြောင့် ဆိုသော် ထိုရင်းမြစ်များတွင် (ပုံရိပ်များ၊ စတိုင်စာမျက်နှာများနှင့် စာညွှန်းများ..) စသည့် အစိတ်အပိုင်း ဆယ်ချီ၊ ရာချီ ဖွဲ့စည်းထားသော ဝက်ဘ်စာ မျက်နှာများပါဝင်နေရာ ၎င်းတို့သည် အင်တာနက် လမ်းကြောင်း ပိတ်ဆို့မှုများကို ဖြစ်ပေါ်စေသောကြောင့်ပင်။ ထို့အစား ရင်းမြစ်များကို ဆွဲထုတ်ရန် သုံးထားသည့် သက်ဆိုင်ရာ URL အောက်တွင် အဖွဲ့လိုက်စုစည်းထားပြီး ထို URL ကိုသာ ကြေငြာပေးသည်။ ယင်း လုပ်ဆောင်ချက်ကို <em>ယာယီ</em> ဘရောက်ဇာ အဆက် (နောက်တွင်ရှင်းလင်းထား) ၏ အကူအညီဖြင့် လုပ်ဆောင်သည်။</p>
 </blockquote>
 <p>ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ် မှတဆင့် ဝက်ဘ် အကြောင်းအရာတစ်ခုကို ထိန်းသိမ်းပေးသည့် လက်ခံစက်များကို <strong>seeding လုပ်ခြင်း</strong> (သို့မဟုတ်) <em>seeders</em> ဟုခေါ်သည်။ (ထိုအခေါ်အဝေါ်များသည် P2P ဖိုင်မျှဝေခြင်းမှ ဆင်းသက်လာသည်။) အထက်တွင် ဖော်ပြခဲ့သည့် ဥပမာကို ပြန်ကြည့်လျှင် အကြောင်းအရာအချို့ကို ထိန်းသိမ်းပေးသည့် လက်ခံစက်နှစ်ခု ရှိနေသည်။ ကံမကောင်းစွာဖြင့် ထိန်သိမ်းထားသည့် အကြောင်း အရာတစ်ခုမှာ &quot;Y&quot; ဖြစ်နေပြီး အခြားတစ်ခုမှာ &quot;Z&quot; ဖြစ်နေသည်။ ထို့ကြောင့် သင့်လက်ခံစက်မှ ရှာဖွေနေသော အကြောင်းအရာ &quot;X&quot; ကို ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်တွင် ရှာဖွေမရနိုင်သည်ကို ဤသို့တွေ့ရမည် -</p>
 <p><img src="images/user-flow-1.svg" alt="ပုံ - ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်တွင် သင်ရှာဖွေသော အကြောင်းအရာ မရှိပါ" /></p>
@@ -164,7 +195,7 @@
 <p>Ouinet တွင် အထူးပရောက်စီ အမျိုးအစားများ ဖြစ်သည့် <strong>ထိုးသွင်းစက်များ</strong> ပါဝင်သည်။ ၎င်းတို့ကို အင်တာနက်၏ လွတ်လပ်သော အခြမ်းတွင် အထိုင်ချထားသည့် အတွက် ပိတ်ဆို့မှုနည်းလမ်းများသုံးသည့်တိုင် အသုံးပြုသူများမှ ၎င်းတို့ကို လက်လှမ်းမီစေမည် ဖြစ်သည်။</p>
 <ul>
 <li>
-<p>ဝက်ဘ်လမ်းကြောင်း အတွင်း ထိုးသွင်းစက်များကို ရှာဖွေတိုက်ခိုက်မှုများကို ရှောင်လွှဲနိုင်ရန် လက်ခံစက်နှင့် ထိုးသွင်းစက်များ အကြားရှိ ချိတ်ဆက်မှုများအားလုံးကို (HTTPS ရှိ စံသတ်မှတ်ထားသော SSL/TLS များကိုသုံးပြီး) ကုဒ်ဖြင့် ပြောင်းလဲထားသည်။By the way, injector certificates are shipped in CENO Browser, allowing it to detect attackers trying to impersonate injectors.</p>
+<p>ဝက်ဘ်လမ်းကြောင်း အတွင်း ထိုးသွင်းစက်များကို ရှာဖွေတိုက်ခိုက်မှုများကို ရှောင်လွှဲနိုင်ရန် လက်ခံစက်နှင့် ထိုးသွင်းစက်များ အကြားရှိ ချိတ်ဆက်မှုများအားလုံးကို (HTTPS ရှိ စံသတ်မှတ်ထားသော SSL/TLS များကိုသုံးပြီး) ကုဒ်ဖြင့် ပြောင်းလဲထားသည်။ထိုးသွင်းစက်များ၏ အသိအမှတ်ပြု လက်မှတ်များကို CENO ဘရောက်ဇာ အတွင်း ထည့်ထားသည့်အတွက် ထိုးသွင်းစက် ပုံစံဟန်ဆောင်၍ တိုက်ခိုက်မှုများကို ဖော်ထုတ် ရှောင်လွှဲနိုင်ပါသည်။</p>
 </li>
 <li>
 <p>ကုဒ်ဖြင့် ပြောင်းလဲခြင်း တစ်ခုတည်းနှင့် မလုံလောက်ပါက (I2P နှင့် Tor's Pluggable Transports ကဲ့သို့) ချိတ်ဆက်မှုများကို ရှုပ်ထွေးအောင်လုပ်ပြီး ထိုးသွင်းစက်များကို ရှာရခက်စေသည့် နည်းလမ်းများကို အသုံးပြုနိုင်ပါသည်။</p>
@@ -182,16 +213,16 @@
 <p>လက်ခံစက်နှင့် ထိုးသွင်းစက်အကြား ချိတ်ဆက်မှုမှာ ကုဒ်ဖြင့် ပြောင်းလဲထားသည့်အတွက် ပေါင်းကူးလက်ခံစက်များအနေဖြင့် ၎င်းတို့အကြား သတင်းအချက်အလက်စီးဆင်းမှုကို မြင်တွေ့ရမည်မဟုတ်ပါ။</p>
 </li>
 </ul>
-<p>An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including CENO Browser) do currently when trying to access content over a proxy. In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).</p>
+<p>ထို့ပြင် ထိုးသွင်းစက် တစ်ခုကို (ပိုမိုရောက်ရှိနိုင်သော) ပုံမှန် ပရောက်စီဆာဗာ အဖြစ်လည်း အသုံးပြုနိုင်သည်။ အမှန်တွင်လည်း (CENO ဘရောက်ဇာ အပါအဝင်) Ouinet လက်ခံစက်များက အကြောင်းအရာတစ်ခုကို ပရောက်စီမှတစ်ဆင့် ဝင်ရောက်ရန် ကြိုးပမ်းသည့်အခါ ထိုးသွင်းစက်ကို ပုံမှန် ပရောက်စီဆာဗာ အဖြစ် သုံးသည်။ ထိုကဲ့သို့ အခြေအနေတွင် ထိုးသွင်းစက်သည် သင့်လက်ခံစက်နှင့် မူလဆာဗာအကြား (ကုဒ်ဖြင့် ပြောင်းလဲထားခြင်း မရှိသည့် HTTP ချိတ်ဆက်မှု မဟုတ်ပါက) သတင်းအချက်အလက် စီးဆင်းမှုကို သိရှိနိုင်မည်မဟုတ်ပါ။</p>
 <p>သို့သော် ကွန်ရက်များ ပိတ်ဆို့ခံရသည့် အခြေအနေများတွင် ပရောက်စီများသို့ ချိတ်ဆက်နိုင်သည့် အခြားနည်းလမ်းများလည်း ရှိသည်ဖြစ်ရာ Ouinet ထိုးသွင်းစက်များက ၎င်းတို့ထက် မည်သည့်နေရာများတွင် ပိုမိုသာလွန်သနည်း။</p>
 <h3 id="မျှဝေထားသည-အကြောငးအရာများ-ယုံကြညစိတချရမှု"><a class="header" href="#မျှဝေထားသည-အကြောငးအရာများ-ယုံကြညစိတချရမှု">မျှဝေထားသည့် အကြောင်းအရာများ၏ ယုံကြည်စိတ်ချရမှု</a></h3>
 <p>ထိုးသွင်းစက်၏ အဓိကအားသာချက်မှာ သင့်လက်ခံစက်အစား အကြောင်းအရာကို ရှာဖွေချိတ်ဆက်ပေးရုံသာမက ထိုအကြောင်းအရာများကို ထိုးသွင်းစက် (သို့) အင်တာနက်ကွန်ရက် အများစုနှင့် ချိတ်ဆက်မထားချိန်တွင်ပင် အခြားသူများလိုအပ်လာလျှင် မျှဝေပေးရန် ခွင့်ပြုခြင်းပင်ဖြစ်သည်။</p>
 <p>သင့်အနေဖြင့် သင့်ဘရောက်ဇာမှ စာမျက်နှာတစ်ခုကို ဒေါင်းလုတ်ဆွဲပြီး ကော်ပီကူးကာ အခြားသူတစ်ဦးထံသို့ စိတ်ချလက်ချ မျှဝေပေးနိုင်သော်လည်း ထိုသူနှင့်သင် အချင်းချင်းသိရန် လိုအပ်သည်။ သင်မသိသောသူထံမှ ဖိုင်တစ်ခုကိုလက်ခံရသည့်အခါတွင် ထိုဖိုင်ပါ အကြောင်းအရာများသည် ဝက်ဘ်ဆိုက်အစစ်အမှန်မှလာကြောင်း မည်သို့သိရှိနိုင်မည်နည်း (သို့မဟုတ်) သင်ကြည့်လိုသည့်နေ့တွင် ရယူထားသော အကြောင်းအရာ ဖြစ်ကြောင်း (သို့မဟုတ်) ကြားဖြတ်၍ ပြုပြင် ပြောင်းလဲထားခြင်း ရှိ/မရှိ မည်သို့သိနိုင်မည်နည်း။</p>
-<p>We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know. To enable you to accept such content, Ouinet uses <strong>content signing</strong>: your client is configured to trust content that is signed using a special key owned by injectors. Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.</p>
+<p>ကျွန်ုပ်တို့၏ အဓိက ရည်ရွယ်ချက်မှာ CENO နှင့် Ouinet အသုံးပြုသူများများထံ အကြောင်းအရာများများကို တတ်နိုင်သမျှ ပံ့ပိုးပေးရန် ဖြစ်ရာ သူစိမ်းများမှ မျှဝေသည့် အကြောင်းအရာများကို သင့်အနေဖြင့် လက်ခံသုံးစွဲနိုင်ရန် လိုအပ်သည်။ ထိုသို့ လက်ခံသုံးစွဲနိုင်ရန် Ouinet အနေဖြင့် <strong>အကြောင်းအရာများတွင်လက်မှတ်ထိုးခြင်း</strong> နည်းလမ်းကို အသုံးပြုပါသည်။ မျှဝေထားသည့် အကြောင်းအရာများတွင် ထိုးသွင်းစက်များက ၎င်းတို့၏ ကိုယ်ပိုင်သော့များဖြင့် ထိုးထားသည့် လက်မှတ်များကို သင်၏ လက်ခံစက်မှ စစ်ဆေးခြင်းဖြင့် ယုံကြည်ရသည့် အကြောင်းအရာ ဟုတ်/မဟုတ်ကို သိရှိနိုင်သည်။ ထိုးသွင်းစက်ရှိ ဝက်ဘ်အကြောင်းအရာများကို မျှဝေရန်အတွက် လက်ခံစက်မှ ရှာဖွေသည့် အကြိမ်တိုင်းတွင် ထိုးသွင်းစက်သည် မူလဆာဗာမှ အကြောင်းအရာကို ရယူသည်။ ထို့နောက် သော့ကိုသုံးကာ လက်မှတ်ထိုးပြီး လက်ခံစက်ထံသို့ လက်မှတ်ထိုးထားသည့် အကြောင်းအရာကို ပေးပို့သည်။</p>
 <blockquote>
 <p><strong>နည်းပညာဆိုင်ရာ မှတ်ချက်</strong> အမှန်တကယ်အားဖြင့် ထိုးသွင်းစက်သည် သီးသန့်အချက်အလက်တစ်ခုချင်းစီကို လက်မှတ်ထိုးသည်။ ထို့ကြောင့် ကြီးမားသောဖိုင်အချက်အလက်များကို ရယူနေစဉ်ကြားထဲတွင် ချိတ်ဆက်မှုများ ပြတ်တောက်သွားစေကာမူ ဒေါင်းလုတ်ဆွဲယူထားသောအချက်အလက်များကို ရရှိသော လက်ခံစက်မှ မျှဝေနိုင်ပါသေးတယ်။</p>
 </blockquote>
-<p>Different injectors may have different keys, so you can choose which injectors to trust. Picture it like this: you may trust a document signed by a <em>notary public</em> from your country, no matter who gave it to you (national or foreigner), while you would not be required to accept a document signed by a notary from another country. CENO Browser is already configured to trust a set of injectors run by eQualitie.</p>
+<p>မတူညီသော ထိုးသွင်းစက်များသည် မတူညီသောသော့များ ရှိနိုင်သောကြောင့် မည်သည့်ထိုးသွင်းစက်ကို ယုံကြည်သင့်သည်ကို သင်ရွေးချယ်နိုင်ပါသည်။ ယခုအကြောင်းအရာကို ဤကဲ့သို့ ပုံဖော်စဉ်းစားကြည့်ပါ။ သင်သည် သင့်နိုင်ငံမှ <em>စာချုပ်စာတမ်း သက်သေခံ ရှေ့နေ</em> က လက်မှတ်ထိုးထားသော စာရွက်စာတမ်းကို သင်ယုံကြည်တယ်။ နိုင်ငံသား(ဒါမှမဟုတ်) နိုင်ငံခြားသား၊ မည်သူ့ထံမှမဆို ရစေကာမူ သင်ယုံကြည်ပါတယ်။ အခြားတစ်ဖက်တွင်မူ တခြားနိုင်ငံလက်မှတ်ပါသော နိုတြီကို သင်လက်မခံပါ။ CENO ဘရောက်ဇာသည် eQualitie မှ ပြုလုပ်ထားသော ယုံကြည်စိတ်ချရသည့် ထိုးသွင်းစက်များကို စီစဉ်ထားပြီးဖြစ်ပါသည်။</p>
 <blockquote>
 <p><strong>နည်းပညာဆိုင်ရာ မှတ်ချက်</strong> ထိုးသွသင်းစက်များသည် အများသုံး သို့မဟုတ် တစ်ကိုယ်ရည်သုံးသော့အစုံလိုက်ကို အသုံးပြုပြီး Ed25519 လက်မှတ်များကို ပြုလုပ်ပေးပါသည်။ အများသုံးသော့များသည် လက်မှတ်နှင့်အတူ ပို့ခွင့်ပြုနိုင်လောက်သည့်အထိ တိုပါသည်။ အများသုံးသော့များကို ၆၄ လုံး ရှိသော hexadecimal စာလုံးများ သို့မဟုတ် ၅၂ လုံးရှိသော Base32 စာလုံးများအနေဖြင့် ဝှက်စာပြုလုပ်ထားပါသည်။ သော့များကို ဖုန်းမှတစ်ဆင့် ဖလှယ်နိုင်သည် သို့မဟုတ် စာရွက်ပေါ်တွင် ချရေးထားနိုင်ပါသည်။</p>
 </blockquote>
@@ -201,7 +232,7 @@
 <p><img src="images/user-flow-2.svg" alt="ပုံ - လက်ခံစက်မှ ထိုးသွင်းစက်ထံ ရောက်ရှိပုံ" /></p>
 <p>အကြောင်းအရာ <em>X</em> ကို ထိုးသွင်းစက်မှ လက်ခံရရှိသည်နှင့်တစ်ပြိုင်နက် ထိုးသွင်းစက်သည် အကြောင်းအရာတွင် ၎င်း၏သော့ဖြင့် လက်မှတ်ထိုးသည်။ ထိုးသွင်းစက်သည် ထိုအကြောင်းအရာကို ချိတ်ဆက်လိုဏ်ခေါင်းမှတစ်ဆင့် သင့်လက်ခံစက်ထံ ပြန်ပို့သည် (ပိတ်ဆို့ခြင်းမခံရသော လက်ခံစက်မှတစ်ဆင့်ပို့သည်ဟု ဆိုကြပါစို့)။ သင့်လက်ခံစက်ထံ အကြောင်းအရာ ရောက်သည်နှင့်တစ်ပြိုင်နက် ၎င်းသည် အချက်သုံးချက်ကို လုပ်ဆောင်သည် -</p>
 <ol>
-<li>It delivers it to you (in the case of CENO, it shows the content on the browser).</li>
+<li>အကြောင်းအရာကို သင့်ထံသို့ ပို့ဆောင်ပေးသည်။ (CENO တွင် ဖြစ်ခဲ့လျှင် ၎င်းသည် အကြောင်းအရာကို ဘရောက်ဇာတွင် ဖော်ပြသည်)</li>
 <li>ထိုးသွင်းစက်သည် အခြားလက်ခံစက်များထံသို့ အကြောင်းအရာများ ဆက်လက်တင်ပို့နိုင်ရန် ၎င်းကို သင့်စက်ပေါ်တွင် သိမ်းထားသည်။ အကြောင်းအရာများသည် သတ်မှတ်ထားသော အချိန်အတိုင်းအတာတစ်ခုအထိ သို့မဟုတ် သိမ်းထားသော အကြောင်းအရာအားလုံးကို ဖျက်ပစ်လိုက်ရန် သင်ဆုံးဖြတ်သည့်အချိန်အထိ သင့်စက်ပေါ်တွင် ရှိနေပါမည်။</li>
 <li>ထိုးသွင်းစက်သည် အကြောင်းအရာမိတ္တူတစ်စုံ ပိုင်ဆိုင်ကြောင်း၊ ထို့ကြောင့် အခြားလက်ခံစက်များမှ ရှာတွေ့နိုင်ကြောင်းကို ဖြန့်ချိထားသော ယာယီမှတ်ဥာဏ် အညွှန်းကိန်းထဲတွင် ကြေညာလိုက်သည်။</li>
 </ol>
@@ -210,11 +241,11 @@
 <h2 id="အပြညအဝ-ပိတဆိုခံထားရချိနတွင-အကြောငးအရာ-ရှာဖွေခြငး"><a class="header" href="#အပြညအဝ-ပိတဆိုခံထားရချိနတွင-အကြောငးအရာ-ရှာဖွေခြငး">အပြည့်အဝ ပိတ်ဆို့ခံထားရချိန်တွင် အကြောင်းအရာ ရှာဖွေခြင်း</a></h2>
 <p>အထက်တွင်ဖော်ပြထားသော နည်းလမ်းများသည် ပိတ်ဆို့ထားသည့်အပိုင်းနှင့် ကျန်ရှိနေသော အင်တာနက်လမ်းတစ်လျှောက်တွင် <em>လမ်းကြောင်းတစ်ခုခု ရှိနေရန်</em> လိုအပ်နေသေးကြောင်း ကျေးဇူးပြုပြီး သတိပြုပါ။ သို့သော် တစ်ခါတစ်ရံတွင် ထိုလမ်းကြောင်းများသည် ပျောက်ကွယ်သွားနိုင်ပါသည်။ နိုင်ငံတကာ အဆက်အသွယ်ကွန်ရက်များ လုံးဝပြတ်တောက်သွားခြင်းများ၊ သဘာဝဘေးအန္တရာယ်များ၊ သို့မဟုတ် တည်ရှိနေသောလမ်းကြောင်းအနည်းငယ်တွင် ပြွတ်သိပ်စွာဝင်ရောက်ခြင်းများ (လူတိုင်းမှ ထိုလမ်းကြောင်းကို ဝင်ရောက်ကျော်ဖြတ်ရန် ကြိုးစားနေသောကြောင့်) ကို စဉ်းစားကြည့်ပါ။ ဤနေရာတွင် ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်ကို အမှန်အကန် အသုံးချရမည် ဖြစ်ပါသည်။</p>
 <p>ထိုးသွင်းစက်မှ အကြောင်းအရာ <em>X</em> ကို သင်လက်ခံရပြီးနောက် သင့်ဒေသမှာ ဘေးအန္တရာယ်တစ်ခုကြောင့် တစ်ကမ္ဘာလုံးနှင့် အဆက်အသွယ်ပြတ်သွားသည်ဟု တွေးကြည့်ကြပါစို့။ ထိုအခြေအနေတွင် အကြောင်းအရာ <em>X</em> သည် သင့်ပတ်ဝန်းကျင်ကို ကူညီနိုင်မည့် နည်းလမ်းအချို့ရှိသည်ကို ဖော်ပြနေသောကြောင့် အထူးတလည် သက်ဆိုင်လာသည်ကို တွေ့ရှိနိုင်ပါသည်။</p>
-<p>At that moment a second person using CENO Browser also tries to get that content. Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it. CENO gets your Internet address from the index, connects to it and requests the content as shown below.</p>
+<p>ထိုအခြေအနေတွင် နောက်ထပ်လူတစ်ယောက်က CENO ဘရောက်ဇာကို အသုံးပြုပြီး ထိုအကြောင်းအရာကို ရယူရန်ကြိုးစားနေသည်။ မူလဆာဗာ သို့မဟုတ် သင့်ဒေသတွင် မရရှိနိုင်သော အခြားတစ်ခုခုကို ဒုတိယလူမှ ဝင်ရောက်ကြည့်ရှုနိုင်မည်ဆိုပါက၊ CENO သည် ထိုအကြောင်းအရာကို ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ် အညွှန်းကိန်းတွင် ရှာဖွေစစ်ဆေးနိုင်ပြီး သင့်စက်သည် ထိုအကြောင်းအရာကိုရရှိနိုင်ပါသည်။ CENO သည် သင့်အင်တာနက် လိပ်စာကို အညွှန်းကိန်းမှ ရယူပြီး ထိုအကြောင်းအရာကို ချိတ်ဆက်ကာ တောင်းယူပုံကို အောက်တွင် ဖော်ပြထားပါသည်။</p>
 <p><img src="images/user-flow-4.svg" alt="ပုံ - လက်မှတ်ထိုးထားသော အကြောင်းအရာကို လက်ခံစက်ထံမှ အခြားလက်ခံစက်က ရရှိပုံ" /></p>
-<p>Now that second device also holds a copy of content <em>X</em>, so it announces this in the distributed cache index, thus becoming a seeder. If a third person interested in that content uses CENO Browser to retrieve it, CENO will now see <em>two</em> addresses in the index for the content: your device's and that of the second user. If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.</p>
+<p>ဒုတိယစက်သည် အကြောင်းအရာ <em>X</em> ၏ မိတ္တူကို ရရှိထားပြီးနောက် ထိုအကြောင်းကို ဖြန့်ချိထားသော ယာယီမှတ်ဉာဏ်တွင် ကြေညာပေးခြင်းဖြင့် တင်ပို့သူ ဖြစ်လာပါသည်။ ထိုအကြောင်းအရာကို စိတ်ဝင်စားသော တတိယပုဂ္ဂိုလ်တစ်ဦးက CENO ဘရောက်ဇာကို အသုံးပြု၍ ၎င်းကို ပြန်လည်ရယူရန် အသုံးပြုလျှင်၊ CENO သည် အကြောင်းအရာအတွက် အညွှန်းကိန်းတွင် လိပ်စာ <em>နှစ်ခု</em> ကို မြင်ရလိမ့်မည်။ ၎င်းတို့မှာ သင်၏စက်နှင့် ဒုတိယအသုံးပြုသူတို့၏ လိပ်စာများဖြစ်သည်။ အကြောင်းအရာသည် အရွယ်အစားကြီးပါက (ဥပမာ - ဗီဒီယိုဖိုင်တစ်ခု) ဤတတိယကိရိယာသည် အခြားကိရိယာတစ်ခုစီမှ တစ်ဝက်စီကို ရရှိနိုင်အောင် ကြိုးစားလိမ့်မည်(အောက်တွင်ဖော်ပြထားသည့်အတိုင်း)။ ဤသို့ဖြင့် ဒေါင်းလုတ်ဆွဲသည့်နှုန်းမြန်စေပြီး အသုံးပြုနေသော ကူးသန်းသွားလာခြင်းကို လျှော့ချပေးနိုင်သည်။</p>
 <p><img src="images/user-flow-5.svg" alt="ပုံ - လက်မှတ်ရေးထိုးထားသော အကြောင်းအရာများကို အခြားသော လက်ခံစက်များစွာထံမှ လက်ခံစက်တစ်ခုက လက်ခံရရှိပုံ" /></p>
-<p>Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down. In this case, Ouinet and CENO Browser also have some support for <em>device-to-device</em> sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.</p>
+<p>နောက်ဆုံးတွင် အခြေအနေပိုဆိုးလာနိုင်ပြီး စီးပွားရေးနှင့် ပြည်နယ် ကွန်ရက် အဆောက်အအုံများအားလုံးသည် ပိတ်ခြင်းခံရနိုင်ပါသည်။ ဤအခြေအနေတွင် Ouinet နှင့် CENO ဘရောက်ဇာတွင် <em>စက်တစ်ခုမှတစ်ခုသို့</em> အကြောင်းအရာများကို မျှဝေခြင်းကို ထောက်ပံ့ပေးနိုင်ပါသည်။ လက်ခံစက်နှစ်ခုအကြား အကြောင်းအရာမျှဝေခြင်းတွင် တူညီသောကွန်ရက်ကို အသုံးပြုနိုင်ပြီး (ဥပမာ - တူညီသော ဝိုင်ဖိုင်ကွန်ရက်ကိုအသုံးပြုခြင်း) ထိုကွန်ရက်သည် အခြားကွန်ရက်များသို့ မရောက်ရှိနိုင်သော်လည်း အကြောင်းအရာများကို မျှဝေနိုင်ပါသည်။</p>
 
                     </main>
 
@@ -223,9 +254,11 @@
                             <a rel="prev" href="../concepts/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../concepts/public-private.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -235,6 +268,7 @@
                     <a rel="prev" href="../concepts/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../concepts/public-private.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -242,16 +276,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="ru" class="light" dir="ltr">
+<html lang="ru" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Тестирование браузера - Руководство пользователя Censorship.no!</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Введение</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Что такое Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Краткое руководство</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Часто задаваемые вопросы</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Основные понятия</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Как это работает?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публичный и приватный просмотр страниц</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Использование публичного или приватного просмотра</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html" class="active"><strong aria-hidden="true">3.4.</strong> Тестирование браузера</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Помощь другим</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Устранение неполадок</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Приложение: Внешний интерфейс клиента Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Введение</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Что такое Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Краткое руководство</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Часто задаваемые вопросы</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Основные понятия</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Как это работает?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публичный и приватный просмотр страниц</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Преимущества использования Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Риски при использовании Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Использование Браузера Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Установка Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Использование публичного или приватного просмотра</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Настройки Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html" class="active"><strong aria-hidden="true">3.4.</strong> Тестирование браузера</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Помощь другим</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Устранение неполадок</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Приложение: Внешний интерфейс клиента Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,40 +170,40 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="Проверка-браузера"><a class="header" href="#Проверка-браузера">Проверка браузера</a></h1>
-<p>Now that you know how to <a href="install.html">install</a> and <a href="settings.html">configure</a> CENO, let us follow some steps to test whether different Ouinet-specific features work. This will involve selectively enabling and disabling different access mechanisms. Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
+<p>Теперь, когда вы знаете, как <a href="install.html">установить</a> и <a href="settings.html">настроить</a> Ceno, давайте выполним несколько шагов, чтобы проверить, работают ли различные функции, специфичные для Ouinet. Проверка включает в себя пошаговое включение и отключение различных механизмов доступа. Помните, что при повседневном использовании Ceno вам редко придется изменять настройки по умолчанию.</p>
 <p>Для выполнения всех приведенных ниже тестов вам потребуется как минимум два устройства, подключенных к одной и той же сети Wi-Fi, и одно, подключенное к другой сети.</p>
 <p>Все тесты будут проводиться с использованием <a href="public-private.html">публичного просмотра</a>. Если что-то работает не так, как ожидалось, пожалуйста, наберитесь терпения и ознакомьтесь с разделом <a href="troubleshooting.html">устранение неполадок</a>. В частности, если браузер застревает при загрузке страницы более чем на пару минут, вы можете остановить и перезагрузить ее (хотя это может несколько изменить результаты).</p>
 <h2 id="Доступ-к-инъектору"><a class="header" href="#Доступ-к-инъектору">Доступ к инъектору</a></h2>
-<p>Let us first check whether your CENO Browser can reach an injector. This may look trivial, but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
+<p>Сначала давайте проверим, может ли ваш Браузер Ceno связаться с инъектором. Этот этап может показаться тривиальным, но он использует сразу несколько функций Ouinet: поиск адреса инъектора в «рое» инъекторов, попытку связаться с ним напрямую и, если он заблокирован вашим провайдером доступа или страной, поиск мостов и попытку связаться с инъектором через какой-либо другой клиент Ouinet.</p>
 <p>На первом устройстве выполните следующие действия:</p>
 <ol>
-<li>First of all, install CENO and start it. Its home page will appear.</li>
-<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page. Since we only want to test injector access, uncheck all the boxes for content sources except <em>Via the CENO network (public)</em>.</li>
-<li>Go back to CENO's home page. Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window. If you know about a site which is usually blocked for you, go ahead and enter it!</li>
+<li>Прежде всего, установите Ceno и запустите его. Появится его главная страница.</li>
+<li>Откройте главное меню приложения и выберите <em>Ceno</em>, чтобы открыть страницу <em>Настройки Ceno</em>. Поскольку мы хотим проверить только доступ к инъектору, снимите флажки с источников контента, кроме <em>В публичной сети Ceno</em>.</li>
+<li>Вернитесь на домашнюю страницу Ceno. Либо выберите один из рекомендованных веб-сайтов, либо введите URL-адрес другого сайта в адресной строке в верхней части окна. Если вы знаете сайт, который обычно для вас заблокирован, введите его!</li>
 <li>В итоге должен отобразиться нужный сайт.</li>
 </ol>
 <p><strong>Примечание:</strong> Если вместо нужной страницы вы получили подложную (например, страницу блокировки), используйте <code>https://</code> (вместо <code>http://</code>) при вводе URL сайта в адресной строке и повторите тест.</p>
 <p>Если сайт загружается, можно порадоваться тому, что ваше устройство может связаться с инъектором! Поскольку вы можете запрашивать узлы и связываться с другими клиентами, вы также, скорее всего, сможете получить содержимое из распределенного кэша.</p>
-<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved form the different sources. Only <em>Via CENO network (public)</em> should have a non-zero value since the other sources were disabled.</p>
+<p>Кстати, если нажать на значок Ceno в адресной строке, откроется всплывающее окно (как показано ниже), показывающее, сколько элементов сайта было получено из различных источников. Только источник <em>Через публичную сеть Ceno</em> должен иметь ненулевое значение, поскольку другие источники были отключены.</p>
 <p><img src="images/sources-inject.png" alt="Рисунок: Источники, используемые при тестировании инъекций" /></p>
-<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from website</em> or <em>Via CENO network (private)</em>.</p>
+<p>И наоборот, если вы использовали приватный просмотр с настройками по умолчанию, вы могли увидеть всплывающее окно, подобное приведенному ниже, с ненулевыми показателями в <em>Напрямую с веб-сайта</em> или <em>В приватной сети Ceno</em>.</p>
 <p><img src="images/sources-proxy.png" alt="Рисунок: Источники, используемые при приватном просмотре" /></p>
 <h2 id="Получение-контента-от-локальных-пользователей"><a class="header" href="#Получение-контента-от-локальных-пользователей">Получение контента от локальных пользователей</a></h2>
-<p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache. The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
-<p>After successfully completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar). Then get hold of a second device (you can invite a friend over to help test) and connect it to the same Wi-Fi network. Next, follow the steps below on the second device:</p>
+<p>Поскольку ваше первое устройство смогло получить контент от инъектора, давайте проверим, может ли оно поделиться им с другим устройством через распределенный кэш. Самый простой способ — использовать поддержку прямой связи между устройствами в Ceno, чтобы проверить, работает ли получение и проверка подписанного контента.</p>
+<p>После успешного завершения вышеописанного теста на первом устройстве оставьте Ceno запущенным на нем (значок Ceno должен появиться в панели уведомлений). Затем возьмите в руки второе устройство (вы можете пригласить друга, чтобы помочь с тестированием) и подключите его к той же сети Wi-Fi. Выполните описанные ниже действия на втором устройстве:</p>
 <ol>
-<li>Install CENO if needed and start it as above.</li>
-<li>Open the <em>CENO Settings</em> page as above. Since we only want to test distributed cache access, uncheck all the boxes for content sources except <em>Shared by other CENO users</em>.</li>
-<li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
+<li>Установите Ceno и запустите его, как указано выше.</li>
+<li>Откройте страницу <em>Настройки Ceno</em>, как указано выше. Поскольку мы хотим протестировать только распределенный доступ к кэшу, снимите флажки с источников контента, кроме <em>Предоставлен другими пользователями Ceno</em>.</li>
+<li>Вернитесь на домашнюю страницу Ceno и посетите тот же сайт тем же способом, что и выше (т.е. выбрав один из рекомендованных сайтов или введя его URL в адресной строке).</li>
 <li>В итоге должен отобразиться нужный сайт.</li>
 </ol>
 <p>Если он не работает, возможно, ваша сеть Wi-Fi блокирует прямую связь между устройствами. Такая «изоляция клиента» может происходить в общественных сетях, например, в парках, барах или отелях. Пожалуйста, повторите попытку в другой сети.</p>
-<p>If it works, it means that both devices are able to deliver that content to other clients. Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by other CENO users</em> has a non-zero value.</p>
+<p>Если всё работает, это означает, что оба устройства могут доставлять это содержимое другим клиентам. При нажатии на значок адресной строки Ceno должно появиться всплывающее окно, как показано ниже, где только <em>Предоставлен другими пользователями Ceno</em> имеет ненулевое значение.</p>
 <p><img src="images/sources-dcache.png" alt="Рисунок: Источники, используемые при тестировании распределенного поиска кэша" /></p>
-<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>. This is not a different source <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+<p>Наконец, вы, возможно, заметили, что есть счетчик <em>Предоставлено вами</em>. Это не другой источник <em>как таковой</em>: элементы, учитываемые здесь, действительно являются частью распределенного кэша, но они уже хранятся на вашем устройстве, поэтому Ceno не нужно извлекать их по сети.</p>
 <h2 id="Получение-контента-от-пользователей-из-другой-сети"><a class="header" href="#Получение-контента-от-пользователей-из-другой-сети">Получение контента от пользователей из другой сети</a></h2>
 <p>Мы провели мелкомасштабное тестирование распределенного кэша. Теперь давайте проверим, как он работает через интернет.</p>
-<p>After successfully completing the test above, leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).</p>
+<p>После успешного завершения вышеописанного теста оставьте Ceno запущенным на первом устройстве, как и в предыдущем тесте, и остановите Ceno на втором устройстве (открыв его уведомления и нажав на кнопку «Нажмите, чтобы остановить»).</p>
 <p>На этот раз вам понадобится третье устройство, но оно должно быть подключено к другой сети Wi-Fi (возможно, кто-то из ваших знакомых сможет проверить это прямо из дома). Для этого устройства необходимо выполнить те же действия, что и в предыдущем тесте.</p>
 <p>Если третье устройство может загрузить сайт, используемый для теста, все готово. Первое устройство может передавать контент другим, и, скорее всего, оно также может выступать в качестве моста.</p>
 <p>Поздравляем!</p>
@@ -184,9 +215,11 @@
                             <a rel="prev" href="../browser/settings.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../browser/bridging.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -196,6 +229,7 @@
                     <a rel="prev" href="../browser/settings.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../browser/bridging.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -203,16 +237,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

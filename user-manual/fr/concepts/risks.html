@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="fr" class="light" dir="ltr">
+<html lang="fr" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Risks in using CENO/Ouinet - Censorship.no! Manuel de l&#x27;Utilisateur</title>
+        <title>Risques inhérents à Ceno et Ouinet - Censorship.no! Manuel de l&#x27;Utilisateur</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Qu’est-ce que Ouinet ?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guide de démarrage</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Foire aux questions</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Principaux concepts</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Comment ça fonctionne ?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> La navigation publique comparée à la navigation privée</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Naviguer de façon publique ou privée</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tester le navigateur</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Aider les autres</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Dépannage</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Annexe : La page frontale du client Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Qu’est-ce que Ouinet ?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guide de démarrage</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Foire aux questions</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Principaux concepts</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Comment ça fonctionne ?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> La navigation publique comparée à la navigation privée</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Avantages de l’utilisation de Ceno et Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> Risques inhérents à Ceno et Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Utiliser le Navigateur Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installer Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Naviguer de façon publique ou privée</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Paramètres de Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tester le navigateur</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Aider les autres</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Dépannage</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Annexe : La page frontale du client Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,8 +169,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="risks-in-using-cenoouinet"><a class="header" href="#risks-in-using-cenoouinet">Risks in using CENO/Ouinet</a></h1>
-<p>As with any sufficiently complex computing system, and especially such an innovative one, using CENO Browser (and any Ouinet client in general) is not free from some risks. In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:</p>
+                        <h1 id="risques-inhérents-à-ceno-et-ouinet"><a class="header" href="#risques-inhérents-à-ceno-et-ouinet">Risques inhérents à Ceno et Ouinet</a></h1>
+<p>Comme pour tout système informatique suffisamment complexe et surtout aussi innovant, l’utilisation du Navigateur Ceno (et de n’importe quel client Ouinet en général) n’est pas exempte de certains risques. Dans cette section, nous les rassemblerons et les décrirons pour vous aider à comprendre leurs implications en fonction des différents rôles que pourriez jouer lors de l’utilisation de Ceno :</p>
 <ul>
 <li>en tant qu’<em>utilisateur</em> qui parcourt des sites Web</li>
 <li>en tant que <em>propagateur</em> qui partage sur le cache distribué du contenu qu vous avez déjà visité</li>
@@ -155,27 +186,27 @@
 <p><strong>Note technique :</strong> Seules les demandes HTTP <code>GET</code> sont candidates à l’injection, les paramètres de la demande étant supprimés, ainsi que tous les champs d’en-tête HTTP, à l’exception d’un ensemble limité de champs fondamentaux et qui préservent la confidentialité.</p>
 </blockquote>
 <h3 id="les-injecteurs-peuvent-ils-voir-mon-adresse-ip-"><a class="header" href="#les-injecteurs-peuvent-ils-voir-mon-adresse-ip-">Les injecteurs peuvent-ils voir mon adresse IP ?</a></h3>
-<p>Yes. However, injectors cannot distinguish whether a request came from a CENO user or a bridge. Thus requests going to the injector cannot be reliably assigned an originating IP addresses.</p>
+<p>Oui. Toutefois, les injecteurs ne peuvent pas faire la différence entre une demande qui provient d’un utilisateur de Ceno et une autre d’un pont. Les demandes adressées à l’injecteur ne peuvent donc pas se voir attribuer une adresse IP d’origine de manière fiable.</p>
 <h3 id="mes-données-privées-peuvent-elles-être-divulguées-au-cache-distribué-"><a class="header" href="#mes-données-privées-peuvent-elles-être-divulguées-au-cache-distribué-">Mes données privées peuvent-elles être divulguées au cache distribué ?</a></h3>
-<p>Hopefully not. As mentioned above, CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection. In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it. This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of a private nature, CENO will not seed it either.</p>
+<p>Il faut espérer que non. Comme mentionnée plus haut, le Navigateur Ceno s’efforce de supprimer toute donnée privée (mots de passe, témoins…) de toute demande d’injection. De plus, l’injecteur même ne propage rien ; en fait, son seul but est de signer le contenu afin que les clients Ouinet puissent le propager. Cela signifie qu’une fois le contenu revenu au client, il est analysé à nouveau et si le serveur d’origine a indiqué qu’il était de nature privée, Ceno ne le propagera pas non plus.</p>
 <p>Toutefois, il peut arriver que certaines pages web mal conçues ou malveillantes puissent recueillir des informations (comme un couriel dans un formulaire ou l'empreinte numérique d'un navigateur à l'aide de JavaScript) et les insèrent dans l'URL d'un autre lien en tant que composants normaux du chemin d'accès (par exemple, <code>http://example.com/subscribe/you@example.org</code>). Si vous craignez qu'une page puisse faire cela, mieux vaut être prudent et utiliser la navigation privée pour cette page.</p>
-<h3 id="can-the-origin-server-know-whether-i-am-using-ceno"><a class="header" href="#can-the-origin-server-know-whether-i-am-using-ceno">Can the origin server know whether I am using CENO?</a></h3>
-<p>Most probably not. Whenever CENO contacts an origin server directly, it behaves as normal Firefox for Android does, so your particular device appears as a normal Firefox app of the same version.</p>
-<p>However, when it uses an injector to get some content from its origin server, there are (at least) two ways for the latter to know that CENO or Ouinet is involved:</p>
+<h3 id="le-serveur-dorigine-peut-il-savoir-si-jutilise-ceno-"><a class="header" href="#le-serveur-dorigine-peut-il-savoir-si-jutilise-ceno-">Le serveur d'origine peut-il savoir si j'utilise Ceno ?</a></h3>
+<p>Probablement pas. Lorsque Ceno contacte directement un serveur d'origine, il se comporte normalement, comme Firefox pour Android le ferait, de sorte que votre appareil a l'apparence d'une application Firefox normale de la même version.</p>
+<p>Cependant, lorsqu'il utilise un injecteur pour obtenir du contenu depuis son serveur d'origine, il y existe (au moins) deux façons pour ce dernier de savoir si Ceno ou Ouinet est impliqué :</p>
 <ol>
 <li>L'adresse source de la connexion atteignant le serveur d'origine se trouve dans l'essaim d'injecteurs (puisque la connexion provient bien de l'injecteur) ;</li>
 <li>La présence ou l’absence de certains renseignements dans la demande de contenu caractérise Ouinet. Cela se produit quand l’injecteur demande le contenu parce que votre client lui a demandé de récupérer et de signer ce contenu, car l’injecteur supprime de la demande les renseignements propres à votre appareil particulier.</li>
 </ol>
-<p>Please note that these only mark the request as coming from Ouinet, but they do not link it to you or your particular device. However, if the request did for some of the reasons mentioned in the previous question still contain some personally identifiable information, it could be used to mark you as a CENO user.</p>
-<p>In general, if a particular website (such as a governmental site) expects you to connect to it as an identifiable individual, from a specific region (or from a [national intranet][National intranet]), we recommend that you use a normal Web browser instead of CENO.</p>
+<p>Veuillez noter qu’elles ne font que marquer la demande comme provenant de Ouinet, mais elles ne la relient pas à vous ni à votre appareil particulier. Toutefois, si, pour l’une des raisons mentionnées dans la question précédente, la demande contenait encore des renseignements personnels, ils pourraient être utilisés pour vous identifier en tant qu’utilisateur de Ceno.</p>
+<p>De manière générale, si un site web (comme un site gouvernemental) attend de vous que vous soyez identifiable en tant qu'individu, à partir d'une région spécifique (ou d'un [intranet national][National intranet]), nous vous recommandons d'utiliser un navigateur web classique au lieu de Ceno.</p>
 <h2 id="en-tant-que-diffuseur"><a class="header" href="#en-tant-que-diffuseur">En tant que diffuseur</a></h2>
 <h3 id="quelles-sont-les-données-diffusées-à-partir-de-mon-appareil-"><a class="header" href="#quelles-sont-les-données-diffusées-à-partir-de-mon-appareil-">Quelles sont les données diffusées à partir de mon appareil ?</a></h3>
-<p>Currently, the only content that is seeded by CENO is any non-private Web content which was requested in public browsing mode. This also means that users do not seed anything they have not accessed themselves in the recent past.</p>
+<p>Actuellement, le seul contenu diffusé par Ceno est le contenu web non privé demandé en mode de navigation publique. Cela signifie en outre que les utilisateurs ne diffusent pas de contenu auquel ils n'ont pas déjà accédé eux-mêmes.</p>
 <h3 id="quelquun-peut-il-savoir-ce-que-je-diffuse-"><a class="header" href="#quelquun-peut-il-savoir-ce-que-je-diffuse-">Quelqu'un peut-il savoir ce que je diffuse ?</a></h3>
 <p>Oui et non. Toute personne ayant un certain niveau de compréhension des opérations de Ouinet pourrait concevoir un outil pour découvrir les adresses IP à partir desquelles un contenu particulier est partagé (comme avec BitTorrent). Cependant, il n'est pas possible de cibler une adresse IP spécifique et d'obtenir une liste des contenus partagés par les clients derrière celle-ci.</p>
 <h2 id="en-tant-que-passerelle"><a class="header" href="#en-tant-que-passerelle">En tant que passerelle</a></h2>
 <h3 id="les-autres-peuvent-ils-trouver-mon-adresse-ip-"><a class="header" href="#les-autres-peuvent-ils-trouver-mon-adresse-ip-">Les autres peuvent-ils trouver mon adresse IP ?</a></h3>
-<p>Yes, every CENO Browser able to communicate with injectors will register its IP address in the bridge swarm where other Ouinet clients can find them.</p>
+<p>Oui, chaque navigateur Ceno capable de communiquer avec les injecteurs enregistrera son adresse IP dans l'essaim de passerelles où d'autres clients Ouinet pourront les trouver.</p>
 <h3 id="est-il-possible-que-jaide-quelquun-à-accéder-à-du-contenu-illégal-dans-mon-pays-"><a class="header" href="#est-il-possible-que-jaide-quelquun-à-accéder-à-du-contenu-illégal-dans-mon-pays-">Est-il possible que j'aide quelqu'un à accéder à du contenu illégal dans mon pays ?</a></h3>
 <p>Oui, mais les ponts ne font que relayer les communications chiffrées entre un client Ouinet et un injecteur. Cela signifie qu’un pont ne demandera jamais directement un contenu à un autre serveur au nom de quelqu’un d’autre.</p>
 <p>[Intranet national] : https://en.wikipedia.org/wiki/National_intranet</p>
@@ -187,9 +218,11 @@
                             <a rel="prev" href="../concepts/advantages.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../browser/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -199,6 +232,7 @@
                     <a rel="prev" href="../concepts/advantages.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../browser/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -206,16 +240,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

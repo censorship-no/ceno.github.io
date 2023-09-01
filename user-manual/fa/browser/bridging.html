@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="fa" class="light" dir="rtl">
+<html lang="fa" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>کمک به دیگران - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html" class="active"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگرCeno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> تنظیمات Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html" class="active"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,18 +169,18 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="helping-other-ceno-users-browse-the-web"><a class="header" href="#helping-other-ceno-users-browse-the-web">Helping other CENO users browse the Web</a></h1>
-<p>A peer-to-peer network is built from every node connected to it (yes, that means you as well!). The more nodes, the stronger and more versatile the network becomes. If you are running CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a <strong>bridge</strong> node. You will then begin to route traffic between clients living in heavily censored countries and CENO injectors. You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.</p>
+                        <h1 id="کمک-به-سایر-کاربران-ceno-برای-مرور-وب"><a class="header" href="#کمک-به-سایر-کاربران-ceno-برای-مرور-وب">کمک به سایر کاربران Ceno برای مرور وب</a></h1>
+<p>یک شبکه همتا به همتا (Peer to Peer) از طریق اتصال تک‌تک نقطه‌ها (Nodes) به آن ساخته می‌شود. این بدین معنی است که شما نیز بخشی از این اتصال هستید. هرچقدر که نقاط اتصال بیشتر باشند، شبکه قوی‌تر و کاربردی‌تر می‌شود. اگر شما در کشوری که اینترنت را سانسور نمی‌کند یا دست کم در مقایسه با دیگر کشورها کمتر سانسور می‌کند، از مرورگر Ceno استفاده می‌کنید، می‌توانید با برقراری پل اتصال به دیگر کاربران Ceno کمک کنید. به این شکل می‌توانید ترافیک شبکه را میان کاربران Ceno در کشورهای با سانسور شدید اینترنت و انژکتورهای Ceno هدایت کنید. البته شما قادر به دیدن ترافیک آن‌ها نخواهید بود چرا که این ترافیک از یک تونل رمزنگاری شده عبور می‌کند. همچنین هیچ‌کدام از این ترافیک‌ ها در دستگاه شما ذخیره نخواهد شد.</p>
 <blockquote>
-<p><strong>Note:</strong> The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the <a href="../concepts/risks.html">risks</a> of serving such content to others).</p>
+<p><strong>توجه:</strong> همچنین پیکربندی مورد اشاره در این بخش می‌تواند به دستگاه شما در قرار دادن محتوا در حافظه پنهان (کش) دستگاه دیگر کاربران کمک کند. بنابراین خواهشمندیم که هنگام استفاده از Ceno در کشوری که اینترنت را سانسور می‌کند، این گزینه را نیز در نظر بگیرید. (البته به یاد داشته باشید که این کار <a href="../concepts/risks.html">خطرات</a> مخصوص خود را نیز دارد).</p>
 </blockquote>
-<h2 id="how-to-become-a-ceno-bridge"><a class="header" href="#how-to-become-a-ceno-bridge">How to become a CENO bridge</a></h2>
-<p>This functionality is already built into CENO Browser. Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO. See the next sections for further details.</p>
-<p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
+<h2 id="چگونه-تبدیل-به-یک-پل-ceno-بشویم"><a class="header" href="#چگونه-تبدیل-به-یک-پل-ceno-بشویم">چگونه تبدیل به یک پل Ceno بشویم</a></h2>
+<p>این ویژگی کاربردی در مرورگر Ceno از قبل طراحی شده است. دستگاه شما باید به اینترنت وای‌فای متصل باشد به طوری که در شبکه وای فای (UPnP (universal plug and play یا همان معیار اجرا و اتصال همگانی فعال باشد یا پورت مستقیم به Ceno داشته باشد.</p>
+<p>به هر حال به خاطر داشته باشید که سیستم‌عامل اندروید تنها در شرایطی به یک دستگاه موبایل اجازه فعالیت به عنوان یک پل Ceno را می‌دهد که شما در حال کار با آن باشید. به طور مثال حالت ذخیره انرژی عملکرد Ceno را مختل می‌کند.</p>
 <blockquote>
-<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library. Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it. Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Don't kill my app!</a> for your device's brand.</p>
+<p><strong>نکته‌ی فنی:</strong> این موضوع بیشتر به ویژگی‌های اندروید اختصاص دارد : در حالت <a href="https://developer.android.com/training/monitoring-device-state/doze-standby">Doze</a> یا استندبای اندروید عملکرد اصلی مجموعه Ouinet را کند می‌کند. متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای Ceno کتابخانه Ouinet را از این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی ویژه خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این مورد به این وب سایت بروید و گزینه <a href="https://dontkillmyapp.com/">Don't kill my app!</a> را برای مدل دستگاه خود چک کنید.</p>
 </blockquote>
-<p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
+<p>بنابراین اگر می‌خواهید که Ceno همیشه به عنوان یک پل در دسترس، روی دستگاه شما فعال باشد علاوه بر داشتن وای‌فای مناسب باید:</p>
 <ol>
 <li>
 <p>گوشی‌تان به طور مدام به برق باشد.</p>
@@ -161,24 +192,24 @@
 </ol>
 <p>اگر این امکان را در اختیار ندارید، منصرف نشوید! اگر یک کامپیوتر با اتصال خوبی به اینترنت دارید که بیشتر اوقات روشن است، لطفاً به خواندن ادامه دهید.</p>
 <h2 id="اجرای-یک-پل-روی-یک-کامپیوتر"><a class="header" href="#اجرای-یک-پل-روی-یک-کامپیوتر">اجرای یک پل روی یک کامپیوتر</a></h2>
-<p>If your computer supports <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker containers</a>, you can run a pre-configured CENO client on it to act as a bridge. If Docker is not yet installed, please follow the instructions to <a href="https://docs.docker.com/engine/install">install the Docker Engine</a> in your platform. For Debian derivatives like Ubuntu or Linux Mint, you can just run: <code>sudo apt install docker.io</code></p>
-<p>To deploy a CENO client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):</p>
-<pre><code class="language-sh">sudo docker run --name ceno-client \
-  -dv ceno:/var/opt/ouinet --network host \
-  --restart unless-stopped equalitie/ceno-client
+<p>اگر کامپیوترتان <a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker containers</a> را پشتیبانی می‌کند، می‌توانید یک سرویس‌گیرنده‌ی از پیش تنظیم‌شده‌ی Ceno را روی آن اجرا کنید تا نقش یک پل را ایفا کند. اگر Docker هنوز نصب نشده است، لطفاً راهنمای <a href="https://docs.docker.com/engine/install">نصب Docker Engine</a> در پلتفرم‌تان را دنبال کنید. برای مشتقات Debian مثل Ubuntu یا Linux Mint می‌توانید فقط همین را اجرا کنید: <code>sudo apt install docker.io</code></p>
+<p>برای به‌کارگیری و استقرار یک نگه‌دارنده‌ مخاطب در Ceno فقط لازم است این فرمان را روی یک پایانه اجرا کنید (به نظر ترسناک می‌آید اما می‌توانید به‌سادگی آن را روی نوار فرمان کپی کنید):</p>
+<pre><code class="language-sh">sudo docker run --name Ceno-client \
+  -dv Ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/Ceno-client
 </code></pre>
 <p>اگر کامپیوترتان براساس سیستم GNU/Linux کار نمی‌کند، این فرمان را باید کمی تغییر دهید:</p>
-<pre><code class="language-sh">sudo docker run --name ceno-client \
-  -dv ceno:/var/opt/ouinet \
+<pre><code class="language-sh">sudo docker run --name Ceno-client \
+  -dv Ceno:/var/opt/ouinet \
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
-  --restart unless-stopped equalitie/ceno-client
+  --restart unless-stopped equalitie/Ceno-client
 </code></pre>
-<p>The command will start a container named <code>ceno-client</code> that will run on every boot unless you explicitly tell it to stop. Please check the <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker client documentation</a> for more information on how to manipulate the container.</p>
+<p>The command will start a container named <code>Ceno-client</code> that will run on every boot unless you explicitly tell it to stop. Please check the <a href="https://github.com/censorship-no/Ceno-docker-client#running-the-client">Ceno Docker client documentation</a> for more information on how to manipulate the container.</p>
 <blockquote>
-<p><strong>Note:</strong> This client has no <em>CENO Settings</em>: when instructed below to access that page, open instead the <a href="../client/front-end.html">client front-end</a>, which contains mostly equivalent information.</p>
+<p><strong>نکته:</strong> این سرویس‌گیرنده هیچ <em>تنظیمات خاصی برای Ceno</em> ندارد: وقتی در پایین از شما خواسته شد تا به آن صفحه دسترسی پیدا کنید، به جای <a href="../client/front-end.html">client front-end</a> را باز کنید، که حاوی اطلاعاتی کم‌وبیش همسان است.</p>
 </blockquote>
 <h2 id="فعال-کردن-upnp-روی-مودم-وایفای"><a class="header" href="#فعال-کردن-upnp-روی-مودم-وایفای">فعال کردن UPnP روی مودم وای‌فای</a></h2>
-<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network. The <a href="settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
+<p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> راحت ترین راه برای این است که مرورگر Ceno (یا کامپیوتر سرویس‌گیرنده) خود را به شبکه Ceno متصل کنید. صفحه‌ی <a href="settings.html">تنظیمات Ceno</a> وضعیت UPnP را روی شبکه محلی شما نشان می‌دهد.</p>
 <blockquote>
 <p><strong>توجه:</strong> فعال کردن UPnP روی مودم وای‌فای ممکن است باعث شود که دستگاه‌های موجود در شبکه دچار یک اختلال خارجی شوند. لطفا از <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">مخاطرات در این زمینه آگاه باشید</a> و همچنین استفاده از گزینه‌های جایگزین را نیز در نظر داشته باشید.</p>
 </blockquote>
@@ -193,7 +224,7 @@
 </blockquote>
 <pre><code>disabled / inactive
 </code></pre>
-<p>The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:</p>
+<p>وضعیت زیر نشان می‌دهد که UPnP به احتمال زیاد در حال کار است و Ceno نیز در حال تایید اتصال است:</p>
 <blockquote>
 <p><strong>وضعیت قابلیت دسترسی</strong></p>
 </blockquote>
@@ -204,7 +235,7 @@
 </blockquote>
 <pre><code>enabled
 </code></pre>
-<p>The status below indicates that UPnP is working and you can bridge connections for other CENO users:</p>
+<p>وضعیت زیر نشان می‌دهد که UPnP در حال کار است و شما نیز می‌توانید برای دیگر کاربران Ceno پل اتصال بزنید:</p>
 <blockquote>
 <p><strong>وضعیت قابلیت دسترسی</strong></p>
 </blockquote>
@@ -216,7 +247,8 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Note:</strong> Even if UPnP is working, your router may still not be reachable from the outside. This can be the case when <em>CENO Settings</em> reports <em>External UDP endpoints</em> which look like <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> addresses <code>100.X.Y.Z:N</code> with X between 64 and 127 (increasingly common among home ISPs), or like private addresses <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> with X between 16 and 31, and <code>192.168.X.Y:N</code>. If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.</p>
+<p><strong>توجه:</strong> حتی اگر UPnP کار می‌کند، ممکن است روتر شما هنوز از بیرون قابل دسترسی نباشد. این موضوع ممکن است زمانی اتفاق بیفتد که <em>تنظیمات Ceno</em> <em>نقطه‌های پایانی UDP خارجی</em> را اطلاع می‌دهد که شبیه آدرس‌های <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> «100.X.YZ:N» با X بین ۶۴ تا ۱۲۷ (به طور فزاینده‌ای در بین آی‌اس‌پی‌های خانگی رایج است) یا مانند آدرس‌های خصوصی چون «10.XYZ:N»، «172.XYZ:N» با X بین ۱۶ و ۳۱ و «192.168.XY:N» باشند.
+اگر چنین است، لطفاً با شركت خدمات سرويس‌هاي اينترنت (ISP) یا مسئول شبکه خود تماس بگیرید تا یک آدرس عمومی در روتر خود دریافت کنید یا برای ایجادکردن حالت ارسال پورت به نقطه پایانی خارجی به شما کمک کنند.</p>
 </blockquote>
 <p>در حال حاضر انواع مودم‌های وای‌فای در بازار وجود دارد و هریک نیز ویژگی‌های خود را دارد. در زیر فهرستی از دستورالعمل‌های تولیدکنندگان مختلف مودم برای فعال کردن UPnP آورده شده‌ است:</p>
 <ul>
@@ -229,13 +261,13 @@
 <li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="استفاده-از-port-forwarding-به-عنوان-جایگزین-upnp"><a class="header" href="#استفاده-از-port-forwarding-به-عنوان-جایگزین-upnp">استفاده از port forwarding به عنوان جایگزین UPnP</a></h2>
-<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device. You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option. To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoints</em>.</p>
+<p>به‌ جای فعال کردن UPnP روی مودم، شما می‌توانید یک دستور port forwarding ایجاد کنید تا از ارسال اتصالات از شبکه Ceno به سمت دستگاه شما مطمئن شوید. برای این کار شما باید به حساب ادمین مودم وارد شوید و گزینه <em>port forwarding</em> را فعال کنید. برای اینکه ببینید اتصال کدام آدرس آی‌پی را فوروارد کنید و همچنین پورت‌ مربوطه، تنظیمات Ceno را باز کنید و زیر گزینه <em>Local UDP endpoints</em> را نگاه کنید.</p>
 <blockquote>
 <p><strong>نقطه‌های انتهایی «یو‌دی‌پی UDP» محلی</strong></p>
 </blockquote>
 <pre><code>192.168.1.132:28729
 </code></pre>
-<p>The port forwarding must be for the UDP protocol (not TCP). CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time. Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
+<p>port forwarding باید برای پروتکل UDP باشد (نه برای TCP). در ابتدا Ceno یک پورت تصادفی را انتخاب می‌کند و آن را برای اجرای بعدی نگه می‌دارد اما آدرس آی‌پی دستگاه محلی شما ممکن است گاه‌به‌گاه تغییر کند. بنابراین باید به طور مرتب <em>تنظیمات Ceno</em> خود را نگاه کنید تا مطمئن شوید که دستگاه شما به شبکه Ceno وصل باشد.</p>
 <blockquote>
 <p><strong>نکات فنی:</strong> به عنوان راه‌حل جایگزین، می‌توانید همیشه دقت کنید که مودم آدرس آی‌پی یکسانی را به‌کار می‌گیرد. (به طور مثال، از طریق یک DHCP ثابت برای دستگاه‌های MAC).</p>
 </blockquote>
@@ -247,9 +279,11 @@
                             <a rel="prev" href="../browser/testing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../browser/troubleshooting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -259,6 +293,7 @@
                     <a rel="prev" href="../browser/testing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../browser/troubleshooting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -266,16 +301,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

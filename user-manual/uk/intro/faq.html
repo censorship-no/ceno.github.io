@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="uk" class="light" dir="ltr">
+<html lang="uk" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Часті питання - Посібник користувача Censorship.no!</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Ознайомлення</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Що таке Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Короткий посібник</a></li><li class="chapter-item expanded "><a href="../intro/faq.html" class="active"><strong aria-hidden="true">1.4.</strong> Часті питання</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Основні поняття</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Як це працює?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публічний або приватний перегляд</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Використання публічного або приватного перегляду</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Тестування браузера</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Допомога іншим</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Усунення несправностей</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Додаток: Зовнішній інтерфейс клієнта Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Ознайомлення</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Що таке Ouinet?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Короткий посібник</a></li><li class="chapter-item expanded "><a href="../intro/faq.html" class="active"><strong aria-hidden="true">1.4.</strong> Часті питання</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Основні поняття</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Як це працює?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публічний або приватний перегляд</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Переваги використання Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ризики під час використання Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Використання браузера Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Встановлення Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Використання публічного або приватного перегляду</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Налаштування Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Тестування браузера</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Допомога іншим</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Усунення несправностей</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Додаток: Зовнішній інтерфейс клієнта Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -140,40 +171,40 @@
                     <main>
                         <h1 id="Часті-питання"><a class="header" href="#Часті-питання">Часті питання</a></h1>
 <h2 id="Використання"><a class="header" href="#Використання">Використання</a></h2>
-<h3 id="can-ceno-browser-replace-my-current-browser-chromefirefoxsafari"><a class="header" href="#can-ceno-browser-replace-my-current-browser-chromefirefoxsafari">Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?</a></h3>
+<h3 id="Чи-може-ceno-замінити-мій-поточний-браузер-chromefirefoxsafari"><a class="header" href="#Чи-може-ceno-замінити-мій-поточний-браузер-chromefirefoxsafari">Чи може CENO замінити мій поточний браузер (Chrome/Firefox/Safari)?</a></h3>
 <p>Коротка відповідь: так, принаймні для звичайного перегляду сторінок.</p>
-<p>Since CENO is based on Mozilla Firefox for Android, it provides all the features that are expected from a modern browser. However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).</p>
-<p>Also, since CENO and Ouinet are under continuous development, you may experience some instability. That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.</p>
-<p>For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO. Please read the section on <a href="../concepts/risks.html">risks</a> for more information.</p>
-<h2 id="can-i-use-ceno-browser-to-access-twitter-facebook-and-gmail"><a class="header" href="#can-i-use-ceno-browser-to-access-twitter-facebook-and-gmail">Can I use CENO Browser to access Twitter, Facebook and Gmail?</a></h2>
+<p>Оскільки CENO заснований на базі Mozilla Firefox для Android, він надає всі функції, які Ви очікуєте від сучасного браузера. Однак, його залежність від технології Ouinet для отримання мережевого вмісту може вплинути на його роботу незначним чином (деякі з них потенційно можуть вплинути на Вашу конфіденційність).</p>
+<p>Крім того, оскільки CENO та Ouinet постійно розвиваються, Ви можете зіткнутися з деякою нестабільністю. Це також може означати внесення несумісних змін, що вимагають від Вас видалити програми або видалити збережені дані (включно з закладками та налаштуваннями сайту) перед оновленням.</p>
+<p>Для виконання важливої роботи на сайтах, що не піддаються цензурі, ми рекомендуємо Вам використовувати звичайний веб-браузер замість CENO. Для отримання додаткової інформації перегляньте розділ <a href="../concepts/risks.html">ризики</a>.</p>
+<h2 id="Чи-можу-я-використовувати-браузер-ceno-для-доступу-до-twitter-facebook-та-gmail"><a class="header" href="#Чи-можу-я-використовувати-браузер-ceno-для-доступу-до-twitter-facebook-та-gmail">Чи можу я використовувати браузер CENO для доступу до Twitter, Facebook та Gmail?</a></h2>
 <p>Коротка відповідь: так, використовуючи приватні вкладки.</p>
-<p>Although CENO strives to provide a user experience as similar to normal Web browsing as possible, some of the techniques used to avoid network interference do not play well with such dynamic sites. This is the case with CENO's default mode of operation (i.e. public browsing), since it strips down all private data (like passwords and cookies) from Web traffic to ensure that it does not leak to other untrusted CENO or Ouinet users.</p>
-<p>To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else. However, this requires that network traffic from your device can reach those websites in some way.</p>
+<p>Хоча CENO і намагається надати користувачеві досвід, максимально схожий на звичайний перегляд вебсторінок, деякі методи, що використовуються для подолання цензури та втручання в Інтернет-зʼєднання, не зовсім коректно працюють з подібними динамічними сайтами. Це стосується режиму роботи CENO за замовчуванням (тобто публічного перегляду), оскільки він видаляє всі приватні дані (такі як паролі та cookies) з Інтернет-трафіку, щоб виключити їхній витік іншим користувачам CENO або Ouinet.</p>
+<p>Щоб уникнути цього та переглядати подібні динамічні сайти в CENO, Ви можете використовувати приватні вкладки (тобто приватний перегляд), які залишають особисті дані недоторканими та підтримують шифрування зʼєднання з сайтами, забезпечуючи таким чином захист від витоку даних. У той самий час, для цього необхідно, щоб мережевий трафік з Вашого пристрою міг якимсь чином досягати цих сайтів.</p>
 <p>Детальнішу інформацію можна знайти в розділі про різницю між <a href="../concepts/public-private.html">публічним та приватним переглядом</a>.</p>
 <h2 id="Конфіденційність-та-безпека"><a class="header" href="#Конфіденційність-та-безпека">Конфіденційність та безпека</a></h2>
 <h3 id="Чи-зберігатиме-мій-пристрій-вміст-який-я-не-запитую"><a class="header" href="#Чи-зберігатиме-мій-пристрій-вміст-який-я-не-запитую">Чи зберігатиме мій пристрій вміст, який я не запитую?</a></h3>
 <p>Коротка відповідь: ні.</p>
-<p>CENO only shares content that you requested (using <a href="../concepts/public-private.html">public browsing</a>).</p>
+<p>CENO розповсюджує лише вміст, який Ви запросили (використовуючи <a href="../concepts/public-private.html">публічний перегляд сторінок</a>).</p>
 <p>Будь ласка, зверніть увагу, що шкідливий вебсайт може спробувати обдурити Ваш браузер і отримати вміст з інших сайтів без Вашого відома, щоб змусити Ваш пристрій зберігати і поширювати його іншим користувачам. Хоча код Firefox досить добре справляється з виявленням та блокуванням таких спроб, Вам все одно слід уникати відвідування підозрілих сайтів.</p>
-<p>Read more about how your CENO Browser retrieves and shares Web content with others <a href="../concepts/how.html">here</a>.</p>
-<h3 id="can-anyone-see-if-i-am-using-ceno-browser-to-access-censored-web-sites"><a class="header" href="#can-anyone-see-if-i-am-using-ceno-browser-to-access-censored-web-sites">Can anyone see if I am using CENO Browser to access censored Web sites?</a></h3>
+<p>Докладніше про те, як Ваш браузер CENO отримує мережевий вміст і ділиться з іншими користувачами, прочитайте <a href="../concepts/how.html">тут</a>.</p>
+<h3 id="Чи-може-хто-небудь-визначити-чи-я-використовую-браузер-ceno-для-доступу-до-сайтів-що-підпадають-під-цензуру"><a class="header" href="#Чи-може-хто-небудь-визначити-чи-я-використовую-браузер-ceno-для-доступу-до-сайтів-що-підпадають-під-цензуру">Чи може хто-небудь визначити, чи я використовую браузер CENO для доступу до сайтів, що підпадають під цензуру?</a></h3>
 <p>Коротка відповідь: так, за наявності певних технічних знань та ресурсів.</p>
-<p>CENO is not an anonymity tool. An attacker able to spy on your network traffic can see content being requested from or served to another user from your device. The attacker can also assess whether you are sharing a particular website, although they cannot list all the content that you are sharing.</p>
+<p>CENO не є засобом забезпечення анонімності. Зловмисник, здатний шпигувати за Вашим мережним трафіком, може побачити вміст, що запитується в іншого користувача або розповсюджується з Вашого пристрою. Зловмисник також може визначити, чи Ви користуєтесь певним вебсайтом, хоча він не може отримати повний список вмісту, яким Ви ділитеся.</p>
 <p>Однак, вміст, що додається в мережу вперше або отримується при використанні <a href="../concepts/public-private.html">приватного перегляду</a>, буде передаватися шифрованим зʼєднанням. Додаткову інформацію дивіться в розділі <a href="../concepts/how.html">як працює отримання вмісту</a> та повʼязані з цим <a href="../concepts/risks.html">ризики</a>.</p>
 <h2 id="Використання-ресурсів"><a class="header" href="#Використання-ресурсів">Використання ресурсів</a></h2>
-<h3 id="does-ceno-browser-use-a-lot-of-data"><a class="header" href="#does-ceno-browser-use-a-lot-of-data">Does CENO Browser use a lot of data?</a></h3>
+<h3 id="Чи-багато-трафіку-споживає-браузер-ceno"><a class="header" href="#Чи-багато-трафіку-споживає-браузер-ceno">Чи багато трафіку споживає браузер CENO?</a></h3>
 <p>Коротка відповідь: більше, ніж звичайний браузер.</p>
-<p>Whenever your CENO Browser serves content to another user or forwards their traffic, it is consuming extra data depending on factors like how popular or large the content is, and how well-connected your device is. Sharing more content also implies more overhead.</p>
-<p>Although CENO is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees. We recommend keeping an eye on the app's data usage (under Android settings) and running CENO while connected to Wi-Fi instead of using mobile data.</p>
-<h3 id="does-ceno-browser-use-a-lot-of-battery-on-my-device"><a class="header" href="#does-ceno-browser-use-a-lot-of-battery-on-my-device">Does CENO Browser use a lot of battery on my device?</a></h3>
+<p>Щоразу, коли Ваш браузер CENO роздає вміст іншим користувачам або передає їхній вміст, він споживає додатковий трафік, що залежить від таких факторів, як популярність або обсяг вмісту, а також від того, наскільки надійно підключений Ваш пристрій до Інтернету. Чим більше вмісту Ви роздаєте, тим вищі додаткові витрати.</p>
+<p>Незважаючи на те, що CENO використовує набагато менше ресурсів, ніж інші програми обміну даними, це все одно може призвести до збільшення споживання даних та підвищення витрат. Ми рекомендуємо стежити за споживанням трафіку програмою (в налаштуваннях Android) та використовувати CENO через Wi-Fi замість мобільного інтернету.</p>
+<h3 id="Чи-сильно-браузер-ceno-розряджає-батарею-на-моєму-пристрої"><a class="header" href="#Чи-сильно-браузер-ceno-розряджає-батарею-на-моєму-пристрої">Чи сильно браузер CENO розряджає батарею на моєму пристрої?</a></h3>
 <p>Коротка відповідь: більше, ніж звичайний браузер.</p>
-<p>CENO and Ouinet use various techniques for different users to cooperate in avoiding network interference and outages. Serving content to and forwarding traffic for other users consumes extra power. Also, even when your device is not actively helping other users, it still needs to stay reachable over the network, which prevents the use of some energy-saving features.</p>
-<p>The net result is that CENO may keep on draining your battery even when not in use. Our tests have not shown power consumption hiking too much, but your mileage may vary. When in need of battery, we recommend stopping CENO completely (it offers a convenient shortcut for this, see <a href="../browser/install.html">here</a>).</p>
-<h3 id="do-i-need-to-be-connected-to-wi-fi-to-use-ceno-browser"><a class="header" href="#do-i-need-to-be-connected-to-wi-fi-to-use-ceno-browser">Do I need to be connected to Wi-Fi to use CENO Browser?</a></h3>
+<p>CENO та Ouinet використовують різні техніки для взаємодії між різними користувачами у випадку перешкод та збоїв у роботі мережі. Обслуговування вмісту та пересилання трафіку для інших користувачів споживає додаткову енергію. Крім того, навіть якщо Ваш пристрій не надає активної допомоги іншим користувачам, він все одно повинен залишатися доступним у мережі, що не дозволяє використовувати деякі енергозберігаючі функції.</p>
+<p>Як наслідок, CENO може продовжувати розряджати акумулятор, навіть коли браузер не використовується. Наші випробування не показали значних стрибків енергоспоживання, але у Вас може бути інакше. За потреби економії батареї ми радимо повністю зупинити CENO (для цього є зручний ярлик, дивіться <a href="../browser/install.html">тут</a>).</p>
+<h3 id="Чи-потрібно-підключатися-до-wi-fi-щоб-користуватися-браузером-ceno"><a class="header" href="#Чи-потрібно-підключатися-до-wi-fi-щоб-користуватися-браузером-ceno">Чи потрібно підключатися до Wi-Fi, щоб користуватися браузером CENO?</a></h3>
 <p>Коротка відповідь: ні, але ми наполегливо радимо це зробити.</p>
-<p>Although CENO should work fine on a mobile connection, there are two reasons why we recommend using a Wi-Fi connection instead:</p>
+<p>CENO повинен нормально працювати через мобільний інтернет, однак є дві причини, через які ми радимо використовувати Wi-Fi-підключення:</p>
 <ol>
-<li>CENO consumes an extra amount of data which may result in a higher phone bill (see above).</li>
+<li>CENO витрачає додатковий трафік, що може призвести до підвищення витрат на мобільний звʼязок (дивіться вище).</li>
 <li>При мобільному підключенні зʼєднатися з Вашим пристроєм ззовні буде набагато складніше, ніж при підключенні до Wi-Fi, що знижує можливість того, що Ви зможете допомогти іншим користувачам отримати вміст.</li>
 </ol>
 
@@ -184,9 +215,11 @@
                             <a rel="prev" href="../intro/qsg.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../concepts/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -196,6 +229,7 @@
                     <a rel="prev" href="../intro/qsg.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../concepts/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -203,16 +237,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

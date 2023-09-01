@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
-<html lang="pt_BR" class="light" dir="ltr">
+<html lang="pt_BR" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Censorship.no! Manual de Usuário</title>
         <meta name="robots" content="noindex" />
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -17,25 +19,29 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -51,42 +57,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Introdução</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> O que é Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guia para Início Rápido</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Perguntas Mais Frequentes</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Conceitos Principais</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> Como funciona?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegação pública versus privativa</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegação pública ou privativa</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Testando o Navegador</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ajudando outras pessoas</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Solução de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: o cliente front-end da Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Introdução</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> O que é Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guia para Início Rápido</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Perguntas Mais Frequentes</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Conceitos Principais</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> Como funciona?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegação pública versus privativa</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Vantagens de usar Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Riscos de usar Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Usando o Navegador Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Instalando o Ceno</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegação pública ou privativa</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> Configurações do Ceno</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Testando o Navegador</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ajudando outras pessoas</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Solução de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: o cliente front-end da Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -95,7 +124,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -115,6 +144,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -128,8 +158,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -140,105 +171,93 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="censorshipno-manual-de-usuário"><a class="header" href="#censorshipno-manual-de-usuário">Censorship.no! Manual de Usuário</a></h1>
-<p>This manual is aimed at users of <a href="https://github.com/censorship-no/ceno-browser">CENO Browser</a> and related technologies, as created for the <a href="https://censorship.no/">Censorship.no!</a> project by <a href="https://equalit.ie/">eQualitie</a>.</p>
-<p>If you are looking for technical documentation, please refer to the <a href="https://github.com/censorship-no/ceno-docs/">CENO documentation repository</a>, where you will find pointers for further reading and details on implementation, as well as the [protocol specifications][protocol specifications].</p>
+<p>Este manual é destinado a usuários do [Navegador Ceno][Navegador Ceno] e tecnologias relacionadas, conforme criadas para o projeto <a href="https://censorship.no/">Censorship.no!</a> pela <a href="https://equalit.ie/">eQualitie</a>.</p>
+<p>Se você está procurando por documentação técnica, por favor consulte o [repositório de documentação do Ceno][repositório de documentação do Ceno]. Lá você encontrará indicações para leituras posteriores e detalhes de implementação, bem como as <a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">especificações de protocolo</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introdução"><a class="header" href="#introdução">Introdução</a></h1>
 <p>A Internet e a World Wide Web se tornaram cada vez mais importantes para pessoas ao redor do mundo como fonte de todos os tipos de informação e como forma de exercer direitos fundamentais. Ao mesmo tempo, nos últimos anos houve um aumento em todas as formas de censura e em outras formas de interferência na rede. (veja os relatórios de <a href="https://ooni.org/reports/" title="Open Observatory of Network Interference – Research reports">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Magma publications">Magma</a>, <a href="https://censoredplanet.org/reports" title="Censored Planet – Reports">Censored Planet</a>), ambos de atores privados e estatais.</p>
 <p>A Web depende da capacidade de seus dispositivos alcançarem computadores especiais chamados <em>servidores web</em> (administrados por criadores de conteúdo, editores e provedores de serviço) que guardam o conteúdo que você deseja recuperar para fazer isso de uma maneira sincronizada - mais parecida com ter uma conversa ao vivo no telefone que com trocar algumas cartas. Infelizmente, essa ação requer que o servidor web de que você precisa esteja conectado à rede e tenha recursos disponíveis suficientes para conversar com o seu dispositivo naquele momento.</p>
 <p>O advento das <em>redes de distribuição de conteúdo</em> (ou CDNs, como as comerciais Akamal e Cloudfare, ou a Deflect, destinada à sociedade civil) retirou parte da carga destes servidores web através da distribuição de cópias do conteúdo para data centers espalhados ao redor do mundo. Desse modo, ele pode estar mais perto dos dispositivos e, por consequência, ser alcançado mais rapidamente, ao memo tempo em que mantém os servidores de origem protegidos do acesso direto. Contudo, no momento os servidores CDN (e, portanto, as organizações que os administram) precisam ser considerados confiáveis tanto pelo servidor de origem quanto pelos seus dispositivos e precisam, também, ser alcançáveis em todos os momentos.</p>
 <p>Infelizmente, há situações nas quais a conectividade no geral é escassa (em países em desenvolvimento ou carentes, empobrecidos ou em regiões rurais), custosa (com alguns países cobrando mais por tráfego internacional) ou foi ativamente bloqueada por um agente estatal (explicitamente ou como resultado de um desligamento geral). Nestes casos, alcançar o servidor web de origem ou até os servidores CDN é difícil ou impossível e seu dispositivo não será capaz de obter aquele conteúdo - mesmo que eu tenha conseguido acessá-lo algumas horas atrás e estejamos morando apenas a algumas ruas de distância.</p>
-<p>This is where CENO Browser and Ouinet come into play. This chapter will introduce you to them.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-ceno-browser"><a class="header" href="#what-is-ceno-browser">What is CENO Browser?</a></h1>
-<p>CENO (short for <a href="https://censorship.no/">Censorship.no!</a>) is a Web browser for mobile Android devices (such as smartphones and tablets) that uses a novel approach to circumvent Internet censorship and share retrieved content among all users in a <a href="https://pt.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> (P2P) fashion. This reduces overall reliance on international network exchanges, and allows frequently requested Web content to persist in the network even during heavy filtering and throttling events.</p>
-<p>What sets CENO apart from most other circumvention initiatives is that users can continue to share Web content even when no (or extremely limited) connectivity exists across national borders. CENO is thus built in anticipation of aggressive Internet filtering and the establishment of [national intranets][national intranets] to fence off nations from the Web.</p>
-<p>CENO Browser is built on an adapted version of [Firefox for Android][Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/Open Source browser. CENO extends Firefox with <strong>Ouinet</strong>, the underlying technology allowing it to share content between devices (described in later sections).</p>
-<h2 id="who-develops-ceno"><a class="header" href="#who-develops-ceno">Who develops CENO?</a></h2>
-<p>The <em>Censorship.no!</em> project is run by <a href="https://equalit.ie/">eQualitie</a> in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][Universal Declaration of Human Rights]. CENO and related technologies are developed as Free/Libre/Open Source software (<a href="https://github.com/censorship-no/" title="CENO source code repositories">project source</a>), allowing anyone to use, study, share and enhance it. Please contact <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> in case of doubt or for further information.</p>
-<h2 id="É-feito-para-quem"><a class="header" href="#É-feito-para-quem">É feito para quem?</a></h2>
-<p>CENO is meant for everyone but is particularly convenient for people interested in Web content that is censored on their network, and those those living in countries where connectivity to the global Internet is spotty, unreliable or expensive. It encourages and enables the sharing of web content among users, creating a decentralized network of peers helping each other.</p>
-<p>You do not need to be an advanced computer user or even understand how peer-to-peer networks operate to use CENO. The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood).</p>
-<p>CENO can, however, generate more Internet traffic than your usual Web browser – since it needs to let other users know what Web content it is sharing to the network, and possibly deliver this content to those who request it. CENO thus relies on moderately good in-country connectivity. We recommend using CENO when connected to Wi-Fi not just to avoid exhausting mobile data limits (should you have them), but also to increase the chances of being able to deliver Web content to other users.</p>
-<blockquote>
-<p><strong>Warning:</strong> <em>CENO is not an anonymity tool.</em> In fact, using CENO may allow others to know whether you have accessed or are sharing certain Web content. Please take careful consideration of which risks you can assume by using this tool. See the sections on <a href="intro/../concepts/public-private.html">public vs. private browsing</a> and <a href="intro/../concepts/risks.html">risks</a> for further information.</p>
-</blockquote>
+<p>É aqui onde o Navegador CENO e a Ouinet entram em cena. Este capítulo vai apresentá-los a você.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-ceno-browser"><a class="header" href="#what-is-ceno-browser">What is Ceno Browser?</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="o-que-é-ouinet"><a class="header" href="#o-que-é-ouinet">O que é Ouinet?</a></h1>
-<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> is a core technology that allows CENO Browser to share Web content with other devices. Ouinet comes in the form of reusable computer code (a library) that an application like CENO can use to become a participant in a network of cooperating nodes that communicate directly (<a href="https://pt.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.</p>
+<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> é uma tecnologia fundamental para permitir o comparilhamento de conteúdo Web com outros dispositivos pelo Navegador CENO. A Ouinet se apresenta como código reutilizável (uma biblioteca) que uma aplicação como o CENO pode usar para fazer parte de uma rede de nós cooperativos que se comunicam diretamente (<a href="https://pt.wikipedia.org/wiki/Peer-to-peer">par a par</a> ou P2P) para ajudar no acesso e armazenamento de conteúdo Web novo e requisitar e entregar conteúdo previamente acessado para outros.</p>
 <p>Ouinet é baseada em uma combinação inventiva no uso de tecnologias existentes para compor todas as suas funcionalidades: a localização de outros participantes é feita com técnicas advindas do universo do compartilhamento de arquivos (a tabela hash distribuída do BitTorrent), a comunicação com eles usa protocolos comuns da Web e de compartilhamento de arquivos (requisições de proxy HTTP e o µTP do BitTorrent). Além disso, padrões modernos da indústria garantem a segurança das comunicações e a autenticidade do conteúdo intercambiado (criptografia TLS e assinaturas Ed25519). A Ouinet permite a substituição de tecnologias específicas por outras, se necessário (por exemplo, alguns usos do µTP podem ser substituídos por Transportes Plugáveis do Tor).</p>
 <p>Em dispositivos móveis, a Ouinet pode ser incorporada em aplicações para o usuário final (como uma biblioteca do Android). Em computadores, ela pode ser usada por clientes Web comuns, como navegadores (como um proxy HTTP local).</p>
-<p>Same as CENO Browser, Ouinet is developed by <a href="https://equalit.ie/">eQualitie</a> as Free/Libre/Open-Source software.</p>
-<h2 id="É-feito-para-quem-1"><a class="header" href="#É-feito-para-quem-1">É feito para quem?</a></h2>
+<p>De mesmo modo que o Navegador CENO, a Ouinet é desenvolvida pela <a href="https://equalit.ie/">eQualitie</a> como um sofware gratuito, livre e de código aberto.</p>
+<h2 id="É-feito-para-quem"><a class="header" href="#É-feito-para-quem">É feito para quem?</a></h2>
 <p>Ouinet é útil principalmente para desenvolvedores de software, criadores de conteúdo e editores que desejam permitir aos usuários de suas aplicações o compartilhamento de conteúdo com outros usuários. Essa possibilidade reduz a demanda geral para o servidor da aplicação e melhora a acessibilidade ao conteúdo para usuários habitantes de países que bloqueiam o acesso àquele servidor.</p>
-<p>Por favor, observe que Ouinet é um projeto experimental em evolução: algumas funcionalidades podem não funcionar de maneira confiável o suficiente em certos cenários, podem existir bugs e ocorrer travamentos. Encorajamos você a nos contatar em <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>, realizar testes e retornar um relatório - seu feedback é muito bem-vindo!</p>
+<p>Please note that Ouinet is an evolving experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur. We encourage you to reach out to us at <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>, test it and report back - your feedback is very welcome!</p>
 <blockquote>
 <p><strong>Aviso:</strong> <em>Ouinet não é uma ferramenta de anonimato</em>. Se você não tem certeza sobre ela ser adequada a uma certa tarefa, não hesite em nos contatar.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="guia-para-início-rápido"><a class="header" href="#guia-para-início-rápido">Guia para Início Rápido</a></h1>
-<p>CENO Browser allows you to access any website on the Internet, even if it is censored in your country. CENO uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others. <a href="intro/ceno.html">Read more about CENO</a>.</p>
+<p>Ceno Browser allows you to access any website on the Internet, even if it is censored in your country. Ceno uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others. <a href="intro/Ceno.html">Read more about Ceno</a>.</p>
 <h2 id="como-começar"><a class="header" href="#como-começar">Como começar</a></h2>
 <p>Você vai precisar de um dispositivo Android:</p>
 <ol>
-<li>Install CENO Browser from <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> or <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>No special permissions are needed</em>.</li>
+<li>Install Ceno Browser from <a href="https://play.google.com/store/apps/details?id=ie.equalit.Ceno">Google Play</a>, <a href="https://github.com/censorship-no/Ceno-browser/releases">GitHub</a> or <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>No special permissions are needed</em>.</li>
 <li>Execute-o.</li>
 <li>Navegue pelas páginas normalmente para ajudar outros usuários a acessá-las; se houver preocupações sobre a privacidade para algumas páginas ou se não estiver carregando como deveria, use uma aba privativa (veja <a href="intro/../concepts/public-private.html">navegação pública versus privativa</a>).</li>
-<li>Tap on the CENO notification to stop it completely.</li>
+<li>Toque na notificação do CENO para interrompê-lo completamente.</li>
 </ol>
 <p>As instruções detalhadas para a instalação estão <a href="intro/../browser/install.html">aqui</a>.</p>
 <h2 id="configuração"><a class="header" href="#configuração">Configuração</a></h2>
-<p>CENO Browser should work out-of-the-box. You can find some <a href="intro/../browser/settings.html">diagnostics and settings</a> under the <em>CENO</em> menu entry.</p>
+<p>O Navegador CENO deve funcionar imediatamente. Você pode encontrar uma gama de <a href="intro/../browser/settings.html">diagnósticos e configurações</a> sob o menu <em>CENO</em>.</p>
 <p>Se você quer ter certeza de que seu aplicativo está também ajudando outras pessoas a acessar conteúdo bloqueado, por favor <a href="intro/../browser/bridging.html">leia esta seção</a>.</p>
 <h2 id="mais-perguntas"><a class="header" href="#mais-perguntas">Mais perguntas?</a></h2>
 <ul>
 <li>Por favor, consulte a <a href="intro/faq.html">FAQ</a>.</li>
 <li>Consulte o <a href="intro/../browser/troubleshooting.html">guia de solução de problemas</a>.</li>
-<li>Fale conosco escrevendo para <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>.</li>
+<li>Contact us by writing to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="perguntas-mais-frequentes"><a class="header" href="#perguntas-mais-frequentes">Perguntas Mais Frequentes</a></h1>
 <h2 id="uso"><a class="header" href="#uso">Uso</a></h2>
-<h3 id="can-ceno-browser-replace-my-current-browser-chromefirefoxsafari"><a class="header" href="#can-ceno-browser-replace-my-current-browser-chromefirefoxsafari">Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?</a></h3>
+<h3 id="o-navegador-ceno-pode-substituir-meu-navegador-atual-chromefirefoxsafari"><a class="header" href="#o-navegador-ceno-pode-substituir-meu-navegador-atual-chromefirefoxsafari">O Navegador CENO pode substituir meu navegador atual (Chrome/Firefox/Safari)?</a></h3>
 <p>Resposta curta: sim, ao menos para alguns tipos não-sensíveis de navegação.</p>
-<p>Since CENO is based on Mozilla Firefox for Android, it provides all the features that are expected from a modern browser. However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).</p>
-<p>Also, since CENO and Ouinet are under continuous development, you may experience some instability. That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.</p>
-<p>For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO. Please read the section on <a href="intro/../concepts/risks.html">risks</a> for more information.</p>
-<h2 id="can-i-use-ceno-browser-to-access-twitter-facebook-and-gmail"><a class="header" href="#can-i-use-ceno-browser-to-access-twitter-facebook-and-gmail">Can I use CENO Browser to access Twitter, Facebook and Gmail?</a></h2>
+<p>Porque o CENO é baseado no Mozilla Firefox para Android, ele oferece todas as funcionalidades que são esperadas de um navegador moderno. No entanto, sua dependência da tecnologia Ouinet para recuperação de conteúdo web pode afetar sua operação de maneiras sutis (algumas delas podendo envolver sua privacidade).</p>
+<p>Além disso, como CENO e Ouinet estão em constante desenvolvimento, você pode experienciar alguma instabilidade. Isso pode significar, também, a introdução de alterações incompatíveis com versões anteriores as quais demandam a desinstalação da aplicação ou remoção dos dados armazenados (incluindo marcadores e configurações de website).</p>
+<p>Para trabalhos importantes em websites não sujeitos a censura, recomendamos que você use seu navegador Web habitual ao invés de CENO. Por favor, leia a seção sobre <a href="intro/../concepts/risks.html">riscos</a> para mais informações.</p>
+<h2 id="posso-usar-o-navegador-ceno-para-acessar-twitter-facebook-e-gmail"><a class="header" href="#posso-usar-o-navegador-ceno-para-acessar-twitter-facebook-e-gmail">Posso usar o Navegador CENO para acessar Twitter, Facebook e Gmail?</a></h2>
 <p>Resposta curta: sim, usando abas privativas.</p>
-<p>Although CENO strives to provide a user experience as similar to normal Web browsing as possible, some of the techniques used to avoid network interference do not play well with such dynamic sites. This is the case with CENO's default mode of operation (i.e. public browsing), since it strips down all private data (like passwords and cookies) from Web traffic to ensure that it does not leak to other untrusted CENO or Ouinet users.</p>
-<p>To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else. However, this requires that network traffic from your device can reach those websites in some way.</p>
+<p>Apesar do esforço do CENO em oferecer uma experiência de usuário o mais similar possível à navegação Web normal, algumas das técnicas usadas para evitar a interferência da rede não funcionam bem com websites tão dinâmicos. É esse o caso do modo de operação padrão do CENO (isto é, navegação pública), pois retira todos os dados privados (como senhas e cookies) do tráfego Web para assegurar que não sejam vazados para outros usuários não confiáveis do CENO ou da Ouinet.</p>
+<p>Para evitar este cenário e permitir ao usuário o uso desses websites dinâmicos no CENO, você pode usar as abas privativas (isto é, navegação privativa), a qual deixa os dados privados intactos e mantém as conexões aos websites criptografadas e, assim, protegidas de todas as outras pessoas. Esse processo requer, contudo, que o tráfego do seu dispositivo possa alcançar esses websites de alguma maneira.</p>
 <p>Para mais detalhes, por favor consulte a seção sobre diferenças entre <a href="intro/../concepts/public-private.html">navegação pública e privativa</a>.</p>
 <h2 id="privacidade-e-segurança"><a class="header" href="#privacidade-e-segurança">Privacidade e segurança</a></h2>
 <h3 id="meu-dispositivo-irá-armazenar-conteúdo-não-solicitado-por-mim"><a class="header" href="#meu-dispositivo-irá-armazenar-conteúdo-não-solicitado-por-mim">Meu dispositivo irá armazenar conteúdo não solicitado por mim?</a></h3>
 <p>Resposta curta: não.</p>
-<p>CENO only shares content that you requested (using <a href="intro/../concepts/public-private.html">public browsing</a>).</p>
+<p>CENO apenas compartilha conteúdo solicitado por você (usando a <a href="intro/../concepts/public-private.html">navegação pública</a>).</p>
 <p>Por favor, observe que um website malicioso pode ainda assim tentar induzir seu navegador a recuperar conteúdo de outros websites sem o seu conhecimento de modo a forçar seu dispositivo a armazenar e compartilhá-lo com outros usuários. Mesmo que o código do Firefox já faça um ótimo trabalho na detecção e bloqueio dessas tentativas, você deveria, mesmo assim, evitar fazer visitas a websites suspeitos.</p>
-<p>Read more about how your CENO Browser retrieves and shares Web content with others <a href="intro/../concepts/how.html">here</a>.</p>
-<h3 id="can-anyone-see-if-i-am-using-ceno-browser-to-access-censored-web-sites"><a class="header" href="#can-anyone-see-if-i-am-using-ceno-browser-to-access-censored-web-sites">Can anyone see if I am using CENO Browser to access censored Web sites?</a></h3>
+<p>Leia mais sobre como o Navegador CENO recupera e compartilha conteúdo Web com outros <a href="intro/../concepts/how.html">aqui</a>.</p>
+<h3 id="alguém-pode-ver-se-eu-estou-usando-o-navegador-ceno-para-acessar-websites-censurados"><a class="header" href="#alguém-pode-ver-se-eu-estou-usando-o-navegador-ceno-para-acessar-websites-censurados">Alguém pode ver se eu estou usando o Navegador CENO para acessar websites censurados?</a></h3>
 <p>Resposta curta: sim, com algum conhecimento técnico e recursos.</p>
-<p>CENO is not an anonymity tool. An attacker able to spy on your network traffic can see content being requested from or served to another user from your device. The attacker can also assess whether you are sharing a particular website, although they cannot list all the content that you are sharing.</p>
+<p>CENO não é uma ferramenta de anonimato. Um atacante capaz de espionar o seu tráfego de rede pode ver o conteúdo sendo requisitado de ou provido para outro usuário a partir do seu dispositivo. O atacante pode também determinar se você está ou não compartilhando um website específico, mesmo que ele não possa listar todo o conteúdo sendo compartilhado por você.</p>
 <p>No entanto, o conteúdo sendo recuperado dentro da rede pela primeira vez ou pelo uso de <a href="intro/../concepts/public-private.html">navegação privativa</a> vai transitar por conexões criptografadas. Veja <a href="intro/../concepts/how.html">como a recuperação de conteúdo funciona</a> e os <a href="intro/../concepts/risks.html">riscos</a> associados para mais informações.</p>
 <h2 id="uso-de-recursos"><a class="header" href="#uso-de-recursos">Uso de recursos</a></h2>
-<h3 id="does-ceno-browser-use-a-lot-of-data"><a class="header" href="#does-ceno-browser-use-a-lot-of-data">Does CENO Browser use a lot of data?</a></h3>
+<h3 id="o-navegador-ceno-usa-uma-grande-quantidade-de-dados"><a class="header" href="#o-navegador-ceno-usa-uma-grande-quantidade-de-dados">O Navegador CENO usa uma grande quantidade de dados?</a></h3>
 <p>Resposta curta: mais que o seu navegador tradicional.</p>
-<p>Whenever your CENO Browser serves content to another user or forwards their traffic, it is consuming extra data depending on factors like how popular or large the content is, and how well-connected your device is. Sharing more content also implies more overhead.</p>
-<p>Although CENO is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees. We recommend keeping an eye on the app's data usage (under Android settings) and running CENO while connected to Wi-Fi instead of using mobile data.</p>
-<h3 id="does-ceno-browser-use-a-lot-of-battery-on-my-device"><a class="header" href="#does-ceno-browser-use-a-lot-of-battery-on-my-device">Does CENO Browser use a lot of battery on my device?</a></h3>
+<p>Em qualquer ocasião em que o Navegador CENO provê conteúdo para outro usuário ou encaminha seu tráfego, ele consome dados extras a depender de fatores como o quão popular ou extenso é o conteúdo e o quão bem conectado é o seu dispositivo. Compartilhar mais conteúdo também implica em maior sobrecarga.</p>
+<p>Apesar de o CENO consumir muito menos recursos que outras aplicações de compartilhamento de dados, seu uso ainda pode resultar em um aumento das tarifas e da utilização de dados. Recomendamos monitorar o uso de dados do aplicativo (pelas configurações do Android) e executar o CENO enquanto estiver conectado ao WiFi ao invés de dados móveis.</p>
+<h3 id="o-navegador-ceno-consome-muita-bateria-do-meu-dispositivo"><a class="header" href="#o-navegador-ceno-consome-muita-bateria-do-meu-dispositivo">O Navegador CENO consome muita bateria do meu dispositivo?</a></h3>
 <p>Resposta curta: mais que o seu navegador tradicional.</p>
-<p>CENO and Ouinet use various techniques for different users to cooperate in avoiding network interference and outages. Serving content to and forwarding traffic for other users consumes extra power. Also, even when your device is not actively helping other users, it still needs to stay reachable over the network, which prevents the use of some energy-saving features.</p>
-<p>The net result is that CENO may keep on draining your battery even when not in use. Our tests have not shown power consumption hiking too much, but your mileage may vary. When in need of battery, we recommend stopping CENO completely (it offers a convenient shortcut for this, see <a href="intro/../browser/install.html">here</a>).</p>
-<h3 id="do-i-need-to-be-connected-to-wi-fi-to-use-ceno-browser"><a class="header" href="#do-i-need-to-be-connected-to-wi-fi-to-use-ceno-browser">Do I need to be connected to Wi-Fi to use CENO Browser?</a></h3>
+<p>CENO e Ouinet aplicam várias técnicas para que diferentes usuários cooperem para evitar interferências e interrupções na rede. Provendo conteúdo e encaminhando tráfego para outros usuários consome energia extra. Além disso, mesmo quando seu dispositivo não está ativamente ajudando outros usuários, ele ainda precisa estar alcançável pela rede, o que impede o uso de algumas funcionalidades de economia de energia.</p>
+<p>O resultado final é que o CENO pode continuar drenando sua bateria mesmo quando não estiver em uso. Nossos testes não demonstraram muitos picos de consumo de energia, mas isso pode variar de acordo com o cada caso. Quando na necessidade de bateria, recomendamos parar o CENO completamente (ele oferece um atalho conveniente para isso, veja <a href="intro/../browser/install.html">aqui</a>).</p>
+<h3 id="eu-preciso-de-conexão-wifi-para-usar-o-navegador-ceno"><a class="header" href="#eu-preciso-de-conexão-wifi-para-usar-o-navegador-ceno">Eu preciso de conexão WiFi para usar o Navegador CENO?</a></h3>
 <p>Resposta curta: não, mas recomendamos fortemente.</p>
-<p>Although CENO should work fine on a mobile connection, there are two reasons why we recommend using a Wi-Fi connection instead:</p>
+<p>Embora o CENO deva funcionar bem em uma conexão móvel, há duas razões pelas quais recomendamos usar uma conexão WiFi:</p>
 <ol>
-<li>CENO consumes an extra amount of data which may result in a higher phone bill (see above).</li>
+<li>CENO consome uma quantidade extra de dados, o que pode resultar em uma conta de telefone mais alta (veja acima).</li>
 <li>As conexões móveis geralmente dificultam o alcance do seu dispositivo a partir do exterior do que as conexões WiFi. Assim, há uma diminuição das chances de você poder ajudar outros usuários a obter conteúdo.</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="conceitos-principais"><a class="header" href="#conceitos-principais">Conceitos principais</a></h1>
-<p>To fulfill its objective of circumventing several kinds of network interference and shortages, CENO makes use of assorted techniques from the fields of the World Wide Web, file-sharing systems and advanced cryptography. These techniques are cleverly combined by Ouinet so as to make the experience of using CENO as close as possible to normal Web browsing.</p>
-<p>Nonetheless, to get the most out of CENO it is helpful to understand how Ouinet operates, the different ways it can be used depending on the kind of content we are trying to access, and the advantages and risks that they entail. This chapter will cover these topics.</p>
+<p>Para cumprir seu objetivo de contornar diversos tipos de interferência e escassez na rede, Ceno faz uso de variadas técnicas dos campos de World Wide Web, sistemas de compartilhamento de arquivo e criptografia avançada. Tais técnicas são inventivamente combinadas pela Ouinet de modo a tornar a experiência de uso do Ceno o mais próxima possível da navegação Web normal.</p>
+<p>De todo modo, para aproveitar ao máximo o Ceno, é útil entender como a Ouinet opera, as diferentes formas em que ela pode ser usada a depender do tipo de conteúdo que tentamos acessar e as vantagens e riscos que elas condicionam. Este capítulo aborda esses tópicos.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="como-funciona"><a class="header" href="#como-funciona">Como funciona?</a></h1>
-<p>This section will explain CENO and Ouinet operation by going over a series of scenarios. Terminology and concepts important to Ouinet will be introduced (highlighted <strong>in bold letters</strong>) and used afterwards for efficiency and to avoid confusion.</p>
+<p>Esta seção explicará as operaçãos do CENO e da Ouinet percorrendo uma série de cenários. Terminologias e conceitos importantes para a Ouinet serão introduzidos (destacados <strong>com letras em negrito</strong>) e usados posteriormente para garantir eficiência e para evitar confusões.</p>
 <h2 id="acessando-conteúdo-diretamente"><a class="header" href="#acessando-conteúdo-diretamente">Acessando conteúdo diretamente</a></h2>
-<p>CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content. We call such an application a Ouinet <strong>client</strong>. When you use your client (i.e. CENO) to try to access some content <em>X</em>, hosted on a Web server (which we will call <em>X</em>'s <strong>origin</strong> server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called <strong>proxy</strong> server) and then requests the desired content. This is no different from the way in which any normal Web browser works.</p>
+<p>O Navegador CENO é um exemplo de uma aplicação que usa a tecnologia Ouinet para recuperar e compartilhar conteúdo Web. Chamamos tal tipo de aplicação um <strong>cliente</strong> da Ouinet. Quando você usa seu cliente (isto é, CENO) para tentar acessar algum conteúdo <em>X</em>, hospedado em um servidor Web (o qual chamaremos de servidor de <strong>origem</strong> de <em>X</em>), seu cliente tenta contatar o servidor de origem através da Internet, seja diretamente ou via alguma outra máquina configurada para contatar servidores Web em nome de outros (o chamado servidor <strong>proxy</strong>) e então solicita o conteúdo desejado. Isso não é diferente da forma como qualquer navegador Web comum funciona.</p>
 <blockquote>
-<p><strong>Technical note:</strong> There is in fact one small gotcha. Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device). CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.</p>
+<p><strong>Nota técnica:</strong> Há, de fato, uma pequena pegadinha. Já que o cliente age como um proxy HTTP sendo executado em seu dispositivo, para o cliente ser capaz de decodificar e atuar sobre solicitações de conteúdo HTTPS, a aplicação usando o cliente (isto é, a parte do navegador Web - como Firefox no CENO), precisa aceitar um certificado especial emitido pelo próprio cliente (e apenas usado no seu dispositivo). O Navegador CENO já se responsabiliza por estruturar esse certificado para seu uso privado de maneira que você não precisa de preocupar.</p>
 </blockquote>
 <p>No entanto, estes caminhos diretos podem não estar disponíveis. Por exemplo, seu provedor de serviço de Internet (ISP) pode estar bloqueando o acesso à origem de <em>X</em> ou ao proxy por causa de uma determinação do Estado (mesmo se outros tipos de tráfego continuarem permitidos). Assim como para o usuário do cliente do canto superior esquerdo ilustrado abaixo, ambas as tentativas de alcançar o conteúdo <em>X</em> (o pequeno documento perto do servidor de origem dele) iriam falhar para você. Observe, também, o nó &quot;injetor&quot; no diagrama. Explicaremos esse em um instante.</p>
 <p><img src="concepts/images/user-flow-0.svg" alt="Figura: Cliente não consegue alcançar o conteúdo diretamente" /></p>
@@ -249,7 +268,7 @@
 <p>Ouinet procura o conteúdo de uma forma diferente. Ela usa um índex não muito diferente do de um livro: no <strong>índex de cache distribuído</strong> você procura o URL completo do conteúdo e obtém uma lista de clientes mantendo uma cópia dele. O índex em si é distribuído, com clientes encarregados de anunciar quais conteúdos eles possuem para outros. Na verdade, somente uma <em>dica</em> de cada URL é anunciada, de modo que alguém espionando o tráfego de seu dispositivo não é capaz de identificar qual conteúdo você possui, mas alguém procurando por um conteúdo específico pode seguir as dicas em direção ao seu cliente.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Uma forma pela qual o índex é implementado é com uso da <a href="https://pt.wikipedia.org/wiki/Distributed_hash_table">Tabela Hash Distribuída</a> do <a href="https://pt.wikipedia.org/wiki/BitTorrent">BitTorrent</a> (DHT) para obter o endereço (IP e porta) dos clientes com o conteúdo. O DHT usa uma <a href="https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash_criptogr%C3%A1fica">Função criptográfica hash</a> para computar a chave da tabela a partir do conteúdo da URL e alguns outros parâmetros tais como a chave do injetor (veja abaixo), de modo que diversos índexes podem coexistir.</p>
-<p>Also, CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic. Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced. This is done with the help of an <em>ad hoc</em> browser extension (described later on).</p>
+<p>O Navegadro CENO, por sua vez, não anuncia a URL de cada recurso que detém: como qualquer página moderna tem dezenas de milhares de componentes (imagens, fichas de estilo, scripts...), essa ação criaria uma grande quantidade de tráfego. Em vez disso, os recursos são agrupados sob a URL da página que faz referência a eles, e somente aquela URL é anunciada. Isso é feito com a ajuda de uma extensão <em>ad hoc</em> do navegador (descrito mais à frente).</p>
 </blockquote>
 <p>Diz-se que os clientes oferecendo algum conteúdo específico sobre o cache distribuído o estão <strong>semeando</strong>, ou que são <em>semeadores</em> dele (esses termos advém do universo de compartilhamento P2P de arquivos). Retornando ao nosso cenário de exemplo, há dois clientes semeando algum conteúdo. Infelizmente, um está semeando o conteúdo <em>Y</em> e outro o conteúdo <em>Z</em>, de forma que o seu cliente não encontraria entradas para o conteúdo <em>X</em> no índex do cache distribuído, como ilustrado abaixo:</p>
 <p><img src="concepts/images/user-flow-1.svg" alt="Figura: Conteúdo não encontrado no cache distribuído" /></p>
@@ -259,7 +278,7 @@
 <p>Na Ouinet, existem alguns tipos especiais de servidores proxy chamados <strong>injetores</strong>, os quais ocupam (espera-se) a parte livre da Internet e tentam fortemente continuar alcançáveis apesar de medidas de bloqueio:</p>
 <ul>
 <li>
-<p>Em primeiro lugar, as conexões entre clientes e injetores são criptografadas (usando padrões SSL/TLS como no HTTPS) para evitar que atacantes identifiquem injetores ao espionarem o tráfego web.By the way, injector certificates are shipped in CENO Browser, allowing it to detect attackers trying to impersonate injectors.</p>
+<p>Em primeiro lugar, as conexões entre clientes e injetores são criptografadas (usando padrões SSL/TLS como no HTTPS) para evitar que atacantes identifiquem injetores ao espionarem o tráfego web.A propósito, os certificados do injetor são entregues no Navegador CENO, permitindo a este detectar atacantes que tentam se passar por injetores.</p>
 </li>
 <li>
 <p>Se a criptografia não foi o suficiente, as conexões com os injetores podem usar técnicas especiais de ofuscamento (como I2P e os Transportes Plugáveis do Tor) para tornar a identificação ainda mais difícil.</p>
@@ -277,16 +296,16 @@
 <p>Por favor, observe que devido às conexões entre cliente e injetor serem criptografadas, pontes não são capazes de ver a informação circulando entre eles.</p>
 </li>
 </ul>
-<p>An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including CENO Browser) do currently when trying to access content over a proxy. In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).</p>
+<p>Um injetor pode se comportar como um servidor proxy normal (apesar de extra-disponível), e esse comportamento é de fato o que clientes Ouinet (incluindo o Navegador CENO) fazem corriqueiramente ao tentar acessar conteúdo através de um proxy. Nesse caso, o injetor não verá a informação verdadeira circulando entre o seu cliente e o servidor de origem (a menos que seja ela mesma uma consexão HTTP simples, não criptografada).</p>
 <p>Porém existem outras ferramentas permitindo que você alcance proxies em condições de severa interferência na rede. Então, o que é tão especial nos injetores da Ouinet?</p>
 <h3 id="confiando-no-conteúdo-compartilhado"><a class="header" href="#confiando-no-conteúdo-compartilhado">Confiando no conteúdo compartilhado</a></h3>
 <p>Bem, o ponto é que um injetor não apenas recupera conteúdo em nome do seu cliente, ele também permite a você <em>compartilhar aquele conteúdo com outros posteriormente, mesmo quando não há mais acesso ao injetor ou à maior parte da Internet</em>.</p>
 <p>Você com certeza poderia baixar uma página a partir do seu navegador e copiar os arquivos resultantes para outras pessoas, o que não tem problema se vocês se conhecem. Mas e se você recebesse tais arquivos de uma pessoa desconhecida? Como poderia ter certeza de que aquele conteúdo de fato veio do website do qual diz ter vindo, de que foi recuperado em uma determinada data ou de que a informação contida nele não foi manipulada?</p>
-<p>We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know. To enable you to accept such content, Ouinet uses <strong>content signing</strong>: your client is configured to trust content that is signed using a special key owned by injectors. Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.</p>
+<p>Queremos que o uso do CENO e da Ouinet escale e ofereça o máximo de conteúdo para o máximo de pessoas possível. Portanto, queremos que você consiga receber conteúdo de pessoas desconhecidas. Para possibilitar que você aceite tal conteúdo, a Ouinet utiliza a <strong>assinatura de conteúdo</strong>: seu cliente é configurado para confiar em conteúdo assinado usando uma chave especial pertencente aos injetores. A qualquer momento que um cliente diga a um injetor para recuperar algum conteúdo Web para compartilhamento, o injetor o obtém do servidor de origem, usa a chave para assiná-lo e retorna o conteúdo assinado para o cliente.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Na verdade, o injetor assina blocos individuais de dados conforme eles chegam, então mesmo que a conexão seja cortada no meio da recuperação de um arquivo grande, os dados baixados ainda podem ser compartilhados pelo cliente que os recebeu.</p>
 </blockquote>
-<p>Different injectors may have different keys, so you can choose which injectors to trust. Picture it like this: you may trust a document signed by a <em>notary public</em> from your country, no matter who gave it to you (national or foreigner), while you would not be required to accept a document signed by a notary from another country. CENO Browser is already configured to trust a set of injectors run by eQualitie.</p>
+<p>Injetores diferentes podem ter diferentes chaves, então você pode escolher em quais injetores confiar. Imagine desta forma: você pode confiar em um documento assinado por um <em>notário público</em> do seu país, independentemente de quem lhe deu (nacional ou estrangeiro), ao mesmo tempo, não seria exigido que aceitasse um documento assinado por um notário de outro país. O Navegador CENO já está configurado para confiar em um conjunto de injetores gerenciados pela eQualitie.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Injetores usam um par de chaves pública/privada para criar assinaturas Ed25519. Chaves públicas são pequenas o suficiente para permitir seu envio junto com as assinaturas e codificadas como 64 caracteres hexadecimais ou 52 caracteres de Base32. Elas podem até ser intercambiadas no telefone ou escritas em um pedaço de papel.</p>
 </blockquote>
@@ -296,7 +315,7 @@
 <p><img src="concepts/images/user-flow-2.svg" alt="Figura: Cliente alcança o injector" /></p>
 <p>Conforme o conteúdo <em>X</em> é recebido pelo injetor, este o assina com sua chave, adiciona a assinatura ao conteúdo e o devolve ao seu cliente pelo túnel de onde ele veio (digamos, através do cliente localizado além do bloqueio). Uma vez que o conteúdo alcança o seu cliente, ele realiza três ações:</p>
 <ol>
-<li>It delivers it to you (in the case of CENO, it shows the content on the browser).</li>
+<li>Entrega o conteúdo para você (no caso do CENO, o conteúdo é exibido no navegador).</li>
 <li>Salva o conteúdo no seu dispositivo a fim de semear para outros clientes no futuro. Ele ficará lá por um intervalo de tempo configurável, ou até que você decida limpar todo o conteúdo armazenado.</li>
 <li>Anuncia no índex do cache distribuído que possui uma cópia daquele conteúdo, assim outros clientes podem encontrá-lo.</li>
 </ol>
@@ -305,20 +324,20 @@
 <h2 id="navegando-sob-bloqueio-total"><a class="header" href="#navegando-sob-bloqueio-total">Navegando sob bloqueio total</a></h2>
 <p>Por favor, observe que o mecanismo descrito acima ainda demanda que <em>exista algum caminho</em> que atravesse o bloqueio em direção ao resto da Internet. Mas algumas vezes este caminho também estará em falta: pense em desconexões internacionais totais, desastres naturais ou simplesmente congestionamento excessivo dos poucos caminhos existentes (devido a todas as pessoas tentarem passar por eles). É neste momento que o poder do cache distribuído entra em ação.</p>
 <p>Imaginemos que, depois de você recuperar o conteúdo <em>X</em> do injetor, um desastre deixa a sua região isolada do mundo. Acontece que o conteúdo <em>X</em> se torna especialmente relevante, pois ele descreve algumas formas pelas quais você pode ajudar a sua comunidade em situações como essa.</p>
-<p>At that moment a second person using CENO Browser also tries to get that content. Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it. CENO gets your Internet address from the index, connects to it and requests the content as shown below.</p>
+<p>Nesse momento, uma segunda pessoa usando o Navegador CENO também tenta obter tal conteúdo. O acesso ao servidor de origem ou a qualquer coisa para além de sua região é impossível, então o CENO verifica o índex do cache distribuído para aquele conteúdo e descobre que seu dispositivo o está semeando. O CENO obtém seu endereço de Internet pelo índex, conecta-se a ele e solicita o conteúdo conforme mostrado abaixo.</p>
 <p><img src="concepts/images/user-flow-4.svg" alt="Figura: Cliente recebe conteúdo assinado de cliente" /></p>
-<p>Now that second device also holds a copy of content <em>X</em>, so it announces this in the distributed cache index, thus becoming a seeder. If a third person interested in that content uses CENO Browser to retrieve it, CENO will now see <em>two</em> addresses in the index for the content: your device's and that of the second user. If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.</p>
+<p>Agora que o segundo dispositivo também detém uma cópia do conteúdo <em>X</em>, ele então anuncia isso no índex de cache distribuído e, por consequência, torna-se um semeador. Caso uma terceira pessoa interessada nesse conteúdo use o Navegador CENO para recuperá-lo, o CENO a partir de então verá no índex <em>dois</em> endereços para o conteúdo: o do seu dispositivo e o do segundo usuário. Se o conteúdo é pesado (por exemplo, um vídeo), o terceiro dispositivo pode tentar obter metade dele a partir de cada um dos outros dispositivos (como mostrado abaixo), assim acelerando o download e reduzindo o tráfego usado por eles.</p>
 <p><img src="concepts/images/user-flow-5.svg" alt="Figura: Cliente recebe conteúdo assinado de múltiplos clientes" /></p>
-<p>Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down. In this case, Ouinet and CENO Browser also have some support for <em>device-to-device</em> sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.</p>
+<p>Por fim, a situação pode ficar ainda pior e toda a infraestrutura comercial e estatal de rede pode ser desligada. Neste caso, a Ouinet e o Navegador CENO também possuem algum suporte para compartilhamento <em>dispositivo para dispositivo</em> de conteúdo entre dois clientes situados em uma mesma rede local (por exemplo, conectados o mesmo ponto de acesso WiFi), mesmo que a rede não possua acesso a outras.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="navegação-pública-versus-privativa"><a class="header" href="#navegação-pública-versus-privativa">Navegação pública versus privativa</a></h1>
-<p>Because of the many techniques used to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content. And, as you may have already read in previous sections, whenever you retrieve and seed a page using CENO Browser, it becomes available to others. There may be some content, however, that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.</p>
-<p>The default mode when you launch the application is <strong>public browsing</strong>. In it, CENO accesses Web content as described previously:</p>
+<p>Devido às muitas técnicas usadas para superar problemas de conectividade, o Ceno pode se tornar uma forma conveniente de obter vários tipos de conteúdo Web. E, como você pode já ter lido em seções anteriores, a qualquer momento em que você recupera e semeia uma página usando o Navegador Ceno, ela fica disponível para outras pessoas. Pode haver, contudo, algum conteúdo que você não deseja compartilhar (ou não quer deixar outras pessoas saberem que está tentando recuperar ou recuperou). Felizmente, o Ceno também pode ajudar você nesse aspecto.</p>
+<p>O modo padrão quando você abre a aplicação é <strong>navegação pública</strong>. Nele, o Ceno acessa conteúdo Web da forma descrita anteriormente:</p>
 <ol>
 <li>Tenta-se o acesso direto.</li>
 <li>Em caso de falha, procura-se o cache distribuído.</li>
 <li>Em caso de falha, o conteúdo é requisitado através de um injetor (talvez via outro cliente).</li>
 </ol>
-<p>CENO also has a <strong>private browsing</strong> mode. In it, the distributed cache is never searched, and injection is never attempted:</p>
+<p>Ceno também tem um modo <strong>navegação privativa</strong>. Nele, o cache distribuído nunca é procurado e nunca se tenta a injeção:</p>
 <ol>
 <li>Tenta-se o acesso direto.</li>
 <li>Em caso de falha, um injetor é contatado (talvez via outro cliente) e usado <em>como um servidor proxy normal</em>. Note que, nesse caso, nem o injetor nem o seu cliente atualizam o cache distribuído com a sua página.</li>
@@ -334,33 +353,33 @@
 </ol>
 <p>Enquanto estiver no modo privativo:</p>
 <ol>
-<li>You may not be able to access blocked Web content if international connectivity is too scarce; even if you could, other CENO users would not get that content from you.</li>
+<li>Você pode não ser capaz de acessar conteúdo Web bloqueado se a conectividade internacional estiver muito escassa. Mesmo que você pudesse, outros usuários do Ceno não iriam obter esse conteúdo de você.</li>
 <li>As páginas com conteúdo dinâmico provavelmente funcionarão.</li>
 <li>Páginas que requerem autenticação podem funcionar (quando sua conexão está protegida por HTTPS, o injetor não vê suas senhas).</li>
 <li>A atividade de navegação não é vazada para outros usuários.</li>
 <li>Uma quantidade limitada de atividade de navegação é vazada para injetores (com HTTPS, apenas o nome ou endereço do servidor de origem).</li>
 <li>Você não precisa confiar nos injetores (com HTTPS, a segurança usual baseada em certificados ainda funciona).</li>
 </ol>
-<p>In conclusion: if you are using CENO to read the news, watch videos, browse Wikipedia and other static resources that are otherwise censored in your network, consider using the default <em>public browsing</em> mode. And if you want to login to Twitter or edit your WordPress website, use <em>private browsing</em> mode.</p>
+<p>Em conclusão: se você está usando Ceno para ler notícias, assistir vídeos, navegar pela Wikipédia e por outras fontes estáticas que estão de alguma forma censuradas em sua rede, considere usar o modo padrão <em>navegação pública</em>. E se você quer fazer login no Twitter ou editar seu website WordPress, use o modo <em>navegação privativa</em>.</p>
 <p>Por favor, leia a seção sobre <a href="concepts/risks.html">riscos</a> para uma explicação mais detalhada. Note também que o seu cliente pode continuar a operar como uma ponte e um semeador independentemente da navegação pública ou privativa. Explicamos isso em detalhes na seção <a href="concepts/../browser/bridging.html">Ajudando outras pessoas</a> do manual.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="advantages-of-using-cenoouinet"><a class="header" href="#advantages-of-using-cenoouinet">Advantages of using CENO/Ouinet</a></h1>
-<p>The main advantages of using CENO and Ouinet over other circumvention technologies stem from the cooperation of clients and injectors to forward traffic for one another, sign content for later verification, and store signed content for seeding to others. Some advantages worth mentioning are:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="vantagens-de-usar-cenoouinet"><a class="header" href="#vantagens-de-usar-cenoouinet">Vantagens de usar Ceno/Ouinet</a></h1>
+<p>As principais vantagens de usar Ceno e Ouinet em relação a outras tecnologias de contorno residem na cooperação dos clientes e injetores para encaminhar tráfego uns para os outros, assinar conteúdo para verificação posterior e armazenar conteúdo assinado para semear para outras pessoas. Algumas vantagens dignas de serem mencionadas:</p>
 <ul>
 <li>
-<p><strong>Familiar usage:</strong> Accessing Web content using CENO Browser feels quite like surfing the Web on your habitual browser, even during complete blocking. There is no need for new custom links to popular content, or special actions from the user (like transferring files between applications).</p>
+<p><strong>Uso familiar:</strong> Acessar conteúdo Web pelo Navegador Ceno é como navegar na Web em seu navegador habitual, mesmo durante bloqueios completos. Não há necessidade de novos links personalizados para conteúdo popular ou ações especiais do usuário (como transferir arquivos entre aplicações).</p>
 <ul>
-<li><strong>Increased availability of content:</strong> Ouinet is able to provide content in an efficient and trusted manner in situations of extreme network interference. The more popular some particular content gets, the more copies of it get seeded by CENO/Ouinet clients, and the more available it becomes.Conteúdo assinado pode ser fornecido por clientes específicos em uma área desconectada através de meios offline (exemplo, memória USB) e assim ser disponibilizado para outros clientes.</li>
+<li><strong>Disponibilidade de conteúdo aumentada:</strong> Ouinet é capaz de prover conteúdo de maneira eficiente e confiável em situações de interferência extrema na rede. Quanto mais popular um conteúdo específico se torna, mais cópias dele são semeadas por clientes Ceno/Ouinet e mais disponível ele se torna.Conteúdo assinado pode ser fornecido por clientes específicos em uma área desconectada através de meios offline (exemplo, memória USB) e assim ser disponibilizado para outros clientes.</li>
 </ul>
 </li>
 <li>
 <p><strong>Navegação mais rápida:</strong> Já que o seu cliente pode recuperar diferentes partes do mesmo conteúdo de vários clientes ao mesmo tempo, a carga de entrega de conteúdo é distribuída entre diferentes redes e dispositivos. Assim, evita-se obstruir os caminhos para um único cliente (especialmente quando se vai entregar um grande recurso como um vídeo). Esta característica não é somente útil quando a infraestrutura conectando a outros países é limitada, mas também para editores que desejam evitar picos de uso de recursos em servidores de origem quando algum dos conteúdos destes se torna muito popular (o chamado <a href="https://pt.wikipedia.org/wiki/Efeito_Digg">efeito Slashdot</a>).</p>
 </li>
 <li>
-<p><strong>Cheaper browsing:</strong> Content popular in a particular region tends to get copied in CENO/Ouinet clients in that region, even if the origin server is abroad. If you are interested in that content, your client will probably get it from some other client in your region. In some countries where international traffic is more expensive than local one (e.g. in the presence of a [national intranet][National intranet]), this can actually save you money.</p>
+<p><strong>Navegação mais barata:</strong> Conteúdo popular em uma região específica tende a ser copiado em clientes Ceno/Ouinet naquela região, mesmo se o servidor de origem está em território estrangeiro. Se você se interessa por aquele conteúdo, seu cliente provavelmente o obtém de algum outro cliente na sua região. Em alguns países onde o tráfego internacional é mais caro que o local (exemplo, na presença de uma <a href="https://pt.wikipedia.org/wiki/Intranet_nacional">intranet nacional</a>), essa característica pode economizar seu dinheiro.</p>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="risks-in-using-cenoouinet"><a class="header" href="#risks-in-using-cenoouinet">Risks in using CENO/Ouinet</a></h1>
-<p>As with any sufficiently complex computing system, and especially such an innovative one, using CENO Browser (and any Ouinet client in general) is not free from some risks. In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="riscos-em-usar-cenoouinet"><a class="header" href="#riscos-em-usar-cenoouinet">Riscos em usar Ceno/Ouinet</a></h1>
+<p>Como ocorre com todo o sistema de computação suficientemente complexo, especialmente um tão inovador, o uso do Navegador Ceno (e qualquer cliente Ouinet em geral) não é isento de riscos. Nesta seção, compilaremos e descreveremos tais riscos para ajudar você a entender suas implicações de acordo com os diferentes papéis que você pode desempenhar ao usar o Ceno:</p>
 <ul>
 <li>como um <em>usuário</em> navegando por websites</li>
 <li>como um <em>semeador</em> compartilhando através do cache distribuído conteúdo visitado anteriormente</li>
@@ -376,179 +395,179 @@
 <p><strong>Nota técnica:</strong> Somente solicitações HTTP <code>GET</code> são candidatas para a injeção, com parâmetros de consulta removidos, junto com todos exceto um conjunto limitado de campos de cabeçalho HTTP fundamentais e que preservam a privacidade.</p>
 </blockquote>
 <h3 id="injetores-podem-ver-meu-endereço-de-ip"><a class="header" href="#injetores-podem-ver-meu-endereço-de-ip">Injetores podem ver meu endereço de IP?</a></h3>
-<p>Yes. However, injectors cannot distinguish whether a request came from a CENO user or a bridge. Thus requests going to the injector cannot be reliably assigned an originating IP addresses.</p>
+<p>Sim. No entanto, injetores não podem distinguir se uma solicitação veio de um usuário do Ceno ou de uma ponte. Logo, solicitações indo para o injetor não podem confiavelmente ter um IP de origem designado a elas.</p>
 <h3 id="meus-dados-privados-podem-vazar-para-o-cache-distribuído"><a class="header" href="#meus-dados-privados-podem-vazar-para-o-cache-distribuído">Meus dados privados podem vazar para o cache distribuído?</a></h3>
-<p>Hopefully not. As mentioned above, CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection. In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it. This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of a private nature, CENO will not seed it either.</p>
+<p>Esperamos que não. Como mencionamos acima, o Navegador Ceno se esforça para remover qualquer dado privado (senhas, cookies...) de qualquer solicitação para injetores. Além disso, o injetor em si não semeia; na verdade, o único propósito dele é assinar conteúdo de modo que clientes Ouinet possam semeá-lo. Isso significa que quando o conteúdo volta para o cliente, ele é posteriormente analizado e se o servidor de origem indicou que é de natureza privada, o Ceno também não irá semeá-lo.</p>
 <p>Ainda assim, poderiam haver casos de páginas mal projetadas ou maliciosas que podem coletar algumas informações de você (como endereço de email em um formulário ou fingerprints de algum navegador que use JavaScript) e incluí-los em outro link URL como componentes de um caminho normal (exemplo, <code>http://example.com/subscribe/you@example.org</code>). Se você suspeita que uma página pode estar fazendo isso, melhor se prevenir e usar a navegação privativa para navegá-la.</p>
-<h3 id="can-the-origin-server-know-whether-i-am-using-ceno"><a class="header" href="#can-the-origin-server-know-whether-i-am-using-ceno">Can the origin server know whether I am using CENO?</a></h3>
-<p>Most probably not. Whenever CENO contacts an origin server directly, it behaves as normal Firefox for Android does, so your particular device appears as a normal Firefox app of the same version.</p>
-<p>However, when it uses an injector to get some content from its origin server, there are (at least) two ways for the latter to know that CENO or Ouinet is involved:</p>
+<h3 id="o-servidor-de-origem-pode-saber-se-eu-estou-usando-o-ceno"><a class="header" href="#o-servidor-de-origem-pode-saber-se-eu-estou-usando-o-ceno">O servidor de origem pode saber se eu estou usando o Ceno?</a></h3>
+<p>É mais provável que não. No momento em que o Ceno contata um servidor de origem diretamente, ele se comporta como um Firefox para Android comum, então seu dispositivo específico aparece como um aplicativo normal do Firefox da mesma versão.</p>
+<p>Contudo, ao utilizar um injetor para obter conteúdo do seu servidor de origem, há (pelo menos) duas formas de o último saber que o Ceno ou a Ouinet estão envolvidos:</p>
 <ol>
 <li>O endereço source da conexão alcançando o servidor de origem é encontrado no enxame de injetores (já que a conexão vem, de fato, do injetor);</li>
 <li>A presença ou ausência de certas informações na solicitação de conteúdo é característica da Ouinet. Isso acontece quando o injetor está solicitando o conteúdo porque seu cliente pediu a ele para recuperar e assinar aquele conteúdo, já que o injetor remove da solicitação informações exclusivas do seu dispositivo específico.</li>
 </ol>
-<p>Please note that these only mark the request as coming from Ouinet, but they do not link it to you or your particular device. However, if the request did for some of the reasons mentioned in the previous question still contain some personally identifiable information, it could be used to mark you as a CENO user.</p>
-<p>In general, if a particular website (such as a governmental site) expects you to connect to it as an identifiable individual, from a specific region (or from a [national intranet][National intranet]), we recommend that you use a normal Web browser instead of CENO.</p>
+<p>Por favor, observe que essas maneiras apenas marcam a solicitação como advinda da Ouinet, mas não a conectam a você ou ao seu dispositivo específico. No entanto, se a solicitação por alguma das razões mencionadas nas questões anteriores ainda contém algumas informações passíveis de identificação pessoal, ela poderia ser usada para marcar você como um usuário do Ceno.</p>
+<p>Em geral, se um website em particular (tais como websites do governo) espera que você se conecte a ele como um indivíduo identificável, de uma região específica (ou de uma <a href="https://pt.wikipedia.org/wiki/Intranet_nacional">intranet nacional</a>), recomendamos que use um navegador Web comum ao invés do Ceno.</p>
 <h2 id="como-um-semeador"><a class="header" href="#como-um-semeador">Como um semeador</a></h2>
 <h3 id="quais-dados-estão-sendo-semeados-a-partir-do-meu-dispositivo"><a class="header" href="#quais-dados-estão-sendo-semeados-a-partir-do-meu-dispositivo">Quais dados estão sendo semeados a partir do meu dispositivo?</a></h3>
-<p>Currently, the only content that is seeded by CENO is any non-private Web content which was requested in public browsing mode. This also means that users do not seed anything they have not accessed themselves in the recent past.</p>
+<p>Atualmente, o único conteúdo semeado pelo Ceno é qualquer conteúdo Web não privativo que foi requisitado no modo de navegação pública. Isso significa, também, que usuários não semeiam nada que eles não tenham eles mesmos acessado em um passado recente.</p>
 <h3 id="alguém-pode-descobrir-o-que-eu-semeio"><a class="header" href="#alguém-pode-descobrir-o-que-eu-semeio">Alguém pode descobrir o que eu semeio?</a></h3>
 <p>Sim e não. Qualquer pessoa com entendimento suficiente das operações da Ouinet poderia construir uma ferramenta para descobrir a partir de quais endereços de IP um determinado conteúdo está sendo compartilhado (como com BitTorrent). Porém, não é possível definir um endereço de IP específico como alvo e obter uma lista de todo o conteúdo semeado por clientes atrás dele.</p>
 <h2 id="como-uma-ponte"><a class="header" href="#como-uma-ponte">Como uma ponte</a></h2>
 <h3 id="outras-pessoas-podem-encontrar-meu-endereço-de-ip"><a class="header" href="#outras-pessoas-podem-encontrar-meu-endereço-de-ip">Outras pessoas podem encontrar meu endereço de IP?</a></h3>
-<p>Yes, every CENO Browser able to communicate with injectors will register its IP address in the bridge swarm where other Ouinet clients can find them.</p>
+<p>Sim, todo Navegador Ceno capaz de se comunicar com injetores registrará seus endereços de IP no enxame de pontes onde outros clientes Ouinet podem encontrá-los.</p>
 <h3 id="É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país"><a class="header" href="#É-possível-que-eu-esteja-ajudando-alguém-a-acessar-conteúdo-considerado-ilegal-em-meu-país">É possível que eu esteja ajudando alguém a acessar conteúdo considerado ilegal em meu país?</a></h3>
 <p>Sim. No entanto, pontes apenas retransmitem comunicações criptografadas entre um cliente e um injetor Ouinet. Isso significa que uma ponte nunca deve fazer solicitações diretas de conteúdo para nenhum outro servidor em nome de outra pessoa.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="using-ceno-browser"><a class="header" href="#using-ceno-browser">Using CENO Browser</a></h1>
-<p>This chapter gives you some hints on the usage of CENO Browser as far as its Ouinet-related capabilities are concerned. Please always keep in mind that CENO is based on [Firefox for Android][Firefox for Android], so for all questions on generic browsing topics you should refer to Mozilla's [Firefox for Android Support][Firefox for Android Support] pages.</p>
-<p>When relevant, screen captures will be included to illustrate the text. Please note that these may slightly differ from what you see on your device, especially as CENO development progresses. This documentation is up to date for CENO version 1.6.0.</p>
-<p>Se sua aplicação apresenta um comportamento substancialmente diferente dos descritos aqui, não hesite em nos contatar em <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> e relatar o problema.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="installing-ceno"><a class="header" href="#installing-ceno">Installing CENO</a></h1>
-<p>CENO Browser can be installed via the following means:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="usando-o-navegador-ceno"><a class="header" href="#usando-o-navegador-ceno">Usando o Navegador Ceno</a></h1>
+<p>Este capítulo mostra algumas dicas no uso do Navegador Ceno no que diz respeito aos recursos relacionados à Ouinet. Por favor, lembre-se sempre que o Ceno é baseado em <a href="https://www.mozilla.org/firefox/android/">Firefox para Android</a>, então para todas as perguntas em tópicos sobre navegação genérica você deve consultar as páginas <a href="https://support.mozilla.org/pt-BR/products/mobile">Suporte do Firefox para Android</a> da Mozilla.</p>
+<p>Quando for relevante, capturas de tela serão incluídas para ilustrar o texto. Por favor, observe que elas podem divergir um pouco do que você vê em seu dispositivo, especialmente à medida que o desenvolvimento do Ceno avança. Esta documentação está atualizada para a versão 1.6.0.</p>
+<p>If your application exhibits behaviors substantially different from those described here, do not hesitate to contact us at <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> and report the issue.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="instalando-o-ceno"><a class="header" href="#instalando-o-ceno">Instalando o Ceno</a></h1>
+<p>O Navegador Ceno pode ser instalado via os seguintes meios:</p>
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>CENO Browser</em> from <em>eQualitie</em>): the recommended source for most Android users.</li>
-<li><a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a>: para dispositivos Android sem o Google Play.</li>
-<li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: para usuários em países que bloqueiam o acesso aos canais anteriores.</li>
+<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.Ceno">Google Play</a> (<em>Ceno Browser</em> from <em>eQualitie</em>): the recommended source for most Android users.</li>
+<li><a href="https://github.com/censorship-no/Ceno-browser/releases">GitHub</a>: for Android devices without Google Play.</li>
+<li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: for users in countries blocking access to the previous channels.</li>
 </ul>
-<p>CENO requires an ARM64 or Neon-capable ARM32 device running at least Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 onward should work. CENO needs <em>no special permissions</em> to run.</p>
+<p>Ceno requer um dispositivo ARM64 ou um ARM32 compatível com Neon, rodando no mínimo Android 4.1 Jelly Bean. Logo, deve funcionar na maioria dos dispositivos móveis lançados do fim de 2012 em diante. Ceno <em>não precisa de permissões especiais</em> para ser executado.</p>
 <blockquote>
-<p><strong>Warning:</strong> Please be <em>extremely skeptical</em> about installing CENO Browser from sources other than the ones listed above. Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other CENO and Ouinet users. If in doubt, please contact <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> before installing a suspicious app.</p>
+<p><strong>Warning:</strong> Please be <em>extremely skeptical</em> about installing Ceno Browser from sources other than the ones listed above. Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other Ceno and Ouinet users. If in doubt, please contact <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> before installing a suspicious app.</p>
 </blockquote>
-<h2 id="stopping-ceno-completely"><a class="header" href="#stopping-ceno-completely">Stopping CENO completely</a></h2>
-<p>Every time you start the app, a CENO icon will appear on your device's notification bar. This icon represents the <em>CENO Browser service</em>, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.</p>
-<p>Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger). Tapping on the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).</p>
-<p><img src="browser/images/tap-stop.png" alt="Figure: Tap on the notification to stop the CENO service" /></p>
-<h2 id="purging-all-ceno-data-the-panic-button"><a class="header" href="#purging-all-ceno-data-the-panic-button">Purging all CENO data (the &quot;panic button&quot;)</a></h2>
-<p>The <em>CENO Browser service</em> notification shown above includes a few accompanying actions which can be triggered by tapping on them. The <em>Home</em> action will just open CENO with a new public browsing tab showing its home page. The <em>Erase</em> action demands more explanation.</p>
+<h2 id="interromper-o-ceno-completamente"><a class="header" href="#interromper-o-ceno-completamente">Interromper o Ceno completamente</a></h2>
+<p>Todas as vezes em que você iniciar o aplicativo, um ícone do Ceno aparecerá na barra de notificações de seu dispositivo. Esse ícone representa o <em>serviço do Navegador Ceno</em>, a parte do Ceno que é executada permanentemente (mesmo quando você não está navegando) e permite que outros clientes usem seu dispositivo como uma ponte e recuperem conteúdo dela a qualquer momento.</p>
+<p>Já que a execução desse serviço consome muitos recursos de rede e processamento, você pode querer interrompê-la a qualquer momento que estiver em trânsito (isto é, não conectado ao WiFi ou longe de um carregador). Tocar na notificação acoplada ao ícone irá interromper tanto o Ceno quanto o seu serviço de uma só vez (até que você abra o Ceno novamente).</p>
+<p><img src="browser/images/tap-stop.png" alt="Figura: Toque na notificação para interromper o serviço do Ceno" /></p>
+<h2 id="limpando-todos-os-dados-do-ceno-o-botão-de-pânico"><a class="header" href="#limpando-todos-os-dados-do-ceno-o-botão-de-pânico">Limpando todos os dados do Ceno (o &quot;botão de pânico&quot;)</a></h2>
+<p>A notificação do <em>serviço do Navegador Ceno</em> mostrada acima inclui algumas ações associadas que podem ser desencadeadas ao serem tocadas. A ação <em>Início</em> irá apenas abrir o Ceno com uma nova aba de navegação pública mostrando sua página inicial. Já a ação <em>Apagar</em> demanda mais explicação.</p>
 <blockquote>
 <p><strong>Nota:</strong> Se as ações abaixo da notificação não estiverem visíveis, arraste a notificação do centro até a parte inferior para mostrá-la. Se você apenas consegue ver a ação <em>Início</em>, pode ser que seu dispositivo seja muito antigo para suportar a ação <em>Apagar</em>.</p>
 </blockquote>
-<p>Shall you ever need to quickly stop CENO and clear absolutely all data related to it (not only cached content, but also settings like favorites, passwords and all browsing history), you can tap on <em>Erase</em>. To avoid losing your data accidentally, this will not remove anything yet, but just show an additional action for a brief moment, as pictured below:</p>
-<p><img src="browser/images/tap-purge.png" alt="Figure: The last action stops CENO and clears all its data" /></p>
-<p>If you tap on the <em>Yes</em> action, CENO will be stopped and all its data removed <em>without further questions</em>, effectively leaving your device as if CENO had never been used.</p>
+<p>Caso alguma vez precise interromper o Ceno rapidamente e limpar absolutamente todos os dados relacionados a ele (não apenas o conteúdo em cache, mas também configurações como favoritos, senhas e todo o histórico de navegação), você pode tocar em <em>Apagar</em>. Para evitar perder todos os seus dados acidentalmente, essa ação ainda não removerá tudo, mas apenas mostrar uma ação adicional por um breve momento, como ilustrado abaixo:</p>
+<p><img src="browser/images/tap-purge.png" alt="Figura: A última ação interrompe o Ceno e limpa todos os seus dados" /></p>
+<p>Se você tocar na ação <em>Sim</em>, o Ceno irá ser interrompido e todos os seus dados serão removidos <em>sem mais perguntas</em>, efetivamente deixando seu dispositivo como se o Ceno nunca tivesse sido usado.</p>
 <p>Se você não tocar na ação, ela desaparecerá em alguns segundos.</p>
 <blockquote>
-<p><strong>Note:</strong> The method described above requires that CENO be running on your device. To accomplish the same effect when CENO is stopped, you can use Android's general <em>Settings</em> page and, under the <em>Apps</em> entry, choose CENO and then <em>Clear data</em>.</p>
+<p><strong>Nota:</strong> O método descrito acima requer que o Ceno esteja sendo executado em seu dispositivo. Para atingir o mesmo efeito quando o Ceno estiver interrompido, você pode usar a página das <em>Configurações</em> gerais do Android e, sob a entrada <em>Aplicativos</em>, escolher Ceno e então <em>Limpar dados</em>.</p>
 <p>Como alternativa mais radical, você pode desinstalar completamente o aplicativo.</p>
 </blockquote>
 <blockquote>
 <p><strong>Aviso:</strong> O Android ainda pode manter, além dos dados, outros traços de uso de um aplicativo; por exemplo no seu log do sistema.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="usando-a-navegação-pública-ou-privativa"><a class="header" href="#usando-a-navegação-pública-ou-privativa">Usando a navegação pública ou privativa</a></h1>
-<p>As described <a href="browser/../concepts/public-private.html">in a previous section</a>, CENO has two different modes of operation depending on whether you want to share the content that you browse with others (public browsing) or not (private browsing).</p>
-<p>This setting applies <em>to each tab</em> that you open in the browser, i.e. you can have public browsing tabs and private browsing tabs. CENO's default whenever you start it or open a new tab (using <em>New tab</em> in the app's main menu) is to use public browsing. To open a new tab in private browsing mode, just choose <em>New private tab</em> in the main menu.</p>
+<p>Conforme descrito <a href="browser/../concepts/public-private.html">em uma seção anterior</a>, o Ceno possui dois modos diferentes de operação, a depender do seu desejo em compartilhar o conteúdo navegado com outros usuários (navegação pública) ou não (navegação privativa).</p>
+<p>Essa configuração se aplica <em>a cada aba</em> aberta por você no navegador, isto é, você pode ter abas de navegação pública e privativa. O padrão do Ceno seja quando você o inicia ou abre uma nova aba (usando <em>Nova aba</em> no menu principal do aplicativo) é usar a navegação pública. Para abrir uma nova aba no modo de navegação privativa, basta escolher <em>Nova aba privativa</em> no menu principal.</p>
 <p>Você pode distinguir as abas públicas das privativas porque as abas públicas possuem uma barra de ferramentas mais clara (ou branca):</p>
 <p><img src="browser/images/public-tab.png" alt="Figura: Uma aba de navegação pública" /></p>
 <p>Em contrapartida, as abas privativas têm uma barra de ferramentas mais escura:</p>
 <p><img src="browser/images/private-tab.png" alt="Figura: Uma aba de navegação privativa" /></p>
-<p>Once you have loaded a page in a tab, the colored CENO icon in the address bar will help you know how it actually retrieved the different elements of the content. We will cover this icon later on.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="ceno-settings"><a class="header" href="#ceno-settings">CENO settings</a></h1>
-<p>CENO Browser allows you to change some Ouinet-specific settings and get information about your client in a simple manner. This should not be needed for normal operation, but it would be helpful for testing different strategies against network interference, as well as reporting issues with the app.</p>
+<p>Uma vez que você carregou uma página em uma aba, o ícone colorido do Ceno na barra de endereço ajudará você a saber como de fato ele recuperou os diferentes elementos do conteúdo. Nós abordaremos este ícone mais à frente.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="configurações-do-ceno"><a class="header" href="#configurações-do-ceno">Configurações do Ceno</a></h1>
+<p>O Navegador Ceno permite que você mude algumas configurações específicas da Ouinet e obtenha informações sobre seu cliente de uma maneira simples. Isso não deve ser necessário para operações normais, mas seria útil para testar diferentes estratégias contra a interferência de rede, assim como para reportar problemas com o aplicativo.</p>
 <blockquote>
-<p><strong>Technical note:</strong> These options are provided by the <em>CENO Extension</em>, a Firefox extension which comes installed out of the box with CENO and takes care of proper integration with Ouinet, like enabling content injection and cache retrieval under public browsing, hinting the user about the source of the content being visualized, and notifying about new versions of Ouinet.</p>
+<p><strong>Nota técnica:</strong> Estas opções são oferecidas pela <em>Extensão Ceno</em>, uma extensão do Firefox que vem instalada junto com o Ceno e cuida da integração adequada com a Ouinet. Ela realiza, por exemplo: a habilitação de injeção de conteúdo e recuperação de cache sob navegação pública; a indicação, para o usuário, da source do conteúdo sendo visualizado e a notificação sobre novas versões da Ouinet.</p>
 </blockquote>
-<p>These features are available on a page that can be accessed by choosing <em>CENO</em> in the app's main menu. Please note that the menu entry may take a few seconds to pop up on app start. The page should look like this:</p>
-<p><img src="browser/images/settings.png" alt="Figure: The CENO Settings page" /></p>
+<p>As funcionalidades citadas estão disponíveis em uma página que pode ser acessada ao se escolher <em>Ceno</em> no menu principal do aplicativo. Por favor, observe que a entrada do menu pode demorar alguns segundos para aparecer na inicialização do aplicativo. A página deve ter a seguinte aparência:</p>
+<p><img src="browser/images/settings.png" alt="Figura: A página Configurações do Ceno" /></p>
 <h2 id="escolhendo-os-mecanismos-de-acesso"><a class="header" href="#escolhendo-os-mecanismos-de-acesso">Escolhendo os mecanismos de acesso</a></h2>
-<p>The four checkboxes on the top of the page selectively enable or disable the different mechanisms or <em>sources</em> that CENO as a Ouinet client uses to retrieve content while using either <a href="browser/public-private.html">public or private browsing</a> tabs. All boxes are enabled by default.</p>
+<p>As quatro caixas de seleção no topo da página seletivamente habilitam ou desabilitam os diferentes mecanismos ou <em>sources</em> que o Ceno, como um cliente Ouinet, usa para recuperar conteúdo enquanto utiliza tanto as abas de <a href="browser/public-private.html">navegação pública quanto privativa</a>. Todas as caixas estão habilitadas por padrão.</p>
 <ul>
-<li><em>Direct from website</em> (or <strong>origin access</strong>) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.Embora esse mecanismo funcione em ambos os modos de navegação, pública e privativa, o conteúdo assim recuperado não pode ser compartilhado com outras pessoas.</li>
+<li><em>Direto do website</em> (ou <strong>acesso de origem</strong>) permite ao Ceno tentar alcançar o servidor de origem diretamente antes de tentar outros dos mecanismos habilitados abaixo.Embora esse mecanismo funcione em ambos os modos de navegação, pública e privativa, o conteúdo assim recuperado não pode ser compartilhado com outras pessoas.</li>
 </ul>
 <p>Se obter a maior parte do conteúdo Web não é particularmente lento ou custoso, esse mecanismo pode ser mais que suficiente para a maioria dos casos de uso. No entanto, tais conexões diretas podem ser rastreadas por seu ISP ou governo. Em alguma medida, desabilitar essa opção pode evitar tais conexões e rastreamento trivial (mas não completamente, veja <a href="browser/../concepts/risks.html">riscos</a>).</p>
-<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself. In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms. Please check the section on <a href="browser/troubleshooting.html">troubleshooting</a> to learn more about this issue.</p>
+<p>Ademais, ao acessar um website através do inseguro protocolo HTTP (ao invés do mais seguro HTTPS), um censor pode interceptar a conexão e fornecer ao usuário um website falso, uma adulteração que o Ceno não é capaz de detectar por si só. Em tais casos, pode ser útil desabilitar essa opção e, consequentemente, recorrer a outros - e mais seguros - mecanismos do Ceno. Por favor, verifique a seção sobre <a href="browser/troubleshooting.html">solução de problemas</a> para saber mais sobre esse problema.</p>
 <ul>
-<li><em>Via the CENO network (private)</em> (or <strong>proxy access</strong>) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.Esse mecanismo somente funciona no modo de navegação privativa.</li>
+<li><em>Via rede do Ceno (privada)</em> (ou <strong>acesso via proxy</strong>) permite que o Ceno use injetores como servidores proxy HTTP comuns para alcançar os servidores de origem.Esse mecanismo somente funciona no modo de navegação privativa.</li>
 </ul>
 <p>Ao acessar conteúdo através de HTTPS, apenas os servidores de origem serão capazes de decifrar o tráfego. Ao usar HTTP simples, o injetor pode também ver o tráfego não criptografado (mas ainda assim não deve assinar ou compartilhar seu conteúdo com outras pessoas). Demais participantes, como pontes, nunca verão o tráfego não criptografado.</p>
 <ul>
-<li><em>Via the CENO network (public)</em> (or <strong>injector access</strong>) enables CENO to strip any private information from requests and send them to an injector. The injector gets the content from an origin server, signs it, and sends it back to CENO - which then begins seeding it.Outros participantes (tais como pontes) não verão o tráfego não criptografado.</li>
+<li><em>Via rede do Ceno (pública)</em> (ou <strong>acesso de injetor</strong>) possibilita que o Ceno retire qualquer informação privada das solicitações e as envie para um injetor. O injetor obtém o conteúdo de um servidor de origem, assina-o e o envia de volta para o Ceno - que, então, começa a semeá-lo.Outros participantes (tais como pontes) não verão o tráfego não criptografado.</li>
 </ul>
 <p>Esse mecanismo somente funciona no modo de navegação pública.</p>
 <ul>
-<li><em>Shared by other CENO users</em> allows CENO to try to retrieve content from the <strong>distributed cache</strong>, i.e. from other CENO and Ouinet clients seeding it.Esse mecanismo somente funciona no modo de navegação pública.</li>
+<li><em>Compartilhado por outros usuários Ceno</em> permite ao Ceno tentar recuperar conteúdo do <strong>cache distribuído</strong>, isto é, de outros clientes Ceno e Ouinet que o estão semeando.Esse mecanismo somente funciona no modo de navegação pública.</li>
 </ul>
 <p>Desabilitar todos os mecanismos disponíveis tanto para o modo de navegação pública quanto para o privativo irá torná-los inúteis. Se você estabelecer tais configurações, um aviso será exibido como ilustrado abaixo:</p>
 <p><img src="browser/images/settings-no-private.png" alt="Figura: Configurações inválidas para navegação privativa" /></p>
 <h2 id="sobre-seu-aplicativo"><a class="header" href="#sobre-seu-aplicativo">Sobre seu aplicativo</a></h2>
-<p>This page also provides you with some information about your CENO Browser app and Ouinet client:</p>
+<p>Essa página também oferece a você algumas informações sobre o seu aplicativo do Navegador Ceno e cliente Ouinet:</p>
 <ul>
 <li><em>Tamanho de cache local</em> exibe uma aproximação do quanto de armazenamento é ocupado pelo conteúdo sendo semeado a partir do cache local do seu dispositivo.</li>
 <li><em>Conteúdo compartilhado por você</em> permite que você verifique o conteúdo sendo anunciado pelo seu dispositivo.</li>
 <li><em>Estado do cliente Ouinet</em>, se <code>iniciado</code>, significa que o seu cliente Ouinet conseguiu ser executado com sucesso. De outro modo, pode haver problemas de conectividade ou algum erro interno. Por favor, inclua essa informação em seus relatórios de problemas.</li>
 <li><em>Estado de acessibilidade</em> indica o quão provável é que o seu dispositivo consiga efetivamente semear conteúdo para outros clientes. Inclua também nos relatórios.</li>
-<li><em>UPnP status</em> indicates whether CENO was able to tell your router or access point to allow incoming connections towards it. Also include in reports.</li>
-<li><em>Local UDP endpoints</em> are the Internet addresses in your device used by CENO to seed signed content to other clients. These are shown to help test and debug the app, and should not be generally disclosed.</li>
-<li><em>External UDP endpoints</em> are the Internet addresses in your router given to your CENO traffic. Only available with UPnP-enabled routers, they are also useful for diagnostics and not to be generally disclosed.</li>
+<li><em>Estado UPnP</em> indica se o Ceno conseguiu solicitar que o seu roteador ou ponto de acesso permitisse que as conexões de entrada passassem por ele. Inclua também nos relatórios.</li>
+<li><em>Endpoints UDP locais</em> são os endereços de Internet em seu dispositivo usados pelo Ceno para semear conteúdo assinado para outros clientes. Eles são mostrados para ajudar a testar e depurar o aplicativo e não devem, em geral, ser divulgados.</li>
+<li><em>Endpoints UDP externos</em> são os endereços de Internet em seu roteador atribuídos para o seu tráfego do Ceno. Somente disponíveis em roteadores com UPnP habilitado, eles também são úteis para diagnóstico e em geral não são divulgados.</li>
 <li><em>Endpoints UDP públicos</em> são os endereços de Internet que clientes Ouinet fora da sua rede vêem quando se comunicam com o seu dispositivo. Também são úteis para diagnóstico e não devem ser divulgados.</li>
 <li><em>Bootstraps extra do BitTorrent</em> são servidores usados para ajudar o seu dispositivo a entrar na rede BitTorrent, caso os servidores padrão não funcionem. Também incluir nos relatórios. Você pode editar a lista de hosts separada por espaços (com portas opcionais) para configurar ou adicionar o seu próprio host e depois escolher <em>Salvar</em>. As mudanças serão aplicadas na próxima vez em que o seu cliente Ouinet for inicializado.</li>
-<li><em>CENO Browser</em> indicates the exact version of CENO that you are using. Also include in reports.</li>
-<li><em>CENO Extension</em> shows the version of the extension that integrates Firefox with CENO. Also include in reports.</li>
-<li><em>Ouinet</em> shows the version of Ouinet backing CENO. Also include in reports.</li>
-<li><em>Ouinet protocol</em> is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors. Also include in reports.</li>
+<li><em>Navegador Ceno</em> indica a versão exata do Ceno que você está usando. Também inclua nos relatórios.</li>
+<li><em>Extensão Ceno</em> exibe a versão da extensão que integra o Firefox com Ceno. Inclua também nos relatórios.</li>
+<li><em>Ouinet</em> exibe a versão da Ouinet por trás do Ceno. Inclua também nos relatórios.</li>
+<li><em>Protocolo Ouinet</em> é o número de versão do protocolo que o Ceno utiliza para conversar com outros clientes e injetores Ouinet. Inclua também nos relatórios.</li>
 </ul>
 <h2 id="limpando-o-cache-local"><a class="header" href="#limpando-o-cache-local">Limpando o cache local</a></h2>
-<p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet. This allows you to free up some storage space in your device while keeping other CENO settings like Favorites.</p>
-<p>If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, browsing history or favorites, you should choose <em>Settings</em> in the app's main menu, then <em>Clear private data</em>. You will be asked about which items you want to clear.</p>
-<p>To drop everything at the same time (especially if you are in a hurry), please learn how to use the &quot;panic button&quot; feature described in <a href="browser/install.html">Installing CENO</a>.</p>
+<p>Ao lado do valor <em>Tamanho do cache local</em> acima, há um botão que permite interromper o semeio e descartar todo o conteúdo compartilhado pelo seu dispositivo através da Ouinet. Essa ação permite liberar algum espaço de armazenamento em seu dispositivo e, ao mesmo tempo, manter outras configurações do Ceno, como Favoritos.</p>
+<p>Se deseja limpar o cache de navegação normal do Ceno (aquele usado pelo navegador, mas não compartilhado com outras pessoas) ou outros itens como cookies, histórico de navegação ou favoritos, você deve escolher <em>Configurações</em> no menu principal do aplicativo, em seguida <em>Limpar dados privados</em>. Será perguntado a você quais itens deseja limpar.</p>
+<p>Para descartar tudo ao mesmo tempo (especialmente se você está com pressa), por favor aprenda como usar o &quot;botão de pânico&quot;, funcionalidade descrita em <a href="browser/install.html">Instalando o Ceno</a>.</p>
 <h2 id="coletando-mensagens-de-log"><a class="header" href="#coletando-mensagens-de-log">Coletando mensagens de log</a></h2>
-<p>At the bottom of the page there is an <em>Enable log file</em> check box that allows you to collect all of Ouinet's internal messages and download them to a file. This should only be used when diagnosing some problem in CENO; just follow these steps:</p>
+<p>Na parte inferior da página, há uma caixa chamada <em>Ativar arquivo de log</em> que permite coletar todas as mensagens internas da Ouinet e baixá-las para um arquivo. Essa ação deve apenas ser usada para diagnosticar de algum problema no Ceno; basta seguir estas etapas:</p>
 <ol>
-<li>At the <em>CENO Settings</em> page, check <em>Enable log file</em>.</li>
+<li>Na página <em>Configurações do Ceno</em>, marque <em>Ativar arquivo de log</em>.</li>
 <li>Volte para a navegação e faça quaisquer ações que desencadeiem o comportamento problemático.</li>
-<li>Return to the <em>CENO Settings</em> page and click on the <em>Download</em> link next to the <em>Enable log file</em> check box. Save the file for later use. Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.</li>
+<li>Retorne à página <em>Configurações do Ceno</em> e clique no link de <em>Baixar</em> ao lado da caixa de seleção <em>Ativar arquivo de log</em>. Salve o arquivo para uso posterior. A esta altura, o Android pode perguntar se você deseja permitir o acesso do Ceno à mídia armazenada: isso é necessário para que ele seja capaz de salvar o arquivo.</li>
 <li>Desmarque <em>Ativar arquivo de log</em> para evitar que os logs se tornem grandes demais.</li>
 </ol>
 <p>Você pode agora usar o arquivo de log salvo para documentar um relatório de problemas, mas tente evitar torná-lo público, pois ele pode conter informações sensíveis sobre a sua navegação.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="testando-o-navegador"><a class="header" href="#testando-o-navegador">Testando o Navegador</a></h1>
-<p>Now that you know how to <a href="browser/install.html">install</a> and <a href="browser/settings.html">configure</a> CENO, let us follow some steps to test whether different Ouinet-specific features work. This will involve selectively enabling and disabling different access mechanisms. Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
+<p>Agora que você sabe como <a href="browser/install.html">instalar</a> e <a href="browser/settings.html">configurar</a> o Ceno, permita-nos seguir alguns passos para testar se algumas funcionalidades específicas da Ouinet funcionam. Essa ação envolve habilitar e desabilitar seletivamente diferentes mecanismos de acesso. Lembre-se, contudo, de que no uso diário do Ceno você raramente precisará modificar as configurações padrão.</p>
 <p>Para completar todos os testes abaixo, você precisará de ao menos dois dispositivos conectados à mesma rede WiFi e um terceiro conectado a uma rede completamente diferente.</p>
 <p>Todos os testes serão performados usando <a href="browser/public-private.html">navegação pública</a>. Se algo não funcionar como esperado, por favor, seja paciente e verifique a seção sobre <a href="browser/troubleshooting.html">solução de problemas</a>. Especificamente, se o navegador ficar travado por mais de alguns minutos ao carregar uma página, você pode apertar interromper e atualizá-la (embora isso possa alterar levemente os resultados).</p>
 <h2 id="acessando-um-injetor"><a class="header" href="#acessando-um-injetor">Acessando um injetor</a></h2>
-<p>Let us first check whether your CENO Browser can reach an injector. This may look trivial, but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
+<p>Vamos primeiramente verificar se o seu Navegador Ceno consegue alcançar um injetor. Essa ação pode parecer trivial, mas o seu cliente já estará exercitando diversas funcionalidades da Ouinet nesse processo: procurar o endereço do injetor no enxame de injetores, tentar contatá-lo diretamente e, se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um enxame de pontes e tentar contatar o injetor via algum outro cliente Ouinet.</p>
 <p>No primeiro dispositivo, realize as seguintes etapas:</p>
 <ol>
-<li>First of all, install CENO and start it. Its home page will appear.</li>
-<li>Open the app's main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page. Since we only want to test injector access, uncheck all the boxes for content sources except <em>Via the CENO network (public)</em>.</li>
-<li>Go back to CENO's home page. Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window. If you know about a site which is usually blocked for you, go ahead and enter it!</li>
+<li>Primeiramente, instale o Ceno e o inicie. A página de início aparecerá.</li>
+<li>Abra o menu principal do aplicativo e escolha <em>Ceno</em> para abrir a página <em>Configurações do Ceno</em>. Já que apenas queremos testar o acesso do injetor, desmarque todas as caixas para sources de conteúdo exceto <em>Via rede do Ceno (pública)</em>.</li>
+<li>Retorne à página inicial do Ceno. Selecione um dos websites recomendados ou entre a URL de algum outro website na barra de endereço no topo da janela. Se conhece um website que é frequentemente bloqueado para você, continue e insira-o!</li>
 <li>O website escolhido deve eventualmente aparecer.</li>
 </ol>
 <p><strong>Nota:</strong> Se você obtiver uma página falsa ao invés de uma legítima, use a barra de endereço para inserir a URL do website com <code>https://</code> no começo (ao invés de <code>http://</code>) e repita o teste.</p>
 <p>Se o website carregar, você pode comemorar que o seu dispositivo conseguiu alcançar o injetor! Por você ter sido capaz de consultar enxames e contatar outros clientes, é provável que seja capaz, também, de recuperar conteúdo do cache distribuído.</p>
-<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved form the different sources. Only <em>Via CENO network (public)</em> should have a non-zero value since the other sources were disabled.</p>
+<p>A propósito, se você pressionar o ícone do Ceno na barra de endereço, ele abrirá um popup como o abaixo, mostrando quantos elementos do website foram recuperados das diferentes sources. Somente em <em>Via rede Ceno (pública)</em> deve haver um valor diferente de zero, dado que as outras sources estavam desabilitadas.</p>
 <p><img src="browser/images/sources-inject.png" alt="Figura: Sources usadas ao testar a injeção" /></p>
-<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from website</em> or <em>Via CENO network (private)</em>.</p>
+<p>Em contrapartida, se usou a navegação privativa com configurações padrão, você pode ter visto um popup como o abaixo, com contagens diferentes de zero em <em>Direto do website</em> ou <em>Via rede Ceno (privativa)</em>.</p>
 <p><img src="browser/images/sources-proxy.png" alt="Figura: Sources usadas com a navegação privativa" /></p>
 <h2 id="obtendo-conteúdo-de-usuários-próximos"><a class="header" href="#obtendo-conteúdo-de-usuários-próximos">Obtendo conteúdo de usuários próximos</a></h2>
-<p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache. The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.</p>
-<p>After successfully completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar). Then get hold of a second device (you can invite a friend over to help test) and connect it to the same Wi-Fi network. Next, follow the steps below on the second device:</p>
+<p>Visto que seu dispositivo foi capaz de obter algum conteúdo de um injetor, vamos testar se ele consegue compartilhá-lo com outro dispositivo através do cache distribuído. A maneira mais simples é usar o suporte dispositivo a dispositivo do Ceno para verificar se a obtenção e verificação de conteúdo assinado funcionam.</p>
+<p>Após completar com sucesso o teste acima no primeiro dispositivo, deixe o Ceno continuar a ser executado nele (o ícone do Ceno deve aparecer na barra de notificações). Consiga, então, um segundo dispositivo (você pode convidar uma pessoa amiga para ajudar no teste) e conecte à mesma rede WiFi. Depois, siga as etapas abaixo para o segundo dispositivo:</p>
 <ol>
-<li>Install CENO if needed and start it as above.</li>
-<li>Open the <em>CENO Settings</em> page as above. Since we only want to test distributed cache access, uncheck all the boxes for content sources except <em>Shared by other CENO users</em>.</li>
-<li>Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
+<li>Instale o Ceno se necessário e inicie como acima.</li>
+<li>Abra a página <em>Configurações do Ceno</em> como acima. Já que apenas desejamos testar o acesso ao cache distribuído, desmarque as caixas para sources de conteúdo exceto <em>Compartilhado por outros usuários Ceno</em>.</li>
+<li>Volte para a página inicial do Ceno e visite o mesmo website da mesma maneira que você fez acima (isto é, selecionando os websites recomendados ou entrando sua URL na barra de endereço).</li>
 <li>O website escolhido deve eventualmente aparecer.</li>
 </ol>
 <p>Caso não funcione, sua rede WiFi pode estar bloqueando as comunicações diretas entre os dispositivos dela. Este &quot;isolamento do cliente&quot; pode acontecer em redes públicas como as de parques, bares ou hotéis. Por favor, tente novamente em uma rede diferente.</p>
-<p>If it works, it means that both devices are able to deliver that content to other clients. Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by other CENO users</em> has a non-zero value.</p>
+<p>Caso funcione, significa que ambos os dispositivos são capazes de entregar aquele conteúdo para outros clientes. Apertar o ícone da barra de endereço do Ceno deve mostrar um popup como o abaixo, no qual somente <em>Compartilhado por outros usuários Ceno</em> possui um valor diferente de zero.</p>
 <p><img src="browser/images/sources-dcache.png" alt="Figura: Sources usadas durante o teste de recuperação do cache distribuído" /></p>
-<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>. This is not a different source <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+<p>Finalmente, você também pode ter notado que há um contador para <em>Compartilhado por você</em>. Essa não é uma source diferente <em>em si</em>: elementos contados aqui são, de fato, parte do cache distribuído. Porém, eles já estão armazenados no seu dispositivo, então o Ceno não precisa recuperá-los ao longo da rede.</p>
 <h2 id="obtendo-conteúdo-de-usuários-distantes"><a class="header" href="#obtendo-conteúdo-de-usuários-distantes">Obtendo conteúdo de usuários distantes</a></h2>
 <p>Realizamos um teste de pequena escala do cache distribuído. Vamos agora testar como funciona através da Internet.</p>
-<p>After successfully completing the test above, leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing &quot;Tap to stop&quot;).</p>
+<p>Após completar com sucesso o teste acima, mantenha a execução do Ceno no primeiro dispositivo como no teste anterior e interrompa o Ceno no segundo dispositivo (para interromper, exiba as notificações do Ceno e pressione &quot;Toque para interromper&quot;).</p>
 <p>Dessa vez você precisará de um terceiro dispositivo, mas ele precisa estar conectado a uma rede WiFi diferente (talvez outra pessoa amiga possa ajudar de casa). As etapas a seguir para esse dispositivo são exatamente as mesmas daquelas no teste anterior.</p>
 <p>Caso o terceiro dispositivo consiga carregar o website usado para o teste, você está pronto. O primeiro dispositivo é capaz de semear conteúdo para outros e pode, muito provavelmente, atuar também como ponte.</p>
 <p>Parabéns!</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="helping-other-ceno-users-browse-the-web"><a class="header" href="#helping-other-ceno-users-browse-the-web">Helping other CENO users browse the Web</a></h1>
-<p>A peer-to-peer network is built from every node connected to it (yes, that means you as well!). The more nodes, the stronger and more versatile the network becomes. If you are running CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a <strong>bridge</strong> node. You will then begin to route traffic between clients living in heavily censored countries and CENO injectors. You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ajudando-outros-usuários-ceno-a-navegar-a-web"><a class="header" href="#ajudando-outros-usuários-ceno-a-navegar-a-web">Ajudando outros usuários Ceno a navegar a Web</a></h1>
+<p>Uma rede P2P é construída a partir de cada nó conectado a ela (sim, isso significa você, também!). Quanto mais nós, mais forte e mais versátil a rede se torna. Se estiver executando o Navegador Ceno de um país que não censura a Internet (ou não o faz tão incisivamente quanto alguns), considere ajudar outros usuários do Ceno se tornando um nó <strong>ponte</strong>. Você começará, então, a encaminhar tráfego entre clientes vivendo em países fortemente censurados e injetores do Ceno. Você não conseguirá ver o tráfego deles (este será enviado através de um túnel criptografado), tampouco haverá em seu dispositivo qualquer registro remanescente deste tráfego.</p>
 <blockquote>
-<p><strong>Note:</strong> The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the <a href="browser/../concepts/risks.html">risks</a> of serving such content to others).</p>
+<p><strong>Nota:</strong> A configuração descrita nesta seção pode também ajudar o seu dispositivo a semear com eficiência conteúdo para outros no cache distribuído. Assim, por favor, considere aplicá-la igualmente quando usar o Ceno em um país censurador (mas tenha em mente os <a href="browser/../concepts/risks.html">riscos</a>) de oferecer tal conteúdo para outros).</p>
 </blockquote>
-<h2 id="how-to-become-a-ceno-bridge"><a class="header" href="#how-to-become-a-ceno-bridge">How to become a CENO bridge</a></h2>
-<p>This functionality is already built into CENO Browser. Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO. See the next sections for further details.</p>
-<p>However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.</p>
+<h2 id="como-se-tornar-uma-ponte-do-ceno"><a class="header" href="#como-se-tornar-uma-ponte-do-ceno">Como se tornar uma ponte do Ceno</a></h2>
+<p>Esta funcionalidade já esta embutida no Navegador Ceno. Seu dispositivo precisará ser conectado a uma rede WiFi que tenha ou UPnP ativado ou redirecionamento de porta explicitamente configurado para o Ceno. Veja as próximas seções para maiores detalhes.</p>
+<p>No entanto, por favor observe que o Android só permitirá ao dispositivo móvel agir como uma porta adequada enquanto você o estiver usando ativamente. Do contrário, as funcionalidades de economia de energia limitarão as operações do Ceno.</p>
 <blockquote>
-<p><strong>Technical note:</strong> This is mainly due to Android's <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Doze mode</a> slowing down the operation of the native Ouinet library. Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it. Your particular device may also include its own power-saving features which may interfere with CENO; please check <a href="https://dontkillmyapp.com/">Don't kill my app!</a> for your device's brand.</p>
+<p><strong>Nota técnica:</strong> Isso se deve principalmente ao <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">Modo soneca</a> do Android, o qual retarda as operações da biblioteca nativa Ouinet. Infelizmente, desabilitar a otimização de bateria para o Ceno parece não excluir a Ouinet da ação. Seu dispositivo específico pode também incluir suas próprias funcionalidades de economia de energia, o que pode interferir no funcionamento do Ceno. Por favor, consulte o website <a href="https://dontkillmyapp.com/">Don't kill my app!</a> para informações sobre a marca do seu dispositivo.</p>
 </blockquote>
-<p>Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:</p>
+<p>Portanto, se pretende manter o Ceno agindo como uma ponte permanente, sempre alcançável, além de uma rede WiFi configurada apropriadamente, você precisará:</p>
 <ol>
 <li>
 <p>Ter o seu dispositivo ligado à rede elétrica a todo tempo.</p>
@@ -560,24 +579,24 @@
 </ol>
 <p>Se essa configuração não é possível para você, não desista ainda! Se possuir um computador com uma boa conectividade que fique ligado a maior parte do tempo, por favor continue lendo.</p>
 <h2 id="executando-uma-ponte-em-um-computador"><a class="header" href="#executando-uma-ponte-em-um-computador">Executando uma ponte em um computador</a></h2>
-<p>If your computer supports <a href="https://pt.wikipedia.org/wiki/Docker_(software)">Docker containers</a>, you can run a pre-configured CENO client on it to act as a bridge. If Docker is not yet installed, please follow the instructions to <a href="https://docs.docker.com/engine/install/">install the Docker Engine</a> in your platform. For Debian derivatives like Ubuntu or Linux Mint, you can just run: <code>sudo apt install docker.io</code></p>
-<p>To deploy a CENO client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):</p>
-<pre><code class="language-sh">sudo docker run --name ceno-client \
-  -dv ceno:/var/opt/ouinet --network host \
-  --restart unless-stopped equalitie/ceno-client
+<p>Se o seu computador suporta <a href="https://pt.wikipedia.org/wiki/Docker_(software)">contêiners do Docker</a>, você pode executar nele um cliente pré-configurado do Ceno para atuar como uma ponte. Se o Docker não estiver instalado ainda, por favor, siga as instruções para <a href="https://docs.docker.com/engine/install/">instalar o Docker Engine</a> na sua plataforma. Para derivados do Debian como Ubuntu ou Linux Mint, você pode apenas executar: <code>sudo apt install docker.io</code></p>
+<p>Para implantar um contêiner de cliente Ceno você apenas precisa executar os seguintes comandos em um terminal (parece assustador, mas você pode simplesmente copiar e colar na linha de comando):</p>
+<pre><code class="language-sh">sudo docker run --name Ceno-client \
+  -dv Ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/Ceno-client
 </code></pre>
 <p>Se o seu computador não é baseado em GNU/Linux, o comando precisa ser ligeiramente diferente:</p>
-<pre><code class="language-sh">sudo docker run --name ceno-client \
-  -dv ceno:/var/opt/ouinet \
+<pre><code class="language-sh">sudo docker run --name Ceno-client \
+  -dv Ceno:/var/opt/ouinet \
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
-  --restart unless-stopped equalitie/ceno-client
+  --restart unless-stopped equalitie/Ceno-client
 </code></pre>
-<p>The command will start a container named <code>ceno-client</code> that will run on every boot unless you explicitly tell it to stop. Please check the <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">CENO Docker client documentation</a> for more information on how to manipulate the container.</p>
+<p>The command will start a container named <code>Ceno-client</code> that will run on every boot unless you explicitly tell it to stop. Please check the <a href="https://github.com/censorship-no/Ceno-docker-client#running-the-client">Ceno Docker client documentation</a> for more information on how to manipulate the container.</p>
 <blockquote>
-<p><strong>Note:</strong> This client has no <em>CENO Settings</em>: when instructed below to access that page, open instead the <a href="browser/../client/front-end.html">client front-end</a>, which contains mostly equivalent information.</p>
+<p><strong>Nota:</strong> Este cliente não possui <em>Configurações do Ceno</em>: quando indicarmos nas instruções abaixo para acessar essa página, ao invés disso abra a <a href="browser/../client/front-end.html">front-end do cliente</a>, que contém em sua maioria informações equivalentes.</p>
 </blockquote>
 <h2 id="habilitando-upnp-em-seu-roteador-wifi"><a class="header" href="#habilitando-upnp-em-seu-roteador-wifi">Habilitando UPnP em seu roteador WiFi</a></h2>
-<p><a href="https://pt.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network. The <a href="browser/settings.html">CENO Settings</a> page will indicate the UPnP status on your local network.</p>
+<p><a href="https://pt.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> é a maneira mais fácil de tornar o seu Navegador Ceno (ou cliente de computador) alcançável à rede Ceno. A página <a href="browser/settings.html">Configurações do Ceno</a> irá indicar o estado do UPnP em sua rede local.</p>
 <blockquote>
 <p><strong>Nota:</strong> Habilitar UPnP no roteador WiFi pode expor dispositivos em sua rede à interferência externa. Por favor, esteja <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">ciente dos riscos</a> e considere também métodos alternativos, como explicado abaixo.</p>
 </blockquote>
@@ -592,7 +611,7 @@
 </blockquote>
 <pre><code>disabled / inactive
 </code></pre>
-<p>The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:</p>
+<p>O estado abaixo indica que o UPnP provavelmente está funcionando e que o Ceno está, no momento, verificando a conectividade:</p>
 <blockquote>
 <p><strong>Estado de acessibilidade</strong></p>
 </blockquote>
@@ -603,7 +622,7 @@
 </blockquote>
 <pre><code>enabled
 </code></pre>
-<p>The status below indicates that UPnP is working and you can bridge connections for other CENO users:</p>
+<p>O estado abaixo indica que o UPnP está funcionando e que você pode ser ponte para conexões de outros usuários do Ceno:</p>
 <blockquote>
 <p><strong>Estado de acessibilidade</strong></p>
 </blockquote>
@@ -615,7 +634,7 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Note:</strong> Even if UPnP is working, your router may still not be reachable from the outside. This can be the case when <em>CENO Settings</em> reports <em>External UDP endpoints</em> which look like <a href="https://pt.wikipedia.org/wiki/Carrier_Grade_NAT">CGNAT</a> addresses <code>100.X.Y.Z:N</code> with X between 64 and 127 (increasingly common among home ISPs), or like private addresses <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> with X between 16 and 31, and <code>192.168.X.Y:N</code>. If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.</p>
+<p><strong>Nota:</strong> Mesmo quando UPnP está funcionando, seu roteador pode não ser alcançável do exterior. Esse pode ser o caso quando as <em>Configurações do Ceno</em> relatam <em>Endpoints UDP externos</em> que parecem com endereços <a href="https://pt.wikipedia.org/wiki/Carrier_Grade_NAT">CGNAT</a> <code>100.X.Y.Z:N</code> com X entre 64 e 127 (cada dia mais comum entre ISPs domésticos), ou como endereços privados <code>10.X.Y.Z:N</code>, <code>172.X.Y.Z:N</code> com X entre 16 e 31, e <code>192.168.X.Y:N</code>. Se for o caso, por favor contate seu ISP ou administrador de rede para obter o endereço público em seu roteador ou para estabelecer redirecionamentos de porta para o endpoint externo.</p>
 </blockquote>
 <p>Há muitos roteadores WiFi no mercado, e cada um tem suas características específicas. Aqui está uma lista das instruções de alguns fabricantes para habilitar o UPnP:</p>
 <ul>
@@ -628,67 +647,67 @@
 <li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="usando-o-redirecionamento-de-porta-como-uma-alternativa-ao-upnp"><a class="header" href="#usando-o-redirecionamento-de-porta-como-uma-alternativa-ao-upnp">Usando o redirecionamento de porta como uma alternativa ao UPnP</a></h2>
-<p>Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device. You will need to login to the router's administrative interface and locate the <em>port forwarding</em> option. To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoints</em>.</p>
+<p>Em vez de habilitar o UPnP em seu roteador, você pode criar uma regra de redirecionamento de porta para ter certeza de que as conexões da rede Ceno são encaminhadas para o seu dispositivo. Você precisará fazer login na interface administrativa do roteador e localizar a opção <em>redirecionamento de porta</em>. Para ver para qual endereço de IP você precisa redirecionar as conexões e a porta relevante, abra a página <em>Configurações do Ceno</em> e veja a seção <em>Endpoints UDP locais</em>.</p>
 <blockquote>
 <p><strong>Endpoints UDP locais</strong></p>
 </blockquote>
 <pre><code>192.168.1.132:28729
 </code></pre>
-<p>The port forwarding must be for the UDP protocol (not TCP). CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time. Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
+<p>O redirecionamento de porta deve ser para o protocolo UDP (não TCP). O Ceno escolhe uma porta randômica na primeira execução e mantém tal escolha para as execuções subsequentes. Mas o endereço de IP da rede local do seu dispositivo pode mudar de tempos em tempos. Por isso, você deve periodicamente rever a página <em>Configurações do Ceno</em> para confirmar se seu dispositivo está alcançável pela rede Ceno.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Alternativamente, você pode garantir que o roteador sempre destine o mesmo endereço de IP para o seu dispositivo (por exemplo, via assinatura DHCP estática para o endereço MAC do dispositivo).</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="solução-de-problemas"><a class="header" href="#solução-de-problemas">Solução de Problemas</a></h1>
-<p>This section will give you some hints about what to do when different, known problems arise with CENO and Ouinet. Please bear in mind that these are experimental projects, and that their operation is subject to a multitude of factors beyond our control, like the particular configuration and status of network infrastructure, as well as which content other users have retrieved and the characteristics of their connections.</p>
-<p>Se os problemas persistirem, por favor os relate para <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>. Tentaremos ajudar você a resolvê-los.</p>
-<h2 id="there-is-no-ceno-entry-in-the-app-menu"><a class="header" href="#there-is-no-ceno-entry-in-the-app-menu">There is no CENO entry in the app menu</a></h2>
-<p>The CENO Extension may still be loading. Please be patient.</p>
-<h2 id="all-widgets-are-grayed-out-in-the-ceno-settings-page"><a class="header" href="#all-widgets-are-grayed-out-in-the-ceno-settings-page">All widgets are grayed-out in the <em>CENO Settings</em> page</a></h2>
-<p>The CENO Extension has loaded, but it has not yet been able to retrieve status from Ouinet. Since it may take a moment for Ouinet to be ready, please be patient.</p>
+<p>Esta seção dará algumas dicas sobre o que fazer quando problemas diferentes e conhecidos surgem com Ceno e Ouinet. Por favor, tenha em mente que estes projetos são experimentais e que suas operações estão sujeitas a uma multitude de fatores além do nosso controle, como a configuração específica e o estado da infraestrutura da rede, bem como qual conteúdo outros usuários recuperaram e as características das conexões deles.</p>
+<p>If problems still persist, please report them to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>. We will try to help you with them.</p>
+<h2 id="não-há-a-entrada-ceno-no-menu-do-aplicativo"><a class="header" href="#não-há-a-entrada-ceno-no-menu-do-aplicativo">Não há a entrada Ceno no menu do aplicativo</a></h2>
+<p>A Extensão Ceno pode ainda estar carregando. Por favor, seja paciente.</p>
+<h2 id="todos-os-widgets-estão-acinzentados-na-página-configurações-do-ceno"><a class="header" href="#todos-os-widgets-estão-acinzentados-na-página-configurações-do-ceno">Todos os widgets estão acinzentados na página <em>Configurações do Ceno</em></a></h2>
+<p>A Extensão Ceno carregou, mas ainda não foi possível recuperar o estado da Ouinet. Já que pode demorar um tempo para a Ouinet estar pronta, por favor, seja paciente.</p>
 <p>Se a página Configurações permanecer dessa maneira por mais de dois minutos, Ouinet pode ter encontrado algum problema durante a inicialização.</p>
-<p>Try to visit some page, if possible one which is usually available. If you get an error like &quot;Failed to retrieve the resource (after attempting all configured mechanisms)&quot;, CENO may be experiencing some issues with general connectivity (like being unable to join the BitTorrent network). If you are on a mobile connection, try again with Wi-Fi.</p>
-<p>If you get an error like &quot;The proxy server is refusing connections&quot; when visiting the page, try to stop other applications which may be offering some service to the device, then restart CENO.</p>
+<p>Tente visitar alguma página, se possível uma que esteja habitualmente disponível. Se você obtiver um erro como &quot;Falha em recuperar o recurso (após tentar todos os mecanismos configurados)&quot;, Ceno pode estar encontrando alguns problemas com a conectividade em geral (como não conseguir entrar na rede BitTorrent). Se estiver em uma conexão móvel, tente novamente com WiFi.</p>
+<p>Se obtiver um erro como &quot;O servidor proxy está recusando conexões&quot; ao visitar a página, tente interromper outras aplicações que podem estar oferecendo algum serviço ao dispositivo e, então, reinicie Ceno.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Isso pode acontecer caso outra aplicação já esteja ouvindo as portas TCP <code>127.0.0.1:8077</code> ou <code>127.0.0.1:8078</code>.</p>
 </blockquote>
-<h2 id="the-ouinet-client-state-under-ceno-settings-is-not-started"><a class="header" href="#the-ouinet-client-state-under-ceno-settings-is-not-started">The <em>Ouinet client state</em> under <em>CENO Settings</em> is not <code>started</code></a></h2>
-<p>The Ouinet client run by CENO is finding problems starting on your device.</p>
-<p>When you launch CENO, the state may read <code>starting</code> for a few seconds; this is normal. However, if the state remains <code>starting</code> for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network. Please check your network connection and try restarting CENO. If you have a working connection but the state remains <code>starting</code>, please contact us (especially if the state was <code>started</code> in some previous run).</p>
-<p>One possible reason for not being able to get into BitTorrent (more so when you run CENO for the first time), is that the default bootstrap servers used by the Ouinet client are blocked or unreachable. In that case you may want to try providing CENO with extra BitTorrent bootstrap servers in the <a href="browser/settings.html">Settings page</a>. You can ask us if you do not know of any such server. After setting the extra bootstraps, please restart the application. If the problem persists, contact us.</p>
+<h2 id="o-estado-do-cliente-ouinet-dentro-das-configurações-do-ceno-não-é-iniciado"><a class="header" href="#o-estado-do-cliente-ouinet-dentro-das-configurações-do-ceno-não-é-iniciado">O <em>estado do cliente Ouinet</em> dentro das <em>Configurações do Ceno</em> não é <code>iniciado</code></a></h2>
+<p>O cliente Ouinet executado por Ceno está encontrando problemas para inicializar em seu dispositivo.</p>
+<p>Quando você abre Ceno, o estado pode indicar <code>inicializando</code> por alguns segundos, esse comportamento é normal. No entanto, se o estado permanece <code>inicializando</code> por muito tempo, pode ser um sinal de sérios problemas de conectividade que impedem a aplicação de alcançar a rede BitTorrent. Por favor, verifique a sua conexão de rede e tente reiniciar Ceno. Se você tem uma conexão funcional mas o estado permanece <code>inicializando</code>, por favor fale conosco (especialmente se o estado já foi <code>iniciado</code> em alguma execução anterior).</p>
+<p>Uma possível razão para não conseguir entrar no BitTorrent (principalmente ao executar Ceno pela primeira vez), é que os servidores bootstrap padrão usados pelo cliente Ouinet estão bloqueados ou inalcançáveis. Nesse caso, você pode querer tentar oferecer ao Ceno servidores bootstrap BitTorrent adicionais na <a href="browser/settings.html">página Configurações</a>. Você pode nos perguntar caso não conheça nenhum servidor do tipo. Após configurar os bootstraps adicionais, por favor, reinicie a aplicação. Se o problema persistir, fale conosco.</p>
 <p>Se alguma vez você vir um outro estado, pode haver um erro interno no cliente Ouinet. Por favor, relate o problema para nós.</p>
 <h2 id="acessar-algum-conteúdo-retorna-falha-em-recuperar-o-recurso"><a class="header" href="#acessar-algum-conteúdo-retorna-falha-em-recuperar-o-recurso">Acessar algum conteúdo retorna &quot;Falha em recuperar o recurso&quot;</a></h2>
-<p>This means that CENO tried all available mechanisms to access the content, but none of them succeeded.</p>
-<p>You should make sure that the following requirements are fulfilled for CENO to work:</p>
+<p>Isso significa que o Ceno tentou todos os mecanismos disponíveis para acessar o conteúdo, mas nenhum deles obteve sucesso.</p>
+<p>Você deve certificar-se de que os seguintes requisitos foram preenchidos para o Ceno funcionar:</p>
 <ul>
-<li>You are running a recent version of CENO Browser. Obsolete versions may not be able to communicate with newer injectors or other clients. Check the <a href="browser/install.html">installation instructions</a> to know where to get new versions.</li>
-<li>All access mechanisms in the <a href="browser/settings.html">Settings page</a> are enabled. Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.</li>
-<li>Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites. CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).</li>
+<li>Você está executando uma versão recente do Navegador Ceno. Versões obsoletas podem não ser capazes de se comunicar com injetores mais novos ou com outros clientes. Verifique as <a href="browser/install.html">instruções de instalação</a> para saber onde obter novas versões.</li>
+<li>Todos os mecanismos de acesso na <a href="browser/settings.html">página Configurações</a> estão ativados. De outra forma, Ceno não conseguirá contornar alguns problemas de conectividade ao acessar o conteúdo.</li>
+<li>Seu dispositivo tem uma conexão funcional com a rede, isto é, seu navegador Web comum é capaz de abrir alguns websites. Ceno e Ouinet não conseguem funcionar quando toda a conectividade de rede está cortada (apesar de usuários ainda poderem encontrar um ponto de acesso WiFi em comum para fazer compartilhamento de dispositivo para dispositivo).</li>
 </ul>
-<p>If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, to give you an idea of your chances for getting content using CENO.</p>
+<p>Se esse é o caso, vale a pena explicar o que pode estar acontecendo para que todos os mecanismos de acesso estejam falhando, para que você tenha uma ideia de suas chances em obter conteúdo usando o Ceno.</p>
 <h3 id="acesso-à-origem"><a class="header" href="#acesso-à-origem">Acesso à origem</a></h3>
-<p>Your CENO Browser cannot directly reach the content's origin server. Either the server is having some difficulties itself (e.g. it is down or under some attack), or someone is interfering with your connection to it.</p>
-<p>This is the main use case for CENO and the other mechanisms should compensate for it.</p>
+<p>Seu Navegador Ceno não pode alcançar diretamente o conteúdo do servidor de origem. Ou o servidor está, ele mesmo, enfrentando dificuldades (por exemplo, caiu ou está sob ataque), ou alguém está interferindo em sua conexão com ele.</p>
+<p>Este é o principal caso de uso do Ceno e os outros mecanismos devem compensá-lo.</p>
 <h3 id="acesso-ao-proxyinjetor"><a class="header" href="#acesso-ao-proxyinjetor">Acesso ao proxy/injetor</a></h3>
-<p>Someone is interfering with your connection to Internet addresses in the injector swarm. Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reaching injectors via other clients acting as bridges.</p>
-<p>There are different reasons for CENO being unable to reach such clients:</p>
+<p>Alguém está interferindo na sua conexão com os endereços de Internet no enxame de injetores. Já que se espera que esse problema aconteça eventualmente, conforme Ceno (e Ouinet) se popularizem, Ceno recorre ao alcance dos injetores através de outros clientes agindo como pontes.</p>
+<p>Há diferentes razões para o Ceno não conseguir alcançar tais clientes:</p>
 <ul>
 <li>
-<p>No other client is reachable by you. If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside. This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.O caso extremo aqui é o de as conexões entre clientes Ouinet serem identificadas como tais por um censor e então bloqueadas. Esta situação é bem improvável (pois ela poderia implicar um bloqueio de todo o tráfego BitTorrent) e, atualmente, está além do suportado pela Ouinet. Mas nós planejamos torná-la mais resistente a estes ataques.</p>
+<p>Nenhum outro cliente é alcançável por você. Se apenas alguns clientes Ouinet estiverem online, é totalmente possível que nenhum deles esteja em uma rede que possa ser alcançada a partir do exterior. Esse cenário deverá se tornar menos provável à medida que Ceno e Ouinet se tornarem populares e mais clientes com conectividade diversificada ficarem online.O caso extremo aqui é o de as conexões entre clientes Ouinet serem identificadas como tais por um censor e então bloqueadas. Esta situação é bem improvável (pois ela poderia implicar um bloqueio de todo o tráfego BitTorrent) e, atualmente, está além do suportado pela Ouinet. Mas nós planejamos torná-la mais resistente a estes ataques.</p>
 </li>
 <li>
-<p>Nenhum outro cliente consegue alcançar o injetor. Por ser improvável que todos os injetores estejam simultaneamente inativos, isso pode significar que você apenas pode alcançar clientes Ouinet que estejam afetados por uma interferência na rede similar à sua.This can happen when all traffic leaving or entering the country you are in is interrupted. CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.</p>
+<p>Nenhum outro cliente consegue alcançar o injetor. Por ser improvável que todos os injetores estejam simultaneamente inativos, isso pode significar que você apenas pode alcançar clientes Ouinet que estejam afetados por uma interferência na rede similar à sua.Tal situação pode acontecer quando todo o tráfego saindo ou entrando no país em que você se encontra estiver interrompido. O Ceno iria recorrer, nesse caso, à obtenção e ao uso do conteúdo do cache distribuído, mesmo se estiver obsoleto.</p>
 </li>
 </ul>
-<p>Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites. Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.</p>
+<p>Novamente, conforme Ceno e Ouinet se tornarem mais populares, aumentarão as chances de que haja ao menos alguns clientes com algum tipo de acesso a websites internacionais. Mesmo se o acesso for precário, um único cliente Ouinet capaz de injetar algum conteúdo dentro do país pode ser suficiente para permitir que ele se propague (através do cache distribuído) sem necessidade de acessar o mundo exterior.</p>
 <p>Por fim, nós executamos alguns clientes Ouinet com boa conectividade em (esperamos) países livres de censura para tentar evitar essas duas situações. Porém, note que clientes com tais endereços de Internet estáveis poderiam ser igualmente bloqueados.</p>
 <h3 id="cache-distribuído"><a class="header" href="#cache-distribuído">Cache distribuído</a></h3>
-<p>Keep in mind that an absolute requirement to be able to retrieve any content from the distributed cache is that it has already been injected by some other CENO or Ouinet user. This means that popular content is more likely to eventually get injected and replicated in a natural manner, while more obscure content is less so, unless someone takes care of using CENO or some other Ouinet client to inject and keep seeding it (which may further expose them to some <a href="browser/../concepts/risks.html">risks</a>).</p>
+<p>Tenha em mente que um requisito absoluto para conseguir recuperar qualquer conteúdo do cache distribuído é tal conteúdo já ter sido injetado por algum outro usuário do Ceno ou da Ouinet. Ou seja, muito provavelmente conteúdos populares serão injetados e replicados de maneira orgânica e conteúdos mais desconhecidos, não. A menos que alguém se disponha a usar Ceno ou algum outro cliente Ouinet para injetá-lo e o manter semeando (o que pode gerar ainda mais exposição a alguns <a href="browser/../concepts/risks.html">riscos</a>).</p>
 <p>Por favor, observe que alguns conteúdos não considerados seguros para compartilhamento nunca serão injetados, não importa quantas pessoas os recuperem usando a navegação pública. Isso inclui conteúdo marcado como privado pelo servidor de origem, conteúdo que requer autenticação e algum tráfego intercambiado por certas aplicações Web dinâmicas.</p>
 <p>Observe também que os clientes detentores de cópias de conteúdo injetado precisam estar alcançáveis por você. As mesmas observações descritas no ponto anterior sobre alcançar uma ponte se aplicam aqui.</p>
 <h3 id="uma-nota-sobre-websites-unicamente-http"><a class="header" href="#uma-nota-sobre-websites-unicamente-http">Uma nota sobre websites unicamente HTTP</a></h3>
-<p>CENO automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP. This is done by the embedded <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> extension when you enter a bare domain name like <code>example.com</code> or an HTTP URL like <code>http://example.com/…</code> in the location bar, or when you follow a link with such a URL in a page.</p>
-<p>The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message). This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.</p>
-<p>Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them. If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change <code>https://</code> to <code>http://</code>, and try again.</p>
+<p>Ceno automaticamente seleciona o protocolo mais seguro HTTPS para acessar websites que seriam de outra maneira acessados usando o simples e inseguro HTTP. A seleção é feita pela extensão <a href="https://github.com/Rob--W/https-by-default">HTTPS by default</a> incorporada quando você entra um nome de domínio cru como <code>example.com</code> ou uma URL HTTP como <code>http://example.com/…</code> na barra de endereço, ou quando você segue um link com tal URL em uma página.</p>
+<p>A escolha automática do HTTPS é feita para evitar que alguém intercepte uma conexão HTTP e a direcione para um servidor ilegítimo, resultando em conteúdo falso (como uma mensagem de bloqueio). Esse tipo de sequestro é trivial de detectar com HTTPS, portanto, Ceno pode contorná-lo em vez de ser induzido a carregar conteúdo falso.</p>
+<p>Apesar de muito incomum, alguns websites não suportam HTTPS e nenhum mecanismo de acesso funcionará para eles. Se tem total certeza de que este é o caso para um website cujo carregamento no Ceno acaba de falhar, você pode editar a URL dele na barra de endereços: mude <code>https://</code> para <code>http://</code> e tente novamente.</p>
 <p>Se quiser sempre acessar um website particular através de HTTP simples, você pode adicionar uma exceção permanente como esta:</p>
 <ol>
 <li>No menu principal do aplicativo, escolha <em>HTTPS by default</em>. Você verá a página de configurações dessa extensão.</li>
@@ -696,28 +715,28 @@
 <li>Quando terminar, volte ou feche a aba.</li>
 </ol>
 <p><img src="browser/images/httpsbd-exceptions.png" alt="Figura: Adicionando exceções para websites unicamente HTTP" /></p>
-<p><strong>Note:</strong> In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the <a href="browser/settings.html">Settings page</a>, disable Origin access, and try again. Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs. We encourage you to contact the site administrators and tell them to enable HTTPS support.</p>
+<p><strong>Nota:</strong> No infeliz caso de um website apenas ser acessível via HTTP e também estar sendo sequestrado por um censor, você precisará ir à <a href="browser/settings.html">página Configurações</a>, desabilitar o acesso à Origem e tentar novamente. Por favor, observe que essa configuração afeta todos os websites e ela não é lembrada pelo Ceno em execuções subsequentes. Encorajamos você a contatar os administradores do website e dizer a eles para habilitar o suporte HTTPS.</p>
 <h2 id="uma-página-mostra-conteúdo-falso-como-uma-mensagem-de-bloqueio"><a class="header" href="#uma-página-mostra-conteúdo-falso-como-uma-mensagem-de-bloqueio">Uma página mostra conteúdo falso (como uma mensagem de bloqueio)</a></h2>
-<p>This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server. CENO then remembered that redirection, and now it automatically opens the latter site when trying to visit the former.</p>
-<p>One way to fix this issue is to clear CENO's normal browsing cache by choosing <em>Settings</em> in the app's main menu, then <em>Clear private data</em>, and disabling all boxes but <em>Cache</em> before tapping on <em>Clear data</em>.</p>
-<p>Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visited sites by always using HTTPS, as explained in the previous section.</p>
+<p>Isso pode acontecer quando você usou uma versão antiga do Ceno para visitar um website bloqueado no passado e alguém interceptou a conexão e a direcionou para um servidor ilegítimo. Ceno, então, lembrou desse redirecionamento e agora automaticamente abre o último website ao tentar visitar o primeiro.</p>
+<p>Uma forma de consertar esse problema é limpar o cache de navegação normal do Ceno escolhendo <em>Configurações</em> no menu principal do aplicativo, depois clicando em <em>Limpar dados privados</em> e desabilitando todas as caixas exceto <em>Cache</em> antes de tocar em <em>Limpar dados</em>.</p>
+<p>Por favor, observe que as versões 1.3.0 e posteriores do Ceno evitam o sequestro de websites recentemente visitados pelo uso perene de HTTPS, como explicado na seção anterior.</p>
 <h2 id="outras-pessoas-não-conseguem-recuperar-conteúdo-semeado-pelo-meu-dispositivo"><a class="header" href="#outras-pessoas-não-conseguem-recuperar-conteúdo-semeado-pelo-meu-dispositivo">Outras pessoas não conseguem recuperar conteúdo semeado pelo meu dispositivo</a></h2>
-<p>First, make sure that your device is still seeding the content by going to the <a href="browser/settings.html"><em>CENO Settings</em> page</a>, only leaving the <em>Shared by other CENO users</em> source box checked, then accessing that content again: it should load (at least partially), and tapping the CENO address bar icon should only show non-zero values under <em>Shared by other CENO users</em> or <em>Shared by you</em>.</p>
-<p>If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache. Enable the <em>Via the CENO network (public)</em> source in the Settings page and access the content again. Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index. Make <em>Shared by other CENO users</em> the only checked box again and access the content once more; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.</p>
-<p>If the previous step works, but another device with only the <em>Shared by other CENO users</em> source enabled still shows &quot;Failed to retrieve the resource…&quot;, there are two possible scenarios. If both devices are in the same network (e.g. on the same Wi-Fi access point), it could be that the network does not allow direct communication between devices connected to it. This happens in some public Wi-Fi networks, so try using a private one.</p>
-<p>If the devices are in different networks, it could be due to a variety of reasons. One of them is that the network of the first device does not allow incoming connections: if you open its <em>CENO Settings</em> page, under <em>Reachability status</em> it should say <em>reachable</em> or <em>likely reachable</em>. Otherwise seeding may not be possible from that network as it is.</p>
+<p>Primeiro, certifique-se de que seu dispositivo ainda está semeando o conteúdo indo à <a href="browser/settings.html">página <em>Configurações do Ceno</em></a>, deixando marcada apenas a caixa source <em>Compartilhado por outros usuários Ceno</em> e então acessando esse conteúdo novamente: ele deve carregar (ao menos parcialmente) e tocar no ícone da barra de endereço do Ceno deve mostrar apenas valores diferentes de zero em <em>Compartilhado por outros usuários Ceno</em> ou <em>Compartilhado por você</em>.</p>
+<p>Se o conteúdo não carregar, pode ser que o Ceno já o tenha removido, pois ele automaticamente limpa conteúdo obsoleto (mais antigo que uma semana, por padrão) do seu cache local. Ative a source <em>Via rede do Ceno (pública)</em> na página de Configurações e acesse o conteúdo novamente. Por favor, espere alguns minutos se passarem para que o dispositivo anuncie o conteúdo no índex do cache distribuído. Torne <em>Compartilhado por outros usuários Ceno</em> a única caixa marcada novamente e acesse o conteúdo mais uma vez. Se ele ainda não carregar, pode ser que esse conteúdo em particular não seja considerado seguro para compartilhamento pela Ouinet.</p>
+<p>Se a etapa anterior funcionar, mas outro dispositivo com apenas a source <em>Compartilhado por outros usuários Ceno</em> ativada ainda exibir &quot;Falha em recuperar o recurso…&quot;, há dois cenários possíveis. Se ambos os dispositivos estão na mesma rede (por exemplo, no mesmo ponto de acesso WiFi), pode ser que a rede não permita comunicações diretas entre dispositivos conectados a ela. Isso acontece em algumas redes WiFi públicas, então tente usar uma privada.</p>
+<p>Se os dispositivos estão em redes diferentes, pode ser devido a uma gama de razões. Uma delas é a rede do primeiro dispositivo não permitir conexões ingressantes: se você abrir a página <em>Configurações do Ceno</em>, em <em>Estado de acessibilidade</em> deve constar <em>alcançável</em> ou <em>provavelmente alcançável</em>. Caso contrário, pode não ser possível semear dessa rede tal como ela está.</p>
 <blockquote>
 <p><strong>Nota técnica:</strong> Se o seu dispositivo relata acessibilidade <em>não decidida</em> e é possível modificar a configuração do ponto de acesso, você pode criar uma regra permanente de redirecionamento de porta na direção do seu cliente. Veja <a href="browser/bridging.html">aqui</a> para maiores instruções.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="anexo-o-cliente-front-end-ouinet"><a class="header" href="#anexo-o-cliente-front-end-ouinet">Anexo: O cliente front-end Ouinet</a></h1>
-<p>The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client. Many of them are also offered by the CENO Extension via the <a href="client/../browser/settings.html"><em>CENO Settings</em> page</a>, though others are only available here.</p>
-<p>The front-end is accessible using any plain Web browser running on the same device (you can use CENO too). Its default address is <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>. If you open it, you will see something like the figure below.</p>
+<p>O cliente Ouinet (conforme executado pelo Navegador Ceno, por exemplo) oferece uma página front-end com algumas informações e ações que podem ser úteis para a depuração do cliente. Muitas delas também são oferecidas pela Extensão Ceno via <a href="client/../browser/settings.html">página <em>Configurações do Ceno</em></a>, apesar de outras somente estarem disponíveis aqui.</p>
+<p>O front-end é acessível pelo uso de qualquer navegador Web comum executado no mesmo dispositivo (você pode usar o Ceno também). O endereço padrão é <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>. Se você abrí-lo, verá algo parecido com a figura abaixo.</p>
 <p><img src="client/images/front-end.png" alt="Figura: O front-end do cliente" /></p>
 <p>Os itens mostrados na página incluem:</p>
 <ul>
-<li>Um link para habilitar o cliente como uma autoridade de certificação (CA) no seu navegador, já que o cliente precisa interceptar o tráfego HTTPS.You only need this to use a plain browser for testing the Ouinet client, in which case you will also have to configure its HTTP/HTTPS proxies to <code>127.0.0.1:8077</code>, and manually enable the <a href="https://github.com/censorship-no/ceno-ext-settings/">CENO Extension</a> for injection to work. We very strongly recommend using a <em>separate, specific browser profile</em> for this purpose.</li>
+<li>Um link para habilitar o cliente como uma autoridade de certificação (CA) no seu navegador, já que o cliente precisa interceptar o tráfego HTTPS.Você precisa dele apenas para usar um navegador comum para testar o cliente Ouinet. Nesse caso, você terá de configurar seus proxies HTTP/HTPPS para <code>127.0.0.1:8077</code>, e habilitar manualmente a [Extensão Ceno][Extensão Ceno] para a injeção funcionar. Recomendamos fortemente usar, para este propósito, um <em>perfil separado, específico para o navegador</em>.</li>
 </ul>
-<p>Please note that none of this needs to be done for CENO Browser, since it is already configured like that.</p>
+<p>Por favor, observe que nenhuma dessas ações precisa ser realizada para o Navegador Ceno, pois ele já está configurado dessa maneira.</p>
 <ul>
 <li>
 <p>Botões para habilitar ou desabilitar os diferentes mecanismos usados pelo cliente para acessar conteúdo.</p>
@@ -738,7 +757,7 @@
 <p>Informações no seu cache local tais como a idade máxima do conteúdo, o tamanho aproximado do cache, um botão para limpar completamente e um link para a lista de entradas do cache anunciadas.</p>
 </li>
 <li>
-<p>The directory of the external, static cache if enabled (CENO does not currently use this).</p>
+<p>O diretório do cache externo e estático, caso esteja habilitado (Ceno não o usa atualmente).</p>
 </li>
 </ul>
 
@@ -746,31 +765,43 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript">
+
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
+
+    </div>
     </body>
 </html>

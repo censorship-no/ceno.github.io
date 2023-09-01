@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="ur" class="light" dir="rtl">
+<html lang="ur" class="sidebar-visible no-js light">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>عوامی بمقابلہ نجی براؤزنگ - Censorship.no! یوزر مینوئل</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,42 +56,65 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
+            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var body = document.querySelector('body');
-            var sidebar = 'hidden';
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> تعارف</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> What is CENO Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet کیا ہے؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> فوری آغاز گائیڈ</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> اکثر پوچھے گئے سوالات</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مرکزی تصورات</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> یہ کیسے کام کرتا ہے؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html" class="active"><strong aria-hidden="true">2.2.</strong> عوامی بمقابلہ نجی براؤزنگ</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Advantages of using CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risks in using CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Using CENO Browser</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installing CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO settings</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> براؤزر کی جانچ کرنا</a></li><li class="chapter-item expanded "><a href="../browser/bridge.html"><strong aria-hidden="true">3.5.</strong> دوسروں کی مدد کرنا</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> خرابیوں کا سراغ لگانا</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> تعارف</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet کیا ہے؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> فوری آغاز گائیڈ</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> اکثر پوچھے گئے سوالات</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مرکزی تصورات</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> یہ کیسے کام کرتا ہے؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html" class="active"><strong aria-hidden="true">2.2.</strong> عوامی بمقابلہ نجی براؤزنگ</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ceno/Ouinet استعمال کرنے کے فوائد</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ceno/Ouinet استعمال کرنے میں خطرات</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Ceno براؤزر کا استعمال کرتے ہوئے</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Ceno انسٹال کرنا</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Ceno ترتیبات</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> براؤزر کی جانچ کرنا</a></li><li class="chapter-item expanded "><a href="../browser/bridge.html"><strong aria-hidden="true">3.5.</strong> دوسروں کی مدد کرنا</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> خرابیوں کا سراغ لگانا</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -94,7 +123,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +143,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +157,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -139,14 +170,14 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="عوامی-بمقابلہ-نجی-براؤزنگ"><a class="header" href="#عوامی-بمقابلہ-نجی-براؤزنگ">عوامی بمقابلہ نجی براؤزنگ</a></h1>
-<p>Because of the many techniques used to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content. And, as you may have already read in previous sections, whenever you retrieve and seed a page using CENO Browser, it becomes available to others. There may be some content, however, that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.</p>
-<p>The default mode when you launch the application is <strong>public browsing</strong>. In it, CENO accesses Web content as described previously:</p>
+<p>رابطے کے مسائل پر قابو پانے کے لیے استعمال کی جانے والی بہت سی تکنیکوں کی وجہ سے، Ceno آپ کے لیے ہر قسم کا ویب مواد حاصل کرنے کا ایک آسان طریقہ بن سکتا ہے۔ اور، جیسا کہ آپ نے پہلے ہی پچھلے حصوں میں پڑھا ہوگا، جب بھی آپ Ceno براؤزر کا استعمال کرتے ہوئے کسی صفحہ کو بازیافت اور سیڈ کرتے ہیں، تو یہ دوسروں کے لیے دستیاب ہوجاتا ہے۔ تاہم، کچھ مواد ہو سکتا ہے جسے آپ شیئر نہیں کرنا چاہتے (یا آپ دوسروں کو یہ نہیں بتانا چاہتے کہ آپ اسے حاصل کرنے کی کوشش کر رہے ہیں یا كى ہے )، اور خوش قسمتی سے Ceno اس معاملے میں بھی آپ کی مدد کر سکتا ہے۔</p>
+<p>جب آپ ایپلیکیشن لانچ کرتے ہیں تو ڈیفالٹ موڈ <strong>عوامی براؤزنگ</strong> ہوتا ہے۔ اس میں، Ceno ویب مواد تک رسائی حاصل کرتا ہے جیسا کہ پہلے بیان کیا گیا ہے:</p>
 <ol>
 <li>براہ راست رسائی کی کوشش کی جاتی ہے۔</li>
 <li>اس میں ناکام ہونے پر، تقسیم شدہ کیش کو تلاش کیا جاتا ہے۔</li>
 <li>اس میں ناکام ہونے پر، مواد کی درخواست ایک انجیکٹر کے ذریعے کی جاتی ہے (شاید کسی دوسرے کلائنٹ کے ذریعے)۔</li>
 </ol>
-<p>CENO also has a <strong>private browsing</strong> mode. In it, the distributed cache is never searched, and injection is never attempted:</p>
+<p>Ceno کے پاس <strong>نجی براؤزنگ</strong> موڈ بھی ہے۔ اس میں، تقسیم شدہ کیش کو کبھی تلاش نہیں کیا جاتا ہے، اور انجیکشن کی کوشش نہیں کی جاتی ہے:</p>
 <ol>
 <li>براہ راست رسائی کی کوشش کی جاتی ہے۔</li>
 <li>اس میں ناکام ہونے پر، ایک انجیکٹر سے رابطہ کیا جاتا ہے (شاید کسی دوسرے کلائنٹ کے ذریعے) اور <em>ایک عام پراکسی سرور</em> کے طور پر استعمال کیا جاتا ہے۔ نوٹ کریں کہ اس صورت میں، نہ تو انجیکٹر اور نہ ہی آپ کا کلائنٹ آپ کے صفحہ کے ساتھ تقسیم شدہ کیش کو اپ ڈیٹ کرتا ہے۔</li>
@@ -162,14 +193,14 @@
 </ol>
 <p>نجی موڈ میں رہتے ہوئے:</p>
 <ol>
-<li>You may not be able to access blocked Web content if international connectivity is too scarce; even if you could, other CENO users would not get that content from you.</li>
+<li>اگر بین الاقوامی رابطہ بہت کم ہے تو آپ بلاک شدہ ویب مواد تک رسائی حاصل کرنے کے قابل نہیں ہوسکتے ہیں۔ یہاں تک کہ اگر آپ کر سکتے ہیں، دوسرے Ceno صارفین آپ سے وہ مواد حاصل نہیں کریں گے۔</li>
 <li>متحرک مواد والے صفحات شاید کام کریں گے۔</li>
 <li>جن صفحات کی توثیق کی ضرورت ہوتی ہے وہ کام کر سکتے ہیں (جب آپ کا کنکشن HTTPS سے محفوظ ہوتا ہے، انجیکٹر آپ کے پاس ورڈ نہیں دیکھتا ہے)۔</li>
 <li>براؤزنگ کی سرگرمی دوسرے صارفین کو لیک نہیں کی جاتی ہے۔</li>
 <li>براؤزنگ کی محدود سرگرمی انجیکٹرز کو لیک ہو گئی ہے (HTTPS کے ساتھ، صرف اصل سرور کا نام یا پتہ)۔</li>
 <li>آپ کو انجیکٹر پر بھروسہ کرنے کی ضرورت نہیں ہے (HTTPS کے ساتھ، عام سرٹیفکیٹ پر مبنی سیکیورٹی اب بھی کام کرتی ہے)۔</li>
 </ol>
-<p>In conclusion: if you are using CENO to read the news, watch videos, browse Wikipedia and other static resources that are otherwise censored in your network, consider using the default <em>public browsing</em> mode. And if you want to login to Twitter or edit your WordPress website, use <em>private browsing</em> mode.</p>
+<p>آخر میں: اگر آپ خبریں پڑھنے، ویڈیوز دیکھنے، ویکیپیڈیا اور دیگر جامد وسائل کو براؤز کرنے کے لیے استعمال کر رہے ہیں جو آپ کے نیٹ ورک میں دوسری صورت میں سنسر ہیں، تو پہلے سے طے شدہ <em>عوامی براؤزنگ</em> موڈ استعمال کرنے پر غور کریں۔ اور اگر آپ ٹویٹر پر لاگ ان کرنا چاہتے ہیں یا اپنی ورڈپریس ویب سائٹ میں ترمیم کرنا چاہتے ہیں تو <em>نجی براؤزنگ</em> موڈ استعمال کریں۔</p>
 <p>مزید تفصیلی وضاحت کے لیے براہ کرم <a href="risks.html">خطرات</a> پر سیکشن پڑھیں۔ یہ بھی نوٹ کریں کہ آپ کا کلائنٹ عوامی یا نجی براؤزنگ سے قطع نظر ایک پل اور سیڈر کے طور پر کام جاری رکھ سکتا ہے۔ ہم اس کی وضاحت مینوئل کے <a href="../browser/bridging.html">دوسروں کی مدد کرنا</a> سیکشن میں زیادہ تفصیل سے کرتے ہیں۔</p>
 
                     </main>
@@ -179,9 +210,11 @@
                             <a rel="prev" href="../concepts/how.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../concepts/advantages.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -191,6 +224,7 @@
                     <a rel="prev" href="../concepts/how.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../concepts/advantages.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -198,16 +232,25 @@
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>
