@@ -1,14 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="es" class="sidebar-visible no-js light">
+<html lang="es" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Censorship.no! Manual del Usuario</title>
         <meta name="robots" content="noindex" />
-
-
         <!-- Custom HTML head -->
-        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -19,29 +17,25 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
-
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
-
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-
     </head>
-    <body>
-    <div id="body-container">
+    <body class="sidebar-visible no-js">
         <!-- Provide site root to javascript -->
-        <script>
+        <script type="text/javascript">
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
+        <script type="text/javascript">
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,65 +51,42 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
+        <script type="text/javascript">
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
-            var html = document.querySelector('html');
-            var sidebar = null;
+        <script type="text/javascript">
+            var body = document.querySelector('body');
+            var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
-            } else {
-                sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/Ceno.html"><strong aria-hidden="true">1.1.</strong> What is Ceno Browser?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> ¿Qué es Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guía de inicio rápido</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Preguntas Frecuentes</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Conceptos principales</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> ¿Cómo funciona?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegación pública vs. privada</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ventajas de usar Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Riesgos al usar Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Usando el Navegador Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Instalando Ceno</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegación pública o privada</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> Configuración de Ceno</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Probando el navegador</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ayudando a otra(o)s</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Solución de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: La interfaz del cliente Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/ceno.html"><strong aria-hidden="true">1.1.</strong> ¿Qué es el Navegador Ceno?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> ¿Qué es Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guía de inicio rápido</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Preguntas Frecuentes</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Conceptos principales</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> ¿Cómo funciona?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navegación pública vs. privada</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ventajas de usar Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Riesgos al usar Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Usando el Navegador Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Instalando Ceno</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Usando navegación pública o privada</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> Configuración de Ceno</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Probando el navegador</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Ayudando a otra(o)s</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Solución de problemas</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Anexo: La interfaz del cliente Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
-
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -124,7 +95,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -144,7 +115,6 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-
                     </div>
                 </div>
 
@@ -158,9 +128,8 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
+                <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -179,13 +148,25 @@
 <p>El advenimiento de <em>redes de entrega de contenido</em> (o CDNs, como las comerciales Akamai y Cloudflare, o la orientada a la sociedad civil Deflect) han tomado algo de la carga de estos servidores web distribuyendo copias del contenido a centros de datos de alrededor del mundo, de manera que pueda estar más cercano a tus dispositivos y de esa manera ser más rápido de alcanzar, mientras que mantienen los servidores de origen protegidos del acceso directo. Sin embargo, en la actualidad, los servidores CDN (y por lo tanto las organizaciones que los administran) necesitan que se confíe en ellos tanto por el servidor de origen como por tus dispositivos, y también necesitan ser alcanzables en todo momento.</p>
 <p>De nuevo desafortunadamente, hay situaciones en las cuales la conectividad general es escasa (en países subdesarrollados o regiones con poca cobertura, empobrecidas o rurales), cara (con algunos países cobrando más por tráfico internacional) o ha sido bloqueada activamente por un jugador estatal (explícitamente o como resultado de un apagón general). En estos casos, alcanzar a los servidores web de origen o incluso a los servidores CDN es dificultoso o imposible, y tu dispositivo no será capaz de obtener ese contenido - aún si de alguna forma fue capaz de accederlo unas pocas horas atrás y algunas calles nos separan de donde vivimos.</p>
 <p>Aquí es donde el Navegador CENO y Ouinet entran en juego. Este capítulo te introducirá a ellos.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-ceno-browser"><a class="header" href="#what-is-ceno-browser">What is Ceno Browser?</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="qué-es-el-navegador-ceno"><a class="header" href="#qué-es-el-navegador-ceno">¿Qué es el Navegador Ceno?</a></h1>
+<p>Ceno (abreviatura de <a href="https://censorship.no/">Censorship.no!</a>) es un navegador Web para dispositivos Android móviles (tales como teléfonos inteligentes y tablets) que usa un enfoque novedoso para eludir la censura en Internet y compartir contenido descargado entre toda(o)s la(o)s usuaria(o)s de manera <a href="https://es.wikipedia.org/wiki/Peer-to-peer">par a par</a> (P2P). Esto reduce la dependencia general en intercambios de red internacionales, y permite que el contenido Web frecuentemente solicitado persista en la red aún durante eventos de filtrado masivo y reducción forzada de ancho de banda.</p>
+<p>Lo que diferencia a Ceno de la mayoría de las otras iniciativas de elusión es que la(o)s usuaria(o)s pueden continuar compartiendo contenido Web aún cuando no exista conectividad (o esté extremadamente limitada) a través de las fronteras nacionales. Por lo tanto, Ceno está construido en anticipación al filtrado agresivo de Internet y el establecimiento de <a href="https://es.wikipedia.org/wiki/Intranet_nacional">intranets nacionales</a> para excluir a naciones de la Web.</p>
+<p>El Navegador Ceno está basado en una versión adaptada de <a href="https://www.mozilla.org/es-ES/firefox/mobile/">Firefox para Android</a>, un navegador popular, moderno, rico en características y seguro Gratis/Libre/de Código Abierto. Ceno extiende Firefox con <strong>Ouinet</strong>, la tecnología subyacente que permite compartir el contenido entre los dispositivos (descrita en secciones posteriores).</p>
+<h2 id="quién-desarrolla-ceno"><a class="header" href="#quién-desarrolla-ceno">¿Quién desarrolla Ceno?</a></h2>
+<p>The <em>Censorship.no!</em> project is run by <a href="https://equalit.ie/">eQualitie</a> in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][Universal Declaration of Human Rights]. Ceno and related technologies are developed as Free/Libre/Open Source software (<a href="https://github.com/censorship-no/" title="Ceno source code repositories">project source</a>), allowing anyone to use, study, share and enhance it. Please contact <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> in case of doubt or for further information.</p>
+<h2 id="para-quién-es"><a class="header" href="#para-quién-es">¿Para quién es?</a></h2>
+<p>Ceno es para toda(o)s, pero es particularmante conveniente para personas interesadas en contenido Web que es censurado en sus redes, y aquellos viviendo en paíes donde la conectividad a la Internet global es de calidad inconsistente, no confiable o cara. Fomenta y posibilita compartir contenido web entre usuaria(o)s, creando una red descentralizada de pares ayudándose entre sí.</p>
+<p>No necesitas ser usuaria(o) avanzada(o) de computadoras, ni aún entender cómo las redes par a par operan para usar Ceno. La experiencia de usuaria(o) es similar a operar un navegador Web estándar (La funcionalidad específica de Ceno está bien escondida bajo el capó).</p>
+<p>Sin embargo, Ceno puede generar más tráfico de Internet que tu navegador Web usual – ya que necesita hacer conocer a otra(o)s usuaria(o)s qué contenido Web está compartiendo con la red, y posiblemente entregar este contenido a quienes lo soliciten. Por lo tanto Ceno confía en una conectividad dentro del país moderadamente buena. Recomendamos usar Ceno cuando te conectes a Wi-Fi, no solo para evitar agotar los límites de datos móviles (si los tuvieras), sino también para aumentar las chances de ser capaz de entregar contenido Web a otra(o)s usuaria(o)s.</p>
+<blockquote>
+<p><strong>Advertencia:</strong> <em>Ceno no es una herramienta de anonimato.</em> De hecho, usar Ceno podría permitirle a otra(o)s conocer si has accedido o estás compartiendo cierto contenido Web. Por favor toma una cuidadosa consideración de los riesgos que puedes asumir al usar esta herramienta. Mira las secciones sobre <a href="intro/../concepts/public-private.html">navegación pública vs. privada</a> y <a href="intro/../concepts/risks.html">riesgos</a> para mayor información.</p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="qué-es-ouinet"><a class="header" href="#qué-es-ouinet">¿Qué es Ouinet?</a></h1>
 <p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> es una tecnología esencial que le permite al Navegador CENO compartir contenido Web con otros dispositivos. Ouinet se presenta en forma de código de computadora reutilizable (una biblioteca) que una aplicación como CENO puede usar para tornarse en participante en una red de nodos cooperativos que se comunican directamente (<a href="https://es.wikipedia.org/wiki/Peer-to-peer">par a par</a> o P2P) para ayudar a acceder y almacenar nuevo contenido Web, y solicitar y entregar contenido previamente accedido a otros.</p>
 <p>Ouinet está basada en una combinación y uso inteligentes de tecnologías existentes para lograr cada una de sus funcionalidades: la ubicación de otra(o)s participantes se hace con técnicas provenientes del mundo de la compartición de archivos (la tabla de hash distribuida de BitTorrent), la comunicación con ellos usa protocolos comunes Web y de compartición de archivos (solicitudes proxy HTTP y el µTP de BitTorrent), y estándares modernos de la industria afirman la seguridad de las comunicaciones y la autenticidad del contenido intercambiado (cifrado TLS y firmas Ed25519). Ouinet permite el reemplazo de tecnologías particulares con otras, de ser necesario (por ejemplo, algunos usos de µTP pueden ser reemplazados por los Transportes Conectables de Tor).</p>
 <p>En dispositivos móviles, Ouinet puede ser incluida dentro de aplicaciones de usuario final (como una biblioteca Android). En computadoras, puede ser usada por clientes Web normales, como navegadores (como proxy HTTP local).</p>
 <p>Al igual que el Navegador CENO, Ouinet está desarrollada por <a href="https://equalit.ie/">eQualitie</a> como software Gratis/Libre/de Código Abierto.</p>
-<h2 id="para-quién-es"><a class="header" href="#para-quién-es">¿Para quién es?</a></h2>
+<h2 id="para-quién-es-1"><a class="header" href="#para-quién-es-1">¿Para quién es?</a></h2>
 <p>Ouinet es mayormente útil para desarrolladora(e)s de software, creadora(e)s de contenido y publicistas que quieren habilitar a usuaria(o)s de sus aplicaciones compartir contenido descargado con otra(o)s usuaria(o)s. Esto reduce la demanda general en el servidor de aplicación y mejora la accesibilidad del contenido para usuaria(o)s viviendo en países que bloquean el acceso a ese servidor.</p>
 <p>Please note that Ouinet is an evolving experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur. We encourage you to reach out to us at <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>, test it and report back - your feedback is very welcome!</p>
 <blockquote>
@@ -765,43 +746,31 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-
-
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-
             </nav>
 
         </div>
 
-
-
-
-        <script>
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-
-
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
-
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-
-        <script>
+        <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
-
-    </div>
     </body>
 </html>
