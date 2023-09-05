@@ -142,9 +142,10 @@
                         <h1 id="censorshipno-manuel-dutilisation"><a class="header" href="#censorshipno-manuel-dutilisation">Censorship.no! Manuel d’utilisation</a></h1>
 <p>Ce manuel s’adresse aux utilisateurs du [Navigateur Ceno][Navigateur Ceno] et de ses technologies connexes, créés pour le projet [Censorship.no!][Censorship.no!] par [eQualitie][eQualitie].</p>
 <p>Si vous cherchez de la documentation technique, consultez le [dépôt de documentation de Ceno][Dépôt de documentation de Ceno], où vous trouverez des indications de lecture plus approfondie, des détails sur la mise en œuvre, ainsi que les [spécifications des protocoles][spécifications des protocoles].</p>
-<p>[Censorship.no!] : https://censorship.no/
+<p>[Navigateur Ceno] : https://github.com/censorship-no/ceno-browser
+[Censorship.no!] : https://censorship.no/
 [eQualitie] : https://equalit.ie/fr/
-[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/
+[Dépôt de documentation Ceno] : https://github.com/censorship-no/ceno-docs/
 [spécifications du protocole] : https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>Internet et le Web sont devenus de plus en plus importants pour les gens du monde entier comme source de toutes sortes d’information et comme moyen d’exercer leurs droits fondamentaux. Parallèlement, toutes sortes de censure et d’autres interférences des réseaux se sont multipliées (voir les rapports d’<a href="https://ooni.org/reports/" title="Observatoire ouvert des interférences réseau – Rapports de recherche">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Publications Magma">Magma</a>, <a href="https://censoredplanet.org/reports" title="Planète censurée – Rapports">Censored Planet</a>), tant de la part d’acteurs privés que de la part d’acteurs gouvernementaux.</p>
@@ -160,7 +161,7 @@
 <p>Ce qui distingue Ceno de la plupart des autres initiatives de contournement, c’est que les utilisateurs peuvent continuer à partager du contenu Web même si la connectivité est inexistante (ou extrêmement limitée) par-delà les frontières nationales. Ceno est donc conçu en prévision du filtrage agressif d’internet et de la mise en place d’[intranets nationaux][intranets nationaux] pour isoler les nations du Web.</p>
 <p>Le navigateur Ceno est construit sur une version adaptée de [Firefox pour Android][Firefox pour Android], un navigateur libre et à code source ouvert populaire, moderne, riche en fonctions et sécurisé. Ceno augmente les capacités de Firefox avec <strong>Ouinet</strong>, la technologie sous-jacente qui lui permet de partager du contenu entre appareils (décrite dans les sections suivantes).</p>
 <h2 id="qui-développe-ceno-"><a class="header" href="#qui-développe-ceno-">Qui développe Ceno ?</a></h2>
-<p>The <em>Censorship.no!</em> project is run by [eQualitie][eQualitie] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][Universal Declaration of Human Rights]. Ceno and related technologies are developed as Free/Libre/Open Source software (<a href="https://github.com/censorship-no/" title="Ceno source code repositories">project source</a>), allowing anyone to use, study, share and enhance it. Please contact <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> in case of doubt or for further information.</p>
+<p>Le projet <em>Censorship.no!</em> est géré par [eQualitie][eQualitie] pour soutenir les articles 18, 19 et 20 de la [Déclaration universelle des droits de la personne][Déclaration universelle des droits la personne]. Ceno et les technologies connexes sont développés en tant que logiciels libres et à code source ouvert (<a href="https://github.com/censorship-no/" title="Dépôts du code source de Ceno source">source du projet</a>), ce qui permet à quiconque de les utiliser, les examiner, les partager et les améliorer. En cas de doute ou pour de plus amples renseignements, contactez par courriel <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>.</p>
 <h2 id="À-qui-sadresse-ouinet-"><a class="header" href="#À-qui-sadresse-ouinet-">À qui s’adresse Ouinet ?</a></h2>
 <p>Ceno s’adresse à tous. Il est toutefois particulièrement utile pour les personnes qui s’intéressent à des contenus Web censurés sur leur réseau, et pour celles qui vivent dans des pays où la connectivité à l’internet mondial est irrégulière, peu fiable ou coûteuse. Il encourage et permet le partage de contenus Web entre utilisateurs, créant ainsi un réseau décentralisé de pairs qui s’entraident.</p>
 <p>Pas besoin d’être un utilisateur expert ou une utilisatrice experte en informatique ni même de comprendre le fonctionnement des réseaux pair à pair pour utiliser Ceno. L’expérience utilisateur ressemble à l’utilisation d’un navigateur Web habituel (la fonctionnalité propre à Ceno est en grande partie invisible).</p>
@@ -174,7 +175,7 @@
 [Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/android/
 [eQualitie] : https://equalit.ie/fr/
 [Déclaration universelle de droits de la personne] : https://www.un.org/fr/about-us/universal-declaration-of-human-rights
-[Ceno-repos]: https://github.com/censorship-no/</p>
+[ceno-repos] : https://github.com/censorship-no/</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="quest-ce-que-ouinet-"><a class="header" href="#quest-ce-que-ouinet-">Qu’est-ce que Ouinet ?</a></h1>
 <p>[Ouinet][Ouinet] est une technologie de base qui permet au Navigateur Ceno de partager du contenu Web avec d’autres appareils. Ouinet se présente sous la forme d’un code informatique réutilisable (une bibliothèque) qu’une application telle que Ceno peut utiliser pour participer à un réseau de nœuds coopératifs qui communiquent directement ([pair à pair][Pair à pair] pour faciliter l’accès aux nouveaux contenus Web et leur stockage, ainsi que pour demander et fournir à d’autres des contenus auxquels ils ont déjà accédé.</p>
 <p>Ouinet repose sur une ingénieuse combinaison de technologies existantes et sur leur utilisation pour accomplir chacune de ses fonctions : la localisation d’autres participants.tes se fait avec des techniques provenant du monde du partage de fichiers (la table de hachage distribuée de BitTorrent), la communication avec eux.elles fait appel à des protocoles Web et de partage de fichiers courants (les requêtes au mandataire HTTP et µTP de BitTorrent), et les normes modernes du secteur assurent la sécurité des communications et l’authenticité des contenus échangés (le chiffrement TLS et les signatures Ed25519). Ouinet permet au besoin de remplacer certaines technologies par d’autres (par exemple, certaines utilisations de µTP peuvent être remplacées par les transports enfichables de Tor).</p>
@@ -182,7 +183,7 @@
 <p>Comme c’est le cas du Navigateur Ceno, Ouinet est développé par [eQualitie][eQualitie] en tant que logiciel libre et à code source ouvert.</p>
 <h2 id="À-qui-sadresse-ouinet--1"><a class="header" href="#À-qui-sadresse-ouinet--1">À qui s’adresse Ouinet ?</a></h2>
 <p>Ouinet est surtout utile pour les développeurs de logiciels, les créateurs de contenu et les éditeurs qui souhaitent permettre aux utilisateurs et aux utilisatrice de leurs applications de partager avec d’autres le contenu récupéré. Cela réduit la demande globale sur le serveur d’application et améliore l’accessibilité du contenu pour les ceux et celles situés dans des pays où l’accès à ce serveur est bloqué.</p>
-<p>Please note that Ouinet is an evolving experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur. We encourage you to reach out to us at <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>, test it and report back - your feedback is very welcome!</p>
+<p>Notez que Ouinet est un projet expérimental qui évolue : dans certains scénarios, des fonctions pourraient ne pas fonctionner avec suffisamment de fiabilité, des bogues pourraient exister et des plantages se produire. Nous vous encourageons à nous contacter par courriel à <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>, à le tester et à nous faire part de vos commentaires. Ils sont les bienvenus.</p>
 <blockquote>
 <p><strong>Avertissement :</strong> <em>Ouinet n’est pas un outil d’anonymisation</em>. Si vous avez des doutes sur pertinence pour une tâche donnée, n’hésitez pas à nous contacter.</p>
 </blockquote>
@@ -190,11 +191,11 @@
 [Pair à pair] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair
 [eQualitie] : https://equalit.ie/fr/</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="guide-de-démarrage"><a class="header" href="#guide-de-démarrage">Guide de démarrage</a></h1>
-<p>Ceno Browser allows you to access any website on the Internet, even if it is censored in your country. Ceno uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others. <a href="intro/Ceno.html">Read more about Ceno</a>.</p>
+<p>Le Navigateur Ceno vous permet d’accéder à n’importe quel site Web sur Internet, même s’il est censuré dans votre pays. Ceno utilise une infrastructure pair à pair pour acheminer vos demandes, ainsi que pour stocker et partager le contenu récupéré avec d’autres. <a href="intro/ceno.html">En apprendre davantage sur Ceno</a>.</p>
 <h2 id="commencer"><a class="header" href="#commencer">Commencer</a></h2>
 <p>Vous aurez besoin d’un appareil Android :</p>
 <ol>
-<li>Install Ceno Browser from <a href="https://play.google.com/store/apps/details?id=ie.equalit.Ceno">Google Play</a>, <a href="https://github.com/censorship-no/Ceno-browser/releases">GitHub</a> or <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>No special permissions are needed</em>.</li>
+<li>Installez le Navigateur Ceno de [Google Play][ceno-gplay], [GitHub][ceno-gh] ou de [Paskoocheh][ceno-pask]. <em>Aucune autorisation particulière n’est nécessaire</em>.</li>
 <li>Lancez-le.</li>
 <li>Parcourez les pages normalement pour aider les autres utilisateurs et utilisatrices à y accéder ; si vous êtes préoccupé par la confidentialité d’une page ou si elle ne se charge pas comme prévu, utilisez un onglet privé (voir <a href="intro/../concepts/public-private.html">La navigation publique comparée à la navigation privée</a>).</li>
 <li>Touchez la notification de Ceno pour l’arrêter complètement.</li>
@@ -207,8 +208,11 @@
 <ul>
 <li>Consultez la <a href="intro/faq.html">Foire aux questions</a>.</li>
 <li>Consultez le <a href="intro/../browser/troubleshooting.html">guide de dépannage</a>.</li>
-<li>Contact us by writing to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>.</li>
+<li>Contactez-nous par courriel à <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>.</li>
 </ul>
+<p>[ceno-gplay] : https://play.google.com/store/apps/details?id=ie.equalit.ceno
+[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases
+[ceno-pask] : https://paskoocheh.com/tools/124/android.html</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="foire-aux-questions"><a class="header" href="#foire-aux-questions">Foire aux questions</a></h1>
 <h2 id="utilisation"><a class="header" href="#utilisation">Utilisation</a></h2>
 <h3 id="le-navigateur-ceno-peut-il-remplacer-mon-navigateur-actuel-chrome-firefox-ou-safari-"><a class="header" href="#le-navigateur-ceno-peut-il-remplacer-mon-navigateur-actuel-chrome-firefox-ou-safari-">Le Navigateur Ceno peut-il remplacer mon navigateur actuel (Chrome, Firefox ou Safari) ?</a></h3>
@@ -426,19 +430,19 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="utiliser-le-navigateur-ceno"><a class="header" href="#utiliser-le-navigateur-ceno">Utiliser le Navigateur Ceno</a></h1>
 <p>Ce chapitre vous donne quelques conseils sur l’utilisation du Navigateur Ceno pour ses fonctions liées à Ouinet. Gardez toujours à l’esprit que Ceno est fondé sur [Firefox pour Android][Firefox pour Android], donc vous devriez consulter les pages de [Firefox pour Android Assistance][Firefox pour Android Assistance] de Mozilla pour toutes questions génériques sur la navigation.</p>
 <p>Au besoin, des captures d’écran seront présentées pour illustrer le texte. Notez qu’elles pourraient différer légèrement de ce que vous voyez sur votre appareil, en raison, particulièrement, de la progression du développement de Ceno. Cette documentation est à jour pour la version 1.6.0 de Ceno.</p>
-<p>If your application exhibits behaviors substantially different from those described here, do not hesitate to contact us at <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> and report the issue.</p>
+<p>Si votre appli présente des comportements sensiblement différents de ceux décrits, n’hésitez pas à nous contacter par courriel à <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a> et à nous signaler le problème.</p>
 <p>[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/android/
 [Firefox pour Android Assistance] : https://support.mozilla.org/fr/products/mobile</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installer-ceno"><a class="header" href="#installer-ceno">Installer Ceno</a></h1>
 <p>Le Navigateur Ceno peut être installé comme suit :</p>
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.Ceno">Google Play</a> (<em>Ceno Browser</em> from <em>eQualitie</em>): the recommended source for most Android users.</li>
-<li><a href="https://github.com/censorship-no/Ceno-browser/releases">GitHub</a>: for Android devices without Google Play.</li>
-<li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: for users in countries blocking access to the previous channels.</li>
+<li>[Google Play][ceno-gplay] (<em>Navigateur Ceno</em> d’<em>eQualitie</em>) : la source recommandée pour la plupart des utilisateur(-trice)s Android.</li>
+<li>[GitHub][ceno-gh] : pour les appareils Android sans Google Play.</li>
+<li>[Paskoocheh][ceno-pask] : pour les utilisateur(-trice)s de pays qui bloquent l’accès aux moyens précédents.</li>
 </ul>
 <p>Ceno demande un appareil ARM64 ou ARM32 compatible Neon qui fonctionne au moins sous Android 4.1 « Jelly Bean ». Donc, la plupart des appareils mobiles sortis à partir de la fin 2012 devraient fonctionner. Ceno ne nécessite <em>aucune permission spéciale</em> pour fonctionner.</p>
 <blockquote>
-<p><strong>Warning:</strong> Please be <em>extremely skeptical</em> about installing Ceno Browser from sources other than the ones listed above. Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other Ceno and Ouinet users. If in doubt, please contact <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a> before installing a suspicious app.</p>
+<p><strong>Avertissement :</strong> Soyez <em>particulièrement sceptique</em> à l’idée d’installer le Navigateur Ceno de sources autres que celles indiquées ci-dessus. En raison de la nature de l’appli, ses utilisateurs potentiels pourraient devenir la cible de toutes sortes de versions fausses ou manipulées utilisées pour violer la vie privée des utilisateurs et utilisatrices ou pour attaquer d’autres utilisateurs ou utilisatrices de Ceno et Ouinet. En cas de doute, contacter par courriel <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a> avant d’installer une appli suspecte.</p>
 </blockquote>
 <h2 id="arrêter-ceno-complètement"><a class="header" href="#arrêter-ceno-complètement">Arrêter Ceno complètement</a></h2>
 <p>Chaque fois que vous démarrez l’appli, l’icône de Ceno apparaît dans la barre de notification de votre appareil. Cette icône représente le <em>service du Navigateur Ceno</em>, qui est la partie de Ceno qui fonctionne en permanence (même si vous ne naviguez pas) et qui permet à d’autres clients d’utiliser votre appareil comme un pont pour en récupérer du contenu n’importe quand.</p>
@@ -460,6 +464,9 @@
 <blockquote>
 <p><strong>Avertissement :</strong> Outre ses données, Android pourrait conserver d’autres traces de l’utilisation d’une appli, par exemple dans son journal système.</p>
 </blockquote>
+<p>[ceno-gplay] : https://play.google.com/store/apps/details?id=ie.equalit.ceno
+[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases
+[ceno-pask] : https://paskoocheh.com/tools/124/android.html</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="naviguer-de-façon-publique-ou-privée"><a class="header" href="#naviguer-de-façon-publique-ou-privée">Naviguer de façon publique ou privée</a></h1>
 <p>Comme décrit <a href="browser/../concepts/public-private.html">dans une section précédente</a>, Ceno offre deux modes de fonctionnement différents selon que vous souhaitez partager avec d’autres le contenu de votre navigation sur le Web (navigation publique) ou non (navigation privée).</p>
 <p>Ce paramètre est propre <em>à chaque onglet</em> que vous ouvrez dans le navigateur, c.-à-d. que vous pouvez avoir des onglets de navigation publique et des onglets de navigation privée. Par défaut, la navigation est publique au démarrage de Ceno ou si vous ouvrez un nouvel onglet (<em>Nouvel onglet</em> dans le menu principal de l’appli). Pour ouvrir un nouvel onglet en mode de navigation privée, choisissez simplement <em>Nouvel onglet privé</em> dans le menu principal.</p>
@@ -598,7 +605,7 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/Ceno-client
 </code></pre>
-<p>The command will start a container named <code>Ceno-client</code> that will run on every boot unless you explicitly tell it to stop. Please check the [Ceno Docker client documentation][Ceno-client-doc] for more information on how to manipulate the container.</p>
+<p>La commande lancera un conteneur nommé <code>ceno-client</code>qui s’exécutera à chaque démarrage à moins que vous ne lui demandiez explicitement de s’arrêter. Consultez la [documentation du client Docker de Ceno][ceno-client-doc] pour plus de précisions sur la façon de manipuler le conteneur.</p>
 <blockquote>
 <p>**Note : ** Ce client n’a aucun <em>Paramètres Ceno</em>. Quand il vous sera demandé ci-dessous d’accéder à cette page, ouvrez plutôt <a href="browser/../client/front-end.html">la frontale du client</a> qui comprend essentiellement les mêmes renseignements.</p>
 </blockquote>
@@ -668,13 +675,13 @@
 [Don’t kill my app!] (ne tuez pas mon appli) : https://dontkillmyapp.com/
 [docker] : https://fr.wikipedia.org/wiki/Docker_(logiciel)
 [docker-install] : https://docs.docker.com/engine/install/
-[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-client#running-the-client
+[ceno-client-doc] : https://github.com/censorship-no/ceno-docker-client#running-the-client
 [UPnP] : https://fr.wikipedia.org/wiki/Universal_Plug_and_Play
 [upnp-risks] : https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
 [CGNAT] : https://fr.wikipedia.org/wiki/Carrier-grade_NAT</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dépannage"><a class="header" href="#dépannage">Dépannage</a></h1>
 <p>Cette section vous donnera quelques conseils sur les choses à faire si différents problèmes connus surviennent avec Ceno et Ouinet. N’oubliez pas que ces projets sont expérimentaux et que leur fonctionnement est soumis à une multitude de facteurs qui nous échappent, tels la configuration et l’état particuliers de l’infrastructure du réseau, mais aussi le contenu que d’autres utilisateurs ont récupéré et les caractéristiques de leurs connexions.</p>
-<p>If problems still persist, please report them to <a href="mailto:Cenoers@equalit.ie">Cenoers@equalit.ie</a>. We will try to help you with them.</p>
+<p>Si les problèmes persistent, veuillez les signaler par courriel à <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>. Nous essaierons de vous aider.</p>
 <h2 id="il-ny-a-pas-dentrée-pour-ceno-dans-le-menu-de-lappli"><a class="header" href="#il-ny-a-pas-dentrée-pour-ceno-dans-le-menu-de-lappli">Il n’y a pas d’entrée pour Ceno dans le menu de l’appli</a></h2>
 <p>L’extension Ceno est peut-être encore en cours de chargement. Veuillez patienter.</p>
 <h2 id="tous-les-widgets-sont-grisés-dans-la-page-paramètres-de-ceno"><a class="header" href="#tous-les-widgets-sont-grisés-dans-la-page-paramètres-de-ceno">Tous les widgets sont grisés dans la page <em>Paramètres de Ceno</em></a></h2>
@@ -776,6 +783,7 @@
 <p>Le répertoire du cache statique externe, s’il est activé (Ceno ne l’utilise pas actuellement).</p>
 </li>
 </ul>
+<p>[Extension Ceno] : https://github.com/censorship-no/ceno-ext-settings/</p>
 
                     </main>
 
