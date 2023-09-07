@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-21 16:11-0700\n"
-"PO-Revision-Date: 2023-07-21 22:04+0000\n"
-"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"PO-Revision-Date: 2023-08-30 18:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "indexhtml/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -75,46 +75,56 @@ msgstr ""
 
 #: about.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | About"
-msgstr ""
+msgstr "متصفح Ceno | حول"
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
 msgid "How Ceno Browser Works"
-msgstr ""
+msgstr "كيف يعمل متصفح Ceno"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:149-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
 msgstr ""
+"في البلدان التي تقوم بتصفية الإنترنت، معظم حركة مرور الويب يتم توجيهها عبر "
+"التبادلات المركزية، مثل جوجل (Google)."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:157-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
 msgstr ""
+"يمنح هذا التصميم الرقيب ميزة في تحديد مواقع البروكسيات الشعبية وخوادم VPN "
+"والمرحلات وما إلى ذلك وحظرها؛"
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:165-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
 msgstr ""
+"في هذه الحالات، يكون الوصول إلى خوادم الويب الأصلية أمرًا صعبًا أو مستحيلًا، "
+"ولن يتمكن جهازك من الحصول على هذا المحتوى."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:173-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
-msgstr ""
+msgstr "Ceno هو متصفح ويب للجوال لتخزين محتوى الويب ومشاركته في أي مكان."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:181-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
 msgstr ""
+"ينشئ مستخدمو Ceno شبكات عالم صغير للاتصال ببعضهم البعض، وبعد ذلك إلى جسر "
+"خارج المنطقة الخاضعة للرقابة."
 
 #: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:189-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
 msgstr ""
+"بمجرد الوصول إلى موقع الويب من قبل مستخدم Ceno واحد، يتم تخزينه ومشاركته "
+"داخل البلد باستخدام نظير إلى نظير."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
@@ -128,6 +138,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف على "
+"المزيد في دليل المستخدم!</button></a><a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع ورقة Ouinet "
+"البيضاء.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
 msgid ""
@@ -150,5 +168,5 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"

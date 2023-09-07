@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-07-21 22:04+0000\n"
-"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"PO-Revision-Date: 2023-08-30 18:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -76,65 +76,71 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | Download"
-msgstr ""
+msgstr "متصفح Ceno | تنزيل"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:144-13
 msgid "Ceno Browser banner"
-msgstr ""
+msgstr "شعار متصفح Ceno"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:148-7
 msgid "Get Ceno Browser"
-msgstr ""
+msgstr "احصل على متصفح Ceno"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:149-3
 msgid ""
 "The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
 msgstr ""
+"الطريقة الأكثر أمانا لتثبيت متصفح Ceno على هاتف أندرويد (Android) الخاص بك "
+"هي من خلال متجر جوجل بلاي (Google Play):"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:151-15
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "احصل عليه من متجر جوجل بلاي (Google Play)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:152-19
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "or download the APK directly via GitLab:"
 msgstr ""
+"يمكنك أيضا تثبيت Ceno عبر F-Droid أو سوق Paskoocheh أو تنزيل APK مباشرة عبر "
+"GitLab:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:154-21
 msgid "Get it on F-droid"
-msgstr ""
+msgstr "احصل عليه من F-droid"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:157-17
 msgid "Get it on Paskoocheh"
-msgstr ""
+msgstr "احصل عليه من Paskoocheh"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:160-17
 msgid "Get it on GitLab"
-msgstr ""
+msgstr "احصل عليه من GitLab"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:174-15
 msgid "Direct Download"
-msgstr ""
+msgstr "تنزيل مباشر"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:175-15
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
 msgstr ""
+"للمستخدمين المتقدمين أو أولئك الذين لا يستطيعون تثبيت متصفح Ceno عبر الروابط "
+"أعلاه، يمكنك تنزيل أحدث APK مباشرة:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:176-17
 msgid "Ceno Browser 2.0.2"
-msgstr ""
+msgstr "متصفح Ceno 2.0.2"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:177-20
 msgid "Download (32-bit ARM)"
-msgstr ""
+msgstr "تنزيل (32 بت ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:178-20
 msgid "Download (64-bit ARM)"
-msgstr ""
+msgstr "تنزيل (64 بت ARM)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:180-17
 msgid ""
@@ -142,6 +148,9 @@ msgid ""
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
 "the certificate with the fingerprint shown below:"
 msgstr ""
+"قم بتشغيل هذا <a href=\"https://developer.android.com/studio/command-line/"
+"apksigner#usage-verify\">للتحقق</a>أن ملف APK يحتوي على توقيع صالح من "
+"الشهادة الموضحة أدناه:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:183-1
@@ -150,6 +159,9 @@ msgid ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
+"> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
+"CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
+"a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:185-17
 msgid ""
@@ -159,6 +171,11 @@ msgid ""
 "pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with "
 "fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
+"يمكنك أيضًا التحقق من <a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
+"txt.asc\">signatures</a> لـ <a href=\"https://dcomm.net.ua/package/ceno/"
+"sha256sums.txt\">file hashes</a>بالمقارنة مع <a href=\"https://pgp.mit.edu/"
+"pks/lookup?op=get&search=0xC7DCC123F0DDB862\">مفتاح PGP</a> ( ببصمة "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:207-9
 msgid ""
