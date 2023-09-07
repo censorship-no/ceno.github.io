@@ -5,8 +5,10 @@
         <meta charset="UTF-8">
         <title>Посібник користувача Censorship.no!</title>
         <meta name="robots" content="noindex" />
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -17,25 +19,29 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -51,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -63,14 +69,20 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
@@ -82,20 +94,42 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -115,6 +149,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -128,8 +163,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -140,8 +176,8 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="Посібник-користувача-censorshipno"><a class="header" href="#Посібник-користувача-censorshipno">Посібник користувача Censorship.no!</a></h1>
-<p>Цей посібник призначений для користувачів <a href="https://github.com/censorship-no/ceno-docs/">браузера Ceno</a> та повʼязаних із ним технологій, створених для проєкту <a href="https://censorship.no/">Censorship.no!</a> компанією <a href="https://equalit.ie/">eQualitie</a>.</p>
-<p>Якщо Ви шукаєте технічну документацію, ознайомтеся з <a href="https://github.com/censorship-no/ceno-docs/">репозиторієм документації Ceno</a>, де Ви отримаєте детальнішу інформацію щодо реалізації та <a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">специфікації протоколу</a>.</p>
+<p>Цей посібник призначений для користувачів <a href="https://gitlab.com/censorship-no/ceno-docs/">браузера Ceno</a> та повʼязаних із ним технологій, створених для проєкту <a href="https://censorship.no/">Censorship.no!</a> компанією <a href="https://equalit.ie/">eQualitie</a>.</p>
+<p>Якщо Ви шукаєте технічну документацію, ознайомтеся з <a href="https://gitlab.com/censorship-no/ceno-docs/">репозиторієм документації Ceno</a>, де Ви отримаєте детальнішу інформацію щодо реалізації та <a href="https://gitlab.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">специфікації протоколу</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Ознайомлення"><a class="header" href="#Ознайомлення">Ознайомлення</a></h1>
 <p>Інтернет та всесвітня павутина стають усе важливішими для людей у всьому світі як джерело різноманітної інформації та як спосіб здійснення фундаментальних прав людини. В той саме час, як останніми роками спостерігається зростання різновидів мережевої цензури та інших видів мережного втручання (дивіться звіти <a href="https://ooni.org/reports/" title="Open Observatory of Network Interference — Research reports">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Magma publications"> Magma</a>, <a href="https://censoredplanet.org/reports" title="Censored Planet – Reports">Censored Planet</a>) з боку як приватних, так і державних інституцій.</p>
 <p>Перегляд веб-ресурсів побудований так, що Ваші пристрої можуть звʼязуватися з певними компʼютерами, що називаються <strong>веб-серверами</strong> (якими керують виробники вмісту, видавці або постачальники Інтернет-послуг), які, в свою чергу, зберігають вміст, який Ви хочете отримати. Цей звʼязок синхронний – більше схожий на спілкування по телефону, ніж на обмін листами. На жаль, це вимагає, щоб потрібний Вам веб-сервер був підключений до мережі та мав достатньо ресурсів для спілкування з Вашим пристроєм у цей час.</p>
@@ -153,7 +189,7 @@
 <p>Ceno відрізняється від більшості інших рішень щодо обходу цензури тим, що користувачі можуть продовжувати обмінюватися мережевим вмістом навіть за відсутності (або вкрай обмеженої наявності) підключення через національні кордони. Таким чином, Ceno розроблено з розрахунком на жорстку фільтрацію Інтернету та розгорнуті <a href="https://en.wikipedia.org/wiki/National_intranet">національні внутрішні мережі</a>, що відгороджують націю від зовнішнього Інтернету.</p>
 <p>Браузер Ceno заснований на адаптованій версії <a href="https://www.mozilla.org/firefox/android/">Firefox для Android</a> – популярного сучасного, багатофункціонального та безпечного браузера з відкритим вихідним кодом. Ceno розширює Firefox за допомогою технології <strong>Ouinet</strong>, що дозволяє обмінюватись вмістом між пристроями (описано в наступних розділах).</p>
 <h2 id="Ким-розробляється-ceno"><a class="header" href="#Ким-розробляється-ceno">Ким розробляється Ceno?</a></h2>
-<p>Проєкт <em>Censorship.no!</em> керується компанією <a href="https://equalit.ie/">eQualitie</a> на підтримку статей 18, 19 та 20 <a href="https://www.un.org/en/universal-declaration-human-rights/">Загальної декларації прав людини</a>. Ceno та повʼязані з ним технології розроблені як безкоштовне програмне забезпечення з відкритим вихідним кодом (<a href="https://github.com/censorship-no/" title="Ceno source code repositories">вихідний код проєкту</a>), що дозволяє будь-кому використовувати, вивчати, поширювати та покращувати цей код. Звʼяжіться з нами за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>, якщо у Вас є сумніви чи потрібна додаткова інформація.</p>
+<p>Проєкт <em>Censorship.no!</em> керується компанією <a href="https://equalit.ie/">eQualitie</a> на підтримку статей 18, 19 та 20 <a href="https://www.un.org/en/universal-declaration-human-rights/">Загальної декларації прав людини</a>. Ceno та повʼязані з ним технології розроблені як безкоштовне програмне забезпечення з відкритим вихідним кодом (<a href="https://gitlab.com/censorship-no/" title="Ceno source code repositories">вихідний код проєкту</a>), що дозволяє будь-кому використовувати, вивчати, поширювати та покращувати цей код. Звʼяжіться з нами за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>, якщо у Вас є сумніви чи потрібна додаткова інформація.</p>
 <h2 id="Для-кого-це"><a class="header" href="#Для-кого-це">Для кого це?</a></h2>
 <p>Ceno призначений для всіх, але особливо зручний для тих людей, чий мережевий вміст підпадає під цензуру в мережі, а також для тих, хто живе в країнах, де підключення до глобального Інтернету є нестабільним, ненадійним або дорогим. Браузер Ceno дозволяє користувачам ділитися мережевим вмістом між собою, створюючи децентралізовану мережу вузлів, що допомагають один одному.</p>
 <p>Щоб використовувати Ceno, Вам не потрібно бути досвідченим користувачем чи розуміти принципи роботи однорангових мереж. З погляду користувача все працює практично так само, як і функціонування звичайного веб-браузера (специфічна для Ceno функціональність значною мірою прихована «під капотом»).</p>
@@ -162,7 +198,7 @@
 <p><strong>Увага:</strong> <em>Ceno не є засобом анонімності.</em> Фактично, використання Ceno може дозволити іншим дізнатися, чи Ви переглядали певний мережевий вміст, чи поширюєте його. Будь ласка, уважно вивчіть, які ризики Ви берете на себе, використовуючи цей інструмент. Для отримання додаткової інформації – ознайомтеся з розділами <a href="intro/../concepts/public-private.html">публічний та приватний перегляд сторінок</a> і <a href="intro/../concepts/risks.html">ризики</a>.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Що-таке-ouinet"><a class="header" href="#Що-таке-ouinet">Що таке Ouinet?</a></h1>
-<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> – це ключова технологія, яка дозволяє браузеру CENO обмінюватися мережевим вмістом з іншими пристроями. Ouinet поставляється у вигляді бібліотеки (набору методів і функцій), яку подібні програми, як то CENO можуть використовувати, щоб стати учасником однорангової (<a href="https://uk.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> або P2P) мережі, де вузли взаємодіють один з одним безпосередньо для забезпечення доступу до мережевого вмісту та його зберігання, а також для запиту та доставки раніше отриманого вмісту іншим користувачам.</p>
+<p><a href="https://gitlab.com/equalitie/ouinet/">Ouinet</a> – це ключова технологія, яка дозволяє браузеру CENO обмінюватися мережевим вмістом з іншими пристроями. Ouinet поставляється у вигляді бібліотеки (набору методів і функцій), яку подібні програми, як то CENO можуть використовувати, щоб стати учасником однорангової (<a href="https://uk.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> або P2P) мережі, де вузли взаємодіють один з одним безпосередньо для забезпечення доступу до мережевого вмісту та його зберігання, а також для запиту та доставки раніше отриманого вмісту іншим користувачам.</p>
 <p>Ouinet заснований на винахідливому поєднанні існуючих технологій для реалізації свого функціоналу: пошук інших учасників здійснюється за допомогою методів, що прийшли з обміну файлами (розподілені геш-таблиці BitTorrent), для звʼязку з ними використовуються стандартні веб-протоколи, файлообміну (проксі-запити HTTP та µTP BitTorrent), а галузеві стандарти забезпечують безпеку звʼязку та справжність вмісту (шифрування TLS та підписи Ed25519). Ouinet дозволяє за необхідності замінювати одні технології іншими (наприклад, у деяких випадках µTP можна замінити на транспорти Tor).</p>
 <p>На мобільних пристроях Ouinet може бути вбудований у додатки (як бібліотека Android). На компʼютерах він може використовуватися звичайними веб-клієнтами, зокрема браузерами (як локальний HTTP-проксі).</p>
 <p>Як і браузер CENO, Ouinet розроблений компанією <a href="https://equalit.ie/">eQualitie</a> як вільне та безкоштовне програмне забезпечення з відкритим вихідним кодом.</p>
@@ -177,7 +213,7 @@
 <h2 id="З-чого-почати"><a class="header" href="#З-чого-почати">З чого почати</a></h2>
 <p>Вам знадобиться пристрій Android:</p>
 <ol>
-<li>Встановіть браузер CENO з <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> або <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>Жодних особливих дозволів не потрібно</em>.</li>
+<li>Встановіть браузер CENO з <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://gitlab.com/censorship-no/ceno-browser/releases">GitHub</a> або <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>Жодних особливих дозволів не потрібно</em>.</li>
 <li>Запустіть його.</li>
 <li>Переглядайте сторінки як зазвичай, щоб допомогти іншим користувачам отримати до них доступ; якщо Вас непокоїть конфіденційність якоїсь сторінки або якщо вона завантажується не так, як очікувалося – використовуйте приватну вкладку (дивіться <a href="intro/../concepts/public-private.html">публічний або приватний перегляд</a>).</li>
 <li>Натисніть на сповіщення CENO, щоб повністю зупинити його.</li>
@@ -407,7 +443,7 @@
 <p>Браузер Ceno можна встановити у кілька способів:</p>
 <ul>
 <li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>Браузер Ceno</em> від <em>eQualitie</em>): рекомендоване джерело для більшості користувачів Android.</li>
-<li><a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a>: для пристроїв Android без Google Play.</li>
+<li><a href="https://gitlab.com/censorship-no/ceno-browser/releases">Gitlab</a>: для пристроїв Android без Google Play.</li>
 <li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: для користувачів у країнах, де заблокований доступ до попередніх платформ.</li>
 </ul>
 <p>Ceno вимагає ARM64 або сумісного з Neon ARM32 пристрою, що працює принаймні на Android 4.1 Jelly Bean, тому більшість мобільних пристроїв випущених з кінця 2012 року мають працювати. Ceno не потребує <em>спеціальних дозволів</em> для роботи.</p>
@@ -562,17 +598,17 @@
 <h2 id="Запуск-моста-на-компʼютері"><a class="header" href="#Запуск-моста-на-компʼютері">Запуск моста на компʼютері</a></h2>
 <p>Якщо Ваш компʼютер підтримує <a href="https://uk.wikipedia.org/wiki/Docker">контейнери Docker</a>, Ви можете запустити попередньо налаштований клієнт Ceno для роботи в режимі «міст». Якщо Docker ще не встановлено, дотримуйтесь інструкцій <a href="https://docs.docker.com/engine/install/">як встановити Docker Engine</a> на Вашій платформі. У похідних дистрибутивах Debian, таких як Ubuntu або Linux Mint, можна просто запустити: <code>sudo apt install docker.io</code></p>
 <p>Щоб розпакувати контейнер клієнта Ceno, достатньо виконати наступну команду в терміналі (вона виглядає лячно, але Ви можете просто скопіювати та вставити її в командний рядок):</p>
-<pre><code class="language-sh">sudo docker run --name Ceno-client \
+<pre><code class="language-sh">sudo docker run --name ceno-client \
   -dv Ceno:/var/opt/ouinet --network host \
   --restart unless-stopped equalitie/Ceno-client
 </code></pre>
 <p>Якщо операційна система Вашого компʼютера не GNU/Linux, команда повинна бути трохи іншою:</p>
-<pre><code class="language-sh">sudo docker run --name Ceno-client \
-  -dv Ceno:/var/opt/ouinet \
+<pre><code class="language-sh">sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
-  --restart unless-stopped equalitie/Ceno-client
+  --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>Команда запустить контейнер із назвою <code>ceno-client</code>, який запускатиметься при кожному завантаженні, доки Ви не зупините цю команду. Будь ласка, ознайомтеся з <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">документацією клієнта Docker Ceno</a> для отримання додаткової інформації про те, як керувати контейнером.</p>
+<p>Команда запустить контейнер із назвою <code>ceno-client</code>, який запускатиметься при кожному завантаженні, доки Ви не зупините цю команду. Будь ласка, ознайомтеся з <a href="https://gitlab.com/censorship-no/ceno-docker-client#running-the-client">документацією клієнта Docker Ceno</a> для отримання додаткової інформації про те, як керувати контейнером.</p>
 <blockquote>
 <p><strong>Примітка:</strong> У цього клієнта немає <em>налаштувань Ceno</em>: коли нижче будуть надані вказівки перейти на сторінку налаштувань, замість цього відкрийте <a href="browser/../client/front-end.html">інтерфейс клієнта</a>, який здебільшого містить ту саму інформацію.</p>
 </blockquote>
@@ -715,7 +751,7 @@
 <p><img src="client/images/front-end.png" alt="Малюнок: Зовнішній інтерфейс клієнта" /></p>
 <p>На сторінці відображаються такі елементи:</p>
 <ul>
-<li>Посилання для налаштування Ouinet як центру сертифікації (ЦС) у Вашому браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік.Вам це потрібно лише скориставшись звичайним браузером для тестування клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/HTTPS-проксі на <code>127.0.0.1:8077</code> та вручну запустити <a href="https://github.com/censorship-no/ceno-ext-settings/">Розширення Ceno</a>, щоб інʼєкція працювала. Ми радимо використовувати <em>окремий профіль браузера</em> для цієї мети.</li>
+<li>Посилання для налаштування Ouinet як центру сертифікації (ЦС) у Вашому браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік.Вам це потрібно лише скориставшись звичайним браузером для тестування клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/HTTPS-проксі на <code>127.0.0.1:8077</code> та вручну запустити <a href="https://gitlab.com/censorship-no/ceno-ext-settings/">Розширення Ceno</a>, щоб інʼєкція працювала. Ми радимо використовувати <em>окремий профіль браузера</em> для цієї мети.</li>
 </ul>
 <p>Зверніть увагу, жодна з цих дій не стосується браузера Ceno, оскільки він вже налаштований відповідно.</p>
 <ul>
@@ -746,31 +782,43 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript">
+
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
+
+    </div>
     </body>
 </html>
