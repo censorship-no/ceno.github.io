@@ -2,80 +2,77 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 14:38-0700\n"
-"PO-Revision-Date: 2023-08-16 08:46+0000\n"
-"Last-Translator: Rafał <rafal200725@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
-"indexhtml/pl/>\n"
-"Language: pl\n"
+"POT-Creation-Date: 2023-07-21 16:11-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: enm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 #: about.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "pl"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:89-17
 msgid "About"
-msgstr "O"
+msgstr ""
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:92-17
 msgid "Support"
-msgstr "Pomoc"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:97-17
 msgid "News"
-msgstr "Wiadomości"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:100-17
 msgid "Community"
-msgstr "Społeczność"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.ul.li:103-17
 msgid "Donate"
-msgstr "Wesprzyj"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
 msgid "Get Ceno"
-msgstr "Pobierz Ceno"
+msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div.div:107-10
 msgid "Download"
-msgstr "Pobierz"
+msgstr ""
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: about.html%2Bhtml.body.nav.div.div.div:109-1
 msgid "EN"
-msgstr "PL"
+msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: about.html%2Bhtml.body.nav.div.div.div.div:115-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
+"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
-"hreflang=\"pt_BR\" href=\"../pt_BR/about.html\">Português</a> <a "
-"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
-"href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> <a class=\"navbar-"
-"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" "
+"href=\"../pt_BR/about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru"
+"\" hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about.html\""
+">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
+"../ur/about.html\">اردو</a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | About"
-msgstr "Pobierz przeglądarkę Ceno"
+msgstr ""
 
 #: about.html%2Bhtml.body.main.div.h1:141-6
 msgid "How Ceno Browser Works"
@@ -119,14 +116,14 @@ msgstr ""
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: about.html%2Bhtml.body.main.div.div:197-1
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-"Learn more in the User Manual!</button></a> <a href=\"https://github.com/"
-"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
-"see the Ouinet whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Learn "
+"more in the User Manual!</button></a> <a href=\"https://github.com/equalitie/"
+"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
+"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
+"scroll fa-xl\"></span> For a more in-depth, technical guide, see the Ouinet "
+"whitepaper.</button></a>"
 msgstr ""
 
 #: about.html%2Bhtml.body.footer.div.p:217-9
@@ -138,52 +135,10 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ceno Browser jest projektem <a href=\"https://equalit.ie\">eQualit.ie</a> - "
-"kanadyjskiej firmy non-profit, która rozwija otwarte i wielokrotnego użytku "
-"systemy, koncentrując się na prywatności, bezpieczeństwie online i wolności "
-"stowarzyszeń. Rozwiązania technologiczne i innowacje są napędzane przez "
-"nasze <a href=\"https://equalit.ie/en/values/\">wartości</a>, które prowadzą "
-"nas do ochrony praw i aspiracji każdego człowieka w Internecie."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:219-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-
-#, fuzzy
-#~ msgid "CENO Browser | About"
-#~ msgstr "Pobierz przeglądarkę CENO"
-
-#, fuzzy
-#~ msgctxt "about.html+html.body.main.title:138-1"
-#~ msgid "CENO Browser | About"
-#~ msgstr "Pobierz przeglądarkę CENO"
-
-#, fuzzy
-#~ msgctxt "about.html+html.body.main.title:136-1"
-#~ msgid "CENO Browser | About"
-#~ msgstr "Pobierz przeglądarkę CENO"
-
-#, fuzzy
-#~ msgctxt "about.html+html.body.main.title:132-1"
-#~ msgid "CENO Browser | About"
-#~ msgstr "Pobierz przeglądarkę CENO"
-
-#, fuzzy
-#~ msgctxt "about.html+html.body.main.title:129-1"
-#~ msgid "CENO Browser | About"
-#~ msgstr "Pobierz przeglądarkę CENO"
-
-#~ msgid "How It Works"
-#~ msgstr "Jak to działa"
-
-#~ msgid "User Manual"
-#~ msgstr "Instrukcja obsługi"
-
-#, fuzzy
-#~ msgid "Get Involved!"
-#~ msgstr "Zaangażuj się!"

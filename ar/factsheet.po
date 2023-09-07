@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-07-31 23:06+0000\n"
-"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"PO-Revision-Date: 2023-08-30 18:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "website-factsheet/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: factsheet.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -76,11 +76,11 @@ msgstr ""
 
 #: factsheet.html%2Bhtml.body.main.title:138-1
 msgid "Ceno Browser | Fact Sheet"
-msgstr ""
+msgstr "متصفح Ceno | بيان حقائق"
 
 #: factsheet.html%2Bhtml.body.main.div.h1:140-5
 msgid "Ceno Fact Sheet"
-msgstr ""
+msgstr "بيان حقائق Ceno"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:144-1
 msgid "Download PDF"
@@ -88,11 +88,11 @@ msgstr "تحميل PDF"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:146-1
 msgid "Overview"
-msgstr ""
+msgstr "نظرة عامة"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:147-2
 msgid "What is Ceno?"
-msgstr ""
+msgstr "ما هو Ceno؟"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:148-2
 msgid ""
@@ -100,10 +100,12 @@ msgid ""
 "censorship methods and local Internet outages using peer-to-peer (p2p) "
 "technology"
 msgstr ""
+"أول متصفح جوال في العالم يتحايل على أساليب الرقابة الحالية على الإنترنت "
+"وانقطاع الإنترنت المحلي باستخدام تقنية نظير إلى نظير (P2P)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:150-2
 msgid "Ceno stands for:"
-msgstr ""
+msgstr "Ceno يمثل:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:152-9
 msgid ""
@@ -111,22 +113,24 @@ msgid ""
 "Internet that is free of intrusive and unjustified surveillance, censorship "
 "and oppression"
 msgstr ""
+"<strong>ce</strong>nsorship.<strong>no</strong>، تم تصوره من أجل إنترنت خال "
+"من التدخل و المراقبة والرقابة والقمع الغير مبررين"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:153-2
 msgid "Developed and launched by <a href=\"https://equalit.ie\">eQualitie</a>"
-msgstr ""
+msgstr "تم تطويره وإطلاقه بواسطة <a href=\"https://equalit.ie\">eQualitie</a>"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:155-2
 msgid "Works on:"
-msgstr ""
+msgstr "يعمل على:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:156-9
 msgid "Android mobile devices"
-msgstr ""
+msgstr "الأجهزة المحمولة التي تعمل بنظام أندرويد"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:158-2
 msgid "Get it on:"
-msgstr ""
+msgstr "احصل عليه على:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:160-9
 msgid ""
@@ -137,14 +141,19 @@ msgid ""
 "android.html?\">Paskoocheh</a>, and <a href=\"https://zanga.tech/tools/166/"
 "android.html\">Zanga.tech</a>"
 msgstr ""
+"<a href=\"https://censorship.no/download\"> موقع Ceno </a>, <a href=\"https"
+"://play.google.com/store/apps/details?id=ie.equalit.ceno\">جوجل بلاي</a>, <a "
+"href=\"https://github.com/censorship-no/ceno-browser/releases\">Github</a>, "
+"<a href=\"https://paskoocheh.com/tools/124/android.html?\">Paskoocheh</a>, "
+"and <a href=\"https://zanga.tech/tools/166/android.html\">Zanga.tech</a>"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:161-2
 msgid "No special permissions are required"
-msgstr ""
+msgstr "لا توجد أذونات خاصة مطلوبة"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:163-2
 msgid "Why:"
-msgstr ""
+msgstr "لماذا:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:165-9
 msgid ""
@@ -152,22 +161,28 @@ msgid ""
 "censored or Internet-restricted regions, and in countries where connectivity "
 "is unreliable or costly"
 msgstr ""
+"مصمم للسماح للأشخاص في أي مكان في العالم بالوصول إلى محتوى الويب في المناطق "
+"الخاضعة للرقابة أو تلك التي يكون فيها الوصول إلى الإنترنت مقيدًا، وفي "
+"البلدان التي يكون الاتصال فيها غير موثوق به أو مكلفًا"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:166-2
 msgid ""
 "Can be used to create a bridge for others to access censored or restricted "
 "content"
 msgstr ""
+"يمكن استخدامه لإنشاء جسر للآخرين للوصول إلى المحتوى الخاضع للرقابة أو المحظور"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:168-2
 msgid "So what?"
-msgstr ""
+msgstr "ثم ماذا؟"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:170-2
 msgid ""
 "Already helping thousands of civilians, NGOs, investigative journalists and "
 "independent media globally to access and share web content"
 msgstr ""
+"يساعد Ceno الآلاف من المدنيين والمنظمات غير الحكومية والصحفيين الاستقصائيين "
+"ووسائل الإعلام المستقلة على مستوى العالم للوصول إلى محتوى الويب ومشاركته"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:171-2
 msgid ""
@@ -175,47 +190,61 @@ msgid ""
 "agents, even during media censorship events, shutdowns, natural disruptions, "
 "unrest, conflict, and war"
 msgstr ""
+"يظل محتوى Ceno مستقرًا ولا يمكن للوكلاء الخارجيين إزالته بالقوة، حتى أثناء "
+"أحداث الرقابة على وسائل الإعلام و الإنقطاعات و الاضطرابات الطبيعية و الفتن و "
+"الصراعات والحروب"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:172-2
 msgid ""
 "Ceno’s p2p routing and distribution of storage can reduce bandwidth and "
 "energy use"
 msgstr ""
+"يمكن أن يؤدي التوجيه من نظير إلى نظير وتوزيع وحدات التخزين الخاص بـ Ceno إلى "
+"تقليل النطاق الترددي واستهلاك الطاقة"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:173-2
 msgid ""
 "Performance improves with scale (unlike the proxy/virtual private network "
 "(VPN) model); more users reduces latency and increases storage"
 msgstr ""
+"يتحسن الأداء مع زيادة الإستخدام (على عكس نموذج الوكيل و نموذج الشبكة "
+"الافتراضية الخاصة (VPN))؛ كلما زاد عدد المستخدمين كلما قل وقت الاستجابة و "
+"ازدادت مساحة التخزين"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:175-2
 msgid "How:"
-msgstr ""
+msgstr "كيف:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:177-2
 msgid ""
 "Works like BitTorrent - pulling, reserving and sharing content from many "
 "networked sources rather than from one web server source - but is a browser"
 msgstr ""
+"يعمل Ceno مثل بت تورنت - حيث يقوم بسحب المحتوى وحجزه ومشاركته من العديد من "
+"المصادر المتصلة بالشبكة بدلاً من مصدر خادم ويب واحد - ولكنه متصفح"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:178-2
 msgid ""
 "Underlying decentralized p2p network uses established open-source Ouinet "
 "library and BitTorrent protocols, making it resilient and reliable"
 msgstr ""
+"تستخدم شبكة نظير إلى نظير اللامركزية الأساسية مكتبة Ouinet مفتوحة المصدر "
+"وبروتوكولات بت تورنت، مما يجعلها مرنة وموثوقة"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:179-2
 msgid "Looks and feels like other browsers"
-msgstr ""
+msgstr "يبدو وكأنه أي متصفح آخر"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:180-2
 msgid ""
 "Equipped to share cached content offline and on local area networks (LANs)"
 msgstr ""
+"مُجهز لمشاركة المحتوى المخزن مؤقتًا في وضع عدم الاتصال وعلى الشبكات المحلية "
+"(LAN)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:182-2
 msgid "Who is eQualitie?"
-msgstr ""
+msgstr "من هي eQualitie؟"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:184-9
 msgid ""
@@ -223,104 +252,120 @@ msgid ""
 "reusable systems and tools since 2010, with a focus on online privacy, "
 "resilience and self-determination"
 msgstr ""
+"هي شركة أمان رقمي مقرها في مونتريال تطور أنظمة وأدوات مفتوحة المصدر وقابلة "
+"لإعادة الاستخدام منذ عام 2010، و تركز على الخصوصية عبر الإنترنت والمرونة "
+"وتقرير المصير"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:185-2
 msgid "Maintains the <a href=\"https://deflect.ca\">Deflect.ca</a> service"
-msgstr ""
+msgstr "تحافظ على خدمة <a href=\"https://deflect.ca\">Deflect.ca</a>"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:186-2
 msgid ""
 "Leads several initiatives focused on free and secure communications in "
 "authoritarian states"
 msgstr ""
+"تقود العديد من المبادرات التي تركز على الاتصالات الحرة والآمنة في الدول "
+"الاستبدادية"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:187-2
 msgid "Founded by Dmitri Vitaliev"
-msgstr ""
+msgstr "أسسها ديمتري فيتالييف"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:189-2
 msgid "In use today:"
-msgstr ""
+msgstr "قيد الاستخدام اليوم:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:191-9
 msgid "<strong>Average monthly users:</strong> 10,000+"
-msgstr ""
+msgstr "<strong>متوسط المستخدمين الشهريين:</strong> أكثر من 10‎ 000"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:192-2
 msgid "<strong>New monthly users:</strong> 10,000"
-msgstr ""
+msgstr "<strong>المستخدمون الشهريون الجدد:</strong> 10‎ 000"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:193-2
 msgid ""
 "<strong>Majority users by country:</strong> Ukraine 48%; Russia 17%; Iran "
 "15%; Myanmar 5%; Poland, US and Germany 3%"
 msgstr ""
+"<strong>غالبية المستخدمين حسب البلد:</strong> أوكرانيا 48٪; روسيا 17٪ ؛ "
+"إيران 15٪; ميانمار 5٪; بولندا والولايات المتحدة وألمانيا 3٪"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:197-1
 msgid "How Ceno Works"
-msgstr ""
+msgstr "كيف يعمل Ceno"
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:204-17
 msgid "A mobile user in NYC reads a BBC.com news article on her Ceno Browser."
 msgstr ""
+"مستخدمة للهاتف المحمول في مدينة نيويورك تقرأ مقالا إخباريا على BBC.com في "
+"متصفح Ceno الخاص بها."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:213-17
 msgid "Ceno signs, caches and decentralizes the article content."
-msgstr ""
+msgstr "يقوم Ceno بالتوقيع على محتوى المقال وتخزينه مؤقتًا و جعله لامركزيًا."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:222-17
 msgid ""
 "Ceno users everywhere access and read the same article on their mobiles, "
 "despite censorship or outages, and thereby share it with other Ceno users."
 msgstr ""
+"يقوم مستخدمو Ceno في كل مكان بالوصول إلى نفس المقالة وقراءتها على هواتفهم "
+"المحمولة، على الرغم من الرقابة أو الانقطاعات، وبالتالي مشاركتها مع مستخدمي "
+"Ceno الآخرين."
 
 #: factsheet.html%2Bhtml.body.main.div.section.div:226-2
 msgid "Learn more in the User Manual!"
-msgstr ""
+msgstr "تعرف على المزيد في دليل المستخدم!"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:232-1
 msgid "Numbers"
-msgstr ""
+msgstr "أرقام"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:234-1
 msgid "Ceno to April 2022"
-msgstr ""
+msgstr "Ceno إلى أبريل 2022"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:236-2
 msgid "Downloads from Google Play Store: 33,297"
-msgstr ""
+msgstr "التنزيلات من متجر جوجل بلاي: ‎33 297"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:237-2
 msgid "Installs from alternative marketplaces: 6,514"
-msgstr ""
+msgstr "التثبيتات من أسواق التطبيقات الأخرى: ‎6 514"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:238-2
 msgid "Pulls from Docker Hub: 597"
-msgstr ""
+msgstr "السحب من Docker Hub: 597"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:239-2
 msgid "Cloned from GitHub repositories: 1,768"
-msgstr ""
+msgstr "مستنسخ من مستودعات ‎ GitHub:‎ 1 768‎‏"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:240-2
 msgid "Unique participants in March 2022: 28,914"
-msgstr ""
+msgstr "المشاركون الفريدون في مارس 2022: 28‎ 914"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:241-2
 msgid ""
 "Ceno bridges worldwide: 25 (6 in Ukraine, 9 in Russia and others in the "
 "Middle East, Eastern Europe and Asia)"
 msgstr ""
+"جسور Ceno في جميع أنحاء العالم: 25 (6 في أوكرانيا ، 9 في روسيا وغيرهم في "
+"الشرق الأوسط وأوروبا الشرقية وآسيا)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.ul.li:242-2
 msgid ""
 "Bootstrap servers to ensure that in-country nodes can use BitTorrent during "
 "complete network shutdowns: 8 (in Eastern Europe, Myanmar, Iran and Russia)"
 msgstr ""
+"خوادم التمهيد للتأكد من أن العقد داخل البلاد يمكنها استخدام بت تورنت أثناء "
+"إنقطاع الشبكة بالكامل: 8 (في أوروبا الشرقية وميانمار وإيران وروسيا)"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:244-1
 msgid "Ceno Analytics"
-msgstr ""
+msgstr "تحليلات Ceno"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:245-2
 msgid ""
@@ -328,6 +373,9 @@ msgid ""
 "each user (served via injectors and received from the p2p network) and how "
 "much each user’s specific device has shared with other users."
 msgstr ""
+"يعرض متصفح Ceno الموارد المقدمة مباشرة من الأصل لكل مستخدم (يتم تقديمها عبر "
+"المحاقن و استلامها من شبكة نظير إلى نظير) ومقدار ما شاركه جهاز معين لكل "
+"مستخدم مع مستخدمين آخرين."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:246-2
 msgid ""
@@ -335,6 +383,9 @@ msgid ""
 "number of reachable bridge nodes and origin sources in the DHT, and (ii) the "
 "bandwidth and number of distinct web resources served by injector servers."
 msgstr ""
+"تتضمن مقاييس الأداء الرئيسية لإصدار Ceno الأبيض (1) عدد عقد الجسر التي يمكن "
+"الوصول إليها والمصادر الأصلية في جدول التجزئة، و (2) النطاق الترددي وعدد "
+"موارد الويب المعينة التي تخدمها خوادم الحاقن."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:247-2
 msgid ""
@@ -345,6 +396,11 @@ msgid ""
 "of network injectors, (ii) country of origin and (iii) queries of the "
 "distributed hash table for unique device identifiers."
 msgstr ""
+"يمكن تصميم المقاييس الأخرى وتطويرها لرؤية أفضل و تحسين قياس الأداء، مع "
+"مراعاة وظيفة اللامركزية في Ceno. يمكن تقدير المشاركة عن كثب دون تحديد هوية "
+"المستخدمين من خلال (1) مُعَرِّفات الشبكة ذات الأسماء المستعارة واستخدامها "
+"لشبكة المحاقن و (2) بلد المنشأ و (3) استعلامات جدول تجزئة التلبيد لمُعَرِّ"
+"فات الجهاز المحدد."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:248-2
 msgid ""
@@ -352,10 +408,13 @@ msgid ""
 "users robust privacy-respecting analytics that measure metrics including "
 "distributed cache usage from the user’s vantage point."
 msgstr ""
+"تتم دراسة دمج حزمة أدوات تطوير البرمجيات Clean Insights كطريقة لمنح "
+"المستخدمين تحليلات قوية و تحترم الخصوصية، و تقيس المقاييس بما في ذلك استخدام "
+"ذاكرة التخزين المؤقت الموزعة من وجهة نظر المستخدم."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:250-1
 msgid "Ouinet in April 2022"
-msgstr ""
+msgstr "Ouinet في أبريل 2022"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:251-2
 msgid ""
@@ -363,10 +422,12 @@ msgid ""
 "to the decentralized content-sharing network, from more than 30,000 unique "
 "websites."
 msgstr ""
+"قدمت حاقنات Ouinet ما يقرب من 2 مليون صفحة (602 جيجابايت من البيانات) إلى "
+"شبكة مشاركة المحتوى اللامركزية، من أكثر من ‎30 000 موقع فريد."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:255-1
 msgid "Internet shutdowns"
-msgstr ""
+msgstr "إنقطاعات الإنترنت"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:256-9
 msgid ""
@@ -374,6 +435,9 @@ msgid ""
 "restriction scenarios. Precise technical information on shutdowns is often "
 "missing from media coverage. A shutdown can refer to the following:"
 msgstr ""
+"إنقطاعات الإنترنت هو مصطلح واسع يغطي سيناريوهات مختلفة لتقييد الوصول إلى "
+"الإنترنت. غالبًا ما تكون المعلومات الفنية الدقيقة حول عمليات القطع مفقودة من "
+"التغطية الإعلامية. يمكن أن يشير إنقطاع ما إلى ما يلي:"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:258-9
 msgid ""
@@ -385,6 +449,12 @@ msgid ""
 "transit connections are artificially throttled (e.g., Indian Kashmir in 2019–"
 "2020 and Cuba)."
 msgstr ""
+"<strong>المستوى 1:</strong> فشل كلي أو جزئي في خدمات الإنترنت نتيجة الرقابة "
+"أو الهجمات الإلكترونية أو الكوارث الطبيعية أو إجراءات أو أخطاء خدمات الشرطة "
+"أو الأمن. يتعامل Ceno مع سيناريوهات الرقابة الشديدة على الشبكة، عندما تكون "
+"الشبكات الافتراضية الخاصة غير متاحة بشكل عام (على سبيل المثال، روسيا في عام "
+"2022 و بيلاروسيا في عام 2020 و إيران في عام 2019) أو عندما يتم خنق اتصالات "
+"النقل الدولي بشكل مفتعل (على سبيل المثال، كشمير الهندية في 2019-2020 وكوبا)."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:259-9
 msgid ""
@@ -393,6 +463,10 @@ msgid ""
 "country are accessible, yet the local or national network continues to "
 "function. Ceno continues to work in these localized scenarios."
 msgstr ""
+"<strong>المستوى 2:</strong> حظر اتصالات النقل الدولي (على سبيل المثال، "
+"كازاخستان في عام 2021)، بحيث لا يمكن الوصول إلى أي خوادم أو خدمات موجودة "
+"خارج البلد، ومع ذلك تستمر الشبكة المحلية أو الوطنية في العمل. يواصل Ceno "
+"العمل في هذه السيناريوهات المحلية."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p.ul.li:260-9
 msgid ""
@@ -401,6 +475,10 @@ msgid ""
 "still works peer to peer when devices remain powered and are in close "
 "proximity."
 msgstr ""
+"<strong>المستوى 3:</strong> عندما تتوقف الكهرباء عن العمل، كما هو الحال "
+"أثناء الكوارث الوطنية وفي زمن الحرب (على سبيل المثال، ماريوبول في عام 2022). "
+"لا يزال Ceno يعمل من نظير إلى نظير عندما تظل الأجهزة تعمل وتكون على مقربة من "
+"بعضها."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:262-9
 msgid ""
@@ -411,6 +489,10 @@ msgid ""
 "networks – across neighborhoods, regions and nations – from international "
 "connectivity."
 msgstr ""
+"أدخل عدد متزايد من البلدان تقنيات متطورة للمراقبة وتصفية الشبكات لتقويض "
+"الأساليب المتواجدة للتحايل على الرقابة وتقييد الاتصالات والتدفق الحر "
+"للمعلومات على الإنترنت. لجأ بعضهم إلى قطع شبكات بالكامل - في أحياء ومناطق "
+"ودول - عن الاتصال الدولي."
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:263-9
 msgid ""
@@ -421,10 +503,15 @@ msgid ""
 "partnerships with ISP for refraction networking, and so on) is no longer "
 "sufficient to ensure connectivity and digital content propagation."
 msgstr ""
+"تتطلب معظم تقنيات التحايل المستخدمة اليوم من المستخدم الاتصال أولاً بمُرَحِّ"
+"ل موجود في منطقة غير خاضعة للرقابة. لم تعد لعبة ”القط والفأر“ بين الرقابة و "
+"أسلوب التحايل (مع لجوء الأخير إلى التوزيع الإبداعي للوكلاء و تظليل حركة "
+"المرور والأضرار الجانبية و الشراكات مع مزودي خدمة الإنترنت من أجل شبكات "
+"إرتدادية وما إلى ذلك) كافية لضمان الاتصال و انتشار المحتوى الرقمي."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:266-1
 msgid "How Ceno side-steps censorship"
-msgstr ""
+msgstr "كيف يتجاوز Ceno الرقابة"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:267-9
 msgid ""
@@ -437,20 +524,29 @@ msgid ""
 "environments. Wider adoption will ensure more efficient, low latency and "
 "effective decentralized peer-to-peer communications and distributed caching."
 msgstr ""
+"في النهاية، أساليب الرقابة الحالية لها نقطة فشل وحيدة: يحتاج المستخدمون إلى "
+"المرور عبر جدار الحماية حيث يراقب الرقيب. كما شوهد في إيران في نونبر 2019، "
+"وبيلاروسيا في 2020، وكازاخستان في 2021، وأثناء قطع الاتصال بالإنترنت غير "
+"المقيد في روسيا هذا العام، تعمل طرق التحايل بشكل أقل وأقل للمستخدمين في هذه "
+"البلدان. في هذه البيئات، أثبت Ceno نفسه كحل فعال. و سيضمن الاعتماد عليه على "
+"نطاق أوسع اتصالات أكثر كفاءة مع استجابة أسرع و مزيد من الفعالية في الامركزية "
+"من نظير إلى نظير والتخزين المؤقت الموزع."
 
 #: factsheet.html%2Bhtml.body.main.div.section.h2:271-1
 msgid "User comments"
-msgstr ""
+msgstr "تعليقات المستخدمين"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:272-1
 msgid "Russia"
-msgstr ""
+msgstr "روسيا"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:273-9
 msgid ""
 "“Nice browser. Without VPN I was able to open blocked resources. But it's "
 "also useful when you don't have connection.”"
 msgstr ""
+"”متصفح جميل. بدون VPN تمكنت من فتح الموارد المحظورة. ولكنه مفيد أيضًا عندما "
+"لا يكون لديك اتصال.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:274-2
 msgid ""
@@ -465,16 +561,27 @@ msgid ""
 "besides helping to access websites, it also looks quite innocent which is "
 "great.”"
 msgstr ""
+"”بما أن روسيا تهدد بحظر الشبكات الافتراضية الخاصة، فإن Ceno سيكون واعدًا. "
+"لأنه بالنسبة إلى مزودي خدمة الإنترنت يشبه  حركة مرور التورنت، و التورنت أمر "
+"طبيعي جدًا في روسيا على عكس الدول الغربية حيث يتم احترام حقوق النشر فعلًا. "
+"علا وة على ذلك في موسكو بدأت الشرطة في مطالبة الناس بإظهار هواتفهم لرؤية "
+"التطبيقات الموجودة لديك. حدث لي هذا النوع من المراقبة. يتفقدون الشبكات "
+"الإفتراضية الخاصة أو برامج المراسلة مثل سيجنال أو تيليجرام. ويبدو Ceno "
+"كمتصفح عادي، لذلك عندما سألوا ما هو قلت إنه متصفح، لا مشكلة و لا أسئلة. لقد "
+"اخترت فقط مسح تاريخ التصفح بانتظام عند الخروج من التطبيق. لذا بالإضافة إلى "
+"المساعدة في الوصول إلى مواقع الويب يبدو أيضًا عاديًا تمامًا وهذا أمر رائع.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:275-2
 msgid ""
 "“Thanks for a great product. Your browser opens the site http://meduza.io "
 "much faster than the app from @meduzaproject.”"
 msgstr ""
+"”شكرا على المنتج الرائع. يفتح متصفحك الموقع http://meduza.io بشكل أسرع بكثير "
+"من التطبيق من @meduzaproject.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:277-1
 msgid "Myanmar"
-msgstr ""
+msgstr "ميانمار"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:278-2
 msgid ""
@@ -482,22 +589,29 @@ msgid ""
 "see that it works well with this app. This is our digital rights. So I will "
 "continue to use it sometimes.”"
 msgstr ""
+"”كان هناك الكثير من الإزعاج بسبب المواقع المحجوبة. من الجيد أن ترى أنه يعمل "
+"بشكل جيد مع هذا التطبيق. هذه حقوقنا الرقمية. لذلك سأستمر في استخدامه في بعض "
+"الأحيان.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:279-2
 msgid ""
 "“There are more features I'd like to see in the app, but it is totally a "
 "convenient and useful application.”"
 msgstr ""
+"”هناك المزيد من الميزات التي أود أن أراها في التطبيق، لكنه تطبيق مناسب ومفيد "
+"تمامًا.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.h3:281-1
 msgid "Iran"
-msgstr ""
+msgstr "إيران"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:282-2
 msgid ""
 "“This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran. Please keep it going and make it better and better. Thank you.”"
 msgstr ""
+"”هذا التطبيق هو أحد آمالنا القليلة في أوقات الاضطرابات الخطيرة للإنترنت في "
+"إيران. يرجى جعله يستمر في العمل وجعله أفضل وأفضل. شكرًا لكم.“"
 
 #: factsheet.html%2Bhtml.body.main.div.section.p:283-2
 msgid ""
@@ -505,6 +619,9 @@ msgid ""
 "possibility of free use of the Internet and everything is filtered by the "
 "government, even filter breakers.”"
 msgstr ""
+"”إنه متصفح جيد، خاصة بالنسبة لنا نحن الإيرانيين، الذين ليس لديهم إمكانية "
+"استخدام الإنترنت بحرية، وكل شيء يتم تصفيته من قبل الحكومة، حتى أدوات تجاوز "
+"التصفية.\""
 
 #: factsheet.html%2Bhtml.body.footer.div.p:302-9
 msgid ""
