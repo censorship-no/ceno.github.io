@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 12:40-0700\n"
-"PO-Revision-Date: 2023-09-15 18:49+0000\n"
+"PO-Revision-Date: 2023-09-19 04:46+0000\n"
 "Last-Translator: yasmine <yasmeenmr6@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/ar/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -87,8 +87,8 @@ msgid ""
 "possible. Ceno is a completely Free/Libre/Open Source project, and there are "
 "many ways to contribute!"
 msgstr ""
-"يسعدنا دعمك لجعل متصفح Ceno مفيدًا ومتاحاً للوصول قدر الإمكان. Ceno هو مشروع "
-"مجاني بالكامل، حر ومفتوح المصدر، وهناك العديد من الطرق للمساهمة!"
+"نرجو دعمك في جعل متصفح Ceno مفيداً ويمكن الوصول إليه قدر الإمكان. Ceno هو "
+"مشروع مجاني بالكامل، حر ومفتوح المصدر، وهناك العديد من الطرق للمساهمة!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:151-17
 msgid "Translations"
@@ -100,7 +100,7 @@ msgid ""
 "We use Weblate to crowdsource translations."
 msgstr ""
 "ساعد في ترجمة تطبيق متصفح Ceno وامتداد الويب ودليل المستخدم والموقع "
-"الإلكتروني! نحن نستخدم Weblate للترجمات التعاونية."
+"الإلكتروني! نحن نستخدم Weblate للترجمة الجماعية."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:154-13
 msgid ""
@@ -108,9 +108,9 @@ msgid ""
 "contact form below) if you're interested in becoming a reviewer for "
 "translation(s) in your language(s)."
 msgstr ""
-"إذا كنت مهتمًا بأن تصبح مراجعًا للترجمة (الترجمات) بلغتك (لغاتك)، يرجى "
-"الاتصال بفريق Ceno على cenoers [at] equalit [dot] ie (أو ملء استمارة الاتصال "
-"أدناه) ."
+"إذا كنت مهتمًا بأن تصبح مراجعًا للترجمة (الترجمات) باللغة (أو اللغات) التي "
+"تتحدثها، يرجى الاتصال بفريق Ceno على cenoers [at] equalit [dot] ie (أو ملء "
+"استمارة الاتصال أدناه) ."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:155-13
 msgid ""
@@ -160,7 +160,7 @@ msgstr "cenoers [at] equalit [dot] ie"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:172-17
 msgid "Take a survey"
-msgstr "المشاركة في استطلاع"
+msgstr "شارك في استطلاع الرأي"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:183-17
 msgid "Source Code"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:190-17
 msgid "Browse our Github"
-msgstr "تصفح جيثب/ Github الخاص بنا"
+msgstr "تصفح جيثَب/ Github الخاص بنا"
 
 #: help.html%2Bhtml.body.main.div.section.h2:203-1
 msgid "Run a Bridge Node"
@@ -242,10 +242,10 @@ msgid ""
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
 "ouinet --network host --restart unless-stopped equalitie/ceno-client</code>"
 msgstr ""
-"بدلاً من ذلك وباستخدام أمر واحد فقط، يمكنك إنشاء جسر على جهاز الكمبيوتر "
-"الخاص بك أو على خادمك الافتراضي الخاص:<code>sudo docker run --name ceno-"
-"client -dv ceno:/var/opt/ouinet --network host --restart unless-stopped "
-"equalitie/ceno-client</code>"
+"بدلاً من ذلك وبأمر واحد فقط، يمكنك إنشاء جسر على جهاز الكمبيوتر الخاص بك أو "
+"على خادمك الافتراضي الخاص:<code>sudo docker run --name ceno-client -dv ceno:/"
+"var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
+"client</code>"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:236-3
 msgid "Open a portal to the internet"
@@ -265,8 +265,8 @@ msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
-"قم بإنشاء وفتح ملف تعريف فايرفوكس Firefox جديد، وقم بتعيين الوكيل على المضيف "
-"المحلي، المنفذ 8077."
+"قم بإنشاء وفتح ملف تعريف Firefox جديد ، وقم بتعيين الوكيل على المضيف المحلي ،"
+" المنفذ 8077."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:254-3
 msgid "Thank you for growing the network!"
