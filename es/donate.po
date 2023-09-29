@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"POT-Creation-Date: 2023-09-29 16:08-0700\n"
 "PO-Revision-Date: 2023-05-30 16:30+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -121,11 +121,15 @@ msgid "Make a Donation"
 msgstr "Realiza una Donación"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:151-11
-msgid "Make a one-time donation using our Stripe payment portal."
+#, fuzzy
+#| msgid "Make a one-time donation using our Stripe payment portal."
+msgid "Make a one-time donation using our Paypal payment portal."
 msgstr "Haga una donación única utilizando nuestro portal de pago Stripe."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:152-18
-msgid "Donate via Stripe"
+#, fuzzy
+#| msgid "Donate via Stripe"
+msgid "Donate via Paypal"
 msgstr "Donar mediante Stripe"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:163-17

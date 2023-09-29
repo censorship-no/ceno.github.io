@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-23 09:31-0700\n"
+"POT-Creation-Date: 2023-09-29 16:08-0700\n"
 "PO-Revision-Date: 2023-05-12 22:41+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -112,10 +112,14 @@ msgstr ""
 "ဘာသာပြန်ဆိုနိုင်ရန်အတွက် Weblate ကို အသုံးပြုပါသည်။"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:154-13
+#, fuzzy
+#| msgid ""
+#| "Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
+#| "contact form below) if you're interested in becoming a reviewer for "
+#| "translation(s) in your language(s)."
 msgid ""
-"Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
-"contact form below) if you're interested in becoming a reviewer for "
-"translation(s) in your language(s)."
+"Please contact the Ceno team at support [at] censorship [dot] no if you're "
+"interested in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
 "သင်သည် သင့်ဘာသာစကား(များ) နှင့် ရေးသားထားသော ဘာသာပြန်ဆိုချက်(များ) အတွက် စစ်ဆေးသူ ဖြစ်လာရန် "
 "စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ cenoers [at] equalit [dot] ie သို့မဟုတ် အောက်ပါ ဆက်သွယ်ရန်ပုံစံမှတစ်ဆင့် "
@@ -154,17 +158,21 @@ msgstr ""
 "ကြီးထွားလာစေပါသည်။ သင်၏သဘောတူညီချက်ဖြင့် ကျွန်ုပ်တို့၏ ဝဘ်ဆိုက်တွင် သင့်အတွေ့အကြုံများကိုလည်း ဖော်ပြပါမည်။"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:170-3
+#, fuzzy
+#| msgid ""
+#| "We welcome reviews on the Play Store as well as direct communications - "
+#| "you can get in touch with the team via the feedback button at the bottom "
+#| "of this website, or send us an email:"
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
-"can get in touch with the team via the feedback button at the bottom of this "
-"website, or send us an email:"
+"can get in touch with the team via our social channels or send us an email:"
 msgstr ""
 "Play Store ပေါ်မှ မှတ်ချက်များသာမက တိုက်ရိုက်ဆက်သွယ်မှုများကိုလည်း ကျွန်ုပ်တို့ ကြိုဆိုပါသည်။ ယခုဝဘ်ဆိုက်၏ "
 "အောက်ဆုံးတွင်ရှိသော အကြံပြုချက် ခလုတ်မှတဆင့် သို့မဟုတ် အီးမေးလ်ပို့ခြင်းမှတဆင့် ကျွန်ုပ်တို့အသင်းနှင့် ဆက်သွယ်နိုင်ပါသည်။"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:171-3
-msgid "cenoers [at] equalit [dot] ie"
-msgstr "cenoers [at] equalit [dot] ie"
+msgid "support [at] censorship [dot] no"
+msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:172-17
 msgid "Take a survey"
@@ -183,31 +191,46 @@ msgstr ""
 "-"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:186-12
-msgid ""
-"Browser components: <a href=\"https://github.com/censorship-no/ceno-"
-"browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
-"gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https:// ithub.com/"
-"censorship-no/ceno-distribution\">included extensions</a>, <a href=\"https://"
-"github.com/censorship-no/ceno-ext-settings\">settings extension source</a>"
-msgstr ""
-"ဘရောက်ဇာ အစိတ်အပိုင်းများ - <a href=\"https://github.com/censorship-no/ceno-"
-"browser\">ပက်ကေ့ချ် တည်ဆောက်စနစ်</a>၊ <a href=\"https://github.com/censorship-no/"
-"gecko-dev/tree/ceno\">Firefox အခွဲ</a>၊ <a href=\"https://github.com/"
-"censorship-no/ceno-distribution\">ပါဝင်သော အဆက်များ</a>၊ <a href=\"https://"
-"github.com/censorship-no/ceno-ext-settings\">ဆက်တင်များ အဆက် ရင်းမြစ်</a>"
+#, fuzzy
+#| msgid "Ceno Browser | Community"
+msgid "Ceno Browser"
+msgstr "Ceno ဘရောက်ဇာ | အသိုင်းအဝိုင်း"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
-msgid "Ouinet source"
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:187-5
+msgid "Mozilla Build Scripts"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-5
+msgid "Firefox Browser Extension"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:189-12
+#, fuzzy
+#| msgid "Ouinet source"
+msgid "Ouinet"
 msgstr "Ouinet ရင်းမြစ်"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:190-5
+#, fuzzy
+#| msgid "Run the Ceno Docker Client"
+msgid "Ceno Docker Client"
+msgstr "Ceno Docker လက်ခံစက်ကို လုပ်ဆောင်ပါ -"
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:191-12
+#, fuzzy
+#| msgid ""
+#| "You may also be interested in the (no longer maintained) <a "
+#| "href=\"https://github.com/censorship-no-archive/ceno1\">previous "
+#| "incarnation of Ceno</a>, built on the <a href=\"https://freenetproject."
+#| "org/\">Freenet</a> anonymous file sharing and content publishing network. "
+#| "Other inactive project-related repositories can be found at the <a "
+#| "href=\"https://github.com/censorship-no-archive\">Censorship.no! archive</"
+#| "a>."
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
-"github.com/censorship-no-archive/ceno1\">previous incarnation of Ceno</a>, "
-"built on the <a href=\"https://freenetproject.org/\">Freenet</a> anonymous "
-"file sharing and content publishing network. Other inactive project-related "
-"repositories can be found at the <a href=\"https://github.com/censorship-no-"
-"archive\">Censorship.no! archive</a>."
+"gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
+"Ceno</a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
+"anonymous file sharing and content publishing network."
 msgstr ""
 "သင်သည် <a href=\"https://freenetproject.org/\">Freenet</a> အမည်မသိ ဖိုင်မျှဝေခြင်းနှင့် "
 "အကြောင်းအရာ ထုတ်ဝေခြင်း ကွန်ရက်ပေါ်တွင် တည်ဆောက်ထားသော (ပြုပြင်ထိန်းသိမ်းမထားတော့သည့်) <a "
@@ -216,36 +239,38 @@ msgstr ""
 "href=\"https://github.com/censorship-no-archive\">Censorship.no! စုစည်းမှု</a> "
 "တွင် ရှာဖွေနိုင်သည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:190-17
-msgid "Browse our Github"
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:192-17
+#, fuzzy
+#| msgid "Browse our Github"
+msgid "Browse our Gitlab"
 msgstr "ကျွန်ုပ်တို့၏ Github တွင် ကြည့်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.h2:203-1
+#: help.html%2Bhtml.body.main.div.section.h2:205-1
 msgid "Run a Bridge Node"
 msgstr "ပေါင်းကူး ဆက်သွယ်ရေးပွိုင့်ကို လုပ်ဆောင်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:209-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:211-3
 msgid "Become a bridge!"
 msgstr "ပေါင်းကူးတစ်ခု ဖြစ်လာပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:211-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:213-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "ကွန်ရက် ကျယ်ပြန့်စေရန် ကူညီလိုပါသလား။ အဖွဲ့တွင် ပါဝင်လိုက်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:218-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:220-3
 msgid "The easy way: Android"
 msgstr "လွယ်ကူသော နည်းလမ်း- Android။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:220-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:222-17
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr "Ceno ဘရောက်ဇာကို သင့် Ceno စက်နှင့်/ သို့မဟုတ် အပိုဆောင်း အမြဲဖွင့် စက်ပေါ်တွင် လုပ်ဆောင်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:227-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:229-3
 msgid "Run the Ceno Docker Client"
 msgstr "Ceno Docker လက်ခံစက်ကို လုပ်ဆောင်ပါ -"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:229-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:231-17
 msgid ""
 "Alternatively, with just one command you can set up a bridge on your "
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
@@ -255,41 +280,41 @@ msgstr ""
 "သတ်မှတ်နိုင်သည်။ <code>sudo docker run --name ceno-client -dv ceno:/var/opt/ouinet "
 "--network host --restart unless-stopped equalitie/ceno-client</code>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:236-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:238-3
 msgid "Open a portal to the internet"
 msgstr "အင်တာနက်သို့ ပေါ်တယ်တစ်ခု ဖွင့်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:238-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:240-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
 "သင့်ရောက်တာတွင် UPnP ကို ဖွင့်ထားကြောင်း သေချာပါစေ၊ သို့မဟုတ်ပါက ပေါ့တ် တစ်ဆင့်ပို့ခြင်းကို သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:245-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:247-3
 msgid "To see if it's working:"
 msgstr "အလုပ်လုပ်၊ မလုပ် သိရှိရန် -"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:247-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:249-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
 "Firefox ပရိုဖိုင်းအသစ်တစ်ခုကို ဖန်တီးပြီး ဖွင့်ပါ၊ ထို့နောက် ပရောက်စီကို စက်တွင်းဟို့စ်၊ ပေါ့တ် 8077 သို့ သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:254-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:256-3
 msgid "Thank you for growing the network!"
 msgstr "အဖွဲ့တွင် ပါဝင်သည့်အတွက် ကျေးဇူးတင်ပါသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:256-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:258-17
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr "Ceno ဝက်ဘ်အဆက်နှင့် ပေးထားသော အသိအမှတ်ပြုလက်မှတ်ကို ထည့်သွင်းပြီး စမ်းသုံးကြည့်ပါ။"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.section.div.div:262-1
+#: help.html%2Bhtml.body.main.div.section.div.div:264-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr "ပေါင်းကူးတစ်ခု တည်ဆောက်ခြင်းအကြောင်း ပိုမိုလေ့လာရန် ကျေးဇူးပြု၍ သုံးစွဲသူ လက်စွဲကို ရည်ညွှန်းပါ။"
 
-#: help.html%2Bhtml.body.footer.div.p:283-9
+#: help.html%2Bhtml.body.footer.div.p:285-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -306,13 +331,30 @@ msgstr ""
 "href=\"https://equalit.ie/en/values/\">တန်ဖိုးများ</a>မှ တွန်းအားပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:285-23
+#: help.html%2Bhtml.body.footer:287-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "cenoers [at] equalit [dot] ie"
+#~ msgstr "cenoers [at] equalit [dot] ie"
+
+#~ msgid ""
+#~ "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
+#~ "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
+#~ "gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https:// ithub.com/"
+#~ "censorship-no/ceno-distribution\">included extensions</a>, <a "
+#~ "href=\"https://github.com/censorship-no/ceno-ext-settings\">settings "
+#~ "extension source</a>"
+#~ msgstr ""
+#~ "ဘရောက်ဇာ အစိတ်အပိုင်းများ - <a href=\"https://github.com/censorship-no/ceno-"
+#~ "browser\">ပက်ကေ့ချ် တည်ဆောက်စနစ်</a>၊ <a href=\"https://github.com/censorship-"
+#~ "no/gecko-dev/tree/ceno\">Firefox အခွဲ</a>၊ <a href=\"https://github.com/"
+#~ "censorship-no/ceno-distribution\">ပါဝင်သော အဆက်များ</a>၊ <a href=\"https://"
+#~ "github.com/censorship-no/ceno-ext-settings\">ဆက်တင်များ အဆက် ရင်းမြစ်</a>"
 
 #~ msgid "CENO Browser | Community"
 #~ msgstr "Ceno ဘရောက်ဇာ | အသိုင်းအဝိုင်း"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"POT-Creation-Date: 2023-09-29 16:08-0700\n"
 "PO-Revision-Date: 2023-07-25 04:02+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
@@ -99,11 +99,15 @@ msgid "Make a Donation"
 msgstr "Berikan Donasi"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:151-11
-msgid "Make a one-time donation using our Stripe payment portal."
+#, fuzzy
+#| msgid "Make a one-time donation using our Stripe payment portal."
+msgid "Make a one-time donation using our Paypal payment portal."
 msgstr "Memberi donasi satu kali menggunakan portal pembayaran Stripe kami."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:152-18
-msgid "Donate via Stripe"
+#, fuzzy
+#| msgid "Donate via Stripe"
+msgid "Donate via Paypal"
 msgstr "Donasi melalui Stripe"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:163-17
@@ -140,13 +144,13 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit.ie\""
-">eQualit.ie</a> – sebuah perusahaan nirlaba asal Kanada yang mengembangkan "
-"sistem terbuka dan dapat digunakan kembali yang berfokus pada privasi, "
-"keamanan daring, dan kebebasan berserikat. Solusi dan inovasi teknologi "
-"didorong oleh <a href=\"https://equalit.ie/en/values/\">nilai-nilai </a> "
-"kami yang memandu kami untuk melindungi hak dan aspirasi setiap orang secara "
-"daring."
+"Peramban Ceno adalah sebuah proyek dari <a href=\"https://equalit."
+"ie\">eQualit.ie</a> – sebuah perusahaan nirlaba asal Kanada yang "
+"mengembangkan sistem terbuka dan dapat digunakan kembali yang berfokus pada "
+"privasi, keamanan daring, dan kebebasan berserikat. Solusi dan inovasi "
+"teknologi didorong oleh <a href=\"https://equalit.ie/en/values/\">nilai-"
+"nilai </a> kami yang memandu kami untuk melindungi hak dan aspirasi setiap "
+"orang secara daring."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: donate.html%2Bhtml.body.footer:204-23

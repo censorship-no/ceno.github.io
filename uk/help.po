@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"POT-Creation-Date: 2023-09-29 16:08-0700\n"
 "PO-Revision-Date: 2023-06-02 15:48+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
@@ -114,10 +114,14 @@ msgstr ""
 "вебсайт! Ми використовуємо Weblate для краудсорсингу перекладів."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:154-13
+#, fuzzy
+#| msgid ""
+#| "Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
+#| "contact form below) if you're interested in becoming a reviewer for "
+#| "translation(s) in your language(s)."
 msgid ""
-"Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
-"contact form below) if you're interested in becoming a reviewer for "
-"translation(s) in your language(s)."
+"Please contact the Ceno team at support [at] censorship [dot] no if you're "
+"interested in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
 "Будь ласка, звʼяжіться з командою Ceno – cenoers [at] equalit [dot] ie або ж "
 "через форму нижче, якщо Ви хочете долучитися аби перевірити переклади своєю "
@@ -157,18 +161,22 @@ msgstr ""
 "користування чи відгук на нашому веб-сайті!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:170-3
+#, fuzzy
+#| msgid ""
+#| "We welcome reviews on the Play Store as well as direct communications - "
+#| "you can get in touch with the team via the feedback button at the bottom "
+#| "of this website, or send us an email:"
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
-"can get in touch with the team via the feedback button at the bottom of this "
-"website, or send us an email:"
+"can get in touch with the team via our social channels or send us an email:"
 msgstr ""
 "Ми також вітаємо Ваші огляди в Play Store, а також пряме спілкування з нами "
 "– ви можете зв’язатися з командою за допомогою кнопки зворотного зв’язку "
 "внизу цього веб-сайту або надіслати нам електронний лист:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:171-3
-msgid "cenoers [at] equalit [dot] ie"
-msgstr "cenoers [at] equalit [dot] ie"
+msgid "support [at] censorship [dot] no"
+msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:172-17
 msgid "Take a survey"
@@ -186,72 +194,88 @@ msgstr ""
 "Якщо Вас цікавить вихідний код, ознайомтеся з наступними Git-репозиторіями:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:186-12
-msgid ""
-"Browser components: <a href=\"https://github.com/censorship-no/ceno-"
-"browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
-"gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https:// ithub.com/"
-"censorship-no/ceno-distribution\">included extensions</a>, <a href=\"https://"
-"github.com/censorship-no/ceno-ext-settings\">settings extension source</a>"
-msgstr ""
-"Компоненти браузера: <a href=\"https://github.com/censorship-no/ceno-"
-"browser\">конструктор пакунків</a>, <a href=\"https://github.com/censorship-"
-"no/gecko -dev/tree/ceno\">відгілка Firefox</a>, <a href=\"https://github.com/"
-"censorship-no/ceno-distribution\">додаткові розширення</a>, <a "
-"href=\"https ://github.com/censorship-no/ceno-ext-settings\">вихідний код "
-"розширення для налаштування</a>"
+#, fuzzy
+#| msgid "Ceno Browser | Community"
+msgid "Ceno Browser"
+msgstr "браузер Ceno | Спільнота"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
-msgid "Ouinet source"
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:187-5
+msgid "Mozilla Build Scripts"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-5
+msgid "Firefox Browser Extension"
+msgstr ""
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:189-12
+#, fuzzy
+#| msgid "Ouinet source"
+msgid "Ouinet"
 msgstr "Вихідний код Ouinet"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:190-5
+#, fuzzy
+#| msgid "Run the Ceno Docker Client"
+msgid "Ceno Docker Client"
+msgstr "Запустіть Docker-клієнта Ceno"
+
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:191-12
+#, fuzzy
+#| msgid ""
+#| "You may also be interested in the (no longer maintained) <a "
+#| "href=\"https://github.com/censorship-no-archive/ceno1\">previous "
+#| "incarnation of Ceno</a>, built on the <a href=\"https://freenetproject."
+#| "org/\">Freenet</a> anonymous file sharing and content publishing network. "
+#| "Other inactive project-related repositories can be found at the <a "
+#| "href=\"https://github.com/censorship-no-archive\">Censorship.no! archive</"
+#| "a>."
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
-"github.com/censorship-no-archive/ceno1\">previous incarnation of Ceno</a>, "
-"built on the <a href=\"https://freenetproject.org/\">Freenet</a> anonymous "
-"file sharing and content publishing network. Other inactive project-related "
-"repositories can be found at the <a href=\"https://github.com/censorship-no-"
-"archive\">Censorship.no! archive</a>."
+"gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
+"Ceno</a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
+"anonymous file sharing and content publishing network."
 msgstr ""
 "Вас також може зацікавити (більше не підтримується) <a href=\"https://github."
 "com/censorship-no-archive/ceno1\">попередня версія Ceno</a>, побудована на "
-"мережі анонімного обміну файлами та публікування вмісту <a href=\"https"
-"://freenetproject.org/\">Freenet</a>. Інші неактивні репозиторії проєкту "
-"можна знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
+"мережі анонімного обміну файлами та публікування вмісту <a href=\"https://"
+"freenetproject.org/\">Freenet</a>. Інші неактивні репозиторії проєкту можна "
+"знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
 "Censorship.no!</a>."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:190-17
-msgid "Browse our Github"
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:192-17
+#, fuzzy
+#| msgid "Browse our Github"
+msgid "Browse our Gitlab"
 msgstr "Перегляньте наш Github"
 
-#: help.html%2Bhtml.body.main.div.section.h2:203-1
+#: help.html%2Bhtml.body.main.div.section.h2:205-1
 msgid "Run a Bridge Node"
 msgstr "Запустіть вузол моста"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:209-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:211-3
 msgid "Become a bridge!"
 msgstr "СТАНЬТЕ МОСТОМ!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:211-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:213-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "Бажаєте допомогти з розширенням мережі? Долучайтеся до нас!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:218-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:220-3
 msgid "The easy way: Android"
 msgstr "Найпростіше: Android"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:220-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:222-17
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
 "Запустіть браузер Ceno на своєму пристрої Android та/або на запасному, "
 "постійно ввімкненому пристрої."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:227-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:229-3
 msgid "Run the Ceno Docker Client"
 msgstr "Запустіть Docker-клієнта Ceno"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:229-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:231-17
 msgid ""
 "Alternatively, with just one command you can set up a bridge on your "
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
@@ -262,21 +286,21 @@ msgstr ""
 "ceno:/var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-"
 "client</code>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:236-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:238-3
 msgid "Open a portal to the internet"
 msgstr "ВІДКРИЙТЕ ПОРТАЛ В ІНТЕРНЕТ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:238-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:240-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
 "Переконайтеся, що на Вашому маршрутизаторі ввімкнено UPnP або налаштуйте "
 "переадресацію портів."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:245-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:247-3
 msgid "To see if it's working:"
 msgstr "ПЕРЕВІРТЕ ЧИ ПРАЦЮЄ:"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:247-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:249-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
@@ -284,23 +308,23 @@ msgstr ""
 "Створіть новий профіль Firefox та вкажіть як проксі-сервер – localhost і "
 "порт – 8077."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:254-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:256-3
 msgid "Thank you for growing the network!"
 msgstr "ДЯКУЄМО, ЩО ВИ З НАМИ!"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:256-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:258-17
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr "Встановіть веб-розширення Ceno та наданий сертифікат для тестування!"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.section.div.div:262-1
+#: help.html%2Bhtml.body.main.div.section.div.div:264-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
 "Детальнішу інформацію про налаштування моста можна отримати в посібнику "
 "користувача!"
 
-#: help.html%2Bhtml.body.footer.div.p:283-9
+#: help.html%2Bhtml.body.footer.div.p:285-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -317,13 +341,31 @@ msgstr ""
 "кожного в онлайні."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:285-23
+#: help.html%2Bhtml.body.footer:287-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "cenoers [at] equalit [dot] ie"
+#~ msgstr "cenoers [at] equalit [dot] ie"
+
+#~ msgid ""
+#~ "Browser components: <a href=\"https://github.com/censorship-no/ceno-"
+#~ "browser\">package builder</a>, <a href=\"https://github.com/censorship-no/"
+#~ "gecko-dev/tree/ceno\">Firefox fork</a>, <a href=\"https:// ithub.com/"
+#~ "censorship-no/ceno-distribution\">included extensions</a>, <a "
+#~ "href=\"https://github.com/censorship-no/ceno-ext-settings\">settings "
+#~ "extension source</a>"
+#~ msgstr ""
+#~ "Компоненти браузера: <a href=\"https://github.com/censorship-no/ceno-"
+#~ "browser\">конструктор пакунків</a>, <a href=\"https://github.com/"
+#~ "censorship-no/gecko -dev/tree/ceno\">відгілка Firefox</a>, <a "
+#~ "href=\"https://github.com/censorship-no/ceno-distribution\">додаткові "
+#~ "розширення</a>, <a href=\"https ://github.com/censorship-no/ceno-ext-"
+#~ "settings\">вихідний код розширення для налаштування</a>"
 
 #, fuzzy
 #~| msgctxt "help.html+html.body.main.title:137-1"

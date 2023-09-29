@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"POT-Creation-Date: 2023-09-29 16:08-0700\n"
 "PO-Revision-Date: 2023-07-05 19:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -114,21 +114,25 @@ msgstr ""
 "исходным кодом, финансируемое исключительно за счёт грантов и пожертвований. "
 "Ниже приведены некоторые из способов, которыми вы можете поддержать его "
 "дальнейшее развитие с помощью денежных взносов. Чтобы узнать о других "
-"способах принять участие и внести свой вклад, посетите <a href=\"help.html\""
-">страницу Сообщества</a>!"
+"способах принять участие и внести свой вклад, посетите <a href=\"help."
+"html\">страницу Сообщества</a>!"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:150-18
 msgid "Make a Donation"
 msgstr "Пожертвовать"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:151-11
-msgid "Make a one-time donation using our Stripe payment portal."
+#, fuzzy
+#| msgid "Make a one-time donation using our Stripe payment portal."
+msgid "Make a one-time donation using our Paypal payment portal."
 msgstr ""
 "Сделать разовое денежное пожертвование с помощью нашего платежного портала "
 "Stripe."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:152-18
-msgid "Donate via Stripe"
+#, fuzzy
+#| msgid "Donate via Stripe"
+msgid "Donate via Paypal"
 msgstr "Пожертвовать с помощью Stripe"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:163-17
@@ -164,8 +168,8 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
-"Ceno Browser - это проект, разработанный <a href=\"https://equalit.ie\""
-">eQualit.ie</a>- некоммерческая канадская организация, разрабатывающая "
+"Ceno Browser - это проект, разработанный <a href=\"https://equalit."
+"ie\">eQualit.ie</a>- некоммерческая канадская организация, разрабатывающая "
 "открытые и многоразовые системы с акцентом на конфиденциальность, онлайн-"
 "безопасность и свободу убеждений. В основе технологических решений и "
 "инноваций лежат наши<a href=\"https://equalit.ie/en/values/\">ценности</a>, "
