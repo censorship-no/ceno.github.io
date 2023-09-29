@@ -3,9 +3,11 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Paramètres de CENO - Censorship.no! Manuel de l&#x27;Utilisateur</title>
+        <title>Paramètres de Ceno - Censorship.no! Manuel de l&#x27;Utilisateur</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -62,39 +68,67 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Qu'est-ce que le navigateur CENO ?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Qu'est-ce que Ouinet ?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guide de démarrage rapide</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Foire aux questions</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Concepts principaux</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Comment ça marche ?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Navigation publique/privée</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Avantages de l'utilisation de CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risques liés à l'utilisation de CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Utilisation du navigateur CENO</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installation de CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Utilisation de la navigation publique ou privée</a></li><li class="chapter-item expanded "><a href="../browser/settings.html" class="active"><strong aria-hidden="true">3.3.</strong> Paramètres de CENO</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tester le navigateur</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Aider les autres</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Dépannage</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Annexe : L'interface du client Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Qu’est-ce que le Navigateur Ceno ?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Qu’est-ce que Ouinet ?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Guide de démarrage</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Foire aux questions</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Principaux concepts</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Comment ça fonctionne ?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> La navigation publique comparée à la navigation privée</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Avantages de l’utilisation de Ceno et Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Risques inhérents à Ceno et Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Utiliser le Navigateur Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Installer Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Naviguer de façon publique ou privée</a></li><li class="chapter-item expanded "><a href="../browser/settings.html" class="active"><strong aria-hidden="true">3.3.</strong> Paramètres de Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tester le navigateur</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Aider les autres</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Dépannage</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Annexe : La page frontale du client Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +148,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +162,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,63 +174,63 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="paramètres-de-ceno"><a class="header" href="#paramètres-de-ceno">Paramètres de CENO</a></h1>
-<p>Le navigateur CENO vous permet de modifier des paramètres spécifiques à Ouinet et d’obtenir facilement des informations sur votre client. Cela ne devrait pas être nécessaire pour un fonctionnement normal, mais il peut devenir très utile pour tester différentes stratégies afin de contourner les interférences réseau, ainsi que signaler des problèmes avec l’application.</p>
+                        <h1 id="paramètres-de-ceno"><a class="header" href="#paramètres-de-ceno">Paramètres de Ceno</a></h1>
+<p>Le Navigateur Ceno vous permet de modifier certains paramètres propres à Ouinet et d’obtenir simplement des renseignements sur votre client. Cela ne devrait pas être nécessaire pour un fonctionnement normal, mais pourrait s’avérer utile pour tester différentes stratégies contre les interférences du réseau et pour signaler des problèmes avec l’appli.</p>
 <blockquote>
-<p><strong>Note technique :</strong> Ces options sont fournies par l'<em>Extension CENO</em>, une extension Firefox installée d'office avec CENO, qui gère l’intégration avec Ouinet. Elle permet ainsi d'injecter du contenu et de récupérer la mémoire-cache de navigation publique, indiquant à l’utilisateur la source du contenu visualisé et l’informant au sujet de nouvelles versions de Ouinet.</p>
+<p>**Note technique : ** Ces options sont fournies par l’<em>extension Ceno</em>, une extension Firefox installée par défaut dans Ceno et qui assure une bonne intégration avec Ouinet : activer l’injection du contenu et de la récupération du cache en navigation publique, indiquer à l’utilisateur ou à l’utilisatrice la source du contenu visualisé et signaler les nouvelles versions de Ouinet.</p>
 </blockquote>
-<p>Ces fonctionnalités sont disponibles sur une page accessible en sélectionnant <em>CENO</em> dans le menu principal de l’application. Veuillez noter que le menu peut mettre quelques secondes à apparaitre au moment du démarrage de l’application. La page devrait ressembler à cela :</p>
-<p><img src="images/settings.png" alt="Visuel : Page des paramètres de CENO" /></p>
-<h2 id="choix-des-mécanismes-daccès"><a class="header" href="#choix-des-mécanismes-daccès">Choix des mécanismes d’accès</a></h2>
-<p>Les quatre cases à cocher en haut de la page permettent d’activer ou de désactiver les différents mécanismes ou <em>sources</em> que CENO utilise, en tant que client Ouinet, pour récupérer du contenu en utilisant les onglets de <a href="public-private.html">navigation publique ou privée</a>. Toutes les cases sont cochées par défaut.</p>
+<p>Ces fonctions sont proposées sur une page accessible sous <em>Ceno</em> dans le menu principal de l’appli. Notez que l’entrée du menu peut prendre quelques secondes avant de s’afficher au démarrage de l’appli. La page devrait ressembler à ceci :</p>
+<p><img src="images/settings.png" alt="Figure: La page des paramètres de Ceno" /></p>
+<h2 id="choisir-les-mécanismes-daccès"><a class="header" href="#choisir-les-mécanismes-daccès">Choisir les mécanismes d’accès</a></h2>
+<p>En haut de la page, les quatre cases à cocher permettent d’activer ou de désactiver les différents mécanismes ou <em>sources</em> que Ceno utilise, en tant que client Ouinet, pour récupérer du contenu dans les onglets de <a href="public-private.html">navigation publique ou privée</a>. Toutes les cases sont activées par défaut.</p>
 <ul>
-<li><em>En direct du web</em> (ou <strong>accès d'origine</strong>) permet à CENO d’essayer d’atteindre le serveur d’origine directement, avant d'essayer les autres mécanismes activés.Bien que ce mécanisme fonctionne aussi bien en mode de navigation privée que publique, le contenu ainsi récupéré ne peut être partagé avec les autres.</li>
+<li><em>Directement du site Web</em> (ou <strong>accès à l’origine</strong>) permet à Ceno de tenter d’atteindre directement le serveur d’origine avant d’essayer les autres mécanismes activés ci-dessous.Bien que ce mécanisme fonctionne pour les modes de navigation privée et publique, le contenu récupéré ainsi ne peut pas être partagé avec d’autres.</li>
 </ul>
-<p>Si l'accès à la majorité des contenus web n’est pas particulièrement lent ou coûteux, ce mécanisme est amplement suffisant dans la plupart des cas. Toutefois, ces connexions directes sont susceptibles d'être traquées par votre FAI ou votre gouvernement. Dans une certaine mesure, la désactivation de cette option permet éviter de telles connexions et un suivi trivial (mais pas complètement, cf. [risques](.. /concepts/risks.md)).</p>
-<p>De plus, lors de l'accès à un site web via un protocole HTTP non sécurisé (au lieu du protocole HTTPS, davantage sécurisé), un censeur peut intercepter la connexion et fournir à l'utilisateur un faux site, une falsification que CENO ne peut détecter seul. Dans ce cas, il peut être utile de désactiver cette option et d'avoir recours aux autres mécanismes de CENO, plus sûrs. Veuillez consulter la section <a href="troubleshooting.html">dépannage</a> pour en savoir plus sur le sujet.</p>
+<p>Si récupérer la plupart des contenus Web n’est ni particulièrement lent ni coûteux, ce mécanisme pourrait suffire pour la plupart des cas d’utilisation. Cependant, ces connexions directes pourraient être suivies à la trace par votre FAI ou par le gouvernement. Dans une certaine mesure, la désactivation de cette option pourrait éviter de telles connexions et ce suivi habituel (mais pas complètement, voir <a href="../concepts/risques.html">risques</a>).</p>
+<p>De plus, si vous accédiez à un site Web grâce au protocole HTTP non sécurisé (au lieu du protocole HTTPS plus sûr), un censeur pourrait intercepter la connexion et vous servir un faux site, une manipulation que Ceno ne peut pas détecter seul. Dans de tels cas, la désactivation de cette option pourrait aider, recourant ainsi toujours à d’autres mécanismes plus sûrs de Ceno. Consultez la section <a href="troubleshooting.html">dépannage</a> pour en apprendre davantage.</p>
 <ul>
-<li><em>Via le réseau CENO (privé)</em> (ou <strong>accès proxy</strong>) permet à CENO d'utiliser les injecteurs comme des serveurs proxy HTTP normaux afin d'atteindre les serveurs d'origine.Ce mécanisme ne fonctionne qu'en mode de navigation privée.</li>
+<li><em>Par le réseau Ceno (privé)</em> (ou <strong>accès par un mandataire</strong>) permet à Ceno d’utiliser les injecteurs comme des serveurs mandataires HTTP normaux pour atteindre les serveurs d’origine.Ce mécanisme ne fonctionne qu’en mode de navigation privée.</li>
 </ul>
-<p>Lors de l'accès à du contenu par HTTPS, seuls les serveurs d'origine sont en mesure de décrypter le trafic. En utilisant le protocole HTTP simple, l'injecteur peut également voir le trafic non crypté (mais il ne peut tout de même pas signer ou partager son contenu avec les autres). Les autres participants, comme les passerelles, ne verront jamais le trafic non crypté.</p>
+<p>Lors de l’accès au contenu par HTTPS, seuls les serveurs d’origine seront en mesure de déchiffrer le trafic. Lors de l’accès par HTTP ordinaire, l’injecteur peut aussi voir le trafic non chiffré (mais il ne devrait toujours pas signer ou partager son contenu avec d’autres). Les autres participants tels que les ponts ne verront jamais le trafic non chiffré.</p>
 <ul>
-<li><em>Via le réseau CENO (public)</em> (ou <strong>accès injecteur</strong>) permet à CENO de retirer toute information privée des demandes et de les envoyer à un injecteur. L'injecteur reçoit le contenu du serveur d'origine, le signe et le renvoie à CENO, qui va alors le diffuser.Les autres participants (comme les passerelles) ne verront pas le trafic non crypté.</li>
+<li><em>Par le réseau Ceno (public)</em> (ou <strong>accès par injecteur</strong>) permet à Ceno de retirer toute information privée des demandes et de les envoyer à un injecteur. L’injecteur obtient le contenu d’un serveur d’origine, le signe et le renvoie à Ceno, qui par la suite commence à le propager.Les autres participants (tels que les ponts) ne verront pas le trafic non chiffré.</li>
 </ul>
-<p>Ce mécanisme ne fonctionne qu'en mode de navigation publique.</p>
+<p>Ce mécanisme ne fonctionne qu’en mode de navigation publique.</p>
 <ul>
-<li><em>Partagé par d'autres utilisateurs de CENO</em> permet à CENO d'essayer de récupérer le contenu du <strong>cache décentralisé</strong>, autrement dit depuis d'autres clients CENO et Ouinet qui le diffusent.Ce mécanisme ne fonctionne qu'en mode de navigation publique.</li>
+<li><em>Partagé par d’autres utilisateurs de Ceno</em> permet à Ceno d’essayer de récupérer le contenu du <strong>cache distribué</strong>, c.-à-d. d’autres clients Ceno et Ouinet qui le propage.Ce mécanisme ne fonctionne qu’en mode de navigation publique.</li>
 </ul>
-<p>La désactivation de tous les mécanismes disponibles en mode de navigation publique ou privée les rendra inutiles. Si vous paramétrez une telle configuration, un avertissement s'affichera comme illustré ci-dessous :</p>
-<p><img src="images/settings-no-private.png" alt="Visuel : Paramètres incorrects de navigation privée" /></p>
-<h2 id="À-propos-de-votre-application"><a class="header" href="#À-propos-de-votre-application">À propos de votre application</a></h2>
-<p>Cette page vous fournit également des informations sur votre application CENO et votre client Ouinet :</p>
+<p>La désactivation de tous les mécanismes proposés pour le mode de navigation publique ou privée les rendra inutiles. Si vous définissez une telle configuration, un avertissement s’affichera comme illustré ci-dessous :</p>
+<p><img src="images/settings-no-private.png" alt="Figure: Paramètres de navigation privée invalides" /></p>
+<h2 id="À-propos-de-votre-appli"><a class="header" href="#À-propos-de-votre-appli">À propos de votre appli</a></h2>
+<p>Cette page vous donne aussi des renseignements sur votre appli Navigateur Ceno et votre client Ouinet :</p>
 <ul>
-<li><em>Taille du cache local</em> indique approximativement de la quantité de stockage utilisée par le contenu diffusé à partir de la mémoire cache locale de votre appareil.</li>
-<li><em>Contenu partagé par vous</em> vous permet de vérifier le contenu présent dans votre appareil.</li>
-<li><em>État du client Ouinet</em>, si <code>démarré</code>, cela signifie que votre client Ouinet a pu s'exécuter avec succès. À défaut, il existe sans doute des problèmes de connectivité ou une erreur interne. Merci de le préciser dans vos rapports d'erreurs.</li>
-<li><em>État d'accessibilité</em> indique si votre appareil est apte à diffuser efficacement du contenu vers les autres clients. À inclure également dans les rapports.</li>
-<li><em>État du UPnP</em> indique si CENO a pu demander à votre routeur ou point d'accès d'autoriser les connexions entrantes vers celui-ci. À inclure également dans les rapports.</li>
-<li>Les <em>Points limite UDP locaux</em> sont les adresses Internet de votre appareil utilisées par CENO pour diffuser du contenu signé vers les autres clients. Elles sont affichées pour permettre de tester et déboguer l'application, et ne doivent en aucun cas être divulguées.</li>
-<li>Les <em>Points limite UDP externes</em> sont les adresses Internet de votre routeur attribuées au trafic de CENO. Uniquement disponibles avec les routeurs compatibles UPnP, elles sont également utiles pour les diagnostics, et ne doivent pas être divulguées.</li>
-<li>Les <em>Points limite UDP publics</em> sont les adresses Internet que les clients Ouinet hors de votre réseau voient lorsqu'ils communiquent avec votre appareil. Ils sont également utilisés pour les diagnostics et ne doivent pas être divulgués.</li>
-<li>Les <em>amorces BitTorrent supplémentaires</em> sont des serveurs utilisés pour aider votre appareil à accéder au réseau BitTorrent, si les serveurs par défaut ne fonctionnent pas. À inclure également dans les rapports. Vous pouvez modifier la liste des hôtes séparés par des espaces (avec des ports facultatifs) pour définir ou ajouter le vôtre, puis choisissez <em>Enregistrer</em>. Les changements seront appliqués lors du prochain démarrage de votre client Ouinet.</li>
-<li><em>Navigateur CENO</em> indique la version exacte de CENO que vous utilisez. À inclure également dans les rapports.</li>
-<li><em>Extension CENO</em> montre la version de l'extension qui associe Firefox à CENO. À inclure également dans les rapports.</li>
-<li><em>Ouinet</em> montre la version de Ouinet qui accompagne CENO. À inclure également dans les rapports.</li>
-<li><em>Protocole Ouinet</em> est le numéro de version du protocole que CENO utilise pour communiquer avec les autres clients et injecteurs Ouinet. À inclure également dans les rapports.</li>
+<li><em>Taille du cache local</em> indique approximativement la quantité d’espace de stockage occupé par le contenu propagé à partir du cache local de votre appareil.</li>
+<li><em>Contenu partagé par vous</em> vous permet de vérifier le contenu annoncé par votre appareil.</li>
+<li>Si l’<em>État du client Ouinet</em> est <code>démarré</code>, votre client Ouinet a réussi à s’exécuter. Sinon, il pourrait y avoir quelques problèmes de connectivité ou une erreur interne. Veuillez inclure ces renseignements dans vos relevés de problème.</li>
+<li><em>État d’accessibilité</em> indique la probabilité que votre appareil puisse propager efficacement du contenu à d’autres clients. À inclure également dans les relevés.</li>
+<li><em>État de l’UPnP</em> indique si Ceno a pu indiquer à votre routeur ou à votre point d’accès d’autoriser les connexions entrantes vers lui. À inclure également dans les relevés.</li>
+<li>Les <em>Extrémités UDP locales</em> sont les adresses Internet de votre appareil utilisées par Ceno pour propager vers les autres clients du contenu signé. Elles sont affichées pour aider à tester et à déboguer l’appli et ne doivent pas être divulguées publiquement.</li>
+<li>Les <em>Extrémités UDP externes</em> sont les adresses Internet de votre routeur attribuées à votre trafic Ceno. Seulement proposées avec les routeurs compatibles UPnP, elles sont aussi utiles au diagnostic et ne doivent pas être divulguées publiquement.</li>
+<li>Les <em>Extrémités UDP publiques</em> sont les adresses Internet que les clients Ouinet extérieurs à votre réseau voient quand ils communiquent avec votre appareil. Ils sont aussi utilisés pour le diagnostic et ne doivent pas être divulgués.</li>
+<li>Les <em>amorces BitTorrent supplémentaires</em> sont des serveurs utilisés pour aider votre appareil à accéder au réseau BitTorrent, au cas où les serveurs par défaut ne fonctionneraient pas. À inclure également dans les relevés. Vous pouvez modifier la liste d’hôtes séparés par des espaces (facultativement avec des ports) pour définir ou ajouter les vôtres, puis sélectionnez <em>Enregistrer</em>. Les changements seront appliqués lors du prochain démarrage de votre client Ouinet.</li>
+<li><em>Navigateur Ceno</em> indique la version exacte de Ceno que vous utilisez. À inclure également dans les relevés.</li>
+<li><em>Extension Ceno</em> indique la version de l’extension qui intègre Firefox à Ceno. À inclure également dans les relevés.</li>
+<li><em>Ouinet</em> indique la version de Ouinet qui soutient Ceno. À inclure également dans les relevés.</li>
+<li><em>Protocole Ouinet</em> est le numéro de version du protocole que Ceno utilise pour communiquer avec les autres clients et injecteurs Ouinet. À inclure également dans les relevés.</li>
 </ul>
-<h2 id="purge-du-cache-local"><a class="header" href="#purge-du-cache-local">Purge du cache local</a></h2>
-<p>À côté de la valeur <em>Taille du cache local</em> précitée, vous trouverez un bouton permettant d'arrêter la diffusion et de déposer tout le contenu partagé par votre appareil dans Ouinet. Cela vous permet de libérer de l'espace de stockage dans votre appareil tout en gardant les autres paramètres CENO en favoris.</p>
-<p>Si vous souhaitez effacer le cache de navigation classique de CENO (celui utilisé par le navigateur mais non partagé avec les autres), ou d'autres éléments comme les cookies, l'historique de navigation ou les favoris, vous devez aller dans les <em>Réglages</em> via le menu principal de l'application, puis sélectionnez <em>Effacer les données privées</em>. Vous serez invité à préciser les éléments que vous souhaitez effacer.</p>
-<p>Avant de tout déposer en même temps (notamment si vous êtes pressé), apprenez à utiliser le &quot;bouton d'urgence&quot; décrit dans <a href="install.html">Installation de CENO</a>.</p>
-<h2 id="collecte-des-messages-du-journal"><a class="header" href="#collecte-des-messages-du-journal">Collecte des messages du journal</a></h2>
-<p>En bas de page, la case à cocher <em>Activer le fichier journal</em> vous permet de récupérer tous les messages internes de Ouinet et les télécharger dans un fichier. Cela ne devrait être utilisé que pour le diagnostic de problème dans CENO. Suivez simplement ces étapes :</p>
+<h2 id="purger-le-cache-local"><a class="header" href="#purger-le-cache-local">Purger le cache local</a></h2>
+<p>À côté de la valeur <em>Taille du cache local</em> ci-dessus se trouve un bouton qui vous permet d’arrêter la propagation et d’abandonner tout contenu partagé par votre appareil sur Ouinet. Cela vous permet de libérer de la mémoire sur votre appareil tout en conservant d’autres paramètres de Ceno tels que les Favoris.</p>
+<p>Si vous souhaitez effacer le cache normal de navigation de Ceno (celui utilisé par le navigateur, non partagé avec les autres) ou d’autres éléments tels que les témoins de connexion, l’historique de navigation ou les favoris, vous devez choisir <em>Réglages</em> dans le menu principal de l’appli, puis <em>Effacer les données privées</em>. Un message vous demandera quels éléments vous souhaitez effacer.</p>
+<p>Pour tout effacer d’un coup (surtout si vous êtes pressé.e), apprenez à utiliser la fonction « bouton d’urgence » décrite dans <a href="install.html">Installer Ceno</a>.</p>
+<h2 id="recueillir-les-messages-du-journal"><a class="header" href="#recueillir-les-messages-du-journal">Recueillir les messages du journal</a></h2>
+<p>Au bas de la page se trouve une case à cocher <em>Activer le fichier journal</em> qui vous permet de recueillir tous les messages internes de Ouinet et de les télécharger dans un fichier. Cette option ne devrait être utilisée que pour diagnostiquer un problème dans Ceno ; il vous suffit de suivre les étapes suivantes :</p>
 <ol>
-<li>Dans la page <em>Paramètres de CENO</em>, cochez <em>Activer le fichier journal</em>.</li>
-<li>Revenez la navigation et effectuez les actions qui déclenchent le comportement inhabituel.</li>
-<li>Retournez dans la page des <em>Paramètres de CENO</em> et cliquez sur <em>Télécharger</em> à côté de la case à cocher <em>Activer le fichier journal</em>. Enregistrez le fichier pour une utilisation ultérieure. Android peut vous demander à ce stade si vous autorisez CENO à accéder aux médias stockés : ceci est nécessaire pour pouvoir enregistrer le fichier.</li>
+<li>Dans la page <em>Paramètres de Ceno</em>, cochez <em>Activer le fichier journal</em>.</li>
+<li>Revenez à la navigation et effectuez les actions qui déclenchent le comportement problématique.</li>
+<li>Retournez sur la page <em>Paramètres de Ceno</em> et touchez le lien <em>Télécharger</em> à côté de la case à cocher <em>Activer le fichier journal</em>. Enregistrez le fichier pour une utilisation ultérieure. À ce stade, Android pourrait vous demander d’autoriser l’accès de Ceno aux médias stockés : cela est nécessaire afin d’enregistrer le fichier.</li>
 <li>Décochez la case <em>Activer le fichier journal</em> pour éviter que les journaux ne deviennent trop volumineux.</li>
 </ol>
-<p>Vous pouvez maintenant joindre le fichier journal enregistré au rapport d'erreur. Mais évitez de le rendre public, car il peut contenir des informations sensibles sur votre navigation.</p>
+<p>Vous pouvez maintenant utiliser le fichier journal enregistré pour documenter un relevé de problème, mais évitez de le rendre public, car il pourrait contenir des renseignements sensibles sur votre navigation.</p>
 
                     </main>
 
@@ -203,9 +239,11 @@
                             <a rel="prev" href="../browser/public-private.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../browser/testing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                            <a rel="next prefetch" href="../browser/testing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -215,23 +253,33 @@
                     <a rel="prev" href="../browser/public-private.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../browser/testing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                    <a rel="next prefetch" href="../browser/testing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

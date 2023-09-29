@@ -3,9 +3,11 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>خطرات استفاده از CENO/Ouinet - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+        <title>خطرات استفاده از Ceno/Ouinet - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -62,39 +68,67 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگرCENO</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> تنظیمات CENO</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگرCeno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> تنظیمات Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +148,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +162,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,8 +174,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="خطرات-استفاده-از-cenoouinet"><a class="header" href="#خطرات-استفاده-از-cenoouinet">خطرات استفاده از CENO/Ouinet</a></h1>
-<p>همچون هر سیستم حسابداری به‌کفایت پیچیده‌ای، و به‌ویژه سیستم نوآورانه‌ای ازاین‌دست، استفاده از مرورگر CENO (و هر سرویس‌گیرنده‌ی Ouinet در کل) نیز از برخی خطرها عاری نیست. در این بخش این خطرات را گردآوری و توصیف خواهیم کرد تا شما را در فهم دلالت‌های آن‌ها بنا بر نقش‌های متفاوتی که هنگام استفاده از CENO ممکن است ایفا کنید یاری رسانیم:</p>
+                        <h1 id="خطرات-استفاده-از-cenoouinet"><a class="header" href="#خطرات-استفاده-از-cenoouinet">خطرات استفاده از Ceno/Ouinet</a></h1>
+<p>همچون هر سیستم حسابداری به‌کفایت پیچیده‌ای، و به‌ویژه سیستم نوآورانه‌ای ازاین‌دست، استفاده از مرورگر Ceno (و هر سرویس‌گیرنده‌ی Ouinet در کل) نیز از برخی خطرها عاری نیست. در این بخش این خطرات را گردآوری و توصیف خواهیم کرد تا شما را در فهم دلالت‌های آن‌ها بنا بر نقش‌های متفاوتی که هنگام استفاده از Ceno ممکن است ایفا کنید یاری رسانیم:</p>
 <ul>
 <li>به‌عنوان یک <em>کاربر</em> که سایت‌های وب را مرور می‌کند</li>
 <li>به‌عنوان یک <em>بذرپاش</em> که محتوایی را روی کش توزیع‌شده به اشتراک می‌گذارد که شما پیش‌تر از آن بازدید کرده‌اید</li>
@@ -155,27 +191,27 @@
 <p><strong>نکته‌ی فنی:</strong> فقط درخواست‌های <code>GET</code> HTTP نامزدهایی برای injection هستند، با حذف پارامترهای پرسش، همراه با همه‌چیز غیر از مجموعه‌ی محدودی از قلمروهای اصلی بنیادین و حافظ حریم خصوصی HTTP.</p>
 </blockquote>
 <h3 id="آیا-injectorها-میتوانند-نشانی-ip-مرا-ببینند"><a class="header" href="#آیا-injectorها-میتوانند-نشانی-ip-مرا-ببینند">آیا injectorها می‌توانند نشانی IP مرا ببینند؟</a></h3>
-<p>بله. با این حال، injectorها نمی‌توانند تشخیص دهند که آیا یک درخواست از یک کاربر CENO یا یک پل آمده است یا خیر. بنابراین درخواست‌هایی که به injector می‌رسند، نمی‌توانند به‌طور قابل‌اتکایی به یک نشانی IP نوخاسته منسوب گردند.</p>
+<p>بله. با این حال، injectorها نمی‌توانند تشخیص دهند که آیا یک درخواست از یک کاربر Ceno یا یک پل آمده است یا خیر. بنابراین درخواست‌هایی که به injector می‌رسند، نمی‌توانند به‌طور قابل‌اتکایی به یک نشانی IP نوخاسته منسوب گردند.</p>
 <h3 id="آیا-دادههای-خصوصی-من-میتوانند-به-کش-توزیعشده-درز-کنند"><a class="header" href="#آیا-دادههای-خصوصی-من-میتوانند-به-کش-توزیعشده-درز-کنند">آیا داده‌های خصوصی من می‌توانند به کش توزیع‌شده درز کنند؟</a></h3>
-<p>امیدواریم چنین نشود. همان‌طور که در بالا اشاره شد، مرورگر CENO سخت تلاش می‌کند تا هرگونه داده‌ی خصوصی را (رمزهای عبور، کوکی‌ها و...) از هر درخواستی برای Injection حذف کند. افزون بر این، خود injector هیچ بذرپاشی‌ای نمی‌کند؛ در واقع، تنها هدف آن امضای محتوایی است تا سرویس‌گیرندگان Ouinet بتوانند آن را بذرپاشی کنند. این به معنای آن است که وقتی محتوا به سرویس‌گیرنده بازمی‌گردد، بیشتر تحلیل می‌شود، و اگر سرور اصلی اشاره کند که سرشتی خصوصی دارد، CENO نیز آن را بذرپاشی نخواهد کرد.</p>
+<p>امیدواریم چنین نشود. همان‌طور که در بالا اشاره شد، مرورگر Ceno سخت تلاش می‌کند تا هرگونه داده‌ی خصوصی را (رمزهای عبور، کوکی‌ها و...) از هر درخواستی برای Injection حذف کند. افزون بر این، خود injector هیچ بذرپاشی‌ای نمی‌کند؛ در واقع، تنها هدف آن امضای محتوایی است تا سرویس‌گیرندگان Ouinet بتوانند آن را بذرپاشی کنند. این به معنای آن است که وقتی محتوا به سرویس‌گیرنده بازمی‌گردد، بیشتر تحلیل می‌شود، و اگر سرور اصلی اشاره کند که سرشتی خصوصی دارد، Ceno نیز آن را بذرپاشی نخواهد کرد.</p>
 <p>که با این حال، ممکن است مواردی از صفحات بدطراحی‌شده یا بدخواهانه که شاید برخی اطلاعات را از شما جمع‌آوری کنند (مانند یک نشانی پست الکترونیک در یک قالب یا اثر انگشت مرورگری که از جاوااسکریپت استفاده می‌کند) و آن را در لینکی دیگر به‌عنوان اجزای مسیر معمولی انباشته کند (مثلاً <code>http://example.com/subscribe/you@example.org</code>). اگر به این مشکوک‌اید که یک صفحه شاید در حال انجام این کار است، بهتر است جانب احتیاط را نگه دارید و از حالت مرور خصوصی برای بازدید از آن صفحه استفاده کنید.</p>
-<h3 id="آیا-سرور-اصلی-میتواند-بداند-که-من-از-ceno-استفاده-میکنم"><a class="header" href="#آیا-سرور-اصلی-میتواند-بداند-که-من-از-ceno-استفاده-میکنم">آیا سرور اصلی می‌تواند بداند که من از CENO استفاده می‌کنم؟</a></h3>
-<p>به احتمال قوی خیر. هرگاه CENO با یک سرور اصلی مستقیماً تماس می‌گیرد، همان‌طور رفتار می‌کند که فایرفاکس معمولی برای اندروید رفتار می‌کند، بنابراین دستگاه خاص شما به‌عنوان یک نرم‌افزار فایرفاکس معمولی از همان نسخه پدیدار می‌شود.</p>
-<p>با این حال، وقتی این مرورگر از یک injector برای دریافت محتوایی از سرور اصلی‌اش استفاده می‌کند، (دست‌کم) دو راه وجود دارد که سرور اصلی بداند که CENO و Ouinet به کار رفته است:</p>
+<h3 id="آیا-سرور-اصلی-میتواند-بداند-که-من-از-ceno-استفاده-میکنم"><a class="header" href="#آیا-سرور-اصلی-میتواند-بداند-که-من-از-ceno-استفاده-میکنم">آیا سرور اصلی می‌تواند بداند که من از Ceno استفاده می‌کنم؟</a></h3>
+<p>به احتمال قوی خیر. هرگاه Ceno با یک سرور اصلی مستقیماً تماس می‌گیرد، همان‌طور رفتار می‌کند که فایرفاکس معمولی برای اندروید رفتار می‌کند، بنابراین دستگاه خاص شما به‌عنوان یک نرم‌افزار فایرفاکس معمولی از همان نسخه پدیدار می‌شود.</p>
+<p>با این حال، وقتی این مرورگر از یک injector برای دریافت محتوایی از سرور اصلی‌اش استفاده می‌کند، (دست‌کم) دو راه وجود دارد که سرور اصلی بداند که Ceno و Ouinet به کار رفته است:</p>
 <ol>
 <li>نشانی منبع اتصالی که به سرور اصلی می‌رسد در انبوهه‌یinjector یافت می‌شود (از آنجا که اتصال در حقیقت از خود injector برمی‌آید)؛</li>
 <li>حضور یا غیابِ اطلاعاتِ معین در درخواستِ محتوا خاصیت ویژه‌ی Ouinet است. این زمانی روی می‌دهد که injector محتوا را درخواست می‌کند چون سرویس‌گیرنده‌ی شما از آن خواسته است که آن محتوا را بازیابی و امضا کند، همان‌طور که injector اطلاعات بی‌همتا به دستگاه خاص‌تان را از درخواست حذف می‌کند.</li>
 </ol>
-<p>لطفاً توجه کنید که این‌ها فقط درخواست را برآمده از Ouinet علامت‌گذاری می‌کنند، اما آن‌ها آن را به شما یا دستگاه خاص‌تان متصل نمی‌کنند. با این حال، اگر این درخواست به دلایلی یادشده در پرسش پیشین هنوز شامل اطلاعاتی به‌لحاظ شخصی قابل‌شناسایی باشند، این می‌تواند برای علامت‌گذاریِ شما به‌عنوان یک کاربر CENO به کار رود.</p>
-<p>در کل، اگر یک وب‌سایت خاص (همچون یک سایت حکومتی) از شما انتظار دارد که در مقام فردی قابل‌شناسایی به آن وصل شوید، از منطقه‌ای مشخص (یا از یک <a href="https://en.wikipedia.org/wiki/National_intranet">اینترانت ملی</a>)، به شما توصیه می‌کنیم که به جای CENO از یک مرورگر وب معمولی استفاده کنید.</p>
+<p>لطفاً توجه کنید که این‌ها فقط درخواست را برآمده از Ouinet علامت‌گذاری می‌کنند، اما آن‌ها آن را به شما یا دستگاه خاص‌تان متصل نمی‌کنند. با این حال، اگر این درخواست به دلایلی یادشده در پرسش پیشین هنوز شامل اطلاعاتی به‌لحاظ شخصی قابل‌شناسایی باشند، این می‌تواند برای علامت‌گذاریِ شما به‌عنوان یک کاربر Ceno به کار رود.</p>
+<p>در کل، اگر یک وب‌سایت خاص (همچون یک سایت حکومتی) از شما انتظار دارد که در مقام فردی قابل‌شناسایی به آن وصل شوید، از منطقه‌ای مشخص (یا از یک <a href="https://en.wikipedia.org/wiki/National_intranet">اینترانت ملی</a>)، به شما توصیه می‌کنیم که به جای Ceno از یک مرورگر وب معمولی استفاده کنید.</p>
 <h2 id="بهعنوان-یک-بذرپاش"><a class="header" href="#بهعنوان-یک-بذرپاش">به‌عنوان یک بذرپاش</a></h2>
 <h3 id="چه-دادهای-از-دستگاه-من-بذرپاشی-میشود"><a class="header" href="#چه-دادهای-از-دستگاه-من-بذرپاشی-میشود">چه داده‌ای از دستگاه من بذرپاشی می‌شود؟</a></h3>
-<p>در حال حاضر، تنها محتوایی که از سوی CENO بذرپاشی می‌شود هر محتوای وب غیر-خصوصی است که به شیوه‌ی مرور عمومی درخواست شده باشد. این همچنین به معنای آن است که کاربران هیچ چیزی را بذرپاشی نمی‌کنند که خودشان در گذشته‌ی نزدیک به آن دسترسی نداشته‌اند.</p>
+<p>در حال حاضر، تنها محتوایی که از سوی Ceno بذرپاشی می‌شود هر محتوای وب غیر-خصوصی است که به شیوه‌ی مرور عمومی درخواست شده باشد. این همچنین به معنای آن است که کاربران هیچ چیزی را بذرپاشی نمی‌کنند که خودشان در گذشته‌ی نزدیک به آن دسترسی نداشته‌اند.</p>
 <h3 id="آیا-کسی-میتواند-پی-برد-که-من-چه-بذری-میپاشم"><a class="header" href="#آیا-کسی-میتواند-پی-برد-که-من-چه-بذری-میپاشم">آیا کسی می‌تواند پی برد که من چه بذری می‌پاشم؟</a></h3>
 <p>بله و خیر. هر کسی با فهمی کافی از عملکردهای Ouinet می‌تواند ابزاری را برای پی‌بردن به این‌که یک محتوای خاص ازکدام نشانی‌های IP به اشتراک گذاشته می‌شود بسازد (مانند بیت‌تورنت). با این حال، هدف‌گرفتن یک نشانی IP مشخص و دریافت لیستی از همه‌ی محتواهای بذرپاشی‌شده از سوی سرویس‌گیرندگان پشت آن‌ها ممکن نیست.</p>
 <h2 id="بهعنوان-یک-پل"><a class="header" href="#بهعنوان-یک-پل">به‌عنوان یک پل</a></h2>
 <h3 id="آیا-دیگران-میتوانند-نشانی-ip-مرا-پیدا-کنند"><a class="header" href="#آیا-دیگران-میتوانند-نشانی-ip-مرا-پیدا-کنند">آیا دیگران می‌توانند نشانی IP مرا پیدا کنند؟</a></h3>
-<p>بله، هر مرورگر CENO که قادر به برقراری ارتباط با injectorها باشد نشانی IP اش را در انبوهه‌ی پلی ثبت می‌کند که در آن بقیه‌ی سرویس‌گیرندگان Ouinet می‌توانند آن‌ها را پیدا کنند.</p>
+<p>بله، هر مرورگر Ceno که قادر به برقراری ارتباط با injectorها باشد نشانی IP اش را در انبوهه‌ی پلی ثبت می‌کند که در آن بقیه‌ی سرویس‌گیرندگان Ouinet می‌توانند آن‌ها را پیدا کنند.</p>
 <h3 id="آیا-امکان-دارد-به-کسی-کمک-کنم-تا-به-محتوایی-دسترسی-پیدا-کند-که-در-کشور-من-غیرقانونی-است"><a class="header" href="#آیا-امکان-دارد-به-کسی-کمک-کنم-تا-به-محتوایی-دسترسی-پیدا-کند-که-در-کشور-من-غیرقانونی-است">آیا امکان دارد به کسی کمک کنم تا به محتوایی دسترسی پیدا کند که در کشور من غیرقانونی است؟</a></h3>
 <p>بله. اما، پل‌ها فقط ارتباطی رمزگذاری‌شده را بین یک سرویس‌گیرنده‌ی Ouinet و یک injector برقرار می‌کنند. این به معنای آن است که پل هرگز نباید درخواست‌هایی مستقیم برای محتوا را به هیچ سرور دیگری اعلام کنند.</p>
 
@@ -186,9 +222,11 @@
                             <a rel="prev" href="../concepts/advantages.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../browser/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                            <a rel="next prefetch" href="../browser/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -198,23 +236,33 @@
                     <a rel="prev" href="../concepts/advantages.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../browser/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                    <a rel="next prefetch" href="../browser/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>
