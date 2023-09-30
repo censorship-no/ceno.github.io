@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 12:40-0700\n"
+"POT-Creation-Date: 2023-09-29 16:12-0700\n"
 "PO-Revision-Date: 2023-05-30 16:30+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,53 +18,54 @@ msgstr ""
 msgid "en"
 msgstr "es"
 
-#: news.html%2Bhtml.body.nav.div.div.ul.li:89-17
+#: news.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "About"
 msgstr "Acerca de"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: news.html%2Bhtml.body.nav.div.div.ul.li:92-17
+#: news.html%2Bhtml.body.nav.div.div.ul.li:93-17
 msgid "Support"
 msgstr "Ayuda"
 
-#: news.html%2Bhtml.body.nav.div.div.ul.li:97-17
+#: news.html%2Bhtml.body.nav.div.div.ul.li:98-17
 msgid "News"
 msgstr "Noticias"
 
-#: news.html%2Bhtml.body.nav.div.div.ul.li:100-17
+#: news.html%2Bhtml.body.nav.div.div.ul.li:101-17
 msgid "Community"
 msgstr "Comunidad"
 
-#: news.html%2Bhtml.body.nav.div.div.ul.li:103-17
+#: news.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
 msgstr "Donar"
 
-#: news.html%2Bhtml.body.nav.div.div.div.a[title]:107-15
+#: news.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
 msgstr "Obtén Ceno"
 
-#: news.html%2Bhtml.body.nav.div.div.div:107-10
+#: news.html%2Bhtml.body.nav.div.div.div:108-10
 msgid "Download"
 msgstr "Descargar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: news.html%2Bhtml.body.nav.div.div.div:109-1
+#: news.html%2Bhtml.body.nav.div.div.div:110-1
 msgid "EN"
 msgstr "ES"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: news.html%2Bhtml.body.nav.div.div.div.div:115-5
+#: news.html%2Bhtml.body.nav.div.div.div.div:116-5
 #, fuzzy
 msgid ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/news."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/news.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/news.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/news.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/news."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/news."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/news.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/news.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/news.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/news."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/news.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
 "hreflang=\"pt_BR\" href=\"../pt_BR/news.html\">Português</a> <a "
 "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/news."
 "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
@@ -82,15 +83,15 @@ msgstr ""
 "href=\"../ru/news.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/news.html\">Українська</a>"
 
-#: news.html%2Bhtml.body.main.title:138-1
+#: news.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | News and Media"
 msgstr "Navegador Ceno | Noticias y Medios"
 
-#: news.html%2Bhtml.body.main.div.h1:140-5
+#: news.html%2Bhtml.body.main.div.h1:142-5
 msgid "News and Media"
 msgstr "Noticias y Medios"
 
-#: news.html%2Bhtml.body.main.div.p:141-2
+#: news.html%2Bhtml.body.main.div.p:143-2
 msgid ""
 "Read the latest updates from the Ceno team, check out past coverage, and "
 "find resources for journalists and researchers."
@@ -98,41 +99,51 @@ msgstr ""
 "Lea las últimas actualizaciones del equipo de Ceno, consulte la cobertura "
 "anterior, y encuentre recursos para periodistas e investigadores."
 
-#: news.html%2Bhtml.body.main.div.section.h2:145-2
+#: news.html%2Bhtml.body.main.div.section.h2:147-2
 msgid "Our News"
 msgstr "Nuestras Noticias"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:153-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:155-17
 msgid "Ceno proves itself in Iran during Internet shutdowns"
 msgstr "Ceno se pone a prueba en Irán durante los apagones de Internet"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:155-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:157-17
 msgid "December 15, 2022"
 msgstr "15 de diciembre de 2022"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:166-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:168-17
 msgid "eQualitie launches Ceno, world's first decentralized p2p mobile browser"
 msgstr ""
 "eQualitie lanza Ceno, el primer navegador móvil p2p descentralizado del mundo"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:168-3
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:170-3
 msgid "May 10th, 2022"
 msgstr "10 de Mayo, 2022"
 
-#: news.html%2Bhtml.body.main.div.section.h2:179-1
+#: news.html%2Bhtml.body.main.div.section.h2:181-1
 msgid "Recent Coverage"
 msgstr "Cobertura Reciente"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:187-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:189-17
+msgid "eQualitie presented the Ceno mobile p2p browser in Ukraine"
+msgstr ""
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:191-17
+#, fuzzy
+#| msgid "May 10th, 2022"
+msgid "May 21st, 2023"
+msgstr "10 de Mayo, 2022"
+
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:203-17
 msgid "WhatsApp Launches a Tool to Fight Internet Censorship"
 msgstr ""
 "WhatsApp Lanza una Herramienta para Luchar contra la Censura en Internet"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:189-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:205-17
 msgid "January 5th, 2023"
 msgstr "5 de enero de 2023"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:200-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:217-17
 msgid ""
 "A new media project is working to sneak blocked media into Russia and wants "
 "to become a hub for press freedom in totalitarian regimes"
@@ -141,88 +152,76 @@ msgstr ""
 "en Rusia y quiere convertirse en un centro para la libertad de prensa en "
 "regímenes totalitarios"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:202-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:219-17
 msgid "September 1st, 2022"
 msgstr "1 de Septiembre de 2022"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:213-17
-msgid ""
-"The Ceno browser is gaining popularity on the Internet - everything opens "
-"with it without a VPN"
-msgstr ""
-"El navegador Ceno está ganando popularidad en Internet - todo se abre con él "
-"sin una VPN"
-
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:215-17
-msgid "August 12th, 2022"
-msgstr "12 de agosto de 2022"
-
-#: news.html%2Bhtml.body.main.div.section.div.p:221-9
+#: news.html%2Bhtml.body.main.div.section.div.p:226-9
 msgid "More Coverage >>"
 msgstr "Más Cobertura >>"
 
-#: news.html%2Bhtml.body.main.div.section.h2:227-1
+#: news.html%2Bhtml.body.main.div.section.h2:232-1
 msgid "Events & Presentations"
 msgstr "Eventos y Presentaciones"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:236-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:241-17
 msgid "Ceno: Avoid Internet Shutdowns with Cooperative Web Browsing (Arabic)"
 msgstr ""
 "Ceno: Evite los Apagones de Internet con la Navegación Web Cooperativa "
 "(árabe)"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:237-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:242-17
 msgid "November 26th, 2021"
 msgstr "26 de Noviembre de 2022"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:248-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:253-17
 msgid "Ceno: Route Around Censorship with P2P-powered Web Browsing"
 msgstr "Ceno: Elude la Censura con Navegación Web basada en P2P"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:249-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:254-17
 msgid "November 4th, 2021"
 msgstr "4 de Noviembre de 2021"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:260-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:265-17
 msgid ""
 "Ouinet, a cooperative P2P web cache that helps overcome network interference"
 msgstr ""
 "Ouinet, un caché web P2P cooperativo que ayuda a superar la interferencia de "
 "la red"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:261-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.p:266-17
 msgid "August 2nd, 2018"
 msgstr "2 de Agosto de 2018"
 
-#: news.html%2Bhtml.body.main.div.section.h2:274-1
+#: news.html%2Bhtml.body.main.div.section.h2:279-1
 msgid "Resources"
 msgstr "Recursos"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:281-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:286-17
 msgid "Fact Sheet"
 msgstr "Hoja de Hechos"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:282-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:287-17
 msgid "Learn"
 msgstr "Aprender"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:293-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:298-17
 msgid "Case Studies"
 msgstr "Estudios de Caso"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:294-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:299-17
 msgid "Read"
 msgstr "Leer"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:305-17
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:310-17
 msgid "Brand & Style Guide"
 msgstr "Guía de Marca y Estilo"
 
-#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:306-3
+#: news.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:311-3
 msgid "Explore"
 msgstr "Explorar"
 
-#: news.html%2Bhtml.body.main.div.p:317-2
+#: news.html%2Bhtml.body.main.div.p:322-2
 msgid ""
 "For press and media inquiries, please contact Jenny Ryan at: press [at] "
 "equalitie [dot] org"
@@ -230,7 +229,7 @@ msgstr ""
 "Para consultas de prensa y medios, comuníquese con Jenny Ryan en: press "
 "[arroba] equalitie [punto] org"
 
-#: news.html%2Bhtml.body.footer.div.p:334-9
+#: news.html%2Bhtml.body.footer.div.p:339-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -248,13 +247,23 @@ msgstr ""
 "en línea."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: news.html%2Bhtml.body.footer:336-23
+#: news.html%2Bhtml.body.footer:341-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid ""
+#~ "The Ceno browser is gaining popularity on the Internet - everything opens "
+#~ "with it without a VPN"
+#~ msgstr ""
+#~ "El navegador Ceno está ganando popularidad en Internet - todo se abre con "
+#~ "él sin una VPN"
+
+#~ msgid "August 12th, 2022"
+#~ msgstr "12 de agosto de 2022"
 
 #, fuzzy
 #~| msgctxt "news.html+html.body.main.title:137-1"

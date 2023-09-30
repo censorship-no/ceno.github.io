@@ -5,8 +5,10 @@
         <meta charset="UTF-8">
         <title>Посібник користувача Censorship.no!</title>
         <meta name="robots" content="noindex" />
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -17,25 +19,29 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -51,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -63,39 +69,67 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Ознайомлення</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Що таке браузер CENO?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Що таке Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Короткий посібник</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Часті питання</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Основні поняття</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> Як це працює?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публічний або приватний перегляд</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Переваги використання CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ризики під час використання CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Використання браузера CENO</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Встановлення CENO</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Використання публічного або приватного перегляду</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> Налаштування CENO</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Тестування браузера</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Допомога іншим</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Усунення несправностей</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Додаток: Зовнішній інтерфейс клієнта Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="intro/index.html"><strong aria-hidden="true">1.</strong> Ознайомлення</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Що таке браузер Ceno?</a></li><li class="chapter-item expanded "><a href="intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Що таке Ouinet?</a></li><li class="chapter-item expanded "><a href="intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Короткий посібник</a></li><li class="chapter-item expanded "><a href="intro/faq.html"><strong aria-hidden="true">1.4.</strong> Часті питання</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">2.</strong> Основні поняття</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/how.html"><strong aria-hidden="true">2.1.</strong> Як це працює?</a></li><li class="chapter-item expanded "><a href="concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Публічний або приватний перегляд</a></li><li class="chapter-item expanded "><a href="concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Переваги використання Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="concepts/risks.html"><strong aria-hidden="true">2.4.</strong> Ризики під час використання Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="browser/index.html"><strong aria-hidden="true">3.</strong> Використання браузера Ceno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="browser/install.html"><strong aria-hidden="true">3.1.</strong> Встановлення Ceno</a></li><li class="chapter-item expanded "><a href="browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Використання публічного або приватного перегляду</a></li><li class="chapter-item expanded "><a href="browser/settings.html"><strong aria-hidden="true">3.3.</strong> Налаштування Ceno</a></li><li class="chapter-item expanded "><a href="browser/testing.html"><strong aria-hidden="true">3.4.</strong> Тестування браузера</a></li><li class="chapter-item expanded "><a href="browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Допомога іншим</a></li><li class="chapter-item expanded "><a href="browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Усунення несправностей</a></li></ol></li><li class="chapter-item expanded "><a href="client/front-end.html"><strong aria-hidden="true">4.</strong> Додаток: Зовнішній інтерфейс клієнта Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -115,6 +149,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -128,8 +163,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -140,35 +176,35 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="Посібник-користувача-censorshipno"><a class="header" href="#Посібник-користувача-censorshipno">Посібник користувача Censorship.no!</a></h1>
-<p>Цей посібник призначений для користувачів <a href="https://github.com/censorship-no/ceno-docs/">браузера CENO</a> та повʼязаних із ним технологій, створених для проєкту <a href="https://censorship.no/">Censorship.no!</a> компанією <a href="https://equalit.ie/">eQualitie</a>.</p>
-<p>Якщо Ви шукаєте технічну документацію, ознайомтеся з <a href="https://github.com/censorship-no/ceno-docs/">репозиторієм документації CENO</a>, де Ви отримаєте детальнішу інформацію щодо реалізації та <a href="https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">специфікації протоколу</a>.</p>
+<p>Цей посібник призначений для користувачів <a href="https://gitlab.com/censorship-no/ceno-docs/">браузера Ceno</a> та повʼязаних із ним технологій, створених для проєкту <a href="https://censorship.no/">Censorship.no!</a> компанією <a href="https://equalit.ie/">eQualitie</a>.</p>
+<p>Якщо Ви шукаєте технічну документацію, ознайомтеся з <a href="https://gitlab.com/censorship-no/ceno-docs/">репозиторієм документації Ceno</a>, де Ви отримаєте детальнішу інформацію щодо реалізації та <a href="https://gitlab.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md">специфікації протоколу</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Ознайомлення"><a class="header" href="#Ознайомлення">Ознайомлення</a></h1>
 <p>Інтернет та всесвітня павутина стають усе важливішими для людей у всьому світі як джерело різноманітної інформації та як спосіб здійснення фундаментальних прав людини. В той саме час, як останніми роками спостерігається зростання різновидів мережевої цензури та інших видів мережного втручання (дивіться звіти <a href="https://ooni.org/reports/" title="Open Observatory of Network Interference — Research reports">OONI</a>, <a href="https://magma.lavafeld.org/publications/" title="Magma publications"> Magma</a>, <a href="https://censoredplanet.org/reports" title="Censored Planet – Reports">Censored Planet</a>) з боку як приватних, так і державних інституцій.</p>
 <p>Перегляд веб-ресурсів побудований так, що Ваші пристрої можуть звʼязуватися з певними компʼютерами, що називаються <strong>веб-серверами</strong> (якими керують виробники вмісту, видавці або постачальники Інтернет-послуг), які, в свою чергу, зберігають вміст, який Ви хочете отримати. Цей звʼязок синхронний – більше схожий на спілкування по телефону, ніж на обмін листами. На жаль, це вимагає, щоб потрібний Вам веб-сервер був підключений до мережі та мав достатньо ресурсів для спілкування з Вашим пристроєм у цей час.</p>
 <p>Поява <em>мереж доставки вмісту</em> (або CDN; наприклад, комерційні Akamai та Cloudflare або орієнтована на громадянське суспільство Deflect) зняло частину навантаження з цих веб-серверів, розподіливши копії вмісту по центрах обробки даних по всьому світу, щоб вони були ближче до Ваших пристроїв і, отже, були швидше доступними, тоді як вихідні сервери стають захищеними від прямого доступу. Проте, нині CDN-сервери (і, відповідно, організації, що ними керують) повинні користуватися довірою як вихідного сервера, так і Ваших пристроїв, а також повинні бути доступними будь-коли.</p>
 <p>На жаль, існують обставини, за яких загальне підключення до інтернету ускладнене (країни, що розвиваються або без достатньої уваги, бідні або сільські регіони), дороге (деякі країни стягують велику плату за міжнародний трафік) або активно блокується державними органами (відкрито або в результаті загального відключення). У цих випадках доступ до вихідних веб-серверів або навіть до серверів CDN ускладнений або неможливий, і Ваш пристрій не зможе отримати цей вміст, навіть якщо цей вміст був доступним ще кілька годин тому, а ми живемо на відстані декількох вулиць один від одного.</p>
 <p>Саме тут в гру вступають браузер CENO та Ouinet. У цьому розділі ми Вас із ними познайомимо.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Що-таке-браузер-ceno"><a class="header" href="#Що-таке-браузер-ceno">Що таке браузер CENO?</a></h1>
-<p>CENO (скорочено від <a href="https://censorship.no/">Censorship.no!</a>) – це веб-браузер для мобільних пристроїв Android (як-от смартфонів і планшетів), який використовує новий спосіб обходу Інтернет-цензури та обміну завантаженим вмістом серед усіх користувачів в <a href="https://uk.wikipedia.org/wiki/Peer-to-peer">одноранговій</a> (P2P) мережі. Це знижує загальну залежність від міжнародних централізованих серверів і дозволяє часто запитуваному мережевому вмісту, зберігатися в мережі навіть під час жорсткої фільтрації та регулювання.</p>
-<p>CENO відрізняється від більшості інших рішень щодо обходу цензури тим, що користувачі можуть продовжувати обмінюватися мережевим вмістом навіть за відсутності (або вкрай обмеженої наявності) підключення через національні кордони. Таким чином, CENO розроблено з розрахунком на жорстку фільтрацію Інтернету та розгорнуті <a href="https://en.wikipedia.org/wiki/National_intranet">національні внутрішні мережі</a>, що відгороджують націю від зовнішнього Інтернету.</p>
-<p>Браузер CENO заснований на адаптованій версії <a href="https://www.mozilla.org/firefox/android/">Firefox для Android</a> – популярного сучасного, багатофункціонального та безпечного браузера з відкритим вихідним кодом. CENO розширює Firefox за допомогою технології <strong>Ouinet</strong>, що дозволяє обмінюватись вмістом між пристроями (описано в наступних розділах).</p>
-<h2 id="Ким-розробляється-ceno"><a class="header" href="#Ким-розробляється-ceno">Ким розробляється CENO?</a></h2>
-<p>Проєкт <em>Censorship.no!</em> керується компанією <a href="https://equalit.ie/">eQualitie</a> на підтримку статей 18, 19 та 20 <a href="https://www.un.org/en/universal-declaration-human-rights/">Загальної декларації прав людини</a>. CENO та повʼязані з ним технології розроблені як безкоштовне програмне забезпечення з відкритим вихідним кодом (<a href="https://github.com/censorship-no/" title="CENO source code repositories">вихідний код проєкту</a>), що дозволяє будь-кому використовувати, вивчати, поширювати та покращувати цей код. Звʼяжіться з нами за адресою <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>, якщо у Вас є сумніви чи потрібна додаткова інформація.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Що-таке-браузер-ceno"><a class="header" href="#Що-таке-браузер-ceno">Що таке браузер Ceno?</a></h1>
+<p>Ceno (скорочено від <a href="https://censorship.no/">Censorship.no!</a>) – це веб-браузер для мобільних пристроїв Android (як-от смартфонів і планшетів), який використовує новий спосіб обходу Інтернет-цензури та обміну завантаженим вмістом серед усіх користувачів в <a href="https://uk.wikipedia.org/wiki/Peer-to-peer">одноранговій</a> (P2P) мережі. Це знижує загальну залежність від міжнародних централізованих серверів і дозволяє часто запитуваному мережевому вмісту, зберігатися в мережі навіть під час жорсткої фільтрації та регулювання.</p>
+<p>Ceno відрізняється від більшості інших рішень щодо обходу цензури тим, що користувачі можуть продовжувати обмінюватися мережевим вмістом навіть за відсутності (або вкрай обмеженої наявності) підключення через національні кордони. Таким чином, Ceno розроблено з розрахунком на жорстку фільтрацію Інтернету та розгорнуті <a href="https://en.wikipedia.org/wiki/National_intranet">національні внутрішні мережі</a>, що відгороджують націю від зовнішнього Інтернету.</p>
+<p>Браузер Ceno заснований на адаптованій версії <a href="https://www.mozilla.org/firefox/android/">Firefox для Android</a> – популярного сучасного, багатофункціонального та безпечного браузера з відкритим вихідним кодом. Ceno розширює Firefox за допомогою технології <strong>Ouinet</strong>, що дозволяє обмінюватись вмістом між пристроями (описано в наступних розділах).</p>
+<h2 id="Ким-розробляється-ceno"><a class="header" href="#Ким-розробляється-ceno">Ким розробляється Ceno?</a></h2>
+<p>Проєкт <em>Censorship.no!</em> керується компанією <a href="https://equalit.ie/">eQualitie</a> на підтримку статей 18, 19 та 20 <a href="https://www.un.org/en/universal-declaration-human-rights/">Загальної декларації прав людини</a>. Ceno та повʼязані з ним технології розроблені як безкоштовне програмне забезпечення з відкритим вихідним кодом (<a href="https://gitlab.com/censorship-no/" title="Ceno source code repositories">вихідний код проєкту</a>), що дозволяє будь-кому використовувати, вивчати, поширювати та покращувати цей код. Звʼяжіться з нами за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>, якщо у Вас є сумніви чи потрібна додаткова інформація.</p>
 <h2 id="Для-кого-це"><a class="header" href="#Для-кого-це">Для кого це?</a></h2>
-<p>CENO призначений для всіх, але особливо зручний для тих людей, чий мережевий вміст підпадає під цензуру в мережі, а також для тих, хто живе в країнах, де підключення до глобального Інтернету є нестабільним, ненадійним або дорогим. Браузер CENO дозволяє користувачам ділитися мережевим вмістом між собою, створюючи децентралізовану мережу вузлів, що допомагають один одному.</p>
-<p>Щоб використовувати CENO, Вам не потрібно бути досвідченим користувачем чи розуміти принципи роботи однорангових мереж. З погляду користувача все працює практично так само, як і функціонування звичайного веб-браузера (специфічна для CENO функціональність значною мірою прихована «під капотом»).</p>
-<p>Однак, CENO може споживати більше Інтернет-трафіку, ніж звичайний веб-браузер, оскільки він повинен повідомляти іншим користувачам, який мережевий вміст розповсюджує, і, можливо, доставляти цей вміст тим, хто запитує. Таким чином, CENO покладається на доволі стабільне зʼєднання всередині країни. Ми радимо використовувати CENO через Wi-Fi не лише для того, щоб уникнути витрати мобільного трафіку (якщо Ваш трафік обмежений), але й для збільшення шансів доставити мережевий вміст іншим користувачам.</p>
+<p>Ceno призначений для всіх, але особливо зручний для тих людей, чий мережевий вміст підпадає під цензуру в мережі, а також для тих, хто живе в країнах, де підключення до глобального Інтернету є нестабільним, ненадійним або дорогим. Браузер Ceno дозволяє користувачам ділитися мережевим вмістом між собою, створюючи децентралізовану мережу вузлів, що допомагають один одному.</p>
+<p>Щоб використовувати Ceno, Вам не потрібно бути досвідченим користувачем чи розуміти принципи роботи однорангових мереж. З погляду користувача все працює практично так само, як і функціонування звичайного веб-браузера (специфічна для Ceno функціональність значною мірою прихована «під капотом»).</p>
+<p>Однак, Ceno може споживати більше Інтернет-трафіку, ніж звичайний веб-браузер, оскільки він повинен повідомляти іншим користувачам, який мережевий вміст розповсюджує, і, можливо, доставляти цей вміст тим, хто запитує. Таким чином, Ceno покладається на доволі стабільне зʼєднання всередині країни. Ми радимо використовувати Ceno через Wi-Fi не лише для того, щоб уникнути витрати мобільного трафіку (якщо Ваш трафік обмежений), але й для збільшення шансів доставити мережевий вміст іншим користувачам.</p>
 <blockquote>
-<p><strong>Увага:</strong> <em>CENO не є засобом анонімності.</em> Фактично, використання CENO може дозволити іншим дізнатися, чи Ви переглядали певний мережевий вміст, чи поширюєте його. Будь ласка, уважно вивчіть, які ризики Ви берете на себе, використовуючи цей інструмент. Для отримання додаткової інформації – ознайомтеся з розділами <a href="intro/../concepts/public-private.html">публічний та приватний перегляд сторінок</a> і <a href="intro/../concepts/risks.html">ризики</a>.</p>
+<p><strong>Увага:</strong> <em>Ceno не є засобом анонімності.</em> Фактично, використання Ceno може дозволити іншим дізнатися, чи Ви переглядали певний мережевий вміст, чи поширюєте його. Будь ласка, уважно вивчіть, які ризики Ви берете на себе, використовуючи цей інструмент. Для отримання додаткової інформації – ознайомтеся з розділами <a href="intro/../concepts/public-private.html">публічний та приватний перегляд сторінок</a> і <a href="intro/../concepts/risks.html">ризики</a>.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Що-таке-ouinet"><a class="header" href="#Що-таке-ouinet">Що таке Ouinet?</a></h1>
-<p><a href="https://github.com/equalitie/ouinet/">Ouinet</a> – це ключова технологія, яка дозволяє браузеру CENO обмінюватися мережевим вмістом з іншими пристроями. Ouinet поставляється у вигляді бібліотеки (набору методів і функцій), яку подібні програми, як то CENO можуть використовувати, щоб стати учасником однорангової (<a href="https://uk.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> або P2P) мережі, де вузли взаємодіють один з одним безпосередньо для забезпечення доступу до мережевого вмісту та його зберігання, а також для запиту та доставки раніше отриманого вмісту іншим користувачам.</p>
+<p><a href="https://gitlab.com/equalitie/ouinet/">Ouinet</a> – це ключова технологія, яка дозволяє браузеру CENO обмінюватися мережевим вмістом з іншими пристроями. Ouinet поставляється у вигляді бібліотеки (набору методів і функцій), яку подібні програми, як то CENO можуть використовувати, щоб стати учасником однорангової (<a href="https://uk.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> або P2P) мережі, де вузли взаємодіють один з одним безпосередньо для забезпечення доступу до мережевого вмісту та його зберігання, а також для запиту та доставки раніше отриманого вмісту іншим користувачам.</p>
 <p>Ouinet заснований на винахідливому поєднанні існуючих технологій для реалізації свого функціоналу: пошук інших учасників здійснюється за допомогою методів, що прийшли з обміну файлами (розподілені геш-таблиці BitTorrent), для звʼязку з ними використовуються стандартні веб-протоколи, файлообміну (проксі-запити HTTP та µTP BitTorrent), а галузеві стандарти забезпечують безпеку звʼязку та справжність вмісту (шифрування TLS та підписи Ed25519). Ouinet дозволяє за необхідності замінювати одні технології іншими (наприклад, у деяких випадках µTP можна замінити на транспорти Tor).</p>
 <p>На мобільних пристроях Ouinet може бути вбудований у додатки (як бібліотека Android). На компʼютерах він може використовуватися звичайними веб-клієнтами, зокрема браузерами (як локальний HTTP-проксі).</p>
 <p>Як і браузер CENO, Ouinet розроблений компанією <a href="https://equalit.ie/">eQualitie</a> як вільне та безкоштовне програмне забезпечення з відкритим вихідним кодом.</p>
 <h2 id="Для-кого-це-1"><a class="header" href="#Для-кого-це-1">Для кого це?</a></h2>
 <p>Ouinet передусім корисний для розробників програмного забезпечення, виробників вмісту та видавців, які хочуть дати користувачам своїх програм можливість ділитися отриманим вмістом з іншими користувачами. Це знижує загальне навантаження на сервери додатків та покращує доступність вмісту для користувачів, що проживають у країнах із заблокованим доступом до цих серверів.</p>
-<p>Будь ласка, зверніть увагу, що Ouinet – це експериментальний проєкт, що розвивається: іноді деякі функції можуть працювати недостатньо стабільно; можливі також помилки та збої. Ми просимо Вас контактувати з нами за адресою <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>, тестувати та повідомляти про Ваш досвід – будемо раді Вашим відгукам!</p>
+<p>Будь ласка, зверніть увагу, що Ouinet – це експериментальний проєкт, що розвивається: іноді деякі функції можуть працювати недостатньо стабільно; можливі також помилки та збої. Ми просимо Вас контактувати з нами за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>, тестувати та повідомляти про Ваш досвід – будемо раді Вашим відгукам!</p>
 <blockquote>
 <p><strong>Увага:</strong> <em>Ouinet НЕ забезпечує анонімність</em>. Якщо Ви не впевнені в його придатності для певної задачі, не вагайтесь і звʼяжіться з нами.</p>
 </blockquote>
@@ -177,7 +213,7 @@
 <h2 id="З-чого-почати"><a class="header" href="#З-чого-почати">З чого почати</a></h2>
 <p>Вам знадобиться пристрій Android:</p>
 <ol>
-<li>Встановіть браузер CENO з <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a> або <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>Жодних особливих дозволів не потрібно</em>.</li>
+<li>Встановіть браузер CENO з <a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a>, <a href="https://gitlab.com/censorship-no/ceno-browser/releases">GitHub</a> або <a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>. <em>Жодних особливих дозволів не потрібно</em>.</li>
 <li>Запустіть його.</li>
 <li>Переглядайте сторінки як зазвичай, щоб допомогти іншим користувачам отримати до них доступ; якщо Вас непокоїть конфіденційність якоїсь сторінки або якщо вона завантажується не так, як очікувалося – використовуйте приватну вкладку (дивіться <a href="intro/../concepts/public-private.html">публічний або приватний перегляд</a>).</li>
 <li>Натисніть на сповіщення CENO, щоб повністю зупинити його.</li>
@@ -190,7 +226,7 @@
 <ul>
 <li>Будь ласка, перегляньте <a href="intro/faq.html">ЧаП</a>.</li>
 <li>Зверніться до <a href="intro/../browser/troubleshooting.html">посібника з усунення несправностей</a>.</li>
-<li>Звʼяжіться з нами, написавши на адресу <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>.</li>
+<li>Звʼяжіться з нами, написавши на адресу <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Часті-питання"><a class="header" href="#Часті-питання">Часті питання</a></h1>
 <h2 id="Використання"><a class="header" href="#Використання">Використання</a></h2>
@@ -231,8 +267,8 @@
 <li>При мобільному підключенні зʼєднатися з Вашим пристроєм ззовні буде набагато складніше, ніж при підключенні до Wi-Fi, що знижує можливість того, що Ви зможете допомогти іншим користувачам отримати вміст.</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Основні-поняття"><a class="header" href="#Основні-поняття">Основні поняття</a></h1>
-<p>Аби досягти цілі обійти мережеві перешкоди та цензуру, CENO використовує різні методи на рівні веб-стандартів, файлообмінних систем та передової криптографії. Ці технології вміло комбінуються Ouinet таким чином, щоб зробити досвід використання CENO максимально наближеним до звичайного перегляду веб-сторінок.</p>
-<p>Тим не менш, щоб максимально скористатися можливостями CENO, корисно зрозуміти, як працює Ouinet, як ця технологія може застосовуватися залежно від типу вмісту, до якого Ви намагаєтеся отримати доступ, а також переваги використання та можливі ризики. У цьому розділі ми розглянемо ці теми.</p>
+<p>Аби досягти цілі обійти мережеві перешкоди та цензуру, Ceno використовує різні методи на рівні веб-стандартів, файлообмінних систем та передової криптографії. Ці технології вміло комбінуються Ouinet таким чином, щоб зробити досвід використання Ceno максимально наближеним до звичайного перегляду веб-сторінок.</p>
+<p>Тим не менш, щоб максимально скористатися можливостями Ceno, корисно зрозуміти, як працює Ouinet, як ця технологія може застосовуватися залежно від типу вмісту, до якого Ви намагаєтеся отримати доступ, а також переваги використання та можливі ризики. У цьому розділі ми розглянемо ці теми.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Як-це-працює"><a class="header" href="#Як-це-працює">Як це працює?</a></h1>
 <p>У цьому розділі ми пояснимо роботу CENO та Ouinet, розглянувши кілька сценаріїв. Важливі для Ouinet термінологія та поняття будуть наведені (позначені <strong>виділеними літерами</strong>) та використані надалі для ефективності та уникнення плутанини.</p>
 <h2 id="Прямий-доступ-до-вмісту"><a class="header" href="#Прямий-доступ-до-вмісту">Прямий доступ до вмісту</a></h2>
@@ -311,14 +347,14 @@
 <p><img src="concepts/images/user-flow-5.svg" alt="Малюнок: Клієнт отримує підписаний вміст від кількох клієнтів" /></p>
 <p>Зрештою, ситуація може погіршитися, і всю комерційну та державну мережеву інфраструктуру відключають. У цьому випадку Ouinet та браузер CENO також підтримують обмін вмістом між двома клієнтами, що перебувають в одній локальній мережі (наприклад, підключені до однієї точки доступу Wi-Fi), навіть якщо ця мережа не має доступу до інших мереж.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Публічний-чи-приватний-перегляд"><a class="header" href="#Публічний-чи-приватний-перегляд">Публічний чи приватний перегляд</a></h1>
-<p>Завдяки багатьом підходам у подоланні проблем із доступом до Інтернету, CENO може стати для Вас зручним способом отримання різноманітного мережевого вмісту. Як Ви вже могли ознайомитися у попередніх розділах, щоразу, коли Ви отримуєте і передаєте сторінку за допомогою браузера CENO, ця сторінка стає доступною для інших. Разом із тим, завжди є вміст, яким Ви б не хотіли ділитися з іншими (або не хотіли, аби хтось знав, що Ви намагаєтеся отримати до нього доступ), і CENO може допомогти Вам в цьому випадку.</p>
-<p>За замовчуванням під час запуску програми використовується режим <strong>публічний перегляд</strong>. У цьому режимі CENO отримує доступ до мережевого вмісту, як це описано вище:</p>
+<p>Завдяки багатьом підходам у подоланні проблем із доступом до Інтернету, Ceno може стати для Вас зручним способом отримання різноманітного мережевого вмісту. Як Ви вже могли ознайомитися у попередніх розділах, щоразу, коли Ви отримуєте і передаєте сторінку за допомогою браузера Ceno, ця сторінка стає доступною для інших. Разом із тим, завжди є вміст, яким Ви б не хотіли ділитися з іншими (або не хотіли, аби хтось знав, що Ви намагаєтеся отримати до нього доступ), і Ceno може допомогти Вам в цьому випадку.</p>
+<p>За замовчуванням під час запуску програми використовується режим <strong>публічний перегляд</strong>. У цьому режимі Ceno отримує доступ до мережевого вмісту, як це описано вище:</p>
 <ol>
 <li>Намагається отримати прямий доступ.</li>
 <li>Якщо не вдалося, виконується пошук у розподіленому кеші.</li>
 <li>Якщо не вдалося, вміст запитується через інʼєктор (можливо через іншого користувача).</li>
 </ol>
-<p>CENO також має режим <strong>приватного перегляду</strong>. У цьому режимі розподілений кеш ніколи не проглядається і спроби інʼєкції не робляться:</p>
+<p>Ceno також має режим <strong>приватного перегляду</strong>. У цьому режимі розподілений кеш ніколи не проглядається і спроби інʼєкції не робляться:</p>
 <ol>
 <li>Намагається отримати прямий доступ.</li>
 <li>Якщо не вдалося, інʼєктор (можливо, через іншого користувача) переходить в режим <em>звичайний проксі-сервер</em>. Зверніть увагу, що в цьому випадку ані інʼєктор, ані Ваш клієнт не завантажують Вашу сторінку до розподіленого кешу.</li>
@@ -334,33 +370,33 @@
 </ol>
 <p>У режимі приватного перегляду:</p>
 <ol>
-<li>У Вас можуть виникнути труднощі з доступом до заблокованого вмісту за умови, якщо міжнародне підключення занадто обмежене; навіть якщо Ви зможете отримати доступ, інші користувачі CENO не зможуть отримати цей вміст від Вас.</li>
+<li>У Вас можуть виникнути труднощі з доступом до заблокованого вмісту за умови, якщо міжнародне підключення занадто обмежене; навіть якщо Ви зможете отримати доступ, інші користувачі Ceno не зможуть отримати цей вміст від Вас.</li>
 <li>Сторінки з динамічним вмістом, імовірно, працюватимуть.</li>
 <li>Сторінки, які потребують автентифікації, можуть працювати (якщо Ваше зʼєднання захищене HTTPS, інʼєктор не бачить Ваші паролі).</li>
 <li>Ваші дії в браузері не доступні іншим користувачам.</li>
 <li>Інʼєкторам надається обмежена інформація про перегляд вебсторінок (під час використання HTTPS – лише імʼя або адреса вихідного сервера).</li>
 <li>Вам не потрібно довіряти інʼєкторам (під час використання HTTPS діє стандартний захист на основі сертифікатів).</li>
 </ol>
-<p>Підсумовуючи: якщо Ви використовуєте CENO для читання новин, перегляду відео, перегляду Вікіпедії та інших статичних ресурсів, що підпадають під цензуру у Вашій мережі – використовуйте режим <em>публічний перегляду</em> за замовчуванням. А якщо Ви хочете ввійти в Twitter або відредагувати свій сайт на WordPress – використовуйте режим <em>приватний перегляд</em>.</p>
+<p>Підсумовуючи: якщо Ви використовуєте Ceno для читання новин, перегляду відео, перегляду Вікіпедії та інших статичних ресурсів, що підпадають під цензуру у Вашій мережі – використовуйте режим <em>публічний перегляду</em> за замовчуванням. А якщо Ви хочете ввійти в Twitter або відредагувати свій сайт на WordPress – використовуйте режим <em>приватний перегляд</em>.</p>
 <p>Докладнішу інформацію можна знайти в розділі <a href="concepts/risks.html">ризики</a>. Зверніть увагу, що Ваш клієнт може продовжувати працювати як міст і розповсюджувач незалежно від публічного або приватного перегляду. Ми пояснюємо це докладніше в розділі посібника <a href="concepts/../browser/bridging.html">Допомога іншим</a>.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Переваги-використання-cenoouinet"><a class="header" href="#Переваги-використання-cenoouinet">Переваги використання CENO/Ouinet</a></h1>
-<p>Основні переваги використання CENO та Ouinet у порівнянні з іншими технологіями обходу цензури обумовлені взаємодією клієнтів та інʼєкторів для пересилання трафіку один одному, підписанням вмісту для подальшої перевірки та зберігання підписаного вмісту для передачі іншим користувачам. Варто відзначити такі переваги:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Переваги-використання-cenoouinet"><a class="header" href="#Переваги-використання-cenoouinet">Переваги використання Ceno/Ouinet</a></h1>
+<p>Основні переваги використання Ceno та Ouinet у порівнянні з іншими технологіями обходу цензури обумовлені взаємодією клієнтів та інʼєкторів для пересилання трафіку один одному, підписанням вмісту для подальшої перевірки та зберігання підписаного вмісту для передачі іншим користувачам. Варто відзначити такі переваги:</p>
 <ul>
 <li>
-<p><strong>Звичайне використання:</strong> Доступ до мережевого вмісту за допомогою браузера CENO нагадує перегляд веб-сторінок у звичайному браузері, навіть за умови всеохопного блокування інтернету. При цьому, користувачеві непотрібно створювати нові посилання на вміст або робити спеціальні дії (наприклад, передавати файли між застосунками).</p>
+<p><strong>Звичайне використання:</strong> Доступ до мережевого вмісту за допомогою браузера Ceno нагадує перегляд веб-сторінок у звичайному браузері, навіть за умови всеохопного блокування інтернету. При цьому, користувачеві непотрібно створювати нові посилання на вміст або робити спеціальні дії (наприклад, передавати файли між застосунками).</p>
 <ul>
-<li><strong>Збільшення доступності вмісту:</strong> Ouinet здатний ефективно та надійно надавати вміст в умовах значних мережевих перешкод та втручання. Чим більше вміст набуває популярності, тим більше його копій розсилається клієнтами CENO/Ouinet і тим доступнішим цей вміст стає для користувачів.Підписаний вміст може доставлятися користувачам на повністю відключеній від Інтернету території за допомогою автономних засобів (наприклад, USB-накопичувача), й таким чином стати доступним для інших клієнтів.</li>
+<li><strong>Збільшення доступності вмісту:</strong> Ouinet здатний ефективно та надійно надавати вміст в умовах значних мережевих перешкод та втручання. Чим більше вміст набуває популярності, тим більше його копій розсилається клієнтами Ceno/Ouinet і тим доступнішим цей вміст стає для користувачів.Підписаний вміст може доставлятися користувачам на повністю відключеній від Інтернету території за допомогою автономних засобів (наприклад, USB-накопичувача), й таким чином стати доступним для інших клієнтів.</li>
 </ul>
 </li>
 <li>
 <p><strong>Прискорений перегляд:</strong> Оскільки Ваш клієнт може одночасно отримувати різні частини того самого вмісту від різних клієнтів, навантаження з доставки вмісту розподіляється між різними мережами та пристроями, що дозволяє уникнути перевантаження шляхів до одного клієнта (особливо при доставці великого за обсягом вмісту, як-от відео). Це корисно не тільки за умови обмеження доступу до Інтернету в інших країнах, але й для виробників вмісту для уникнення стрибків використання ресурсів на вихідних серверах, коли певний вміст стає дуже популярним (так званий <a href="https://en.wikipedia.org/wiki/Slashdot_effect">Slashdot-ефект</a>).</p>
 </li>
 <li>
-<p><strong>Економний перегляд:</strong> Популярний у певному регіоні вміст зазвичай копіюється клієнтами CENO/Ouinet у цьому регіоні, навіть якщо вихідний сервер розташований за кордоном. Якщо Ви зацікавлені у цьому вмісті, Ваш клієнт, ймовірно, отримає його від іншого клієнта у Вашому регіоні. У деяких країнах, де міжнародний трафік дорожчий за місцевий (наприклад, за наявності <a href="https://en.wikipedia.org/wiki/National_intranet">національних внутрішніх мереж</a>), це дійсно може заощадити Ваші гроші.</p>
+<p><strong>Економний перегляд:</strong> Популярний у певному регіоні вміст зазвичай копіюється клієнтами Ceno/Ouinet у цьому регіоні, навіть якщо вихідний сервер розташований за кордоном. Якщо Ви зацікавлені у цьому вмісті, Ваш клієнт, ймовірно, отримає його від іншого клієнта у Вашому регіоні. У деяких країнах, де міжнародний трафік дорожчий за місцевий (наприклад, за наявності <a href="https://en.wikipedia.org/wiki/National_intranet">національних внутрішніх мереж</a>), це дійсно може заощадити Ваші гроші.</p>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Ризики-під-час-використання-cenoouinet"><a class="header" href="#Ризики-під-час-використання-cenoouinet">Ризики під час використання CENO/Ouinet</a></h1>
-<p>Як і з будь-якою досить складною системою, а особливо такою новаторською, використання браузера CENO (і взагалі будь-якого клієнта Ouinet) не обійдеться без певних ризиків. У цьому розділі ми зберемо та опишемо ці ризики, щоб допомогти Вам зрозуміти їхні наслідки залежно від різних ролей, які Ви можете на себе приміряти під час використання CENO:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Ризики-під-час-використання-cenoouinet"><a class="header" href="#Ризики-під-час-використання-cenoouinet">Ризики під час використання Ceno/Ouinet</a></h1>
+<p>Як і з будь-якою досить складною системою, а особливо такою новаторською, використання браузера Ceno (і взагалі будь-якого клієнта Ouinet) не обійдеться без певних ризиків. У цьому розділі ми зберемо та опишемо ці ризики, щоб допомогти Вам зрозуміти їхні наслідки залежно від різних ролей, які Ви можете на себе приміряти під час використання Ceno:</p>
 <ul>
 <li>як <em>користувач</em>, що переглядає вебсайти</li>
 <li>як <em>поширювач</em>, що розповсюджує сторінки через розподілений кеш, які Ви раніше відвідували</li>
@@ -376,179 +412,179 @@
 <p><strong>Технічна примітка:</strong> Тільки HTTP-запити <code>GET</code> передаються інʼєкторам, при цьому видаляються параметри запиту, а також усі поля заголовків HTTP, крім обмеженого набору основних та зберігають конфіденційність заголовків.</p>
 </blockquote>
 <h3 id="Чи-можуть-інʼєктори-бачити-мою-ip-адресу"><a class="header" href="#Чи-можуть-інʼєктори-бачити-мою-ip-адресу">Чи можуть інʼєктори бачити мою IP-адресу?</a></h3>
-<p>Так. Проте, інʼєктори не можуть відрізнити, чи запит надійшов від користувача CENO чи від моста. Отож, запити, що надходять до інʼєктора, не можуть бути надійно привʼязані до IP-адрес.</p>
+<p>Так. Проте, інʼєктори не можуть відрізнити, чи запит надійшов від користувача Ceno чи від моста. Отож, запити, що надходять до інʼєктора, не можуть бути надійно привʼязані до IP-адрес.</p>
 <h3 id="Чи-можуть-мої-особисті-дані-потрапити-в-розподілений-кеш"><a class="header" href="#Чи-можуть-мої-особисті-дані-потрапити-в-розподілений-кеш">Чи можуть мої особисті дані потрапити в розподілений кеш?</a></h3>
-<p>Сподіваємось, що ні. Як згадувалося вище, браузер CENO щосили намагається видалити будь-які особисті дані (паролі, cookies...) з будь-якого запиту на інʼєкцію. Крім того, інʼєктор не роздає дані сам; фактично, його єдина мета – підписати вміст, щоб клієнти Ouinet могли його роздавати. Це означає, що коли вміст повертається до клієнта, цей вміст аналізується, і якщо вихідний сервер вказав, що вміст має приватний характер, CENO не роздаватиме його.</p>
+<p>Сподіваємось, що ні. Як згадувалося вище, браузер Ceno щосили намагається видалити будь-які особисті дані (паролі, cookies...) з будь-якого запиту на інʼєкцію. Крім того, інʼєктор не роздає дані сам; фактично, його єдина мета – підписати вміст, щоб клієнти Ouinet могли його роздавати. Це означає, що коли вміст повертається до клієнта, цей вміст аналізується, і якщо вихідний сервер вказав, що вміст має приватний характер, Ceno не роздаватиме його.</p>
 <p>Тим не менш, можуть бути випадки погано зроблених або шкідливих сторінок, які здатні збирати деяку інформацію про Вас (наприклад, адресу електронної пошти у формі або цифровий відбиток браузера за допомогою JavaScript) і розміщувати її в URL іншого посилання як звичайні компоненти адреси (наприклад, <code>http://example.com/subscribe/you@example.org</code>). Якщо Ви підозрюєте, що сторінка може це робити, краще убезпечитися й застосувати для неї режим приватного перегляду.</p>
-<h3 id="Чи-може-вихідний-сервер-дізнатися-чи-я-використовую-ceno"><a class="header" href="#Чи-може-вихідний-сервер-дізнатися-чи-я-використовую-ceno">Чи може вихідний сервер дізнатися, чи я використовую CENO?</a></h3>
-<p>Скоріше за все ні. Щоразу, коли CENO безпосередньо звʼязується з вихідним сервером, він веде себе як звичайний Firefox для Android, тому на Вашому конкретному пристрої відображається як звичайна програма Firefox тієї ж версії.</p>
-<p>Однак, коли він використовує інʼєктор для отримання деякого вмісту зі свого вихідного сервера, у останнього є (принаймні) два способи дізнатися, що в цьому бере участь CENO або Ouinet:</p>
+<h3 id="Чи-може-вихідний-сервер-дізнатися-чи-я-використовую-ceno"><a class="header" href="#Чи-може-вихідний-сервер-дізнатися-чи-я-використовую-ceno">Чи може вихідний сервер дізнатися, чи я використовую Ceno?</a></h3>
+<p>Скоріше за все ні. Щоразу, коли Ceno безпосередньо звʼязується з вихідним сервером, він веде себе як звичайний Firefox для Android, тому на Вашому конкретному пристрої відображається як звичайна програма Firefox тієї ж версії.</p>
+<p>Однак, коли він використовує інʼєктор для отримання деякого вмісту зі свого вихідного сервера, у останнього є (принаймні) два способи дізнатися, що в цьому бере участь Ceno або Ouinet:</p>
 <ol>
 <li>Адреса джерела зʼєднання з вихідним сервером є адресою одного з інʼєкторів (оскільки зʼєднання дійсно походить від інʼєктора);</li>
 <li>Наявність або відсутність певної інформації в запиті на отримання вмісту може характеризувати запит, що прийшов від Ouinet. Це відбувається, коли інʼєктор запитує вміст, тому що ваш клієнт попросив його отримати і підписати цей вміст, оскільки інʼєктор видаляє зі запиту унікальну інформацію Вашого конкретного пристрою.</li>
 </ol>
-<p>Будь ласка, зверніть увагу, що вони лише позначають запит як вихідний від Ouinet, але не повʼязують його з Вами чи Вашим конкретним пристроєм. Однак, якщо запит з якихось причин, згаданих у попередньому питанні, все ж таки містить якусь особисту інформацію, вона може бути використана, щоб позначити Вас як користувача CENO.</p>
-<p>В цілому, якщо конкретний сайт (наприклад, урядовий сайт) очікує, що Ви підключитесь до нього як ідентифікована особа з певного регіону (або з <a href="https://en.wikipedia.org/wiki/National_intranet">національних внутрішніх мереж</a>), ми радимо Вам використовувати звичайний веб-браузер замість CENO.</p>
+<p>Будь ласка, зверніть увагу, що вони лише позначають запит як вихідний від Ouinet, але не повʼязують його з Вами чи Вашим конкретним пристроєм. Однак, якщо запит з якихось причин, згаданих у попередньому питанні, все ж таки містить якусь особисту інформацію, вона може бути використана, щоб позначити Вас як користувача Ceno.</p>
+<p>В цілому, якщо конкретний сайт (наприклад, урядовий сайт) очікує, що Ви підключитесь до нього як ідентифікована особа з певного регіону (або з <a href="https://en.wikipedia.org/wiki/National_intranet">національних внутрішніх мереж</a>), ми радимо Вам використовувати звичайний веб-браузер замість Ceno.</p>
 <h2 id="Як-роздавач"><a class="header" href="#Як-роздавач">Як роздавач</a></h2>
 <h3 id="Які-дані-роздаються-з-мого-пристрою"><a class="header" href="#Які-дані-роздаються-з-мого-пристрою">Які дані роздаються з мого пристрою?</a></h3>
-<p>Нині єдиний вміст, що роздає CENO – це будь-який неприватний веб-вміст, що був запитаний в режимі публічного перегляду. Це також означає, що користувачі не роздають нічого, до чого вони не мали доступу останнім часом.</p>
+<p>Нині єдиний вміст, що роздає Ceno – це будь-який неприватний веб-вміст, що був запитаний в режимі публічного перегляду. Це також означає, що користувачі не роздають нічого, до чого вони не мали доступу останнім часом.</p>
 <h3 id="Чи-може-хтось-дізнатися-що-я-роздаю"><a class="header" href="#Чи-може-хтось-дізнатися-що-я-роздаю">Чи може хтось дізнатися, що я роздаю?</a></h3>
 <p>І так і ні. Будь-хто, хто досить добре розбирається в роботі Ouinet, може створити інструмент аби зʼясувати, з яких IP-адрес поширюється певний вміст (як у випадку з BitTorrent). Однак, неможливо визначити конкретну IP-адресу і отримати перелік всього того вмісту, що роздається клієнтами.</p>
 <h2 id="Як-міст"><a class="header" href="#Як-міст">Як міст</a></h2>
 <h3 id="Чи-можуть-інші-дізнатися-мою-ip-адресу"><a class="header" href="#Чи-можуть-інші-дізнатися-мою-ip-адресу">Чи можуть інші дізнатися мою IP-адресу?</a></h3>
-<p>Так, кожен браузер CENO здатний спілкуватися з інʼєкторами, реєструє свою IP-адресу в «рої» мостів, де інші клієнти Ouinet можуть їх знайти.</p>
+<p>Так, кожен браузер Ceno здатний спілкуватися з інʼєкторами, реєструє свою IP-адресу в «рої» мостів, де інші клієнти Ouinet можуть їх знайти.</p>
 <h3 id="Чи-можливо-що-я-допомагаю-комусь-отримати-доступ-до-вмісту-що-є-нелегальним-у-моїй-країні"><a class="header" href="#Чи-можливо-що-я-допомагаю-комусь-отримати-доступ-до-вмісту-що-є-нелегальним-у-моїй-країні">Чи можливо, що я допомагаю комусь отримати доступ до вмісту, що є нелегальним у моїй країні?</a></h3>
 <p>Так. Проте мости передають лише зашифрований звʼязок між клієнтом Ouinet та інʼєктором. Це означає, що міст ніколи не робитиме прямих запитів щодо вмісту до іншого сервера від чужого імені.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Використання-браузера-ceno"><a class="header" href="#Використання-браузера-ceno">Використання браузера CENO</a></h1>
-<p>У цьому розділі наведено деякі поради щодо використання браузера CENO та його можливостей, повʼязаних з Ouinet. Будь ласка, завжди памʼятайте, що CENO створений на <a href="https://www.mozilla.org/firefox/android/">Firefox для Android</a>, тому з усіх питань, що стосуються загальних тем перегляду веб-сторінок, слід керуватися сторінками Mozilla <a href="https://support.mozilla.org/uk/products/mobile">Firefox для Android Підтримка</a> .</p>
-<p>Щоб проілюструвати текст Вам час від часу пропонуватимуться зображення екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що Ви бачите на своєму пристрої, особливо з подальшим удосконаленням CENO. Ця документація є актуальною для версії CENO 1.6.0.</p>
-<p>Якщо Ваша програма функціонує суттєво інакше, як описано тут, не вагайтеся звʼязатися з нами за адресою <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> та повідомити про проблему.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Встановлення-ceno"><a class="header" href="#Встановлення-ceno">Встановлення CENO</a></h1>
-<p>Браузер CENO можна встановити у кілька способів:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Використання-браузера-ceno"><a class="header" href="#Використання-браузера-ceno">Використання браузера Ceno</a></h1>
+<p>У цьому розділі наведено деякі поради щодо використання браузера Ceno та його можливостей, повʼязаних з Ouinet. Будь ласка, завжди памʼятайте, що Ceno створений на <a href="https://www.mozilla.org/firefox/android/">Firefox для Android</a>, тому з усіх питань, що стосуються загальних тем перегляду веб-сторінок, слід керуватися сторінками Mozilla <a href="https://support.mozilla.org/uk/products/mobile">Firefox для Android Підтримка</a> .</p>
+<p>Щоб проілюструвати текст Вам час від часу пропонуватимуться зображення екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що Ви бачите на своєму пристрої, особливо з подальшим удосконаленням Ceno. Ця документація є актуальною для версії Ceno 1.6.0.</p>
+<p>Якщо Ваша програма функціонує суттєво інакше, як описано тут, не вагайтеся звʼязатися з нами за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a> та повідомити про проблему.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Встановлення-ceno"><a class="header" href="#Встановлення-ceno">Встановлення Ceno</a></h1>
+<p>Браузер Ceno можна встановити у кілька способів:</p>
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>Браузер CENO</em> від <em>eQualitie</em>): рекомендоване джерело для більшості користувачів Android.</li>
-<li><a href="https://github.com/censorship-no/ceno-browser/releases">GitHub</a>: для пристроїв Android без Google Play.</li>
+<li><a href="https://play.google.com/store/apps/details?id=ie.equalit.ceno">Google Play</a> (<em>Браузер Ceno</em> від <em>eQualitie</em>): рекомендоване джерело для більшості користувачів Android.</li>
+<li><a href="https://gitlab.com/censorship-no/ceno-browser/releases">Gitlab</a>: для пристроїв Android без Google Play.</li>
 <li><a href="https://paskoocheh.com/tools/124/android.html">Paskoocheh</a>: для користувачів у країнах, де заблокований доступ до попередніх платформ.</li>
 </ul>
-<p>CENO вимагає ARM64 або сумісного з Neon ARM32 пристрою, що працює принаймні на Android 4.1 Jelly Bean, тому більшість мобільних пристроїв випущених з кінця 2012 року мають працювати. CENO не потребує <em>спеціальних дозволів</em> для роботи.</p>
+<p>Ceno вимагає ARM64 або сумісного з Neon ARM32 пристрою, що працює принаймні на Android 4.1 Jelly Bean, тому більшість мобільних пристроїв випущених з кінця 2012 року мають працювати. Ceno не потребує <em>спеціальних дозволів</em> для роботи.</p>
 <blockquote>
-<p><strong>Увага:</strong> Будь ласка, будьте обережні й НЕ встановлюйте браузер CENO з будь-яких інших платформ, окрім перерахованих вище. З огляду на особливість програми, зловмисники можуть пропонувати потенційним користувачам підроблені або скомпрометовані версії, що використовуються для порушення конфіденційності користувача або атаки на інших користувачів CENO та Ouinet. Якщо Ви сумніваєтеся, чи достовірна програма, будь ласка, звʼяжіться з <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a> перед встановленням.</p>
+<p><strong>Увага:</strong> Будь ласка, будьте обережні й НЕ встановлюйте браузер Ceno з будь-яких інших платформ, окрім перерахованих вище. З огляду на особливість програми, зловмисники можуть пропонувати потенційним користувачам підроблені або скомпрометовані версії, що використовуються для порушення конфіденційності користувача або атаки на інших користувачів Ceno та Ouinet. Якщо Ви сумніваєтеся, чи достовірна програма, будь ласка, звʼяжіться з <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a> перед встановленням.</p>
 </blockquote>
-<h2 id="Повна-зупинка-ceno"><a class="header" href="#Повна-зупинка-ceno">Повна зупинка CENO</a></h2>
-<p>Щоразу, коли Ви запускаєте програму, на панелі повідомлень Вашого пристрою зʼявлятиметься значок CENO. Цей значок є робота браузера CENO як частина CENO, що працює постійно (навіть коли Ви не переглядаєте вебсторінки) і дозволяє іншим клієнтам використовувати Ваш пристрій як міст та отримувати з його допомогою вміст будь-коли.</p>
-<p>Оскільки робота такого браузера використовує трафік і ресурси процесора, Ви можете захотіти зупинити його на час перебування в поїздці (тобто Ви не підключені до Wi-Fi або не маєте доступу до зарядного пристрою). Натиснувши на повідомлення, що прикріплене до значка, Ви негайно зупините CENO та його роботу (аж поки знову не відкриєте CENO).</p>
-<p><img src="browser/images/tap-stop.png" alt="Малюнок: Натисніть на повідомлення, щоб зупинити роботу CENO" /></p>
-<h2 id="Очищення-всіх-даних-ceno-тривожна-кнопка"><a class="header" href="#Очищення-всіх-даних-ceno-тривожна-кнопка">Очищення всіх даних CENO («тривожна кнопка»)</a></h2>
-<p>Сповіщення <em>робота браузера CENO</em>, показане вище, включає кілька паралельних команд, які можна активувати, натиснувши на них. Команда <em>Додому</em> – просто відкриє CENO в новій вкладці для публічного перегляду, демонструючи його головну сторінку. Команда <em>Стерти</em> – вимагає детальнішого пояснення.</p>
+<h2 id="Повна-зупинка-ceno"><a class="header" href="#Повна-зупинка-ceno">Повна зупинка Ceno</a></h2>
+<p>Щоразу, коли Ви запускаєте програму, на панелі повідомлень Вашого пристрою зʼявлятиметься значок Ceno. Цей значок є робота браузера Ceno як частина Ceno, що працює постійно (навіть коли Ви не переглядаєте вебсторінки) і дозволяє іншим клієнтам використовувати Ваш пристрій як міст та отримувати з його допомогою вміст будь-коли.</p>
+<p>Оскільки робота такого браузера використовує трафік і ресурси процесора, Ви можете захотіти зупинити його на час перебування в поїздці (тобто Ви не підключені до Wi-Fi або не маєте доступу до зарядного пристрою). Натиснувши на повідомлення, що прикріплене до значка, Ви негайно зупините Ceno та його роботу (аж поки знову не відкриєте Ceno).</p>
+<p><img src="browser/images/tap-stop.png" alt="Малюнок: Натисніть на повідомлення, щоб зупинити роботу Ceno" /></p>
+<h2 id="Очищення-всіх-даних-ceno-тривожна-кнопка"><a class="header" href="#Очищення-всіх-даних-ceno-тривожна-кнопка">Очищення всіх даних Ceno («тривожна кнопка»)</a></h2>
+<p>Сповіщення <em>робота браузера Ceno</em>, показане вище, включає кілька паралельних команд, які можна активувати, натиснувши на них. Команда <em>Додому</em> – просто відкриє Ceno в новій вкладці для публічного перегляду, демонструючи його головну сторінку. Команда <em>Стерти</em> – вимагає детальнішого пояснення.</p>
 <blockquote>
 <p><strong>Примітка:</strong> Якщо дії під повідомленням не видно, перетягніть повідомлення від центру донизу, щоб його розгорнути. Якщо ви бачите лише функцію <em>Основна сторінка</em>, можливо, ваш пристрій застарий, щоб підтримувати функцію <em>Стерти</em>.</p>
 </blockquote>
-<p>Якщо Вам потрібно швидко призупинити CENO та очистити всі дані, повʼязані з браузером (не тільки кешований вміст, але й налаштування, зокрема вибране, паролі та вся історія переглядів), Ви можете натиснути на <em>Стерти</em>. Щоб уникнути випадкової втрати даних, ця команда поки нічого не видалить, а лише на короткий час покаже додатковий запит на дію, як це зображено на малюнку нижче:</p>
-<p><img src="browser/images/tap-purge.png" alt="Малюнок: Остання дія зупиняє CENO та очищає всі його дані" /></p>
-<p>Якщо Ви натиснете <em>Так</em>, CENO буде зупинено і всі його дані видаляться <em>без додаткових питань</em>, фактично залишаючи Ваш пристрій таким, якби CENO ніколи не використовувався.</p>
+<p>Якщо Вам потрібно швидко призупинити Ceno та очистити всі дані, повʼязані з браузером (не тільки кешований вміст, але й налаштування, зокрема вибране, паролі та вся історія переглядів), Ви можете натиснути на <em>Стерти</em>. Щоб уникнути випадкової втрати даних, ця команда поки нічого не видалить, а лише на короткий час покаже додатковий запит на дію, як це зображено на малюнку нижче:</p>
+<p><img src="browser/images/tap-purge.png" alt="Малюнок: Остання дія зупиняє Ceno та очищає всі його дані" /></p>
+<p>Якщо Ви натиснете <em>Так</em>, Ceno буде зупинено і всі його дані видаляться <em>без додаткових питань</em>, фактично залишаючи Ваш пристрій таким, якби Ceno ніколи не використовувався.</p>
 <p>Якщо НЕ натиснути на кнопку дії, вона зникне через кілька секунд.</p>
 <blockquote>
-<p><strong>Примітка:</strong> Описаний вище метод вимагає, щоб CENO працював на Вашому пристрої. Для досягнення того ефекту за умови, що CENO зупинено, Ви можете зайти на загальну сторінку <em>Налаштування</em> в Android і в розділі <em>Програми</em> вибрати CENO, а тоді <em>Очистити дані</em>.</p>
+<p><strong>Примітка:</strong> Описаний вище метод вимагає, щоб Ceno працював на Вашому пристрої. Для досягнення того ефекту за умови, що Ceno зупинено, Ви можете зайти на загальну сторінку <em>Налаштування</em> в Android і в розділі <em>Програми</em> вибрати Ceno, а тоді <em>Очистити дані</em>.</p>
 <p>Найбільш прямолінійна альтернатива – Ви можете повністю видалити програму.</p>
 </blockquote>
 <blockquote>
 <p><strong>Увага:</strong> Android може все одно зберігати інші сліди використання програми, окрім даних, зокрема, у системному журналі.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Використання-публічного-або-приватного-перегляду"><a class="header" href="#Використання-публічного-або-приватного-перегляду">Використання публічного або приватного перегляду</a></h1>
-<p>Як описано <a href="browser/../concepts/public-private.html">у попередньому розділі</a>, CENO має два різні режими роботи залежно від того, чи хочете Ви ділитися з іншими вмістом, який переглядаєте (публічний перегляд), чи ні (приватний перегляд).</p>
-<p>Це налаштування застосовується до конкретної вкладки, тобто у Вас одночасно можуть бути вкладки і публічного, і приватного перегляду. За замовчуванням під час запуску CENO або відкритті нової вкладки (за допомогою пункту <em>Нова вкладка</em> у головному меню програми) використовується режим публічного перегляду. Щоб відкрити нову вкладку в режимі приватного перегляду, оберіть <em>Нова приватна вкладка</em> у головному меню.</p>
+<p>Як описано <a href="browser/../concepts/public-private.html">у попередньому розділі</a>, Ceno має два різні режими роботи залежно від того, чи хочете Ви ділитися з іншими вмістом, який переглядаєте (публічний перегляд), чи ні (приватний перегляд).</p>
+<p>Це налаштування застосовується до конкретної вкладки, тобто у Вас одночасно можуть бути вкладки і публічного, і приватного перегляду. За замовчуванням під час запуску Ceno або відкритті нової вкладки (за допомогою пункту <em>Нова вкладка</em> у головному меню програми) використовується режим публічного перегляду. Щоб відкрити нову вкладку в режимі приватного перегляду, оберіть <em>Нова приватна вкладка</em> у головному меню.</p>
 <p>Ви можете легко відрізнити публічні вкладки від приватних: публічні вкладки мають світлішу (або білу) панель інструментів:</p>
 <p><img src="browser/images/public-tab.png" alt="Малюнок: Вкладка публічного перегляду" /></p>
 <p>Приватні вкладки, навпаки, мають темнішу панель інструментів:</p>
 <p><img src="browser/images/private-tab.png" alt="Малюнок: Вкладка приватного перегляду" /></p>
-<p>Після того, як сторінка у вкладці завантажилася, кольоровий значок CENO в адресному рядку допоможе Вам дізнатися, як отримано різні елементи вмісту. Ми розглянемо цей значок пізніше.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Налаштування-ceno"><a class="header" href="#Налаштування-ceno">Налаштування CENO</a></h1>
-<p>Браузер CENO дозволяє змінити деякі налаштування Ouinet та швидко отримати інформацію про клієнта. Це не є необхідним для нормальної роботи, але буде корисно для тестування різних стратегій проти втручання в роботу мережі, а також для повідомлення про несправності роботи програми.</p>
+<p>Після того, як сторінка у вкладці завантажилася, кольоровий значок Ceno в адресному рядку допоможе Вам дізнатися, як отримано різні елементи вмісту. Ми розглянемо цей значок пізніше.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Налаштування-ceno"><a class="header" href="#Налаштування-ceno">Налаштування Ceno</a></h1>
+<p>Браузер Ceno дозволяє змінити деякі налаштування Ouinet та швидко отримати інформацію про клієнта. Це не є необхідним для нормальної роботи, але буде корисно для тестування різних стратегій проти втручання в роботу мережі, а також для повідомлення про несправності роботи програми.</p>
 <blockquote>
-<p><strong>Технічна примітка:</strong> Ці параметри надаються <em>розширенням CENO</em> – розширенням Firefox, що встановлюється разом із CENO та забезпечує інтеграцію з Ouinet. Наприклад, воно дозволяє ділитися вмістом і отримувати його із загального кешу під час публічного перегляду, підказує користувачеві джерело наявного вмісту, і повідомляє про нові версії Ouinet.</p>
+<p><strong>Технічна примітка:</strong> Ці параметри надаються <em>розширенням Ceno</em> – розширенням Firefox, що встановлюється разом із Ceno та забезпечує інтеграцію з Ouinet. Наприклад, воно дозволяє ділитися вмістом і отримувати його із загального кешу під час публічного перегляду, підказує користувачеві джерело наявного вмісту, і повідомляє про нові версії Ouinet.</p>
 </blockquote>
-<p>Ці функції доступні на сторінці, яку можна відкрити, обравши <em>CENO</em> в головному меню програми. Зверніть увагу, що під час запуску програми для відображення цього пункту меню може знадобитися кілька секунд. Сторінка має такий вигляд:</p>
-<p><img src="browser/images/settings.png" alt="Малюнок: Сторінка налаштувань CENO" /></p>
+<p>Ці функції доступні на сторінці, яку можна відкрити, обравши <em>Ceno</em> в головному меню програми. Зверніть увагу, що під час запуску програми для відображення цього пункту меню може знадобитися кілька секунд. Сторінка має такий вигляд:</p>
+<p><img src="browser/images/settings.png" alt="Малюнок: Сторінка налаштувань Ceno" /></p>
 <h2 id="Вибір-варіантів-доступу"><a class="header" href="#Вибір-варіантів-доступу">Вибір варіантів доступу</a></h2>
-<p>Чотири прапорці у верхній частині сторінки вибірково вмикають чи вимикають різні варіанти або <em>джерела</em>, що їх CENO як клієнт Ouinet використовує для отримання вмісту при використанні вкладок <a href="browser/public-private.html">публічного або приватного перегляду</a>. За замовчуванням усі поля ввімкнені.</p>
+<p>Чотири прапорці у верхній частині сторінки вибірково вмикають чи вимикають різні варіанти або <em>джерела</em>, що їх Ceno як клієнт Ouinet використовує для отримання вмісту при використанні вкладок <a href="browser/public-private.html">публічного або приватного перегляду</a>. За замовчуванням усі поля ввімкнені.</p>
 <ul>
-<li><em>Прямо з сайту</em> (або <strong>вихідний доступ</strong>) дозволяє CENO спробувати безпосередньо звʼязатися з вихідним сервером, перш ніж намагатися використовувати інші варіанти, дозволені нижче.Оскільки ця схема працює в режимі як приватного, так і публічного перегляду, отриманий вміст не може бути переданий іншим користувачам.</li>
+<li><em>Прямо з сайту</em> (або <strong>вихідний доступ</strong>) дозволяє Ceno спробувати безпосередньо звʼязатися з вихідним сервером, перш ніж намагатися використовувати інші варіанти, дозволені нижче.Оскільки ця схема працює в режимі як приватного, так і публічного перегляду, отриманий вміст не може бути переданий іншим користувачам.</li>
 </ul>
 <p>Якщо перегляд веб-вмісту не є особливо повільним або дорогим, в більшості випадків цей спосіб може бути більш ніж достатнім. Однак, прямі зʼєднання можуть відстежуватися Вашим Інтернет-постачальником або урядом. Деякою мірою відключення цього параметра дозволяє уникнути таких зʼєднань та банального відстеження (але не повністю, дивіться розділ <a href="browser/../concepts/risks.html">ризики</a>).</p>
-<p>Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP (замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати користувачеві фіктивний сайт, який CENO не може виявити самостійно. У таких випадках корисно відключити цю опцію і завжди вдаватися до інших безпечніших способів використання CENO. Будь ласка, перегляньте розділ <a href="browser/troubleshooting.html">усунення несправностей</a>, щоб дізнатися більше про цю проблему.</p>
+<p>Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP (замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати користувачеві фіктивний сайт, який Ceno не може виявити самостійно. У таких випадках корисно відключити цю опцію і завжди вдаватися до інших безпечніших способів використання Ceno. Будь ласка, перегляньте розділ <a href="browser/troubleshooting.html">усунення несправностей</a>, щоб дізнатися більше про цю проблему.</p>
 <ul>
-<li><em>Через приватну мережу CENO</em> (або <strong>проксі-доступ</strong>) дозволяє CENO використовувати інʼєктори як звичайні проксі-сервери HTTP для доступу до вихідних серверів.Цей механізм працює лише в режимі приватного перегляду.</li>
+<li><em>Через приватну мережу Ceno</em> (або <strong>проксі-доступ</strong>) дозволяє Ceno використовувати інʼєктори як звичайні проксі-сервери HTTP для доступу до вихідних серверів.Цей механізм працює лише в режимі приватного перегляду.</li>
 </ul>
 <p>Під час доступу до вмісту через HTTPS, розшифрувати трафік зможуть лише вихідні сервери. При використанні звичайного HTTP інʼєктор також може бачити незашифрований трафік (але він все одно не повинен підписувати чи передавати вміст іншим). Інші учасники, що є мостами, ніколи не побачать незашифрований трафік.</p>
 <ul>
-<li><em>Через публічну мережу CENO</em> (або <strong>доступ через інʼєктор</strong>) дозволяє CENO видаляти особисту інформацію зі запитів та надсилати їх інʼєктору. Інʼєктор отримує вміст із вихідного сервера, підписує його та відправляє назад до CENO, який згодом починає роздавати цей вміст.Інші учасники (що є мостами) не побачать незашифрований трафік.</li>
+<li><em>Через публічну мережу Ceno</em> (або <strong>доступ через інʼєктор</strong>) дозволяє Ceno видаляти особисту інформацію зі запитів та надсилати їх інʼєктору. Інʼєктор отримує вміст із вихідного сервера, підписує його та відправляє назад до Ceno, який згодом починає роздавати цей вміст.Інші учасники (що є мостами) не побачать незашифрований трафік.</li>
 </ul>
 <p>Ця схема працює лише в режимі публічного перегляду.</p>
 <ul>
-<li><em>Надано іншими користувачами CENO</em> дозволяє CENO намагатися витягти вміст із <strong>розподіленого кешу</strong>, тобто від інших клієнтів CENO та Ouinet, що передають вміст.Ця схема працює лише в режимі публічного перегляду.</li>
+<li><em>Надано іншими користувачами Ceno</em> дозволяє Ceno намагатися витягти вміст із <strong>розподіленого кешу</strong>, тобто від інших клієнтів Ceno та Ouinet, що передають вміст.Ця схема працює лише в режимі публічного перегляду.</li>
 </ul>
 <p>Відключення всіх схем, доступних для публічного або приватного перегляду, зробить їх некорисними. Якщо Ви створите таку конфігурацію, буде показано попередження, як це зазначено нижче:</p>
 <p><img src="browser/images/settings-no-private.png" alt="Малюнок: Неправильні налаштування для приватного перегляду" /></p>
 <h2 id="Про-Вашу-програму"><a class="header" href="#Про-Вашу-програму">Про Вашу програму</a></h2>
-<p>На цій сторінці також представлена інформація про застосунок браузер CENO та клієнт Ouinet:</p>
+<p>На цій сторінці також представлена інформація про застосунок браузер Ceno та клієнт Ouinet:</p>
 <ul>
 <li><em>Розмір локального кешу</em> показує приблизний обсяг памʼяті вмісту, що завантажується з локального кешу Вашого пристрою.</li>
 <li><em>Наданий Вами вміст</em> дозволяє перевірити вміст, який роздає Ваш пристрій.</li>
 <li><em>Стан клієнта Ouinet</em> «запущений» означає, що Ваш клієнт Ouinet зміг успішно запуститися. Інакше можуть виникнути проблеми зі зʼєднанням або якась внутрішня помилка. Будь ласка, включіть цю інформацію у звіт про вашу помилку.</li>
 <li><em>Стан доступності</em> показує, наскільки можливо, що Ваш пристрій зможе ефективно передавати вміст іншим клієнтам. Також додавайте до звітів.</li>
-<li><em>Стан UPnP</em> показує, чи зміг CENO запитати з Вашого маршрутизатора чи точки доступу дозвіл на вхідні підключення до нього. Також додавайте до звітів.</li>
-<li><em>Локальні кінцеві точки UDP</em> – це Інтернет-адреси у Вашому пристрої, які використовуються CENO для передачі підписаного вмісту іншим клієнтам. Вони показані для тестування та налагодження програми. Розкривати ці дані не потрібно.</li>
-<li><em>Зовнішні кінцеві точки UDP</em> – це Інтернет-адреси у Вашому маршрутизаторі, надані для Вашого трафіку CENO. Доступні лише для маршрутизаторів з увімкненим UPnP. Вони корисні для діагностики та не підлягають розкриттю.</li>
+<li><em>Стан UPnP</em> показує, чи зміг Ceno запитати з Вашого маршрутизатора чи точки доступу дозвіл на вхідні підключення до нього. Також додавайте до звітів.</li>
+<li><em>Локальні кінцеві точки UDP</em> – це Інтернет-адреси у Вашому пристрої, які використовуються Ceno для передачі підписаного вмісту іншим клієнтам. Вони показані для тестування та налагодження програми. Розкривати ці дані не потрібно.</li>
+<li><em>Зовнішні кінцеві точки UDP</em> – це Інтернет-адреси у Вашому маршрутизаторі, надані для Вашого трафіку Ceno. Доступні лише для маршрутизаторів з увімкненим UPnP. Вони корисні для діагностики та не підлягають розкриттю.</li>
 <li><em>Публічні кінцеві точки UDP</em> – це Інтернет-адреси, які клієнти Ouinet за межами Вашої мережі бачать під час спілкування з Вашим пристроєм. Також суто для діагностики та не розголошуються.</li>
 <li><em>Додаткові завантажувальні сервери BitTorrent</em> — це сервери, які допомагають вашому пристрою підключитися до мережі BitTorrent, якщо стандартні не працюють. Також додаються до звітів. Ви можете відредагувати розділений пробілами список хостів (з додатковими портами), аби встановити чи додати свій власний, а потім виберіть <em>Зберегти</em>. Зміни будуть застосовані під час наступного запуску клієнта Ouinet.</li>
-<li><em>Браузер CENO</em> вказує точну версію CENO, якою ви користуєтеся. Також включається у звіти.</li>
-<li><em>Розширення CENO</em> показує версію розширення, яке інтегрує Firefox із CENO. Також додавайте до звітів.</li>
-<li><em>Ouinet</em> показує версію Ouinet, встановлену в CENO. Також додавайте до звітів.</li>
-<li><em>Протокол Ouinet</em> – номер версії протоколу, який використовує CENO для взаємодії з іншими клієнтами Ouinet та інʼєкторами. Також додавайте до звітів.</li>
+<li><em>Браузер Ceno</em> вказує точну версію Ceno, якою ви користуєтеся. Також включається у звіти.</li>
+<li><em>Розширення Ceno</em> показує версію розширення, яке інтегрує Firefox із Ceno. Також додавайте до звітів.</li>
+<li><em>Ouinet</em> показує версію Ouinet, встановлену в Ceno. Також додавайте до звітів.</li>
+<li><em>Протокол Ouinet</em> – номер версії протоколу, який використовує Ceno для взаємодії з іншими клієнтами Ouinet та інʼєкторами. Також додавайте до звітів.</li>
 </ul>
 <h2 id="Очищення-локального-кешу"><a class="header" href="#Очищення-локального-кешу">Очищення локального кешу</a></h2>
-<p>Поруч зі значенням <em>Розмір локального кешу</em>, описаним вище, розташована кнопка, що дозволяє зупинити роздачу та скинути весь вміст, що передається Вашим пристроєм через Ouinet. Це дозволить Вам звільнити місце в памʼяті пристрою, залишивши при цьому інші налаштування CENO, зокрема Вибране.</p>
-<p>Якщо Ви хочете очистити звичайний кеш браузера CENO (той, що використовується браузером, але не передається іншим користувачам) або інші елементи, зокрема куки, історію переглядів або Обране, Вам слід обрати <em>Налаштування</em> в головному меню програми, потім <em>Очистити особисті дані</em>. Вам буде запропоновано зазначити, які саме елементи Ви хочете очистити.</p>
-<p>Щоб скинути всі дані відразу (особливо якщо Ви поспішайте), дізнайтеся, як використовувати функцію «тривожної кнопки», що описано в розділі <a href="browser/install.html">Встановлення CENO</a>.</p>
+<p>Поруч зі значенням <em>Розмір локального кешу</em>, описаним вище, розташована кнопка, що дозволяє зупинити роздачу та скинути весь вміст, що передається Вашим пристроєм через Ouinet. Це дозволить Вам звільнити місце в памʼяті пристрою, залишивши при цьому інші налаштування Ceno, зокрема Вибране.</p>
+<p>Якщо Ви хочете очистити звичайний кеш браузера Ceno (той, що використовується браузером, але не передається іншим користувачам) або інші елементи, зокрема куки, історію переглядів або Обране, Вам слід обрати <em>Налаштування</em> в головному меню програми, потім <em>Очистити особисті дані</em>. Вам буде запропоновано зазначити, які саме елементи Ви хочете очистити.</p>
+<p>Щоб скинути всі дані відразу (особливо якщо Ви поспішайте), дізнайтеся, як використовувати функцію «тривожної кнопки», що описано в розділі <a href="browser/install.html">Встановлення Ceno</a>.</p>
 <h2 id="Збір-повідомлень-журналу"><a class="header" href="#Збір-повідомлень-журналу">Збір повідомлень журналу</a></h2>
-<p>У нижній частині сторінки є прапорець <em>Дозволити файл журналу</em>, що дозволяє збирати всі внутрішні повідомлення Ouinet та завантажити їх у файл. Це слід використовувати тільки під час діагностики будь-яких несправностей CENO; просто виконайте наступні кроки:</p>
+<p>У нижній частині сторінки є прапорець <em>Дозволити файл журналу</em>, що дозволяє збирати всі внутрішні повідомлення Ouinet та завантажити їх у файл. Це слід використовувати тільки під час діагностики будь-яких несправностей Ceno; просто виконайте наступні кроки:</p>
 <ol>
-<li>На сторінці <em>Налаштування CENO</em> позначте <em>Дозволити файл журналу</em>.</li>
+<li>На сторінці <em>Налаштування Ceno</em> позначте <em>Дозволити файл журналу</em>.</li>
 <li>Поверніться до перегляду та виконайте будь-які дії, що викликають проблемну поведінку.</li>
-<li>Поверніться на сторінку <em>Налаштування CENO</em> та натисніть посилання <em>Завантажити</em> поруч із прапорцем <em>Дозволити файл журналу</em>. Збережіть файл для подальшого використання. На цьому етапі Android може запитати, чи дозволити CENO доступ до файлової системи: це необхідно для збереження файлу.</li>
+<li>Поверніться на сторінку <em>Налаштування Ceno</em> та натисніть посилання <em>Завантажити</em> поруч із прапорцем <em>Дозволити файл журналу</em>. Збережіть файл для подальшого використання. На цьому етапі Android може запитати, чи дозволити Ceno доступ до файлової системи: це необхідно для збереження файлу.</li>
 <li>Зніміть прапорець <em>Дозволити файл журналу</em>, щоб уникнути надмірного збільшення обсягу файлу.</li>
 </ol>
 <p>Тепер Ви можете використовувати збережений файл журналу аби скласти звіт про несправності, але намагайтеся не робити його публічним, оскільки звіт може містити конфіденційну інформацію про перегляд вебсторінок.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Перевірка-браузера"><a class="header" href="#Перевірка-браузера">Перевірка браузера</a></h1>
-<p>Тепер, коли Ви знаєте, як <a href="browser/install.html">встановити</a> та <a href="browser/settings.html">налаштувати</a> CENO, давайте виконаємо кілька кроків, щоб перевірити, чи працюють різноманітні функції Ouinet. Перевірка включає покрокове включення і відключення різних механізмів доступу. Памʼятайте, що при повсякденному використанні CENO Вам рідко доведеться змінювати стандартні налаштування.</p>
+<p>Тепер, коли Ви знаєте, як <a href="browser/install.html">встановити</a> та <a href="browser/settings.html">налаштувати</a> Ceno, давайте виконаємо кілька кроків, щоб перевірити, чи працюють різноманітні функції Ouinet. Перевірка включає покрокове включення і відключення різних механізмів доступу. Памʼятайте, що при повсякденному використанні Ceno Вам рідко доведеться змінювати стандартні налаштування.</p>
 <p>Для виконання всіх наведених нижче тестів Вам знадобиться як мінімум два пристрої, підключені до однієї мережі Wi-Fi, і ще один додатковий, підключений до іншої мережі.</p>
 <p>Усі тести будуть проводитися з використанням <a href="browser/public-private.html">публічного перегляду</a>. Якщо щось працює не так, як очікувалося, будь ласка, наберіться терпіння та ознайомтеся з розділом <a href="browser/troubleshooting.html">усунення несправностей</a>. Зокрема, якщо браузер зависає при завантаженні сторінки більш ніж на кілька хвилин, Ви можете зупинити та перезавантажити цю сторінку (хоча це може дещо змінити результати).</p>
 <h2 id="Доступ-до-інʼєктора"><a class="header" href="#Доступ-до-інʼєктора">Доступ до інʼєктора</a></h2>
-<p>Давайте спершу перевіримо, чи Ваш браузер CENO може звʼязатися з інʼєктором. Цей етап може здатися тривіальним, але він здійснює відразу кілька функцій Ouinet: шукає адресу інʼєктора в «рої» інʼєкторів, намагається звʼязатися з ним безпосередньо і якщо інʼєктор заблокований Вашим провайдером або країною, шукає мости і намагається звʼязатися з інʼєктором через будь-який інший клієнт Ouinet.</p>
+<p>Давайте спершу перевіримо, чи Ваш браузер Ceno може звʼязатися з інʼєктором. Цей етап може здатися тривіальним, але він здійснює відразу кілька функцій Ouinet: шукає адресу інʼєктора в «рої» інʼєкторів, намагається звʼязатися з ним безпосередньо і якщо інʼєктор заблокований Вашим провайдером або країною, шукає мости і намагається звʼязатися з інʼєктором через будь-який інший клієнт Ouinet.</p>
 <p>На першому пристрої виконайте такі дії:</p>
 <ol>
-<li>Насамперед, встановіть CENO і запустіть його. Зʼявиться головна сторінка.</li>
-<li>Відкрийте головне меню програми та виберіть <em>CENO</em>, щоб відкрити сторінку <em>Налаштування CENO</em>. Оскільки ми хочемо перевірити лише доступ до інʼєктора, зніміть прапорці з джерел вмісту, окрім <em>У публічній мережі CENO</em>.</li>
-<li>Поверніться до домашньої сторінки CENO. Оберіть один із рекомендованих вебсайтів або ж введіть URL-адресу іншого сайту в адресному рядку у верхній частині вікна. Якщо Ви знаєте, що сайт для Вас зазвичай заблокований – введіть його!</li>
+<li>Насамперед, встановіть Ceno і запустіть його. Зʼявиться головна сторінка.</li>
+<li>Відкрийте головне меню програми та виберіть <em>Ceno</em>, щоб відкрити сторінку <em>Налаштування Ceno</em>. Оскільки ми хочемо перевірити лише доступ до інʼєктора, зніміть прапорці з джерел вмісту, окрім <em>У публічній мережі Ceno</em>.</li>
+<li>Поверніться до домашньої сторінки Ceno. Оберіть один із рекомендованих вебсайтів або ж введіть URL-адресу іншого сайту в адресному рядку у верхній частині вікна. Якщо Ви знаєте, що сайт для Вас зазвичай заблокований – введіть його!</li>
 <li>У результаті має відобразитися потрібний сайт.</li>
 </ol>
 <p><strong>Примітка:</strong> Якщо замість потрібної сторінки Ви отримали фальшиву (наприклад, заблоковану сторінку), на початку використовуйте <code>https://</code> (замість <code>http://</code>) під час введення URL сайту в адресному рядку та повторіть тест.</p>
 <p>Якщо сайт завантажується, будьте задоволені, що Ваш пристрій здатний звʼязатися з інʼєктором! Оскільки Ви отримали можливість запитувати вузли та звʼязуватися з іншими клієнтами, Ви, швидше за все, зможете отримати вміст з розподіленого кешу.</p>
-<p>До речі, якщо натиснути на значок CENO в адресному рядку, відкриється спливаюче вікно (як показано нижче), що демонструє, скільки елементів сайту було отримано з різних джерел. Тільки джерело <em>Через публічну мережу CENO</em> має мати ненульове значення, оскільки інші джерела було вимкнено.</p>
+<p>До речі, якщо натиснути на значок Ceno в адресному рядку, відкриється спливаюче вікно (як показано нижче), що демонструє, скільки елементів сайту було отримано з різних джерел. Тільки джерело <em>Через публічну мережу Ceno</em> має мати ненульове значення, оскільки інші джерела було вимкнено.</p>
 <p><img src="browser/images/sources-inject.png" alt="Малюнок: Джерела, що використовуються під час тестування інʼєкцій" /></p>
-<p>І навпаки, якщо Ви використовували приватний перегляд із налаштуваннями за замовчуванням, Ви могли побачити спливаюче вікно, подібне до наведеного нижче, з ненульовими показниками в <em>Напряму з вебсайту</em> або <em>У приватній мережі CENO</em>.</p>
+<p>І навпаки, якщо Ви використовували приватний перегляд із налаштуваннями за замовчуванням, Ви могли побачити спливаюче вікно, подібне до наведеного нижче, з ненульовими показниками в <em>Напряму з вебсайту</em> або <em>У приватній мережі Ceno</em>.</p>
 <p><img src="browser/images/sources-proxy.png" alt="Малюнок: Джерела, що використовуються під час приватного перегляду" /></p>
 <h2 id="Отримання-вмісту-від-локальних-користувачів"><a class="header" href="#Отримання-вмісту-від-локальних-користувачів">Отримання вмісту від локальних користувачів</a></h2>
-<p>Оскільки Ваш перший пристрій зміг отримати вміст від інʼєктора, перевіримо, чи може він поділитися цим вмістом з іншим пристроєм через розподілений кеш. Найпростіший спосіб – використовувати підтримку прямого звʼязку між пристроями в CENO, щоб перевірити, чи працює отримання та перевірка підписаного вмісту.</p>
-<p>Після успішного завершення вищезазначеного тесту на пристрої №1, залиште CENO запущеним на ньому (значок CENO має зʼявитися на панелі повідомлень). Потім візьміть пристрій №2 (Ви можете запросити друга, щоб допомогти з тестуванням) і підключіть його до тієї ж мережі Wi-Fi. Виконайте наведені нижче дії на пристрої №2:</p>
+<p>Оскільки Ваш перший пристрій зміг отримати вміст від інʼєктора, перевіримо, чи може він поділитися цим вмістом з іншим пристроєм через розподілений кеш. Найпростіший спосіб – використовувати підтримку прямого звʼязку між пристроями в Ceno, щоб перевірити, чи працює отримання та перевірка підписаного вмісту.</p>
+<p>Після успішного завершення вищезазначеного тесту на пристрої №1, залиште Ceno запущеним на ньому (значок Ceno має зʼявитися на панелі повідомлень). Потім візьміть пристрій №2 (Ви можете запросити друга, щоб допомогти з тестуванням) і підключіть його до тієї ж мережі Wi-Fi. Виконайте наведені нижче дії на пристрої №2:</p>
 <ol>
-<li>Встановіть CENO та запустіть його, як зазначено вище.</li>
-<li>Відкрийте сторінку <em>Налаштування CENO</em>, як зазначено вище. Оскільки ми хочемо протестувати лише розподілений доступ до кешу, зніміть прапорці з джерел вмісту, крім <em>Надано іншими користувачами CENO</em>.</li>
-<li>Поверніться на домашню сторінку CENO і відвідайте той самий сайт тим самим способом, що й вище (тобто обравши один із рекомендованих сайтів або ввівши його URL-адресу в адресному рядку).</li>
+<li>Встановіть Ceno та запустіть його, як зазначено вище.</li>
+<li>Відкрийте сторінку <em>Налаштування Ceno</em>, як зазначено вище. Оскільки ми хочемо протестувати лише розподілений доступ до кешу, зніміть прапорці з джерел вмісту, крім <em>Надано іншими користувачами Ceno</em>.</li>
+<li>Поверніться на домашню сторінку Ceno і відвідайте той самий сайт тим самим способом, що й вище (тобто обравши один із рекомендованих сайтів або ввівши його URL-адресу в адресному рядку).</li>
 <li>У результаті має відобразитися потрібний сайт.</li>
 </ol>
 <p>Якщо сайт не працює, можливо, мережа Wi-Fi блокує прямий звʼязок між пристроями. Така «ізоляція клієнта» може відбуватися у громадських мережах, наприклад, у парках, барах чи готелях. Повторіть спробу в іншій мережі.</p>
-<p>Якщо все працює, це означає, що обидва пристрої можуть розприділяти вміст для інших клієнтів. При натисканні на значок адресного рядка CENO зʼявиться спливаюче вікно, як показано нижче, де тільки <em>Надано іншими користувачами CENO</em> має ненульове значення.</p>
+<p>Якщо все працює, це означає, що обидва пристрої можуть розприділяти вміст для інших клієнтів. При натисканні на значок адресного рядка Ceno зʼявиться спливаюче вікно, як показано нижче, де тільки <em>Надано іншими користувачами Ceno</em> має ненульове значення.</p>
 <p><img src="browser/images/sources-dcache.png" alt="Малюнок: Джерела, що використовуються при тестуванні розподіленого пошуку кешу" /></p>
-<p>Й останнє, Ви, ймовірно, помітили наявність лічильника <em>Надано Вами</em>. Це не інше джерело <em>як таке</em>: елементи, що враховуються тут, є частиною розподіленого кешу, але вони вже зберігаються на Вашому пристрої, тому CENO не потрібно отримувати їх через мережу.</p>
+<p>Й останнє, Ви, ймовірно, помітили наявність лічильника <em>Надано Вами</em>. Це не інше джерело <em>як таке</em>: елементи, що враховуються тут, є частиною розподіленого кешу, але вони вже зберігаються на Вашому пристрої, тому Ceno не потрібно отримувати їх через мережу.</p>
 <h2 id="Отримання-вмісту-від-користувачів-з-іншої-мережі"><a class="header" href="#Отримання-вмісту-від-користувачів-з-іншої-мережі">Отримання вмісту від користувачів з іншої мережі</a></h2>
 <p>Ми провели невелике тестування розподіленого кешу. Тепер перевіримо, як це працює через Інтернет.</p>
-<p>Після успішного завершення вищезазначеного тесту, залиште CENO запущеним на пристрої №1, як і в попередньому тесті, та зупиніть CENO на пристрої №2 (відкривши його повідомлення та натиснувши кнопку «Натисніть, щоб зупинити»).</p>
+<p>Після успішного завершення вищезазначеного тесту, залиште Ceno запущеним на пристрої №1, як і в попередньому тесті, та зупиніть Ceno на пристрої №2 (відкривши його повідомлення та натиснувши кнопку «Натисніть, щоб зупинити»).</p>
 <p>Цього разу Вам знадобиться пристрій №3, але він має підключатися до іншої мережі Wi-Fi (можливо, хтось із Ваших знайомих зможе перевірити це з дому). Для цього пристрою необхідно виконати ті ж дії, що й у попередньому тесті.</p>
 <p>Якщо пристрій №3 може завантажити сайт, що тестувався, все готово. Пристрій №1 може передавати вміст іншим, і, швидше за все, він може функціонувати в режимі «міст».</p>
 <p>Вітаємо!</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="Допомога-іншим-користувачам-ceno-у-перегляді-веб-сторінок"><a class="header" href="#Допомога-іншим-користувачам-ceno-у-перегляді-веб-сторінок">Допомога іншим користувачам CENO у перегляді веб-сторінок</a></h1>
-<p>Однорангова мережа будується з кожного підключеного до неї вузла (так, це означає і Вас!). Чим більше вузлів, тим сильнішою і гнучкішою стає мережа. Якщо Ви використовуєте браузер CENO в країні, де немає цензури Інтернету (або цензура не така жорстка, як в інших країнах), допоможіть іншим користувачам CENO, ставши <strong>мостовим</strong> вузлом. У цьому випадку Ви почнете маршрутизувати трафік між інʼєкторами CENO та клієнтами, що живуть у країнах із жорсткою цензурою. Ви не будете бачити трафік цих користувачів (він буде надсилатися через зашифрований тунель), і на Вашому пристрої ці дані теж не залишаться.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Допомога-іншим-користувачам-ceno-у-перегляді-веб-сторінок"><a class="header" href="#Допомога-іншим-користувачам-ceno-у-перегляді-веб-сторінок">Допомога іншим користувачам Ceno у перегляді веб-сторінок</a></h1>
+<p>Однорангова мережа будується з кожного підключеного до неї вузла (так, це означає і Вас!). Чим більше вузлів, тим сильнішою і гнучкішою стає мережа. Якщо Ви використовуєте браузер Ceno в країні, де немає цензури Інтернету (або цензура не така жорстка, як в інших країнах), допоможіть іншим користувачам Ceno, ставши <strong>мостовим</strong> вузлом. У цьому випадку Ви почнете маршрутизувати трафік між інʼєкторами Ceno та клієнтами, що живуть у країнах із жорсткою цензурою. Ви не будете бачити трафік цих користувачів (він буде надсилатися через зашифрований тунель), і на Вашому пристрої ці дані теж не залишаться.</p>
 <blockquote>
-<p><strong>Примітка:</strong> Описана в цьому розділі конфігурація також дозволить Вашому пристрою ефективно передавати вміст іншим користувачам у розподіленому кеші, тому розгляньте можливість застосування цієї конфігурації при використанні CENO в країні з цензурою (але памʼятайте про <a href="browser/../concepts/risks.html">ризики</a> при передачі такого вмісту іншим користувачам).</p>
+<p><strong>Примітка:</strong> Описана в цьому розділі конфігурація також дозволить Вашому пристрою ефективно передавати вміст іншим користувачам у розподіленому кеші, тому розгляньте можливість застосування цієї конфігурації при використанні Ceno в країні з цензурою (але памʼятайте про <a href="browser/../concepts/risks.html">ризики</a> при передачі такого вмісту іншим користувачам).</p>
 </blockquote>
-<h2 id="Як-стати-мостом-ceno"><a class="header" href="#Як-стати-мостом-ceno">Як стати мостом CENO</a></h2>
-<p>Ця функція вже вбудована в браузер CENO. Ваш пристрій має підключатися до мережі Wi-Fi, в якій або ввімкнено UPnP, або налаштовано переадресацію портів для CENO. Докладнішу інформацію дивіться в наступних розділах.</p>
-<p>Однак, зверніть увагу: Android дозволить мобільному пристрою працювати як міст тільки під час активного використання, інакше функції енергозбереження обмежуватимуть роботу CENO.</p>
+<h2 id="Як-стати-мостом-ceno"><a class="header" href="#Як-стати-мостом-ceno">Як стати мостом Ceno</a></h2>
+<p>Ця функція вже вбудована в браузер Ceno. Ваш пристрій має підключатися до мережі Wi-Fi, в якій або ввімкнено UPnP, або налаштовано переадресацію портів для Ceno. Докладнішу інформацію дивіться в наступних розділах.</p>
+<p>Однак, зверніть увагу: Android дозволить мобільному пристрою працювати як міст тільки під час активного використання, інакше функції енергозбереження обмежуватимуть роботу Ceno.</p>
 <blockquote>
-<p><strong>Технічне примітка:</strong> В основному це повʼязано з тим, що <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">режим Doze</a> від Android уповільнює роботу своєї бібліотеки Ouinet. На жаль, навіть відключення оптимізації батареї для CENO, схоже, не виводить Ouinet із цього режиму. Ваш конкретний пристрій також може мати власні функції енергозберігання, що здатні заважати роботі CENO; будь ласка, перевірте <a href="https://dontkillmyapp.com/">Не вбивайте мою програму!</a> для Вашої моделі пристрою.</p>
+<p><strong>Технічне примітка:</strong> В основному це повʼязано з тим, що <a href="https://developer.android.com/training/monitoring-device-state/doze-standby" title="Android Developers – Optimize for Doze and App Standby">режим Doze</a> від Android уповільнює роботу своєї бібліотеки Ouinet. На жаль, навіть відключення оптимізації батареї для Ceno, схоже, не виводить Ouinet із цього режиму. Ваш конкретний пристрій також може мати власні функції енергозберігання, що здатні заважати роботі Ceno; будь ласка, перевірте <a href="https://dontkillmyapp.com/">Не вбивайте мою програму!</a> для Вашої моделі пристрою.</p>
 </blockquote>
-<p>Таким чином, якщо для Вас важливо, щоб CENO працював як постійний і завжди доступний міст, окрім правильно налагодженої мережі Wi-Fi, Вам необхідно:</p>
+<p>Таким чином, якщо для Вас важливо, щоб Ceno працював як постійний і завжди доступний міст, окрім правильно налагодженої мережі Wi-Fi, Вам необхідно:</p>
 <ol>
 <li>
 <p>Завжди тримати пристрій підʼєднаним до мережі живлення.</p>
@@ -560,11 +596,11 @@
 </ol>
 <p>Якщо таке налаштування Вам не підходить, не засмучуйтесь! Якщо у Вас є компʼютер з гарним живленням і він залишається переважно ввімкненим – продовжуйте читати.</p>
 <h2 id="Запуск-моста-на-компʼютері"><a class="header" href="#Запуск-моста-на-компʼютері">Запуск моста на компʼютері</a></h2>
-<p>Якщо Ваш компʼютер підтримує <a href="https://uk.wikipedia.org/wiki/Docker">контейнери Docker</a>, Ви можете запустити попередньо налаштований клієнт CENO для роботи в режимі «міст». Якщо Docker ще не встановлено, дотримуйтесь інструкцій <a href="https://docs.docker.com/engine/install/">як встановити Docker Engine</a> на Вашій платформі. У похідних дистрибутивах Debian, таких як Ubuntu або Linux Mint, можна просто запустити: <code>sudo apt install docker.io</code></p>
-<p>Щоб розпакувати контейнер клієнта CENO, достатньо виконати наступну команду в терміналі (вона виглядає лячно, але Ви можете просто скопіювати та вставити її в командний рядок):</p>
+<p>Якщо Ваш компʼютер підтримує <a href="https://uk.wikipedia.org/wiki/Docker">контейнери Docker</a>, Ви можете запустити попередньо налаштований клієнт Ceno для роботи в режимі «міст». Якщо Docker ще не встановлено, дотримуйтесь інструкцій <a href="https://docs.docker.com/engine/install/">як встановити Docker Engine</a> на Вашій платформі. У похідних дистрибутивах Debian, таких як Ubuntu або Linux Mint, можна просто запустити: <code>sudo apt install docker.io</code></p>
+<p>Щоб розпакувати контейнер клієнта Ceno, достатньо виконати наступну команду в терміналі (вона виглядає лячно, але Ви можете просто скопіювати та вставити її в командний рядок):</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
-  -dv ceno:/var/opt/ouinet --network host \
-  --restart unless-stopped equalitie/ceno-client
+  -dv Ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/Ceno-client
 </code></pre>
 <p>Якщо операційна система Вашого компʼютера не GNU/Linux, команда повинна бути трохи іншою:</p>
 <pre><code class="language-sh">sudo docker run --name ceno-client \
@@ -572,12 +608,12 @@
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
   --restart unless-stopped equalitie/ceno-client
 </code></pre>
-<p>Команда запустить контейнер із назвою <code>ceno-client</code>, який запускатиметься при кожному завантаженні, доки Ви не зупините цю команду. Будь ласка, ознайомтеся з <a href="https://github.com/censorship-no/ceno-docker-client#running-the-client">документацією клієнта Docker CENO</a> для отримання додаткової інформації про те, як керувати контейнером.</p>
+<p>Команда запустить контейнер із назвою <code>ceno-client</code>, який запускатиметься при кожному завантаженні, доки Ви не зупините цю команду. Будь ласка, ознайомтеся з <a href="https://gitlab.com/censorship-no/ceno-docker-client#running-the-client">документацією клієнта Docker Ceno</a> для отримання додаткової інформації про те, як керувати контейнером.</p>
 <blockquote>
-<p><strong>Примітка:</strong> У цього клієнта немає <em>налаштувань CENO</em>: коли нижче будуть надані вказівки перейти на сторінку налаштувань, замість цього відкрийте <a href="browser/../client/front-end.html">інтерфейс клієнта</a>, який здебільшого містить ту саму інформацію.</p>
+<p><strong>Примітка:</strong> У цього клієнта немає <em>налаштувань Ceno</em>: коли нижче будуть надані вказівки перейти на сторінку налаштувань, замість цього відкрийте <a href="browser/../client/front-end.html">інтерфейс клієнта</a>, який здебільшого містить ту саму інформацію.</p>
 </blockquote>
 <h2 id="Увімкнення-upnp-на-маршрутизаторі-wi-fi"><a class="header" href="#Увімкнення-upnp-на-маршрутизаторі-wi-fi">Увімкнення UPnP на маршрутизаторі Wi-Fi</a></h2>
-<p><a href="https://uk.wikipedia.org/wiki/UPnP">UPnP</a> – це найпростіший спосіб зробити Ваш браузер CENO (або клієнт для компʼютера) доступним для мережі CENO. На сторінці <a href="browser/settings.html">налаштування CENO</a> буде зазначено стан UPnP у Вашій локальній мережі.</p>
+<p><a href="https://uk.wikipedia.org/wiki/UPnP">UPnP</a> – це найпростіший спосіб зробити Ваш браузер Ceno (або клієнт для компʼютера) доступним для мережі Ceno. На сторінці <a href="browser/settings.html">налаштування Ceno</a> буде зазначено стан UPnP у Вашій локальній мережі.</p>
 <blockquote>
 <p><strong>Примітка:</strong> Увімкнення UPnP на маршрутизаторі Wi-Fi може створити перешкоди іншим пристроям у Вашій мережі. Будь ласка, ознайомтеся з <a href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">ризиками UPnP</a>, а також розгляньте можливість використання альтернативних методів, як це описано нижче.</p>
 </blockquote>
@@ -592,7 +628,7 @@
 </blockquote>
 <pre><code>disabled / inactive
 </code></pre>
-<p>Стан нижче вказує на те, що UPnP, ймовірно, працює, і CENO зараз перевіряє можливість підключення:</p>
+<p>Стан нижче вказує на те, що UPnP, ймовірно, працює, і Ceno зараз перевіряє можливість підключення:</p>
 <blockquote>
 <p><strong>Стан доступності</strong></p>
 </blockquote>
@@ -603,7 +639,7 @@
 </blockquote>
 <pre><code>enabled
 </code></pre>
-<p>Стан нижче означає, що UPnP працює і Ви можете створювати мостові зʼєднання для інших користувачів CENO:</p>
+<p>Стан нижче означає, що UPnP працює і Ви можете створювати мостові зʼєднання для інших користувачів Ceno:</p>
 <blockquote>
 <p><strong>Стан доступності</strong></p>
 </blockquote>
@@ -615,7 +651,7 @@
 <pre><code>enabled
 </code></pre>
 <blockquote>
-<p><strong>Примітка:</strong> навіть якщо UPnP працює, Ваш маршрутизатор все одно може бути недоступним ззовні. Це трапляється у випадку, коли <em>налаштування CENO</em> повідомляють про <em>зовнішні кінцеві точки UDP</em>, які виглядають як адреси <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> на кшталт <code>100.XYZ:N</code>, де X від 64 до 127 (частіше поширені серед домашніх Інтернет-постачальників), або як приватні адреси <code>10.XYZ:N</code>, <code>172.XYZ:N</code>, де X між 16 та 31, та <code>192.168.XY:N</code>. Якщо це трапилося, то зверніться до свого постачальника або адміністратора мережі, щоб отримати публічну адресу на Вашому маршрутизаторі або встановити переадресацію портів до зовнішньої кінцевої точки.</p>
+<p><strong>Примітка:</strong> навіть якщо UPnP працює, Ваш маршрутизатор все одно може бути недоступним ззовні. Це трапляється у випадку, коли <em>налаштування Ceno</em> повідомляють про <em>зовнішні кінцеві точки UDP</em>, які виглядають як адреси <a href="https://en.wikipedia.org/wiki/Carrier-grade_NAT">CGNAT</a> на кшталт <code>100.XYZ:N</code>, де X від 64 до 127 (частіше поширені серед домашніх Інтернет-постачальників), або як приватні адреси <code>10.XYZ:N</code>, <code>172.XYZ:N</code>, де X між 16 та 31, та <code>192.168.XY:N</code>. Якщо це трапилося, то зверніться до свого постачальника або адміністратора мережі, щоб отримати публічну адресу на Вашому маршрутизаторі або встановити переадресацію портів до зовнішньої кінцевої точки.</p>
 </blockquote>
 <p>На ринку представлено багато маршрутизаторів Wi-Fi і кожен з них має свої особливості. Нижче наведено список інструкцій деяких виробників щодо увімкнення UPnP:</p>
 <ul>
@@ -628,19 +664,19 @@
 <li><a href="https://www.geekzone.co.nz/forums.asp?forumid=66&amp;topicid=205740&amp;page_no=5#1725168">Ubiquiti</a></li>
 </ul>
 <h2 id="Використання-переадресації-портів-як-альтернативи-upnp"><a class="header" href="#Використання-переадресації-портів-як-альтернативи-upnp">Використання переадресації портів як альтернативи UPnP</a></h2>
-<p>Замість увімкнення UPnP на маршрутизаторі Ви можете створити правило переадресації портів, щоб зʼєднання з мережі CENO прямували на Ваш пристрій. Вам необхідно ввійти до панелі керування маршрутизатора і знайти параметр <em>переадресація портів</em>. Щоб дізнатися, на яку IP-адресу та порт потрібно перенаправити зʼєднання, відкрийте сторінку <em>Налаштування CENO</em> і знайдіть розділ <em>Локальна кінцева точка UDP</em>.</p>
+<p>Замість увімкнення UPnP на маршрутизаторі Ви можете створити правило переадресації портів, щоб зʼєднання з мережі Ceno прямували на Ваш пристрій. Вам необхідно ввійти до панелі керування маршрутизатора і знайти параметр <em>переадресація портів</em>. Щоб дізнатися, на яку IP-адресу та порт потрібно перенаправити зʼєднання, відкрийте сторінку <em>Налаштування Ceno</em> і знайдіть розділ <em>Локальна кінцева точка UDP</em>.</p>
 <blockquote>
 <p><strong>Локальні кінцеві точки UDP</strong></p>
 </blockquote>
 <pre><code>192.168.1.132:28729
 </code></pre>
-<p>Перенаправлення портів має здійснюватися для протоколу UDP (не TCP). Під час першого запуску CENO обирає випадковий порт і зберігає його для наступних запусків, але IP-адреса локальної мережі Вашого пристрою може іноді змінюватися. Тому слід періодично переглядати сторінку <em>Налаштування CENO</em> й переконатися, що Ваш пристрій має доступ до мережі CENO.</p>
+<p>Перенаправлення портів має здійснюватися для протоколу UDP (не TCP). Під час першого запуску Ceno обирає випадковий порт і зберігає його для наступних запусків, але IP-адреса локальної мережі Вашого пристрою може іноді змінюватися. Тому слід періодично переглядати сторінку <em>Налаштування Ceno</em> й переконатися, що Ваш пристрій має доступ до мережі Ceno.</p>
 <blockquote>
 <p><strong>Технічне примітка:</strong> Як альтернатива, Ви можете переконатися, що маршрутизатор завжди призначає ту саму IP-адресу Вашому пристрою (наприклад, за допомогою статичної оренди DHCP для MAC-адреси пристрою).</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Усунення-несправностей"><a class="header" href="#Усунення-несправностей">Усунення несправностей</a></h1>
 <p>У цьому розділі Ви знайдете поради, що необхідно робити при виникненні різноманітних несправностей із CENO та Ouinet. Будь ласка, майте на увазі, що це експериментальні проєкти, і їхня робота залежить від багатьох факторів, що залежать не тільки від нас, зокрема конфігурації та стану мережевої інфраструктури, від того, який вміст завантажували інші користувачі та характеристики їхніх зʼєднань.</p>
-<p>Якщо Ви й досі стикаєтеся з проблемами, будь ласка, повідомте про них за адресою <a href="mailto:cenoers@equalit.ie">cenoers@equalit.ie</a>. Ми спробуємо допомогти Вам у вирішенні цих проблем.</p>
+<p>Якщо Ви й досі стикаєтеся з проблемами, будь ласка, повідомте про них за адресою <a href="mailto:cenoers@equalitie.org">cenoers@equalitie.org</a>. Ми спробуємо допомогти Вам у вирішенні цих проблем.</p>
 <h2 id="У-меню-програми-немає-пункту-ceno"><a class="header" href="#У-меню-програми-немає-пункту-ceno">У меню програми немає пункту CENO</a></h2>
 <p>Можливо, розширення CENO все ще завантажується. Зачекайте.</p>
 <h2 id="На-сторінці-Налаштування-ceno-всі-віджети-виділені-сірим-кольором"><a class="header" href="#На-сторінці-Налаштування-ceno-всі-віджети-виділені-сірим-кольором">На сторінці <em>Налаштування CENO</em> всі віджети виділені сірим кольором</a></h2>
@@ -710,14 +746,14 @@
 <p><strong>Технічна примітка:</strong> Якщо Ваш пристрій повідомляє про <em>невизначену</em> доступність і Ви здатні змінити конфігурацію точки доступу, Ви можете створити постійне правило переадресації портів для Вашого клієнта. Докладніші інструкції дивіться <a href="browser/bridging.html">тут</a>.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Додаток-Зовнішній-інтерфейс-клієнта-ouinet"><a class="header" href="#Додаток-Зовнішній-інтерфейс-клієнта-ouinet">Додаток: Зовнішній інтерфейс клієнта Ouinet</a></h1>
-<p>У клієнта Ouinet (який запускається, наприклад, браузером CENO) є службовий інтерфейс із довідковою інформацією та командами, що можуть бути корисними для налагодження клієнта. Багато з цих команд також пропонує розширення CENO через сторінку <a href="client/../browser/settings.html"><em>Налаштування CENO</em></a>, проте деякі команди доступні лише тут.</p>
-<p>Інтерфейс доступний через будь-який веб-браузер, запущений на тому ж пристрої (Ви можете використовувати CENO також). Типова адреса інтерфейсу – <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>. Під час його відкривання Ви побачите щось схоже на малюнок нижче.</p>
+<p>У клієнта Ouinet (який запускається, наприклад, браузером Ceno) є службовий інтерфейс із довідковою інформацією та командами, що можуть бути корисними для налагодження клієнта. Багато з цих команд також пропонує розширення Ceno через сторінку <a href="client/../browser/settings.html"><em>Налаштування Ceno</em></a>, проте деякі команди доступні лише тут.</p>
+<p>Інтерфейс доступний через будь-який веб-браузер, запущений на тому ж пристрої (Ви можете використовувати Ceno також). Типова адреса інтерфейсу – <a href="http://127.0.0.1:8078/">http://127.0.0.1:8078/</a>. Під час його відкривання Ви побачите щось схоже на малюнок нижче.</p>
 <p><img src="client/images/front-end.png" alt="Малюнок: Зовнішній інтерфейс клієнта" /></p>
 <p>На сторінці відображаються такі елементи:</p>
 <ul>
-<li>Посилання для налаштування Ouinet як центру сертифікації (ЦС) у Вашому браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік.Вам це потрібно лише скориставшись звичайним браузером для тестування клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/HTTPS-проксі на <code>127.0.0.1:8077</code> та вручну запустити <a href="https://github.com/censorship-no/ceno-ext-settings/">Розширення CENO</a>, щоб інʼєкція працювала. Ми радимо використовувати <em>окремий профіль браузера</em> для цієї мети.</li>
+<li>Посилання для налаштування Ouinet як центру сертифікації (ЦС) у Вашому браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік.Вам це потрібно лише скориставшись звичайним браузером для тестування клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/HTTPS-проксі на <code>127.0.0.1:8077</code> та вручну запустити <a href="https://gitlab.com/censorship-no/ceno-ext-settings/">Розширення Ceno</a>, щоб інʼєкція працювала. Ми радимо використовувати <em>окремий профіль браузера</em> для цієї мети.</li>
 </ul>
-<p>Зверніть увагу, жодна з цих дій не стосується браузера CENO, оскільки він вже налаштований відповідно.</p>
+<p>Зверніть увагу, жодна з цих дій не стосується браузера Ceno, оскільки він вже налаштований відповідно.</p>
 <ul>
 <li>
 <p>Кнопки для ввімкнення або вимкнення різних механізмів, які клієнт використовує для доступу до вмісту.</p>
@@ -738,7 +774,7 @@
 <p>Інформація про Ваш локальний кеш, як-от: максимальний вік вмісту, приблизний розмір кешу, посилання на список анонсованих записів кешу, а також кнопка для повного очищення кешу.</p>
 </li>
 <li>
-<p>Каталог зовнішнього статичного кешу, якщо він увімкнений (нині CENO його не використовує).</p>
+<p>Каталог зовнішнього статичного кешу, якщо він увімкнений (нині Ceno його не використовує).</p>
 </li>
 </ul>
 
@@ -746,31 +782,43 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript">
+
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
+
+    </div>
     </body>
 </html>

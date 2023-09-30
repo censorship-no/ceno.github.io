@@ -3,9 +3,11 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>تنظیمات CENO - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+        <title>تنظیمات Ceno - دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -62,39 +68,67 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از CENO/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از CENO/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگرCENO</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب CENO</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html" class="active"><strong aria-hidden="true">3.3.</strong> تنظیمات CENO</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> مقدمه</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> مرورگر سنو چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet چیست؟</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> راهنمای شروع سریع</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> پرسش‌های متداول</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> مفاهیم اصلی</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> این مرورگر چگونه کار می‌کند؟</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> مقایسه‌ی مرور عمومی و خصوصی</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> امتیازهای استفاده از Ceno/Ouinet</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html"><strong aria-hidden="true">2.4.</strong> خطرات استفاده از Ceno/Ouinet</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> استفاده از مرورگرCeno</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> نصب Ceno</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> استفاده از مرور عمومی یا خصوصی</a></li><li class="chapter-item expanded "><a href="../browser/settings.html" class="active"><strong aria-hidden="true">3.3.</strong> تنظیمات Ceno</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> آزمایش مرورگر</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> کمک به دیگران</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> شناسایی و رفع اشکال</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +148,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +162,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,60 +174,60 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="تنظیماتِ-ceno"><a class="header" href="#تنظیماتِ-ceno">تنظیماتِ CENO</a></h1>
-<p>مرورگر CENO به شما اجازه می‌دهد تا بعضی از تنظیمات خاص Ouinet را تغییر دهید و اطلاعاتی درباره‌ی سرویس‌گیرنده‌تان را به شیوه‌ای ساده دریافت کنید. این شاید برای عملکرد معمولی لازم نباشد، اما برای تست راهبردهای متفاوت علیه اختلال شبکه مفید خواهد بود، و نیز برای گزارش مشکلات این نرم‌افزار.</p>
+                        <h1 id="تنظیماتِ-ceno"><a class="header" href="#تنظیماتِ-ceno">تنظیماتِ Ceno</a></h1>
+<p>مرورگر Ceno به شما اجازه می‌دهد تا بعضی از تنظیمات خاص Ouinet را تغییر دهید و اطلاعاتی درباره‌ی سرویس‌گیرنده‌تان را به شیوه‌ای ساده دریافت کنید. این شاید برای عملکرد معمولی لازم نباشد، اما برای تست راهبردهای متفاوت علیه اختلال شبکه مفید خواهد بود، و نیز برای گزارش مشکلات این نرم‌افزار.</p>
 <blockquote>
-<p><strong>نکته‌ی فنی:</strong> این گزینه‌ها از سوی <em>افزونه‌ی CENO</em> فراهم آمده‌اند، یک افزونه‌ی فایرفاکس که از جعبه‌ی CENO بیرون آمده و نصب شده است و از ادغام درست با Ouinet مانند تواناسازی تزریق محتوا و بازیابی انبار ذیل مرور عمومی مراقبت می‌کند، به کاربر درباره‌ی منبع محتوای به‌تصویرکشیده‌شده سرنخ‌هایی می‌دهد، و درباره‌ی نسخه‌های جدید Ouinet اطلاع می‌دهد.</p>
+<p><strong>نکته‌ی فنی:</strong> این گزینه‌ها از سوی <em>افزونه‌ی Ceno</em> فراهم آمده‌اند، یک افزونه‌ی فایرفاکس که از جعبه‌ی Ceno بیرون آمده و نصب شده است و از ادغام درست با Ouinet مانند تواناسازی تزریق محتوا و بازیابی انبار ذیل مرور عمومی مراقبت می‌کند، به کاربر درباره‌ی منبع محتوای به‌تصویرکشیده‌شده سرنخ‌هایی می‌دهد، و درباره‌ی نسخه‌های جدید Ouinet اطلاع می‌دهد.</p>
 </blockquote>
-<p>این ویژگی‌ها روی صفحه‌ای قرار دارند که با انتخاب <em>CENO</em> در منوی اصلی نرم‌افزار می‌توانند دست‌یافتنی باشند. لطفاً توجه کنید که نمایان‌شدن گزینه‌های منو پس از آغاز نرم‌افزار چه‌بسا چند ثانیه طول بکشد. این صفحه باید چیزی شبیه به این باشد:</p>
-<p><img src="images/settings.png" alt="شکل: صفحه‌ی تنظیمات CENO" /></p>
+<p>این ویژگی‌ها روی صفحه‌ای قرار دارند که با انتخاب <em>Ceno</em> در منوی اصلی نرم‌افزار می‌توانند دست‌یافتنی باشند. لطفاً توجه کنید که نمایان‌شدن گزینه‌های منو پس از آغاز نرم‌افزار چه‌بسا چند ثانیه طول بکشد. این صفحه باید چیزی شبیه به این باشد:</p>
+<p><img src="images/settings.png" alt="شکل: صفحه‌ی تنظیمات Ceno" /></p>
 <h2 id="انتخاب-سازوکارهای-دسترسی"><a class="header" href="#انتخاب-سازوکارهای-دسترسی">انتخاب سازوکارهای دسترسی</a></h2>
-<p>چهار چک‌باکس بر فراز بخش بالایی صفحه بنا بر انتخاب کاربر سازوکارهای متفاوت یا <em>منابعی</em> را فعال یا غیرفعال کند که CENO به‌عنوان یک سرویس‌گیرنده‌ی Ouinet از آن‌ها استفاده می‌کند تا محتوایی را بازیابی کند در حالی که از زبانه‌های <a href="public-private.html">مرور عمومی یا خصوصی</a> استفاده می‌کند. تمام جعبه‌ها به‌طور پیش‌فرض فعال شده‌اند.</p>
+<p>چهار چک‌باکس بر فراز بخش بالایی صفحه بنا بر انتخاب کاربر سازوکارهای متفاوت یا <em>منابعی</em> را فعال یا غیرفعال کند که Ceno به‌عنوان یک سرویس‌گیرنده‌ی Ouinet از آن‌ها استفاده می‌کند تا محتوایی را بازیابی کند در حالی که از زبانه‌های <a href="public-private.html">مرور عمومی یا خصوصی</a> استفاده می‌کند. تمام جعبه‌ها به‌طور پیش‌فرض فعال شده‌اند.</p>
 <ul>
-<li><em>مستقیم از وب‌سایت</em> (یا <strong>دسترسی اصلی</strong>) به CENO امکان می‌دهد تا مستقیماً به سرور اصلی دسترسی پیدا کند پیش از آن‌که برای فعال‌سازی سایر سازوکارها در پایین دست به اقدام بزند.اگرچه این سازوکار در هر دو حالت مرور خصوصی و عمومی کار می‌کند، محتوای بدین‌سان بازیافته نمی‌تواند با دیگران به اشتراک گذاشته شود.</li>
+<li><em>مستقیم از وب‌سایت</em> (یا <strong>دسترسی اصلی</strong>) به Ceno امکان می‌دهد تا مستقیماً به سرور اصلی دسترسی پیدا کند پیش از آن‌که برای فعال‌سازی سایر سازوکارها در پایین دست به اقدام بزند.اگرچه این سازوکار در هر دو حالت مرور خصوصی و عمومی کار می‌کند، محتوای بدین‌سان بازیافته نمی‌تواند با دیگران به اشتراک گذاشته شود.</li>
 </ul>
 <p>در موردی که دریافت بیشتر محتوای وب به‌طور خاص کند یا گران نیست، این سازوکار می‌تواند برای بیشتر موارد بیش از کافی باشد. با این حال، چنین اتصالات مستقیمی شاید به‌وسیله‌ی ارائه‌دهنده‌ی خدمات اینترنت (ISP) یا حکومت شما ردیابی شوند. غیرفعال‌کردن این گزینه می‌تواند از اتصالات این‌چنینی و ردیابی سطحی تا حدی پرهیز کند (اما نه به طور کامل. به <a href="/concepts/risks.html">خطرات</a> بنگرید).</p>
-<p>همچنین، هنگام دسترسی به یک وب‌سایت روی HTTP ناامن (به جای HTTPS ایمن‌تر)، یک حسگر می‌تواند ارتباط را قطع کند و یک سایت جعلی را در اختیار کاربر می‌گذارد، یک دستکاری که CENO نمی‌تواند خودش تشخیص‌اش دهد. در چنین موردی این می‌تواند کمک کند تا این گزینه را غیرفعال کند و بدین‌سان همواره به سازوکارهای دیگر و ایمن‌تر سنو پناه برد. برای اطلاعات بیشتر درباره‌ی این مسئله بخش مربوط به <a href="troubleshooting.html">رفع اشکال</a> را چک کنید.</p>
+<p>همچنین، هنگام دسترسی به یک وب‌سایت روی HTTP ناامن (به جای HTTPS ایمن‌تر)، یک حسگر می‌تواند ارتباط را قطع کند و یک سایت جعلی را در اختیار کاربر می‌گذارد، یک دستکاری که Ceno نمی‌تواند خودش تشخیص‌اش دهد. در چنین موردی این می‌تواند کمک کند تا این گزینه را غیرفعال کند و بدین‌سان همواره به سازوکارهای دیگر و ایمن‌تر سنو پناه برد. برای اطلاعات بیشتر درباره‌ی این مسئله بخش مربوط به <a href="troubleshooting.html">رفع اشکال</a> را چک کنید.</p>
 <ul>
-<li><em>از طریق شبکه‌ی (خصوصی) CENO</em> (یا <strong>دسترسی پروکسی</strong>) به سنو اجازه می‌دهد تا ازinjectors به‌عنوان سرورهای پروکسی HTTP معمولی برای دستیابی به سرورهای اصلی استفاده کند.این سازوکار فقط در حالت مرور خصوصی کار می‌کند.</li>
+<li><em>از طریق شبکه‌ی (خصوصی) Ceno</em> (یا <strong>دسترسی پروکسی</strong>) به سنو اجازه می‌دهد تا ازinjectors به‌عنوان سرورهای پروکسی HTTP معمولی برای دستیابی به سرورهای اصلی استفاده کند.این سازوکار فقط در حالت مرور خصوصی کار می‌کند.</li>
 </ul>
 <p>هنگام دسترسی به محتوا روی HTTPS، فقط سرورهای اصلی خواهند توانست ترافیک را رمزگشایی کنند. هنگام استفاده از HTTP ساده، injector نیز می‌تواند ترافیک رمزگذاری‌نشده را ببیند (اما هنوز نباید محتوای آن را با دیگران نشانه‌گذاری یا اشتراک‌گذاری کرد). سایر مشارکت‌کنندگان، از جمله پل‌ها، هرگز ترافیک رمزگذاری‌نشده را نخواهند دید.</p>
 <ul>
-<li><em>از طریق شبکه‌ی (عمومی) CENO</em> (یا <strong>دسترسی injector</strong>) CENO را توانا می‌سازد تا درخواست‌ها را از هرگونه اطلاعات خصوصی عاری سازد و آن‌ها را به یک injector بفرستند. injector محتوا را از یک سرور اصلی دریافت می‌کند، آن را امضا می‌کند و به CENO پس می‌فرستد، که سپس آغاز به بذرپاشی آن می‌کند.سایر مشارکت‌کنندگان (از جمله پل‌ها) ترافیک رمزگذاری‌نشده را مشاهده نخواهند کرد.</li>
+<li><em>از طریق شبکه‌ی (عمومی) Ceno</em> (یا <strong>دسترسی injector</strong>) Ceno را توانا می‌سازد تا درخواست‌ها را از هرگونه اطلاعات خصوصی عاری سازد و آن‌ها را به یک injector بفرستند. injector محتوا را از یک سرور اصلی دریافت می‌کند، آن را امضا می‌کند و به Ceno پس می‌فرستد، که سپس آغاز به بذرپاشی آن می‌کند.سایر مشارکت‌کنندگان (از جمله پل‌ها) ترافیک رمزگذاری‌نشده را مشاهده نخواهند کرد.</li>
 </ul>
 <p>این سازوکار فقط در حالت مرور عمومی کار می‌کند.</p>
 <ul>
-<li><em>به اشتراک گذاشته‌شده از سوی سایر کاربران سنو</em> به CENO اجازه می‌کند تا محتوایی را از <strong>انبار توزیع‌شده</strong> بازیابی کند، یعنی از سایر سرویس‌گیرندگان CENO و Ouinet برای بذرپاشی آن استفاده کنند.این سازوکار فقط در حالت مرور عمومی کار می‌کند.</li>
+<li><em>به اشتراک گذاشته‌شده از سوی سایر کاربران سنو</em> به Ceno اجازه می‌کند تا محتوایی را از <strong>انبار توزیع‌شده</strong> بازیابی کند، یعنی از سایر سرویس‌گیرندگان Ceno و Ouinet برای بذرپاشی آن استفاده کنند.این سازوکار فقط در حالت مرور عمومی کار می‌کند.</li>
 </ul>
 <p>از کار افتادن همه‌ی سازوکارهای در دسترس برای مرورگری در هر دو حالت هم عمومی و هم خصوصی آن‌ها را بی‌فایده خواهد گرداند. اگر چنین پیکربندی‌ای را برقرار سازید، هشداری همچون تصویر پایین به نمایش درخواهد آمد:</p>
 <p><img src="images/settings-no-private.png" alt="شکل: تنظیمات نامعتبر برای مرور خصوصی" /></p>
 <h2 id="دربارهی-نرمافزار-شما"><a class="header" href="#دربارهی-نرمافزار-شما">درباره‌ی نرم‌افزار شما</a></h2>
-<p>این صفحه همچنین اطلاعاتی درباره‌ی نرم‌افزار مرورگر CENO شما و سرویس‌گیرنده‌ی Ouinet برایتان فراهم می‌آورد:</p>
+<p>این صفحه همچنین اطلاعاتی درباره‌ی نرم‌افزار مرورگر Ceno شما و سرویس‌گیرنده‌ی Ouinet برایتان فراهم می‌آورد:</p>
 <ul>
 <li><em>سایز کش محلی</em> تقریبی از حجم اشغال‌شده توسط محتوایی را نشان می‌دهد که از کش محلی دستگاه‌تان بذرپاشی می‌شود.</li>
 <li><em>محتوای به اشتراک گذاشته شده از سوی شما</em> به شما اجازه می‌دهد تا محتوای اعلام‌شده توسط دستگاه‌تان را چک کنید.</li>
 <li><em>وضعیت سرویس گیرنده Ouinet</em>، اگر در حالت &quot;شروع شده&quot; باشد، به این معنی است که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته باشد. لطفا این اطلاعات را در گزارش‌های خود بگنجانید.</li>
 <li><em>وضعیت دسترس‌پذیری</em> نشان می‌دهد که دستگاه‌تان تا چه حد می‌تواند در عمل محتوا را به سرویس‌گیرندگان دیگر بذرپاشی کند. این را نیز در گزارش‌ها بگنجانید.</li>
-<li><em>وضعیت UPnP</em> نشان می‌دهد که آیا CENO توانسته بود با روتر یا نقطه‌ی دسترسی شما ارتباط برقرار کند تا اتصالات ورودی به سویش را امکان‌پذیر سازد. این را نیز در گزارش‌ها بگنجانید.</li>
-<li><em>نقاط پایانی UDP محلی</em> نشانی‌های اینترنتی هستند در دستگاه شما که CENO از آن‌ها استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌ها برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور عمومی فاش شوند.</li>
-<li><em>نقاط پایانی UDP خارجی</em> آدرس های اینترنتی موجود در روتر شما هستند که به ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا نمی‌شوند.</li>
+<li><em>وضعیت UPnP</em> نشان می‌دهد که آیا Ceno توانسته بود با روتر یا نقطه‌ی دسترسی شما ارتباط برقرار کند تا اتصالات ورودی به سویش را امکان‌پذیر سازد. این را نیز در گزارش‌ها بگنجانید.</li>
+<li><em>نقاط پایانی UDP محلی</em> نشانی‌های اینترنتی هستند در دستگاه شما که Ceno از آن‌ها استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌ها برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور عمومی فاش شوند.</li>
+<li><em>نقاط پایانی UDP خارجی</em> آدرس های اینترنتی موجود در روتر شما هستند که به ترافیک Ceno شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا نمی‌شوند.</li>
 <li><em>نقاط پایانی UDP عمومی</em> آدرس های اینترنتی هستند که سرویس‌گیرنده Ouinet خارج از شبکه شما هنگام برقراری ارتباط با دستگاه شما می بینند. همچنین برای تشخیص مشکلات و عیب‌یابی و نباید فاش شوند.</li>
 <li><em>بوت‌استرپ‌های اضافی بیت‌تورنت</em> سرورهایی هستند که برای کمک به دستگاه شما برای ورود به شبکه بیت‌تورنت استفاده می‌شوند، در صورتی که موارد پیش‌فرض عملکرد درستی نداشته باشند. همچنین در بازخوردها و گزارش‌ها گنجانده شود. می‌توانید فهرستی از لیست جداگانه هاست‌ها (با درگاه‌های اختیاری) را ویرایش کنید تا تنظیمات خودتان اعمال شود، سپس گزینه <em>ذخیره‌سازی</em> را انتخاب کنید. نوبت بعدی که سرویس گیرنده Ouinet شما راه‌ افتاد، تغییرات اعمال خواهند شد.</li>
-<li><strong>مرورگر CENO</strong> نسخه‌ی دقیق CENO را که شما از آن استفاده می‌کنید، نشان می‌دهد. لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید.</li>
+<li><strong>مرورگر Ceno</strong> نسخه‌ی دقیق Ceno را که شما از آن استفاده می‌کنید، نشان می‌دهد. لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید.</li>
 <li><em>افزونه‌ی سنو</em> نسخه‌ای از افزونه را نشان می‌دهد که فایرفاکس را با سنو ادغام می‌کند. این را نیز در گزارش‌ها بگنجانید.</li>
-<li><em>Ouinet</em> نسخه‌ای از Ouinet را نشان می‌دهد که از CENO پشتیبانی می‌کند. این را نیز در گزارش‌ها بگنجانید.</li>
-<li><em>پروتکل Ouinet</em> شماره‌ی نسخه‌ی پروتکلی است که CENO به کار می‌برد تا با سایر سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید.</li>
+<li><em>Ouinet</em> نسخه‌ای از Ouinet را نشان می‌دهد که از Ceno پشتیبانی می‌کند. این را نیز در گزارش‌ها بگنجانید.</li>
+<li><em>پروتکل Ouinet</em> شماره‌ی نسخه‌ی پروتکلی است که Ceno به کار می‌برد تا با سایر سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید.</li>
 </ul>
 <h2 id="پالودنِ-کش-محلی"><a class="header" href="#پالودنِ-کش-محلی">پالودنِ کش محلی</a></h2>
-<p>بعد از ارزش <em>سایز کش محلی</em> در بالا، دکمه‌ای هست که به شما اجازه می‌دهد تا بذرپاشی را متوقف کنید و هر محتوای به‌اشتراک‌گذاشته‌ توسط دستگاه‌تان روی Ouinet را وانهید. این به شما اجازه می‌دهد تا فضایی برای ذخیره‌ی اطلاعات در دستگاه‌تان خالی کنید و در عین حال سایر تنظیمات CENO مثل صفحات دلخواه را نگه دارید.</p>
-<p>اگر می‌خواهید کش مرورگری معمولی CENO را خالی کنید (همان کش که توسط مرورگر به کار می‌رود اما با دیگران به اشتراک گذاشته نمی‌شود) یا سایر اقلام مثل کوکی‌ها، سابقه‌ی مرور یا صفحات دلخواه، بایستی <em>تنظیمات</em> را در منوی اصلی نرم‌افزار و سپس گزینه‌ی <em>پاک‌کردن داده‌های خصوصی</em> را انتخاب کنید. از شما پرسیده خواهد شد که کدام موارد را می‌خواهید پاک کنید.</p>
+<p>بعد از ارزش <em>سایز کش محلی</em> در بالا، دکمه‌ای هست که به شما اجازه می‌دهد تا بذرپاشی را متوقف کنید و هر محتوای به‌اشتراک‌گذاشته‌ توسط دستگاه‌تان روی Ouinet را وانهید. این به شما اجازه می‌دهد تا فضایی برای ذخیره‌ی اطلاعات در دستگاه‌تان خالی کنید و در عین حال سایر تنظیمات Ceno مثل صفحات دلخواه را نگه دارید.</p>
+<p>اگر می‌خواهید کش مرورگری معمولی Ceno را خالی کنید (همان کش که توسط مرورگر به کار می‌رود اما با دیگران به اشتراک گذاشته نمی‌شود) یا سایر اقلام مثل کوکی‌ها، سابقه‌ی مرور یا صفحات دلخواه، بایستی <em>تنظیمات</em> را در منوی اصلی نرم‌افزار و سپس گزینه‌ی <em>پاک‌کردن داده‌های خصوصی</em> را انتخاب کنید. از شما پرسیده خواهد شد که کدام موارد را می‌خواهید پاک کنید.</p>
 <p>برای وانهادن همه‌چیز در آن واحد (به‌ویژه اگر عجله دارید)، لطفاً یاد بگیرید که چگونه از گزینه‌ی «دکمه‌ی هراس» استفاده کنید، که در راهنمای <a href="install.html">نصب سنو</a> توصیف شده است.</p>
 <h2 id="جمعآوری-پیغامهای-لاگ"><a class="header" href="#جمعآوری-پیغامهای-لاگ">جمع‌آوری پیغام‌های لاگ</a></h2>
-<p>در پایین صفحه یک چک‌باکس <em>فعال‌سازیِ فایل لاگ</em> هست که به شما اجازه می‌دهد تا تمام پیغام‌های داخلی Ouinet را جمع‌آوری کنید و آن‌ها را در قالب یک فایل دریافت کنید. از این فایل می‌بایست فقط هنگام عیب‌یابی و تشخیص مشکلات در CENO استفاده کرد؛ فقط از این قدم‌ها پیروی کنید:</p>
+<p>در پایین صفحه یک چک‌باکس <em>فعال‌سازیِ فایل لاگ</em> هست که به شما اجازه می‌دهد تا تمام پیغام‌های داخلی Ouinet را جمع‌آوری کنید و آن‌ها را در قالب یک فایل دریافت کنید. از این فایل می‌بایست فقط هنگام عیب‌یابی و تشخیص مشکلات در Ceno استفاده کرد؛ فقط از این قدم‌ها پیروی کنید:</p>
 <ol>
-<li>در صفحه‌ی <em>تنظیمات CENO</em>، گزینه‌ی <em>فعال‌سازیِ فایلِ لاگ</em> را چک کنید.</li>
+<li>در صفحه‌ی <em>تنظیمات Ceno</em>، گزینه‌ی <em>فعال‌سازیِ فایلِ لاگ</em> را چک کنید.</li>
 <li>به مرور وب بازگردید و کارهایی را انجام دهید که جرقه‌ی رفتارهای دردسرساز را می‌زند.</li>
-<li>به صفحه‌ی <em>تنظیماتِ CENO</em> بازگردید و روی لینک <em>دانلود</em> در کنار چک‌باکس <em>فعال‌سازیِ فایلِ لاگ</em> کلیک کنید. فایل را برای استفاده‌ی بعدی ذخیره کنید. اندروید ممکن است از شما بپرسد که آیا در این مقطع به CENO اجازه‌ی دسترسی به رسانه‌های ذخیره‌شده را می‌دهید: این جواز برای ذخیره‌کردن آن فایل لازم است.</li>
+<li>به صفحه‌ی <em>تنظیماتِ Ceno</em> بازگردید و روی لینک <em>دانلود</em> در کنار چک‌باکس <em>فعال‌سازیِ فایلِ لاگ</em> کلیک کنید. فایل را برای استفاده‌ی بعدی ذخیره کنید. اندروید ممکن است از شما بپرسد که آیا در این مقطع به Ceno اجازه‌ی دسترسی به رسانه‌های ذخیره‌شده را می‌دهید: این جواز برای ذخیره‌کردن آن فایل لازم است.</li>
 <li>علامت چک‌باکس <em>فعال‌سازیِ فایل لاگ</em> را با کلیک روی آن از بین ببرید تا مانع رشد بیش‌ازاندازه‌ی لاگ‌ها شوید.</li>
 </ol>
 <p>شما می‌توانید حالا از فایل لاگ ذخیره‌شده برای مستندسازی گزارش یک مشکل استفاده کنید، اما سعی کنید از عمومی‌کردن آن پرهیز کنید چون ممکن است شامل اطلاعات حساسی درباره‌ی مرورتان باشد.</p>
@@ -203,9 +239,11 @@
                             <a rel="prev" href="../browser/public-private.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../browser/testing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                            <a rel="next prefetch" href="../browser/testing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -215,23 +253,33 @@
                     <a rel="prev" href="../browser/public-private.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../browser/testing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                    <a rel="next prefetch" href="../browser/testing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

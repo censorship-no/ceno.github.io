@@ -3,9 +3,11 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>CENO/Ouinet kullanmanın tehlikeleri - Censorship.no! Kullanıcı Rehberi</title>
+        <title>Ceno/Ouinet kullanmanın tehlikeleri - Censorship.no! Kullanıcı Rehberi</title>
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -16,25 +18,29 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -50,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -62,39 +68,67 @@
             body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var body = document.querySelector('body');
-            var sidebar = 'hidden';
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             body.classList.remove('sidebar-visible');
             body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Giriş</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> CENO Browser nedir?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet nedir?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Hızlı başlama rehberi</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Sıkça sorulan sorular</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Temel kavramlar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Nasıl çalışıyor?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Herkese açık ve gizli gezinme karşılaştırması</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> CENO/Ouinet kullanmanın faydaları</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> CENO/Ouinet kullanmanın tehlikeleri</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> CENO Browser kullanmak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> CENO kurmak</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Herkese açık ya da gizli gezinmeyi kullanmak</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> CENO ayarları</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tarayıcıyı denemek</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Başkalarına yardım etmek</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Sorun gidermek</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Ek: Ouinet istemcisi ön yüzü</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Censorship.no!</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../intro/index.html"><strong aria-hidden="true">1.</strong> Giriş</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/ceno.html"><strong aria-hidden="true">1.1.</strong> Ceno Browser nedir?</a></li><li class="chapter-item expanded "><a href="../intro/ouinet.html"><strong aria-hidden="true">1.2.</strong> Ouinet nedir?</a></li><li class="chapter-item expanded "><a href="../intro/qsg.html"><strong aria-hidden="true">1.3.</strong> Hızlı başlama rehberi</a></li><li class="chapter-item expanded "><a href="../intro/faq.html"><strong aria-hidden="true">1.4.</strong> Sıkça sorulan sorular</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">2.</strong> Temel kavramlar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/how.html"><strong aria-hidden="true">2.1.</strong> Nasıl çalışıyor?</a></li><li class="chapter-item expanded "><a href="../concepts/public-private.html"><strong aria-hidden="true">2.2.</strong> Herkese açık ve gizli gezinme karşılaştırması</a></li><li class="chapter-item expanded "><a href="../concepts/advantages.html"><strong aria-hidden="true">2.3.</strong> Ceno/Ouinet kullanmanın faydaları</a></li><li class="chapter-item expanded "><a href="../concepts/risks.html" class="active"><strong aria-hidden="true">2.4.</strong> Ceno/Ouinet kullanmanın tehlikeleri</a></li></ol></li><li class="chapter-item expanded "><a href="../browser/index.html"><strong aria-hidden="true">3.</strong> Ceno Browser kullanmak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../browser/install.html"><strong aria-hidden="true">3.1.</strong> Ceno kurmak</a></li><li class="chapter-item expanded "><a href="../browser/public-private.html"><strong aria-hidden="true">3.2.</strong> Herkese açık ya da gizli gezinmeyi kullanmak</a></li><li class="chapter-item expanded "><a href="../browser/settings.html"><strong aria-hidden="true">3.3.</strong> Ceno ayarları</a></li><li class="chapter-item expanded "><a href="../browser/testing.html"><strong aria-hidden="true">3.4.</strong> Tarayıcıyı denemek</a></li><li class="chapter-item expanded "><a href="../browser/bridging.html"><strong aria-hidden="true">3.5.</strong> Başkalarına yardım etmek</a></li><li class="chapter-item expanded "><a href="../browser/troubleshooting.html"><strong aria-hidden="true">3.6.</strong> Sorun gidermek</a></li></ol></li><li class="chapter-item expanded "><a href="../client/front-end.html"><strong aria-hidden="true">4.</strong> Ek: Ouinet istemcisi ön yüzü</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +148,7 @@
                         <a href="https://github.com/censorship-no/ceno-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +162,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -138,8 +174,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="cenoouinet-kullanmanın-tehlikeleri"><a class="header" href="#cenoouinet-kullanmanın-tehlikeleri">CENO/Ouinet kullanmanın tehlikeleri</a></h1>
-<p>CENO Browser (ve genel olarak herhangi bir Ouinet istemcisini) kullanmak, yeterince karmaşık herhangi bir bilgi işlem sisteminde olduğu gibi, bazı riskler içermektedir. Bu bölümde, CENO kullanırken üstlenebileceğiniz farklı rollerin etkilerini anlamanıza yardımcı olmak için tehlikeleri derleyeceğiz ve açıklayacağız:</p>
+                        <h1 id="cenoouinet-kullanmanın-tehlikeleri"><a class="header" href="#cenoouinet-kullanmanın-tehlikeleri">Ceno/Ouinet kullanmanın tehlikeleri</a></h1>
+<p>Ceno Browser (ve genel olarak herhangi bir Ouinet istemcisini) kullanmak, yeterince karmaşık herhangi bir bilgi işlem sisteminde olduğu gibi, bazı riskler içermektedir. Bu bölümde, Ceno kullanırken üstlenebileceğiniz farklı rollerin etkilerini anlamanıza yardımcı olmak için tehlikeleri derleyeceğiz ve açıklayacağız:</p>
 <ul>
 <li>sitelerde gezinen bir <em>kullanıcı</em> olarak</li>
 <li>önceden eriştiğiniz içerikleri dağıtılmış ön bellekte paylaşan bir <em>gönderici</em> olarak</li>
@@ -155,27 +191,27 @@
 <p><strong>Teknik not:</strong> İçerik eklemek için, yalnızca sorgu parametreleri kaldırılmış, temel ve gizlilik koruyucu HTTP üst bigileri alanlarının sınırlı bir bölümü dışındaki tüm üst bilgi alanları çıkarılmış HTTP <code>GET</code> istekleri uygundur.</p>
 </blockquote>
 <h3 id="İçerik-ekleyiciler-ip-adresimi-görebilir-mi"><a class="header" href="#İçerik-ekleyiciler-ip-adresimi-görebilir-mi">İçerik ekleyiciler IP adresimi görebilir mi?</a></h3>
-<p>Evet, fakat isteğin CENO kullanıcısından mı yoksa bir köprüden mi geldiğini ayırt edemezler. Böylelikle içerik ekleyicisine giden isteklere kesin doğrulukla bir kaynak IP adresi atanamaz.</p>
+<p>Evet, fakat isteğin Ceno kullanıcısından mı yoksa bir köprüden mi geldiğini ayırt edemezler. Böylelikle içerik ekleyicisine giden isteklere kesin doğrulukla bir kaynak IP adresi atanamaz.</p>
 <h3 id="kişisel-verilerim-dağıtılmış-ön-belleğe-sızabilir-mi"><a class="header" href="#kişisel-verilerim-dağıtılmış-ön-belleğe-sızabilir-mi">Kişisel verilerim dağıtılmış ön belleğe sızabilir mi?</a></h3>
-<p>Umarız sızmaz. Yukarıda belirtildiği gibi CENO Browser içerik ekleyicilerine yapılan isteklerden tüm kişisel verileri (parolalar, çerezler...) çıkarak şekilde ayarlanmıştır. Ayrıca içerik ekleyicileri hiçbir gönderme işlemi yapmaz, yalnızca diğer Ouinet istemcilerinin içerik gönderimi yapabilmesi için içeriği imzalar. İçerik istemciye geldiğinde, yeniden incelenir ve kaynak sunucu kişisel gibi görünüyorsa, CENO gönderim yapmaz.</p>
+<p>Umarız sızmaz. Yukarıda belirtildiği gibi Ceno Browser içerik ekleyicilerine yapılan isteklerden tüm kişisel verileri (parolalar, çerezler...) çıkarak şekilde ayarlanmıştır. Ayrıca içerik ekleyicileri hiçbir gönderme işlemi yapmaz, yalnızca diğer Ouinet istemcilerinin içerik gönderimi yapabilmesi için içeriği imzalar. İçerik istemciye geldiğinde, yeniden incelenir ve kaynak sunucu kişisel gibi görünüyorsa, Ceno gönderim yapmaz.</p>
 <p>Yine de özellikle kötü niyetle veya zayıf güvenlikle tasarlanmış sayfalar kişisel bilgilerinizi (bir formdaki e-posta adresi ya da JavaScript ile tarayıcının parmak izi gibi) başka bir adres bağlantısı yolu üzerinden (<code>http://orneksite.com/aboneol/adiniz@baskaorneksite.org</code>) elde edebilir. Bir sitenin böyle bir şey yaptığından şüpheleniyorsanız, güvenliğiniz için bu sitede gizli gezinme kullanın.</p>
-<h3 id="kaynak-sunucu-ceno-kullandığımı-bilebilir-mi"><a class="header" href="#kaynak-sunucu-ceno-kullandığımı-bilebilir-mi">Kaynak sunucu CENO kullandığımı bilebilir mi?</a></h3>
-<p>Büyük olasılıkla hayır. CENO kaynak sunucuya doğrudan ulaştığında normal bir Firefox uygulaması gibi davranır. Yani aygıtınız aynı sürümdeki bir Firefox uygulaması gibi gözükür.</p>
-<p>Ancak, bir içerik ekleyici kullanarak kaynak sunucudan bazı içerikler yüklendiğinde, sunucunun CENO ya da Ouinet kullanıldığını anlamasının (en az) iki yolu vardır:</p>
+<h3 id="kaynak-sunucu-ceno-kullandığımı-bilebilir-mi"><a class="header" href="#kaynak-sunucu-ceno-kullandığımı-bilebilir-mi">Kaynak sunucu Ceno kullandığımı bilebilir mi?</a></h3>
+<p>Büyük olasılıkla hayır. Ceno kaynak sunucuya doğrudan ulaştığında normal bir Firefox uygulaması gibi davranır. Yani aygıtınız aynı sürümdeki bir Firefox uygulaması gibi gözükür.</p>
+<p>Ancak, bir içerik ekleyici kullanarak kaynak sunucudan bazı içerikler yüklendiğinde, sunucunun Ceno ya da Ouinet kullanıldığını anlamasının (en az) iki yolu vardır:</p>
 <ol>
 <li>Kaynak sunucuya ulaşan bağlantının kaynak adresinin, içerik ekleyici havuzunda bulunması (bağlantı zaten içerik ekleyiciden geldiğinden);</li>
 <li>İçerik isteğinde belirli bilgilerin varlığı ya da yokluğu karakteristik bir Ouinet özelliğidir ve izlenebilir. Bu durum, içerik ekleyici, istemcinizin alması ve imzalaması için içeriği istediğinde, isteğinizden aygıtınıza özgü bilgileri kaldırdığı için ortaya çıkar.</li>
 </ol>
-<p>Bu durumun yalnızca isteğin Ouinet üzerinden geldiğinin belirlenmesinde etkili olduğunu ve aygıtınızla herhangi bir bağ kurulamayacağını unutmayın. Fakat önceki soruda belirtilen nedenlerden dolayı istekte herhangi bir kişisel bilgi bulunuyorsa, CENO kullanıcısı olduğunuz belirlenebilir.</p>
-<p>Genel olarak, bir sitenin (devlet sitesi gibi) kim olduğunuzu ve hangi bölgeden olduğunuzu öğrenmesi gerekiyorsa, CENO yerine normal internet taraycınızı kullanmanız önerilir.</p>
+<p>Bu durumun yalnızca isteğin Ouinet üzerinden geldiğinin belirlenmesinde etkili olduğunu ve aygıtınızla herhangi bir bağ kurulamayacağını unutmayın. Fakat önceki soruda belirtilen nedenlerden dolayı istekte herhangi bir kişisel bilgi bulunuyorsa, Ceno kullanıcısı olduğunuz belirlenebilir.</p>
+<p>Genel olarak, bir sitenin (devlet sitesi gibi) kim olduğunuzu ve hangi bölgeden olduğunuzu öğrenmesi gerekiyorsa, Ceno yerine normal internet taraycınızı kullanmanız önerilir.</p>
 <h2 id="gönderici-olarak"><a class="header" href="#gönderici-olarak">Gönderici olarak</a></h2>
 <h3 id="aygıtımdaki-hangi-veriler-gönderilir"><a class="header" href="#aygıtımdaki-hangi-veriler-gönderilir">Aygıtımdaki hangi veriler gönderilir?</a></h3>
-<p>CENO şu anda yalnızca herkese açık gezinme kipinde erişilen tüm internet içeriklerini gönderir. Yani kullanıcıların yakın zamanda erişmediği hiçbir şeyi göndermez.</p>
+<p>Ceno şu anda yalnızca herkese açık gezinme kipinde erişilen tüm internet içeriklerini gönderir. Yani kullanıcıların yakın zamanda erişmediği hiçbir şeyi göndermez.</p>
 <h3 id="ne-gönderdiğimi-herhangi-bir-kişi-öğrenebilir-mi"><a class="header" href="#ne-gönderdiğimi-herhangi-bir-kişi-öğrenebilir-mi">Ne gönderdiğimi herhangi bir kişi öğrenebilir mi?</a></h3>
 <p>Hem evet, hem hayır. Ouinet altyapısının çalışma şeklini yeterince anlayan bir kişi belirli bir içeriğin hangi IP adreslerinden paylaşıldığını (BitTorrent ile olduğu gibi) gösteren bir araç geliştirebilir. Fakat bir IP adresini seçerek buradan gönderilen tüm içerik ve arkasındaki istemciler öğrenilemez.</p>
 <h2 id="köprü-olarak"><a class="header" href="#köprü-olarak">Köprü olarak</a></h2>
 <h3 id="diğer-kişiler-ip-adresimi-öğrenebilir-mi"><a class="header" href="#diğer-kişiler-ip-adresimi-öğrenebilir-mi">Diğer kişiler IP adresimi öğrenebilir mi?</a></h3>
-<p>Evet, içerik ekleyiciler ile iletişim kurabilen her CENO Browser uygulaması IP adresini diğer Ouinet istemcilerinin bulabileceği köprü havuzuna kaydeder.</p>
+<p>Evet, içerik ekleyiciler ile iletişim kurabilen her Ceno Browser uygulaması IP adresini diğer Ouinet istemcilerinin bulabileceği köprü havuzuna kaydeder.</p>
 <h3 id="Ülkemde-yasal-olmayan-bir-içeriğe-başka-bir-kişinin-erişmesine-yardım-ediyor-olabilir-miyim"><a class="header" href="#Ülkemde-yasal-olmayan-bir-içeriğe-başka-bir-kişinin-erişmesine-yardım-ediyor-olabilir-miyim">Ülkemde yasal olmayan bir içeriğe başka bir kişinin erişmesine yardım ediyor olabilir miyim?</a></h3>
 <p>Evet. Fakat köprüler Ouinet istemcileri ve içerik ekleyicileri arasındaki iletişimi yalnızca şifrelenmiş olarak iletir. Yani bir köprü, bir içeriğe asla başka bir kişi adına doğrudan istekte bulunmaz.</p>
 
@@ -186,9 +222,11 @@
                             <a rel="prev" href="../concepts/advantages.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../browser/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                            <a rel="next prefetch" href="../browser/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -198,23 +236,33 @@
                     <a rel="prev" href="../concepts/advantages.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../browser/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+
+                    <a rel="next prefetch" href="../browser/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
+
+    </div>
     </body>
 </html>

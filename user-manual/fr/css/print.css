@@ -23,12 +23,7 @@
 }
 
 code {
-    background-color: #666666;
-    border-radius: 5px;
     direction: ltr !important;
-
-    /* Force background to be printed in Chrome */
-    -webkit-print-color-adjust: exact;
 }
 
 pre > .buttons {
