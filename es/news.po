@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-29 16:12-0700\n"
-"PO-Revision-Date: 2023-05-30 16:30+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-10-01 10:01+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website-news/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: news.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -56,7 +56,6 @@ msgstr "ES"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: news.html%2Bhtml.body.nav.div.div.div.div:116-5
-#, fuzzy
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/news."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -73,15 +72,20 @@ msgid ""
 "hreflang=\"uk\" href=\"../uk/news.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/news.html\">اردو</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/news."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/news.html\""
+">Árabe</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
+"news.html\">Inglés</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
 "href=\"../es/news.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/news.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/news.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/news."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/news.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/news.html\">Українська</a>"
+"hreflang=\"fa\" href=\"../fa/news.html\">Persa</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/news.html\">Francés</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/news.html\""
+">Birmano</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href="
+"\"../pt_BR/news.html\">Portugués</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/news.html\">Ruso</a> <a class=\"navbar-item\" "
+"lang=\"tr\" hreflang=\"tr\" href=\"../tr/news.html\">Turco</a> <a class"
+"=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/news.html\""
+">Ucraniano</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
+"../ur/news.html\">Urdu</a>"
 
 #: news.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | News and Media"
@@ -126,13 +130,11 @@ msgstr "Cobertura Reciente"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:189-17
 msgid "eQualitie presented the Ceno mobile p2p browser in Ukraine"
-msgstr ""
+msgstr "eQualitie presenta en Ucrania el navegador móvil p2p Ceno"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:191-17
-#, fuzzy
-#| msgid "May 10th, 2022"
 msgid "May 21st, 2023"
-msgstr "10 de Mayo, 2022"
+msgstr "21 de mayo de 2023"
 
 #: news.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:203-17
 msgid "WhatsApp Launches a Tool to Fight Internet Censorship"
