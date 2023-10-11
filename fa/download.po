@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 16:30-0700\n"
+"POT-Creation-Date: 2023-10-11 12:40-0700\n"
 "PO-Revision-Date: 2023-10-06 23:55+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -114,9 +114,13 @@ msgid "Get it on Google Play"
 msgstr "آن را از روی گوگل پلی دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:154-19
+#, fuzzy
+#| msgid ""
+#| "Alternatively, you can install Ceno via F-Droid, the Paskoocheh "
+#| "Marketplace, or download the APK directly via GitLab:"
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
-"or download the APK directly via GitLab:"
+"Github, dComms, or download the APK directly via GitLab:"
 msgstr ""
 "یک راه دیگر این است که Ceno را از طریق فروشگاه پسکوچه نصب کنید، یا APK را "
 "مستقیماً از طریق Gitlab دانلود کنید:"
@@ -133,11 +137,23 @@ msgstr "آن را از روی پسکوچه دریافت کنید"
 msgid "Get it on GitLab"
 msgstr "آن را از روی Gitlab دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.h3:176-15
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:165-21
+#, fuzzy
+#| msgid "Get it on GitLab"
+msgid "Get it on Github"
+msgstr "آن را از روی Gitlab دریافت کنید"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:168-17
+#, fuzzy
+#| msgid "Get it on F-droid"
+msgid "Get it on dComms"
+msgstr "آن را از روی F-droid دریافت کنید"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:182-15
 msgid "Direct Download"
 msgstr "دانلود مستقیم"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:177-15
+#: download.html%2Bhtml.body.main.section.div.div.div.p:183-15
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
@@ -145,19 +161,19 @@ msgstr ""
 "کاربران پیشرفته یا کسانی که نمی‌توانند مرورگر Ceno را از طریق لینک‌های بالا "
 "نصب کنند، می توانند آخرین APK را مستقیماً دانلود کنند:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:178-17
+#: download.html%2Bhtml.body.main.section.div.div.div.p:184-17
 msgid "Ceno Browser 2.0.6"
 msgstr "مرورگر 2.0.6 Ceno"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:179-20
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:185-20
 msgid "Download (32-bit ARM)"
 msgstr "دانلود (32-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:180-20
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:186-20
 msgid "Download (64-bit ARM)"
 msgstr "دانلود (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:182-17
+#: download.html%2Bhtml.body.main.section.div.div.div.p:188-17
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -168,7 +184,7 @@ msgstr ""
 "دارای اثر انگشت نشان‌داده‌شده در زیر را دارد:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:185-1
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:191-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -178,7 +194,7 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:187-17
+#: download.html%2Bhtml.body.main.section.div.div.div.p:193-17
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
 "sha256sums.txt.asc\">signatures</a> of <a href=\"https://dcomm.net.ua/"
@@ -192,7 +208,7 @@ msgstr ""
 "pks/lookup?op=get&search=0xC7DCC123F0DDB862\">کلید PGP</a> با اثر انگشت "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> تأیید کنید."
 
-#: download.html%2Bhtml.body.footer.div.p:209-9
+#: download.html%2Bhtml.body.footer.div.p:215-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian company developing open and reusable systems with "
@@ -209,7 +225,7 @@ msgstr ""
 "تمامی افراد هدایت کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:211-23
+#: download.html%2Bhtml.body.footer:217-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
