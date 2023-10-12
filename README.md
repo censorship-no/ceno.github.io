@@ -1,13 +1,12 @@
-# Ceno Browser
+<img src="img/logo_ceno.png" width=250px alt="Ceno Browser logo">
 
-This is the website for [Ceno Browser](https://censorship.no) - a web browser designed to circumvent
-censorship by routing traffic through intermediate ephemeral nodes (bridges).
-Once the content is in the censored zone - and if it's not private - it is
-then further distributed by those nodes in a BitTorrent-like fashion.
+This is the website for [Ceno Browser](https://censorship.no) - a web browser designed to circumvent censorship by routing traffic through intermediate ephemeral nodes (bridges).
+
+Once the content is in the censored zone - and if it's not private - it is then further distributed by those nodes in a BitTorrent-like fashion.
 
 ## Local Development
 
-The website is hosted by GitHub Pages and content is authored in HTML.
+This website is hosted by GitHub Pages and content is authored in HTML.
 
 1. Clone the repository:
 
@@ -27,7 +26,7 @@ The website is hosted by GitHub Pages and content is authored in HTML.
 
     **Do not create new Weblate components yet** as their translations may get lost after POT extraction and PO update below.
 
-4. If updating only the Ceno download link, use the following command
+4. If updating **only the Ceno download link**, use the following command:
 
     `./git-update-download.sh VERSION DATE`
 
@@ -35,7 +34,7 @@ The website is hosted by GitHub Pages and content is authored in HTML.
 
     `./git-update-download.sh 2.0.0 2023-01-26_1701`
 
-5. On translation freeze, assemble the i18n files with,
+5. On translation freeze, assemble the i18n files:
 
     `./git-assemble.sh`
 
@@ -48,11 +47,11 @@ The website is hosted by GitHub Pages and content is authored in HTML.
 
     `git push origin i18n`
 
-7. Create new components in [Weblate](https://hosted.weblate.org/projects/censorship-no/) if any; this will take care of adding new PO files.
+7. (Optional) Create new components in [Weblate](https://hosted.weblate.org/projects/censorship-no/) if any; this will take care of adding new PO files.
 
 8. New translations create a Gitlab merge request to the `i18n` branch. **Approve the merge request in Gitlab before the next steps.**
 
-9. If adding a new language, `touch` its `index.html` file before executing the next step.
+9. **If adding a new language**, `touch` its `index.html` file before executing the next step.
 
 10. When satisfied with translations, update the html for all languages, commit & push to `origin/i18n`: 
 
@@ -66,7 +65,12 @@ The website is hosted by GitHub Pages and content is authored in HTML.
     - `git merge --no-ff origin/i18n`
     - `git push origin master`
 
-Now the website will be automatically updated by the Github CI/CD at: https://github.com/censorship-no/ceno.github.io
+Now the website will be automatically updated by the Github CI/CD located at https://github.com/censorship-no/ceno.github.io!
+
+## Additional Resources
+
+- [Ceno Browser Branding & Style Guide](https://censorship.no/en/branding.html)
+- [Ceno Browser project on Weblate](https://hosted.weblate.org/projects/censorship-no/)
 
 ## License
 
@@ -74,5 +78,5 @@ This source code is subject to the terms of the [Creative Commons Attribution-Sh
 
 ## Feedback
 
-We welcome both positive and negative feedback, as well as questions at support@censorship.no.
+We welcome both positive and negative feedback, bug reports and feature requests, as well as questions at support@censorship.no.
 Our PGP key fingerprint is: 51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862
