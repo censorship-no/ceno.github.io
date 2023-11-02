@@ -1,0 +1,101 @@
+<title>Ceno Browser| Support</title>
+<div class="container-md section">
+
+<div class="faq-wrapper">
+<div class="faq-center">
+<div class="text-center" style="padding-top: 2rem; padding-bottom: 1rem">
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+</div>
+
+<details>
+<summary>
+What is Ceno Browser?
+</summary>
+<p>Ceno is a mobile web browser based on Mozilla Android Components. It is designed for accessing and distributing web content (websites) using a novel approach that relies on BitTorrent – a decentralized file sharing network. Ceno’s advantage comes from side-stepping current Internet censorship methods and allowing people to access and share web information in and across regions where connectivity has been interrupted or compromised.</p>
+</details>
+
+<details>
+<summary>
+How does Ceno work?
+</summary>
+<p>When a website is accessible from your network (e.g. accessing <i>www.canada.ca</i> from your home internet), Ceno will connect to it like a normal web browser.</p>
+<p>When a website is not accessible due to network filtering/censorship, Ceno will attempt to get the content for you. How Ceno attempts to find content depends on whether you have chosen to use Ceno in <strong>Public</strong> or <strong>Personal</strong> mode.</p> 
+<p>In <strong>Public</strong> mode, Ceno will look into the BitTorrent network to see if another Ceno user has recently shared the requested page. If the service can identify the requested page, it will retrieve that page from another user’s device. If the content is not available, Ceno will contact several Injectors to request that website and have it delivered to you.</p>
+<p>In <strong>Personal</strong> mode, you will only contact the Injectors to have that website fetched and delivered to you. The search will not connect to the BitTorrent network and will not attempt to locate the content on other users’ devices.</p> 
+<p>To ensure that your Ceno client can always contact an Injector, we have also created Bridges. If the Injectors are blocked on your network, the Ceno app will look for available Bridges, who will forward your request to the Injectors. The Ceno network currently features around 6,000 Bridges. Their number is always growing. 
+<p>For a more detailed explanation of how Ceno works, please read <a href="../user-manual/">the user guide</a>.</p>
+<p>For a simpler explanation of how Ceno works, <a href="explainer.html">please read this</a>.</p>
+</details>
+
+<details>
+<summary>
+<p>What are the advantages of using Ceno?</p>
+</summary>
+<p>Our motto is ‘Share the Web!’ and essentially that is what Ceno users are doing. Most web pages have static content (something you read, watch, listen to, etc.). Static content can be packaged and shared with other users seeking the same content. Ceno uses the BitTorrent file sharing network for this.</p> 
+<p>Ceno’s advantage is evident in a network that censors websites, or where the network is weak or unstable. In these circumstances, the Ceno client is able to leverage additional methods to retrieve content and deliver it to your device. By allowing users to enable sharing of content they have recently retrieved, Ceno expands access to the internet more generally. Whether you are living in a part of the world that restricts access to content, or in a remote area with limited access to the internet, Ceno allows you to access information that may otherwise be unavailable.</p>  
+<p>People running Ceno from countries that do not censor the Internet - or from parts of the world where access to the internet is reliable - can choose to act as Bridges for those in heavily restricted networks. The network automatically enrolls new Bridges and keeps track of when they go offline. Running a Bridge is a very simple yet powerful action, allowing you to help others access the Internet.</p>   
+<p>Ceno - and all accompanying components of the tool that together create a decentralized network of peers and nodes - is free and open source software. You can <a href="https://gitlab.com/censorship-no/ceno-browser">inspect our code</a> or re-create the entire network yourself!</p>
+</details>
+
+<details>
+<summary>
+<p>What are the risks of using Ceno?</p>
+</summary>
+<h2>Risks for users</h2>
+<p>Every technology that deals with sensitive use cases has its advantages and risks. By design, Ceno is using the public BitTorrent network for much of its routing and data storage needs. Whenever you request or share a piece of content on the BitTorrent network (Public mode) you create a record that associates your IP address with a piece of content that was retrieved from a particular website. For example, anyone can query the BitTorrent network for a list of IP addresses that have been associated with <i>website.com</i>.</p>   
+<p>Users sharing retrieved content with others may also incur additional data charges as content is copied from their device to the device of other Ceno users.</p>  
+<p>In response to these risks, we created a ‘<strong>Personal</strong> mode’ for Ceno users where the service does not interact with the BitTorrent network. We recommend this mode for users who do not want any record of their activity to appear on BitTorrent, as well for website operations that require authentication (for example, when logging into your social media accounts). 
+<p>You can easily switch between <strong>Public</strong> and <strong>Personal</strong> tabs in the same manner as switching between Normal and Private/Incognito tabs on your current browser.</p> 
+<p>Injectors can also see requests for content on the network, including the IP address of the user making the request and the name of the website with the desired content. The injectors are a necessary network component for 1) introducing web content into a decentralized network, and 2) authenticating the integrity of introduced content. On the Ceno network, Injectors are run and managed by the Ceno team. We periodically delete delete all access logs. 
+
+<h2>Risks for Bridge operators</h2>
+<p>Since any user can become a Bridge, do consider the risks that are introduced by this action.</p> 
+<p>Bridge activity is invisible to the Bridge operator (unless they are actively monitoring their device for incoming and outgoing connections). Their job is to receive network requests from other Ceno users for access to an Injector and forward this request.</p>
+<p>Bridge operators will have their device’s IP address listed in the BitTorrent network as an accessible Bridge.</p>
+<p>Bridging only works when the network that you are in allows for incoming connections. This is checked automatically by the Ceno client app upon start. Most wireless mobile carriers do not allow for incoming connections.</p>
+</details>
+
+<details>
+<summary>
+<p>Who develops Ceno Browser?</p>
+</summary>
+<p>Ceno is a technology created and maintained by the Canadian non-profit organization <a href="https://equalit.ie">eQualitie</a>. They have incorporated their <a href="https://ouinet.work">Ouinet network library</a> into the Firefox Android browser.</p>
+<p>eQualitie has been in existence for twelve years, during which time they have been creating and advancing tools to protect freedom of speech, facilitate information exchange, and promote self-expression on the internet.</a>
+<p>Some of their other projects include <a href="https://ouisync.net">Ouisync</a>, a service for decentralized file sharing; <a href="https://deflect.ca">Deflect</a>, a tool for DDoS protection; Baskerville, a machine learning-based attack detection system; and the dComms deployment toolkit for setting up decentralized and federated network services.</p>
+</details>
+
+<details>
+<summary>
+<p>What’s the difference between using a VPN and Ceno Browser?</p>
+</summary>
+<p>VPNs were initially created for private communications between your device and a destination server. As Internet censorship became a frequent occurrence around the world, VPN providers began to offer their services in order to bypass local network restrictions as well. Today, there are numerous VPN providers offering a wide variety of connectivity options to help their users get around local network censorship.</p> 
+<p>VPNs can see who their clients are and what websites they are requesting. This is by design and a level of trust in the VPN operator is required (much like the trust that is required in eQualitie, who operates the Ceno Injectors). </p>
+<p>Ceno’s primary distinction from a VPN is that it does attempt to route all of your website requests through the decentralized network. When a website is available without restriction, Ceno will simply connect to it like a normal web browser. Also, Ceno users cache and share content with each other. This reduces the strain on censorship circumvention nodes and improves deliverability. </p>
+</details>
+
+<details>
+<summary>
+<p>What’s the difference between using the Tor and Ceno browsers?</p>
+</summary>
+<p>Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is Tor’s primary purpose. In the Tor network, network traffic is encrypted and routed through a network of relays run by volunteers, and appears to originate from the IP address of an exit node. Tor is an excellent option for privacy from Internet surveillance and website operators. If it works in your network environment, we recommend it, provided that you’ve also read <a href="https://support.torproject.org/">their support documentation</a>.</p>
+</details>
+
+<details>
+<summary>
+<p>Whats the difference between Personal and Public tabs, again?</p>
+</summary>
+<p>Public tabs use all connectivity methods available in the Ceno network to get the content you want.  When browsing using a Public tab you will leave a record of your activity on the public BitTorrent network (your IP address and website you requested). Content that has been retrieved by your device inside a Public tab will be shared with other Ceno users via the BitTorrent network.</p>
+<p>Information requested and retrieved in a Personal tab is not shared with anyone else.  No record of your activity is recorded on BitTorrent. Use Personal tabs for logging into social media and other accounts. Also use them if you do not want to be associated on BitTorrent with any of your browsing activity in Ceno.</p>
+</details>
+
+<details>
+<summary>
+<p>When will there be an iPhone or Windows version?</p>
+</summary>
+<p>Development of Ceno Browser for iOS and Windows is currently ongoing, with plans for release by Spring of 2024.<p>
+</details>
+
+
+</div>
+</div>
+</div>
