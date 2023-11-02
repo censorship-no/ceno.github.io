@@ -1,87 +1,82 @@
-# Ceno Browser
-- [Current status](#current-status)
-- [What works](#what-works)
-- [Accessing personalized websites](#accessing-personalized-websites)
-- [What does not work (yet!)](#what-does-not-work-yet)
-- [Help by becoming a bridge!](#help-by-becoming-a-bridge)
-- [Feedback](#feedback)
+<img src="img/logo_ceno.png" width=250px alt="Ceno Browser logo">
 
-Ceno is a web browser for the Android operating system designed to circumvent
-censorship by routing traffic through intermediate ephemeral nodes (bridges).
-Once the content is in the censored zone - and if it's not private - it is
-then further distributed by those nodes in a BitTorrent-like fashion.
+This is the website for [Ceno Browser](https://censorship.no) - a web browser designed to circumvent censorship by routing traffic through intermediate ephemeral nodes (bridges).
 
-## Current status
+Once the content is in the censored zone - and if it's not private - it is then further distributed by those nodes in a BitTorrent-like fashion.
 
-Ceno is currently in its second stable production release (v.2.0.3). It is being tested in censored countries
-and being given a UI overhaul.
+## Local Development
 
-## What works
+This website is hosted by GitHub Pages and content is authored in HTML.
 
-Basic functionality is in place and is currently being tested. Provided that
-there are enough bridges outside of censored countries, and that those countries
-haven't sealed off their international communication completely, Ceno users are
-able to connect to blocked websites and then share the content to other peers.
+1. Clone the repository:
 
-When users start Ceno Browser, they automatically become part of the Ceno
-network. This means that - when possible - these devices shall act as temporary VPNs for people who can't access blocked websites.
+    `git clone git@gitlab.com:censorship-no/ceno-website.git`
 
-In addition, any publicly available content that any Ceno user visits shall be shared in a BitTorrent-like fashion to others.
+2. Install dependencies for i18n support:
 
-## Accessing personalized websites
+    You will need [Translate Toolkit](https://toolkit.translatehouse.org/) and [gettext](https://www.gnu.org/software/gettext/).
 
-To access personalized websites (those that require login and password) such as google, twitter, facebook etc; users currently need to do it from inside the Personal Tabs window. This is because by default Ceno strips down all
-personal information from HTTP requests to ensure no such data is leaked to the distributed cache.
+    On a Debian-based system, install these with:
+    - `sudo apt update`
+    - `sudo apt install translate-toolkit gettext`
 
-When users access websites through Personal Tabs, Ceno Browser does not strip this information down and all communication is then end-to-end encrypted with the destination server.
+3. In the `ceno-website` `master` branch, update HTML files in `en.src` only (page-specific content or common head & tail). **Never edit files in `en` or other languages' directories.**  
 
-## What does not work (yet)
+     If you need to check how the English site would look, run `./html-assemble-en.sh`, open the pages and then restore `en/*.html`.
 
-Here is a list of important information Ceno users need to know:
+    **Do not create new Weblate components yet** as their translations may get lost after POT extraction and PO update below.
 
-### Battery and data usage
+4. If updating **only the Ceno download link**, use the following command:
 
-To prolong availability of Ceno bridges, Ceno shall continue
-working even when it goes to the background. We have not yet put in place
-functionality which would disable all networking operations when the device
-switches to cellular internet, nor when it is disconnected from the charger.
+    `./git-update-download.sh VERSION DATE`
 
-Until we implement this functionality, to preserve the device battery and
-network bandwidth, users need to explicitly disable Ceno either by shutting it
-down from Android's list of running applications, or by tapping the "Tap to
-stop Ceno" button from the notification area.
+    where `VERSION` and `DATE` match the latest apk found on the [dComms server](https://dcomm.net.ua/package/ceno/), e.g. for v2.0.0:
 
-### Ceno is not an anonymizer!
+    `./git-update-download.sh 2.0.0 2023-01-26_1701`
 
-Ceno users should also be aware of the fact that Ceno is not a network to
-anonymize users - such as Tor or I2P. More akin to BitTorrent, IP addresses or
-users sharing particular content are publicly visible by anyone understanding
-the internals of the BitTorrent DHT protocol.
+5. On translation freeze, assemble the i18n files:
 
-### Complete blackout
+    `./git-assemble.sh`
 
-At the moment, Ceno relies on bridge nodes whose IP addesses are not black-listed by countries with harsh censorship (hence why support from ordinary people is so important to us). However, in the event of a complete internet blackout where no data can pass the international boundary, Ceno will cease to work.
+    This automates the following steps:
+ 
+    - `no-ff-merge origin/master` into `i18n`.
+    - In `i18n`, run `./html-assemble-en.sh`, then `./pot-extract.sh`, then `./po-update.sh`; commit each step (if it produces changes)
 
-In the future we're hoping to address this problem by:
+6. Push to `origin/i18n`:
 
-1. Letting users "import" web content by means other than the Internet into the
-   censored zones and then disseminate it in a distributed fashion;
-2. Modifying the protocol to find alternative routes to relay traffic
-   outside of the censored country and back if one exists. 
+    `git push origin i18n`
 
-## Help by becoming a bridge!
+7. (Optional) Create new components in [Weblate](https://hosted.weblate.org/projects/censorship-no/) if any; this will take care of adding new PO files.
 
-As mentioned above, because random IP addresses are usually not blocked, Ceno relies on users outside of censored zones to act as bridges. Therefore we're asking that people willing to help the Ceno project as well as people behind the internet walls to install Ceno Browser on an Android device, start it up, and let it run for as long as possible. [Learn more about becoming a Bridge!](https://censorship.no/user-manual/en/browser/bridging.html)
+8. New translations create a Gitlab merge request to the `i18n` branch. **Approve the merge request in Gitlab before the next steps.**
 
-## Where to get it
+9. **If adding a new language**, `touch` its `index.html` file before executing the next step.
 
-- Github:    https://github.com/censorship-no/ceno-browser/releases
-- Play Store: https://play.google.com/store/apps/details?id=ie.equalit.ceno
-- Paskoocheh: https://paskoocheh.com/tools/124/android.html
-- Direct Download: https://censorship.no/download
-- Zanga: https://zanga.tech/tools/166/android.html
+10. When satisfied with translations, update the html for all languages, commit & push to `origin/i18n`: 
+
+    - `./html-update-all.sh`
+    - `git add -A && git commit -m "updating html with new changes"`
+    - `git push origin i18n`
+
+11. No-ff-merge `origin/i18n` into `master` and push to `origin/master`:
+
+    - `git checkout master`
+    - `git merge --no-ff origin/i18n`
+    - `git push origin master`
+
+Now the website will be automatically updated by the Github CI/CD located at https://github.com/censorship-no/ceno.github.io!
+
+## Additional Resources
+
+- [Ceno Browser Branding & Style Guide](https://censorship.no/en/branding.html)
+- [Ceno Browser project on Weblate](https://hosted.weblate.org/projects/censorship-no/)
+
+## License
+
+This source code is subject to the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE.md).
 
 ## Feedback
 
-We welcome both positive and negative feedback, as well as questions at cenoers@equalitie.org.
+We welcome both positive and negative feedback, bug reports and feature requests, as well as questions at support@censorship.no.
 Our PGP key fingerprint is: 51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862
