@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-29 16:12-0700\n"
-"PO-Revision-Date: 2023-06-30 21:12+0000\n"
-"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2023-10-18 04:09+0000\n"
+"Last-Translator: Aylan Obi <ay700r@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -206,8 +206,9 @@ msgid "Mozilla Build Scripts"
 msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:190-5
+#, fuzzy
 msgid "Firefox Browser Extension"
-msgstr ""
+msgstr "Extension de navigateur Firefox"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:191-12
 #, fuzzy
@@ -248,7 +249,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Browse our Github"
 msgid "Browse our Gitlab"
-msgstr "Parcourez notre GitHub"
+msgstr "Parcourez notre Gitlab"
 
 #: help.html%2Bhtml.body.main.div.section.h2:207-1
 msgid "Run a Bridge Node"

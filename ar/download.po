@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 12:40-0700\n"
-"PO-Revision-Date: 2023-10-06 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"POT-Creation-Date: 2023-10-06 16:30-0700\n"
+"PO-Revision-Date: 2023-10-18 04:09+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "websitedownload/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -115,13 +115,9 @@ msgid "Get it on Google Play"
 msgstr "احصل عليه من متجر جوجل بلاي (Google Play)"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:154-19
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install Ceno via F-Droid, the Paskoocheh "
-#| "Marketplace, or download the APK directly via GitLab:"
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
-"Github, dComms, or download the APK directly via GitLab:"
+"or download the APK directly via GitLab:"
 msgstr ""
 "يمكنك أيضا تثبيت Ceno عبر F-Droid أو سوق Paskoocheh أو تنزيل APK مباشرة عبر "
 "GitLab:"
@@ -138,22 +134,12 @@ msgstr "احصل عليه من Paskoocheh"
 msgid "Get it on GitLab"
 msgstr "احصل عليه من GitLab"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:165-21
-#, fuzzy
-#| msgid "Get it on GitLab"
-msgid "Get it on Github"
-msgstr "احصل عليه من GitLab"
-
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:168-17
-#, fuzzy
-#| msgid "Get it on F-droid"
-msgid "Get it on dComms"
-msgstr "احصل عليه من F-droid"
-
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:176-15
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:182-15
 msgid "Direct Download"
 msgstr "تنزيل مباشر"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:177-15
 #: download.html%2Bhtml.body.main.section.div.div.div.p:183-15
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
@@ -162,18 +148,22 @@ msgstr ""
 "للمستخدمين المتقدمين أو أولئك الذين لا يستطيعون تثبيت متصفح Ceno عبر الروابط "
 "أعلاه، يمكنك تنزيل أحدث APK مباشرة:"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:178-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:184-17
 msgid "Ceno Browser 2.0.6"
 msgstr "متصفح Ceno 2.0.6"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:179-20
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:185-20
 msgid "Download (32-bit ARM)"
 msgstr "تنزيل (32 بت ARM)"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:180-20
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:186-20
 msgid "Download (64-bit ARM)"
 msgstr "تنزيل (64 بت ARM)"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:182-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:188-17
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
@@ -185,6 +175,7 @@ msgstr ""
 "الشهادة الموضحة أدناه:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:185-1
 #: download.html%2Bhtml.body.main.section.div.div.div.pre:191-1
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
@@ -195,6 +186,7 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
+#: download.html%2Bhtml.body.main.section.div.div.div.p:187-17
 #: download.html%2Bhtml.body.main.section.div.div.div.p:193-17
 msgid ""
 "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"
@@ -209,6 +201,7 @@ msgstr ""
 "edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">مفتاح PGP</a> ( ذو البصمة "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
+#: download.html%2Bhtml.body.footer.div.p:209-9
 #: download.html%2Bhtml.body.footer.div.p:215-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
@@ -225,6 +218,7 @@ msgstr ""
 "a> التي ترشدنا نحو حماية حقوق وتطلعات الجميع على الإنترنت."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: download.html%2Bhtml.body.footer:211-23
 #: download.html%2Bhtml.body.footer:217-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -232,6 +226,24 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:154-19
+#, fuzzy
+msgid ""
+"Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
+"Github, dComms, or download the APK directly via GitLab:"
+msgstr ""
+"يمكنك أيضا تثبيت Ceno عبر F-Droid أو سوق Paskoocheh أو تنزيل APK مباشرة عبر "
+"GitLab:"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:165-21
+#, fuzzy
+msgid "Get it on Github"
+msgstr "احصل عليه من GitLab"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:168-17
+msgid "Get it on dComms"
+msgstr "احصل عليه من dComms"
 
 #~ msgid ""
 #~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/"
