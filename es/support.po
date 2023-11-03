@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 16:12-0700\n"
-"PO-Revision-Date: 2023-11-03 18:34+0000\n"
+"PO-Revision-Date: 2023-11-03 19:04+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
-"website-faq/es/>\n"
+"website/website-faq/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser| Support"
-msgstr "Soporte navegador Ceno"
+msgstr "Navegador Ceno| Soporte"
 
 #: support.html%2Bhtml.body.main.div.h1:144-1
 msgid "Frequently Asked Questions"
@@ -269,7 +269,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:175-281
 msgid "What are the risks of using Ceno?"
-msgstr "Cuáles son los riesgos de usar Ceno?"
+msgstr "¿Cuáles son los riesgos del uso de Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:182-1
 msgid "Risks for users"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:189-1
 msgid "Risks for Bridge operators"
-msgstr "Riesgos para los operadores de puentes"
+msgstr "Riesgos para los operadores puente"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:190-1
 msgid ""
@@ -435,7 +435,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:202-353
 msgid "What’s the difference between using a VPN and Ceno Browser?"
-msgstr "Cuál es la diferencia entre usar una VPN y Ceno Browser?"
+msgstr "¿Cuál es la diferencia entre utilizar una VPN y el Navegador Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:209-1
 msgid ""
@@ -446,13 +446,13 @@ msgid ""
 "numerous VPN providers offering a wide variety of connectivity options to "
 "help their users get around local network censorship."
 msgstr ""
-"Las VPN se crearon inicialmente para comunicaciones privadas entre su "
-"dispositivo y un servidor de destino. A medida que la censura de Internet se "
-"convirtió en algo frecuente en todo el mundo, los proveedores de VPN "
-"comenzaron a ofrecer sus servicios para eludir también las restricciones de "
-"la red local. Hoy en día, existen numerosos proveedores de VPN que ofrecen "
-"una amplia variedad de opciones de conectividad para ayudar a sus usuarios a "
-"sortear la censura de la red local."
+"Las VPN se crearon inicialmente para las comunicaciones privadas entre su "
+"dispositivo y un servidor de destino. A medida que la censura en Internet se "
+"convirtió en un fenómeno frecuente en todo el mundo, los proveedores de VPN "
+"empezaron a ofrecer sus servicios para eludir también las restricciones de "
+"las redes locales. Hoy en día, existen numerosos proveedores de VPN que "
+"ofrecen una amplia variedad de opciones de conectividad para ayudar a sus "
+"usuarios a sortear la censura de las redes locales."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:210-1
 msgid ""
@@ -484,7 +484,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:211-391
 msgid "What’s the difference between using the Tor and Ceno browsers?"
-msgstr "Cuál es la diferencia entre usar los navegadores Tor y Ceno?"
+msgstr "¿Cuál es la diferencia entre utilizar los navegadores Tor y Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:218-1
 msgid ""
@@ -507,7 +507,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:218-519
 msgid "Whats the difference between Personal and Public tabs, again?"
-msgstr "De nuevo, ¿Cuál es la diferencia entre las pestañas Personal y Pública?"
+msgstr "¿Cuál es la diferencia entre pestañas personales y públicas?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:225-1
 msgid ""
@@ -519,11 +519,11 @@ msgid ""
 "network."
 msgstr ""
 "Las pestañas públicas utilizan todos los métodos de conectividad disponibles "
-"en la red Ceno para obtener el contenido que desea. Al navegar usando una "
-"pestaña Pública dejarás un registro de su actividad en la red pública "
-"BitTorrent (tu dirección IP y sitio web que solicitaste). El contenido que "
-"haya sido recuperado por su dispositivo dentro de una pestaña Pública se "
-"compartirá con otros usuarios de Ceno a través de la red BitTorrent."
+"en la red Ceno para obtener el contenido que desea. Al navegar utilizando "
+"una pestaña Pública dejará un registro de su actividad en la red pública "
+"BitTorrent (su dirección IP y la página web que ha solicitado). El contenido "
+"que haya sido recuperado por su dispositivo dentro de una pestaña Pública "
+"será compartido con otros usuarios de Ceno a través de la red BitTorrent."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:226-1
 msgid ""
@@ -533,15 +533,15 @@ msgid ""
 "them if you do not want to be associated on BitTorrent with any of your "
 "browsing activity in Ceno."
 msgstr ""
-"La información solicitada y recuperada en una pestaña personal no se "
-"comparte con nadie más. No se guarda ningún registro de su actividad en "
-"BitTorrent. Utilice pestañas personales para iniciar sesión en las redes "
-"sociales y otras cuentas, también si no desea que se asocie en BitTorrent "
-"con ninguna de las actividades de navegación en Ceno."
+"La información solicitada y recuperada en una ficha Personal no se comparte "
+"con nadie más. No se graba ningún registro de su actividad en BitTorrent. "
+"Utilice las pestañas Personales para iniciar sesión en redes sociales y "
+"otras cuentas. Utilícelas también si no desea que se asocie en BitTorrent "
+"ninguna de sus actividades de navegación en Ceno."
 
 #: support.html%2Bhtml.body.main.div.section.details:226-320
 msgid "When will there be an iPhone or Windows version?"
-msgstr "Cuándo habrá una versión para iPhone o Windows?"
+msgstr "¿Cuándo habrá una versión para iPhone o Windows?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:233-1
 msgid ""
@@ -565,12 +565,12 @@ msgid ""
 msgstr ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
 "\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Aprenda "
-"más en el manual de usuario!</button></a> <a href=\"https://github.com/"
-"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> ¡Más "
+"información en el Manual del usuario!</button></a> <a href=\"https://github."
+"com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
 "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class="
-"\"fas fa-scroll fa-xl\"></span> Para obtener una guía técnica más detallada, "
-"consulte el documento técnico de Ouinet..</button></a>"
+"\"fas fa-scroll fa-xl\"></span> Si desea una guía técnica más detallada, "
+"consulte el libro de Ouinet.</button></a>"
 
 #: support.html%2Bhtml.body.footer.div.p:258-9
 msgid ""
