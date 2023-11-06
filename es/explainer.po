@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-03 07:51-0700\n"
-"PO-Revision-Date: 2023-11-03 10:10+0000\n"
-"Last-Translator: Jorge Pabon <jorge@equalit.ie>\n"
+"POT-Creation-Date: 2023-11-02 16:12-0700\n"
+"PO-Revision-Date: 2023-11-06 21:37+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
-"website-explainer/es/>\n"
+"website/website-explainer/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: explainer.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "es"
 
 #: explainer.html%2Bhtml.body.nav.div.div.ul.li:90-17
 msgid "About"
@@ -38,20 +38,20 @@ msgstr "Comunidad"
 
 #: explainer.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
-msgstr ""
+msgstr "Donar"
 
 #: explainer.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
-msgstr ""
+msgstr "Obtén Ceno"
 
 #: explainer.html%2Bhtml.body.nav.div.div.div:108-10
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
 #: explainer.html%2Bhtml.body.nav.div.div.div:110-1
 msgid "EN"
-msgstr ""
+msgstr "ES"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -73,14 +73,29 @@ msgid ""
 "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
 "href=\"../ur/explainer.html\">اردو</a>"
 msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/explainer.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/explainer.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/explainer.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"explainer.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/explainer.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/explainer.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/explainer.html\">اردو</a>"
 
 #: explainer.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser: Explainer"
-msgstr ""
+msgstr "Navegador Ceno: Explicador"
 
 #: explainer.html%2Bhtml.body.main.div.h2:144-1
 msgid "Ceno Browser Explainer"
-msgstr ""
+msgstr "Explicación del navegador Ceno"
 
 #: explainer.html%2Bhtml.body.main.div.p:146-1
 msgid ""
@@ -91,12 +106,22 @@ msgid ""
 "network. Built on top of the BitTorrent network, it is the world’s first "
 "mobile browser using decentralized networking to bring you the web."
 msgstr ""
+"Ceno Browser es bastante diferente de cualquier otro navegador que hayas "
+"utilizado en el pasado. No funciona como una VPN o la red Tor. Está pensado "
+"para la conectividad, pero no para el anonimato. La principal premisa de "
+"Ceno es la cooperación: los usuarios pueden ayudarse entre sí para conseguir "
+"contenidos que de otro modo no estarían disponibles en su red. Construido "
+"sobre la red BitTorrent, es el primer navegador móvil del mundo que utiliza "
+"redes descentralizadas para ofrecerte la web."
 
 #: explainer.html%2Bhtml.body.main.div.p:148-1
 msgid ""
 "Whilst this may sound relatively attractive, every innovation has its "
 "benefits and risks. You should be aware of both before using Ceno Browser."
 msgstr ""
+"Aunque esto pueda parecer relativamente atractivo, toda innovación tiene sus "
+"ventajas y sus riesgos. Debes ser consciente de ambos antes de utilizar Ceno "
+"Browser."
 
 #: explainer.html%2Bhtml.body.main.div.p:150-1
 msgid ""
@@ -111,10 +136,21 @@ msgid ""
 "Couriers into the protocol and infrastructure design. Their job is to help "
 "you get the book you want."
 msgstr ""
+"¿Entonces, cómo funciona? Hay dos modos distintos de utilizar Ceno: "
+"<strong>Público</strong> y <strong>Personal</strong>. Puedes cambiar entre "
+"ellos en cualquier momento. Si bien ambos modos le ayudan a acceder a "
+"cualquier página web sin restricciones, se distinguen por los rastros de la "
+"actividad que deja en la red y por las opciones generales de conectividad "
+"que ofrece al usuario. Para explicar estos conceptos en términos cotidianos, "
+"utilizamos el ejemplo de los libros, las bibliotecas y las librerías. Ahora "
+"bien, como esto es sólo una representación ficticia de un sistema "
+"complicado, también hemos agregado algunos ayudantes y mensajeros al diseño "
+"del protocolo y la infraestructura. Su trabajo es ayudarle a conseguir el "
+"libro que desea."
 
 #: explainer.html%2Bhtml.body.main.div.h3:152-1
 msgid "Public Mode"
-msgstr ""
+msgstr "Modo público"
 
 #: explainer.html%2Bhtml.body.main.div.p:153-1
 msgid ""
@@ -124,6 +160,11 @@ msgid ""
 "little piece of cardboard inside, along with every other person who has "
 "rented it."
 msgstr ""
+"Imagina utilizar Ceno como ir a una biblioteca pública, donde cada libro es "
+"un sitio web que visitas y la propia biblioteca es la red BitTorrent. Puedes "
+"sacar cualquier libro gratis, pero tu nombre quedará registrado en ese "
+"trocito de cartón que hay dentro, junto con el de cualquier otra persona que "
+"lo haya alquilado."
 
 #: explainer.html%2Bhtml.body.main.div.p:154-1
 msgid ""
@@ -134,10 +175,16 @@ msgid ""
 "<strong>Public</strong> mode everyone can also see that you have rented this "
 "book and passed it along to others. It is essentially public."
 msgstr ""
+"Ahora que tiene este libro, puede leerlo y pasarlo a otros para que lo lean. "
+"También pueden transmitirlo. En el modo <strong>Público</strong>, todos "
+"están ahí para ayudarte a leer este libro: el editor, la biblioteca que lo "
+"compró, la persona que compartió su libro contigo. Sin embargo, en el modo "
+"<strong>Público</strong> todos también pueden ver que usted alquiló este "
+"libro y se lo pasó a otras personas. Es esencialmente público."
 
 #: explainer.html%2Bhtml.body.main.div.h3:156-1
 msgid "Personal Mode"
-msgstr ""
+msgstr "Modo Personal"
 
 #: explainer.html%2Bhtml.body.main.div.p:158-1
 msgid ""
@@ -148,10 +195,16 @@ msgid ""
 "recommend it for when you are logging into websites or when you don’t want "
 "anyone to know which websites you have been visiting."
 msgstr ""
+"Ahora irás a una librería a conseguir el libro que deseas. El libro te "
+"pertenecerá únicamente a ti y nadie más que el empleado de la librería sabrá "
+"que lo compraste. No compartirá con nadie ni leerá la copia de este libro de "
+"nadie más. Este es el modo <strong>Personal</strong> de Ceno y lo "
+"recomendamos cuando inicias sesión en páginas web o cuando no quieres que "
+"nadie sepa qué páginas web has estado visitando."
 
 #: explainer.html%2Bhtml.body.main.div.h3:160-1
 msgid "Helpers"
-msgstr ""
+msgstr "Ayudantes"
 
 #: explainer.html%2Bhtml.body.main.div.p:161-1
 msgid ""
@@ -163,10 +216,17 @@ msgid ""
 "anyone else. On the Internet without Ceno, these Helpers play a similar role "
 "to your Internet provider or VPN service."
 msgstr ""
+"El bibliotecario y el empleado de la librería son Ayudantes en nuestra red. "
+"Se encargan de buscar el libro deseado en las estanterías. En Ceno, este "
+"papel lo desempeña eQualitie, la organización que está detrás del proyecto y "
+"se encarga del mantenimiento de estos ayudantes. Ellos saben quién es usted "
+"y qué libro ha solicitado. Tendrá que confiar en ellos para que no revelen "
+"esta información a nadie más. En Internet sin Ceno, estos Helpers desempeñan "
+"un papel similar al de su proveedor de Internet o servicio VPN."
 
 #: explainer.html%2Bhtml.body.main.div.h3:163-1
 msgid "Couriers"
-msgstr ""
+msgstr "Mensajeros"
 
 #: explainer.html%2Bhtml.body.main.div.p:164-1
 msgid ""
@@ -179,6 +239,14 @@ msgid ""
 "you can again share it with others (<strong>Public</strong>) or not share it "
 "with anyone (<strong>Personal</strong>)."
 msgstr ""
+"Es posible que no pueda visitar una biblioteca o que no haya una biblioteca "
+"en su ciudad o país. Para este caso tenemos Couriers. Están ubicados en una "
+"ciudad o país diferente. Su trabajo es ir a la biblioteca o librería local y "
+"recoger el libro que desea. Los mensajeros sólo pueden hablar con un "
+"bibliotecario o un comerciante. No saben qué libro le interesa: su trabajo "
+"es recibirlo y entregárselo. Una vez que reciba el libro, podrá volver a "
+"compartirlo con otras personas (<strong>Público</strong>) o no compartirlo "
+"con nadie (<strong>Personal</strong>)."
 
 #: explainer.html%2Bhtml.body.main.div.p:166-1
 msgid ""
@@ -187,6 +255,37 @@ msgid ""
 "Couriers as well. At the moment, over 8000 couriers are online at any one "
 "time, waiting for requests to fetch a book for you."
 msgstr ""
+"Cualquier usuario de Ceno puede convertirse en mensajero y animamos a los "
+"que viven en países con muchas bibliotecas (acceso ilimitado a Internet) a "
+"que también lo sean. En la actualidad, más de 8000 mensajeros están en línea "
+"en cualquier momento, a la espera de solicitudes para ir a buscar un libro "
+"para usted."
+
+#: explainer.html%2Bhtml.body.footer.div.p:184-9
+msgid ""
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a not-for-profit Canadian company developing open and reusable systems with "
+"a focus on privacy, online security and freedom of association. Technology "
+"solutions and innovations are driven by our <a href=\"https://equalit.ie/en/"
+"values/\">values</a> that guide us to protect the rights and aspirations of "
+"everyone online."
+msgstr ""
+"El Navegador Ceno es un proyecto de <a href=\"https://equalit.ie\">eQualit."
+"ie</a> - una empresa canadiense sin fines de lucro que desarrolla sistemas "
+"abiertos y reutilizables con enfoque en la privacidad, seguridad en línea y "
+"libertad de asociación. Las soluciones tecnológicas e innovaciones están "
+"impulsadas por nuestros <a href=\"https://equalit.ie/en/values/\">valores</"
+"a> que nos guían para proteger los derechos y las aspiraciones de toda(o)s "
+"en línea."
+
+#.  TRANSLATORS: Please do not translate this. 
+#: explainer.html%2Bhtml.body.footer:186-23
+msgid ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #: explainer.html%2Bhtml.body.footer.div.p:184-9
 msgid ""
@@ -197,10 +296,9 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
-
-#.  TRANSLATORS: Please do not translate this. 
-#: explainer.html%2Bhtml.body.footer:186-23
-msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-msgstr ""
+"Ceno Browser es un proyecto de <a href=\"https://equalit.ie\">eQualit.ie</"
+"a>, una organización canadiense sin fines de lucro que crea servicios de "
+"Internet descentralizados para respaldar una red más igualitaria y "
+"equitativa. . Las soluciones de eQualie son de código abierto, probadas en "
+"batalla y desarrolladas teniendo en cuenta nuestros valores. Proporcionan "
+"libertad de asociación en línea a millones de personas todos los días."

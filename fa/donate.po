@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-03 07:51-0700\n"
-"PO-Revision-Date: 2023-08-04 07:05+0000\n"
-"Last-Translator: Amir <amearb@duck.com>\n"
+"POT-Creation-Date: 2023-11-06 12:24-0700\n"
+"PO-Revision-Date: 2023-11-06 23:13+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
-"website-donate/fa/>\n"
+"website/website-donate/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: donate.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -38,7 +38,7 @@ msgstr "انجمن"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
-msgstr "اهدا کنند"
+msgstr "اهدا"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
@@ -103,7 +103,6 @@ msgid "Donate to Ceno Browser"
 msgstr "اهدا کردن به مرورگر ‪Ceno"
 
 #: donate.html%2Bhtml.body.main.div.p:143-3
-#, fuzzy
 msgid ""
 "Ceno Browser is completely free and open source software funded solely "
 "through grants and donations. Below are some of the ways you can support its "
@@ -111,13 +110,12 @@ msgid ""
 "getting involved and contributing, please visit <a href=\"help.html\">the "
 "Community page</a>!"
 msgstr ""
-"مرورگر Ceno نرم‌افزار کاملاً رایگان و متن‌باز است که تنها از طریق کمک‌های مالی "
-"تأمین می‌شود. در زیر برخی از راه‌هایی که می‌توانید از طریق کمک مالی از توسعهٔ "
-"مستمر آن حمایت کنید، آورده شده است. برای کمک و مشارکت از سایر روش‌ها، لطفاً از "
-"‎<a href=\"help.html\">صفحهٔ انجمن</a> بازدید کنید!"
+"مرورگر Ceno نرم‌افزار کاملاً رایگان و متن‌باز است که تنها از طریق کمک‌های "
+"مالی تأمین می‌شود. در زیر برخی از راه‌هایی که می‌توانید از طریق کمک مالی از "
+"توسعهٔ مستمر آن حمایت کنید، آورده شده است. برای کمک و مشارکت از سایر روش‌ها، "
+"لطفاً از ‎<a href=\"help.html\">صفحهٔ انجمن</a> بازدید کنید!"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:152-18
-#, fuzzy
 msgid "Make a Donation"
 msgstr "اهدا کنید"
 
@@ -126,10 +124,8 @@ msgid "Make a one-time donation using our Paypal payment portal."
 msgstr ""
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:154-18
-#, fuzzy
-#| msgid "Donate via Stripe"
 msgid "Donate via Paypal"
-msgstr "از طریق Stripe اهدا کنید"
+msgstr "از طریق Paypal اهدا کنید"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:165-17
 msgid "Become a Sponsor"
@@ -155,7 +151,7 @@ msgstr ""
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 msgstr ""
 
-#: donate.html%2Bhtml.body.footer.div.p:204-9
+#: donate.html%2Bhtml.body.footer.div.p:205-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -164,9 +160,14 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno مرورگر پروژه ای است توسط <a href=\"https://equalit.ie\">eQualit.ie</a> –"
+" یک سازمان غیرانتفاعی کانادایی که خدمات اینترنتی غیرمتمرکز را در حمایت از "
+"شبکه ای برابرتر و عادلانه تر ایجاد می کند. راه حل های eQualitie منبع باز "
+"هستند، نبرد اثبات شده و با توجه به ارزش های ما توسعه یافته است. هر روز، آنها "
+"آزادی اجتماع را برای میلیون ها نفر به صورت آنلاین فراهم می کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:206-23
+#: donate.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

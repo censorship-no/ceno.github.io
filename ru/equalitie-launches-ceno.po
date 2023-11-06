@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-03 07:51-0700\n"
-"PO-Revision-Date: 2023-07-05 19:33+0000\n"
+"POT-Creation-Date: 2023-11-06 12:24-0700\n"
+"PO-Revision-Date: 2023-11-06 23:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "website-equalitie-launches-ceno/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: equalitie-launches-ceno.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -35,7 +35,7 @@ msgstr "Новости"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:101-17
 msgid "Community"
-msgstr "Сообщество"
+msgstr "Коммьюнити"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
@@ -43,7 +43,7 @@ msgstr "Пожертвовать"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
-msgstr "Скачать Ceno"
+msgstr "Установить Ceno"
 
 #: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:108-10
 msgid "Download"
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Download PDF"
 msgstr "Скачать PDF"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.footer.div.p:179-9
+#: equalitie-launches-ceno.html%2Bhtml.body.footer.div.p:180-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -258,9 +258,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser – это проект <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"канадской некоммерческой организации, которая создает децентрализованные "
+"интернет-сервисы для поддержки более равноправной и равноправной сети. . "
+"Решения eQualitie имеют открытый исходный код, проверены в боях и "
+"разработаны с учетом наших ценностей. Они ежедневно предоставляют свободу "
+"объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: equalitie-launches-ceno.html%2Bhtml.body.footer:181-23
+#: equalitie-launches-ceno.html%2Bhtml.body.footer:182-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

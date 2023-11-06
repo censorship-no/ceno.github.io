@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-03 07:51-0700\n"
-"PO-Revision-Date: 2023-05-30 18:33+0000\n"
+"PO-Revision-Date: 2023-11-03 18:34+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/websitehelp/pt_BR/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -116,10 +116,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:156-13
 #, fuzzy
-#| msgid ""
-#| "Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
-#| "contact form below) if you're interested in becoming a reviewer for "
-#| "translation(s) in your language(s)."
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
@@ -163,10 +159,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-3
 #, fuzzy
-#| msgid ""
-#| "We welcome reviews on the Play Store as well as direct communications - "
-#| "you can get in touch with the team via the feedback button at the bottom "
-#| "of this website, or send us an email:"
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
@@ -197,7 +189,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
 #, fuzzy
-#| msgid "Ceno Browser | Community"
 msgid "Ceno Browser"
 msgstr "Navegador Ceno | Comunidade"
 
@@ -211,26 +202,16 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:191-12
 #, fuzzy
-#| msgid "Ouinet source"
 msgid "Ouinet"
 msgstr "Source do Ouinet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:192-5
 #, fuzzy
-#| msgid "Run the Ceno Docker Client"
 msgid "Ceno Docker Client"
 msgstr "Execute o Cliente Docker do Ceno"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:193-12
 #, fuzzy
-#| msgid ""
-#| "You may also be interested in the (no longer maintained) <a "
-#| "href=\"https://github.com/censorship-no-archive/ceno1\">previous "
-#| "incarnation of Ceno</a>, built on the <a href=\"https://freenetproject."
-#| "org/\">Freenet</a> anonymous file sharing and content publishing network. "
-#| "Other inactive project-related repositories can be found at the <a "
-#| "href=\"https://github.com/censorship-no-archive\">Censorship.no! archive</"
-#| "a>."
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
@@ -247,7 +228,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:194-17
 #, fuzzy
-#| msgid "Browse our Github"
 msgid "Browse our Gitlab"
 msgstr "Navegue por nosso GitHub"
 
@@ -335,9 +315,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"uma organização canadense sem fins lucrativos que cria serviços "
+"descentralizados de Internet para apoiar uma rede mais igualitária e "
+"equitativa. . As soluções da eQualitie são de código aberto, comprovadas em "
+"batalha e desenvolvidas com nossos valores em mente. Eles proporcionam "
+"liberdade de associação online a milhões de pessoas todos os dias."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:289-23
+#: help.html%2Bhtml.body.footer:289-23 help.html%2Bhtml.body.footer:290-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -380,8 +366,6 @@ msgstr ""
 #~ "settings\">source de extensão de configurações</a>"
 
 #, fuzzy
-#~| msgctxt "help.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Community"
 #~ msgid "CENO Browser | Community"
 #~ msgstr "Navegador CENO | Comunidade"
 

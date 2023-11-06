@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-03 07:51-0700\n"
-"PO-Revision-Date: 2023-05-30 18:33+0000\n"
+"PO-Revision-Date: 2023-11-03 19:04+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
-"censorship-no/websiteindex/pt_BR/>\n"
+"censorship-no/website/websiteindex/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -56,7 +56,6 @@ msgstr "PT-BR"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: index.html%2Bhtml.body.nav.div.div.div.div:116-5
-#, fuzzy
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/index."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -73,15 +72,20 @@ msgid ""
 "hreflang=\"uk\" href=\"../uk/index.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/index."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/index.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-"hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/index."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/index.html\">Українська</a>"
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/index."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/index.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/index.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/index."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/index.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/index.html\">Português</a> "
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/index.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/index.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 
 #: index.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | Share the Web"
@@ -158,19 +162,11 @@ msgstr ""
 "websites bloqueados para pessoas em países censurados."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:197-13
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:197-13"
 msgid "Free and Open Source"
 msgstr "Gratuito e de Código Aberto"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:198-15
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:195-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:198-15"
 msgid "Free and Open Source"
 msgstr "Gratuito e de Código Aberto"
@@ -197,9 +193,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"uma organização canadense sem fins lucrativos que cria serviços "
+"descentralizados de Internet para apoiar uma rede mais igualitária e "
+"equitativa. . As soluções da eQualitie são de código aberto, comprovadas em "
+"batalha e desenvolvidas com nossos valores em mente. Eles proporcionam "
+"liberdade de associação online a milhões de pessoas todos os dias."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: index.html%2Bhtml.body.footer:222-23
+#: index.html%2Bhtml.body.footer:222-23 index.html%2Bhtml.body.footer:223-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -228,8 +230,6 @@ msgstr ""
 #~ msgstr "Gratuito e de Código Aberto"
 
 #, fuzzy
-#~| msgctxt "index.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Share the Web"
 #~ msgid "CENO Browser | Share the Web"
 #~ msgstr "Navegador CENO | Partilhe a Web"
 
