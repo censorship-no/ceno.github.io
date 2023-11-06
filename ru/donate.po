@@ -58,17 +58,6 @@ msgstr "RU"
 #.  TRANSLATORS: Please do not translate any of these. 
 #: donate.html%2Bhtml.body.nav.div.div.div.div:116-5
 #, fuzzy
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
-#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#| "href=\"../es/donate.html\">Español</a> <a class=\"navbar-item\" "
-#| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
-#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate."
-#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#| "href=\"../my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a "
-#| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
-#| "html\">Українська</a>"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -124,7 +113,6 @@ msgstr "Пожертвовать"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:153-11
 #, fuzzy
-#| msgid "Make a one-time donation using our Stripe payment portal."
 msgid "Make a one-time donation using our Paypal payment portal."
 msgstr ""
 "Сделать разовое денежное пожертвование с помощью нашего платежного портала "
@@ -132,7 +120,6 @@ msgstr ""
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:154-18
 #, fuzzy
-#| msgid "Donate via Stripe"
 msgid "Donate via Paypal"
 msgstr "Пожертвовать с помощью Stripe"
 
@@ -177,7 +164,7 @@ msgstr ""
 "объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:206-23
+#: donate.html%2Bhtml.body.footer:206-23 donate.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

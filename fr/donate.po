@@ -112,13 +112,11 @@ msgstr "Faire un don"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:153-11
 #, fuzzy
-#| msgid "Make a one-time donation using our Stripe payment portal."
 msgid "Make a one-time donation using our Paypal payment portal."
 msgstr "Faites un don unique en utilisant notre portail de paiement Paypal."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:154-18
 #, fuzzy
-#| msgid "Donate via Stripe"
 msgid "Donate via Paypal"
 msgstr "Faire un don sur Stripe"
 
@@ -165,7 +163,7 @@ msgstr ""
 "ligne à des millions de personnes."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:206-23
+#: donate.html%2Bhtml.body.footer:206-23 donate.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
