@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
-"PO-Revision-Date: 2023-05-30 18:33+0000\n"
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+"PO-Revision-Date: 2023-11-03 18:34+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website-factsheet/pt_BR/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: factsheet.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -656,7 +656,7 @@ msgstr ""
 "possibilidade de uso livre da Internet e tudo é filtrado pelo governo, até "
 "mesmo os mecanismos de quebra de filtro.\""
 
-#: factsheet.html%2Bhtml.body.footer.div.p:305-9
+#: factsheet.html%2Bhtml.body.footer.div.p:304-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -665,8 +665,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser é um projeto da <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"uma organização canadense sem fins lucrativos que cria serviços "
+"descentralizados de Internet para apoiar uma rede mais igualitária e "
+"equitativa. . As soluções da eQualitie são de código aberto, comprovadas em "
+"batalha e desenvolvidas com nossos valores em mente. Eles proporcionam "
+"liberdade de associação online a milhões de pessoas todos os dias."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: factsheet.html%2Bhtml.body.footer:306-23
 #: factsheet.html%2Bhtml.body.footer:307-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -692,8 +699,6 @@ msgstr ""
 #~ "todas as pessoas online."
 
 #, fuzzy
-#~| msgctxt "factsheet.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Fact Sheet"
 #~ msgid "CENO Browser | Fact Sheet"
 #~ msgstr "Navegador CENO | Ficha Técnica"
 

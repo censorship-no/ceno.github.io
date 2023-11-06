@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
-"PO-Revision-Date: 2023-07-05 19:33+0000\n"
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+"PO-Revision-Date: 2023-11-06 21:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
-"website-ir-highlights/ru/>\n"
+"website/website-ir-highlights/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: ir-highlights.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -35,7 +35,7 @@ msgstr "Новости"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:101-17
 msgid "Community"
-msgstr "Сообщество"
+msgstr "Коммьюнити"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
@@ -43,7 +43,7 @@ msgstr "Пожертвовать"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
-msgstr "Скачать Ceno"
+msgstr "Установить Ceno"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div:108-10
 msgid "Download"
@@ -243,7 +243,7 @@ msgstr ""
 "безопасность и онлайн-площадка для фильтров и инструментов,</a>” Zamaneh "
 "Tribune"
 
-#: ir-highlights.html%2Bhtml.body.footer.div.p:187-9
+#: ir-highlights.html%2Bhtml.body.footer.div.p:186-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -252,8 +252,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser – это проект <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"канадской некоммерческой организации, которая создает децентрализованные "
+"интернет-сервисы для поддержки более равноправной и равноправной сети. . "
+"Решения eQualitie имеют открытый исходный код, проверены в боях и "
+"разработаны с учетом наших ценностей. Они ежедневно предоставляют свободу "
+"объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: ir-highlights.html%2Bhtml.body.footer:188-23
 #: ir-highlights.html%2Bhtml.body.footer:189-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -279,8 +286,6 @@ msgstr ""
 #~ "прав и стремлений каждого человека в Интернете."
 
 #, fuzzy
-#~| msgctxt "ir-highlights.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Highlights from the Ground in Iran"
 #~ msgid "CENO Browser | Highlights from the Ground in Iran"
 #~ msgstr "CENO Browser | Основные моменты из Ирана"
 

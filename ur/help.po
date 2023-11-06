@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
-"PO-Revision-Date: 2023-05-30 18:33+0000\n"
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+"PO-Revision-Date: 2023-11-06 21:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/ur/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -118,10 +118,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:156-13
 #, fuzzy
-#| msgid ""
-#| "Please contact the Ceno team at cenoers [at] equalit [dot] ie (or the "
-#| "contact form below) if you're interested in becoming a reviewer for "
-#| "translation(s) in your language(s)."
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
@@ -165,10 +161,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-3
 #, fuzzy
-#| msgid ""
-#| "We welcome reviews on the Play Store as well as direct communications - "
-#| "you can get in touch with the team via the feedback button at the bottom "
-#| "of this website, or send us an email:"
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
@@ -199,7 +191,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
 #, fuzzy
-#| msgid "Ceno Browser | Community"
 msgid "Ceno Browser"
 msgstr "Ceno براؤزر | کمیونٹی"
 
@@ -213,26 +204,16 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:191-12
 #, fuzzy
-#| msgid "Ouinet source"
 msgid "Ouinet"
 msgstr "Ouinet سورس"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:192-5
 #, fuzzy
-#| msgid "Run the Ceno Docker Client"
 msgid "Ceno Docker Client"
 msgstr "Ceno Docker کلائنٹ چلائیں"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:193-12
 #, fuzzy
-#| msgid ""
-#| "You may also be interested in the (no longer maintained) <a "
-#| "href=\"https://github.com/censorship-no-archive/ceno1\">previous "
-#| "incarnation of Ceno</a>, built on the <a href=\"https://freenetproject."
-#| "org/\">Freenet</a> anonymous file sharing and content publishing network. "
-#| "Other inactive project-related repositories can be found at the <a "
-#| "href=\"https://github.com/censorship-no-archive\">Censorship.no! archive</"
-#| "a>."
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
@@ -248,7 +229,6 @@ msgstr ""
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:194-17
 #, fuzzy
-#| msgid "Browse our Github"
 msgid "Browse our Gitlab"
 msgstr "ہمارے Github کو براؤز کریں"
 
@@ -326,7 +306,7 @@ msgstr ""
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr "یوزر مینوئل میں پل قائم کرنے کے بارے میں مزید جانیں!"
 
-#: help.html%2Bhtml.body.footer.div.p:288-9
+#: help.html%2Bhtml.body.footer.div.p:287-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -335,9 +315,14 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser <a href=\"https://equalit.ie\">eQualit.ie</a> کا ایک پروجیکٹ "
+"ہے، ایک کینیڈا کی غیر منافع بخش تنظیم جو زیادہ مساوی اور مساوی نیٹ ورک کو "
+"سپورٹ کرنے کے لیے وکندریقرت انٹرنیٹ خدمات تخلیق کرتی ہے۔ . eQualitie کے حل "
+"اوپن سورس، جنگ سے ثابت، اور ہماری اقدار کو ذہن میں رکھتے ہوئے تیار کیے گئے "
+"ہیں۔ وہ ہر روز لاکھوں لوگوں کو آن لائن ایسوسی ایشن کی آزادی فراہم کرتے ہیں۔"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:290-23
+#: help.html%2Bhtml.body.footer:289-23 help.html%2Bhtml.body.footer:290-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
@@ -378,8 +363,6 @@ msgstr ""
 #~ "github.com/censorship-no/ceno-ext-settings\">ترتیبات کا ایکسٹینشن سورس</a>"
 
 #, fuzzy
-#~| msgctxt "help.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Community"
 #~ msgid "CENO Browser | Community"
 #~ msgstr "CENO براؤزر | کمیونٹی"
 

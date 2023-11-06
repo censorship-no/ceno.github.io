@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
-"PO-Revision-Date: 2023-07-05 19:33+0000\n"
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+"PO-Revision-Date: 2023-11-06 23:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
-"website-donate/ru/>\n"
+"website/website-donate/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: donate.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -35,7 +35,7 @@ msgstr "Новости"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:101-17
 msgid "Community"
-msgstr "Сообщество"
+msgstr "Коммьюнити"
 
 #: donate.html%2Bhtml.body.nav.div.div.ul.li:104-17
 msgid "Donate"
@@ -43,7 +43,7 @@ msgstr "Пожертвовать"
 
 #: donate.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
 msgid "Get Ceno"
-msgstr "Скачать Ceno"
+msgstr "Установить Ceno"
 
 #: donate.html%2Bhtml.body.nav.div.div.div:108-10
 msgid "Download"
@@ -58,17 +58,6 @@ msgstr "RU"
 #.  TRANSLATORS: Please do not translate any of these. 
 #: donate.html%2Bhtml.body.nav.div.div.div.div:116-5
 #, fuzzy
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
-#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-#| "href=\"../es/donate.html\">Español</a> <a class=\"navbar-item\" "
-#| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
-#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate."
-#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-#| "href=\"../my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-#| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a "
-#| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
-#| "html\">Українська</a>"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -123,18 +112,14 @@ msgid "Make a Donation"
 msgstr "Пожертвовать"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:153-11
-#, fuzzy
-#| msgid "Make a one-time donation using our Stripe payment portal."
 msgid "Make a one-time donation using our Paypal payment portal."
 msgstr ""
 "Сделать разовое денежное пожертвование с помощью нашего платежного портала "
-"Stripe."
+"Paypal."
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:154-18
-#, fuzzy
-#| msgid "Donate via Stripe"
 msgid "Donate via Paypal"
-msgstr "Пожертвовать с помощью Stripe"
+msgstr "Пожертвовать с помощью Paypal"
 
 #: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:165-17
 msgid "Become a Sponsor"
@@ -160,7 +145,7 @@ msgstr "Адрес нашего кошелька:"
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 msgstr ""
 
-#: donate.html%2Bhtml.body.footer.div.p:205-9
+#: donate.html%2Bhtml.body.footer.div.p:204-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -169,9 +154,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser – это проект <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"канадской некоммерческой организации, которая создает децентрализованные "
+"интернет-сервисы для поддержки более равноправной и равноправной сети. . "
+"Решения eQualitie имеют открытый исходный код, проверены в боях и "
+"разработаны с учетом наших ценностей. Они ежедневно предоставляют свободу "
+"объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:207-23
+#: donate.html%2Bhtml.body.footer:206-23 donate.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

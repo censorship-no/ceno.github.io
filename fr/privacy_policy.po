@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
-"PO-Revision-Date: 2023-07-02 13:50+0000\n"
-"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+"PO-Revision-Date: 2023-11-06 21:37+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -263,7 +263,7 @@ msgstr ""
 "site Web tout changement important de cet avis, ainsi que la date d’entrée "
 "en vigueur de ces changements."
 
-#: privacy_policy.html%2Bhtml.body.footer.div.p:193-9
+#: privacy_policy.html%2Bhtml.body.footer.div.p:192-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -272,8 +272,15 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
+"Ceno Browser est un projet de <a href=\"https://equalit.ie\">eQualit.ie</a>, "
+"une organisation canadienne à but non lucratif qui crée des services "
+"Internet décentralisés pour soutenir un réseau plus égal et équitable. . Les "
+"solutions d'eQualitie sont open source, éprouvées et développées en gardant "
+"nos valeurs à l'esprit. Ils offrent chaque jour la liberté d’association en "
+"ligne à des millions de personnes."
 
 #.  TRANSLATORS: Please do not translate this. 
+#: privacy_policy.html%2Bhtml.body.footer:194-23
 #: privacy_policy.html%2Bhtml.body.footer:195-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
@@ -299,8 +306,6 @@ msgstr ""
 #~ "afin de protéger les droits et aspirations de tous en ligne."
 
 #, fuzzy
-#~| msgctxt "privacy_policy.html+html.body.main.title:137-1"
-#~| msgid "CENO Browser | Privacy Policy"
 #~ msgid "CENO Browser | Privacy Policy"
 #~ msgstr "Navigateur CENO | Politique de confidentialité"
 
