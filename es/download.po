@@ -2,7 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2023-11-06 15:33-0700\n"
+=======
 "POT-Creation-Date: 2023-10-06 16:30-0700\n"
+>>>>>>> weblate/i18n
 "PO-Revision-Date: 2023-11-06 23:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -133,8 +137,42 @@ msgstr "Obtenlo en Paskoocheh"
 msgid "Get it on GitLab"
 msgstr "Obtenlo en GitLab"
 
+<<<<<<< HEAD
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:165-21
+msgid "Get it on Github"
+msgstr "Consíguelo en Github"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:168-17
+msgid "Get it on dComms"
+msgstr "Consíguelo en dComms"
+
+#: download.html%2Bhtml.body.main.section.div.div.h3:180-17
+msgid "Important:"
+msgstr "Importante:"
+
+#: download.html%2Bhtml.body.main.section.div.div.p:181-3
+msgid ""
+"Ceno has two modes of operation - <strong>Public</strong> and "
+"<strong>Personal</strong>. You can easily toggle between them. Public mode "
+"offers the best connectivity but the least privacy - websites that you visit "
+"or share are recorded in a publicly-accessible registry (BitTorrent). "
+"Private mode eliminates this record but may be slower and less efficient at "
+"retrieving content. See the <a href=\"support.html\">FAQ</a> or <a href=\"../"
+"user-manual/\">User Manual</a> for more details on Ceno usage."
+msgstr ""
+"Ceno tiene dos modos de funcionamiento - <strong>Público</strong> y "
+"<strong>Personal</strong>. Puedes alternar fácilmente entre ellos. El modo "
+"público ofrece la mejor conectividad pero la menor privacidad: las páginas "
+"web que visitas o compartes se registran en un registro de acceso público "
+"(BitTorrent). El modo privado elimina este registro, pero puede ser más "
+"lento y menos eficiente a la hora de recuperar los contenidos. Consulte <a "
+"href=\"support.html\">FAQ</a> o <a href=\"../user-manual/\">Manual del "
+"usuario</a> para obtener más detalles sobre el uso de Ceno."
+
+=======
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:176-15
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:182-15
+>>>>>>> weblate/i18n
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:191-15
 msgid "Direct Download"
 msgstr "Descarga Directa"
@@ -220,6 +258,14 @@ msgid ""
 "values/\">values</a> that guide us to protect the rights and aspirations of "
 "everyone online."
 msgstr ""
+<<<<<<< HEAD
+"Ceno Browser es un proyecto de <a href=\"https://equalit.ie\">eQualit.ie</"
+"a>, una organización canadiense sin fines de lucro que crea servicios de "
+"Internet descentralizados para respaldar una red más igualitaria y "
+"equitativa. . Las soluciones de eQualie son de código abierto, probadas en "
+"batalla y desarrolladas teniendo en cuenta nuestros valores. Proporcionan "
+"libertad de asociación en línea a millones de personas todos los días."
+=======
 "El Navegador Ceno es un proyecto de <a href=\"https://equalit.ie\">eQualit."
 "ie</a> - una empresa canadiense sin fines de lucro que desarrolla sistemas "
 "abiertos y reutilizables con enfoque en la privacidad, seguridad en línea y "
@@ -227,6 +273,7 @@ msgstr ""
 "impulsadas por nuestros <a href=\"https://equalit.ie/en/values/\">valores</"
 "a> que nos guían para proteger los derechos y las aspiraciones de toda(o)s "
 "en línea."
+>>>>>>> weblate/i18n
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:211-23
@@ -240,6 +287,31 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+<<<<<<< HEAD
+#~ msgid ""
+#~ "Alternatively, you can install Ceno via F-Droid, the Paskoocheh "
+#~ "Marketplace, or download the APK directly via GitLab:"
+#~ msgstr ""
+#~ "Alternativamente, puedes instalar Ceno a través de Paskoocheh "
+#~ "Marketplace, o descargar la APK directamente vía GitLab:"
+
+#~ msgid ""
+#~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
+#~ "a> – a not-for-profit Canadian company developing open and reusable "
+#~ "systems with a focus on privacy, online security and freedom of "
+#~ "association. Technology solutions and innovations are driven by our <a "
+#~ "href=\"https://equalit.ie/en/values/\">values</a> that guide us to "
+#~ "protect the rights and aspirations of everyone online."
+#~ msgstr ""
+#~ "El Navegador Ceno es un proyecto de <a href=\"https://equalit."
+#~ "ie\">eQualit.ie</a> - una empresa canadiense sin fines de lucro que "
+#~ "desarrolla sistemas abiertos y reutilizables con enfoque en la "
+#~ "privacidad, seguridad en línea y libertad de asociación. Las soluciones "
+#~ "tecnológicas e innovaciones están impulsadas por nuestros <a "
+#~ "href=\"https://equalit.ie/en/values/\">valores</a> que nos guían para "
+#~ "proteger los derechos y las aspiraciones de toda(o)s en línea."
+
+=======
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:154-19
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
@@ -295,6 +367,7 @@ msgstr ""
 "batalla y desarrolladas teniendo en cuenta nuestros valores. Proporcionan "
 "libertad de asociación en línea a millones de personas todos los días."
 
+>>>>>>> weblate/i18n
 #, fuzzy
 #~ msgid "CENO Browser | Download"
 #~ msgstr "Navegador CENO | Descargar"
