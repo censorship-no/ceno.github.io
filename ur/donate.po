@@ -2,7 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-11-06 15:33-0700\n"
+=======
+"POT-Creation-Date: 2023-11-03 07:51-0700\n"
+>>>>>>> weblate/i18n
 "PO-Revision-Date: 2023-11-06 21:37+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
@@ -73,6 +77,7 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
+<<<<<<< HEAD
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
 "href=\"../en/donate.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/donate.html\">Español</a> <a class=\"navbar-"
@@ -86,6 +91,21 @@ msgstr ""
 "href=\"../tr/donate.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
+=======
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/donate.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/donate.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate.html\""
+">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
+"my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/donate.html\">Português</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../"
+"tr/donate.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/donate.html\">Українська</a> <a class=\"navbar-item\" "
+"lang=\"ur\" hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
+>>>>>>> weblate/i18n
 
 #: donate.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | Donate"
@@ -147,7 +167,7 @@ msgstr "ہمارے والیٹ کا پتہ ہے:"
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 msgstr ""
 
-#: donate.html%2Bhtml.body.footer.div.p:205-9
+#: donate.html%2Bhtml.body.footer.div.p:204-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -163,7 +183,7 @@ msgstr ""
 "ہیں۔ وہ ہر روز لاکھوں لوگوں کو آن لائن ایسوسی ایشن کی آزادی فراہم کرتے ہیں۔"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:207-23
+#: donate.html%2Bhtml.body.footer:206-23 donate.html%2Bhtml.body.footer:207-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
