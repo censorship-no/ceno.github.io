@@ -1,8 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root>
-  <str key="pubpersonal_content">Puedes alternar fácilmente entre ellos. 
+<rss version="2.0">
+<channel>
+<title>Ceno Browser Announcements</title>
+<link>https://censorship.no/</link>
+<description>RSS feed of announcements from the team behind Ceno Browser</description>
+
+<item>
+<title>Eche un vistazo a los dos modos de navegación de Ceno: Público y Personal:</title>
+<link>announcements/22-11-2023.html</link>
+<guid>announcements/22-11-2023.html</guid>
+<pubdate>Miércoles, 22 de noviembre de 2023 15:25:32 PST</pubdate>
+<description>>Puedes alternar fácilmente entre ellos. 
 El modo público ofrece la mejor conectividad pero la menor privacidad: los sitios web que visitas o compartes quedan registrados en un registro de acceso público (BitTorrent). 
-El modo Personal elimina este registro pero puede ser más lento y menos eficiente a la hora de recuperar contenidos. Consulte las FAQ o el Manual de usuario para más detalles sobre el uso de Ceno.<a href="https://censorship.no/en/support.html">FAQ</a> or <a href="https://censorship.no/user-manual">User Manual</a> for more details on Ceno usage.</str>
+El modo Personal elimina este registro pero puede ser más lento y menos eficiente a la hora de recuperar contenidos. Consulte las FAQ o el Manual de usuario para más detalles sobre el uso de Ceno.<a href="https://censorship.no/en/support.html">FAQ</a> or <a href="https://censorship.no/user-manual">User Manual</a> for more details on Ceno usage.</description>
   <str key="pubpersonal_date">Miércoles, 22 de noviembre de 2023 15:25:32 PST</str>
-  <str key="pubpersonal_title">Eche un vistazo a los dos modos de navegación de Ceno: Público y Personal:</str>
-</root>
+</item>
+
+</channel>
+</rss>

@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root>
-  <str key="pubpersonal_content">Вы можете легко переключаться между ними.
-Публичный режим обеспечивает наилучшее подключение, но наименьшую конфиденциальность: веб-сайты, которые вы посещаете или которыми делитесь, записываются в общедоступный реестр (BitTorrent).
-Персональный режим исключает эту запись, но может работать медленнее и менее эффективно при получении контента. Дополнительные сведения об использовании Ceno см. в разделе «Часто задаваемые вопросы» или в руководстве пользователя.<a href="https://censorship.no/en/support.html">FAQ</a> or <a href="https://censorship.no/user-manual">User Manual</a> for more details on Ceno usage.</str>
-  <str key="pubpersonal_date">Ср, 22 ноября 2023 г., 15:25:32 по тихоокеанскому стандартному времени</str>
-  <str key="pubpersonal_title">Взгляните на два режима просмотра Ceno: общедоступный и личный:</str>
-</root>
+<rss version="2.0">
+<channel>
+<title>Ceno Browser Announcements</title>
+<link>https://censorship.no/</link>
+<description>RSS feed of announcements from the team behind Ceno Browser</description>
+
+<item>
+<title>Взгляните на два режима просмотра Ceno: общедоступный и личный:</title>
+<link>announcements/22-11-2023.html</link>
+<guid>announcements/22-11-2023.html</guid>
+<pubdate>Ср, 22 ноября 2023 г., 15:25:32 по тихоокеанскому стандартному времени</pubdate>
+<description>Вы можете легко переключаться между ними.
+\nПубличный режим обеспечивает наилучшее подключение, но наименьшую конфиденциальность: веб-сайты, которые вы посещаете или которыми делитесь, записываются в общедоступный реестр (BitTorrent).
+\nПерсональный режим исключает эту запись, но может работать медленнее и менее эффективно при получении контента. Дополнительные сведения об использовании Ceno см. в разделе «Часто задаваемые вопросы» или в руководстве пользователя.<a href="https://censorship.no/en/support.html">FAQ</a> or <a href="https://censorship.no/user-manual">User Manual</a> for more details on Ceno usage.</description>
+</item>
+
+</channel>
+</rss>
