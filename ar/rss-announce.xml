@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root>
-  <str key="pubpersonal_content">ويمكنك التبديل بينهما بسهولة.
-يوفر الوضع العام أفضل اتصال ولكنه أقل خصوصية - يتم تسجيل مواقع الويب التي تزورها أو تشاركها في سجل يمكن الوصول إليه بشكل عام (BitTorrent).
-يقوم الوضع الشخصي بإزالة هذا السجل ولكنه قد يكون أبطأ وأقل كفاءة في استرداد المحتوى. راجع الأسئلة الشائعة أو دليل المستخدم لمزيد من التفاصيل حول استخدام Ceno.<a href="https://censorship.no/en/support.html">FAQ</a> or <a href="https://censorship.no/user-manual">User Manual</a> for more details on Ceno usage.</str>
-  <str key="pubpersonal_date">الأربعاء 22 نوفمبر 2023 الساعة 15:25:32 بتوقيت المحيط الهادئ</str>
-  <str key="pubpersonal_title">ألقِ نظرة على وضعي التصفح في Ceno: العام والشخصي:</str>
-</root>
+<rss version="2.0">
+<channel>
+<title>Ceno Browser Announcements</title>
+<link>https://censorship.no/</link>
+<description>RSS feed of announcements from the team behind Ceno Browser</description>
+
+<item>
+<title>ألقِ نظرة على وضعي التصفح في Ceno: العام والشخصي:</title>
+<link>announcements/22-11-2023.html</link>
+<guid>announcements/22-11-2023.html</guid>
+<pubDate>الأربعاء 22 نوفمبر 2023 الساعة 15:25:32 بتوقيت المحيط الهادئ</pubdate>
+<description>ويمكنك التبديل بينهما بسهولة.
+\nيوفر الوضع العام أفضل اتصال ولكنه أقل خصوصية - يتم تسجيل مواقع الويب التي تزورها أو تشاركها في سجل يمكن الوصول إليه بشكل عام (BitTorrent).
+\nيقوم الوضع الشخصي بإزالة هذا السجل ولكنه قد يكون أبطأ وأقل كفاءة في استرداد المحتوى. راجع <a href="https://censorship.no/ar/support.html>الأسئلة الشائعة</a> أو <a href="https://censorship.no/user-manual/ar/">دليل المستخدم</a> لمزيد من التفاصيل حول استخدام Ceno.</description>
+</item>
+
+</channel>
+</rss>
