@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 17:05-0700\n"
+"POT-Creation-Date: 2023-12-06 15:29-0400\n"
 "PO-Revision-Date: 2023-11-06 23:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
@@ -170,8 +170,10 @@ msgstr ""
 "вказане посилання, можуть завантажити останню версію APK звідси:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:193-17
-msgid "Ceno Browser 2.0.6"
-msgstr "Браузер Ceno 2.0.6"
+#, fuzzy
+#| msgid "CENO Browser 1.3.0"
+msgid "CENO Browser 2.0.7"
+msgstr "Оглядач CENO 1.3.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:194-20
 msgid "Download (32-bit ARM)"
@@ -240,6 +242,9 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Ceno Browser 2.0.6"
+#~ msgstr "Браузер Ceno 2.0.6"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
@@ -358,9 +363,6 @@ msgstr ""
 #~ msgctxt "download.html+html.body.main.section.div.div.div.div.div.h1:133-7"
 #~ msgid "Get CENO Browser"
 #~ msgstr "Отримати оглядач CENO"
-
-#~ msgid "CENO Browser 1.3.0"
-#~ msgstr "Оглядач CENO 1.3.0"
 
 #~ msgid ""
 #~ "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
