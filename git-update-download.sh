@@ -7,9 +7,9 @@ date=$2
 channel="${3:-release}"
 
 sed -Ei \
-    -e "s#<p><strong>CENO Browser .*</strong></p>#<p><strong>CENO Browser $version</strong></p>#g" \
-    -e "s#'https://dcomm.net.ua/package/ceno/ceno-armeabi-v7a-.*.apk'#'https://dcomm.net.ua/package/ceno/ceno-armeabi-v7a-$channel-$version-$date.apk'#g" \
-    -e "s#'https://dcomm.net.ua/package/ceno/ceno-arm64-v8a-.*.apk'#'https://dcomm.net.ua/package/ceno/ceno-arm64-v8a-$channel-$version-$date.apk'#g" \
+    -e "s#<p><strong>Ceno Browser .*</strong></p>#<p><strong>CENO Browser $version</strong></p>#g" \
+    -e "s#'https://ceno-download.s3.amazonaws.com/ceno/v.*/ceno-armeabi-v7a-.*.apk'#'https://ceno-download.s3.amazonaws.com/ceno/v$version/ceno-armeabi-v7a-$channel-$version-$date.apk'#g" \
+    -e "s#'https://ceno-download.s3.amazonaws.com/ceno/v.*/ceno-arm64-v8a-.*.apk'#'https://ceno-download.s3.amazonaws.com/ceno/v$version/ceno-arm64-v8a-$channel-$version-$date.apk'#g" \
     ./en.src/download.html
 
 git add en.src/download.html
