@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 16:17-0700\n"
+"POT-Creation-Date: 2024-01-08 13:23-0700\n"
 "PO-Revision-Date: 2023-11-22 19:59+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
@@ -82,7 +82,7 @@ msgstr "متصفح Ceno | حول المتصفح"
 msgid "How Ceno Browser Works"
 msgstr "كيف يعمل متصفح Ceno"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:151-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:151-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -90,7 +90,7 @@ msgstr ""
 "في البلدان التي تقوم بتصفية الإنترنت، يتم توجيه معظم بيانات الانترنت عبر "
 "مبدلات مركزية، مثل جوجل (Google)."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:159-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:159-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -98,7 +98,7 @@ msgstr ""
 "يمنح هذا التصميم الرقيب أفضلية في تحديد مواقع البروكسيات Proxies الشهيرة "
 "وخوادم VPN والمرحلات وما إلى ذلك وحظرها؛"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:167-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:167-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -106,12 +106,12 @@ msgstr ""
 "في هذه الحالات، يكون الوصول إلى خوادم الويب الأصلية أمرًا صعبًا أو مستحيلًا، "
 "ولن يتمكن جهازك من الحصول على هذا المحتوى."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:175-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:175-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr "Ceno هو متصفح ويب للجوال لتخزين محتوى الويب ومشاركته في أي مكان."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:183-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:183-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -119,7 +119,7 @@ msgstr ""
 "ينشئ مستخدمو Ceno شبكات عالم صغير للاتصال ببعضهم البعض، ومنثم للاتصال بجسر "
 "يصل ‘إلى خارج المنطقة الخاضعة للرقابة."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:191-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:191-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -139,14 +139,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف على "
-"المزيد في دليل المستخدم!</button></a><a href=\"https://github.com/equalitie/"
-"ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button class=\"btn "
-"btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-"
-"scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع ورقة Ouinet "
-"البيضاء.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف "
+"على المزيد في دليل المستخدم!</button></a><a href=\"https://github.com/"
+"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
+"class=\"fas fa-scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع "
+"ورقة Ouinet البيضاء.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:220-9
 msgid ""
@@ -159,8 +159,8 @@ msgid ""
 msgstr ""
 "Ceno Browser هو مشروع تابع لـ <a href=\"https://equalit.ie\">eQualit.ie</a>، "
 "وهي منظمة كندية غير ربحية تعمل على إنشاء خدمات إنترنت لا مركزية لدعم شبكة "
-"أكثر مساواة وإنصافًا. . تعتبر حلول eQuality مفتوحة المصدر، ومثبتة في المعركة،"
-" وتم تطويرها مع وضع قيمنا في الاعتبار. أنها توفر حرية تكوين الجمعيات عبر "
+"أكثر مساواة وإنصافًا. . تعتبر حلول eQuality مفتوحة المصدر، ومثبتة في المعركة، "
+"وتم تطويرها مع وضع قيمنا في الاعتبار. أنها توفر حرية تكوين الجمعيات عبر "
 "الإنترنت لملايين الأشخاص كل يوم."
 
 #.  TRANSLATORS: Please do not translate this. 
@@ -169,8 +169,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
