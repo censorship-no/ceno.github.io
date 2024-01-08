@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 17:13-0700\n"
+"POT-Creation-Date: 2024-01-08 13:23-0700\n"
 "PO-Revision-Date: 2023-11-22 19:59+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
@@ -73,13 +73,13 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href="
-"\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a class"
-"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about.html\""
-">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
-"uk/about.html\">Українська</a>"
+"lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/about.html\">Українська</a>"
 
 #: about.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | About"
@@ -89,7 +89,7 @@ msgstr "Navigateur Ceno | À propos"
 msgid "How Ceno Browser Works"
 msgstr "Le fonctionnement du Navigateur Ceno"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:151-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:151-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -97,7 +97,7 @@ msgstr ""
 "Dans les pays qui filtrent Internet, la majeure partie du trafic Web est "
 "acheminée par des services d’échange centralisés, tels que Google."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:159-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:159-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -105,7 +105,7 @@ msgstr ""
 "Cette approche donne au censeur un avantage pour localiser et bloquer les "
 "mandataires, les serveurs RPV, les relais, etc. les plus populaires ;"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:167-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:167-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -113,14 +113,14 @@ msgstr ""
 "Dans ce cas, il est difficile, voire impossible, d’atteindre les serveurs "
 "Web d’origine et votre appareil ne pourra pas récupérer ce contenu."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:175-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:175-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "Ceno est un navigateur Web mobile pour stocker du contenu Web et le "
 "partager, n’importe où."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:183-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:183-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -129,7 +129,7 @@ msgstr ""
 "connecter les uns aux autres, et ensuite à un pont en dehors de la zone "
 "censurée."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:191-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:191-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -149,15 +149,15 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/fr/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Apprenez-"
-"en davantage dans le manuel d’utilisation!</button></a><a href=\"https"
-"://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md\""
-"> <button class=\"btn btn-outline-danger btn-learnmore\" type=\"button\""
-"><span class=\"fas fa-scroll fa-xl\"></span>Pour un guide technique plus "
-"approfondi, consultez le document de présentation technique de "
-"Ouinet.</button></a>"
+"<a href=\"../user-manual/fr/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Apprenez-en davantage dans le manuel d’utilisation!</button></a><a "
+"href=\"https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-"
+"whitepaper.md\"> <button class=\"btn btn-outline-danger btn-learnmore\" "
+"type=\"button\"><span class=\"fas fa-scroll fa-xl\"></span>Pour un guide "
+"technique plus approfondi, consultez le document de présentation technique "
+"de Ouinet.</button></a>"
 
 #: about.html%2Bhtml.body.footer.div.p:220-9
 msgid ""
@@ -181,8 +181,8 @@ msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
