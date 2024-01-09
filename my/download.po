@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 16:33-0400\n"
-"PO-Revision-Date: 2023-11-22 17:01+0000\n"
-"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
+"POT-Creation-Date: 2024-01-08 17:13-0700\n"
+"PO-Revision-Date: 2024-01-09 01:22+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -143,7 +143,7 @@ msgstr "dComms တွင် ရယူပါ"
 
 #: download.html%2Bhtml.body.main.section.div.div.h3:180-17
 msgid "Important:"
-msgstr ""
+msgstr "အရေးကြီးသည်-"
 
 #: download.html%2Bhtml.body.main.section.div.div.p:181-3
 msgid ""
@@ -169,10 +169,8 @@ msgstr ""
 "မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:193-17
-#, fuzzy
-#| msgid "Ceno Browser 2.0.6"
-msgid "Ceno Browser 2.0.7"
-msgstr "Ceno ဘရောက်ဇာ ၂.၀.၆"
+msgid "Ceno Browser 2.0.8"
+msgstr "Ceno ဘရောက်ဇာ ၂.၀.၈"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:194-20
 msgid "Download (32-bit ARM)"
@@ -241,8 +239,18 @@ msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 
+#: download.html%2Bhtml.body.main.section.div.div.p:181-3
+msgid ""
+"Ceno has two modes of operation - <strong>Public</strong> and "
+"<strong>Personal</strong>. You can easily toggle between them. Public mode "
+"offers the best connectivity but the least privacy - websites that you visit "
+"or share are recorded in a publicly-accessible registry (BitTorrent). "
+"Personal mode eliminates this record but may be slower and less efficient at "
+"retrieving content. See the <a href=\"support.html\">FAQ</a> or <a href=\"../"
+"user-manual/\">User Manual</a> for more details on Ceno usage."
+msgstr ""
+
 #, fuzzy
-#~| msgid "CENO Browser 2.0.0"
 #~ msgid "CENO Browser 2.0.7"
 #~ msgstr "CENO ဘရောက်ဇာ ၂.၀.၀"
 
