@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:07-0700\n"
-"PO-Revision-Date: 2023-11-03 19:04+0000\n"
+"PO-Revision-Date: 2024-01-24 22:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -57,7 +57,6 @@ msgstr "UK"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: help.html%2Bhtml.body.nav.div.div.div.div:116-5
-#, fuzzy
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -74,15 +73,20 @@ msgid ""
 "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help.html\""
+">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../"
+"en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es"
+"\" href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/help.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/help."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/help.html\">Українська</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/help.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/help.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" "
+"href=\"../pt_BR/help.html\">Português</a> <a class=\"navbar-item\" lang=\"ru"
+"\" hreflang=\"ru\" href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/help.html\">Türkçe</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/help.html\""
+">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
+"../ur/help.html\">اردو</a>"
 
 #: help.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | Community"
@@ -115,14 +119,13 @@ msgstr ""
 "вебсайт! Ми використовуємо Weblate для краудсорсингу перекладів."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:156-13
-#, fuzzy
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
-"Будь ласка, звʼяжіться з командою Ceno – cenoers [at] equalit [dot] ie або ж "
-"через форму нижче, якщо Ви хочете долучитися аби перевірити переклади своєю "
-"мовою (мовами)."
+"Будь ласка, звʼяжіться з командою Ceno – support [at] censorship [dot] no "
+"або ж через форму нижче, якщо Ви хочете долучитися аби перевірити переклади "
+"своєю мовою (мовами)."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:157-13
 msgid ""
@@ -158,14 +161,13 @@ msgstr ""
 "користування чи відгук на нашому веб-сайті!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-3
-#, fuzzy
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
 msgstr ""
-"Ми також вітаємо Ваші огляди в Play Store, а також пряме спілкування з нами "
-"– ви можете зв’язатися з командою за допомогою кнопки зворотного зв’язку "
-"внизу цього веб-сайту або надіслати нам електронний лист:"
+"Ми вітаємо відгуки в Play Store, а також пряме спілкування – ви можете зв’"
+"язатися з командою через наші соціальні канали або надіслати нам електронний "
+"лист:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-3
 msgid "support [at] censorship [dot] no"
@@ -187,47 +189,40 @@ msgstr ""
 "Якщо Вас цікавить вихідний код, ознайомтеся з наступними Git-репозиторіями:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
-#, fuzzy
 msgid "Ceno Browser"
-msgstr "браузер Ceno | Спільнота"
+msgstr "браузер Ceno"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:189-5
 msgid "Mozilla Build Scripts"
-msgstr ""
+msgstr "Mozilla Build Scripts"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:190-5
 msgid "Firefox Browser Extension"
-msgstr ""
+msgstr "Розширення браузера Firefox"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:191-12
-#, fuzzy
 msgid "Ouinet"
-msgstr "Вихідний код Ouinet"
+msgstr "Ouinet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:192-5
-#, fuzzy
 msgid "Ceno Docker Client"
-msgstr "Запустіть Docker-клієнта Ceno"
+msgstr "Docker-клієнта Ceno"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:193-12
-#, fuzzy
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
 "Ceno</a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
 "anonymous file sharing and content publishing network."
 msgstr ""
-"Вас також може зацікавити (більше не підтримується) <a href=\"https://github."
-"com/censorship-no-archive/ceno1\">попередня версія Ceno</a>, побудована на "
-"мережі анонімного обміну файлами та публікування вмісту <a href=\"https://"
-"freenetproject.org/\">Freenet</a>. Інші неактивні репозиторії проєкту можна "
-"знайти в <a href=\"https://github.com/censorship-no-archive\">архіві "
-"Censorship.no!</a>."
+"Ви також можете зацікавити (не довше підтримується) <a href=\"https://gitlab."
+"com/censorship-no/ceno-browser-archive\">передивна інкартонація Ceno</a>, "
+"побудована на <a href=\"https://freenetproject.org/\">Freenet</a>, анонімний "
+"файлообмінювання та видавнича мережа."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:194-17
-#, fuzzy
 msgid "Browse our Gitlab"
-msgstr "Перегляньте наш Github"
+msgstr "Перегляньте наш Gitlab"
 
 #: help.html%2Bhtml.body.main.div.section.h2:207-1
 msgid "Run a Bridge Node"

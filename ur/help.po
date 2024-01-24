@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:21-0700\n"
-"PO-Revision-Date: 2023-11-06 21:37+0000\n"
+"PO-Revision-Date: 2024-01-24 22:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "websitehelp/ur/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: help.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -56,7 +56,6 @@ msgstr "UR"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: help.html%2Bhtml.body.nav.div.div.div.div:116-5
-#, fuzzy
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -73,18 +72,20 @@ msgid ""
 "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/help."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help.html\""
+">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../"
+"en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es"
+"\" href=\"../es/help.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
 "hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a class=\"navbar-item\" "
-"lang=\"fr\" hreflang=\"fr\" href=\"../fr/help.html\">Français</a> <a "
-"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/help."
-"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
-"href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" "
-"hreflang=\"tr\" href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" "
-"lang=\"uk\" hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a "
-"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help."
-"html\">اردو</a>"
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/help.html\">Français</a> <a class"
+"=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/help.html\""
+">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" "
+"href=\"../pt_BR/help.html\">Português</a> <a class=\"navbar-item\" lang=\"ru"
+"\" hreflang=\"ru\" href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/help.html\">Türkçe</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/help.html\""
+">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\""
+"../ur/help.html\">اردو</a>"
 
 #: help.html%2Bhtml.body.main.title:140-1
 msgid "Ceno Browser | Community"
@@ -117,14 +118,12 @@ msgstr ""
 "مدد کریں! ہم کراؤڈ سورس ترجمے کے لیے Weblate کا استعمال کرتے ہیں۔"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:156-13
-#, fuzzy
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
 msgstr ""
-"براہ کرم Ceno ٹیم سے cenoers [at] equalit [dot] ie پر رابطہ کریں (یا نیچے "
-"رابطہ فارم) اگر آپ اپنی زبان (زبانوں) میں ترجمہ (ترجمے) کے لیے جائزہ لینے "
-"والے بننے میں دلچسپی رکھتے ہیں۔"
+"براہ کرم Ceno ٹیم سے رابطہ کریںsupport@censorship.no اگر آپ اپنی زبان "
+"(زبانوں) میں ترجمہ (زبانیں) کے لیے جائزہ نگار بننے میں دلچسپی رکھتے ہیں۔"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:157-13
 msgid ""
@@ -160,14 +159,13 @@ msgstr ""
 "کہانی کو بھی نمایاں کر سکتے ہیں!"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-3
-#, fuzzy
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
 msgstr ""
-"ہم پلے اسٹور پر جائزوں کے ساتھ براہ راست مواصلات کا خیرمقدم کرتے ہیں - آپ اس "
-"ویب سائٹ کے نیچے دیئے گئے فیڈ بیک بٹن کے ذریعے ٹیم سے رابطہ کر سکتے ہیں، یا "
-"ہمیں ای میل بھیج سکتے ہیں:"
+"ہم پلے اسٹور پر جائزوں کے ساتھ ساتھ براہ راست مواصلات کا خیرمقدم کرتے ہیں - "
+"آپ ہمارے سوشل چینلز کے ذریعے ٹیم سے رابطہ کر سکتے ہیں یا ہمیں ای میل بھیج "
+"سکتے ہیں:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-3
 msgid "support [at] censorship [dot] no"
@@ -190,47 +188,40 @@ msgstr ""
 "Gitریپوزٹریز کو چیک کریں:"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:188-12
-#, fuzzy
 msgid "Ceno Browser"
-msgstr "Ceno براؤزر | کمیونٹی"
+msgstr "Ceno براؤزر"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:189-5
 msgid "Mozilla Build Scripts"
-msgstr ""
+msgstr "Mozilla Build Scripts"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:190-5
 msgid "Firefox Browser Extension"
-msgstr ""
+msgstr "فائر فاکس براؤزر کی توسیع"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:191-12
-#, fuzzy
 msgid "Ouinet"
-msgstr "Ouinet سورس"
+msgstr "Ouinet"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:192-5
-#, fuzzy
 msgid "Ceno Docker Client"
-msgstr "Ceno Docker کلائنٹ چلائیں"
+msgstr "Ceno Docker کلائنٹ"
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:193-12
-#, fuzzy
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
 "Ceno</a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
 "anonymous file sharing and content publishing network."
 msgstr ""
-"آپ کو <a href=\"https://github.com/censorship-no-archive/ceno1\">Ceno کے "
-"پچھلے اوتار</a> (جو اب برقرار نہیں رکھا گیا) میں بھی دلچسپی ہو سکتی ہے، جو "
-"کہ <a href= \"https://freenetproject.org/\">Freenet</a> گمنام فائل شیئرنگ "
-"اور مواد کی اشاعت کا نیٹ ورک۔ پروجیکٹ سے متعلق دیگر غیر فعال ریپوزٹریز کو <a "
-"href=\"https://github.com/censorship-no-archive\">Censorship.no! آرکائیو پر "
-"پایا جا سکتا ہے</a>۔"
+"آپ کو <a href=\"https://gitlab.com/censorship-no/ceno-browser-archive\">Ceno "
+"کے پچھلے اوتار</a> (جو اب برقرار نہیں رکھا گیا) میں بھی دلچسپی ہو سکتی ہے، "
+"جو کہ <a href= \"https://freenetproject.org/\">Freenet</a> گمنام فائل شیئرنگ "
+"اور مواد کی اشاعت کا نیٹ ورک."
 
 #: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:194-17
-#, fuzzy
 msgid "Browse our Gitlab"
-msgstr "ہمارے Github کو براؤز کریں"
+msgstr "ہمارے Gitlab کو براؤز کریں"
 
 #: help.html%2Bhtml.body.main.div.section.h2:207-1
 msgid "Run a Bridge Node"
