@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 10:37-0700\n"
+"POT-Creation-Date: 2024-02-14 13:28-0700\n"
 "PO-Revision-Date: 2024-01-18 07:31+0000\n"
 "Last-Translator: v1s7 <v1s7@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,44 +19,44 @@ msgstr ""
 msgid "en"
 msgstr "ru"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:107-17
 msgid "About"
 msgstr "О проекте"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:93-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:110-17
 msgid "Support"
 msgstr "Поддержка"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:98-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:115-17
 msgid "News"
 msgstr "Новости"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:101-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:118-17
 msgid "Community"
 msgstr "Коммьюнити"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:104-17
+#: about.html%2Bhtml.body.nav.div.div.ul.li:121-17
 msgid "Donate"
 msgstr "Пожертвовать"
 
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
+#: about.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
 msgid "Get Ceno"
 msgstr "Установить Ceno"
 
-#: about.html%2Bhtml.body.nav.div.div.div:108-10
+#: about.html%2Bhtml.body.nav.div.div.div:125-10
 msgid "Download"
 msgstr "Скачать"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:110-1
+#: about.html%2Bhtml.body.nav.div.div.div:127-1
 msgid "EN"
 msgstr "RU"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: about.html%2Bhtml.body.nav.div.div.div.div:116-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:133-5
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -83,15 +83,15 @@ msgstr ""
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.title:140-1
+#: about.html%2Bhtml.body.main.title:157-1
 msgid "Ceno Browser | About"
 msgstr "Браузер Ceno | О проекте"
 
-#: about.html%2Bhtml.body.main.div.h1:143-6
+#: about.html%2Bhtml.body.main.div.h1:160-6
 msgid "How Ceno Browser Works"
 msgstr "Как работает Браузер Ceno"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:151-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:168-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -99,7 +99,7 @@ msgstr ""
 "В странах где Интернет подвержен цензуре, большая часть сетевого трафика "
 "проходит через централизованные дата-центры и сервисы, такие как Google."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:159-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:176-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -107,7 +107,7 @@ msgstr ""
 "Такая схема дает цензору преимущество в обнаружении и блокировке популярных "
 "прокси, VPN-серверов, ретрансляторов и т. д.;"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:167-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:184-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -115,14 +115,14 @@ msgstr ""
 "В этом случае доступ к исходным веб-серверам будет ограничен или невозможен, "
 "и ваше устройство не сможет получить нужный контент."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:175-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:192-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "Ceno — это мобильный браузер для хранения и обмена веб-контентом из любой "
 "точки мира."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:183-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:200-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -130,7 +130,7 @@ msgstr ""
 "Пользователи Ceno создают небольшие сети для соединения сперва друг с "
 "другом, а затем с мостом за пределами зоны цензуры."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:191-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:208-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -139,7 +139,7 @@ msgstr ""
 "сохраняется и распространяется внутри страны по одноранговой (p2p) сети."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:199-1
+#: about.html%2Bhtml.body.main.div.div:216-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
 "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
@@ -150,16 +150,16 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/ru/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Узнайте "
-"больше в Руководстве пользователя!</button></a> <a href=\"https://gitlab.com/"
-"equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class="
-"\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span class=\"fas "
-"fa-scroll fa-xl\"></span> Для более глубокой технической информации "
-"почитайте документацию Ouinet.</button></a>"
+"<a href=\"../user-manual/ru/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Узнайте больше в Руководстве пользователя!</button></a> <a href=\"https://"
+"gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper."
+"md\"><button class=\"btn btn-outline-danger btn-learnmore\" "
+"type=\"button\"><span class=\"fas fa-scroll fa-xl\"></span> Для более "
+"глубокой технической информации почитайте документацию Ouinet.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:220-9
+#: about.html%2Bhtml.body.footer.div.p:237-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -176,7 +176,7 @@ msgstr ""
 "объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:222-23
+#: about.html%2Bhtml.body.footer:239-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
