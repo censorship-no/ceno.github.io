@@ -69,11 +69,28 @@
     initiallyVisible: false
   });
 </script-->
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.ouinet.work/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 </head>
 <body>
 
 <!-- Matomo Image Tracker-->
-<img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" />
+<noscript><img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" /></noscript>
 <!-- End Matomo -->
 
 <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
@@ -131,10 +148,10 @@
 <div class="container-md section">
     <h1>Guía de Marca y Estilo</h1>
 
- <h2>Logotipo</h2>
+ <h2>Logo</h2>
 	<p>Para preservar la accesibilidad, la versión en color se debe utilizar en fondos blancos y lo opuesto.</p>
 <div class="row">
-   <div class="col-lg-6"><h3 style="padding-bottom:20px">Logotipo</h3>
+   <div class="col-lg-6"><h3 style="padding-bottom:20px">Logo</h3>
 	<p><img class="hasBorder" src="../img/logo_color.png" style="padding:30px; height:155px; background-color:white"></p>
         <p><img class="hasBorder" src="../img/logo_white.png" style="padding:30px; height:155px; background-color:#0EA5E9"></p>
    </div>
@@ -152,7 +169,7 @@
           <div class="col-lg-4"><h3 style="padding-bottom:20px">Color Primario</h3>
            <div class="card">
             <div class="card-body" style="background-color:#0EA5E9; border-radius:15px">
-              <h3 class="card-title" style="color:white">Azul Claro</h3>
+              <h3 class="card-title" style="color:white">Light Blue</h3>
               <p class="card-text" style="color:white">#0EA5E9</p>
             </div>
            </div>
@@ -160,7 +177,7 @@
           <div class="col-lg-4"><h3 style="padding-bottom:20px">Color secundario</h3>
            <div class="card">
             <div class="card-body" style="background-color:#F97316; border-radius:15px">
-              <h3 class="card-title" style="color:white">Naranja</h3>
+              <h3 class="card-title" style="color:white">Orange</h3>
               <p class="card-text" style="color:white">#F97316</p>
             </div>
            </div>
@@ -175,7 +192,7 @@
     <!--div class="container py-5" style="align-content:center; justify-content;">
         <!--div class="card border-0"-->
       <div class="row">
-          <h3 style="padding-bottom:20px">Azul Claro</h3>
+          <h3 style="padding-bottom:20px">Light Blue</h3>
 	  <div class="col-lg-2" style="color:black">
            <div class="card border-0">
             <div class="card-body" style="background-color:#F0F9FF; border-radius:15px">
@@ -251,7 +268,7 @@
         </div>
      </div>
       <div class="row">
-          <h3 style="padding-bottom:20px; padding-top:30px">Naranja</h3>
+          <h3 style="padding-bottom:20px; padding-top:30px">Orange</h3>
           <div class="col-lg-2" style="color:black">
            <div class="card border-0">
             <div class="card-body" style="background-color:#FFF7ED; border-radius:15px">

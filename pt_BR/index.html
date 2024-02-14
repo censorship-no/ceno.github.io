@@ -69,11 +69,28 @@
     initiallyVisible: false
   });
 </script-->
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.ouinet.work/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 </head>
 <body>
 
 <!-- Matomo Image Tracker-->
-<img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" />
+<noscript><img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" /></noscript>
 <!-- End Matomo -->
 
 <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
@@ -184,8 +201,8 @@
          <div class="col-lg-4">
            <div class="card">
             <div class="card-body">
-            <img src="../img/opensourcery.png" style="width:40%;display:block;margin:auto;" alt="Gratuito e de Código Aberto">
-              <h3 class="card-title" style="text-align:center">Gratuito e de Código Aberto</h3>
+            <img src="../img/opensourcery.png" style="width:40%;display:block;margin:auto;" alt="Free and Open Source">
+              <h3 class="card-title" style="text-align:center">Free and Open Source</h3>
               <p class="card-text">Ceno é baseado no <a href="https://mozac.org/">Mozilla Android Components</a>, estendido para fazer uso da <a href="https://gitlab.com/equalitie/ouinet">biblioteca Ouinet</a> - que possibilita a desenvolvedores externos incorporar a rede Ceno em seus aplicativos para conseguir conectividade P2P.</p>
             </div>
            </div>
