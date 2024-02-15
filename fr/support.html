@@ -69,11 +69,28 @@
     initiallyVisible: false
   });
 </script-->
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.ouinet.work/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 </head>
 <body>
 
 <!-- Matomo Image Tracker-->
-<img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" />
+<noscript><img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.ouinet.work/matomo.php?idsite=1&rec=1" style="border:0" alt="" /></noscript>
 <!-- End Matomo -->
 
 <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #FFFFFF">
@@ -144,7 +161,7 @@ Qu’est-ce que le Navigateur Ceno ?
 
 <details>
 <summary>
-How does Ceno work?
+Comment est ce que Ceno fonctionne ?
 </summary>
 <p>When a website is accessible from your network (e.g. accessing <i>www.canada.ca</i> from your home internet), Ceno will connect to it like a normal web browser.</p>
 <p>When a website is not accessible due to network filtering/censorship, Ceno will attempt to get the content for you. How Ceno attempts to find content depends on whether you have chosen to use Ceno in <strong>Public</strong> or <strong>Personal</strong> mode.</p> 

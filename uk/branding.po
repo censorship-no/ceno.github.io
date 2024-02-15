@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 12:24-0700\n"
+"POT-Creation-Date: 2024-02-14 13:28-0700\n"
 "PO-Revision-Date: 2023-11-06 23:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,44 +19,44 @@ msgstr ""
 msgid "en"
 msgstr "uk"
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:90-17
+#: branding.html%2Bhtml.body.nav.div.div.ul.li:107-17
 msgid "About"
 msgstr "Про"
 
 #.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:93-17
+#: branding.html%2Bhtml.body.nav.div.div.ul.li:110-17
 msgid "Support"
 msgstr "Підтримка"
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:98-17
+#: branding.html%2Bhtml.body.nav.div.div.ul.li:115-17
 msgid "News"
 msgstr "Новини"
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:101-17
+#: branding.html%2Bhtml.body.nav.div.div.ul.li:118-17
 msgid "Community"
 msgstr "Спільнота"
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:104-17
+#: branding.html%2Bhtml.body.nav.div.div.ul.li:121-17
 msgid "Donate"
 msgstr "Донат"
 
-#: branding.html%2Bhtml.body.nav.div.div.div.a[title]:108-15
+#: branding.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
 msgid "Get Ceno"
 msgstr "Завантаж Ceno"
 
-#: branding.html%2Bhtml.body.nav.div.div.div:108-10
+#: branding.html%2Bhtml.body.nav.div.div.div:125-10
 msgid "Download"
 msgstr "Завантажити"
 
 #.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: branding.html%2Bhtml.body.nav.div.div.div:110-1
+#: branding.html%2Bhtml.body.nav.div.div.div:127-1
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: branding.html%2Bhtml.body.nav.div.div.div.div:116-5
+#: branding.html%2Bhtml.body.nav.div.div.div.div:133-5
 #, fuzzy
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/branding."
@@ -86,20 +86,23 @@ msgstr ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
 "html\">Українська</a>"
 
-#: branding.html%2Bhtml.body.main.title:140-1
+#: branding.html%2Bhtml.body.main.title:157-1
 msgid "Ceno Browser | Brand and Style Guide"
 msgstr "браузер Ceno | Довідник по бренду та стилю"
 
-#: branding.html%2Bhtml.body.main.div.h1:142-5
+#: branding.html%2Bhtml.body.main.div.h1:159-5
 msgid "Brand and Style Guide"
 msgstr "Довідник по бренду та стилю"
 
-#: branding.html%2Bhtml.body.main.div.h2:144-2
-msgctxt "branding.html+html.body.main.div.h2:144-2"
+#: branding.html%2Bhtml.body.main.div.h2:161-2
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.h2:144-2"
+#| msgid "Logo"
+msgctxt "branding.html+html.body.main.div.h2:161-2"
 msgid "Logo"
 msgstr "Лого"
 
-#: branding.html%2Bhtml.body.main.div.p:145-2
+#: branding.html%2Bhtml.body.main.div.p:162-2
 msgid ""
 "In order to preserve accessibility, the color version must be used in white "
 "backgrounds and the opposite."
@@ -107,56 +110,71 @@ msgstr ""
 "Щоб зберегти доступність, кольорова версія має використовуватися на білому "
 "фоні та навпаки."
 
-#: branding.html%2Bhtml.body.main.div.div.div.h3:147-26
-msgctxt "branding.html+html.body.main.div.div.div.h3:147-26"
+#: branding.html%2Bhtml.body.main.div.div.div.h3:164-26
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.h2:144-2"
+#| msgid "Logo"
+msgctxt "branding.html+html.body.main.div.div.div.h3:164-26"
 msgid "Logo"
 msgstr "Лого"
 
-#: branding.html%2Bhtml.body.main.div.div.div.h3:151-26
+#: branding.html%2Bhtml.body.main.div.div.div.h3:168-26
 msgid "Logo Icon"
 msgstr "Значок логотипу"
 
-#: branding.html%2Bhtml.body.main.div.h2:157-2
+#: branding.html%2Bhtml.body.main.div.h2:174-2
 msgid "Colors"
 msgstr "Кольори"
 
-#: branding.html%2Bhtml.body.main.div.p:158-9
+#: branding.html%2Bhtml.body.main.div.p:175-9
 msgid "These are the colors that represent Ceno’s brand identity."
 msgstr "Це кольори, які представляють ідентичність бренду Ceno."
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:162-33
+#: branding.html%2Bhtml.body.main.div.div.div.div.h3:179-33
 msgid "Primary Color"
 msgstr "Основний колір"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:165-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:165-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:182-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:165-15"
+#| msgid "Light Blue"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:182-15"
 msgid "Light Blue"
 msgstr "Блакитний"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:166-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:166-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:183-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:166-15"
+#| msgid "#0EA5E9"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:183-15"
 msgid "#0EA5E9"
 msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:170-33
+#: branding.html%2Bhtml.body.main.div.div.div.div.h3:187-33
 msgid "Secondary Color"
 msgstr "Другорядний колір"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:173-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:173-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:190-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:173-15"
+#| msgid "Orange"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:190-15"
 msgid "Orange"
 msgstr "Помаранчевий"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:174-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:174-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:191-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:174-15"
+#| msgid "#F97316"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:191-15"
 msgid "#F97316"
 msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.h2:182-2
+#: branding.html%2Bhtml.body.main.div.h2:199-2
 msgid "UI Colors"
 msgstr "Кольори інтерфейсу користувача"
 
-#: branding.html%2Bhtml.body.main.div.p:183-9
+#: branding.html%2Bhtml.body.main.div.p:200-9
 msgid ""
 "For accessibility and readability reasons, here’s the extended Color Palette "
 "of 10 different shades of both brand colors. When colors are used in text, "
@@ -171,209 +189,287 @@ msgstr ""
 "4,5:1. При дотриманні цієї вимоги можна використовувати будь-який колір "
 "палітри."
 
-#: branding.html%2Bhtml.body.main.div.div.h3:190-11
-msgctxt "branding.html+html.body.main.div.div.h3:190-11"
+#: branding.html%2Bhtml.body.main.div.div.h3:207-11
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:165-15"
+#| msgid "Light Blue"
+msgctxt "branding.html+html.body.main.div.div.h3:207-11"
 msgid "Light Blue"
 msgstr "Блакитний"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:194-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:194-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:211-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:194-15"
+#| msgid "50"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:211-15"
 msgid "50"
 msgstr "50"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:195-8
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:212-8
 msgid "#F0F9FF"
 msgstr "#F0F9FF"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:200-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:200-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:217-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:200-15"
+#| msgid "500"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:217-15"
 msgid "500"
 msgstr "500"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:201-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:201-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:218-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:166-15"
+#| msgid "#0EA5E9"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:218-15"
 msgid "#0EA5E9"
 msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:208-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:208-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:225-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:208-15"
+#| msgid "100"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:225-15"
 msgid "100"
 msgstr "100"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:209-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:226-15
 msgid "#E0F2FE"
 msgstr "#E0F2FE"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:214-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:214-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:231-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:214-15"
+#| msgid "600"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:231-15"
 msgid "600"
 msgstr "600"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:215-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:215-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:232-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:215-15"
+#| msgid "#0284C7"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:232-15"
 msgid "#0284C7"
 msgstr "#0284C7"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:223-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:223-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:240-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:223-15"
+#| msgid "200"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:240-15"
 msgid "200"
 msgstr "200"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:224-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:241-15
 msgid "#BAE6FD"
 msgstr "#BAE6FD"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:229-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:229-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:246-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:229-15"
+#| msgid "700"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:246-15"
 msgid "700"
 msgstr "700"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:230-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:247-15
 msgid "#0369A1"
 msgstr "#0369A1"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:238-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:238-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:255-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:238-15"
+#| msgid "300"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:255-15"
 msgid "300"
 msgstr "300"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:239-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:256-15
 msgid "#7DD3FC"
 msgstr "#7DD3FC"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:244-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:244-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:261-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:244-15"
+#| msgid "800"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:261-15"
 msgid "800"
 msgstr "800"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:245-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:262-15
 msgid "#075985"
 msgstr "#075985"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:253-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:253-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:270-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:253-15"
+#| msgid "400"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:270-15"
 msgid "400"
 msgstr "400"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:254-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:271-15
 msgid "#38BDF8"
 msgstr "#38BDF8"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:259-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:259-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:276-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:259-15"
+#| msgid "900"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:276-15"
 msgid "900"
 msgstr "900"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:260-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:260-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:277-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:215-15"
+#| msgid "#0284C7"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:277-15"
 msgid "#0284C7"
 msgstr "#0284C7"
 
-#: branding.html%2Bhtml.body.main.div.div.h3:266-11
-msgctxt "branding.html+html.body.main.div.div.h3:266-11"
+#: branding.html%2Bhtml.body.main.div.div.h3:283-11
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:173-15"
+#| msgid "Orange"
+msgctxt "branding.html+html.body.main.div.div.h3:283-11"
 msgid "Orange"
 msgstr "Помаранчевий"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:270-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:270-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:287-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:194-15"
+#| msgid "50"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:287-15"
 msgid "50"
 msgstr "50"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:271-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:288-15
 msgid "#FFF7ED"
 msgstr "#FFF7ED"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:276-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:276-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:293-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:200-15"
+#| msgid "500"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:293-15"
 msgid "500"
 msgstr "500"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:277-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:277-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:294-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:174-15"
+#| msgid "#F97316"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:294-15"
 msgid "#F97316"
 msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:284-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:284-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:301-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:208-15"
+#| msgid "100"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:301-15"
 msgid "100"
 msgstr "100"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:285-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:302-15
 msgid "#FFEDD5"
 msgstr "#FFEDD5"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:290-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:290-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:307-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:214-15"
+#| msgid "600"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:307-15"
 msgid "600"
 msgstr "600"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:291-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:308-15
 msgid "#EA580C"
 msgstr "#EA580C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:299-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:299-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:316-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:223-15"
+#| msgid "200"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:316-15"
 msgid "200"
 msgstr "200"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:300-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:317-15
 msgid "#FED7AA"
 msgstr "#FED7AA"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:305-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:305-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:322-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:229-15"
+#| msgid "700"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:322-15"
 msgid "700"
 msgstr "700"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:306-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:323-15
 msgid "#C2410C"
 msgstr "#C2410C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:313-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:313-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:330-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:238-15"
+#| msgid "300"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:330-15"
 msgid "300"
 msgstr "300"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:314-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:331-15
 msgid "#FDBA74"
 msgstr "#FDBA74"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:319-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:319-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:336-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:244-15"
+#| msgid "800"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:336-15"
 msgid "800"
 msgstr "800"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:320-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:337-15
 msgid "#9A3412"
 msgstr "#9A3412"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:328-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:328-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:345-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:253-15"
+#| msgid "400"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:345-15"
 msgid "400"
 msgstr "400"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:329-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:346-15
 msgid "#FB923C"
 msgstr "#FB923C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:334-15
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:334-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:351-15
+#, fuzzy
+#| msgctxt "branding.html+html.body.main.div.div.div.div.div.p:259-15"
+#| msgid "900"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:351-15"
 msgid "900"
 msgstr "900"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:335-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:352-15
 msgid "#7C2D12"
 msgstr "#7C2D12"
 
-#: branding.html%2Bhtml.body.main.div.h2:342-1
+#: branding.html%2Bhtml.body.main.div.h2:359-1
 msgid "Typography"
 msgstr "Типографіка"
 
-#: branding.html%2Bhtml.body.main.div.div.div.p:345-9
+#: branding.html%2Bhtml.body.main.div.div.div.p:362-9
 msgid "Primary"
 msgstr "Ключовий"
 
-#: branding.html%2Bhtml.body.main.div.div.div.p:346-9
+#: branding.html%2Bhtml.body.main.div.div.div.p:363-9
 msgid ""
 "<strong>Metropolis</strong> is used as primary font of the visual identity. "
 "It can be used in lower and upper cases. It comes with a family of styles. "
@@ -384,11 +480,11 @@ msgstr ""
 "Він супроводжується похідними стилями. Цей шрифт використовується в "
 "заголовках та хедерах."
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:352-9
+#: branding.html%2Bhtml.body.main.div.div.div.div.p:369-9
 msgid "Secondary"
 msgstr "Другорядний"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:353-9
+#: branding.html%2Bhtml.body.main.div.div.div.div.p:370-9
 msgid ""
 "<strong>Inter</strong> is used as secondary font of the visual identity. It "
 "can be used in lower and upper cases. It comes with a family of styles. This "
@@ -399,7 +495,7 @@ msgstr ""
 "Він супроводжується похідними стилями. Цей шрифт використовується в "
 "основному тексті."
 
-#: branding.html%2Bhtml.body.footer.div.p:376-9
+#: branding.html%2Bhtml.body.footer.div.p:393-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -416,13 +512,77 @@ msgstr ""
 "объединений в Интернете миллионам людей."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: branding.html%2Bhtml.body.footer:378-23
+#: branding.html%2Bhtml.body.footer:395-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.h3:147-26"
+#~ msgid "Logo"
+#~ msgstr "Лого"
+
+#~ msgctxt "branding.html+html.body.main.div.div.h3:190-11"
+#~ msgid "Light Blue"
+#~ msgstr "Блакитний"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:201-15"
+#~ msgid "#0EA5E9"
+#~ msgstr "#0EA5E9"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:260-15"
+#~ msgid "#0284C7"
+#~ msgstr "#0284C7"
+
+#~ msgctxt "branding.html+html.body.main.div.div.h3:266-11"
+#~ msgid "Orange"
+#~ msgstr "Помаранчевий"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:270-15"
+#~ msgid "50"
+#~ msgstr "50"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:276-15"
+#~ msgid "500"
+#~ msgstr "500"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:277-15"
+#~ msgid "#F97316"
+#~ msgstr "#F97316"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:284-15"
+#~ msgid "100"
+#~ msgstr "100"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:290-15"
+#~ msgid "600"
+#~ msgstr "600"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:299-15"
+#~ msgid "200"
+#~ msgstr "200"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:305-15"
+#~ msgid "700"
+#~ msgstr "700"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:313-15"
+#~ msgid "300"
+#~ msgstr "300"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:319-15"
+#~ msgid "800"
+#~ msgstr "800"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:328-15"
+#~ msgid "400"
+#~ msgstr "400"
+
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:334-15"
+#~ msgid "900"
+#~ msgstr "900"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
