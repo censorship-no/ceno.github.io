@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-26 14:17-0700\n"
-"PO-Revision-Date: 2024-04-03 17:38+0000\n"
+"PO-Revision-Date: 2024-04-03 17:52+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/fa/>\n"
@@ -219,8 +219,8 @@ msgid ""
 msgstr ""
 "شما همچنین می‌توانید <a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
 "txt.asc\">امضاهای<a><a href=\"https://dcomm.net.ua/package/ceno/sha256sums."
-"txt/sha256sums.txt\">فایل هش</a> را در مقابل <a href=\"https://pgp.mit.edu/"
-"pks/lookup?op=get&search=0xC7DCC123F0DDB862\">کلید PGP</a> با اثر انگشت "
+"txt\">فایل هش</a> را در مقابل <a href=\"https://pgp.mit.edu/pks/"
+"lookup?op=get&search=0xC7DCC123F0DDB862\">کلید PGP</a> با اثر انگشت "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code> تأیید کنید."
 
 #: download.html%2Bhtml.body.footer.div.p:242-9
@@ -248,9 +248,8 @@ msgstr ""
 "write(\"-\"+new Date().getFullYear());</script>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:210-17
-#, fuzzy
 msgid "Ceno Browser 2.1.0"
-msgstr "مرورگر 2.0.8 Ceno"
+msgstr "مرورگر 2.1.0 Ceno"
 
 #, fuzzy
 #~ msgid "CENO Browser 2.0.7"
