@@ -143,111 +143,152 @@
 
 <main role="main">
 
-<!--title>Ceno Browser| Support</title-->
+
+<script>
+    window.onload = function openBridgeModeDetails() { document.getElementById("js-container").style.display = "block"; if (window.location.hash === "#bridgemode") { document.getElementById("bridgemode-details").open = true; } } 
+</script>
 <title>Ceno Browser | Destek</title>
-
-<div class="container-md section">
-
-<h1>Sıkça sorulan sorular</h1>
-
-<section>
-
-<details>
-<summary>
-Ceno Browser nedir?
-</summary>
-<p>Ceno, Mozilla Android bileşenlerini temel alan bir mobil tarayıcıdır. Merkezi olmayan bir dosya paylaşım ağı olan BitTorrent temelli yeni bir yaklaşım kullanarak İnternet içeriğine (siteler) erişmek ve dağıtmak için tasarlanmıştır. Ceno var olan İnternet sansür yöntemlerini aşarak, bağlantının engellendiği veya tehlikeye girdiği bölgelerde insanların İnternet üzerindeki bilgilere erişmesini, ve bunları paylaşmasını sağlar.</p>
-</details>
-
-<details>
-<summary>
-Ceno nasıl çalışır?
-</summary>
-<p>Ağınızdan bir siteye erişilebildiğinde (örneğin, evinizdeki İnternet bağlantısından <i>www.canada.ca</i> siteisne erişildiğinde), Ceno bu siteye normal bir tarayıcı gibi bağlanır.</p>
-<p>Ağınızdan engelleme ya da sansür nedeniyle bir siteye erişilemediğinde Ceno, içeriği sizin için almaya çalışır. İçeriğe Ceno tarafından nasıl erişilmeye çalışılacağı, Ceno'yu <strong>Herkese açık</strong> ya da <strong>Kişisel</strong> kipte kullanıyor olmanıza göre değişir.</p> 
-<p><strong>Herkese açık</strong> kipte Ceno, başka bir Ceno kullanıcısının yakın zamanda istenen sayfayı paylaşıp paylaşmadığını görmek için BitTorrent ağını inceler. Hizmet istenen sayfayı bulabilirse bu sayfayı başka bir kullanıcının aygıtından alır. İçerik bulunamıyorsa Ceno, bu siteyi istemek ve size teslim edilmesini sağlamak için birkaç içerik sağlayıcı ile iletişim kurar.</p>
-<p><strong>Kişisel</strong> kipte, söz konusu sitenin alınıp size teslim edilmesi için yalnızca içerik sağlaycılar ile iletişim kurarsınız. Arama, BitTorrent ağına bağlanmaz ve diğer kullanıcıların aygıtlarındaki içeriği bulmaya çalışmaz.</p> 
-<p>Ceno istemcinizin her zaman bir içerik sağlayıcı ile iletişim kurabilmesini sağlamak için köprüler oluşturduk. İçerik sağlayıcılar ağınızda engelleniyorsa Ceno uygulaması, isteğinizi içerik sağlayıcılara iletecek olan köprüleri arar. Ceno ağında şu anda yaklaşık 6.000 Köprü bulunuyor ve sayıları her gün artıyor.</p> 
-<p>Ceno ağının nasıl çalıştığı ile ilgili ayrıntılı bilgi almak için <a href="../user-manual/">kullanıcı rehberini</a> okuyabilirsiniz.</p>
-<p>Ceno ağının nasıl çalıştığı ile ilgili daha basit bir açıklama için <a href="explainer.html">burayı okuyabilirsiniz</a>.</p>
-</details>
-
-<details>
-<summary>
-Ceno kullanmanın yararları nedir?
-</summary>
-<p>Sloganımız 'İnternet içeriğini paylaşın!' ve aslında Ceno kullanıcılarının yaptığı da bu. Çoğu İnternet sayfasında sabit içerik bulunur (okuduğunuz, izlediğiniz, dinlediğiniz bir şey gibi). Sabit içerikler paketlenebilir ve aynı içeriği arayan diğer kullanıcılarla paylaşılabilir. Ceno bunun için BitTorrent dosya paylaşımı ağını kullanıyor.</p> 
-<p>Ceno yararları, siteleri sansürleyen bir ağda veya ağın zayıf veya dengesiz olduğu durumlarda açıkça görülebilir. Bu durumlarda Ceno istemcisi, içeriği almak ve aygıtınıza iletmek için ek yöntemlerden yararlanabilir. Ceno, kullanıcılara yakın zamanda aldıkları içeriğin paylaşılmasına izin vererek İnternet erişimini daha genel olarak genişletiyor. Dünya üzerinde içeriğe erişimin engellendiği bir yerde ya da İnternet erişiminin sınırlı olduğu uzak bir bölgede yaşıyorsanız, Ceno başka şekillerde erişemeyeceğiniz bilgilere erişmenizi sağlar.</p>  
-<p>İnternet engellemesi olmayan ülkelerde veya Dünya üzerinde İnternet erişiminin güvenilir olduğu bölgelerde Ceno çalıştıran kişiler, sıkı olarak engellenen ağlarda bulunanlar için köprü rolü üstlenmeyi seçebilirler. Ağ, yeni köprüleri otomatik olarak kaydeder ve ne zaman çevrim dışı olduklarını izler. Bir köprü işletmek, başkalarının İnternet erişimi sağlamasına yardımcı olmanızı sağlayan, çok basit ama etkili bir eylemdir.</p>   
-<p>Ceno ile birlikte eşler ve düğümlerden oluşan merkezi olmayan bir ağ oluşturan bu aracın tüm bileşenleri, ücretsiz ve açık kaynaklı yazılımlardır. <a href="https://gitlab.com/censorship-no/ceno-browser">Kodumuzu inceleyebilir</a> veya tüm ağı kendiniz yeniden oluşturabilirsiniz!</p>
-</details>
-
-<details>
-<summary>
-Ceno kullanmanın riskleri nelerdir?
-</summary>
-<h3>Kullanıcılar için riskler</h3>
-<p>Hassas kullanım durumlarına yönelik her teknolojinin yararları ve riskleri vardır. Ceno, tasarımı gereği yöneltme ve veri depolama gereksinimlerinin çoğu için herkese açık olan BitTorrent ağını kullanır. BitTorrent ağında (Herkese açık kip) bir içeriği istediğinizde veya paylaştığınızda, IP adresinizi belirli bir siteden alınan bir içerik parçasıyla ilişkilendiren bir kayıt oluşturursunuz. Örneğin, herkes <i>ornek.com</i> ile ilişkilendirilmiş IP adreslerinin listesini almak için BitTorrent ağını sorgulayabilir.</p>   
-<p>Alınan içeriği başkalarıyla paylaşan kullanıcılar, içerik kendi aygıtlarından diğer Ceno kullanıcılarının aygıtına kopyalandığından ek veri ücretleriyle karşılaşabilir.</p>  
-<p>Bu risklere karşı Ceno kullanıcıları için hizmetin BitTorrent ağıyla etkileşime girmediği bir '<strong>Kişisel</strong> kip' oluşturduk. BitTorrent üzerinde etkinlikleri ile ilgili herhangi bir kaydın görünmesini istemeyen kullanıcılara ve oturum açılması gereken site işlemleri için (sosyal ağ hesaplarınıza oturum açmak gibi) bu kipin kullanılmasını öneriyoruz.</p> 
-<p>Var olan tarayıcınızda kullandığınız Normal ve Özel/Gizli sekmeler gibi, <strong>Herkese açık</strong> ve <strong>Kişisel</strong> sekmeler arasında kolayca geçiş yapabilirsiniz.</p> 
-<p>İçerik sağlayıcılar, istekte bulunan kullanıcının IP adresi ve istenilen içeriğin bulunduğu sitenin adı ile birlikte ağdaki içerik isteklerini de görebilir. İçerik sağlayıcılar 1) Site içeriğini merkezi olmayan bir ağa katmak ve 2) Sunulan içeriğin bütünlüğünün doğrulanması için gerekli bir ağ bileşenidir. Ceno ağında içerik sağlayıcılar Ceno ekibi tarafından işletilir ve yönetilir. Tüm erişim günlüklerini belirli aralıklarla sileriz.</p> 
-
-<h3 id="bridgemode">Köprü işletmecileri için riskler</h3>
-<p>Herhangi bir kullanıcı köprü rolünü üstlenebileceğinden bunu yapmanın getireceği riskleri değerlendirin.</p> 
-<p>Köprü işletmecisi köprü üzerindeki etkinliği görmez (aygıtlarında gelen ve giden bağlantıları aktif olarak izlemedikleri sürece). Görevleri, diğer Ceno kullanıcılarının bir içerik sağlayıcıya erişmesi için ağ isteklerini almak ve bu isteği iletmektir.</p>
-<p>Köprü işletmecileri, aygıtlarının IP adresini BitTorrent ağında erişilebilir bir köprü olarak listeler.</p>
-<p>Köprü kullanılması yalnızca içinde bulunduğunuz ağ gelen bağlantılara izin verdiğinde işe yarar. Bu durum, Ceno istemci uygulaması başlatılırken otomatik olarak denetlenir. Çoğu kablosuz mobil operatörü, gelen bağlantılara izin vermez.</p>
-</details>
-
-<details>
-<summary>
-Ceno Browser kimler tarafından geliştiriliyor?
-</summary>
-<p>Ceno, Kanadalı kar amacı gütmeyen <a href="https://equalit.ie">eQualitie</a> kuruluşu tarafından oluşturulmuş ve geliştirilen bir teknolojidir. <a href="https://ouinet.work">Ouinet ağ kitaplıklarını</a> Firefox Android tarayıcısına eklemiştir.</p>
-<p>eQualitie on iki yıldır var ve bu sürede ifade özgürlüğünü koruyan, bilgi alışverişini kolaylaştıran ve İnternet üzerinde kendini ifade etmeyi özendiren araçlar oluşturup geliştiriyor.</p>
-<p>Diğer projelerinin bazıları arasında merkezi olmayan dosya paylaşımına yönelik bir hizmet olan <a href="https://ouisync.net">Ouisync</a>; <a href="https://deflect.ca">Deflect</a>, DDoS korumasına yönelik bir araç, Makine öğrenmesi tabanlı bir saldırı algılama sistemi olan Baskerville ve merkezi olmayan ve birleştirilmiş ağ hizmetlerinin kurulmasına yönelik dComms dağıtım araç takımı bulunuyor.</p>
-</details>
-
-<details>
-<summary>
-VPN kullanmak ile Ceno Browser kullanmak arasındaki fark nedir?
-</summary>
-<p>VPN hizmetleri başlangıçta aygıtınız ile hedef sunucu arasında özel iletişim kurmak için oluşturuldu. İnternet sansürünün dünya çapında sıkça karşılaşılan bir durum olmaya başlamasıyla birlikte VPN hizmeti sağlayıcıları da yerel ağ kısıtlamalarını aşmak amacıyla hizmet sunmaya başladı. Bugün, kullanıcılarının yerel ağ sansürünü aşmalarına yardımcı olmak için çok çeşitli bağlantı seçenekleri sunan çok sayıda VPN hizmeti sağlayıcısı bulunuyor.</p> 
-<p>VPN hizmetleri müşterilerinin kim olduğunu ve hangi sitelere erişmek istediğini görebilir. Bu durum tasarımdan kaynaklanır ve VPN işletmecisine belli bir düzeyde güvenilmesi gereklidir (Ceno içerik sağlayıcılarını işleten eQualitie kuruluşuna güvenilmesine gerektiğine benzer şekilde). </p>
-<p>Ceno bir VPN hizmetinden temel olarak, tüm site isteklerinizi merkezi olmayan ağ üzerinden yönlendirmeye çalışmasıdır. Bir site için kısıtlama uygulanmıyorsa, Ceno bu siteye normal bir tarayıcı gibi bağlanır. Ceno kullanıcıları içerikleri ön belleğe alır ve birbirleriyle paylaşır. Bu, sansürü aşma düğümleri üzerindeki yükü azaltır ve içeriklerin teslim edilebilirliğini artırır. </p>
-</details>
-
-<details>
-<summary>
-Tor Browser ve Ceno Browser kullanmak arasındaki fark nedir?
-</summary>
-<p>Tor Browser uygulamasının aksine Ceno Browser, Tor ağının birincil amacı olan anonimlik sağlayan bir araç değildir. Tor ağında, ağ trafiği şifrelenir ve gönüllüler tarafından işletilen bir aktarıcı ağı üzerinden geçirilerek bir çıkış aktarıcısının IP adresinden geliyor gibi görünür. Tor, İnternet izlemesine ve site işletmecilerine karşı gizlilik sağlamak için mükemmel bir seçenektir. Ağ ortamınızda çalışıyorsa <a href="https://support.torproject.org/">destek belgelerini</a> okumanız koşuluyla bunu kullanmanızı öneririz.</p>
-</details>
-
-<details>
-<summary>
-Kişisel ve Herkese açık sekmeler arasındaki fark nedir?
-</summary>
-<p>Herkese açık sekmeler, istediğiniz içeriğe ulaşmak için Ceno ağında bulunan tüm bağlantı yöntemlerini kullanır. Herkese açık sekmeyi kullanarak gezinirken, herkese açık BitTorrent ağındaki etkinliğinizin (IP adresiniz ve erişmek istediğiniz site) bir kaydını bırakırsınız. Aygıtınız tarafından Herkese açık sekmede alınan içerik, BitTorrent ağı üzerinde diğer Ceno kullanıcılarıyla paylaşılır.</p>
-<p>Kişisel sekmede istenilen ve alınan bilgiler başka hiç kimseyle paylaşılmaz. BitTorren üzerinde etkinliğinizin herhangi bir kaydı bulunmaz. Sosyal ağlar ve diğer hesaplarda oturum açmak için Kişisel sekmeleri kullanın. BitTorrent ağının Ceno üzerindeki herhangi bir gezinme etkinliğinizle ilişkilendirilmesini istemiyorsanız Kişisel sekmeleri kullanın.</p>
-</details>
-
-<details>
-<summary>
-iPhone ve Windows sürümleri ne zaman yayınlanacak?
-</summary>
-<p>iOS ve Windows için Ceno Browser geliştiriliyor ve 2024 İlkbaharında yayınlanması planlanıyor.</p>
-</details>
-</section>
+<noscript>
+    <div class="container-md section">
+        <h1>Sıkça sorulan sorular</h1>
+        <section>
+            <details>
+                <summary> Ceno Browser nedir? </summary>
+                <p>Ceno, Mozilla Android bileşenlerini temel alan bir mobil tarayıcıdır. Merkezi olmayan bir dosya paylaşım ağı olan BitTorrent temelli yeni bir yaklaşım kullanarak İnternet içeriğine (siteler) erişmek ve dağıtmak için tasarlanmıştır. Ceno var olan İnternet sansür yöntemlerini aşarak, bağlantının engellendiği veya tehlikeye girdiği bölgelerde insanların İnternet üzerindeki bilgilere erişmesini, ve bunları paylaşmasını sağlar.</p>
+            </details>
+            <details>
+                <summary> Ceno nasıl çalışır? </summary>
+                <p>Ağınızdan bir siteye erişilebildiğinde (örneğin, evinizdeki İnternet bağlantısından <i>www.canada.ca</i> siteisne erişildiğinde), Ceno bu siteye normal bir tarayıcı gibi bağlanır.</p>
+                <p>Ağınızdan engelleme ya da sansür nedeniyle bir siteye erişilemediğinde Ceno, içeriği sizin için almaya çalışır. İçeriğe Ceno tarafından nasıl erişilmeye çalışılacağı, Ceno'yu <strong>Herkese açık</strong> ya da <strong>Kişisel</strong> kipte kullanıyor olmanıza göre değişir.</p>
+                <p><strong>Herkese açık</strong> kipte Ceno, başka bir Ceno kullanıcısının yakın zamanda istenen sayfayı paylaşıp paylaşmadığını görmek için BitTorrent ağını inceler. Hizmet istenen sayfayı bulabilirse bu sayfayı başka bir kullanıcının aygıtından alır. İçerik bulunamıyorsa Ceno, bu siteyi istemek ve size teslim edilmesini sağlamak için birkaç içerik sağlayıcı ile iletişim kurar.</p>
+                <p><strong>Kişisel</strong> kipte, söz konusu sitenin alınıp size teslim edilmesi için yalnızca içerik sağlaycılar ile iletişim kurarsınız. Arama, BitTorrent ağına bağlanmaz ve diğer kullanıcıların aygıtlarındaki içeriği bulmaya çalışmaz.</p>
+                <p>Ceno istemcinizin her zaman bir içerik sağlayıcı ile iletişim kurabilmesini sağlamak için köprüler oluşturduk. İçerik sağlayıcılar ağınızda engelleniyorsa Ceno uygulaması, isteğinizi içerik sağlayıcılara iletecek olan köprüleri arar. Ceno ağında şu anda yaklaşık 6.000 Köprü bulunuyor ve sayıları her gün artıyor.</p>
+                <p>Ceno ağının nasıl çalıştığı ile ilgili ayrıntılı bilgi almak için <a href="../user-manual/">kullanıcı rehberini</a> okuyabilirsiniz.</p>
+                <p>Ceno ağının nasıl çalıştığı ile ilgili daha basit bir açıklama için <a href="explainer.html">burayı okuyabilirsiniz</a>.</p>
+            </details>
+            <details>
+                <summary> Ceno kullanmanın yararları nedir? </summary>
+                <p>Sloganımız 'İnternet içeriğini paylaşın!' ve aslında Ceno kullanıcılarının yaptığı da bu. Çoğu İnternet sayfasında sabit içerik bulunur (okuduğunuz, izlediğiniz, dinlediğiniz bir şey gibi). Sabit içerikler paketlenebilir ve aynı içeriği arayan diğer kullanıcılarla paylaşılabilir. Ceno bunun için BitTorrent dosya paylaşımı ağını kullanıyor.</p>
+                <p>Ceno yararları, siteleri sansürleyen bir ağda veya ağın zayıf veya dengesiz olduğu durumlarda açıkça görülebilir. Bu durumlarda Ceno istemcisi, içeriği almak ve aygıtınıza iletmek için ek yöntemlerden yararlanabilir. Ceno, kullanıcılara yakın zamanda aldıkları içeriğin paylaşılmasına izin vererek İnternet erişimini daha genel olarak genişletiyor. Dünya üzerinde içeriğe erişimin engellendiği bir yerde ya da İnternet erişiminin sınırlı olduğu uzak bir bölgede yaşıyorsanız, Ceno başka şekillerde erişemeyeceğiniz bilgilere erişmenizi sağlar.</p>
+                <p>İnternet engellemesi olmayan ülkelerde veya Dünya üzerinde İnternet erişiminin güvenilir olduğu bölgelerde Ceno çalıştıran kişiler, sıkı olarak engellenen ağlarda bulunanlar için köprü rolü üstlenmeyi seçebilirler. Ağ, yeni köprüleri otomatik olarak kaydeder ve ne zaman çevrim dışı olduklarını izler. Bir köprü işletmek, başkalarının İnternet erişimi sağlamasına yardımcı olmanızı sağlayan, çok basit ama etkili bir eylemdir.</p>
+                <p>Ceno ile birlikte eşler ve düğümlerden oluşan merkezi olmayan bir ağ oluşturan bu aracın tüm bileşenleri, ücretsiz ve açık kaynaklı yazılımlardır. <a href="https://gitlab.com/censorship-no/ceno-browser">Kodumuzu inceleyebilir</a> veya tüm ağı kendiniz yeniden oluşturabilirsiniz!</p>
+            </details>
+            <details open>
+                <summary> Ceno kullanmanın riskleri nelerdir? </summary>
+                <h3>Kullanıcılar için riskler</h3>
+                <p>Hassas kullanım durumlarına yönelik her teknolojinin yararları ve riskleri vardır. Ceno, tasarımı gereği yöneltme ve veri depolama gereksinimlerinin çoğu için herkese açık olan BitTorrent ağını kullanır. BitTorrent ağında (Herkese açık kip) bir içeriği istediğinizde veya paylaştığınızda, IP adresinizi belirli bir siteden alınan bir içerik parçasıyla ilişkilendiren bir kayıt oluşturursunuz. Örneğin, herkes <i>ornek.com</i> ile ilişkilendirilmiş IP adreslerinin listesini almak için BitTorrent ağını sorgulayabilir.</p>
+                <p>Alınan içeriği başkalarıyla paylaşan kullanıcılar, içerik kendi aygıtlarından diğer Ceno kullanıcılarının aygıtına kopyalandığından ek veri ücretleriyle karşılaşabilir.</p>
+                <p>Bu risklere karşı Ceno kullanıcıları için hizmetin BitTorrent ağıyla etkileşime girmediği bir '<strong>Kişisel</strong> kip' oluşturduk. BitTorrent üzerinde etkinlikleri ile ilgili herhangi bir kaydın görünmesini istemeyen kullanıcılara ve oturum açılması gereken site işlemleri için (sosyal ağ hesaplarınıza oturum açmak gibi) bu kipin kullanılmasını öneriyoruz.</p>
+                <p>Var olan tarayıcınızda kullandığınız Normal ve Özel/Gizli sekmeler gibi, <strong>Herkese açık</strong> ve <strong>Kişisel</strong> sekmeler arasında kolayca geçiş yapabilirsiniz.</p>
+                <p>İçerik sağlayıcılar, istekte bulunan kullanıcının IP adresi ve istenilen içeriğin bulunduğu sitenin adı ile birlikte ağdaki içerik isteklerini de görebilir. İçerik sağlayıcılar 1) Site içeriğini merkezi olmayan bir ağa katmak ve 2) Sunulan içeriğin bütünlüğünün doğrulanması için gerekli bir ağ bileşenidir. Ceno ağında içerik sağlayıcılar Ceno ekibi tarafından işletilir ve yönetilir. Tüm erişim günlüklerini belirli aralıklarla sileriz.</p>
+                <h3 style="scroll-margin: 4.5rem;" id="bridgemode">Köprü işletmecileri için riskler</h3>
+                <p>Herhangi bir kullanıcı köprü rolünü üstlenebileceğinden bunu yapmanın getireceği riskleri değerlendirin.</p>
+                <p>Köprü işletmecisi köprü üzerindeki etkinliği görmez (aygıtlarında gelen ve giden bağlantıları aktif olarak izlemedikleri sürece). Görevleri, diğer Ceno kullanıcılarının bir içerik sağlayıcıya erişmesi için ağ isteklerini almak ve bu isteği iletmektir.</p>
+                <p>Köprü işletmecileri, aygıtlarının IP adresini BitTorrent ağında erişilebilir bir köprü olarak listeler.</p>
+                <p>Köprü kullanılması yalnızca içinde bulunduğunuz ağ gelen bağlantılara izin verdiğinde işe yarar. Bu durum, Ceno istemci uygulaması başlatılırken otomatik olarak denetlenir. Çoğu kablosuz mobil operatörü, gelen bağlantılara izin vermez.</p>
+            </details>
+            <details>
+                <summary> Ceno Browser kimler tarafından geliştiriliyor? </summary>
+                <p>Ceno, Kanadalı kar amacı gütmeyen <a href="https://equalit.ie">eQualitie</a> kuruluşu tarafından oluşturulmuş ve geliştirilen bir teknolojidir. <a href="https://ouinet.work">Ouinet ağ kitaplıklarını</a> Firefox Android tarayıcısına eklemiştir.</p>
+                <p>eQualitie on iki yıldır var ve bu sürede ifade özgürlüğünü koruyan, bilgi alışverişini kolaylaştıran ve İnternet üzerinde kendini ifade etmeyi özendiren araçlar oluşturup geliştiriyor.</p>
+                <p>Diğer projelerinin bazıları arasında merkezi olmayan dosya paylaşımına yönelik bir hizmet olan <a href="https://ouisync.net">Ouisync</a>; <a href="https://deflect.ca">Deflect</a>, DDoS korumasına yönelik bir araç, Makine öğrenmesi tabanlı bir saldırı algılama sistemi olan Baskerville ve merkezi olmayan ve birleştirilmiş ağ hizmetlerinin kurulmasına yönelik dComms dağıtım araç takımı bulunuyor.</p>
+            </details>
+            <details>
+                <summary> VPN kullanmak ile Ceno Browser kullanmak arasındaki fark nedir? </summary>
+                <p>VPN hizmetleri başlangıçta aygıtınız ile hedef sunucu arasında özel iletişim kurmak için oluşturuldu. İnternet sansürünün dünya çapında sıkça karşılaşılan bir durum olmaya başlamasıyla birlikte VPN hizmeti sağlayıcıları da yerel ağ kısıtlamalarını aşmak amacıyla hizmet sunmaya başladı. Bugün, kullanıcılarının yerel ağ sansürünü aşmalarına yardımcı olmak için çok çeşitli bağlantı seçenekleri sunan çok sayıda VPN hizmeti sağlayıcısı bulunuyor. </p>
+                <p>VPN hizmetleri müşterilerinin kim olduğunu ve hangi sitelere erişmek istediğini görebilir. Bu durum tasarımdan kaynaklanır ve VPN işletmecisine belli bir düzeyde güvenilmesi gereklidir (Ceno içerik sağlayıcılarını işleten eQualitie kuruluşuna güvenilmesine gerektiğine benzer şekilde). </p>
+                <p>Ceno bir VPN hizmetinden temel olarak, tüm site isteklerinizi merkezi olmayan ağ üzerinden yönlendirmeye çalışmasıdır. Bir site için kısıtlama uygulanmıyorsa, Ceno bu siteye normal bir tarayıcı gibi bağlanır. Ceno kullanıcıları içerikleri ön belleğe alır ve birbirleriyle paylaşır. Bu, sansürü aşma düğümleri üzerindeki yükü azaltır ve içeriklerin teslim edilebilirliğini artırır. </p>
+            </details>
+            <details>
+                <summary> Tor Browser ve Ceno Browser kullanmak arasındaki fark nedir? </summary>
+                <p>Tor Browser uygulamasının aksine Ceno Browser, Tor ağının birincil amacı olan anonimlik sağlayan bir araç değildir. Tor ağında, ağ trafiği şifrelenir ve gönüllüler tarafından işletilen bir aktarıcı ağı üzerinden geçirilerek bir çıkış aktarıcısının IP adresinden geliyor gibi görünür. Tor, İnternet izlemesine ve site işletmecilerine karşı gizlilik sağlamak için mükemmel bir seçenektir. Ağ ortamınızda çalışıyorsa <a href="https://support.torproject.org/">destek belgelerini</a> okumanız koşuluyla bunu kullanmanızı öneririz.</p>
+            </details>
+            <details>
+                <summary> Kişisel ve Herkese açık sekmeler arasındaki fark nedir? </summary>
+                <p>Herkese açık sekmeler, istediğiniz içeriğe ulaşmak için Ceno ağında bulunan tüm bağlantı yöntemlerini kullanır. Herkese açık sekmeyi kullanarak gezinirken, herkese açık BitTorrent ağındaki etkinliğinizin (IP adresiniz ve erişmek istediğiniz site) bir kaydını bırakırsınız. Aygıtınız tarafından Herkese açık sekmede alınan içerik, BitTorrent ağı üzerinde diğer Ceno kullanıcılarıyla paylaşılır.</p>
+                <p>Kişisel sekmede istenilen ve alınan bilgiler başka hiç kimseyle paylaşılmaz. BitTorren üzerinde etkinliğinizin herhangi bir kaydı bulunmaz. Sosyal ağlar ve diğer hesaplarda oturum açmak için Kişisel sekmeleri kullanın. BitTorrent ağının Ceno üzerindeki herhangi bir gezinme etkinliğinizle ilişkilendirilmesini istemiyorsanız Kişisel sekmeleri kullanın.</p>
+            </details>
+            <details>
+                <summary> iPhone ve Windows sürümleri ne zaman yayınlanacak? </summary>
+                <p>iOS ve Windows için Ceno Browser geliştiriliyor ve 2024 İlkbaharında yayınlanması planlanıyor.</p>
+            </details>
+        </section>
+    </div>
+    <div class="d-grid gap-2 justify-content-center">
+        
+        <a href="../user-manual/tr/" style="text-align:center"><button class="btn btn-outline-danger btn-learnmore mt-3 mb-3" type="button" style="text-align: center;"><span class="fas fa-book fa-xl"></span> Kullanıcı rehberinden ayrıntılı bilgi alın!</button></a> <a href="https://gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md"><button class="btn btn-outline-danger btn-learnmore" type="button"><span class="fas fa-scroll fa-xl"></span> Ayrıntılı teknik bilgi almak için Ouinet makalesini inceleyebilirsiniz.</button></a>
+    </div>
+</noscript>
+<div id="js-container" class="container-md section" style="display: none;">
+    <h1>Sıkça sorulan sorular</h1>
+    <section>
+        <details>
+            <summary> Ceno Browser nedir? </summary>
+            <p>Ceno, Mozilla Android bileşenlerini temel alan bir mobil tarayıcıdır. Merkezi olmayan bir dosya paylaşım ağı olan BitTorrent temelli yeni bir yaklaşım kullanarak İnternet içeriğine (siteler) erişmek ve dağıtmak için tasarlanmıştır. Ceno var olan İnternet sansür yöntemlerini aşarak, bağlantının engellendiği veya tehlikeye girdiği bölgelerde insanların İnternet üzerindeki bilgilere erişmesini, ve bunları paylaşmasını sağlar.</p>
+        </details>
+        <details>
+            <summary> Ceno nasıl çalışır? </summary>
+            <p>Ağınızdan bir siteye erişilebildiğinde (örneğin, evinizdeki İnternet bağlantısından <i>www.canada.ca</i> siteisne erişildiğinde), Ceno bu siteye normal bir tarayıcı gibi bağlanır.</p>
+            <p>Ağınızdan engelleme ya da sansür nedeniyle bir siteye erişilemediğinde Ceno, içeriği sizin için almaya çalışır. İçeriğe Ceno tarafından nasıl erişilmeye çalışılacağı, Ceno'yu <strong>Herkese açık</strong> ya da <strong>Kişisel</strong> kipte kullanıyor olmanıza göre değişir.</p>
+            <p><strong>Herkese açık</strong> kipte Ceno, başka bir Ceno kullanıcısının yakın zamanda istenen sayfayı paylaşıp paylaşmadığını görmek için BitTorrent ağını inceler. Hizmet istenen sayfayı bulabilirse bu sayfayı başka bir kullanıcının aygıtından alır. İçerik bulunamıyorsa Ceno, bu siteyi istemek ve size teslim edilmesini sağlamak için birkaç içerik sağlayıcı ile iletişim kurar.</p>
+            <p><strong>Kişisel</strong> kipte, söz konusu sitenin alınıp size teslim edilmesi için yalnızca içerik sağlaycılar ile iletişim kurarsınız. Arama, BitTorrent ağına bağlanmaz ve diğer kullanıcıların aygıtlarındaki içeriği bulmaya çalışmaz.</p>
+            <p>Ceno istemcinizin her zaman bir içerik sağlayıcı ile iletişim kurabilmesini sağlamak için köprüler oluşturduk. İçerik sağlayıcılar ağınızda engelleniyorsa Ceno uygulaması, isteğinizi içerik sağlayıcılara iletecek olan köprüleri arar. Ceno ağında şu anda yaklaşık 6.000 Köprü bulunuyor ve sayıları her gün artıyor.</p>
+            <p>Ceno ağının nasıl çalıştığı ile ilgili ayrıntılı bilgi almak için <a href="../user-manual/">kullanıcı rehberini</a> okuyabilirsiniz.</p>
+            <p>Ceno ağının nasıl çalıştığı ile ilgili daha basit bir açıklama için <a href="explainer.html">burayı okuyabilirsiniz</a>.</p>
+        </details>
+        <details>
+            <summary> Ceno kullanmanın yararları nedir? </summary>
+            <p>Sloganımız 'İnternet içeriğini paylaşın!' ve aslında Ceno kullanıcılarının yaptığı da bu. Çoğu İnternet sayfasında sabit içerik bulunur (okuduğunuz, izlediğiniz, dinlediğiniz bir şey gibi). Sabit içerikler paketlenebilir ve aynı içeriği arayan diğer kullanıcılarla paylaşılabilir. Ceno bunun için BitTorrent dosya paylaşımı ağını kullanıyor.</p>
+            <p>Ceno yararları, siteleri sansürleyen bir ağda veya ağın zayıf veya dengesiz olduğu durumlarda açıkça görülebilir. Bu durumlarda Ceno istemcisi, içeriği almak ve aygıtınıza iletmek için ek yöntemlerden yararlanabilir. Ceno, kullanıcılara yakın zamanda aldıkları içeriğin paylaşılmasına izin vererek İnternet erişimini daha genel olarak genişletiyor. Dünya üzerinde içeriğe erişimin engellendiği bir yerde ya da İnternet erişiminin sınırlı olduğu uzak bir bölgede yaşıyorsanız, Ceno başka şekillerde erişemeyeceğiniz bilgilere erişmenizi sağlar.</p>
+            <p>İnternet engellemesi olmayan ülkelerde veya Dünya üzerinde İnternet erişiminin güvenilir olduğu bölgelerde Ceno çalıştıran kişiler, sıkı olarak engellenen ağlarda bulunanlar için köprü rolü üstlenmeyi seçebilirler. Ağ, yeni köprüleri otomatik olarak kaydeder ve ne zaman çevrim dışı olduklarını izler. Bir köprü işletmek, başkalarının İnternet erişimi sağlamasına yardımcı olmanızı sağlayan, çok basit ama etkili bir eylemdir.</p>
+            <p>Ceno ile birlikte eşler ve düğümlerden oluşan merkezi olmayan bir ağ oluşturan bu aracın tüm bileşenleri, ücretsiz ve açık kaynaklı yazılımlardır. <a href="https://gitlab.com/censorship-no/ceno-browser">Kodumuzu inceleyebilir</a> veya tüm ağı kendiniz yeniden oluşturabilirsiniz!</p>
+        </details>
+        <details id="bridgemode-details">
+            <summary> Ceno kullanmanın riskleri nelerdir? </summary>
+            <h3>Kullanıcılar için riskler</h3>
+            <p>Hassas kullanım durumlarına yönelik her teknolojinin yararları ve riskleri vardır. Ceno, tasarımı gereği yöneltme ve veri depolama gereksinimlerinin çoğu için herkese açık olan BitTorrent ağını kullanır. BitTorrent ağında (Herkese açık kip) bir içeriği istediğinizde veya paylaştığınızda, IP adresinizi belirli bir siteden alınan bir içerik parçasıyla ilişkilendiren bir kayıt oluşturursunuz. Örneğin, herkes <i>ornek.com</i> ile ilişkilendirilmiş IP adreslerinin listesini almak için BitTorrent ağını sorgulayabilir.</p>
+            <p>Alınan içeriği başkalarıyla paylaşan kullanıcılar, içerik kendi aygıtlarından diğer Ceno kullanıcılarının aygıtına kopyalandığından ek veri ücretleriyle karşılaşabilir.</p>
+            <p>Bu risklere karşı Ceno kullanıcıları için hizmetin BitTorrent ağıyla etkileşime girmediği bir '<strong>Kişisel</strong> kip' oluşturduk. BitTorrent üzerinde etkinlikleri ile ilgili herhangi bir kaydın görünmesini istemeyen kullanıcılara ve oturum açılması gereken site işlemleri için (sosyal ağ hesaplarınıza oturum açmak gibi) bu kipin kullanılmasını öneriyoruz.</p>
+            <p>Var olan tarayıcınızda kullandığınız Normal ve Özel/Gizli sekmeler gibi, <strong>Herkese açık</strong> ve <strong>Kişisel</strong> sekmeler arasında kolayca geçiş yapabilirsiniz.</p>
+            <p>İçerik sağlayıcılar, istekte bulunan kullanıcının IP adresi ve istenilen içeriğin bulunduğu sitenin adı ile birlikte ağdaki içerik isteklerini de görebilir. İçerik sağlayıcılar 1) Site içeriğini merkezi olmayan bir ağa katmak ve 2) Sunulan içeriğin bütünlüğünün doğrulanması için gerekli bir ağ bileşenidir. Ceno ağında içerik sağlayıcılar Ceno ekibi tarafından işletilir ve yönetilir. Tüm erişim günlüklerini belirli aralıklarla sileriz.</p>
+            <h3 style="scroll-margin: 4.5rem;" id="bridgemode">Köprü işletmecileri için riskler</h3>
+            <p>Herhangi bir kullanıcı köprü rolünü üstlenebileceğinden bunu yapmanın getireceği riskleri değerlendirin.</p>
+            <p>Köprü işletmecisi köprü üzerindeki etkinliği görmez (aygıtlarında gelen ve giden bağlantıları aktif olarak izlemedikleri sürece). Görevleri, diğer Ceno kullanıcılarının bir içerik sağlayıcıya erişmesi için ağ isteklerini almak ve bu isteği iletmektir.</p>
+            <p>Köprü işletmecileri, aygıtlarının IP adresini BitTorrent ağında erişilebilir bir köprü olarak listeler.</p>
+            <p>Köprü kullanılması yalnızca içinde bulunduğunuz ağ gelen bağlantılara izin verdiğinde işe yarar. Bu durum, Ceno istemci uygulaması başlatılırken otomatik olarak denetlenir. Çoğu kablosuz mobil operatörü, gelen bağlantılara izin vermez.</p>
+        </details>
+        <details>
+            <summary> Ceno Browser kimler tarafından geliştiriliyor? </summary>
+            <p>Ceno, Kanadalı kar amacı gütmeyen <a href="https://equalit.ie">eQualitie</a> kuruluşu tarafından oluşturulmuş ve geliştirilen bir teknolojidir. <a href="https://ouinet.work">Ouinet ağ kitaplıklarını</a> Firefox Android tarayıcısına eklemiştir.</p>
+            <p>eQualitie on iki yıldır var ve bu sürede ifade özgürlüğünü koruyan, bilgi alışverişini kolaylaştıran ve İnternet üzerinde kendini ifade etmeyi özendiren araçlar oluşturup geliştiriyor.</p>
+            <p>Diğer projelerinin bazıları arasında merkezi olmayan dosya paylaşımına yönelik bir hizmet olan <a href="https://ouisync.net">Ouisync</a>; <a href="https://deflect.ca">Deflect</a>, DDoS korumasına yönelik bir araç, Makine öğrenmesi tabanlı bir saldırı algılama sistemi olan Baskerville ve merkezi olmayan ve birleştirilmiş ağ hizmetlerinin kurulmasına yönelik dComms dağıtım araç takımı bulunuyor.</p>
+        </details>
+        <details>
+            <summary> VPN kullanmak ile Ceno Browser kullanmak arasındaki fark nedir? </summary>
+            <p>VPN hizmetleri başlangıçta aygıtınız ile hedef sunucu arasında özel iletişim kurmak için oluşturuldu. İnternet sansürünün dünya çapında sıkça karşılaşılan bir durum olmaya başlamasıyla birlikte VPN hizmeti sağlayıcıları da yerel ağ kısıtlamalarını aşmak amacıyla hizmet sunmaya başladı. Bugün, kullanıcılarının yerel ağ sansürünü aşmalarına yardımcı olmak için çok çeşitli bağlantı seçenekleri sunan çok sayıda VPN hizmeti sağlayıcısı bulunuyor.
+            </p>
+            <p>VPN hizmetleri müşterilerinin kim olduğunu ve hangi sitelere erişmek istediğini görebilir. Bu durum tasarımdan kaynaklanır ve VPN işletmecisine belli bir düzeyde güvenilmesi gereklidir (Ceno içerik sağlayıcılarını işleten eQualitie kuruluşuna güvenilmesine gerektiğine benzer şekilde). </p>
+            <p>Ceno bir VPN hizmetinden temel olarak, tüm site isteklerinizi merkezi olmayan ağ üzerinden yönlendirmeye çalışmasıdır. Bir site için kısıtlama uygulanmıyorsa, Ceno bu siteye normal bir tarayıcı gibi bağlanır. Ceno kullanıcıları içerikleri ön belleğe alır ve birbirleriyle paylaşır. Bu, sansürü aşma düğümleri üzerindeki yükü azaltır ve içeriklerin teslim edilebilirliğini artırır. </p>
+        </details>
+        <details>
+            <summary> Tor Browser ve Ceno Browser kullanmak arasındaki fark nedir? </summary>
+            <p>Tor Browser uygulamasının aksine Ceno Browser, Tor ağının birincil amacı olan anonimlik sağlayan bir araç değildir. Tor ağında, ağ trafiği şifrelenir ve gönüllüler tarafından işletilen bir aktarıcı ağı üzerinden geçirilerek bir çıkış aktarıcısının IP adresinden geliyor gibi görünür. Tor, İnternet izlemesine ve site işletmecilerine karşı gizlilik sağlamak için mükemmel bir seçenektir. Ağ ortamınızda çalışıyorsa <a href="https://support.torproject.org/">destek belgelerini</a> okumanız koşuluyla bunu kullanmanızı öneririz.</p>
+        </details>
+        <details>
+            <summary> Kişisel ve Herkese açık sekmeler arasındaki fark nedir? </summary>
+            <p>Herkese açık sekmeler, istediğiniz içeriğe ulaşmak için Ceno ağında bulunan tüm bağlantı yöntemlerini kullanır. Herkese açık sekmeyi kullanarak gezinirken, herkese açık BitTorrent ağındaki etkinliğinizin (IP adresiniz ve erişmek istediğiniz site) bir kaydını bırakırsınız. Aygıtınız tarafından Herkese açık sekmede alınan içerik, BitTorrent ağı üzerinde diğer Ceno kullanıcılarıyla paylaşılır.</p>
+            <p>Kişisel sekmede istenilen ve alınan bilgiler başka hiç kimseyle paylaşılmaz. BitTorren üzerinde etkinliğinizin herhangi bir kaydı bulunmaz. Sosyal ağlar ve diğer hesaplarda oturum açmak için Kişisel sekmeleri kullanın. BitTorrent ağının Ceno üzerindeki herhangi bir gezinme etkinliğinizle ilişkilendirilmesini istemiyorsanız Kişisel sekmeleri kullanın.</p>
+        </details>
+        <details>
+            <summary> iPhone ve Windows sürümleri ne zaman yayınlanacak? </summary>
+            <p>iOS ve Windows için Ceno Browser geliştiriliyor ve 2024 İlkbaharında yayınlanması planlanıyor.</p>
+        </details>
+    </section>
 </div>
-
 <div class="d-grid gap-2 justify-content-center">
-
-<a href="../user-manual/tr/" style="text-align:center"><button class="btn btn-outline-danger btn-learnmore mt-3 mb-3" type="button" style="text-align: center;"><span class="fas fa-book fa-xl"></span> Kullanıcı rehberinden ayrıntılı bilgi alın!</button></a> <a href="https://gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md"><button class="btn btn-outline-danger btn-learnmore" type="button"><span class="fas fa-scroll fa-xl"></span> Ayrıntılı teknik bilgi almak için Ouinet makalesini inceleyebilirsiniz.</button></a>
+    
+    <a href="../user-manual/tr/" style="text-align:center"><button class="btn btn-outline-danger btn-learnmore mt-3 mb-3" type="button" style="text-align: center;"><span class="fas fa-book fa-xl"></span> Kullanıcı rehberinden ayrıntılı bilgi alın!</button></a> <a href="https://gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md"><button class="btn btn-outline-danger btn-learnmore" type="button"><span class="fas fa-scroll fa-xl"></span> Ayrıntılı teknik bilgi almak için Ouinet makalesini inceleyebilirsiniz.</button></a>
 </div>
-
-
 </main>
 
 <footer class="container section" id="contact">
