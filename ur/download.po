@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-03 10:37-0700\n"
-"PO-Revision-Date: 2024-01-24 22:11+0000\n"
+"PO-Revision-Date: 2024-04-03 17:52+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/ur/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -138,9 +138,8 @@ msgid "Get it on Github"
 msgstr "اسے Github پر حاصل کریں"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:185-17
-#, fuzzy
 msgid "Get it on dComms"
-msgstr "اسے F-Droid پر حاصل کریں"
+msgstr "اسے dComms پر حاصل کریں"
 
 #: download.html%2Bhtml.body.main.section.div.div.h3:197-17
 msgid "Important:"
@@ -156,6 +155,14 @@ msgid ""
 "retrieving content. See the <a href=\"support.html\">FAQ</a> or <a href=\"../"
 "user-manual/\">User Manual</a> for more details on Ceno usage."
 msgstr ""
+"Ceno آپریشن کے دو طریقے ہیں - <strong>عوامی</strong> اور "
+"<strong>ذاتی</strong>۔ آپ ان کے درمیان آسانی سے ٹوگل کر سکتے ہیں۔ پبلک موڈ "
+"بہترین کنیکٹیویٹی پیش کرتا ہے لیکن کم سے کم رازداری - وہ ویب سائٹیں جنہیں آپ "
+"دیکھتے یا شیئر کرتے ہیں عوامی طور پر قابل رسائی رجسٹری (BitTorrent) میں "
+"ریکارڈ کی جاتی ہیں۔ ذاتی موڈ اس ریکارڈ کو ختم کر دیتا ہے لیکن مواد کی "
+"بازیافت میں سست اور کم موثر ہو سکتا ہے۔ Ceno کے استعمال کے بارے میں مزید "
+"تفصیلات کے لیے <a href=\"support.html\">FAQ</a> یا <a href=\"../user-manual/"
+"\">User Manual</a> دیکھیں۔"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:208-15
 msgid "Direct Download"
@@ -170,10 +177,8 @@ msgstr ""
 "قاصر، آپ تازہ ترین APK کو براہ راست ڈاؤن لوڈ کر سکتے ہیں:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:210-17
-#, fuzzy
-#| msgid "Ceno Browser 2.0.8"
 msgid "Ceno Browser 2.1.0"
-msgstr "Ceno براؤزر 2.0.8"
+msgstr "Ceno براؤزر 2.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:211-20
 msgid "Download (32-bit ARM)"
