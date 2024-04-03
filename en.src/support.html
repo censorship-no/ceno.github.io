@@ -1,5 +1,6 @@
 <script>
     window.onload = function openBridgeModeDetails() {
+        document.getElementById("js-container").style.display = "block";
         if (window.location.hash === "#bridgemode") {
             document.getElementById("bridgemode-details").open = true;
         }
@@ -160,7 +161,7 @@
                 a more in-depth, technical guide, see the Ouinet whitepaper.</button></a>
     </div>
 </noscript>
-<div class="container-md section">
+<div id="js-container" class="container-md section" style="display: none;">
     <h1>Frequently Asked Questions</h1>
     <section>
         <details>
