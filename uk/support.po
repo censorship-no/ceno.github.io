@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-03 10:37-0700\n"
-"PO-Revision-Date: 2024-04-02 19:44+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2024-04-03 17:57+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/uk/>\n"
 "Language: uk\n"
@@ -102,29 +102,16 @@ msgid "Ceno Browser| Support"
 msgstr "браузер Ceno | Підтримка"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:168-9
-#, fuzzy
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
 msgid "Frequently Asked Questions"
 msgstr "Часті питання"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:169-9
-#, fuzzy
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:169-9"
 msgid "What is Ceno Browser?"
 msgstr "Що таке браузер Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:172-17
-#, fuzzy
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -142,18 +129,11 @@ msgstr ""
 "різних регіонах, де було припинено зв'язок."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:176-76
-#, fuzzy
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
 msgid "How does Ceno work?"
 msgstr "Як працює Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:180-17
-#, fuzzy
-#| msgid ""
-#| "When a website is accessible from your network (e.g. accessing <i>www."
-#| "canada.ca</i> from your home internet), Ceno will connect to it like a "
-#| "normal web browser."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:180-17"
 msgid ""
 "When a website is accessible from your network (e.g. accessing <i>www.canada."
@@ -161,16 +141,10 @@ msgid ""
 "browser."
 msgstr ""
 "Коли веб-сайт доступний у вашій мережі (наприклад, доступ до <i>www.canada."
-"ca</i> з домашнього інтернету), Ceno підключиться до нього як звичайний веб-"
-"браузер."
+"ca</i> з домашнього інтернету), Ceno підключиться до нього як звичайний "
+"веб-браузер."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:182-17
-#, fuzzy
-#| msgid ""
-#| "When a website is not accessible due to network filtering/censorship, "
-#| "Ceno will attempt to get the content for you. How Ceno attempts to find "
-#| "content depends on whether you have chosen to use Ceno in <strong>Public</"
-#| "strong> or <strong>Personal</strong> mode."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:182-17"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
@@ -184,14 +158,6 @@ msgstr ""
 "strong> чи <strong>Персональний</strong> ."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:185-17
-#, fuzzy
-#| msgid ""
-#| "In <strong>Public</strong> mode, Ceno will look into the BitTorrent "
-#| "network to see if another Ceno user has recently shared the requested "
-#| "page. If the service can identify the requested page, it will retrieve "
-#| "that page from another user’s device. If the content is not available, "
-#| "Ceno will contact several Injectors to request that website and have it "
-#| "delivered to you."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:185-17"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
@@ -207,12 +173,6 @@ msgstr ""
 "кількома інжекторами, щоб запросити цей веб-сайт і доставити його вам."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:189-17
-#, fuzzy
-#| msgid ""
-#| "In <strong>Personal</strong> mode, you will only contact the Injectors to "
-#| "have that website fetched and delivered to you. The search will not "
-#| "connect to the BitTorrent network and will not attempt to locate the "
-#| "content on other users’ devices."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:189-17"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -226,13 +186,6 @@ msgstr ""
 "пристроях інших користувачів."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:192-17
-#, fuzzy
-#| msgid ""
-#| "To ensure that your Ceno client can always contact an Injector, we have "
-#| "also created Bridges. If the Injectors are blocked on your network, the "
-#| "Ceno app will look for available Bridges, who will forward your request "
-#| "to the Injectors. The Ceno network currently features around 6,000 "
-#| "Bridges. Their number is always growing."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:192-17"
 msgid ""
 "To ensure that your Ceno client can always contact an Injector, we have also "
@@ -247,46 +200,29 @@ msgstr ""
 "мережа Ceno налічує близько 6 000 мостів. Їхня кількість постійно зростає."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:196-17
-#, fuzzy
-#| msgid ""
-#| "For a more detailed explanation of how Ceno works, please read <a "
-#| "href=\"../user-manual/\">the user guide</a>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:196-17"
 msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
-"Для більш детального пояснення роботи Ceno, будь ласка, прочитайте <a "
-"href=\"../user-manual/\">посібник користувача</a>."
+"Для більш детального пояснення роботи Ceno, будь ласка, прочитайте <a href"
+"=\"../user-manual/\">посібник користувача</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:198-17
-#, fuzzy
-#| msgid ""
-#| "For a simpler explanation of how Ceno works, <a href=\"explainer."
-#| "html\">please read this</a>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:198-17"
 msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
-"Для більш простого пояснення як працює Ceno, <a href=\"explainer."
-"html\">прочитайте це</a>."
+"Для більш простого пояснення як працює Ceno, <a href=\"explainer.html\""
+">прочитайте це</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:198-111
-#, fuzzy
-#| msgid "What are the advantages of using Ceno?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:198-111"
 msgid "What are the advantages of using Ceno?"
 msgstr "Які переваги використання Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:202-17
-#, fuzzy
-#| msgid ""
-#| "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
-#| "doing. Most web pages have static content (something you read, watch, "
-#| "listen to, etc.). Static content can be packaged and shared with other "
-#| "users seeking the same content. Ceno uses the BitTorrent file sharing "
-#| "network for this."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:202-17"
 msgid ""
 "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
@@ -302,16 +238,6 @@ msgstr ""
 "Ceno використовує мережу обміну файлами BitTorrent."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
-#, fuzzy
-#| msgid ""
-#| "Ceno’s advantage is evident in a network that censors websites, or where "
-#| "the network is weak or unstable. In these circumstances, the Ceno client "
-#| "is able to leverage additional methods to retrieve content and deliver it "
-#| "to your device. By allowing users to enable sharing of content they have "
-#| "recently retrieved, Ceno expands access to the internet more generally. "
-#| "Whether you are living in a part of the world that restricts access to "
-#| "content, or in a remote area with limited access to the internet, Ceno "
-#| "allows you to access information that may otherwise be unavailable."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
 msgid ""
 "Ceno’s advantage is evident in a network that censors websites, or where the "
@@ -333,14 +259,6 @@ msgstr ""
 "отримати доступ до інформації, яка є недоступною."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:212-17
-#, fuzzy
-#| msgid ""
-#| "People running Ceno from countries that do not censor the Internet - or "
-#| "from parts of the world where access to the internet is reliable - can "
-#| "choose to act as Bridges for those in heavily restricted networks. The "
-#| "network automatically enrolls new Bridges and keeps track of when they go "
-#| "offline. Running a Bridge is a very simple yet powerful action, allowing "
-#| "you to help others access the Internet."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:212-17"
 msgid ""
 "People running Ceno from countries that do not censor the Internet - or from "
@@ -358,12 +276,6 @@ msgstr ""
 "доступ до інтернету."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
-#, fuzzy
-#| msgid ""
-#| "Ceno - and all accompanying components of the tool that together create a "
-#| "decentralized network of peers and nodes - is free and open source "
-#| "software. You can <a href=\"https://gitlab.com/censorship-no/ceno-"
-#| "browser\">inspect our code</a> or re-create the entire network yourself!"
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
 msgid ""
 "Ceno - and all accompanying components of the tool that together create a "
@@ -378,30 +290,16 @@ msgstr ""
 "відтворити всю мережу самостійно!"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:220-45
-#, fuzzy
-#| msgid "What are the risks of using Ceno?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:220-45"
 msgid "What are the risks of using Ceno?"
 msgstr "Якими є ризики використання Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:224-17
-#, fuzzy
-#| msgid "Risks for users"
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:224-17"
 msgid "Risks for users"
 msgstr "Ризики для користувачів"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:225-17
-#, fuzzy
-#| msgid ""
-#| "Every technology that deals with sensitive use cases has its advantages "
-#| "and risks. By design, Ceno is using the public BitTorrent network for "
-#| "much of its routing and data storage needs. Whenever you request or share "
-#| "a piece of content on the BitTorrent network (Public mode) you create a "
-#| "record that associates your IP address with a piece of content that was "
-#| "retrieved from a particular website. For example, anyone can query the "
-#| "BitTorrent network for a list of IP addresses that have been associated "
-#| "with <i>website.com</i>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:225-17"
 msgid ""
 "Every technology that deals with sensitive use cases has its advantages and "
@@ -422,11 +320,6 @@ msgstr ""
 "BitTorrent список IP-адрес, які були пов'язані з <i>website.com</i>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:231-17
-#, fuzzy
-#| msgid ""
-#| "Users sharing retrieved content with others may also incur additional "
-#| "data charges as content is copied from their device to the device of "
-#| "other Ceno users."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:231-17"
 msgid ""
 "Users sharing retrieved content with others may also incur additional data "
@@ -438,14 +331,6 @@ msgstr ""
 "пристрою на пристрій інших користувачів Ceno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:233-17
-#, fuzzy
-#| msgid ""
-#| "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
-#| "for Ceno users where the service does not interact with the BitTorrent "
-#| "network. We recommend this mode for users who do not want any record of "
-#| "their activity to appear on BitTorrent, as well for website operations "
-#| "that require authentication (for example, when logging into your social "
-#| "media accounts)."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:233-17"
 msgid ""
 "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
@@ -463,11 +348,6 @@ msgstr ""
 "мережах)."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:237-17
-#, fuzzy
-#| msgid ""
-#| "You can easily switch between <strong>Public</strong> and "
-#| "<strong>Personal</strong> tabs in the same manner as switching between "
-#| "Normal and Private/Incognito tabs on your current browser."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:237-17"
 msgid ""
 "You can easily switch between <strong>Public</strong> and <strong>Personal</"
@@ -479,15 +359,6 @@ msgstr ""
 "Приватна/Інкогніто у вашому поточному браузері."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:239-17
-#, fuzzy
-#| msgid ""
-#| "Injectors can also see requests for content on the network, including the "
-#| "IP address of the user making the request and the name of the website "
-#| "with the desired content. The injectors are a necessary network component "
-#| "for 1) introducing web content into a decentralized network, and 2) "
-#| "authenticating the integrity of introduced content. On the Ceno network, "
-#| "Injectors are run and managed by the Ceno team. We periodically delete "
-#| "all access logs."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:239-17"
 msgid ""
 "Injectors can also see requests for content on the network, including the IP "
@@ -505,17 +376,11 @@ msgstr ""
 "Ми періодично видаляємо всі журнали доступу."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:244-17
-#, fuzzy
-#| msgid "Risks for Bridge operators"
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:244-17"
 msgid "Risks for Bridge operators"
 msgstr "Ризики для операторів Мостів"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:245-17
-#, fuzzy
-#| msgid ""
-#| "Since any user can become a Bridge, do consider the risks that are "
-#| "introduced by this action."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:245-17"
 msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
@@ -525,12 +390,6 @@ msgstr ""
 "які виникають у зв'язку з цим."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
-#, fuzzy
-#| msgid ""
-#| "Bridge activity is invisible to the Bridge operator (unless they are "
-#| "actively monitoring their device for incoming and outgoing connections). "
-#| "Their job is to receive network requests from other Ceno users for access "
-#| "to an Injector and forward this request."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
 msgid ""
 "Bridge activity is invisible to the Bridge operator (unless they are "
@@ -544,10 +403,6 @@ msgstr ""
 "доступ до інжектора і переадресації цих запитів."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:249-17
-#, fuzzy
-#| msgid ""
-#| "Bridge operators will have their device’s IP address listed in the "
-#| "BitTorrent network as an accessible Bridge."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:249-17"
 msgid ""
 "Bridge operators will have their device’s IP address listed in the "
@@ -557,12 +412,6 @@ msgstr ""
 "доступного моста."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:251-17
-#, fuzzy
-#| msgid ""
-#| "Bridging only works when the network that you are in allows for incoming "
-#| "connections. This is checked automatically by the Ceno client app upon "
-#| "start. Most wireless mobile carriers do not allow for incoming "
-#| "connections."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:251-17"
 msgid ""
 "Bridging only works when the network that you are in allows for incoming "
@@ -575,19 +424,11 @@ msgstr ""
 "вхідні з'єднання."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:253-42
-#, fuzzy
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
 msgid "Who develops Ceno Browser?"
 msgstr "Хто розробляє браузер Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:257-17
-#, fuzzy
-#| msgid ""
-#| "Ceno is a technology created and maintained by the Canadian non-profit "
-#| "organization <a href=\"https://equalit.ie\">eQualitie</a>. They have "
-#| "incorporated their <a href=\"https://ouinet.work\">Ouinet network "
-#| "library</a> into the Firefox Android browser."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:257-17"
 msgid ""
 "Ceno is a technology created and maintained by the Canadian non-profit "
@@ -601,12 +442,6 @@ msgstr ""
 "браузер Firefox для Android."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:260-17
-#, fuzzy
-#| msgid ""
-#| "eQualitie has been in existence for twelve years, during which time they "
-#| "have been creating and advancing tools to protect freedom of speech, "
-#| "facilitate information exchange, and promote self-expression on the "
-#| "internet."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:260-17"
 msgid ""
 "eQualitie has been in existence for twelve years, during which time they "
@@ -618,14 +453,6 @@ msgstr ""
 "сприяють обміну інформацією та самовираженню в інтернеті."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:263-17
-#, fuzzy
-#| msgid ""
-#| "Some of their other projects include <a href=\"https://ouisync."
-#| "net\">Ouisync</a>, a service for decentralized file sharing; <a "
-#| "href=\"https://deflect.ca\">Deflect</a>, a tool for DDoS protection; "
-#| "Baskerville, a machine learning-based attack detection system; and the "
-#| "dComms deployment toolkit for setting up decentralized and federated "
-#| "network services."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:263-17"
 msgid ""
 "Some of their other projects include <a href=\"https://ouisync."
@@ -636,28 +463,18 @@ msgid ""
 "services."
 msgstr ""
 "Серед інших їхніх проектів - <a href=\"https://ouisync.net\">Ouisync</a>, "
-"сервіс для децентралізованого обміну файлами; <a href=\"https://deflect."
-"ca\">Deflect</a>, інструмент для захисту від DDoS-атак; Baskerville, система "
+"сервіс для децентралізованого обміну файлами; <a href=\"https://deflect.ca\""
+">Deflect</a>, інструмент для захисту від DDoS-атак; Baskerville, система "
 "виявлення атак на основі машинного навчання; і набір інструментів dComms для "
 "налаштування і розгортання децентралізованих і федеративних мережевих "
 "сервісів."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:266-77
-#, fuzzy
-#| msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:266-77"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgstr "У чому різниця між використанням VPN і браузера Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:270-17
-#, fuzzy
-#| msgid ""
-#| "VPNs were initially created for private communications between your "
-#| "device and a destination server. As Internet censorship became a frequent "
-#| "occurrence around the world, VPN providers began to offer their services "
-#| "in order to bypass local network restrictions as well. Today, there are "
-#| "numerous VPN providers offering a wide variety of connectivity options to "
-#| "help their users get around local network censorship."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:270-17"
 msgid ""
 "VPNs were initially created for private communications between your device "
@@ -675,12 +492,6 @@ msgstr ""
 "користувачам обійти локальну мережеву цензуру."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:275-17
-#, fuzzy
-#| msgid ""
-#| "VPNs can see who their clients are and what websites they are requesting. "
-#| "This is by design and a level of trust in the VPN operator is required "
-#| "(much like the trust that is required in eQualitie, who operates the Ceno "
-#| "Injectors)."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:275-17"
 msgid ""
 "VPNs can see who their clients are and what websites they are requesting. "
@@ -694,14 +505,6 @@ msgstr ""
 "потрібна eQualitie, що використовує інжектори Ceno)."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:278-17
-#, fuzzy
-#| msgid ""
-#| "Ceno’s primary distinction from a VPN is that it does attempt to route "
-#| "all of your website requests through the decentralized network. When a "
-#| "website is available without restriction, Ceno will simply connect to it "
-#| "like a normal web browser. Also, Ceno users cache and share content with "
-#| "each other. This reduces the strain on censorship circumvention nodes and "
-#| "improves deliverability."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:278-17"
 msgid ""
 "Ceno’s primary distinction from a VPN is that it does attempt to route all "
@@ -719,23 +522,11 @@ msgstr ""
 "підвищує швидкість доставки."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:281-108
-#, fuzzy
-#| msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:281-108"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgstr "У чому різниця використання браузерів Tor і Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:285-17
-#, fuzzy
-#| msgid ""
-#| "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is "
-#| "Tor’s primary purpose. In the Tor network, network traffic is encrypted "
-#| "and routed through a network of relays run by volunteers, and appears to "
-#| "originate from the IP address of an exit node. Tor is an excellent option "
-#| "for privacy from Internet surveillance and website operators. If it works "
-#| "in your network environment, we recommend it, provided that you’ve also "
-#| "read <a href=\"https://support.torproject.org/\">their support "
-#| "documentation</a>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:285-17"
 msgid ""
 "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is Tor’s "
@@ -756,21 +547,11 @@ msgstr ""
 "підтримки</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:290-43
-#, fuzzy
-#| msgid "Whats the difference between Personal and Public tabs, again?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:290-43"
 msgid "Whats the difference between Personal and Public tabs, again?"
 msgstr "Нагадайте, в чому різниця між Персональними та Публічними вкладками?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:294-17
-#, fuzzy
-#| msgid ""
-#| "Public tabs use all connectivity methods available in the Ceno network to "
-#| "get the content you want. When browsing using a Public tab you will leave "
-#| "a record of your activity on the public BitTorrent network (your IP "
-#| "address and website you requested). Content that has been retrieved by "
-#| "your device inside a Public tab will be shared with other Ceno users via "
-#| "the BitTorrent network."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:294-17"
 msgid ""
 "Public tabs use all connectivity methods available in the Ceno network to "
@@ -788,13 +569,6 @@ msgstr ""
 "користувачам Ceno через мережу BitTorrent."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:298-17
-#, fuzzy
-#| msgid ""
-#| "Information requested and retrieved in a Personal tab is not shared with "
-#| "anyone else. No record of your activity is recorded on BitTorrent. Use "
-#| "Personal tabs for logging into social media and other accounts. Also use "
-#| "them if you do not want to be associated on BitTorrent with any of your "
-#| "browsing activity in Ceno."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:298-17"
 msgid ""
 "Information requested and retrieved in a Personal tab is not shared with "
@@ -810,17 +584,11 @@ msgstr ""
 "хочете, щоб BitTorrent асоціювався з вашою активністю в Ceno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:301-38
-#, fuzzy
-#| msgid "When will there be an iPhone or Windows version?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:301-38"
 msgid "When will there be an iPhone or Windows version?"
 msgstr "Коли з'явиться версія для iPhone чи для Windows?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:305-17
-#, fuzzy
-#| msgid ""
-#| "Development of Ceno Browser for iOS and Windows is currently ongoing, "
-#| "with plans for release by Spring of 2024."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:305-17"
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
@@ -831,16 +599,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.noscript.div:310-5
-#, fuzzy
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.noscript.div:310-5"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -852,39 +610,26 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/uk/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-"Дізнайтеся більше в посібнику користувача!</button></a> <a href=\"https://"
-"gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper."
-"md\"><button class=\"btn btn-outline-danger btn-learnmore\" "
-"type=\"button\"><span class=\"fas fa-scroll fa-xl\"></span> Більш "
-"поглиблений, технічний підручник шукайте в «білій книзі» Ouinet.</button></a>"
+"<a href=\"../user-manual/uk/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Дізнайтеся більше в посібнику користувача!</button></a> <a href=\"https"
+"://gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\""
+"><button class=\"btn btn-outline-danger btn-learnmore\" type=\"button\""
+"><span class=\"fas fa-scroll fa-xl\"></span> Більш поглиблений, технічний "
+"підручник шукайте в «білій книзі» Ouinet.</button></a>"
 
 #: support.html%2Bhtml.body.main.div.h1:321-5
-#, fuzzy
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.div.h1:321-5"
 msgid "Frequently Asked Questions"
 msgstr "Часті питання"
 
 #: support.html%2Bhtml.body.main.div.section:322-5
-#, fuzzy
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section:322-5"
 msgid "What is Ceno Browser?"
 msgstr "Що таке браузер Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:325-13
-#, fuzzy
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.div.section.details.p:325-13"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -902,18 +647,11 @@ msgstr ""
 "різних регіонах, де було припинено зв'язок."
 
 #: support.html%2Bhtml.body.main.div.section.details:329-44
-#, fuzzy
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.div.section.details:329-44"
 msgid "How does Ceno work?"
 msgstr "Як працює Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:333-13
-#, fuzzy
-#| msgid ""
-#| "When a website is accessible from your network (e.g. accessing <i>www."
-#| "canada.ca</i> from your home internet), Ceno will connect to it like a "
-#| "normal web browser."
 msgctxt "support.html+html.body.main.div.section.details.p:333-13"
 msgid ""
 "When a website is accessible from your network (e.g. accessing <i>www.canada."
@@ -921,16 +659,10 @@ msgid ""
 "browser."
 msgstr ""
 "Коли веб-сайт доступний у вашій мережі (наприклад, доступ до <i>www.canada."
-"ca</i> з домашнього інтернету), Ceno підключиться до нього як звичайний веб-"
-"браузер."
+"ca</i> з домашнього інтернету), Ceno підключиться до нього як звичайний "
+"веб-браузер."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:335-13
-#, fuzzy
-#| msgid ""
-#| "When a website is not accessible due to network filtering/censorship, "
-#| "Ceno will attempt to get the content for you. How Ceno attempts to find "
-#| "content depends on whether you have chosen to use Ceno in <strong>Public</"
-#| "strong> or <strong>Personal</strong> mode."
 msgctxt "support.html+html.body.main.div.section.details.p:335-13"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
@@ -944,14 +676,6 @@ msgstr ""
 "strong> чи <strong>Персональний</strong> ."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:338-13
-#, fuzzy
-#| msgid ""
-#| "In <strong>Public</strong> mode, Ceno will look into the BitTorrent "
-#| "network to see if another Ceno user has recently shared the requested "
-#| "page. If the service can identify the requested page, it will retrieve "
-#| "that page from another user’s device. If the content is not available, "
-#| "Ceno will contact several Injectors to request that website and have it "
-#| "delivered to you."
 msgctxt "support.html+html.body.main.div.section.details.p:338-13"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
@@ -967,12 +691,6 @@ msgstr ""
 "кількома інжекторами, щоб запросити цей веб-сайт і доставити його вам."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:342-13
-#, fuzzy
-#| msgid ""
-#| "In <strong>Personal</strong> mode, you will only contact the Injectors to "
-#| "have that website fetched and delivered to you. The search will not "
-#| "connect to the BitTorrent network and will not attempt to locate the "
-#| "content on other users’ devices."
 msgctxt "support.html+html.body.main.div.section.details.p:342-13"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -986,13 +704,6 @@ msgstr ""
 "пристроях інших користувачів."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:345-13
-#, fuzzy
-#| msgid ""
-#| "To ensure that your Ceno client can always contact an Injector, we have "
-#| "also created Bridges. If the Injectors are blocked on your network, the "
-#| "Ceno app will look for available Bridges, who will forward your request "
-#| "to the Injectors. The Ceno network currently features around 6,000 "
-#| "Bridges. Their number is always growing."
 msgctxt "support.html+html.body.main.div.section.details.p:345-13"
 msgid ""
 "To ensure that your Ceno client can always contact an Injector, we have also "
@@ -1007,46 +718,29 @@ msgstr ""
 "мережа Ceno налічує близько 6 000 мостів. Їхня кількість постійно зростає."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:349-13
-#, fuzzy
-#| msgid ""
-#| "For a more detailed explanation of how Ceno works, please read <a "
-#| "href=\"../user-manual/\">the user guide</a>."
 msgctxt "support.html+html.body.main.div.section.details.p:349-13"
 msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
-"Для більш детального пояснення роботи Ceno, будь ласка, прочитайте <a "
-"href=\"../user-manual/\">посібник користувача</a>."
+"Для більш детального пояснення роботи Ceno, будь ласка, прочитайте <a href"
+"=\"../user-manual/\">посібник користувача</a>."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:351-13
-#, fuzzy
-#| msgid ""
-#| "For a simpler explanation of how Ceno works, <a href=\"explainer."
-#| "html\">please read this</a>."
 msgctxt "support.html+html.body.main.div.section.details.p:351-13"
 msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
-"Для більш простого пояснення як працює Ceno, <a href=\"explainer."
-"html\">прочитайте це</a>."
+"Для більш простого пояснення як працює Ceno, <a href=\"explainer.html\""
+">прочитайте це</a>."
 
 #: support.html%2Bhtml.body.main.div.section.details:351-107
-#, fuzzy
-#| msgid "What are the advantages of using Ceno?"
 msgctxt "support.html+html.body.main.div.section.details:351-107"
 msgid "What are the advantages of using Ceno?"
 msgstr "Які переваги використання Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:355-13
-#, fuzzy
-#| msgid ""
-#| "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
-#| "doing. Most web pages have static content (something you read, watch, "
-#| "listen to, etc.). Static content can be packaged and shared with other "
-#| "users seeking the same content. Ceno uses the BitTorrent file sharing "
-#| "network for this."
 msgctxt "support.html+html.body.main.div.section.details.p:355-13"
 msgid ""
 "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
@@ -1062,16 +756,6 @@ msgstr ""
 "Ceno використовує мережу обміну файлами BitTorrent."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:358-13
-#, fuzzy
-#| msgid ""
-#| "Ceno’s advantage is evident in a network that censors websites, or where "
-#| "the network is weak or unstable. In these circumstances, the Ceno client "
-#| "is able to leverage additional methods to retrieve content and deliver it "
-#| "to your device. By allowing users to enable sharing of content they have "
-#| "recently retrieved, Ceno expands access to the internet more generally. "
-#| "Whether you are living in a part of the world that restricts access to "
-#| "content, or in a remote area with limited access to the internet, Ceno "
-#| "allows you to access information that may otherwise be unavailable."
 msgctxt "support.html+html.body.main.div.section.details.p:358-13"
 msgid ""
 "Ceno’s advantage is evident in a network that censors websites, or where the "
@@ -1093,14 +777,6 @@ msgstr ""
 "отримати доступ до інформації, яка є недоступною."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:364-13
-#, fuzzy
-#| msgid ""
-#| "People running Ceno from countries that do not censor the Internet - or "
-#| "from parts of the world where access to the internet is reliable - can "
-#| "choose to act as Bridges for those in heavily restricted networks. The "
-#| "network automatically enrolls new Bridges and keeps track of when they go "
-#| "offline. Running a Bridge is a very simple yet powerful action, allowing "
-#| "you to help others access the Internet."
 msgctxt "support.html+html.body.main.div.section.details.p:364-13"
 msgid ""
 "People running Ceno from countries that do not censor the Internet - or from "
@@ -1118,12 +794,6 @@ msgstr ""
 "доступ до інтернету."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:368-13
-#, fuzzy
-#| msgid ""
-#| "Ceno - and all accompanying components of the tool that together create a "
-#| "decentralized network of peers and nodes - is free and open source "
-#| "software. You can <a href=\"https://gitlab.com/censorship-no/ceno-"
-#| "browser\">inspect our code</a> or re-create the entire network yourself!"
 msgctxt "support.html+html.body.main.div.section.details.p:368-13"
 msgid ""
 "Ceno - and all accompanying components of the tool that together create a "
@@ -1138,30 +808,16 @@ msgstr ""
 "відтворити всю мережу самостійно!"
 
 #: support.html%2Bhtml.body.main.div.section.details:371-34
-#, fuzzy
-#| msgid "What are the risks of using Ceno?"
 msgctxt "support.html+html.body.main.div.section.details:371-34"
 msgid "What are the risks of using Ceno?"
 msgstr "Якими є ризики використання Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:375-13
-#, fuzzy
-#| msgid "Risks for users"
 msgctxt "support.html+html.body.main.div.section.details.h3:375-13"
 msgid "Risks for users"
 msgstr "Ризики для користувачів"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:376-13
-#, fuzzy
-#| msgid ""
-#| "Every technology that deals with sensitive use cases has its advantages "
-#| "and risks. By design, Ceno is using the public BitTorrent network for "
-#| "much of its routing and data storage needs. Whenever you request or share "
-#| "a piece of content on the BitTorrent network (Public mode) you create a "
-#| "record that associates your IP address with a piece of content that was "
-#| "retrieved from a particular website. For example, anyone can query the "
-#| "BitTorrent network for a list of IP addresses that have been associated "
-#| "with <i>website.com</i>."
 msgctxt "support.html+html.body.main.div.section.details.p:376-13"
 msgid ""
 "Every technology that deals with sensitive use cases has its advantages and "
@@ -1182,11 +838,6 @@ msgstr ""
 "BitTorrent список IP-адрес, які були пов'язані з <i>website.com</i>."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:382-13
-#, fuzzy
-#| msgid ""
-#| "Users sharing retrieved content with others may also incur additional "
-#| "data charges as content is copied from their device to the device of "
-#| "other Ceno users."
 msgctxt "support.html+html.body.main.div.section.details.p:382-13"
 msgid ""
 "Users sharing retrieved content with others may also incur additional data "
@@ -1198,14 +849,6 @@ msgstr ""
 "пристрою на пристрій інших користувачів Ceno."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:384-13
-#, fuzzy
-#| msgid ""
-#| "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
-#| "for Ceno users where the service does not interact with the BitTorrent "
-#| "network. We recommend this mode for users who do not want any record of "
-#| "their activity to appear on BitTorrent, as well for website operations "
-#| "that require authentication (for example, when logging into your social "
-#| "media accounts)."
 msgctxt "support.html+html.body.main.div.section.details.p:384-13"
 msgid ""
 "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
@@ -1223,11 +866,6 @@ msgstr ""
 "мережах)."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:388-13
-#, fuzzy
-#| msgid ""
-#| "You can easily switch between <strong>Public</strong> and "
-#| "<strong>Personal</strong> tabs in the same manner as switching between "
-#| "Normal and Private/Incognito tabs on your current browser."
 msgctxt "support.html+html.body.main.div.section.details.p:388-13"
 msgid ""
 "You can easily switch between <strong>Public</strong> and <strong>Personal</"
@@ -1239,15 +877,6 @@ msgstr ""
 "Приватна/Інкогніто у вашому поточному браузері."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:390-13
-#, fuzzy
-#| msgid ""
-#| "Injectors can also see requests for content on the network, including the "
-#| "IP address of the user making the request and the name of the website "
-#| "with the desired content. The injectors are a necessary network component "
-#| "for 1) introducing web content into a decentralized network, and 2) "
-#| "authenticating the integrity of introduced content. On the Ceno network, "
-#| "Injectors are run and managed by the Ceno team. We periodically delete "
-#| "all access logs."
 msgctxt "support.html+html.body.main.div.section.details.p:390-13"
 msgid ""
 "Injectors can also see requests for content on the network, including the IP "
@@ -1265,17 +894,11 @@ msgstr ""
 "Ми періодично видаляємо всі журнали доступу."
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:395-13
-#, fuzzy
-#| msgid "Risks for Bridge operators"
 msgctxt "support.html+html.body.main.div.section.details.h3:395-13"
 msgid "Risks for Bridge operators"
 msgstr "Ризики для операторів Мостів"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:396-13
-#, fuzzy
-#| msgid ""
-#| "Since any user can become a Bridge, do consider the risks that are "
-#| "introduced by this action."
 msgctxt "support.html+html.body.main.div.section.details.p:396-13"
 msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
@@ -1285,12 +908,6 @@ msgstr ""
 "які виникають у зв'язку з цим."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:397-13
-#, fuzzy
-#| msgid ""
-#| "Bridge activity is invisible to the Bridge operator (unless they are "
-#| "actively monitoring their device for incoming and outgoing connections). "
-#| "Their job is to receive network requests from other Ceno users for access "
-#| "to an Injector and forward this request."
 msgctxt "support.html+html.body.main.div.section.details.p:397-13"
 msgid ""
 "Bridge activity is invisible to the Bridge operator (unless they are "
@@ -1304,10 +921,6 @@ msgstr ""
 "доступ до інжектора і переадресації цих запитів."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:400-13
-#, fuzzy
-#| msgid ""
-#| "Bridge operators will have their device’s IP address listed in the "
-#| "BitTorrent network as an accessible Bridge."
 msgctxt "support.html+html.body.main.div.section.details.p:400-13"
 msgid ""
 "Bridge operators will have their device’s IP address listed in the "
@@ -1317,12 +930,6 @@ msgstr ""
 "доступного моста."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:402-13
-#, fuzzy
-#| msgid ""
-#| "Bridging only works when the network that you are in allows for incoming "
-#| "connections. This is checked automatically by the Ceno client app upon "
-#| "start. Most wireless mobile carriers do not allow for incoming "
-#| "connections."
 msgctxt "support.html+html.body.main.div.section.details.p:402-13"
 msgid ""
 "Bridging only works when the network that you are in allows for incoming "
@@ -1335,19 +942,11 @@ msgstr ""
 "вхідні з'єднання."
 
 #: support.html%2Bhtml.body.main.div.section.details:404-29
-#, fuzzy
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section.details:404-29"
 msgid "Who develops Ceno Browser?"
 msgstr "Хто розробляє браузер Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:408-13
-#, fuzzy
-#| msgid ""
-#| "Ceno is a technology created and maintained by the Canadian non-profit "
-#| "organization <a href=\"https://equalit.ie\">eQualitie</a>. They have "
-#| "incorporated their <a href=\"https://ouinet.work\">Ouinet network "
-#| "library</a> into the Firefox Android browser."
 msgctxt "support.html+html.body.main.div.section.details.p:408-13"
 msgid ""
 "Ceno is a technology created and maintained by the Canadian non-profit "
@@ -1361,12 +960,6 @@ msgstr ""
 "браузер Firefox для Android."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:411-13
-#, fuzzy
-#| msgid ""
-#| "eQualitie has been in existence for twelve years, during which time they "
-#| "have been creating and advancing tools to protect freedom of speech, "
-#| "facilitate information exchange, and promote self-expression on the "
-#| "internet."
 msgctxt "support.html+html.body.main.div.section.details.p:411-13"
 msgid ""
 "eQualitie has been in existence for twelve years, during which time they "
@@ -1378,14 +971,6 @@ msgstr ""
 "сприяють обміну інформацією та самовираженню в інтернеті."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:414-13
-#, fuzzy
-#| msgid ""
-#| "Some of their other projects include <a href=\"https://ouisync."
-#| "net\">Ouisync</a>, a service for decentralized file sharing; <a "
-#| "href=\"https://deflect.ca\">Deflect</a>, a tool for DDoS protection; "
-#| "Baskerville, a machine learning-based attack detection system; and the "
-#| "dComms deployment toolkit for setting up decentralized and federated "
-#| "network services."
 msgctxt "support.html+html.body.main.div.section.details.p:414-13"
 msgid ""
 "Some of their other projects include <a href=\"https://ouisync."
@@ -1396,28 +981,18 @@ msgid ""
 "services."
 msgstr ""
 "Серед інших їхніх проектів - <a href=\"https://ouisync.net\">Ouisync</a>, "
-"сервіс для децентралізованого обміну файлами; <a href=\"https://deflect."
-"ca\">Deflect</a>, інструмент для захисту від DDoS-атак; Baskerville, система "
+"сервіс для децентралізованого обміну файлами; <a href=\"https://deflect.ca\""
+">Deflect</a>, інструмент для захисту від DDoS-атак; Baskerville, система "
 "виявлення атак на основі машинного навчання; і набір інструментів dComms для "
 "налаштування і розгортання децентралізованих і федеративних мережевих "
 "сервісів."
 
 #: support.html%2Bhtml.body.main.div.section.details:417-73
-#, fuzzy
-#| msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section.details:417-73"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgstr "У чому різниця між використанням VPN і браузера Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:421-13
-#, fuzzy
-#| msgid ""
-#| "VPNs were initially created for private communications between your "
-#| "device and a destination server. As Internet censorship became a frequent "
-#| "occurrence around the world, VPN providers began to offer their services "
-#| "in order to bypass local network restrictions as well. Today, there are "
-#| "numerous VPN providers offering a wide variety of connectivity options to "
-#| "help their users get around local network censorship."
 msgctxt "support.html+html.body.main.div.section.details.p:421-13"
 msgid ""
 "VPNs were initially created for private communications between your device "
@@ -1435,12 +1010,6 @@ msgstr ""
 "користувачам обійти локальну мережеву цензуру."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:426-13
-#, fuzzy
-#| msgid ""
-#| "VPNs can see who their clients are and what websites they are requesting. "
-#| "This is by design and a level of trust in the VPN operator is required "
-#| "(much like the trust that is required in eQualitie, who operates the Ceno "
-#| "Injectors)."
 msgctxt "support.html+html.body.main.div.section.details.p:426-13"
 msgid ""
 "VPNs can see who their clients are and what websites they are requesting. "
@@ -1454,14 +1023,6 @@ msgstr ""
 "потрібна eQualitie, що використовує інжектори Ceno)."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:429-13
-#, fuzzy
-#| msgid ""
-#| "Ceno’s primary distinction from a VPN is that it does attempt to route "
-#| "all of your website requests through the decentralized network. When a "
-#| "website is available without restriction, Ceno will simply connect to it "
-#| "like a normal web browser. Also, Ceno users cache and share content with "
-#| "each other. This reduces the strain on censorship circumvention nodes and "
-#| "improves deliverability."
 msgctxt "support.html+html.body.main.div.section.details.p:429-13"
 msgid ""
 "Ceno’s primary distinction from a VPN is that it does attempt to route all "
@@ -1479,23 +1040,11 @@ msgstr ""
 "підвищує швидкість доставки."
 
 #: support.html%2Bhtml.body.main.div.section.details:432-99
-#, fuzzy
-#| msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgctxt "support.html+html.body.main.div.section.details:432-99"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgstr "У чому різниця використання браузерів Tor і Ceno?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:436-13
-#, fuzzy
-#| msgid ""
-#| "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is "
-#| "Tor’s primary purpose. In the Tor network, network traffic is encrypted "
-#| "and routed through a network of relays run by volunteers, and appears to "
-#| "originate from the IP address of an exit node. Tor is an excellent option "
-#| "for privacy from Internet surveillance and website operators. If it works "
-#| "in your network environment, we recommend it, provided that you’ve also "
-#| "read <a href=\"https://support.torproject.org/\">their support "
-#| "documentation</a>."
 msgctxt "support.html+html.body.main.div.section.details.p:436-13"
 msgid ""
 "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is Tor’s "
@@ -1516,21 +1065,11 @@ msgstr ""
 "підтримки</a>."
 
 #: support.html%2Bhtml.body.main.div.section.details:441-39
-#, fuzzy
-#| msgid "Whats the difference between Personal and Public tabs, again?"
 msgctxt "support.html+html.body.main.div.section.details:441-39"
 msgid "Whats the difference between Personal and Public tabs, again?"
 msgstr "Нагадайте, в чому різниця між Персональними та Публічними вкладками?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:445-13
-#, fuzzy
-#| msgid ""
-#| "Public tabs use all connectivity methods available in the Ceno network to "
-#| "get the content you want. When browsing using a Public tab you will leave "
-#| "a record of your activity on the public BitTorrent network (your IP "
-#| "address and website you requested). Content that has been retrieved by "
-#| "your device inside a Public tab will be shared with other Ceno users via "
-#| "the BitTorrent network."
 msgctxt "support.html+html.body.main.div.section.details.p:445-13"
 msgid ""
 "Public tabs use all connectivity methods available in the Ceno network to "
@@ -1548,13 +1087,6 @@ msgstr ""
 "користувачам Ceno через мережу BitTorrent."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:449-13
-#, fuzzy
-#| msgid ""
-#| "Information requested and retrieved in a Personal tab is not shared with "
-#| "anyone else. No record of your activity is recorded on BitTorrent. Use "
-#| "Personal tabs for logging into social media and other accounts. Also use "
-#| "them if you do not want to be associated on BitTorrent with any of your "
-#| "browsing activity in Ceno."
 msgctxt "support.html+html.body.main.div.section.details.p:449-13"
 msgid ""
 "Information requested and retrieved in a Personal tab is not shared with "
@@ -1570,17 +1102,11 @@ msgstr ""
 "хочете, щоб BitTorrent асоціювався з вашою активністю в Ceno."
 
 #: support.html%2Bhtml.body.main.div.section.details:452-22
-#, fuzzy
-#| msgid "When will there be an iPhone or Windows version?"
 msgctxt "support.html+html.body.main.div.section.details:452-22"
 msgid "When will there be an iPhone or Windows version?"
 msgstr "Коли з'явиться версія для iPhone чи для Windows?"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:456-13
-#, fuzzy
-#| msgid ""
-#| "Development of Ceno Browser for iOS and Windows is currently ongoing, "
-#| "with plans for release by Spring of 2024."
 msgctxt "support.html+html.body.main.div.section.details.p:456-13"
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
@@ -1591,16 +1117,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.div:461-1
-#, fuzzy
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.div:461-1"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -1612,14 +1128,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/uk/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-"Дізнайтеся більше в посібнику користувача!</button></a> <a href=\"https://"
-"gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper."
-"md\"><button class=\"btn btn-outline-danger btn-learnmore\" "
-"type=\"button\"><span class=\"fas fa-scroll fa-xl\"></span> Більш "
-"поглиблений, технічний підручник шукайте в «білій книзі» Ouinet.</button></a>"
+"<a href=\"../user-manual/uk/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Дізнайтеся більше в посібнику користувача!</button></a> <a href=\"https"
+"://gitlab.com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\""
+"><button class=\"btn btn-outline-danger btn-learnmore\" type=\"button\""
+"><span class=\"fas fa-scroll fa-xl\"></span> Більш поглиблений, технічний "
+"підручник шукайте в «білій книзі» Ouinet.</button></a>"
 
 #: support.html%2Bhtml.body.footer.div.p:484-9
 msgid ""
