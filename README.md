@@ -49,7 +49,7 @@ This website is hosted by GitHub Pages and content is authored in HTML.
 
 7. (Optional) Create new components in [Weblate](https://hosted.weblate.org/projects/censorship-no/) if any; this will take care of adding new PO files.
 
-8. New translations create a Gitlab merge request to the `i18n` branch. **Approve the merge request in Gitlab before the next steps.**
+8. New translations create a Gitlab merge request to the `i18n` branch. **Approve the merge request in Gitlab before the next steps. NOTE: Do not squash commits when merging, as Weblate will not always pick up the changes.**
 
 9. **If adding a new language**, `touch` its `index.html` file before executing the next step.
 
