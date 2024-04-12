@@ -1,5 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700'); */  /* disabled for privacy reasons */
-@import 'all.css';  /* Font Awesome */
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700'); */
+/* disabled for privacy reasons */
+@import 'all.css';
+/* Font Awesome */
 
 body {
     font-family: Inter, sans-serif !important;
@@ -29,7 +31,7 @@ h3 {
     font-family: Metropolis, sans-serif;
     font-size: 1.4em;
     color: #0369A1;
-    font-weight:500;
+    font-weight: 500;
     margin-top: 20px !important;
 }
 
@@ -50,7 +52,9 @@ a:hover {
 }
 
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
     text-decoration: none;
 }
 
@@ -83,8 +87,8 @@ img#equalitieLogo {
     width: 162px;
 }
 
-img.hasBorder { 
-    border:2px solid #0EA5E9;
+img.hasBorder {
+    border: 2px solid #0EA5E9;
     border-radius: 15px;
 }
 
@@ -97,34 +101,34 @@ div.row {
     margin-bottom: 40px;
 }
 
-.section > h2 {
+.section>h2 {
     -margin-top: 40px;
     margin-bottom: 30px;
 }
 
 .icons i,
 .icons svg {
-   color: #0369A1;
+    color: #0369A1;
 }
 
 .btn-danger {
     color: #0369A1;
-    font-size:1em;
+    font-size: 1em;
 }
 
 .btn-outline-danger {
     border-color: #C2410C;
-    font-size:1.25em;
+    font-size: 1.25em;
     color: #C2410C;
 }
 
 .btn-outline-danger:hover {
-   background-color: #EA580C;
-   border-color: #EA580C;
-   color: #FFFFFF;
+    background-color: #EA580C;
+    border-color: #EA580C;
+    color: #FFFFFF;
 }
 
-.navbar-light .navbar-nav .nav-link {    
+.navbar-light .navbar-nav .nav-link {
     background-color: white;
     color: #0369A1;
 }
@@ -152,4 +156,37 @@ div.row {
 [dir=rtl] .fa-pull-end {
     float: left;
     margin-right: .3em;
+}
+
+.error-page {
+    display: grid;
+    grid-template-columns: minmax(200px, 400px) minmax(342px, 400px);
+    column-gap: 5rem;
+    justify-content: center;
+}
+
+.error-page-text {
+    align-self: center;
+    display: grid;
+    grid-template-rows: max-content max-content max-content;
+    grid-row-gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .error-page {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content min-content;
+        grid-row-gap: 2rem;
+        justify-items: center;
+    }
+
+    .error-page-text {
+        grid-row: 2;
+        max-width: 375px;
+        align-items: center;
+    }
+
+    .error-page-hero-img {
+        grid-row: 1;
+    }
 }
