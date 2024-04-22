@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-04-03 11:20-0700\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-22 11:15-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -178,7 +178,9 @@ msgstr ""
 "reciente directamente:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:210-17
-msgid "Ceno Browser 2.1.0"
+#, fuzzy
+#| msgid "Ceno Browser 2.1.0"
+msgid "Ceno Browser 2.1.1"
 msgstr "Navegador Ceno 2.1.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:211-20
@@ -220,8 +222,8 @@ msgid ""
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 "También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v2.1.0/sha256sums.txt.asc\">firmas</a> de los <a href=\"https"
-"://ceno-download.s3.amazonaws.com/ceno/v2.1.0/sha256sums.txt\">hashes de "
+"com/ceno/v2.1.0/sha256sums.txt.asc\">firmas</a> de los <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.1.0/sha256sums.txt\">hashes de "
 "archivos</a> contrastándolas con nuestra <a href=\"https://pgp.mit.edu/pks/"
 "lookup?op=get&search=0xC7DCC123F0DDB862\">clave PGP</a> (con huella digital "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
