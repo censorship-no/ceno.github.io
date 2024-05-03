@@ -396,7 +396,7 @@ div .mobile-i18n-panel {
     z-index: 3;
 }
 
-.mobile-i18n-panel-rtl {
+[dir=rtl] nav .mobile-i18n-panel {
     left: 4%;
     right: auto !important;
 }
