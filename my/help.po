@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,44 +18,43 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "အကြောင်းအရာ"
+#: help.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "help.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "အကူအညီ"
+#: help.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "help.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "သတင်း"
-
-#: help.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "အသိုင်းအဝိုင်း"
-
-#: help.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "လှူဒါန်းမည်"
-
-#: help.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno ကို ရယူမည်"
-
-#: help.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "‌ဒေါင်းလုပ်ဒ်"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: help.html%2Bhtml.body.nav.div.div.div:127-1
+#: help.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: help.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: help.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#| "hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+#| "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#| "href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#| "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</"
+#| "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#| "href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+#| "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+msgctxt "help.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -87,15 +86,87 @@ msgstr ""
 "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 
-#: help.html%2Bhtml.body.main.title:157-1
+#: help.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
+
+#: help.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "help.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: help.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: help.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "help.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: help.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#| "hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+#| "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+#| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#| "href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#| "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</"
+#| "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#| "href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+#| "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+msgctxt "help.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+
+#: help.html%2Bhtml.body.main.title:174-49
 msgid "Ceno Browser | Community"
 msgstr "Ceno ဘရောက်ဇာ | အသိုင်းအဝိုင်း"
 
-#: help.html%2Bhtml.body.main.div.h1:159-5
+#: help.html%2Bhtml.body.main.div.h1:176-5
 msgid "Get Involved!"
 msgstr "ပါဝင် ပတ်သက်လိုက်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.p:160-2
+#: help.html%2Bhtml.body.main.div.p:177-2
 msgid ""
 "We'd love your support in making Ceno Browser as useful and accessible as "
 "possible. Ceno is a completely Free/Libre/Open Source project, and there are "
@@ -104,11 +175,11 @@ msgstr ""
 "Ceno ဘရောက်ဇာကို အတတ်နိုင်ဆုံး အသုံးဝင်ပြီး ဝင်ရောက်သုံးစွဲနိုင်အောင် ပြုလုပ်ရာတွင် သင့်အနေနှင့် "
 "ပံ့ပိုးပေးစေလိုပါသည်။ Ceno သည် လုံးဝ အခမဲ့/လွတ်လပ်သော/ကန့်သတ်မထားသော ရင်းမြစ် ဆော့ဖ်ဝဲ ဖြစ်သည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:170-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:187-17
 msgid "Translations"
 msgstr "ဘာသာပြန်ဆိုချက်များ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:172-9
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-9
 msgid ""
 "Help translate the Ceno Browser app, web extension, user manual and website! "
 "We use Weblate to crowdsource translations."
@@ -116,7 +187,7 @@ msgstr ""
 "Ceno ဘရောက်ဇာ အက်ပ်၊ ဝက်ဘ်အဆက်၊ သုံးစွဲသူ လက်စွဲနှင့် ဝက်ဘ်ဆိုက်ကို ကူညီ ဘာသာပြန်ဆိုပါ။ လူအစုအဝေးဖြင့် "
 "ဘာသာပြန်ဆိုနိုင်ရန်အတွက် Weblate ကို အသုံးပြုပါသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:173-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:190-13
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
@@ -125,7 +196,7 @@ msgstr ""
 "စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ support [at] censorship [dot] no မှတစ်ဆင့် Ceno အသင်းကို "
 "ဆက်သွယ်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:174-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:191-13
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
@@ -133,15 +204,15 @@ msgstr ""
 "Weblate ကို အသုံးပြုရန် နောက်ထပ် အချက်အလက်များ သိလိုပါက <a href=\"https://docs.weblate."
 "org/\">Weblate စာရွက်စာတမ်းကို ကြည့်ပါ။</a>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:175-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:192-17
 msgid "Join our Weblate"
 msgstr "ကျွန်ုပ်တို့၏ Weblate တွင် ပါဝင်လိုက်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:186-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:203-17
 msgid "User Research"
 msgstr "အသုံးပြုသူသုတေသန"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:187-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:204-3
 msgid ""
 "Ceno relies on user feedback to understand the needs of our users and to "
 "suggest improvements and new features."
@@ -149,17 +220,15 @@ msgstr ""
 "Ceno သည် အသုံးပြုသူများ၏ လိုအပ်ချက်များကို နားလည်ရန်နှင့် တိုးတက်မှုများနှင့် အသွင်အပြင် အသစ်များကို "
 "အကြံပြုရန် အသုံးပြုသူများ၏ တုံ့ပြန်မှုပေါ်၌ အားထားသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:188-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:205-3
 msgid ""
 "Sharing your story also helps spread the word about Ceno, which grows the "
 "network. With your consent, we may also highlight your story on our website!"
 msgstr ""
-"သင်၏ အတွေ့အကြုံများကို မျှဝေခြင်းသည် Ceno အား ဖြန့်ဝေရာတွင် "
-"အထောက်အကူဖြစ်စေသည့်အပြင် ကွန်ရက်ကိုလည်း ကြီးထွားလာစေသည်။ "
-"သင်၏သဘောတူညီချက်ဖြင့် ကျွန်ုပ်တို့၏ ဝဘ်ဆိုက်တွင် သင့်အတွေ့အကြုံများကိုလည်း "
-"ဖော်ပြပါမည်။"
+"သင်၏ အတွေ့အကြုံများကို မျှဝေခြင်းသည် Ceno အား ဖြန့်ဝေရာတွင် အထောက်အကူဖြစ်စေသည့်အပြင် ကွန်ရက်ကိုလည်း "
+"ကြီးထွားလာစေသည်။ သင်၏သဘောတူညီချက်ဖြင့် ကျွန်ုပ်တို့၏ ဝဘ်ဆိုက်တွင် သင့်အတွေ့အကြုံများကိုလည်း ဖော်ပြပါမည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:206-3
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
@@ -167,19 +236,19 @@ msgstr ""
 "Play Store ပေါ်မှ မှတ်ချက်များသာမက တိုက်ရိုက်ဆက်သွယ်မှုများကိုလည်း ကျွန်ုပ်တို့ ကြိုဆိုပါသည်။ ကျွန်ုပ်တို့၏ဆိုရှယ် "
 "ချန်နယ်များမှတဆင့် သို့မဟုတ် အီးမေးလ်ပို့ခြင်းမှတဆင့် ကျွန်ုပ်တို့အသင်းနှင့် ဆက်သွယ်နိုင်ပါသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:190-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:207-3
 msgid "support [at] censorship [dot] no"
 msgstr "support [at] censorship [dot] no"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:191-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:208-17
 msgid "Take a survey"
 msgstr "စစ်တမ်း ဖြေဆိုရန်"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:202-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:219-17
 msgid "Source Code"
 msgstr "ရင်းမြစ် ကုဒ်"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:203-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:220-3
 msgid ""
 "If you are interested in Ceno's source code please check the following Git "
 "repositories:"
@@ -187,69 +256,68 @@ msgstr ""
 "သင်သည် ၎င်း၏ ရင်းမြစ် ကုဒ်ကို စိတ်ဝင်စားပါက ကျေးဇူးပြု၍ အောက်ပါ Git respositories များကို "
 "စစ်ဆေးပါ -"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:205-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:222-12
 msgid "Ceno Browser"
 msgstr "Ceno ဘရောက်ဇာ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:206-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:223-5
 msgid "Mozilla Build Scripts"
 msgstr "Mozilla Build Scripts"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:207-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:224-5
 msgid "Firefox Browser Extension"
 msgstr "Firefox Browser Extension"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:208-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:225-12
 msgid "Ouinet"
 msgstr "Ouinet"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:209-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:226-5
 msgid "Ceno Docker Client"
 msgstr "Ceno Docker သုံးစွဲသူ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:210-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:227-12
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
 "Ceno</a>, built on the <a href=\"https://freenetproject.org/\">Freenet</a> "
 "anonymous file sharing and content publishing network."
 msgstr ""
-"သင်သည် (ဆက်လက်ပြုပြင်ထိန်းသိမ်းမထားတော့သည့်) <a href=\"https://gitlab.com/"
-"censorship-no/ceno-browser-archive\">Ceno ၏ ယခင် စံနမူနာ</a>ကိုလည်း "
-"စိတ်ဝင်စားနိုင်သည်၊ ၎င်းကို အမည်မသိ ဖိုင်မျှဝေခြင်းနှင့် "
-"အကြောင်းအရာထုတ်ဝေခြင်း ကွန်ရက် <a href=\"https://freenetproject.org/\"> "
-"Freenet</a> ပေါ်တွင် တည်ဆောက်ထားသည်။"
+"သင်သည် (ဆက်လက်ပြုပြင်ထိန်းသိမ်းမထားတော့သည့်) <a href=\"https://gitlab.com/censorship-no/"
+"ceno-browser-archive\">Ceno ၏ ယခင် စံနမူနာ</a>ကိုလည်း စိတ်ဝင်စားနိုင်သည်၊ ၎င်းကို အမည်မသိ "
+"ဖိုင်မျှဝေခြင်းနှင့် အကြောင်းအရာထုတ်ဝေခြင်း ကွန်ရက် <a href=\"https://freenetproject.org/"
+"\"> Freenet</a> ပေါ်တွင် တည်ဆောက်ထားသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:211-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:228-17
 msgid "Browse our Gitlab"
 msgstr "ကျွန်ုပ်တို့၏ Gitူlab တွင် ကြည့်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.h2:224-1
+#: help.html%2Bhtml.body.main.div.section.h2:241-1
 msgid "Run a Bridge Node"
 msgstr "ပေါင်းကူး ဆက်သွယ်ရေးပွိုင့်ကို လုပ်ဆောင်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:230-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:247-3
 msgid "Become a bridge!"
 msgstr "ပေါင်းကူးတစ်ခု ဖြစ်လာပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:232-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:249-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr "ကွန်ရက် ကျယ်ပြန့်စေရန် ကူညီလိုပါသလား။ အဖွဲ့တွင် ပါဝင်လိုက်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:239-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:256-3
 msgid "The easy way: Android"
 msgstr "လွယ်ကူသော နည်းလမ်း- Android။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:241-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:258-17
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr "Ceno ဘရောက်ဇာကို သင့် Ceno စက်နှင့်/ သို့မဟုတ် အပိုဆောင်း အမြဲဖွင့် စက်ပေါ်တွင် လုပ်ဆောင်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:248-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:265-3
 msgid "Run the Ceno Docker Client"
 msgstr "Ceno Docker လက်ခံစက်ကို လုပ်ဆောင်ပါ -"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:250-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:267-17
 msgid ""
 "Alternatively, with just one command you can set up a bridge on your "
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
@@ -259,41 +327,41 @@ msgstr ""
 "သတ်မှတ်နိုင်သည်။ <code>sudo docker run --name ceno-client -dv ceno:/var/opt/ouinet "
 "--network host --restart unless-stopped equalitie/ceno-client</code>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:257-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:274-3
 msgid "Open a portal to the internet"
 msgstr "အင်တာနက်သို့ ပေါ်တယ်တစ်ခု ဖွင့်ပါ"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:259-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:276-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
 "သင့်ရောက်တာတွင် UPnP ကို ဖွင့်ထားကြောင်း သေချာပါစေ၊ သို့မဟုတ်ပါက ပေါ့တ် တစ်ဆင့်ပို့ခြင်းကို သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:266-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:283-3
 msgid "To see if it's working:"
 msgstr "အလုပ်လုပ်၊ မလုပ် သိရှိရန် -"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:268-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:285-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
 msgstr ""
 "Firefox ပရိုဖိုင်းအသစ်တစ်ခုကို ဖန်တီးပြီး ဖွင့်ပါ၊ ထို့နောက် ပရောက်စီကို စက်တွင်းဟို့စ်၊ ပေါ့တ် 8077 သို့ သတ်မှတ်ပါ။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:275-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:292-3
 msgid "Thank you for growing the network!"
 msgstr "အဖွဲ့တွင် ပါဝင်သည့်အတွက် ကျေးဇူးတင်ပါသည်။"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:277-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:294-17
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr "Ceno ဝက်ဘ် Extensionနှင့် ပေးထားသည့် အသိအမှတ်ပြုလက်မှတ်ကို ထည့်သွင်းပြီး စမ်းသုံးကြည့်ပါ။"
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.section.div.div:283-1
+#: help.html%2Bhtml.body.main.div.section.div.div:300-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr "ပေါင်းကူးတစ်ခု တည်ဆောက်ခြင်းအကြောင်း ပိုမိုလေ့လာရန် ကျေးဇူးပြု၍ သုံးစွဲသူ လက်စွဲကို ရည်ညွှန်းပါ။"
 
-#: help.html%2Bhtml.body.footer.div.p:305-9
+#: help.html%2Bhtml.body.footer.div.p:322-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -309,13 +377,31 @@ msgstr ""
 "၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် ပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:307-23
+#: help.html%2Bhtml.body.footer:324-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "အကြောင်းအရာ"
+
+#~ msgid "Support"
+#~ msgstr "အကူအညီ"
+
+#~ msgid "News"
+#~ msgstr "သတင်း"
+
+#~ msgid "Community"
+#~ msgstr "အသိုင်းအဝိုင်း"
+
+#~ msgid "Donate"
+#~ msgstr "လှူဒါန်းမည်"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno ကို ရယူမည်"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"

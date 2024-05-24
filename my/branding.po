@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-03 10:37-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,45 +18,28 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "အကြောင်းအရာ"
+#: branding.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "branding.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "အကူအညီ"
+#: branding.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "branding.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "သတင်း"
-
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "အသိုင်းအဝိုင်း"
-
-#: branding.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "လှူဒါန်းမည်"
-
-#: branding.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno ကို ရယူမည်"
-
-#: branding.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "‌ဒေါင်းလုပ်ဒ်"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: branding.html%2Bhtml.body.nav.div.div.div:127-1
+#: branding.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: branding.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: branding.html%2Bhtml.body.nav.div.div.div.div:112-11
 #, fuzzy
+msgctxt "branding.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/branding."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -85,82 +68,136 @@ msgstr ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
 "html\">Українська</a>"
 
-#: branding.html%2Bhtml.body.main.title:157-1
+#: branding.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
+
+#: branding.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "branding.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: branding.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: branding.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "branding.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: branding.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+msgctxt "branding.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/branding."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/branding.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/branding.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/branding.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/branding.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"branding.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/branding.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/branding.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/branding."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
+"lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/branding."
+"html\">Українська</a>"
+
+#: branding.html%2Bhtml.body.main.title:174-61
 msgid "Ceno Browser | Brand and Style Guide"
 msgstr "Ceno ဘရောက်ဇာ | အမှတ်တံဆိပ်နှင့် စတိုင်လမ်းညွှန်"
 
-#: branding.html%2Bhtml.body.main.div.h1:159-5
+#: branding.html%2Bhtml.body.main.div.h1:176-5
 msgid "Brand and Style Guide"
 msgstr "အမှတ်တံဆိပ်နှင့် စတိုင်လမ်းညွှန်"
 
-#: branding.html%2Bhtml.body.main.div.h2:161-2
+#: branding.html%2Bhtml.body.main.div.h2:178-2
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.h2:161-2"
+msgctxt "branding.html+html.body.main.div.h2:178-2"
 msgid "Logo"
 msgstr "လိုဂို"
 
-#: branding.html%2Bhtml.body.main.div.p:162-2
+#: branding.html%2Bhtml.body.main.div.p:179-2
 msgid ""
 "In order to preserve accessibility, the color version must be used in white "
 "backgrounds and the opposite."
 msgstr ""
 "သုံးစွဲခြင်းကို ထိန်းသိမ်းရန်အတွက် အရောင်ဗားရှင်းသည် အဖြူရောင်နောက်ခံနှင့် ၎င်း၏ဆန့်ကျင်ဘက်ကိုသာ သုံးစွဲရမည်။"
 
-#: branding.html%2Bhtml.body.main.div.div.div.h3:164-26
+#: branding.html%2Bhtml.body.main.div.div.div.h3:181-26
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.h3:164-26"
+msgctxt "branding.html+html.body.main.div.div.div.h3:181-26"
 msgid "Logo"
 msgstr "လိုဂို"
 
-#: branding.html%2Bhtml.body.main.div.div.div.h3:168-26
+#: branding.html%2Bhtml.body.main.div.div.div.h3:185-26
 msgid "Logo Icon"
 msgstr "လိုဂို အိုင်ကွန်"
 
-#: branding.html%2Bhtml.body.main.div.h2:174-2
+#: branding.html%2Bhtml.body.main.div.h2:191-2
 msgid "Colors"
 msgstr "အရောင်များ"
 
-#: branding.html%2Bhtml.body.main.div.p:175-9
+#: branding.html%2Bhtml.body.main.div.p:192-9
 msgid "These are the colors that represent Ceno’s brand identity."
 msgstr "ဤအရောင်များသည် Ceno၏အမှတ်တံဆိပ်လက္ခဏာကို ကိုယ်စားပြုသောအရောင်များဖြစ်သည်။"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:179-33
+#: branding.html%2Bhtml.body.main.div.div.div.div.h3:196-33
 msgid "Primary Color"
 msgstr "မူလအရောင်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:182-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:199-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:182-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:199-15"
 msgid "Light Blue"
 msgstr "အပြာနုရောင်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:183-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:200-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:183-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:200-15"
 msgid "#0EA5E9"
 msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.h3:187-33
+#: branding.html%2Bhtml.body.main.div.div.div.div.h3:204-33
 msgid "Secondary Color"
 msgstr "ဒုတိယအရောင်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:190-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:207-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:190-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:207-15"
 msgid "Orange"
 msgstr "လိမ္မော်ရောင်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:191-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:208-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:191-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:208-15"
 msgid "#F97316"
 msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.h2:199-2
+#: branding.html%2Bhtml.body.main.div.h2:216-2
 msgid "UI Colors"
 msgstr "UI(သုံးစွဲသူ ကြားခံ) အရောင်များ"
 
-#: branding.html%2Bhtml.body.main.div.p:200-9
+#: branding.html%2Bhtml.body.main.div.p:217-9
 msgid ""
 "For accessibility and readability reasons, here’s the extended Color Palette "
 "of 10 different shades of both brand colors. When colors are used in text, "
@@ -174,235 +211,234 @@ msgstr ""
 "နံပါတ် ၂အချက်အရ Level AA တွင် Contrast Ratio သည် အနည်းဆုံး 4.5:1 ဖြစ်ရမည်။ "
 "ဤလိုအပ်ချက်ဖြင့်ကိုက်ညီပါက ဖော်ပြပါအရောင်ကွက်၏ မည်သည့်အရောင်ကိုမဆို အသုံးပြုနိုင်သည်။"
 
-#: branding.html%2Bhtml.body.main.div.div.h3:207-11
+#: branding.html%2Bhtml.body.main.div.div.h3:224-11
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.h3:207-11"
+msgctxt "branding.html+html.body.main.div.div.h3:224-11"
 msgid "Light Blue"
 msgstr "အပြာနုရောင်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:211-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:228-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:211-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:228-15"
 msgid "50"
 msgstr "၅၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:212-8
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:229-8
 msgid "#F0F9FF"
 msgstr "#F0F9FF"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:217-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:234-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:217-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:234-15"
 msgid "500"
 msgstr "၅၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:218-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:235-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:218-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:235-15"
 msgid "#0EA5E9"
 msgstr "#0EA5E9"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:225-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:242-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:225-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:242-15"
 msgid "100"
 msgstr "၁၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:226-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:243-15
 msgid "#E0F2FE"
 msgstr "#E0F2FE"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:231-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:248-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:231-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:248-15"
 msgid "600"
 msgstr "၆၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:232-15
-#, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:232-15"
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:249-15
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:249-15"
 msgid "#0284C7"
 msgstr "#0284C7"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:240-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:257-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:240-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:257-15"
 msgid "200"
 msgstr "၂၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:241-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:258-15
 msgid "#BAE6FD"
 msgstr "#BAE6FD"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:246-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:263-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:246-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:263-15"
 msgid "700"
 msgstr "၇၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:247-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:264-15
 msgid "#0369A1"
 msgstr "#0369A1"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:255-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:272-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:255-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:272-15"
 msgid "300"
 msgstr "၃၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:256-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:273-15
 msgid "#7DD3FC"
 msgstr "#7DD3FC"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:261-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:278-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:261-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:278-15"
 msgid "800"
 msgstr "၈၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:262-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:279-15
 msgid "#075985"
 msgstr "#075985"
-
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:270-15
-#, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:270-15"
-msgid "400"
-msgstr "၄၀၀"
-
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:271-15
-msgid "#38BDF8"
-msgstr "#38BDF8"
-
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:276-15
-#, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:276-15"
-msgid "900"
-msgstr "၉၀၀"
-
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:277-15
-#, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:277-15"
-msgid "#0284C7"
-msgstr "#0284C7"
-
-#: branding.html%2Bhtml.body.main.div.div.h3:283-11
-#, fuzzy
-msgctxt "branding.html+html.body.main.div.div.h3:283-11"
-msgid "Orange"
-msgstr "လိမ္မော်ရောင်"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:287-15
 #, fuzzy
 msgctxt "branding.html+html.body.main.div.div.div.div.div.p:287-15"
-msgid "50"
-msgstr "၅၀"
+msgid "400"
+msgstr "၄၀၀"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:288-15
-msgid "#FFF7ED"
-msgstr "#FFF7ED"
+msgid "#38BDF8"
+msgstr "#38BDF8"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:293-15
 #, fuzzy
 msgctxt "branding.html+html.body.main.div.div.div.div.div.p:293-15"
-msgid "500"
-msgstr "၅၀၀"
+msgid "900"
+msgstr "၉၀၀"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:294-15
 #, fuzzy
 msgctxt "branding.html+html.body.main.div.div.div.div.div.p:294-15"
+msgid "#0284C7"
+msgstr "#0284C7"
+
+#: branding.html%2Bhtml.body.main.div.div.h3:300-11
+#, fuzzy
+msgctxt "branding.html+html.body.main.div.div.h3:300-11"
+msgid "Orange"
+msgstr "လိမ္မော်ရောင်"
+
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:304-15
+#, fuzzy
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:304-15"
+msgid "50"
+msgstr "၅၀"
+
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:305-15
+msgid "#FFF7ED"
+msgstr "#FFF7ED"
+
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:310-15
+#, fuzzy
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:310-15"
+msgid "500"
+msgstr "၅၀၀"
+
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:311-15
+#, fuzzy
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:311-15"
 msgid "#F97316"
 msgstr "#F97316"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:301-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:318-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:301-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:318-15"
 msgid "100"
 msgstr "၁၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:302-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:319-15
 msgid "#FFEDD5"
 msgstr "#FFEDD5"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:307-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:324-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:307-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:324-15"
 msgid "600"
 msgstr "၆၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:308-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:325-15
 msgid "#EA580C"
 msgstr "#EA580C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:316-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:333-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:316-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:333-15"
 msgid "200"
 msgstr "၂၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:317-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:334-15
 msgid "#FED7AA"
 msgstr "#FED7AA"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:322-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:339-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:322-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:339-15"
 msgid "700"
 msgstr "၇၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:323-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:340-15
 msgid "#C2410C"
 msgstr "#C2410C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:330-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:347-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:330-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:347-15"
 msgid "300"
 msgstr "၃၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:331-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:348-15
 msgid "#FDBA74"
 msgstr "#FDBA74"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:336-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:353-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:336-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:353-15"
 msgid "800"
 msgstr "၈၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:337-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:354-15
 msgid "#9A3412"
 msgstr "#9A3412"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:345-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:362-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:345-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:362-15"
 msgid "400"
 msgstr "၄၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:346-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:363-15
 msgid "#FB923C"
 msgstr "#FB923C"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:351-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:368-15
 #, fuzzy
-msgctxt "branding.html+html.body.main.div.div.div.div.div.p:351-15"
+msgctxt "branding.html+html.body.main.div.div.div.div.div.p:368-15"
 msgid "900"
 msgstr "၉၀၀"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:352-15
+#: branding.html%2Bhtml.body.main.div.div.div.div.div.p:369-15
 msgid "#7C2D12"
 msgstr "#7C2D12"
 
-#: branding.html%2Bhtml.body.main.div.h2:359-1
+#: branding.html%2Bhtml.body.main.div.h2:376-1
 msgid "Typography"
 msgstr "စာစီစာရိုက်"
 
-#: branding.html%2Bhtml.body.main.div.div.div.p:362-9
+#: branding.html%2Bhtml.body.main.div.div.div.p:379-9
 msgid "Primary"
 msgstr "ပထမဦးစားပေး"
 
-#: branding.html%2Bhtml.body.main.div.div.div.p:363-9
+#: branding.html%2Bhtml.body.main.div.div.div.p:380-9
 msgid ""
 "<strong>Metropolis</strong> is used as primary font of the visual identity. "
 "It can be used in lower and upper cases. It comes with a family of styles. "
@@ -412,11 +448,11 @@ msgstr ""
 "စာလုံးပုံစံအဖြစ် အသုံးပြုသည်။ စာလုံးအကြီးနှင့် အသေးတွင် အသုံးပြုနိုင်သည်။ စာလုံးပုံစံသည် အစုလိုက်ရှိပါသည်။ ယခု "
 "စာလုံးပုံစံသည် ခေါင်းစဉ်များနှင့် ခေါင်းစီးများကဲ့သို့သောစာသားများတွင် အသုံးပြုသည်။"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:369-9
+#: branding.html%2Bhtml.body.main.div.div.div.div.p:386-9
 msgid "Secondary"
 msgstr "ဒုတိယဦးစားပေး"
 
-#: branding.html%2Bhtml.body.main.div.div.div.div.p:370-9
+#: branding.html%2Bhtml.body.main.div.div.div.div.p:387-9
 msgid ""
 "<strong>Inter</strong> is used as secondary font of the visual identity. It "
 "can be used in lower and upper cases. It comes with a family of styles. This "
@@ -426,7 +462,7 @@ msgstr ""
 "စာလုံးပုံစံအဖြစ် အသုံးပြုသည်။ စာလုံးအကြီးနှင့် အသေးတွင် အသုံးပြုနိုင်သည်။ စာလုံးပုံစံသည် အစုလိုက်ရှိပါသည်။ ယခု "
 "စာလုံးပုံစံသည် ခေါင်းစဉ်များနှင့် ခေါင်းစီးများကဲ့သို့သောစာသားများတွင် အသုံးပြုသည်။"
 
-#: branding.html%2Bhtml.body.footer.div.p:393-9
+#: branding.html%2Bhtml.body.footer.div.p:410-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -442,13 +478,111 @@ msgstr ""
 "၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် ပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: branding.html%2Bhtml.body.footer:395-23
+#: branding.html%2Bhtml.body.footer:412-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "အကြောင်းအရာ"
+
+#~ msgid "Support"
+#~ msgstr "အကူအညီ"
+
+#~ msgid "News"
+#~ msgstr "သတင်း"
+
+#~ msgid "Community"
+#~ msgstr "အသိုင်းအဝိုင်း"
+
+#~ msgid "Donate"
+#~ msgstr "လှူဒါန်းမည်"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno ကို ရယူမည်"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.h3:164-26"
+#~ msgid "Logo"
+#~ msgstr "လိုဂို"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.h3:207-11"
+#~ msgid "Light Blue"
+#~ msgstr "အပြာနုရောင်"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:218-15"
+#~ msgid "#0EA5E9"
+#~ msgstr "#0EA5E9"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:277-15"
+#~ msgid "#0284C7"
+#~ msgstr "#0284C7"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.h3:283-11"
+#~ msgid "Orange"
+#~ msgstr "လိမ္မော်ရောင်"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:287-15"
+#~ msgid "50"
+#~ msgstr "၅၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:293-15"
+#~ msgid "500"
+#~ msgstr "၅၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:294-15"
+#~ msgid "#F97316"
+#~ msgstr "#F97316"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:301-15"
+#~ msgid "100"
+#~ msgstr "၁၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:307-15"
+#~ msgid "600"
+#~ msgstr "၆၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:316-15"
+#~ msgid "200"
+#~ msgstr "၂၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:322-15"
+#~ msgid "700"
+#~ msgstr "၇၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:330-15"
+#~ msgid "300"
+#~ msgstr "၃၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:336-15"
+#~ msgid "800"
+#~ msgstr "၈၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:345-15"
+#~ msgid "400"
+#~ msgstr "၄၀၀"
+
+#, fuzzy
+#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:351-15"
+#~ msgid "900"
+#~ msgstr "၉၀၀"
 
 #~ msgctxt "branding.html+html.body.main.div.h2:144-2"
 #~ msgid "Logo"
@@ -856,10 +990,6 @@ msgstr ""
 #~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:190-15"
 #~ msgid "#0EA5E9"
 #~ msgstr "#0EA5E9"
-
-#~ msgctxt "branding.html+html.body.main.div.div.div.div.div.p:249-15"
-#~ msgid "#0284C7"
-#~ msgstr "#0284C7"
 
 #~ msgctxt "branding.html+html.body.main.div.div.h3:255-11"
 #~ msgid "Orange"

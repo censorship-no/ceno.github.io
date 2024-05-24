@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,45 +18,28 @@ msgstr ""
 msgid "en"
 msgstr "ur"
 
-#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "کے بارے میںکے بارے میں"
+#: ir-highlights.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "ir-highlights.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "معاونت"
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "ir-highlights.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "خبریں"
-
-#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "کمیونٹی"
-
-#: ir-highlights.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "عطیہ کریں"
-
-#: ir-highlights.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno حاصل کریں"
-
-#: ir-highlights.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "ڈاؤن لوڈ کریں"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: ir-highlights.html%2Bhtml.body.nav.div.div.div:127-1
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "UR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: ir-highlights.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div.div:112-11
 #, fuzzy
+msgctxt "ir-highlights.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/ir-"
 "highlights.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
@@ -89,23 +72,81 @@ msgstr ""
 "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/ir-"
 "highlights.html\">اردو</a>"
 
-#: ir-highlights.html%2Bhtml.body.main.title:157-1
+#: ir-highlights.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "ڈاؤن لوڈ کریں"
+
+#: ir-highlights.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "ir-highlights.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: ir-highlights.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: ir-highlights.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "ir-highlights.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: ir-highlights.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+msgctxt "ir-highlights.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/ir-"
+"highlights.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/ir-highlights.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/ir-highlights."
+"html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+"href=\"../fa/ir-highlights.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/ir-highlights.html\">Français</a> "
+"<a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/ir-"
+"highlights.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/ir-highlights.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/ir-highlights."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/ir-highlights.html\">Türkçe</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/ir-highlights.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/ir-"
+"highlights.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/ir-"
+"highlights.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/ir-highlights.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/ir-highlights."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/ir-highlights.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/ir-highlights.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/ir-highlights."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/ir-highlights.html\">Türkçe</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/ir-highlights.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/ir-"
+"highlights.html\">اردو</a>"
+
+#: ir-highlights.html%2Bhtml.body.main.title:174-74
 msgid "Ceno Browser | Highlights from the Ground in Iran"
 msgstr "Ceno براؤزر | ایران کے علاقے سے جھلکیاں"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.h2:161-5
+#: ir-highlights.html%2Bhtml.body.main.div.div.h2:178-5
 msgid "Highlights from the Ground in Iran"
 msgstr "ایران کے علاقے سے جھلکیاں"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.h3:162-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:179-2
 msgid "December 2022"
 msgstr "دسمبر 2022"
 
-#: ir-highlights.html%2Bhtml.body.main.div.h3:164-2
+#: ir-highlights.html%2Bhtml.body.main.div.h3:181-2
 msgid "Ceno User Experiences"
 msgstr "Ceno صارف کے تجربات"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:167-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:184-2
 msgid ""
 "User experiences have varied from region to region as ISPs have applied "
 "Internet censorship and disruption measures inconsistently."
@@ -113,7 +154,7 @@ msgstr ""
 "صارف کے تجربات خطے کے لحاظ سے مختلف ہیں کیونکہ ISPs نے انٹرنیٹ سنسرشپ اور "
 "خلل کے اقدامات کو متضاد طور پر لاگو کیا ہے۔"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:168-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:185-2
 msgid ""
 "Where Iran’s intranet (National Information Network or NIN) is the only "
 "connection available, Ceno users can still access blocked web content."
@@ -121,7 +162,7 @@ msgstr ""
 "جہاں ایران کا انٹرانیٹ (نیشنل انفارمیشن نیٹ ورک یا NIN) واحد کنکشن دستیاب "
 "ہے، وہاں Ceno صارفین اب بھی بلاک شدہ ویب مواد تک رسائی حاصل کر سکتے ہیں۔"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:169-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:186-2
 msgid ""
 "Users have been able to access blocked content on some WiFi networks and "
 "some mobile network providers."
@@ -129,7 +170,7 @@ msgstr ""
 "صارفین کچھ وائی فائی نیٹ ورکس اور کچھ موبائل نیٹ ورک فراہم کنندگان پر بلاک "
 "شدہ مواد تک رسائی حاصل کرنے کے قابل ہوئے ہیں۔"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:170-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:187-2
 msgid ""
 "Anyone globally can help expand the Ceno network by installing the app and "
 "using it to browse web content. Each use of the browser improves the speed, "
@@ -142,7 +183,7 @@ msgstr ""
 "صارفین محفوظ طریقے سے ملاحظہ کردہ ویب مواد کو زیادہ محدود علاقوں کے صارفین "
 "کے ساتھ بانٹ سکتے ہیں۔"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:171-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.div.p.ul.li:188-2
 msgid ""
 "On Ceno, users receive the information that they have requested. Network "
 "security nodes are used to verify inbound content."
@@ -150,11 +191,11 @@ msgstr ""
 "Ceno پر، صارفین کو وہ معلومات ملتی ہیں جس کی انہوں نے درخواست کی ہے۔ نیٹ ورک "
 "سیکورٹی نوڈز ان باؤنڈ مواد کی تصدیق کے لیے استعمال کیے جاتے ہیں۔"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.h3:175-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:192-2
 msgid "User Comments"
 msgstr "صارف کے تبصرے"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:176-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:193-2
 msgid ""
 "\"Impressive platform. You can't imagine how useful and brilliant it is if "
 "you don't live in countries like Iran.\""
@@ -162,7 +203,7 @@ msgstr ""
 "\"متاثر کن پلیٹ فارم۔ آپ تصور نہیں کر سکتے کہ اگر آپ ایران جیسے ممالک میں "
 "نہیں رہتے تو یہ کتنا مفید اور شاندار ہے۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:177-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:194-2
 msgid ""
 "\"This app is one of our few hopes in times of serious Internet disruptions "
 "in Iran.\""
@@ -170,7 +211,7 @@ msgstr ""
 "\"ایران میں انٹرنیٹ کی سنگین رکاوٹوں کے وقت یہ ایپ ہماری چند امیدوں میں سے "
 "ایک ہے۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:178-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:195-2
 msgid ""
 "\"Everyone should install these two apps (Ceno and NewNode). With these "
 "apps, filtering/censorship will not be effective.\""
@@ -178,7 +219,7 @@ msgstr ""
 "\"ہر ایک کو یہ دو ایپس (Ceno اور NewNode) انسٹال کرنی چاہئیں۔ ان ایپس کے "
 "ساتھ، فلٹرنگ/سینسرشپ موثر نہیں ہوگی۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:179-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:196-2
 msgid ""
 "\"Internet users living outside of Iran can support the free Internet by "
 "installing Ceno Browser to help in-country users access content even when "
@@ -188,7 +229,7 @@ msgstr ""
 "انٹرنیٹ کی حمایت کر سکتے ہیں تاکہ اندرون ملک صارفین کو مواد تک رسائی میں مدد "
 "ملے یہاں تک کہ بین الاقوامی ٹریفک میں کمی کے باوجود۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:180-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:197-2
 msgid ""
 "\"Install the Ceno browser (for Android). It can be used when the global "
 "Internet is down. It is important to have many users so that the speed can "
@@ -198,7 +239,7 @@ msgstr ""
 "ہے جب عالمی انٹرنیٹ بند ہو۔ اس کے لیے بہت سے صارفین کا ہونا ضروری ہے تاکہ "
 "نیٹ ورک کے پھیلنے کے ساتھ اس کی رفتار بڑھ سکے۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:181-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:198-2
 msgid ""
 "\"It is a good browser, especially for us Iranians, who do not have the "
 "possibility of free use of the Internet, and everything is filtered by the "
@@ -208,11 +249,11 @@ msgstr ""
 "مفت استعمال کا امکان نہیں ہے، اور ہر چیز کو حکومت فلٹر کرتی ہے، یہاں تک کہ "
 "فلٹر بریکر بھی۔\""
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.h3:183-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.h3:200-2
 msgid "Ceno in the Media"
 msgstr "میڈیا میں Ceno"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:184-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:201-2
 msgid ""
 "\"<a href=\"https://www.independentpersian.com/node/270686/\">Software for "
 "when the Internet is down,</a>” Independent Persian"
@@ -220,7 +261,7 @@ msgstr ""
 "\"<a href=\"https://www.independentpersian.com/node/270686/\">انٹرنیٹ بند "
 "ہونے پر سافٹ ویئر،</a>\" آزاد فارسی"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:185-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:202-2
 msgid ""
 "\"<a href=\"https://www.instagram.com/tv/Ci-zKL5vDzV/?"
 "utm_source=ig_web_copy_link\">What is the state of Iran's Internet?</a>” "
@@ -230,7 +271,7 @@ msgstr ""
 "utm_source=ig_web_copy_link\">ایران کے انٹرنیٹ کی کیا حالت ہے؟</a>\" ایران "
 "وائر"
 
-#: ir-highlights.html%2Bhtml.body.main.div.div.p:186-2
+#: ir-highlights.html%2Bhtml.body.main.div.div.p:203-2
 msgid ""
 "\"<a href=\"https://www.tribunezamaneh.com/archives/105862\">Back alley "
 "digital security and online marketplace for filters and tools,</a>” Zamaneh "
@@ -239,7 +280,7 @@ msgstr ""
 "\"<a href=\"https://www.tribunezamaneh.com/archives/105862\">بیک ایلی ڈیجیٹل "
 "سیکیورٹی اور فلٹرز اور ٹولز کے لیے آن لائن مارکیٹ پلیس،</a>\" زمانہ ٹریبیون"
 
-#: ir-highlights.html%2Bhtml.body.footer.div.p:204-9
+#: ir-highlights.html%2Bhtml.body.footer.div.p:221-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -255,13 +296,31 @@ msgstr ""
 "ہیں۔ وہ ہر روز لاکھوں لوگوں کو آن لائن ایسوسی ایشن کی آزادی فراہم کرتے ہیں۔"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: ir-highlights.html%2Bhtml.body.footer:206-23
+#: ir-highlights.html%2Bhtml.body.footer:223-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "کے بارے میںکے بارے میں"
+
+#~ msgid "Support"
+#~ msgstr "معاونت"
+
+#~ msgid "News"
+#~ msgstr "خبریں"
+
+#~ msgid "Community"
+#~ msgstr "کمیونٹی"
+
+#~ msgid "Donate"
+#~ msgstr "عطیہ کریں"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno حاصل کریں"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"

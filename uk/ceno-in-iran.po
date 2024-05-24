@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-02 19:44+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
@@ -19,45 +19,28 @@ msgstr ""
 msgid "en"
 msgstr "uk"
 
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "Про"
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "ceno-in-iran.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "Підтримка"
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "ceno-in-iran.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "Новини"
-
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "Спільнота"
-
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "Донат"
-
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Завантаж Ceno"
-
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "Завантажити"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div:127-1
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "UK"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div.div:112-11
 #, fuzzy
+msgctxt "ceno-in-iran.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/ceno-in-"
 "iran.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -86,15 +69,69 @@ msgstr ""
 "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/ceno-in-iran."
 "html\">Українська</a>"
 
-#: ceno-in-iran.html%2Bhtml.body.main.title:157-1
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "Завантажити"
+
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "ceno-in-iran.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: ceno-in-iran.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "ceno-in-iran.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: ceno-in-iran.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+msgctxt "ceno-in-iran.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/ceno-in-"
+"iran.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/ceno-in-iran.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/ceno-in-iran.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/ceno-in-iran."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/ceno-in-iran.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/ceno-in-iran.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/ceno-"
+"in-iran.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/ceno-in-iran.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/ceno-in-iran."
+"html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+"href=\"../uk/ceno-in-iran.html\">Українська</a> <a class=\"navbar-item\" "
+"lang=\"ur\" hreflang=\"ur\" href=\"../ur/ceno-in-iran.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/ceno-in-"
+"iran.html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/ceno-in-iran.html\">Español</a> <a class=\"navbar-item\" "
+"lang=\"fa\" hreflang=\"fa\" href=\"../fa/ceno-in-iran.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/ceno-in-iran."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/ceno-in-iran.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/ceno-in-iran.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/ceno-in-iran."
+"html\">Українська</a>"
+
+#: ceno-in-iran.html%2Bhtml.body.main.title:174-92
 msgid "Ceno Browser | Ceno proves itself in Iran during Internet shutdowns"
 msgstr "Браузер Ceno | Ceno проявляє себе в Ірані під час відключень інтернету"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.div.h2:161-5
+#: ceno-in-iran.html%2Bhtml.body.main.div.div.h2:178-5
 msgid "Ceno proves itself in Iran during Internet shutdowns"
 msgstr "Ceno проявляє себе в Ірані під час відключень інтернету"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.div.h3:162-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.div.h3:179-2
 msgid ""
 "Decentralized mobile web browser enables people to access and share "
 "information regardless of censorship"
@@ -102,7 +139,7 @@ msgstr ""
 "Децентралізований мобільний веб браузер дозволяє людям отримувати доступ до "
 "інформації та обмінюватися нею незалежно від цензури"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:164-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:181-2
 msgid ""
 "<strong>Montreal, December 15, 2022</strong> – eQualitie is pleased to "
 "announce that its Ceno Browser is fulfilling its mission of assisting "
@@ -122,7 +159,7 @@ msgstr ""
 "У 2022 році до теперішнього часу Ceno допомагала десяткам тисяч в Ірані, "
 "навіть у той час як їх інтернет-з'єднання було розірвано."
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:167-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:184-2
 msgid ""
 "Internet shutdowns are becoming more common in undemocratic countries, "
 "intensifying the need for decentralized services and tools such as Ceno. In "
@@ -140,7 +177,7 @@ msgstr ""
 "вебсайти і соціальні платформи; відключення мобільних даних; шифрування DNS "
 "служб; а також згортання мереж."
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:168-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:185-2
 msgid ""
 "Ceno has persisted around these ploys, using its robust peer-to-peer "
 "backbone, Ouinet, to sidestep every blockage, filter, shutdown and attack. "
@@ -163,7 +200,7 @@ msgstr ""
 "користувачам ділитися заблокованим, фільтрованим і цензурованим веб "
 "контентом."
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:169-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:186-2
 msgid ""
 "“It is gratifying to watch Ceno in action when it matters,” said Dmitri "
 "Vitaliev, founder and director of eQualitie. “Where the people of Iran could "
@@ -177,7 +214,7 @@ msgstr ""
 "допомогти їм орієнтуватися в їхній ситуації та отримати вільний доступ до "
 "інформації, яка інакше піддається цензурі в іранській мережі.”"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:170-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:187-2
 msgid ""
 "\"Impressive platform,” states a Google Play Store reviewer. “You can't "
 "imagine how useful and brilliant it is if you don't live in countries like "
@@ -187,7 +224,7 @@ msgstr ""
 "уявити, наскільки це корисно та блискуче, якщо ви не живете в таких країнах, "
 "як Іран.”"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:171-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:188-2
 msgid ""
 "Ceno works on Android devices, and version 2.0 s set to be released in the "
 "coming week on Google Play, <a href=\"https://censorship.no/"
@@ -209,11 +246,11 @@ msgstr ""
 "інформації, <a href=\"factsheet.html\"> доступ до інформаційного бюлетеня "
 "Ceno</a>."
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.h3:173-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.h3:190-2
 msgid "About eQualitie"
 msgstr "Про eQualitie"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.div.div.p:176-25
+#: ceno-in-iran.html%2Bhtml.body.main.div.div.div.p:193-25
 msgid ""
 "Since its foundation in 2010, eQualitie has been inspired by the principles "
 "of freedom of expression and association as defined in Articles 18, 19 and "
@@ -233,11 +270,11 @@ msgstr ""
 "отримання додаткової інформації, відвідайте <a href=\"https://equalit."
 "ie\">https://equalit.ie.</a>"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.h3:179-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.h3:196-2
 msgid "Press Contact"
 msgstr "Контакти для медіа"
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:180-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:197-2
 msgid ""
 "For press and media inquiries, please contact Jenny Ryan: press [at] "
 "equalitie [dot] org."
@@ -245,11 +282,11 @@ msgstr ""
 "Для запитів від журналістів, будь ласка, контактуйте з Jenny Ryan через: "
 "press [at] equalitie [dot] org."
 
-#: ceno-in-iran.html%2Bhtml.body.main.div.p:182-2
+#: ceno-in-iran.html%2Bhtml.body.main.div.p:199-2
 msgid "Download PDF"
 msgstr "Завантажити PDF"
 
-#: ceno-in-iran.html%2Bhtml.body.footer.div.p:200-9
+#: ceno-in-iran.html%2Bhtml.body.footer.div.p:217-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -266,13 +303,31 @@ msgstr ""
 "гарантують мільйонам людей свободу слова та свободу об'єднань в інтернеті."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: ceno-in-iran.html%2Bhtml.body.footer:202-23
+#: ceno-in-iran.html%2Bhtml.body.footer:219-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "Про"
+
+#~ msgid "Support"
+#~ msgstr "Підтримка"
+
+#~ msgid "News"
+#~ msgstr "Новини"
+
+#~ msgid "Community"
+#~ msgstr "Спільнота"
+
+#~ msgid "Donate"
+#~ msgstr "Донат"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Завантаж Ceno"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
