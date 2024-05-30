@@ -219,7 +219,7 @@ nav {
 .desktop-center-nav {
     display: flex;
     flex-direction: row;
-    gap: 1.4rem;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -417,7 +417,19 @@ label .mobile-i18n-chevron {
     gap: 1rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width:1200px) {
+    .desktop-center-nav {
+        gap: 1.4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .desktop-center-nav {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
     .desktop-nav {
         display: none;
     }
