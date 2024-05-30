@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-22 11:15-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-29 08:47+0000\n"
 "Last-Translator: Fill read-only add-on <noreply-addon-fill@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,156 +18,229 @@ msgstr ""
 msgid "en"
 msgstr ""
 
-#: support.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
+#: support.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "support.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: support.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
+#: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
 msgstr ""
 
-#: support.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr ""
-
-#: support.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr ""
-
-#: support.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr ""
-
-#: support.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr ""
-
-#: support.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr ""
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: support.html%2Bhtml.body.nav.div.div.div:127-1
+#: support.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: support.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: support.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/support.html\">English</a> <a class=\"navbar-item\" "
+#| "lang=\"es\" hreflang=\"es\" href=\"../es/support.html\">Español</a> <a "
+#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/support.html\">Français</a> <a class=\"navbar-item\" "
+#| "lang=\"my\" hreflang=\"my\" href=\"../my/support.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "support.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/support.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/support.html\">Türkçe</a> "
+#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/support."
+#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#| "hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+msgctxt "support.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
-"\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/support.html\">Español</a> <a class=\"navbar-"
 "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support.html\""
-">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
-"my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
-"hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</a> <a class"
-"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support.html\""
-">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../"
-"tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
-"\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-item\" "
-"lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
-"\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/support.html\">Español</a> <a class=\"navbar-"
 "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support.html\""
-">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
-"my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
-"hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</a> <a class"
-"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support.html\""
-">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../"
-"tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
-"\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-item\" "
-"lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+
+#: support.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr ""
+
+#: support.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "support.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: support.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: support.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "support.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: support.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/support.html\">English</a> <a class=\"navbar-item\" "
+#| "lang=\"es\" hreflang=\"es\" href=\"../es/support.html\">Español</a> <a "
+#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/support.html\">Français</a> <a class=\"navbar-item\" "
+#| "lang=\"my\" hreflang=\"my\" href=\"../my/support.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "support.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/support.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/support.html\">Türkçe</a> "
+#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/support."
+#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#| "hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+msgctxt "support.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/support.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/support.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #. title>Ceno Browser| Support</title
-#: support.html%2Bhtml.body.main:154-1
+#: support.html%2Bhtml.body.main:173-3
 msgid ""
-"window.onload = function openBridgeModeDetails() { document.getElementById"
-"(\"js-container\").style.display = \"block\"; if (window.location.hash === \""
-"#bridgemode\") { document.getElementById(\"bridgemode-details\").open = true;"
-" } }"
+"window.onload = function openBridgeModeDetails() { document."
+"getElementById(\"js-container\").style.display = \"block\"; if (window."
+"location.hash === \"#bridgemode\") { document.getElementById(\"bridgemode-"
+"details\").open = true; } }"
 msgstr ""
-"window.onload = function openBridgeModeDetails() { document.getElementById"
-"(\"js-container\").style.display = \"block\"; if (window.location.hash === \""
-"#bridgemode\") { document.getElementById(\"bridgemode-details\").open = true;"
-" } }"
+"window.onload = function openBridgeModeDetails() { document."
+"getElementById(\"js-container\").style.display = \"block\"; if (window."
+"location.hash === \"#bridgemode\") { document.getElementById(\"bridgemode-"
+"details\").open = true; } }"
 
-#: support.html%2Bhtml.body.main.title:165-1
+#: support.html%2Bhtml.body.main.title:182-1
 msgid "Ceno Browser| Support"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.h1:168-9
-msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
+#: support.html%2Bhtml.body.main.noscript.div.h1:185-9
+msgctxt "support.html+html.body.main.noscript.div.h1:185-9"
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section:169-9
-msgctxt "support.html+html.body.main.noscript.div.section:169-9"
+#: support.html%2Bhtml.body.main.noscript.div.section:186-9
+msgctxt "support.html+html.body.main.noscript.div.section:186-9"
 msgid "What is Ceno Browser?"
-msgstr ""
-
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:172-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
-msgid ""
-"Ceno is a mobile web browser based on Mozilla Android Components. It is "
-"designed for accessing and distributing web content (websites) using a novel "
-"approach that relies on BitTorrent – a decentralized file sharing network. "
-"Ceno’s advantage comes from side-stepping current Internet censorship "
-"methods and allowing people to access and share web information in and "
-"across regions where connectivity has been interrupted or compromised."
-msgstr ""
-
-#: support.html%2Bhtml.body.main.noscript.div.section.details:176-76
-msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-msgid "How does Ceno work?"
-msgstr ""
-
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:180-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:180-17"
-msgid ""
-"When a website is accessible from your network (e.g. accessing <i>www.canada."
-"ca</i> from your home internet), Ceno will connect to it like a normal web "
-"browser."
-msgstr ""
-
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:182-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:182-17"
-msgid ""
-"When a website is not accessible due to network filtering/censorship, Ceno "
-"will attempt to get the content for you. How Ceno attempts to find content "
-"depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
-"<strong>Personal</strong> mode."
-msgstr ""
-
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:185-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:185-17"
-msgid ""
-"In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
-"to see if another Ceno user has recently shared the requested page. If the "
-"service can identify the requested page, it will retrieve that page from "
-"another user’s device. If the content is not available, Ceno will contact "
-"several Injectors to request that website and have it delivered to you."
 msgstr ""
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:189-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:189-17"
 msgid ""
+"Ceno is a mobile web browser based on Mozilla Android Components. It is "
+"designed for accessing and distributing web content (websites) using a novel "
+"approach that relies on BitTorrent – a decentralized file sharing network. "
+"Ceno’s advantage comes from side-stepping current Internet censorship "
+"methods and allowing people to access and share web information in and "
+"across regions where connectivity has been interrupted or compromised."
+msgstr ""
+
+#: support.html%2Bhtml.body.main.noscript.div.section.details:193-76
+msgctxt "support.html+html.body.main.noscript.div.section.details:193-76"
+msgid "How does Ceno work?"
+msgstr ""
+
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:197-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:197-17"
+msgid ""
+"When a website is accessible from your network (e.g. accessing <i>www.canada."
+"ca</i> from your home internet), Ceno will connect to it like a normal web "
+"browser."
+msgstr ""
+
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:199-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:199-17"
+msgid ""
+"When a website is not accessible due to network filtering/censorship, Ceno "
+"will attempt to get the content for you. How Ceno attempts to find content "
+"depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
+"<strong>Personal</strong> mode."
+msgstr ""
+
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:202-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:202-17"
+msgid ""
+"In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
+"to see if another Ceno user has recently shared the requested page. If the "
+"service can identify the requested page, it will retrieve that page from "
+"another user’s device. If the content is not available, Ceno will contact "
+"several Injectors to request that website and have it delivered to you."
+msgstr ""
+
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
+msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
 "have that website fetched and delivered to you. The search will not connect "
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:192-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:192-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:209-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:209-17"
 msgid ""
 "To ensure that your Ceno client can always contact an Injector, we have also "
 "created Bridges. If the Injectors are blocked on your network, the Ceno app "
@@ -176,27 +249,27 @@ msgid ""
 "number is always growing."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:196-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:196-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
 msgid ""
-"For a more detailed explanation of how Ceno works, please read <a href"
-"=\"../user-manual/\">the user guide</a>."
+"For a more detailed explanation of how Ceno works, please read <a href=\"../"
+"user-manual/\">the user guide</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:198-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:198-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:215-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:215-17"
 msgid ""
-"For a simpler explanation of how Ceno works, <a href=\"explainer.html\""
-">please read this</a>."
+"For a simpler explanation of how Ceno works, <a href=\"explainer."
+"html\">please read this</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:198-111
-msgctxt "support.html+html.body.main.noscript.div.section.details:198-111"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:215-111
+msgctxt "support.html+html.body.main.noscript.div.section.details:215-111"
 msgid "What are the advantages of using Ceno?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:202-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:202-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:219-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:219-17"
 msgid ""
 "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
 "doing. Most web pages have static content (something you read, watch, listen "
@@ -205,8 +278,8 @@ msgid ""
 "this."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:223-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:223-17"
 msgid ""
 "Ceno’s advantage is evident in a network that censors websites, or where the "
 "network is weak or unstable. In these circumstances, the Ceno client is able "
@@ -218,8 +291,8 @@ msgid ""
 "information that may otherwise be unavailable."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:212-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:212-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:229-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:229-17"
 msgid ""
 "People running Ceno from countries that do not censor the Internet - or from "
 "parts of the world where access to the internet is reliable - can choose to "
@@ -229,8 +302,8 @@ msgid ""
 "others access the Internet."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:234-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:234-17"
 msgid ""
 "Ceno - and all accompanying components of the tool that together create a "
 "decentralized network of peers and nodes - is free and open source software. "
@@ -238,18 +311,18 @@ msgid ""
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:220-45
-msgctxt "support.html+html.body.main.noscript.div.section.details:220-45"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:237-45
+msgctxt "support.html+html.body.main.noscript.div.section.details:237-45"
 msgid "What are the risks of using Ceno?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.h3:224-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.h3:224-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.h3:241-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.h3:241-17"
 msgid "Risks for users"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:225-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:225-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:242-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:242-17"
 msgid ""
 "Every technology that deals with sensitive use cases has its advantages and "
 "risks. By design, Ceno is using the public BitTorrent network for much of "
@@ -260,16 +333,16 @@ msgid ""
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:231-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:231-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:248-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:248-17"
 msgid ""
 "Users sharing retrieved content with others may also incur additional data "
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:233-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:233-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:250-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:250-17"
 msgid ""
 "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
 "for Ceno users where the service does not interact with the BitTorrent "
@@ -279,16 +352,16 @@ msgid ""
 "accounts)."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:237-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:237-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
 msgid ""
 "You can easily switch between <strong>Public</strong> and <strong>Personal</"
 "strong> tabs in the same manner as switching between Normal and Private/"
 "Incognito tabs on your current browser."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:239-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:239-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:256-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:256-17"
 msgid ""
 "Injectors can also see requests for content on the network, including the IP "
 "address of the user making the request and the name of the website with the "
@@ -298,20 +371,20 @@ msgid ""
 "and managed by the Ceno team. We periodically delete all access logs."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.h3:244-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.h3:244-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.h3:261-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.h3:261-17"
 msgid "Risks for Bridge operators"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:245-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:245-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:262-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:262-17"
 msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
 "introduced by this action."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:263-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:263-17"
 msgid ""
 "Bridge activity is invisible to the Bridge operator (unless they are "
 "actively monitoring their device for incoming and outgoing connections). "
@@ -319,28 +392,28 @@ msgid ""
 "an Injector and forward this request."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:249-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:249-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:266-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:266-17"
 msgid ""
 "Bridge operators will have their device’s IP address listed in the "
 "BitTorrent network as an accessible Bridge."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:251-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:251-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:268-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:268-17"
 msgid ""
 "Bridging only works when the network that you are in allows for incoming "
 "connections. This is checked automatically by the Ceno client app upon "
 "start. Most wireless mobile carriers do not allow for incoming connections."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:253-42
-msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:270-42
+msgctxt "support.html+html.body.main.noscript.div.section.details:270-42"
 msgid "Who develops Ceno Browser?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:257-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:257-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:274-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:274-17"
 msgid ""
 "Ceno is a technology created and maintained by the Canadian non-profit "
 "organization <a href=\"https://equalit.ie\">eQualitie</a>. They have "
@@ -348,31 +421,32 @@ msgid ""
 "a> into the Firefox Android browser."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:260-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:260-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:277-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:277-17"
 msgid ""
 "eQualitie has been in existence for twelve years, during which time they "
 "have been creating and advancing tools to protect freedom of speech, "
 "facilitate information exchange, and promote self-expression on the internet."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:263-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:263-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:280-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:280-17"
 msgid ""
-"Some of their other projects include <a href=\"https://ouisync.net\""
-">Ouisync</a>, a service for decentralized file sharing; <a href=\"https"
-"://deflect.ca\">Deflect</a>, a tool for DDoS protection; Baskerville, a "
-"machine learning-based attack detection system; and the dComms deployment "
-"toolkit for setting up decentralized and federated network services."
+"Some of their other projects include <a href=\"https://ouisync."
+"net\">Ouisync</a>, a service for decentralized file sharing; <a "
+"href=\"https://deflect.ca\">Deflect</a>, a tool for DDoS protection; "
+"Baskerville, a machine learning-based attack detection system; and the "
+"dComms deployment toolkit for setting up decentralized and federated network "
+"services."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:266-77
-msgctxt "support.html+html.body.main.noscript.div.section.details:266-77"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:283-77
+msgctxt "support.html+html.body.main.noscript.div.section.details:283-77"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:270-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:270-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:287-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:287-17"
 msgid ""
 "VPNs were initially created for private communications between your device "
 "and a destination server. As Internet censorship became a frequent "
@@ -382,8 +456,8 @@ msgid ""
 "help their users get around local network censorship."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:275-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:275-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:292-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:292-17"
 msgid ""
 "VPNs can see who their clients are and what websites they are requesting. "
 "This is by design and a level of trust in the VPN operator is required (much "
@@ -391,8 +465,8 @@ msgid ""
 "Injectors)."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:278-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:278-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:295-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:295-17"
 msgid ""
 "Ceno’s primary distinction from a VPN is that it does attempt to route all "
 "of your website requests through the decentralized network. When a website "
@@ -402,30 +476,30 @@ msgid ""
 "improves deliverability."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:281-108
-msgctxt "support.html+html.body.main.noscript.div.section.details:281-108"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:298-108
+msgctxt "support.html+html.body.main.noscript.div.section.details:298-108"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:285-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:285-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:302-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:302-17"
 msgid ""
 "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is Tor’s "
 "primary purpose. In the Tor network, network traffic is encrypted and routed "
 "through a network of relays run by volunteers, and appears to originate from "
 "the IP address of an exit node. Tor is an excellent option for privacy from "
 "Internet surveillance and website operators. If it works in your network "
-"environment, we recommend it, provided that you’ve also read <a href=\"https"
-"://support.torproject.org/\">their support documentation</a>."
+"environment, we recommend it, provided that you’ve also read <a "
+"href=\"https://support.torproject.org/\">their support documentation</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:290-43
-msgctxt "support.html+html.body.main.noscript.div.section.details:290-43"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:307-43
+msgctxt "support.html+html.body.main.noscript.div.section.details:307-43"
 msgid "Whats the difference between Personal and Public tabs, again?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:294-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:294-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:311-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:311-17"
 msgid ""
 "Public tabs use all connectivity methods available in the Ceno network to "
 "get the content you want. When browsing using a Public tab you will leave a "
@@ -435,8 +509,8 @@ msgid ""
 "network."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:298-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:298-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:315-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:315-17"
 msgid ""
 "Information requested and retrieved in a Personal tab is not shared with "
 "anyone else. No record of your activity is recorded on BitTorrent. Use "
@@ -445,44 +519,44 @@ msgid ""
 "browsing activity in Ceno."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details:301-38
-msgctxt "support.html+html.body.main.noscript.div.section.details:301-38"
+#: support.html%2Bhtml.body.main.noscript.div.section.details:318-38
+msgctxt "support.html+html.body.main.noscript.div.section.details:318-38"
 msgid "When will there be an iPhone or Windows version?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.noscript.div.section.details.p:305-17
-msgctxt "support.html+html.body.main.noscript.div.section.details.p:305-17"
+#: support.html%2Bhtml.body.main.noscript.div.section.details.p:322-17
+msgctxt "support.html+html.body.main.noscript.div.section.details.p:322-17"
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
 "plans for release by Spring of 2024."
 msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: support.html%2Bhtml.body.main.noscript.div:310-5
-msgctxt "support.html+html.body.main.noscript.div:310-5"
+#: support.html%2Bhtml.body.main.noscript.div:327-5
+msgctxt "support.html+html.body.main.noscript.div:327-5"
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Learn "
-"more in the User Manual!</button></a> <a href=\"https://gitlab.com/equalitie/"
-"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
-"fa-xl\"></span> For a more in-depth, technical guide, see the Ouinet "
-"whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
+"equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
+"class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
+"see the Ouinet whitepaper.</button></a>"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.h1:321-5
-msgctxt "support.html+html.body.main.div.h1:321-5"
+#: support.html%2Bhtml.body.main.div.h1:338-5
+msgctxt "support.html+html.body.main.div.h1:338-5"
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section:322-5
-msgctxt "support.html+html.body.main.div.section:322-5"
+#: support.html%2Bhtml.body.main.div.section:339-5
+msgctxt "support.html+html.body.main.div.section:339-5"
 msgid "What is Ceno Browser?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:325-13
-msgctxt "support.html+html.body.main.div.section.details.p:325-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:342-13
+msgctxt "support.html+html.body.main.div.section.details.p:342-13"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
 "designed for accessing and distributing web content (websites) using a novel "
@@ -492,21 +566,21 @@ msgid ""
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:329-44
-msgctxt "support.html+html.body.main.div.section.details:329-44"
+#: support.html%2Bhtml.body.main.div.section.details:346-44
+msgctxt "support.html+html.body.main.div.section.details:346-44"
 msgid "How does Ceno work?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:333-13
-msgctxt "support.html+html.body.main.div.section.details.p:333-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:350-13
+msgctxt "support.html+html.body.main.div.section.details.p:350-13"
 msgid ""
 "When a website is accessible from your network (e.g. accessing <i>www.canada."
 "ca</i> from your home internet), Ceno will connect to it like a normal web "
 "browser."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:335-13
-msgctxt "support.html+html.body.main.div.section.details.p:335-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:352-13
+msgctxt "support.html+html.body.main.div.section.details.p:352-13"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
 "will attempt to get the content for you. How Ceno attempts to find content "
@@ -514,8 +588,8 @@ msgid ""
 "<strong>Personal</strong> mode."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:338-13
-msgctxt "support.html+html.body.main.div.section.details.p:338-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:355-13
+msgctxt "support.html+html.body.main.div.section.details.p:355-13"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
 "to see if another Ceno user has recently shared the requested page. If the "
@@ -524,8 +598,8 @@ msgid ""
 "several Injectors to request that website and have it delivered to you."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:342-13
-msgctxt "support.html+html.body.main.div.section.details.p:342-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:359-13
+msgctxt "support.html+html.body.main.div.section.details.p:359-13"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
 "have that website fetched and delivered to you. The search will not connect "
@@ -533,8 +607,8 @@ msgid ""
 "other users’ devices."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:345-13
-msgctxt "support.html+html.body.main.div.section.details.p:345-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:362-13
+msgctxt "support.html+html.body.main.div.section.details.p:362-13"
 msgid ""
 "To ensure that your Ceno client can always contact an Injector, we have also "
 "created Bridges. If the Injectors are blocked on your network, the Ceno app "
@@ -543,27 +617,27 @@ msgid ""
 "number is always growing."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:349-13
-msgctxt "support.html+html.body.main.div.section.details.p:349-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:366-13
+msgctxt "support.html+html.body.main.div.section.details.p:366-13"
 msgid ""
-"For a more detailed explanation of how Ceno works, please read <a href"
-"=\"../user-manual/\">the user guide</a>."
+"For a more detailed explanation of how Ceno works, please read <a href=\"../"
+"user-manual/\">the user guide</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:351-13
-msgctxt "support.html+html.body.main.div.section.details.p:351-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:368-13
+msgctxt "support.html+html.body.main.div.section.details.p:368-13"
 msgid ""
-"For a simpler explanation of how Ceno works, <a href=\"explainer.html\""
-">please read this</a>."
+"For a simpler explanation of how Ceno works, <a href=\"explainer."
+"html\">please read this</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:351-107
-msgctxt "support.html+html.body.main.div.section.details:351-107"
+#: support.html%2Bhtml.body.main.div.section.details:368-107
+msgctxt "support.html+html.body.main.div.section.details:368-107"
 msgid "What are the advantages of using Ceno?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:355-13
-msgctxt "support.html+html.body.main.div.section.details.p:355-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:372-13
+msgctxt "support.html+html.body.main.div.section.details.p:372-13"
 msgid ""
 "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
 "doing. Most web pages have static content (something you read, watch, listen "
@@ -572,8 +646,8 @@ msgid ""
 "this."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:358-13
-msgctxt "support.html+html.body.main.div.section.details.p:358-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:375-13
+msgctxt "support.html+html.body.main.div.section.details.p:375-13"
 msgid ""
 "Ceno’s advantage is evident in a network that censors websites, or where the "
 "network is weak or unstable. In these circumstances, the Ceno client is able "
@@ -585,8 +659,8 @@ msgid ""
 "information that may otherwise be unavailable."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:364-13
-msgctxt "support.html+html.body.main.div.section.details.p:364-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:381-13
+msgctxt "support.html+html.body.main.div.section.details.p:381-13"
 msgid ""
 "People running Ceno from countries that do not censor the Internet - or from "
 "parts of the world where access to the internet is reliable - can choose to "
@@ -596,8 +670,8 @@ msgid ""
 "others access the Internet."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:368-13
-msgctxt "support.html+html.body.main.div.section.details.p:368-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:385-13
+msgctxt "support.html+html.body.main.div.section.details.p:385-13"
 msgid ""
 "Ceno - and all accompanying components of the tool that together create a "
 "decentralized network of peers and nodes - is free and open source software. "
@@ -605,18 +679,18 @@ msgid ""
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:371-34
-msgctxt "support.html+html.body.main.div.section.details:371-34"
+#: support.html%2Bhtml.body.main.div.section.details:388-34
+msgctxt "support.html+html.body.main.div.section.details:388-34"
 msgid "What are the risks of using Ceno?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.h3:375-13
-msgctxt "support.html+html.body.main.div.section.details.h3:375-13"
+#: support.html%2Bhtml.body.main.div.section.details.h3:392-13
+msgctxt "support.html+html.body.main.div.section.details.h3:392-13"
 msgid "Risks for users"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:376-13
-msgctxt "support.html+html.body.main.div.section.details.p:376-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:393-13
+msgctxt "support.html+html.body.main.div.section.details.p:393-13"
 msgid ""
 "Every technology that deals with sensitive use cases has its advantages and "
 "risks. By design, Ceno is using the public BitTorrent network for much of "
@@ -627,16 +701,16 @@ msgid ""
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:382-13
-msgctxt "support.html+html.body.main.div.section.details.p:382-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:399-13
+msgctxt "support.html+html.body.main.div.section.details.p:399-13"
 msgid ""
 "Users sharing retrieved content with others may also incur additional data "
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:384-13
-msgctxt "support.html+html.body.main.div.section.details.p:384-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:401-13
+msgctxt "support.html+html.body.main.div.section.details.p:401-13"
 msgid ""
 "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
 "for Ceno users where the service does not interact with the BitTorrent "
@@ -646,16 +720,16 @@ msgid ""
 "accounts)."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:388-13
-msgctxt "support.html+html.body.main.div.section.details.p:388-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:405-13
+msgctxt "support.html+html.body.main.div.section.details.p:405-13"
 msgid ""
 "You can easily switch between <strong>Public</strong> and <strong>Personal</"
 "strong> tabs in the same manner as switching between Normal and Private/"
 "Incognito tabs on your current browser."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:390-13
-msgctxt "support.html+html.body.main.div.section.details.p:390-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:407-13
+msgctxt "support.html+html.body.main.div.section.details.p:407-13"
 msgid ""
 "Injectors can also see requests for content on the network, including the IP "
 "address of the user making the request and the name of the website with the "
@@ -665,20 +739,20 @@ msgid ""
 "and managed by the Ceno team. We periodically delete all access logs."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.h3:395-13
-msgctxt "support.html+html.body.main.div.section.details.h3:395-13"
+#: support.html%2Bhtml.body.main.div.section.details.h3:412-13
+msgctxt "support.html+html.body.main.div.section.details.h3:412-13"
 msgid "Risks for Bridge operators"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:396-13
-msgctxt "support.html+html.body.main.div.section.details.p:396-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:413-13
+msgctxt "support.html+html.body.main.div.section.details.p:413-13"
 msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
 "introduced by this action."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:397-13
-msgctxt "support.html+html.body.main.div.section.details.p:397-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:414-13
+msgctxt "support.html+html.body.main.div.section.details.p:414-13"
 msgid ""
 "Bridge activity is invisible to the Bridge operator (unless they are "
 "actively monitoring their device for incoming and outgoing connections). "
@@ -686,28 +760,28 @@ msgid ""
 "an Injector and forward this request."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:400-13
-msgctxt "support.html+html.body.main.div.section.details.p:400-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:417-13
+msgctxt "support.html+html.body.main.div.section.details.p:417-13"
 msgid ""
 "Bridge operators will have their device’s IP address listed in the "
 "BitTorrent network as an accessible Bridge."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:402-13
-msgctxt "support.html+html.body.main.div.section.details.p:402-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:419-13
+msgctxt "support.html+html.body.main.div.section.details.p:419-13"
 msgid ""
 "Bridging only works when the network that you are in allows for incoming "
 "connections. This is checked automatically by the Ceno client app upon "
 "start. Most wireless mobile carriers do not allow for incoming connections."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:404-29
-msgctxt "support.html+html.body.main.div.section.details:404-29"
+#: support.html%2Bhtml.body.main.div.section.details:421-29
+msgctxt "support.html+html.body.main.div.section.details:421-29"
 msgid "Who develops Ceno Browser?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:408-13
-msgctxt "support.html+html.body.main.div.section.details.p:408-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:425-13
+msgctxt "support.html+html.body.main.div.section.details.p:425-13"
 msgid ""
 "Ceno is a technology created and maintained by the Canadian non-profit "
 "organization <a href=\"https://equalit.ie\">eQualitie</a>. They have "
@@ -715,31 +789,32 @@ msgid ""
 "a> into the Firefox Android browser."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:411-13
-msgctxt "support.html+html.body.main.div.section.details.p:411-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:428-13
+msgctxt "support.html+html.body.main.div.section.details.p:428-13"
 msgid ""
 "eQualitie has been in existence for twelve years, during which time they "
 "have been creating and advancing tools to protect freedom of speech, "
 "facilitate information exchange, and promote self-expression on the internet."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:414-13
-msgctxt "support.html+html.body.main.div.section.details.p:414-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:431-13
+msgctxt "support.html+html.body.main.div.section.details.p:431-13"
 msgid ""
-"Some of their other projects include <a href=\"https://ouisync.net\""
-">Ouisync</a>, a service for decentralized file sharing; <a href=\"https"
-"://deflect.ca\">Deflect</a>, a tool for DDoS protection; Baskerville, a "
-"machine learning-based attack detection system; and the dComms deployment "
-"toolkit for setting up decentralized and federated network services."
+"Some of their other projects include <a href=\"https://ouisync."
+"net\">Ouisync</a>, a service for decentralized file sharing; <a "
+"href=\"https://deflect.ca\">Deflect</a>, a tool for DDoS protection; "
+"Baskerville, a machine learning-based attack detection system; and the "
+"dComms deployment toolkit for setting up decentralized and federated network "
+"services."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:417-73
-msgctxt "support.html+html.body.main.div.section.details:417-73"
+#: support.html%2Bhtml.body.main.div.section.details:434-73
+msgctxt "support.html+html.body.main.div.section.details:434-73"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:421-13
-msgctxt "support.html+html.body.main.div.section.details.p:421-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:438-13
+msgctxt "support.html+html.body.main.div.section.details.p:438-13"
 msgid ""
 "VPNs were initially created for private communications between your device "
 "and a destination server. As Internet censorship became a frequent "
@@ -749,8 +824,8 @@ msgid ""
 "help their users get around local network censorship."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:426-13
-msgctxt "support.html+html.body.main.div.section.details.p:426-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:443-13
+msgctxt "support.html+html.body.main.div.section.details.p:443-13"
 msgid ""
 "VPNs can see who their clients are and what websites they are requesting. "
 "This is by design and a level of trust in the VPN operator is required (much "
@@ -758,8 +833,8 @@ msgid ""
 "Injectors)."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:429-13
-msgctxt "support.html+html.body.main.div.section.details.p:429-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:446-13
+msgctxt "support.html+html.body.main.div.section.details.p:446-13"
 msgid ""
 "Ceno’s primary distinction from a VPN is that it does attempt to route all "
 "of your website requests through the decentralized network. When a website "
@@ -769,30 +844,30 @@ msgid ""
 "improves deliverability."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:432-99
-msgctxt "support.html+html.body.main.div.section.details:432-99"
+#: support.html%2Bhtml.body.main.div.section.details:449-99
+msgctxt "support.html+html.body.main.div.section.details:449-99"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:436-13
-msgctxt "support.html+html.body.main.div.section.details.p:436-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:453-13
+msgctxt "support.html+html.body.main.div.section.details.p:453-13"
 msgid ""
 "Unlike Tor Browser, Ceno Browser is not a tool for anonymity, which is Tor’s "
 "primary purpose. In the Tor network, network traffic is encrypted and routed "
 "through a network of relays run by volunteers, and appears to originate from "
 "the IP address of an exit node. Tor is an excellent option for privacy from "
 "Internet surveillance and website operators. If it works in your network "
-"environment, we recommend it, provided that you’ve also read <a href=\"https"
-"://support.torproject.org/\">their support documentation</a>."
+"environment, we recommend it, provided that you’ve also read <a "
+"href=\"https://support.torproject.org/\">their support documentation</a>."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:441-39
-msgctxt "support.html+html.body.main.div.section.details:441-39"
+#: support.html%2Bhtml.body.main.div.section.details:458-39
+msgctxt "support.html+html.body.main.div.section.details:458-39"
 msgid "Whats the difference between Personal and Public tabs, again?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:445-13
-msgctxt "support.html+html.body.main.div.section.details.p:445-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:462-13
+msgctxt "support.html+html.body.main.div.section.details.p:462-13"
 msgid ""
 "Public tabs use all connectivity methods available in the Ceno network to "
 "get the content you want. When browsing using a Public tab you will leave a "
@@ -802,8 +877,8 @@ msgid ""
 "network."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:449-13
-msgctxt "support.html+html.body.main.div.section.details.p:449-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:466-13
+msgctxt "support.html+html.body.main.div.section.details.p:466-13"
 msgid ""
 "Information requested and retrieved in a Personal tab is not shared with "
 "anyone else. No record of your activity is recorded on BitTorrent. Use "
@@ -812,33 +887,33 @@ msgid ""
 "browsing activity in Ceno."
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details:452-22
-msgctxt "support.html+html.body.main.div.section.details:452-22"
+#: support.html%2Bhtml.body.main.div.section.details:469-22
+msgctxt "support.html+html.body.main.div.section.details:469-22"
 msgid "When will there be an iPhone or Windows version?"
 msgstr ""
 
-#: support.html%2Bhtml.body.main.div.section.details.p:456-13
-msgctxt "support.html+html.body.main.div.section.details.p:456-13"
+#: support.html%2Bhtml.body.main.div.section.details.p:473-13
+msgctxt "support.html+html.body.main.div.section.details.p:473-13"
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
 "plans for release by Spring of 2024."
 msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: support.html%2Bhtml.body.main.div:461-1
-msgctxt "support.html+html.body.main.div:461-1"
+#: support.html%2Bhtml.body.main.div:478-1
+msgctxt "support.html+html.body.main.div:478-1"
 msgid ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> Learn "
-"more in the User Manual!</button></a> <a href=\"https://gitlab.com/equalitie/"
-"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
-"fa-xl\"></span> For a more in-depth, technical guide, see the Ouinet "
-"whitepaper.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
+"Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
+"equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
+"class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
+"see the Ouinet whitepaper.</button></a>"
 msgstr ""
 
-#: support.html%2Bhtml.body.footer.div.p:484-9
+#: support.html%2Bhtml.body.footer.div.p:501-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -849,10 +924,10 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: support.html%2Bhtml.body.footer:486-23
+#: support.html%2Bhtml.body.footer:503-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"

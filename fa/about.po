@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,44 +18,44 @@ msgstr ""
 msgid "en"
 msgstr "fa"
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "درباره"
+#: about.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "about.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "راهنمای کاربر"
+#: about.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "about.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "اخبار"
-
-#: about.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "انجمن"
-
-#: about.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "اهدا"
-
-#: about.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno را دریافت کنید"
-
-#: about.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "دانلود"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: about.html%2Bhtml.body.nav.div.div.div:127-1
+#: about.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "FA"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: about.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: about.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/about.html\">English</a> <a class=\"navbar-item\" "
+#| "lang=\"es\" hreflang=\"es\" href=\"../es/about.html\">Español</a> <a "
+#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/about.html\">Français</a> <a class=\"navbar-item\" "
+#| "lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> "
+#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about."
+#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#| "hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
+msgctxt "about.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -82,15 +82,83 @@ msgstr ""
 "href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
 
-#: about.html%2Bhtml.body.main.title:157-1
+#: about.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "دانلود"
+
+#: about.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "about.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: about.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "about.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: about.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
+#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#| "href=\"../en/about.html\">English</a> <a class=\"navbar-item\" "
+#| "lang=\"es\" hreflang=\"es\" href=\"../es/about.html\">Español</a> <a "
+#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/about.html\">Français</a> <a class=\"navbar-item\" "
+#| "lang=\"my\" hreflang=\"my\" href=\"../my/about.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "about.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/about.html\">Türkçe</a> "
+#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/about."
+#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#| "hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
+msgctxt "about.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/about.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/about.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/about."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/about.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/about.html\">Português</a> "
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/about."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/about.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/about.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/about."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/about.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/about.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/about.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/about."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/about.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/about.html\">Українська</a>"
+
+#: about.html%2Bhtml.body.main.title:174-45
 msgid "Ceno Browser | About"
 msgstr "Ceno مرورگر | درباره"
 
-#: about.html%2Bhtml.body.main.div.h1:160-6
+#: about.html%2Bhtml.body.main.div.h1:177-6
 msgid "How Ceno Browser Works"
 msgstr "مرورگر Ceno چگونه کار می‌کند"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:168-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:185-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -98,7 +166,7 @@ msgstr ""
 "حجم عمده ترافیک وب در کشورهایی که اینترنت را فیلتر می‌کنند از طریق صرافی‌های "
 "متمرکز هدایت می‌شود."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:176-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:193-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -106,7 +174,7 @@ msgstr ""
 "این طراحی به ساختار سانسور در مکان‌یابی و مسدود کردن پراکسی‌های محبوب، سرورهای "
 "وی‌پی‌ان، رله‌ها و غیره کمک می‌کند;"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:184-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:201-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -114,14 +182,14 @@ msgstr ""
 "در این موارد، دسترسی به سرورهای وب اصلی دشوار یا غیرممکن است و دستگاه شما "
 "قادر به دریافت آن محتوا نخواهد بود."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:192-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:209-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr ""
 "Ceno یک مرورگر وب مختص تلفن همراه برای ذخیره و به اشتراک‌گذاری محتوای وب در "
 "هر جایی است."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:200-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:217-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -129,7 +197,7 @@ msgstr ""
 "کاربران Ceno شبکه‌های کوچکی را ایجاد می‌کنند تا با یکدیگر در تماس باشند و پس "
 "از آن، یک پل خارج از منطقه سانسور شده ایجاد می‌کنند."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:208-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:225-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -138,7 +206,7 @@ msgstr ""
 "داخل کشور همتا به همتا به اشتراک گذاشته می‌شود."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:216-1
+#: about.html%2Bhtml.body.main.div.div:233-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
 "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
@@ -149,16 +217,16 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
-"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
-"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>اطلاعات "
-"بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab.com/equalitie/"
-"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
-"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
-"fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ سفید Ouinet را "
-"ببینید.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
+"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
+"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></"
+"span>اطلاعات بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab."
+"com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
+"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
+"class=\"fas fa-scroll fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ "
+"سفید Ouinet را ببینید.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:237-9
+#: about.html%2Bhtml.body.footer.div.p:254-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -174,13 +242,31 @@ msgstr ""
 "آزادی اجتماع را برای میلیون ها نفر به صورت آنلاین فراهم می کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:239-23
+#: about.html%2Bhtml.body.footer:256-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "درباره"
+
+#~ msgid "Support"
+#~ msgstr "راهنمای کاربر"
+
+#~ msgid "News"
+#~ msgstr "اخبار"
+
+#~ msgid "Community"
+#~ msgstr "انجمن"
+
+#~ msgid "Donate"
+#~ msgstr "اهدا"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno را دریافت کنید"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"

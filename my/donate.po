@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,45 +18,28 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
-#: donate.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "အကြောင်းအရာ"
+#: donate.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "donate.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: donate.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "အကူအညီ"
+#: donate.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "donate.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: donate.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "သတင်း"
-
-#: donate.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "အသိုင်းအဝိုင်း"
-
-#: donate.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "လှူဒါန်းမည်"
-
-#: donate.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno ကို ရယူမည်"
-
-#: donate.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "‌ဒေါင်းလုပ်ဒ်"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: donate.html%2Bhtml.body.nav.div.div.div:127-1
+#: donate.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: donate.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: donate.html%2Bhtml.body.nav.div.div.div.div:112-11
 #, fuzzy
+msgctxt "donate.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -83,15 +66,67 @@ msgstr ""
 "href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
-#: donate.html%2Bhtml.body.main.title:157-1
+#: donate.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
+
+#: donate.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "donate.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: donate.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: donate.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "donate.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: donate.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+msgctxt "donate.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/donate.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/donate.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/donate.html\">Português</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/donate.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a> <a class=\"navbar-"
+"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
+"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+"href=\"../es/donate.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a class=\"navbar-"
+"item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate.html\">Français</a> "
+"<a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/donate."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+"href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
+
+#: donate.html%2Bhtml.body.main.title:174-46
 msgid "Ceno Browser | Donate"
 msgstr "Ceno ဘရောက်ဇာ | လှူဒါန်းမည်"
 
-#: donate.html%2Bhtml.body.main.div.h1:159-6
+#: donate.html%2Bhtml.body.main.div.h1:176-6
 msgid "Donate to Ceno Browser"
 msgstr "Ceno ဘရောက်ဇာ သို့ လှူဒါန်းမည်"
 
-#: donate.html%2Bhtml.body.main.div.p:160-3
+#: donate.html%2Bhtml.body.main.div.p:177-3
 msgid ""
 "Ceno Browser is completely free and open source software funded solely "
 "through grants and donations. Below are some of the ways you can support its "
@@ -104,44 +139,44 @@ msgstr ""
 "ငွေကြေးထောက်ပံ့ပေးနိုင်သော နည်းလမ်းများဖြစ်ပါသည်။ အခြားသောနည်းလမ်းများဖြင့် ပါဝင်လိုပါက <a "
 "href=\"help.html\">အသိုင်းအဝိုင်း စာမျက်နှာ</a> ကို ကျေးဇူးပြုပြီး ဝင်ရောက် ကြည့်ရှုပေးပါ။"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:169-18
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:186-18
 msgid "Make a Donation"
 msgstr "လှူဒါန်းမှုပြုလုပ်မည်"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:170-11
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:187-11
 msgid "Make a one-time donation using our Paypal payment portal."
 msgstr "ကျွန်ုပ်တို့၏ Paypal ငွေပေးချေမှု ပေါ်တယ်ကို အသုံးပြုပြီး လှူဒါန်းခြင်းတစ်ကြိမ် ဆောင်ရွက်ပါ။"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:171-18
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:188-18
 msgid "Donate via Paypal"
 msgstr "Paypal မှတဆင့် လှူူဒါန်းရန်"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:182-17
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:199-17
 msgid "Become a Sponsor"
 msgstr "ပံ့ပိုးကူညီသူ ဖြစ်လာရန်"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:183-3
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:200-3
 msgid "We are currently exploring fundraising platforms and communities:"
 msgstr ""
 "ကျွန်ုပ်တို့သည် လက်ရှိတွင် ရန်ပုံ‌ငွေစုဆောင်းနိုင်သည့် ပလက်ဖောင်းများနှင့် အသိုင်းအသိုင်းများကို ရှာဖွေလျက်ရှိပါသည်။"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:184-17
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:201-17
 msgid "Sponsor on Github"
 msgstr "Github တွင် ပံ့ပိုးကူညီပါ"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:195-20
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:212-20
 msgid "Donate Bitcoin"
 msgstr "ဘစ်ကွိုင် (Bitcoin) လှူဒါန်းမည်"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:196-3
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:213-3
 msgid "Our wallet address is:"
 msgstr "ကျွန်ုပ်တို့၏ wallet လိပ်စာမှာ အောက်ပါအတိုင်း ဖြစ်ပါသည်။"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:197-4
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:214-4
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 msgstr "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 
-#: donate.html%2Bhtml.body.footer.div.p:222-9
+#: donate.html%2Bhtml.body.footer.div.p:239-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -157,13 +192,31 @@ msgstr ""
 "၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် ပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:224-23
+#: donate.html%2Bhtml.body.footer:241-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "အကြောင်းအရာ"
+
+#~ msgid "Support"
+#~ msgstr "အကူအညီ"
+
+#~ msgid "News"
+#~ msgstr "သတင်း"
+
+#~ msgid "Community"
+#~ msgstr "အသိုင်းအဝိုင်း"
+
+#~ msgid "Donate"
+#~ msgstr "လှူဒါန်းမည်"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno ကို ရယူမည်"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
