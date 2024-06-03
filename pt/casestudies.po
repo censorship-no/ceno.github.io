@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 14:17-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-03-11 20:43+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,83 +18,111 @@ msgstr ""
 msgid "en"
 msgstr "pt_PT"
 
-#: casestudies.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "Sobre"
+#: casestudies.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "casestudies.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: casestudies.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "Suporte"
+#: casestudies.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "casestudies.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: casestudies.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "Notícias"
-
-#: casestudies.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "Comunidade"
-
-#: casestudies.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "Doar"
-
-#: casestudies.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Obter Ceno"
-
-#: casestudies.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "Descarregar"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: casestudies.html%2Bhtml.body.nav.div.div.div:127-1
+#: casestudies.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "PT-PT"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: casestudies.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: casestudies.html%2Bhtml.body.nav.div.div.div.div:112-11
+msgctxt "casestudies.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
-"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/casestudies"
-".html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-"href=\"../en/casestudies.html\">English</a> <a class=\"navbar-item\" lang="
-"\"es\" hreflang=\"es\" href=\"../es/casestudies.html\">Español</a> <a class"
-"=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/casestudies.html\""
-">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-"casestudies.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-"hreflang=\"my\" href=\"../my/casestudies.html\">မြန်မာစာ</a> <a class"
-"=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-"casestudies.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-"hreflang=\"ru\" href=\"../ru/casestudies.html\">Pусский</a> <a class"
-"=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/casestudies.html\""
-">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../"
-"uk/casestudies.html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
-"hreflang=\"ur\" href=\"../ur/casestudies.html\">اردو</a>"
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"casestudies.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/casestudies.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/casestudies."
+"html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+"href=\"../fa/casestudies.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/casestudies.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/casestudies."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/casestudies.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/casestudies."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/casestudies.html\">Türkçe</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/casestudies.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"casestudies.html\">اردو</a>"
 msgstr ""
 
-#: casestudies.html%2Bhtml.body.main.title:157-1
+#: casestudies.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "Descarregar"
+
+#: casestudies.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "casestudies.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: casestudies.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: casestudies.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "casestudies.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: casestudies.html%2Bhtml.body.nav.div.div.div:155-9
+msgctxt "casestudies.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"casestudies.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/casestudies.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/casestudies."
+"html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+"href=\"../fa/casestudies.html\">فارسی</a> <a class=\"navbar-item\" "
+"lang=\"fr\" hreflang=\"fr\" href=\"../fr/casestudies.html\">Français</a> <a "
+"class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/casestudies."
+"html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/casestudies.html\">Português</a> <a "
+"class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/casestudies."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/casestudies.html\">Türkçe</a> <a class=\"navbar-item\" "
+"lang=\"uk\" hreflang=\"uk\" href=\"../uk/casestudies.html\">Українська</a> "
+"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"casestudies.html\">اردو</a>"
+msgstr ""
+
+#: casestudies.html%2Bhtml.body.main.title:174-52
 msgid "Ceno Browser | Case Studies"
 msgstr "Navegador Ceno | Estudos de caso"
 
-#: casestudies.html%2Bhtml.body.main.div.h1:159-5
+#: casestudies.html%2Bhtml.body.main.div.h1:176-5
 msgid "Case Studies"
 msgstr "Estudos de Caso"
 
-#: casestudies.html%2Bhtml.body.main.div.p:160-2
+#: casestudies.html%2Bhtml.body.main.div.p:177-2
 msgid "Sharing the stories of Ceno users from around the world."
 msgstr "Compartilhando as histórias dos utilizadores do Ceno de todo o mundo."
 
-#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:171-17
+#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:188-17
 msgid "Highlights from the Ground in Iran"
 msgstr "Destaques diretamente do Irão"
 
-#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:173-17
+#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:190-17
 msgid "December 15, 2022"
 msgstr "15 de dezembro de 2022"
 
-#: casestudies.html%2Bhtml.body.footer.div.p:198-9
+#: casestudies.html%2Bhtml.body.footer.div.p:215-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -111,10 +139,28 @@ msgstr ""
 "liberdade de associação de milhões de pessoas online."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: casestudies.html%2Bhtml.body.footer:200-23
+#: casestudies.html%2Bhtml.body.footer:217-23
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "Sobre"
+
+#~ msgid "Support"
+#~ msgstr "Suporte"
+
+#~ msgid "News"
+#~ msgstr "Notícias"
+
+#~ msgid "Community"
+#~ msgstr "Comunidade"
+
+#~ msgid "Donate"
+#~ msgstr "Doar"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Obter Ceno"

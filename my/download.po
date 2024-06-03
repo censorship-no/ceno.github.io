@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 10:42-0400\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-05-20 13:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,44 +18,45 @@ msgstr ""
 msgid "en"
 msgstr "my"
 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "အကြောင်းအရာ"
+#: download.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "download.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "အကူအညီ"
+#: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: download.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "သတင်း"
-
-#: download.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "အသိုင်းအဝိုင်း"
-
-#: download.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "လှူဒါန်းမည်"
-
-#: download.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Ceno ကို ရယူမည်"
-
-#: download.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "‌ဒေါင်းလုပ်ဒ်"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: download.html%2Bhtml.body.nav.div.div.div:127-1
+#: download.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "MY"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: download.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "download.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/download.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/download."
+#| "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+#| "href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item\" "
+#| "lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+#| "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#| "hreflang=\"pt_BR\" href=\"../pt_BR/download.html\">Português</a> <a "
+#| "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
+#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#| "href=\"../tr/download.html\">Türkçe</a> <a class=\"navbar-item\" "
+#| "lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a> "
+#| "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "download.html\">اردو</a>"
+msgctxt "download.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/download."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -89,19 +90,95 @@ msgstr ""
 "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
 "href=\"../ur/download.html\">اردو</a>"
 
-#: download.html%2Bhtml.body.main.title:157-1
+#: download.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
+
+#: download.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "download.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: download.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: download.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "download.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: download.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "download.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/download.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/download."
+#| "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+#| "href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item\" "
+#| "lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
+#| "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#| "hreflang=\"pt_BR\" href=\"../pt_BR/download.html\">Português</a> <a "
+#| "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
+#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#| "href=\"../tr/download.html\">Türkçe</a> <a class=\"navbar-item\" "
+#| "lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a> "
+#| "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "download.html\">اردو</a>"
+msgctxt "download.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/download."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/download.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/download.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/download.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"download.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/download.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/download.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/download."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/download.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/download.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/download.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"download.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/download.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/download.html\">اردو</a>"
+
+#: download.html%2Bhtml.body.main.title:174-48
 msgid "Ceno Browser | Download"
 msgstr "Ceno ဘရောက်ဇာ | ‌ဒေါင်းလုပ်ဒ်"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:163-11
+#: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:180-11
 msgid "Ceno Browser banner"
 msgstr "Ceno ဘရောက်ဇာ နဖူးစည်း"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:167-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.h1:184-13
 msgid "Get Ceno Browser"
 msgstr "Ceno ဘရောက်ဇာကို ရယူလိုက်ပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:168-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:185-13
 msgid ""
 "The safest way to install Ceno Browser on your Android phone is through the "
 "Google Play Store:"
@@ -109,11 +186,11 @@ msgstr ""
 "Ceno ဘရောက်ဇာကို ဖုန်းတွင် ရယူထည့်သွင်းရန်အတွက် စိတ်အချရဆုံးနည်းလမ်းမှာ Google Play Store မှတဆင့် "
 "ထည့်သွင်းခြင်း ဖြစ်ပါသည် -"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:172-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:189-17
 msgid "Get it on Google Play"
 msgstr "Google Play တွင် ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:174-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:191-13
 msgid ""
 "Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
 "Github, dComms, or download the APK directly via GitLab:"
@@ -121,31 +198,31 @@ msgstr ""
 "တခြားနည်းလမ်းအနေဖြင့် F-Droid၊ Paskoocheh၊ Marketplace၊ Github၊ dComms မှတဆင့် သို့မဟုတ် "
 "APK ဖိုင်ကို Gitlab မှ တိုက်ရိုက် ရယူနိုင်ပါသည် -"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:177-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:194-17
 msgid "Get it on F-droid"
 msgstr "F-droid တွင် ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:181-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:198-17
 msgid "Get it on Paskoocheh"
 msgstr "Paskoocheh တွင်ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:184-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:201-17
 msgid "Get it on GitLab"
 msgstr "Gitlab တွင် ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:187-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:204-17
 msgid "Get it on Github"
 msgstr "Github တွင် ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:190-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:207-17
 msgid "Get it on dComms"
 msgstr "dComms တွင် ရယူပါ"
 
-#: download.html%2Bhtml.body.main.section.div.div.h3:202-7
+#: download.html%2Bhtml.body.main.section.div.div.h3:219-7
 msgid "Important:"
 msgstr "အရေးကြီးသည်-"
 
-#: download.html%2Bhtml.body.main.section.div.div.p:203-7
+#: download.html%2Bhtml.body.main.section.div.div.p:220-7
 msgid ""
 "Ceno has two modes of operation - <strong>Public</strong> and "
 "<strong>Personal</strong>. You can easily toggle between them. Public mode "
@@ -164,11 +241,11 @@ msgstr ""
 "ပိုမို အသေးစိတ်သိရှိလိုပါက <a href=\"support.html\">မေးလေ့ရှိသော မေးခွန်းများ</a> သို့မဟုတ် <a "
 "href=\"../user-manual/\">သုံးစွဲသူ လက်စွဲ</a> ကို ကြည့်ရှုပါ။"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.h3:216-9
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:233-9
 msgid "Direct Download"
 msgstr "တိုက်ရိုက်ဒေါင်းလုပ်"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:217-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:234-9
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
 "links, you can download the latest APK directly:"
@@ -176,21 +253,21 @@ msgstr ""
 "ကျွမ်းကျွမ်းကျင်ကျင်အသုံးပြုတတ်သူ သို့မဟုတ် Ceno ဘရောက်ဇာကို အထက်ပါလင့်များမှတဆင့် install "
 "မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:219-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:236-9
 #, fuzzy
 #| msgid "Ceno Browser 2.1.3"
 msgid "Ceno Browser 2.1.4"
 msgstr "Ceno ဘရောက်ဇာ ၂.၁.၃"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:220-12
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:237-12
 msgid "Download (32-bit ARM)"
 msgstr "ဒေါင်းလုတ် (32-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:222-11
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:239-11
 msgid "Download (64-bit ARM)"
 msgstr "ဒေါင်းလုတ် (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:225-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:242-9
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -201,7 +278,7 @@ msgstr ""
 "verify\">ဖွင့်လိုက်ပါ</a> -"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:229-9
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:246-9
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -211,7 +288,7 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:231-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:248-9
 #, fuzzy
 #| msgid ""
 #| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
@@ -235,7 +312,7 @@ msgstr ""
 "key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
 "B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
-#: download.html%2Bhtml.body.footer.div.p:254-9
+#: download.html%2Bhtml.body.footer.div.p:271-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -251,13 +328,31 @@ msgstr ""
 "၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် ပေးသည်။"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:256-23
+#: download.html%2Bhtml.body.footer:273-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "အကြောင်းအရာ"
+
+#~ msgid "Support"
+#~ msgstr "အကူအညီ"
+
+#~ msgid "News"
+#~ msgstr "သတင်း"
+
+#~ msgid "Community"
+#~ msgstr "အသိုင်းအဝိုင်း"
+
+#~ msgid "Donate"
+#~ msgstr "လှူဒါန်းမည်"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Ceno ကို ရယူမည်"
 
 #~ msgid ""
 #~ "You can also verify the <a href=\"https://dcomm.net.ua/package/ceno/"

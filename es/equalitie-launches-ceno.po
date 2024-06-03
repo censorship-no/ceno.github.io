@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,44 +18,48 @@ msgstr ""
 msgid "en"
 msgstr "es"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "Acerca de"
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "equalitie-launches-ceno.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "Soporte"
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt ""
+"equalitie-launches-ceno.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "Noticias"
-
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "Comunidad"
-
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "Donar"
-
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Obtén Ceno"
-
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "Descargar"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:127-1
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "ES"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "equalitie-launches-ceno.html\">العربية</a> <a class=\"navbar-item\" "
+#| "lang=\"en\" hreflang=\"en\" href=\"../en/equalitie-launches-ceno."
+#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#| "href=\"../es/equalitie-launches-ceno.html\">Español</a> <a class=\"navbar-"
+#| "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/equalitie-launches-ceno."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/equalitie-launches-ceno.html\">Français</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/equalitie-"
+#| "launches-ceno.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#| "hreflang=\"pt_BR\" href=\"../pt_BR/equalitie-launches-ceno."
+#| "html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+#| "href=\"../ru/equalitie-launches-ceno.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/equalitie-launches-ceno."
+#| "html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#| "href=\"../uk/equalitie-launches-ceno.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/equalitie-"
+#| "launches-ceno.html\">اردو</a>"
+msgctxt "equalitie-launches-ceno.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/equalitie-"
 "launches-ceno.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
@@ -93,7 +97,90 @@ msgstr ""
 "html\">Ucraniano</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
 "href=\"../ur/equalitie-launches-ceno.html\">Urdu</a>"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.title:157-1
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "Descargar"
+
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "equalitie-launches-ceno.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt ""
+"equalitie-launches-ceno.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: equalitie-launches-ceno.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "equalitie-launches-ceno.html\">العربية</a> <a class=\"navbar-item\" "
+#| "lang=\"en\" hreflang=\"en\" href=\"../en/equalitie-launches-ceno."
+#| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#| "href=\"../es/equalitie-launches-ceno.html\">Español</a> <a class=\"navbar-"
+#| "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/equalitie-launches-ceno."
+#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#| "href=\"../fr/equalitie-launches-ceno.html\">Français</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/equalitie-"
+#| "launches-ceno.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#| "hreflang=\"pt_BR\" href=\"../pt_BR/equalitie-launches-ceno."
+#| "html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" "
+#| "href=\"../ru/equalitie-launches-ceno.html\">Pусский</a> <a class=\"navbar-"
+#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/equalitie-launches-ceno."
+#| "html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
+#| "href=\"../uk/equalitie-launches-ceno.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/equalitie-"
+#| "launches-ceno.html\">اردو</a>"
+msgctxt "equalitie-launches-ceno.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/equalitie-"
+"launches-ceno.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/equalitie-launches-ceno.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/equalitie-"
+"launches-ceno.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/equalitie-launches-ceno.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/equalitie-"
+"launches-ceno.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/equalitie-launches-ceno.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"equalitie-launches-ceno.html\">Português</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/equalitie-launches-ceno."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/equalitie-launches-ceno.html\">Türkçe</a> <a class=\"navbar-"
+"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/equalitie-launches-ceno."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/equalitie-launches-ceno.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/equalitie-"
+"launches-ceno.html\">Árabe</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/equalitie-launches-ceno.html\">Inglés</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/equalitie-"
+"launches-ceno.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/equalitie-launches-ceno.html\">Persa</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/equalitie-"
+"launches-ceno.html\">Francés</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/equalitie-launches-ceno.html\">Birmano</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"equalitie-launches-ceno.html\">Portugués</a> <a class=\"navbar-item\" "
+"lang=\"ru\" hreflang=\"ru\" href=\"../ru/equalitie-launches-ceno."
+"html\">Ruso</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/equalitie-launches-ceno.html\">Turco</a> <a class=\"navbar-"
+"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/equalitie-launches-ceno."
+"html\">Ucraniano</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/equalitie-launches-ceno.html\">Urdu</a>"
+
+#: equalitie-launches-ceno.html%2Bhtml.body.main.title:174-111
 msgid ""
 "Ceno Browser | eQualitie launches Ceno, world’s first decentralized p2p "
 "mobile browser"
@@ -101,12 +188,12 @@ msgstr ""
 "Navegador Ceno | eQualitie lanza Ceno, el primer navegador móvil p2p "
 "descentralizado del mundo"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h2:161-5
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h2:178-5
 msgid "eQualitie launches Ceno, world’s first decentralized p2p mobile browser"
 msgstr ""
 "eQualitie lanza Ceno, el primer navegador móvil p2p descentralizado del mundo"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h3:162-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.h3:179-2
 msgid ""
 "Ceno Browser lets anyone access and share information in areas with censored "
 "communications"
@@ -114,7 +201,7 @@ msgstr ""
 "El Navegador Ceno permite a cualquiera acceder y compartir información en "
 "áreas con comunicaciones censuradas"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:164-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:181-2
 msgid ""
 "<strong>Montreal, May 10, 2022</strong> – eQualitie, developer of open-"
 "source and reusable digital security systems, is pleased to announce the "
@@ -133,7 +220,7 @@ msgstr ""
 "También permite a las personas acceder y compartir información en y entre "
 "regiones donde la conectividad se ha visto interrumpida o comprometida."
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:165-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:182-2
 msgid ""
 "Ceno uses established technologies in new ways. While the user experience is "
 "akin to using a standard mobile browser, Ceno operates over a peer-to-peer "
@@ -163,7 +250,7 @@ msgstr ""
 "guerras. El enrutamiento y la distribución de Ceno también pueden reducir "
 "significativamente el consumo de ancho de banda y los costos asociados."
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:166-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:183-2
 msgid ""
 "“Ceno holds great promise and launches at an opportune time for those "
 "engaged in democracy movements and activities,” says Dmitri Vitaliev, "
@@ -177,7 +264,7 @@ msgstr ""
 "civiles, ONG, periodistas de investigación y medios independientes a nivel "
 "internacional a compartir información en sus dispositivos móviles.”"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:167-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:184-2
 msgid ""
 "Ceno is currently being used by hundreds of thousands of people globally, "
 "including in Myanmar and Iran, where the military junta and regime routinely "
@@ -208,7 +295,7 @@ msgstr ""
 "de varias aplicaciones de democratización digital imaginadas y desarrolladas "
 "por eQualitie."
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:168-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:185-2
 msgid ""
 "For more information, <a href=\"factsheet.html\">access the Ceno fact sheet</"
 "a>."
@@ -216,11 +303,11 @@ msgstr ""
 "Para obtener más información, <a href=\"factsheet.html\">acceda a la hoja "
 "informativa de Ceno</a>."
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:170-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:187-2
 msgid "About eQualitie"
 msgstr "Acerca de eQualitie"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.div.p:173-25
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.div.div.p:190-25
 msgid ""
 "Founded and led by Dmitri Vitaliev since 2010, Montreal-based eQualitie is "
 "inspired by the principles of freedom of expression and association as "
@@ -241,11 +328,11 @@ msgstr ""
 "obtener más información, visite <a href=\"https://equalit.ie\">https://"
 "equalit.ie.</a>"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:176-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.h3:193-2
 msgid "Press Contact"
 msgstr "Contacto de Prensa"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:177-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:194-2
 msgid ""
 "For press and media inquiries, please contact Jenny Ryan: press [at] "
 "equalitie [dot] org."
@@ -253,11 +340,11 @@ msgstr ""
 "Por consultas de prensa y medios, por favor contactar a Jenny Ryan: press "
 "[arroba] equalitie [punto] org."
 
-#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:179-2
+#: equalitie-launches-ceno.html%2Bhtml.body.main.div.p:196-2
 msgid "Download PDF"
 msgstr "Descargar PDF"
 
-#: equalitie-launches-ceno.html%2Bhtml.body.footer.div.p:197-9
+#: equalitie-launches-ceno.html%2Bhtml.body.footer.div.p:214-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -274,10 +361,28 @@ msgstr ""
 "hacen posible la libertad de asociación de millones de personas en Internet."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: equalitie-launches-ceno.html%2Bhtml.body.footer:199-23
+#: equalitie-launches-ceno.html%2Bhtml.body.footer:216-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "Acerca de"
+
+#~ msgid "Support"
+#~ msgstr "Soporte"
+
+#~ msgid "News"
+#~ msgstr "Noticias"
+
+#~ msgid "Community"
+#~ msgstr "Comunidad"
+
+#~ msgid "Donate"
+#~ msgstr "Donar"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Obtén Ceno"
