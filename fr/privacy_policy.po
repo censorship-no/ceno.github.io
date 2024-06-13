@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 13:28-0700\n"
+"POT-Creation-Date: 2024-05-24 10:17-0400\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
@@ -18,44 +18,46 @@ msgstr ""
 msgid "en"
 msgstr "fr"
 
-#: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
-msgstr "À propos"
+#: privacy_policy.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "privacy_policy.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
-msgstr "Assistance"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "privacy_policy.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr ""
 
-#: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr "Actualités"
-
-#: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr "Communauté"
-
-#: privacy_policy.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr "Faire un don"
-
-#: privacy_policy.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr "Obtenir Ceno"
-
-#: privacy_policy.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr "Télécharger"
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: privacy_policy.html%2Bhtml.body.nav.div.div.div:127-1
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr "FR"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: privacy_policy.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.div:112-11
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+#| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+#| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+#| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+#| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+#| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "privacy_policy.html\">اردو</a>"
+msgctxt "privacy_policy.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
 "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
@@ -93,15 +95,96 @@ msgstr ""
 "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
 "privacy_policy.html\">اردو</a>"
 
-#: privacy_policy.html%2Bhtml.body.main.title:157-1
+#: privacy_policy.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr "Télécharger"
+
+#: privacy_policy.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "privacy_policy.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "privacy_policy.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div:155-9
+#, fuzzy
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+#| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+#| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+#| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+#| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+#| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "privacy_policy.html\">اردو</a>"
+msgctxt "privacy_policy.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
+
+#: privacy_policy.html%2Bhtml.body.main.title:174-54
 msgid "Ceno Browser | Privacy Policy"
 msgstr "Navigateur Ceno | Politique de confidentialité"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h1:160-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h1:177-1
 msgid "Ceno Privacy Notice"
 msgstr "Avis de confidentialité de Ceno"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:162-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:179-1
 msgid ""
 "eQualit.ie is committed to protecting the privacy interests of its "
 "customers, end users, distributors and suppliers. This privacy notice is "
@@ -122,19 +205,19 @@ msgstr ""
 "plus de précisions sur les lois canadiennes et québécoises sur la protection "
 "des renseignements personnels, veuillez consulter :"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:164-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:181-1
 msgid "Office of the Privacy Commissioner of Canada"
 msgstr "Commissariat à la protection de la vie privée du Canada"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:165-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.ul.li:182-1
 msgid "Office of the Information and Privacy Commissioner of Quebec"
 msgstr "Commission d’accès à l’information du Québec"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:167-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:184-1
 msgid "Effective Date and Scope"
 msgstr "Date d’entrée en vigueur et portée"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:168-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:185-1
 msgid ""
 "This Privacy notice is effective as of December 1, 2018. In this privacy "
 "notice (Privacy notice), the terms “we”, “our” and “us” mean eQualit.ie. "
@@ -147,22 +230,22 @@ msgstr ""
 "nos pratiques en ce qui concerne les données que nous recueillons avec le "
 "Navigateur Ceno."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:170-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:187-1
 msgid "About Ceno"
 msgstr "À propos de Ceno"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:171-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:188-1
 msgid ""
 "Ceno is designed to provide you with open access to online censored content."
 msgstr ""
 "Ceno est conçu pour vous offrir un accès libre aux contenus censurés en "
 "ligne."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:173-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:190-1
 msgid "Interaction data"
 msgstr "Données d’interaction"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:174-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:191-1
 msgid ""
 "Ceno stores a summary collection of all public web pages viewed by Ceno "
 "users to enable other users of the system access to those pages. While we "
@@ -177,7 +260,7 @@ msgstr ""
 "développement précoce il est possible que des pages Web privées consultées "
 "par les utilisateurs soient stockées ainsi, par accident."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:176-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:193-1
 msgid ""
 "This testing version of Ceno stores logs of all pages requested via the "
 "censorship-circumvention mechanisms. Logs exist even for pages deemed "
@@ -193,19 +276,19 @@ msgstr ""
 "de Ceno pour diagnostique les problèmes d’infrastructure de Ceno et ne sont "
 "divulguées à personne."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:178-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:195-1
 msgid "Storage of Data Outside Canada"
 msgstr "Stockage des données à l’extérieur du Canada"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:179-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:196-1
 msgid "We store data outside of Canada."
 msgstr "Nous stockons des données en dehors du Canada."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:181-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:198-1
 msgid "Data Retention Policy"
 msgstr "Politique de conservation des données"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:182-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:199-1
 msgid ""
 "Web page summary collection items are retained indefinitely. Logs for "
 "testing purposes will be retained for the duration of the testing and "
@@ -215,14 +298,14 @@ msgstr ""
 "indéfiniment. Les journaux utilisés à des fins de test seront conservés pour "
 "la durée des tests et analyses, puis seront supprimés."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:184-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:201-1
 msgid ""
 "How Can You Access and Modify Your Personal Information or Make a Complaint?"
 msgstr ""
 "Comment pouvez-vous accéder à vos renseignements personnels, les modifier ou "
 "déposer une plainte ?"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:185-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:202-1
 msgid ""
 "Data stored in either the web page summary collection or the testing logs "
 "are not directly linked to a particular user. As a consequence, it is not "
@@ -237,11 +320,11 @@ msgstr ""
 "toute question ou préoccupation, vous pouvez nous contacter par courriel : "
 "privacy@equalit.ie"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:187-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:204-1
 msgid "Notice to Persons Outside of Canada"
 msgstr "Avis aux personnes hors du Canada"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:188-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:205-1
 msgid ""
 "This Privacy notice is governed by the laws of Canada and applicable "
 "provincial law. By submitting Personal Information to us, you understand "
@@ -253,11 +336,11 @@ msgstr ""
 "vous comprenez que vos renseignements personnels seront assujettis au droit "
 "canadien et au droit provincial applicable."
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.h2:190-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:207-1
 msgid "Changes to Our Privacy notice"
 msgstr "Changements apportés à notre avis de confidentialité"
 
-#: privacy_policy.html%2Bhtml.body.main.section.div.p:191-1
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:208-1
 msgid ""
 "We may need to change certain aspects of the Privacy notice from time to "
 "time. We will email you and post any substantive changes to this notice on "
@@ -268,7 +351,7 @@ msgstr ""
 "site Web tout changement important de cet avis, ainsi que la date d’entrée "
 "en vigueur de ces changements."
 
-#: privacy_policy.html%2Bhtml.body.footer.div.p:210-9
+#: privacy_policy.html%2Bhtml.body.footer.div.p:227-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -285,13 +368,31 @@ msgstr ""
 "ligne à des millions de personnes."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: privacy_policy.html%2Bhtml.body.footer:212-23
+#: privacy_policy.html%2Bhtml.body.footer:229-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "Support"
+#~ msgstr "Assistance"
+
+#~ msgid "News"
+#~ msgstr "Actualités"
+
+#~ msgid "Community"
+#~ msgstr "Communauté"
+
+#~ msgid "Donate"
+#~ msgstr "Faire un don"
+
+#~ msgid "Get Ceno"
+#~ msgstr "Obtenir Ceno"
 
 #~ msgid ""
 #~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"

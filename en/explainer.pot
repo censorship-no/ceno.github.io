@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 10:42-0400\n"
+"POT-Creation-Date: 2024-06-03 11:10-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,44 +16,27 @@ msgstr ""
 msgid "en"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.nav.div.div.ul.li:107-17
-msgid "About"
+#: explainer.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "explainer.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
+"\"donate.html\">Donate</a>"
 msgstr ""
 
-#.  TODO: html2po cannot make the href translatable, so point to the Manual's language chooser. 
-#.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: explainer.html%2Bhtml.body.nav.div.div.ul.li:110-17
-msgid "Support"
+#: explainer.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "explainer.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.nav.div.div.ul.li:115-17
-msgid "News"
-msgstr ""
-
-#: explainer.html%2Bhtml.body.nav.div.div.ul.li:118-17
-msgid "Community"
-msgstr ""
-
-#: explainer.html%2Bhtml.body.nav.div.div.ul.li:121-17
-msgid "Donate"
-msgstr ""
-
-#: explainer.html%2Bhtml.body.nav.div.div.div.a[title]:125-15
-msgid "Get Ceno"
-msgstr ""
-
-#: explainer.html%2Bhtml.body.nav.div.div.div:125-10
-msgid "Download"
-msgstr ""
-
-#.  TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). 
-#: explainer.html%2Bhtml.body.nav.div.div.div:127-1
+#: explainer.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: explainer.html%2Bhtml.body.nav.div.div.div.div:133-5
+#: explainer.html%2Bhtml.body.nav.div.div.div.div:112-11
+msgctxt "explainer.html+html.body.nav.div.div.div.div:112-11"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
@@ -72,15 +55,58 @@ msgid ""
 ">اردو</a>"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.title:157-1
+#: explainer.html%2Bhtml.body.nav.div.div:127-9
+msgid "Download"
+msgstr ""
+
+#: explainer.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "explainer.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
+"\"donate.html\">Donate</a>"
+msgstr ""
+
+#: explainer.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+msgid "Ceno logo"
+msgstr ""
+
+#: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
+msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:149-11"
+msgid "Select language"
+msgstr ""
+
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: explainer.html%2Bhtml.body.nav.div.div.div:155-9
+msgctxt "explainer.html+html.body.nav.div.div.div:155-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/explainer.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer.html\">فارسی</a> "
+"<a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/explainer.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang="
+"\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> "
+"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
+"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href="
+"\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> <a class"
+"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/explainer.html\""
+">اردو</a>"
+msgstr ""
+
+#: explainer.html%2Bhtml.body.main.title:174-48
 msgid "Ceno Browser: Explainer"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h2:161-1
+#: explainer.html%2Bhtml.body.main.div.h2:178-1
 msgid "Ceno Browser Explainer"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:163-1
+#: explainer.html%2Bhtml.body.main.div.p:180-1
 msgid ""
 "Ceno Browser is quite different from any other browser you’ve used in the "
 "past. It does not function like a VPN or the Tor network. It’s built for "
@@ -90,13 +116,13 @@ msgid ""
 "mobile browser using decentralized networking to bring you the web."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:165-1
+#: explainer.html%2Bhtml.body.main.div.p:182-1
 msgid ""
 "Whilst this may sound relatively attractive, every innovation has its "
 "benefits and risks. You should be aware of both before using Ceno Browser."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:167-1
+#: explainer.html%2Bhtml.body.main.div.p:184-1
 msgid ""
 "So, how does it work? There are two distinct modes of using Ceno - "
 "<strong>Public</strong> and <strong>Personal</strong>. You can switch "
@@ -110,11 +136,11 @@ msgid ""
 "you get the book you want."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:169-1
+#: explainer.html%2Bhtml.body.main.div.h3:186-1
 msgid "Public Mode"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:170-1
+#: explainer.html%2Bhtml.body.main.div.p:187-1
 msgid ""
 "Imagine using Ceno like going to a public library - where every book is a "
 "website that you visit and the library itself is the BitTorrent network. You "
@@ -123,7 +149,7 @@ msgid ""
 "rented it."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:171-1
+#: explainer.html%2Bhtml.body.main.div.p:188-1
 msgid ""
 "Now that you have this book, you can read it and you can pass it along for "
 "others to read. They can pass it on as well. In <strong>Public</strong> mode "
@@ -133,11 +159,11 @@ msgid ""
 "book and passed it along to others. It is essentially public."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:173-1
+#: explainer.html%2Bhtml.body.main.div.h3:190-1
 msgid "Personal Mode"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:175-1
+#: explainer.html%2Bhtml.body.main.div.p:192-1
 msgid ""
 "Now, you will be going to a bookstore to get that book you want. The book "
 "will belong to you only and no one but the bookstore employee will know that "
@@ -147,11 +173,11 @@ msgid ""
 "anyone to know which websites you have been visiting."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:177-1
+#: explainer.html%2Bhtml.body.main.div.h3:194-1
 msgid "Helpers"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:178-1
+#: explainer.html%2Bhtml.body.main.div.p:195-1
 msgid ""
 "The librarian and the bookstore employee are Helpers in our network. They "
 "are responsible for fetching the desired book from the bookshelves. In Ceno, "
@@ -162,11 +188,11 @@ msgid ""
 "to your Internet provider or VPN service."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:180-1
+#: explainer.html%2Bhtml.body.main.div.h3:197-1
 msgid "Couriers"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:181-1
+#: explainer.html%2Bhtml.body.main.div.p:198-1
 msgid ""
 "You may not be able to visit a library or there may not be a library in your "
 "town or country. For this instance we have Couriers. They are located in a "
@@ -178,7 +204,7 @@ msgid ""
 "with anyone (<strong>Personal</strong>)."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:183-1
+#: explainer.html%2Bhtml.body.main.div.p:200-1
 msgid ""
 "Any Ceno user can become a Courier and we encourage those that live in "
 "countries with lots of libraries (unrestricted Internet access) to be "
@@ -186,7 +212,7 @@ msgid ""
 "time, waiting for requests to fetch a book for you."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.footer.div.p:202-9
+#: explainer.html%2Bhtml.body.footer.div.p:219-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -197,7 +223,7 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
-#: explainer.html%2Bhtml.body.footer:204-23
+#: explainer.html%2Bhtml.body.footer:221-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
 "-\"+new Date().getFullYear());</script>"
