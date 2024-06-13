@@ -383,6 +383,12 @@ nav .download-btn:hover {
     color: #373756;
 }
 
+nav .dropdown-btn {
+    color: white !important;
+    max-width: fit-content;
+}
+
+
 div .mobile-i18n-panel {
     margin-top: 4px;
     padding-block-start: 0.6rem;
