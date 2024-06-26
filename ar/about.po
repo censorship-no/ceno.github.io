@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
@@ -58,6 +58,9 @@ msgid ""
 msgstr ""
 
 #: about.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "about.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "تنزيل"
 
@@ -69,19 +72,32 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: about.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "تنزيل"
+
+#: about.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "about.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "تنزيل"
+
+#: about.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: about.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "about.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: about.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "about.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: about.html%2Bhtml.body.nav.div.div.div:155-9
-msgctxt "about.html+html.body.nav.div.div.div:155-9"
+#: about.html%2Bhtml.body.nav.div.div.div:159-9
+msgctxt "about.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/about."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -99,15 +115,15 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/about.html\">اردو</a>"
 msgstr ""
 
-#: about.html%2Bhtml.body.main.title:174-45
+#: about.html%2Bhtml.body.main.title:178-45
 msgid "Ceno Browser | About"
 msgstr "متصفح Ceno | حول المتصفح"
 
-#: about.html%2Bhtml.body.main.div.h1:177-6
+#: about.html%2Bhtml.body.main.div.h1:181-6
 msgid "How Ceno Browser Works"
 msgstr "كيف يعمل متصفح Ceno"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:185-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:189-3
 msgid ""
 "Most web traffic in countries that filter internet is routed through "
 "centralized exchanges, such as Google."
@@ -115,7 +131,7 @@ msgstr ""
 "في البلدان التي تقوم بتصفية الإنترنت، يتم توجيه معظم بيانات الانترنت عبر "
 "مبدلات مركزية، مثل جوجل (Google)."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:193-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:197-3
 msgid ""
 "This design gives the censor an advantage in locating and blocking popular "
 "proxies, VPN servers, relays, etc;"
@@ -123,7 +139,7 @@ msgstr ""
 "يمنح هذا التصميم الرقيب أفضلية في تحديد مواقع البروكسيات Proxies الشهيرة "
 "وخوادم VPN والمرحلات وما إلى ذلك وحظرها؛"
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:201-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:205-3
 msgid ""
 "In these cases, reaching origin web servers is difficult or impossible, and "
 "your device will not be able to get that content."
@@ -131,12 +147,12 @@ msgstr ""
 "في هذه الحالات، يكون الوصول إلى خوادم الويب الأصلية أمرًا صعبًا أو مستحيلًا، "
 "ولن يتمكن جهازك من الحصول على هذا المحتوى."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:209-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:213-3
 msgid ""
 "Ceno is a mobile web browser for storing and sharing web content anywhere."
 msgstr "Ceno هو متصفح ويب للجوال لتخزين محتوى الويب ومشاركته في أي مكان."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:217-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:221-3
 msgid ""
 "Ceno users create small-world networks to connect to each other, and "
 "thereafter to a bridge outside the censored zone."
@@ -144,7 +160,7 @@ msgstr ""
 "ينشئ مستخدمو Ceno شبكات عالم صغير للاتصال ببعضهم البعض، ومنثم للاتصال بجسر "
 "يصل ‘إلى خارج المنطقة الخاضعة للرقابة."
 
-#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:225-3
+#: about.html%2Bhtml.body.main.div.section.div.div.div.div.div.h5:229-3
 msgid ""
 "Once a website is accessed by a single Ceno user, it is stored and shared "
 "inside the country peer-to-peer."
@@ -153,7 +169,7 @@ msgstr ""
 "محتوى الموقع ومشاركته داخل البلد باستخدام شبكة نظير لنظير."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: about.html%2Bhtml.body.main.div.div:233-1
+#: about.html%2Bhtml.body.main.div.div:237-1
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
 "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
@@ -173,7 +189,7 @@ msgstr ""
 "class=\"fas fa-scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع "
 "ورقة Ouinet البيضاء.</button></a>"
 
-#: about.html%2Bhtml.body.footer.div.p:254-9
+#: about.html%2Bhtml.body.footer.div.p:258-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -189,7 +205,7 @@ msgstr ""
 "الإنترنت لملايين الأشخاص كل يوم."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: about.html%2Bhtml.body.footer:256-23
+#: about.html%2Bhtml.body.footer:260-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

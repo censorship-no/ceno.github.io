@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -78,6 +78,9 @@ msgstr ""
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
 #: donate.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "donate.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "دانلود"
 
@@ -89,18 +92,31 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: donate.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: donate.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "دانلود"
+
+#: donate.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "donate.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "دانلود"
+
+#: donate.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: donate.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "donate.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: donate.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "donate.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: donate.html%2Bhtml.body.nav.div.div.div:155-9
+#: donate.html%2Bhtml.body.nav.div.div.div:159-9
 #, fuzzy
 #| msgid ""
 #| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
@@ -113,7 +129,7 @@ msgstr ""
 #| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a "
 #| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
 #| "html\">Українська</a>"
-msgctxt "donate.html+html.body.nav.div.div.div:155-9"
+msgctxt "donate.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -140,15 +156,15 @@ msgstr ""
 "href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-item\" lang=\"uk\" "
 "hreflang=\"uk\" href=\"../uk/donate.html\">Українська</a>"
 
-#: donate.html%2Bhtml.body.main.title:174-46
+#: donate.html%2Bhtml.body.main.title:178-46
 msgid "Ceno Browser | Donate"
 msgstr "Ceno مرورگر | دانلود"
 
-#: donate.html%2Bhtml.body.main.div.h1:176-6
+#: donate.html%2Bhtml.body.main.div.h1:180-6
 msgid "Donate to Ceno Browser"
 msgstr "اهدا کردن به مرورگر ‪Ceno"
 
-#: donate.html%2Bhtml.body.main.div.p:177-3
+#: donate.html%2Bhtml.body.main.div.p:181-3
 msgid ""
 "Ceno Browser is completely free and open source software funded solely "
 "through grants and donations. Below are some of the ways you can support its "
@@ -161,43 +177,43 @@ msgstr ""
 "مستمر آن حمایت کنید، آورده شده است. برای کمک و مشارکت از سایر روش‌ها، لطفاً از "
 "‎<a href=\"help.html\">صفحهٔ انجمن</a> بازدید کنید!"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:186-18
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:190-18
 msgid "Make a Donation"
 msgstr "اهدا کنید"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:187-11
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:191-11
 msgid "Make a one-time donation using our Paypal payment portal."
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:188-18
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:192-18
 msgid "Donate via Paypal"
 msgstr "از طریق Paypal اهدا کنید"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:199-17
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:203-17
 msgid "Become a Sponsor"
 msgstr "حامی مالی شوید"
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:200-3
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:204-3
 msgid "We are currently exploring fundraising platforms and communities:"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:201-17
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:205-17
 msgid "Sponsor on Github"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:212-20
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:216-20
 msgid "Donate Bitcoin"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:213-3
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:217-3
 msgid "Our wallet address is:"
 msgstr ""
 
-#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:214-4
+#: donate.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:218-4
 msgid "bc1q2r70hf0jks43jyykpua6uqv907zegplgfacauc"
 msgstr ""
 
-#: donate.html%2Bhtml.body.footer.div.p:239-9
+#: donate.html%2Bhtml.body.footer.div.p:243-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -213,13 +229,54 @@ msgstr ""
 "آزادی اجتماع را برای میلیون ها نفر به صورت آنلاین فراهم می کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: donate.html%2Bhtml.body.footer:241-23
+#: donate.html%2Bhtml.body.footer:245-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
+#~| "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#~| "href=\"../es/donate.html\">Español</a> <a class=\"navbar-item\" "
+#~| "lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
+#~| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate."
+#~| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~| "href=\"../my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~| "lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a "
+#~| "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
+#~| "html\">Українська</a>"
+#~ msgctxt "donate.html+html.body.nav.div.div.div:155-9"
+#~ msgid ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/donate."
+#~ "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~ "href=\"../en/donate.html\">English</a> <a class=\"navbar-item\" "
+#~ "lang=\"es\" hreflang=\"es\" href=\"../es/donate.html\">Español</a> <a "
+#~ "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate."
+#~ "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#~ "href=\"../fr/donate.html\">Français</a> <a class=\"navbar-item\" "
+#~ "lang=\"my\" hreflang=\"my\" href=\"../my/donate.html\">မြန်မာစာ</a> <a "
+#~ "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#~ "donate.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#~ "hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a class=\"navbar-"
+#~ "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/donate.html\">Türkçe</a> "
+#~ "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
+#~ "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#~ "hreflang=\"ur\" href=\"../ur/donate.html\">اردو</a>"
+#~ msgstr ""
+#~ "<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/donate."
+#~ "html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
+#~ "href=\"../es/donate.html\">Español</a> <a class=\"navbar-item\" "
+#~ "lang=\"fa\" hreflang=\"fa\" href=\"../fa/donate.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/donate."
+#~ "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/donate.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"ru\" hreflang=\"ru\" href=\"../ru/donate.html\">Pусский</a> <a "
+#~ "class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/donate."
+#~ "html\">Українська</a>"
 
 #~ msgid "About"
 #~ msgstr "درباره"
