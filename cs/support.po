@@ -3,20 +3,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-24 10:17-0400\n"
-"PO-Revision-Date: 2024-04-29 08:47+0000\n"
-"Last-Translator: Fill read-only add-on <noreply-addon-fill@weblate.org>\n"
+"PO-Revision-Date: 2024-06-21 21:09+0000\n"
+"Last-Translator: David Bauer <dbs23.dbs23@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.2\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.6-rc\n"
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "cz"
 
 #: support.html%2Bhtml.body.nav.div.div:96-7
 msgctxt "support.html+html.body.nav.div.div:96-7"
@@ -25,15 +25,18 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">O nás</a> <a href=\"support.html\">Podpora</a> <a "
+"href=\"news.html\">Novinky</a> <a href=\"help.html\">Komunita</a> <a href="
+"\"donate.html\">Příspěvek</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "Výběr jazyka"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
-msgstr ""
+msgstr "CZ"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -89,7 +92,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
 msgid "Download"
-msgstr ""
+msgstr "Stahování"
 
 #: support.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "support.html+html.body.nav.div.div:138-7"
@@ -101,12 +104,12 @@ msgstr ""
 
 #: support.html%2Bhtml.body.nav.div.a.img[alt]:145-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Ceno logo"
 
 #: support.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
 msgctxt "support.html+html.body.nav.div.div.label.img[alt]:149-11"
 msgid "Select language"
-msgstr ""
+msgstr "Výběr jazyka"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -175,17 +178,17 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.title:182-1
 msgid "Ceno Browser| Support"
-msgstr ""
+msgstr "Prohlížeč Ceno| Podpora"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:185-9
 msgctxt "support.html+html.body.main.noscript.div.h1:185-9"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Často kladené otázky"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:186-9
 msgctxt "support.html+html.body.main.noscript.div.section:186-9"
 msgid "What is Ceno Browser?"
-msgstr ""
+msgstr "Co je prohlížeč Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:189-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:189-17"
@@ -197,11 +200,18 @@ msgid ""
 "methods and allowing people to access and share web information in and "
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"Ceno je mobilní webový prohlížeč založený na Mozilla Android Components. Je "
+"navržen pro přístupování a distribuci webového obsahu (webových stránek) "
+"pomocí novátorského přístupu, který se opírá o BitTorrent – "
+"decentralizovanou síť pro sdílení souborů. Výhoda Ceno spočívá v obcházení "
+"současných metod internetové cenzury a umožňuje lidem přístup a sdílení "
+"webových informací v regionech a mezi nimi, kde bylo připojení přerušeno "
+"nebo kompromitováno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:193-76
 msgctxt "support.html+html.body.main.noscript.div.section.details:193-76"
 msgid "How does Ceno work?"
-msgstr ""
+msgstr "Jak Ceno funguje?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:197-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:197-17"
@@ -210,6 +220,9 @@ msgid ""
 "ca</i> from your home internet), Ceno will connect to it like a normal web "
 "browser."
 msgstr ""
+"Pokud je webová stránka přístupná z vaší sítě (např. přistupujete k "
+"<i>www.gov.cz<i> z vašeho domácího internetu), Ceno se k ní připojí jako "
+"normální prohlížeč."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:199-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:199-17"
@@ -219,6 +232,10 @@ msgid ""
 "depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
 "<strong>Personal</strong> mode."
 msgstr ""
+"Pokud webová stránka není přístupná kvůli filtrování obsahu sítě/cenzuře, "
+"Ceno se pokusí pro Vás obsah získat. Jak se o získání obsahu Ceno pokusí "
+"záleží, jak jste se rozhodli Ceno používat, jestli v módu <strong>Veřejný</"
+"strong> nebo <strong>Osobní</strong>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:202-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:202-17"
@@ -229,6 +246,11 @@ msgid ""
 "another user’s device. If the content is not available, Ceno will contact "
 "several Injectors to request that website and have it delivered to you."
 msgstr ""
+"V módu <strong>Veřejný</strong> , se Ceno podívá do sítě BitTorrent, zda "
+"jiný uživatel Ceno nedávno sdílel požadovanou stránku. Pokud služba "
+"požadovanou stránku identifikuje, získá ji ze zařízení daného uživatele. "
+"Pokud obsah není dostupný, Ceno kontaktuje několik \"Vpichovacích\" serverů "
+"aby ji pro Vás získal a doručil."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
@@ -238,6 +260,10 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
+"V módu <strong>Osobní</strong>, Vaše Ceno bude kontaktovat pouze \"Vpichovací"
+"\" servery, aby požadovanou stránku nalezli a doručili Vám. Vyhledávání se "
+"nepřipojí k sítí BitTorrent a nebude se pokoušet vyhledat obsah na zařízení "
+"jiných uživatelů."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:209-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:209-17"
@@ -248,6 +274,11 @@ msgid ""
 "Injectors. The Ceno network currently features around 6,000 Bridges. Their "
 "number is always growing."
 msgstr ""
+"Pro zajištění, že se Váš prohlížeč Ceno může vždy připojit ke \"Vpichovacímu"
+"\" serveru, jsme vytvořili Mosty. Pokud jsou na Vaší síti \"Vstřikovací\" "
+"servery zablokovány, aplikace Ceno se podívá po dostupných Mostech, které "
+"Vaši žádost přesměrují na \"Vpichovač\". Síť Ceno právě nabízí okolo 6000 "
+"Mostů. A jejich množství stále přibývá."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
@@ -255,6 +286,8 @@ msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
+"Pro detajlnější vysvětlení jak Ceno funguje, si prosím přečtěte <a href"
+"=\"../user-manual/\">Uživatelská příručka</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:215-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:215-17"
@@ -262,11 +295,13 @@ msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
+"Pro jednodušší vysvětlení jak Ceno funguje, <a href=\"explainer.html\">si "
+"prosím přečtěte toto</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:215-111
 msgctxt "support.html+html.body.main.noscript.div.section.details:215-111"
 msgid "What are the advantages of using Ceno?"
-msgstr ""
+msgstr "Jaké jsou výhody používání Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:219-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:219-17"
@@ -277,6 +312,11 @@ msgid ""
 "seeking the same content. Ceno uses the BitTorrent file sharing network for "
 "this."
 msgstr ""
+"Naše motto je ‘Sdílejte Web!’ a vpodstatě je to přesně to co uživatelé Ceno "
+"dělají. Vetšina internetových stránek má pevný obsah (něco co si můžete "
+"přečíst, podívat se, poslechnout si, atd.) Pevný obsah může být zabalen a "
+"sdílen s ostatními uživateli, kteří hledají ten samý obsah. Ceno pro tohle "
+"využívá síť sdílení souborů BitTorrent."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:223-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:223-17"
@@ -290,6 +330,14 @@ msgid ""
 "remote area with limited access to the internet, Ceno allows you to access "
 "information that may otherwise be unavailable."
 msgstr ""
+"Výhoda Ceno je zřejmá v síti, která cenzuruje webové stránky, nebo tam, kde "
+"je síť slabá nebo nestabilní. Za těchto okolností je klient Ceno schopen "
+"využít další metody k získání obsahu a jeho doručení do Vašeho zařízení. "
+"Tím, že umožňuje uživatelům sdílet obsah, který nedávno získali, Ceno "
+"rozšiřuje přístup k internetu obecněji. Ať už žijete v části světa, která "
+"omezuje přístup k obsahu, nebo v odlehlé oblasti s omezeným přístupem k "
+"internetu, Ceno vám umožňuje přístup k informacím, které by jinak mohly být "
+"nedostupné."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:229-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:229-17"
@@ -301,6 +349,12 @@ msgid ""
 "Running a Bridge is a very simple yet powerful action, allowing you to help "
 "others access the Internet."
 msgstr ""
+"Lidé provozující Ceno ze zemí, které necenzurují internet – nebo z částí "
+"světa, kde je přístup k internetu spolehlivý – se mohou rozhodnout fungovat "
+"jako Mosty pro ty, kteří jsou v silně omezených sítích. Síť automaticky "
+"přijímá nové Mosty a zaznamená, když jsou offline. Spuštění Mostu je velmi "
+"jednoduchá, ale mocná akce, která Vám umožní pomáhat ostatním s přístupem k "
+"internetu."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:234-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:234-17"
@@ -310,16 +364,20 @@ msgid ""
 "You can <a href=\"https://gitlab.com/censorship-no/ceno-browser\">inspect "
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
+"Ceno – a všechny doprovodné součásti tohoto nástroje, které společně "
+"vytvářejí decentralizovanou síť vrstevníků a uzlů – je bezplatný open source "
+"software. Můžete <a href=\"https://gitlab.com/censorship-no/ceno-browser\""
+">oveřit náš kód</a> nebo sami znovu-vytvořit celou síť!"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:237-45
 msgctxt "support.html+html.body.main.noscript.div.section.details:237-45"
 msgid "What are the risks of using Ceno?"
-msgstr ""
+msgstr "Jaká jsou rizika spojená s používáním Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:241-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:241-17"
 msgid "Risks for users"
-msgstr ""
+msgstr "Rizika pro uživatele"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:242-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:242-17"
@@ -332,6 +390,13 @@ msgid ""
 "particular website. For example, anyone can query the BitTorrent network for "
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
+"Každá technologie, která se zabývá citlivými případy použití, má své výhody "
+"i rizika. Svým návrhem Ceno používá veřejnou síť BitTorrent pro většinu "
+"svých potřeb směrování a ukládání dat. Kdykoli požadujete nebo sdílíte část "
+"obsahu v síti BitTorrent (Veřejný režim), vytvoříte záznam, který spojí vaši "
+"IP adresu s částí obsahu, který byl načten z konkrétní webové stránky. Každý "
+"se například může dotázat na síť BitTorrent na seznam IP adres, které byly "
+"spojeny s <i>website.com</i>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:248-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:248-17"
@@ -340,6 +405,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"Uživatelům, kteří sdílejí načtený obsah s ostatními, mohou být také účtovány "
+"další poplatky za data, protože je obsah zkopírován z jejich zařízení do "
+"zařízení jiných uživatelů Ceno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:250-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:250-17"
@@ -351,6 +419,12 @@ msgid ""
 "require authentication (for example, when logging into your social media "
 "accounts)."
 msgstr ""
+"V reakci na tato rizika jsme vytvořili ‚<strong>Osobní</strong> režim pro "
+"uživatele Ceno, kde služba neinteraguje se sítí BitTorrent. Tento režim "
+"doporučujeme uživatelům, kteří nechtějí, aby se na BitTorrentu objevovaly "
+"záznamy o jejich aktivitě, a také pro operace na webových stránkách, které "
+"vyžadují ověření (například při přihlašování k vašim účtům na sociálních "
+"sítích)."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
@@ -359,6 +433,9 @@ msgid ""
 "strong> tabs in the same manner as switching between Normal and Private/"
 "Incognito tabs on your current browser."
 msgstr ""
+"Můžete jednoduše přepínat mezi záložkou <strong>Veřejný</strong> a "
+"<strong>Osobní</strong>, stejným způsobem jako přepínáte mezi normální a "
+"osobní/anonymní záložkou ve vašem současném prohlížeči."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:256-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:256-17"
@@ -370,11 +447,17 @@ msgid ""
 "the integrity of introduced content. On the Ceno network, Injectors are run "
 "and managed by the Ceno team. We periodically delete all access logs."
 msgstr ""
+"\"Vpichovače\" mohou také vidět požadavky na obsah v síti, včetně IP adresy "
+"uživatele, který požadavek vytváří, a názvu webové stránky s požadovaným "
+"obsahem. \"Vpichovače\" jsou nezbytnou součástí sítě pro 1) přivádění "
+"webového obsahu do decentralizované sítě a 2) ověřování integrity "
+"přiváděného obsahu. V síti Ceno jsou \"Vpichovače\" provozovány a spravovány "
+"týmem Ceno. Pravidelně odstraňujeme všechny záznamy přístupu."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:261-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:261-17"
 msgid "Risks for Bridge operators"
-msgstr ""
+msgstr "Rizika pro operátory Mostů"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:262-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:262-17"
@@ -382,6 +465,7 @@ msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
 "introduced by this action."
 msgstr ""
+"Jelikož se každý uživatel muže stát Mostem, zvažte rizika uvedená touto akcí."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:263-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:263-17"
