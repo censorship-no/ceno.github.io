@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-06-07 20:14+0000\n"
-"Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 20:09+0000\n"
+"Last-Translator: Jose Delvani <jsdelvani@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website/websitedownload/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -76,11 +76,9 @@ msgstr ""
 "href=\"../ur/download.html\">اردو</a>"
 
 #: download.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "download.html+html.body.nav.div.div:127-9"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Download"
 
 #: download.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "download.html+html.body.nav.div.div:138-7"
@@ -94,26 +92,19 @@ msgstr ""
 "href=\"donate.html\">Fazer doação</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
-#, fuzzy
-#| msgid "Download"
 msgid "Download Ceno"
-msgstr "Baixar"
+msgstr "Baixar Ceno"
 
 #: download.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "download.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Download"
 
 #: download.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr "Logotipo do Ceno"
 
 #: download.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
-#| msgid "Select language"
 msgctxt "download.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr "Selecionar idioma"
@@ -121,25 +112,6 @@ msgstr "Selecionar idioma"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: download.html%2Bhtml.body.nav.div.div.div:159-9
-#, fuzzy
-#| msgctxt "download.html+html.body.nav.div.div.div.div:112-11"
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#| "download.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#| "hreflang=\"en\" href=\"../en/download.html\">English</a> <a "
-#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/download."
-#| "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
-#| "href=\"../fa/download.html\">فارسی</a> <a class=\"navbar-item\" "
-#| "lang=\"fr\" hreflang=\"fr\" href=\"../fr/download.html\">Français</a> <a "
-#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/download."
-#| "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
-#| "hreflang=\"pt_BR\" href=\"../pt_BR/download.html\">Português</a> <a "
-#| "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download."
-#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
-#| "href=\"../tr/download.html\">Türkçe</a> <a class=\"navbar-item\" "
-#| "lang=\"uk\" hreflang=\"uk\" href=\"../uk/download.html\">Українська</a> "
-#| "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#| "download.html\">اردو</a>"
 msgctxt "download.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/download."
@@ -159,20 +131,20 @@ msgid ""
 "href=\"../ur/download.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/download."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-"href=\"../en/download.html\">English</a> <a class=\"navbar-item\" "
-"lang=\"es\" hreflang=\"es\" href=\"../es/download.html\">Español</a> <a "
-"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download."
-"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
-"href=\"../fr/download.html\">Français</a> <a class=\"navbar-item\" "
-"lang=\"my\" hreflang=\"my\" href=\"../my/download.html\">မြန်မာစာ</a> <a "
-"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-"download.html\">Português (BR)</a> <a class=\"navbar-item\" lang=\"ru\" "
-"hreflang=\"ru\" href=\"../ru/download.html\">Pусский</a> <a class=\"navbar-"
-"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/download.html\">Türkçe</a> "
-"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/download."
-"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
-"href=\"../ur/download.html\">اردو</a>"
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/download.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/download.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/download.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/download."
+"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+"href=\"../my/download.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang="
+"\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/download.html\">Português (BR)</"
+"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/download"
+".html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+"href=\"../tr/download.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/download.html\">Українська</a> <a class"
+"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/download.html\""
+">اردو</a>"
 
 #: download.html%2Bhtml.body.main.title:178-48
 msgid "Ceno Browser | Download"
