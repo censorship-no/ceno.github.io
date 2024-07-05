@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 13:20-0700\n"
+"POT-Creation-Date: 2024-07-05 14:38-0400\n"
 "PO-Revision-Date: 2024-06-07 20:14+0000\n"
 "Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -262,7 +262,9 @@ msgstr ""
 "os links acima, é possível baixar a última APK diretamente:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-msgid "Ceno Browser 2.1.5"
+#, fuzzy
+#| msgid "Ceno Browser 2.1.5"
+msgid "Ceno Browser 2.1.6"
 msgstr "Navegador Ceno 2.1.5"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
@@ -295,10 +297,18 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+#| msgid ""
+#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+#| "ceno/v2.1.5/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+#| "download.s3.amazonaws.com/ceno/v2.1.5/sha256sums.txt\">file hashes</a> "
+#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
+#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.1.5/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.1.5/sha256sums.txt\">file hashes</a> "
+"ceno/v2.1.6/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.1.6/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
