@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-06-07 20:14+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
@@ -26,8 +26,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">Acerca de</a> <a href=\"support.html\">Soporte</a> <a "
-"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a href="
-"\"donate.html\">Donar</a>"
+"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a "
+"href=\"donate.html\">Donar</a>"
 
 #: explainer.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "explainer.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -60,22 +60,25 @@ msgid ""
 "href=\"../ur/explainer.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
-"\"../en/explainer.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-"hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a class=\"navbar-"
-"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer.html\">فارسی</a> "
-"<a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/explainer.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang="
-"\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> "
-"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href="
-"\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> <a class"
-"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/explainer.html\""
-">اردو</a>"
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/explainer.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/explainer.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/explainer.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"explainer.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/explainer.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/explainer.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/explainer.html\">اردو</a>"
 
 #: explainer.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "explainer.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Descargar"
 
@@ -87,22 +90,57 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">Acerca de</a> <a href=\"support.html\">Soporte</a> <a "
-"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a href="
-"\"donate.html\">Donar</a>"
+"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a "
+"href=\"donate.html\">Donar</a>"
 
-#: explainer.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: explainer.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "Descargar"
+
+#: explainer.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "explainer.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "Descargar"
+
+#: explainer.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr "Logotipo de Ceno"
 
-#: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+#, fuzzy
+#| msgctxt "explainer.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+#| msgid "Select language"
+msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr "Selecciona el idioma"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: explainer.html%2Bhtml.body.nav.div.div.div:155-9
-msgctxt "explainer.html+html.body.nav.div.div.div:155-9"
+#: explainer.html%2Bhtml.body.nav.div.div.div:159-9
+#, fuzzy
+#| msgctxt "explainer.html+html.body.nav.div.div.div.div:112-11"
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "explainer.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/explainer.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/explainer."
+#| "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+#| "href=\"../fa/explainer.html\">فارسی</a> <a class=\"navbar-item\" "
+#| "lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer.html\">Français</a> <a "
+#| "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/explainer."
+#| "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#| "hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> <a "
+#| "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
+#| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#| "href=\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" "
+#| "lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> "
+#| "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "explainer.html\">اردو</a>"
+msgctxt "explainer.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -121,30 +159,30 @@ msgid ""
 "href=\"../ur/explainer.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
-"\"../en/explainer.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
-"hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a class=\"navbar-"
-"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer.html\">فارسی</a> "
-"<a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/explainer.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang="
-"\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> "
-"<a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href="
-"\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> <a class"
-"=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/explainer.html\""
-">اردو</a>"
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+"href=\"../en/explainer.html\">English</a> <a class=\"navbar-item\" "
+"lang=\"es\" hreflang=\"es\" href=\"../es/explainer.html\">Español</a> <a "
+"class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/explainer."
+"html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+"href=\"../fr/explainer.html\">Français</a> <a class=\"navbar-item\" "
+"lang=\"my\" hreflang=\"my\" href=\"../my/explainer.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"explainer.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/explainer.html\">Pусский</a> <a class=\"navbar-"
+"item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/explainer.html\">Türkçe</a> "
+"<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer."
+"html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
+"href=\"../ur/explainer.html\">اردو</a>"
 
-#: explainer.html%2Bhtml.body.main.title:174-48
+#: explainer.html%2Bhtml.body.main.title:178-48
 msgid "Ceno Browser: Explainer"
 msgstr "Navegador Ceno: Explicador"
 
-#: explainer.html%2Bhtml.body.main.div.h2:178-1
+#: explainer.html%2Bhtml.body.main.div.h2:182-1
 msgid "Ceno Browser Explainer"
 msgstr "Explicación del navegador Ceno"
 
-#: explainer.html%2Bhtml.body.main.div.p:180-1
+#: explainer.html%2Bhtml.body.main.div.p:184-1
 msgid ""
 "Ceno Browser is quite different from any other browser you’ve used in the "
 "past. It does not function like a VPN or the Tor network. It’s built for "
@@ -161,7 +199,7 @@ msgstr ""
 "sobre la red BitTorrent, es el primer navegador móvil del mundo que utiliza "
 "redes descentralizadas para ofrecerte la web."
 
-#: explainer.html%2Bhtml.body.main.div.p:182-1
+#: explainer.html%2Bhtml.body.main.div.p:186-1
 msgid ""
 "Whilst this may sound relatively attractive, every innovation has its "
 "benefits and risks. You should be aware of both before using Ceno Browser."
@@ -170,7 +208,7 @@ msgstr ""
 "ventajas y sus riesgos. Debes ser consciente de ambos antes de utilizar Ceno "
 "Browser."
 
-#: explainer.html%2Bhtml.body.main.div.p:184-1
+#: explainer.html%2Bhtml.body.main.div.p:188-1
 msgid ""
 "So, how does it work? There are two distinct modes of using Ceno - "
 "<strong>Public</strong> and <strong>Personal</strong>. You can switch "
@@ -195,11 +233,11 @@ msgstr ""
 "del protocolo y la infraestructura. Su trabajo es ayudarle a conseguir el "
 "libro que desea."
 
-#: explainer.html%2Bhtml.body.main.div.h3:186-1
+#: explainer.html%2Bhtml.body.main.div.h3:190-1
 msgid "Public Mode"
 msgstr "Modo público"
 
-#: explainer.html%2Bhtml.body.main.div.p:187-1
+#: explainer.html%2Bhtml.body.main.div.p:191-1
 msgid ""
 "Imagine using Ceno like going to a public library - where every book is a "
 "website that you visit and the library itself is the BitTorrent network. You "
@@ -213,7 +251,7 @@ msgstr ""
 "trocito de cartón que hay dentro, junto con el de cualquier otra persona que "
 "lo haya alquilado."
 
-#: explainer.html%2Bhtml.body.main.div.p:188-1
+#: explainer.html%2Bhtml.body.main.div.p:192-1
 msgid ""
 "Now that you have this book, you can read it and you can pass it along for "
 "others to read. They can pass it on as well. In <strong>Public</strong> mode "
@@ -229,11 +267,11 @@ msgstr ""
 "<strong>Público</strong> todos también pueden ver que usted alquiló este "
 "libro y se lo pasó a otras personas. Es esencialmente público."
 
-#: explainer.html%2Bhtml.body.main.div.h3:190-1
+#: explainer.html%2Bhtml.body.main.div.h3:194-1
 msgid "Personal Mode"
 msgstr "Modo Personal"
 
-#: explainer.html%2Bhtml.body.main.div.p:192-1
+#: explainer.html%2Bhtml.body.main.div.p:196-1
 msgid ""
 "Now, you will be going to a bookstore to get that book you want. The book "
 "will belong to you only and no one but the bookstore employee will know that "
@@ -249,11 +287,11 @@ msgstr ""
 "recomendamos cuando inicias sesión en páginas web o cuando no quieres que "
 "nadie sepa qué páginas web has estado visitando."
 
-#: explainer.html%2Bhtml.body.main.div.h3:194-1
+#: explainer.html%2Bhtml.body.main.div.h3:198-1
 msgid "Helpers"
 msgstr "Ayudantes"
 
-#: explainer.html%2Bhtml.body.main.div.p:195-1
+#: explainer.html%2Bhtml.body.main.div.p:199-1
 msgid ""
 "The librarian and the bookstore employee are Helpers in our network. They "
 "are responsible for fetching the desired book from the bookshelves. In Ceno, "
@@ -271,11 +309,11 @@ msgstr ""
 "esta información a nadie más. En Internet sin Ceno, estos Helpers desempeñan "
 "un papel similar al de su proveedor de Internet o servicio VPN."
 
-#: explainer.html%2Bhtml.body.main.div.h3:197-1
+#: explainer.html%2Bhtml.body.main.div.h3:201-1
 msgid "Couriers"
 msgstr "Mensajeros"
 
-#: explainer.html%2Bhtml.body.main.div.p:198-1
+#: explainer.html%2Bhtml.body.main.div.p:202-1
 msgid ""
 "You may not be able to visit a library or there may not be a library in your "
 "town or country. For this instance we have Couriers. They are located in a "
@@ -295,7 +333,7 @@ msgstr ""
 "compartirlo con otras personas (<strong>Público</strong>) o no compartirlo "
 "con nadie (<strong>Personal</strong>)."
 
-#: explainer.html%2Bhtml.body.main.div.p:200-1
+#: explainer.html%2Bhtml.body.main.div.p:204-1
 msgid ""
 "Any Ceno user can become a Courier and we encourage those that live in "
 "countries with lots of libraries (unrestricted Internet access) to be "
@@ -308,7 +346,7 @@ msgstr ""
 "en cualquier momento, a la espera de solicitudes para ir a buscar un libro "
 "para usted."
 
-#: explainer.html%2Bhtml.body.footer.div.p:219-9
+#: explainer.html%2Bhtml.body.footer.div.p:223-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -325,13 +363,53 @@ msgstr ""
 "hacen posible la libertad de asociación de millones de personas en Internet."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: explainer.html%2Bhtml.body.footer:221-23
+#: explainer.html%2Bhtml.body.footer:225-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:149-11"
+#~ msgid "Select language"
+#~ msgstr "Selecciona el idioma"
+
+#~ msgctxt "explainer.html+html.body.nav.div.div.div:155-9"
+#~ msgid ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#~ "explainer.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#~ "hreflang=\"en\" href=\"../en/explainer.html\">English</a> <a "
+#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/explainer."
+#~ "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+#~ "href=\"../fa/explainer.html\">فارسی</a> <a class=\"navbar-item\" "
+#~ "lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer.html\">Français</a> <a "
+#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/explainer."
+#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#~ "hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> <a "
+#~ "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" "
+#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> "
+#~ "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#~ "explainer.html\">اردو</a>"
+#~ msgstr ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#~ "explainer.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#~ "hreflang=\"en\" href=\"../en/explainer.html\">English</a> <a "
+#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/explainer."
+#~ "html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" "
+#~ "href=\"../fa/explainer.html\">فارسی</a> <a class=\"navbar-item\" "
+#~ "lang=\"fr\" hreflang=\"fr\" href=\"../fr/explainer.html\">Français</a> <a "
+#~ "class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../my/explainer."
+#~ "html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+#~ "hreflang=\"pt_BR\" href=\"../pt_BR/explainer.html\">Português</a> <a "
+#~ "class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/explainer."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/explainer.html\">Türkçe</a> <a class=\"navbar-item\" "
+#~ "lang=\"uk\" hreflang=\"uk\" href=\"../uk/explainer.html\">Українська</a> "
+#~ "<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#~ "explainer.html\">اردو</a>"
 
 #~ msgid "About"
 #~ msgstr "Acerca de"

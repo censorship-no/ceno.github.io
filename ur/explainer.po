@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
@@ -58,6 +58,9 @@ msgid ""
 msgstr ""
 
 #: explainer.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "explainer.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "ڈاؤن لوڈ کریں"
 
@@ -69,19 +72,32 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: explainer.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "ڈاؤن لوڈ کریں"
+
+#: explainer.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "explainer.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "ڈاؤن لوڈ کریں"
+
+#: explainer.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: explainer.html%2Bhtml.body.nav.div.div.div:155-9
-msgctxt "explainer.html+html.body.nav.div.div.div:155-9"
+#: explainer.html%2Bhtml.body.nav.div.div.div:159-9
+msgctxt "explainer.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/explainer."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -100,15 +116,15 @@ msgid ""
 "href=\"../ur/explainer.html\">اردو</a>"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.title:174-48
+#: explainer.html%2Bhtml.body.main.title:178-48
 msgid "Ceno Browser: Explainer"
 msgstr "سمجھانے والا"
 
-#: explainer.html%2Bhtml.body.main.div.h2:178-1
+#: explainer.html%2Bhtml.body.main.div.h2:182-1
 msgid "Ceno Browser Explainer"
 msgstr "Ceno Browser: سمجھانے والا"
 
-#: explainer.html%2Bhtml.body.main.div.p:180-1
+#: explainer.html%2Bhtml.body.main.div.p:184-1
 msgid ""
 "Ceno Browser is quite different from any other browser you’ve used in the "
 "past. It does not function like a VPN or the Tor network. It’s built for "
@@ -118,13 +134,13 @@ msgid ""
 "mobile browser using decentralized networking to bring you the web."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:182-1
+#: explainer.html%2Bhtml.body.main.div.p:186-1
 msgid ""
 "Whilst this may sound relatively attractive, every innovation has its "
 "benefits and risks. You should be aware of both before using Ceno Browser."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:184-1
+#: explainer.html%2Bhtml.body.main.div.p:188-1
 msgid ""
 "So, how does it work? There are two distinct modes of using Ceno - "
 "<strong>Public</strong> and <strong>Personal</strong>. You can switch "
@@ -138,11 +154,11 @@ msgid ""
 "you get the book you want."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:186-1
+#: explainer.html%2Bhtml.body.main.div.h3:190-1
 msgid "Public Mode"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:187-1
+#: explainer.html%2Bhtml.body.main.div.p:191-1
 msgid ""
 "Imagine using Ceno like going to a public library - where every book is a "
 "website that you visit and the library itself is the BitTorrent network. You "
@@ -151,7 +167,7 @@ msgid ""
 "rented it."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:188-1
+#: explainer.html%2Bhtml.body.main.div.p:192-1
 msgid ""
 "Now that you have this book, you can read it and you can pass it along for "
 "others to read. They can pass it on as well. In <strong>Public</strong> mode "
@@ -161,11 +177,11 @@ msgid ""
 "book and passed it along to others. It is essentially public."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:190-1
+#: explainer.html%2Bhtml.body.main.div.h3:194-1
 msgid "Personal Mode"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:192-1
+#: explainer.html%2Bhtml.body.main.div.p:196-1
 msgid ""
 "Now, you will be going to a bookstore to get that book you want. The book "
 "will belong to you only and no one but the bookstore employee will know that "
@@ -175,11 +191,11 @@ msgid ""
 "anyone to know which websites you have been visiting."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:194-1
+#: explainer.html%2Bhtml.body.main.div.h3:198-1
 msgid "Helpers"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:195-1
+#: explainer.html%2Bhtml.body.main.div.p:199-1
 msgid ""
 "The librarian and the bookstore employee are Helpers in our network. They "
 "are responsible for fetching the desired book from the bookshelves. In Ceno, "
@@ -190,11 +206,11 @@ msgid ""
 "to your Internet provider or VPN service."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.h3:197-1
+#: explainer.html%2Bhtml.body.main.div.h3:201-1
 msgid "Couriers"
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:198-1
+#: explainer.html%2Bhtml.body.main.div.p:202-1
 msgid ""
 "You may not be able to visit a library or there may not be a library in your "
 "town or country. For this instance we have Couriers. They are located in a "
@@ -206,7 +222,7 @@ msgid ""
 "with anyone (<strong>Personal</strong>)."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.main.div.p:200-1
+#: explainer.html%2Bhtml.body.main.div.p:204-1
 msgid ""
 "Any Ceno user can become a Courier and we encourage those that live in "
 "countries with lots of libraries (unrestricted Internet access) to be "
@@ -214,7 +230,7 @@ msgid ""
 "time, waiting for requests to fetch a book for you."
 msgstr ""
 
-#: explainer.html%2Bhtml.body.footer.div.p:219-9
+#: explainer.html%2Bhtml.body.footer.div.p:223-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -230,7 +246,7 @@ msgstr ""
 "ہیں۔ وہ ہر روز لاکھوں لوگوں کو آن لائن ایسوسی ایشن کی آزادی فراہم کرتے ہیں۔"
 
 #.  TRANSLATORS: Please do not translate this. 
-#: explainer.html%2Bhtml.body.footer:221-23
+#: explainer.html%2Bhtml.body.footer:225-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

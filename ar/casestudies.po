@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
@@ -60,6 +60,9 @@ msgid ""
 msgstr ""
 
 #: casestudies.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "casestudies.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "تنزيل"
 
@@ -71,19 +74,32 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: casestudies.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: casestudies.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "تنزيل"
+
+#: casestudies.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "casestudies.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "تنزيل"
+
+#: casestudies.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: casestudies.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "casestudies.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: casestudies.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "casestudies.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: casestudies.html%2Bhtml.body.nav.div.div.div:155-9
-msgctxt "casestudies.html+html.body.nav.div.div.div:155-9"
+#: casestudies.html%2Bhtml.body.nav.div.div.div:159-9
+msgctxt "casestudies.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
 "casestudies.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
@@ -103,27 +119,27 @@ msgid ""
 "casestudies.html\">اردو</a>"
 msgstr ""
 
-#: casestudies.html%2Bhtml.body.main.title:174-52
+#: casestudies.html%2Bhtml.body.main.title:178-52
 msgid "Ceno Browser | Case Studies"
 msgstr "متصفح Ceno | دراسات الحالات"
 
-#: casestudies.html%2Bhtml.body.main.div.h1:176-5
+#: casestudies.html%2Bhtml.body.main.div.h1:180-5
 msgid "Case Studies"
 msgstr "دراسات الحالات"
 
-#: casestudies.html%2Bhtml.body.main.div.p:177-2
+#: casestudies.html%2Bhtml.body.main.div.p:181-2
 msgid "Sharing the stories of Ceno users from around the world."
 msgstr "مشاركة قصص مستخدمي Ceno من جميع أنحاء العالم."
 
-#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:188-17
+#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.h4:192-17
 msgid "Highlights from the Ground in Iran"
 msgstr "أحداث بارزة من الأرض في إيران"
 
-#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:190-17
+#: casestudies.html%2Bhtml.body.main.div.section.div.div.div.div.a.div.div.div.p:194-17
 msgid "December 15, 2022"
 msgstr "15 كانون الأول/ ديسمبر 2022"
 
-#: casestudies.html%2Bhtml.body.footer.div.p:215-9
+#: casestudies.html%2Bhtml.body.footer.div.p:219-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -139,7 +155,7 @@ msgstr ""
 "الإنترنت لملايين الأشخاص كل يوم."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: casestudies.html%2Bhtml.body.footer:217-23
+#: casestudies.html%2Bhtml.body.footer:221-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

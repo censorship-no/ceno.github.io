@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
@@ -88,6 +88,9 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
 
 #: 404.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "404.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "تنزيل"
 
@@ -99,18 +102,31 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: 404.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: 404.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "تنزيل"
+
+#: 404.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "404.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "تنزيل"
+
+#: 404.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: 404.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "404.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: 404.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "404.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: 404.html%2Bhtml.body.nav.div.div.div:155-9
+#: 404.html%2Bhtml.body.nav.div.div.div:159-9
 #, fuzzy
 #| msgid ""
 #| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/404."
@@ -127,7 +143,7 @@ msgstr ""
 #| "href=\"../tr/404.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
 #| "hreflang=\"uk\" href=\"../uk/404.html\">Українська</a> <a class=\"navbar-"
 #| "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
-msgctxt "404.html+html.body.nav.div.div.div:155-9"
+msgctxt "404.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/404."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -159,28 +175,28 @@ msgstr ""
 "hreflang=\"uk\" href=\"../uk/404.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
 
-#: 404.html%2Bhtml.body.main.div.div.h4:176-9
+#: 404.html%2Bhtml.body.main.div.div.h4:180-9
 msgid "Sorry, we can't find the page you're looking for"
 msgstr ""
 
-#: 404.html%2Bhtml.body.main.div.div.p:177-9
+#: 404.html%2Bhtml.body.main.div.div.p:181-9
 msgid ""
 "That link didn't work. You can return to the <a href=\"index."
 "html\">homepage</a> or get <a href=\"support.html\">support</a>."
 msgstr ""
 
-#: 404.html%2Bhtml.body.main.div.div.a[title]:179-9
+#: 404.html%2Bhtml.body.main.div.div.a[title]:183-9
 #, fuzzy
 #| msgctxt "404.html+html.body.nav.div.div.div.a[title]:125-15"
 #| msgid "Get Ceno"
 msgid "Get Ceno"
 msgstr "احصل على Ceno"
 
-#: 404.html%2Bhtml.body.main.div.div:178-49
+#: 404.html%2Bhtml.body.main.div.div:182-49
 msgid "Go to censorship.no"
 msgstr ""
 
-#: 404.html%2Bhtml.body.footer.div.p:199-9
+#: 404.html%2Bhtml.body.footer.div.p:203-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -196,13 +212,61 @@ msgstr ""
 "الإنترنت لملايين الأشخاص كل يوم."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: 404.html%2Bhtml.body.footer:201-23
+#: 404.html%2Bhtml.body.footer:205-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/404."
+#~| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~| "href=\"../en/404.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~| "hreflang=\"es\" href=\"../es/404.html\">Español</a> <a class=\"navbar-"
+#~| "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/404.html\">فارسی</a> <a "
+#~| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/404."
+#~| "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~| "href=\"../my/404.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~| "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/404.html\">Português</"
+#~| "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/404."
+#~| "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~| "href=\"../tr/404.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#~| "hreflang=\"uk\" href=\"../uk/404.html\">Українська</a> <a class=\"navbar-"
+#~| "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
+#~ msgctxt "404.html+html.body.nav.div.div.div:155-9"
+#~ msgid ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/404."
+#~ "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~ "href=\"../en/404.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/404.html\">Español</a> <a class=\"navbar-"
+#~ "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/404.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/404."
+#~ "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/404.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/404.html\">Português</"
+#~ "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/404."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/404.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#~ "hreflang=\"uk\" href=\"../uk/404.html\">Українська</a> <a class=\"navbar-"
+#~ "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
+#~ msgstr ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/404."
+#~ "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~ "href=\"../en/404.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/404.html\">Español</a> <a class=\"navbar-"
+#~ "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/404.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/404."
+#~ "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/404.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/404.html\">Português</"
+#~ "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/404."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/404.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#~ "hreflang=\"uk\" href=\"../uk/404.html\">Українська</a> <a class=\"navbar-"
+#~ "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
 
 #~ msgid "About"
 #~ msgstr "حول"

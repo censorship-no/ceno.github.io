@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:17-0400\n"
+"POT-Creation-Date: 2024-06-26 13:20-0700\n"
 "PO-Revision-Date: 2024-04-19 00:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
@@ -87,6 +87,9 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 
 #: help.html%2Bhtml.body.nav.div.div:127-9
+#, fuzzy
+#| msgid "Download"
+msgctxt "help.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Télécharger"
 
@@ -98,18 +101,31 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.a.img[alt]:145-28
+#: help.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+#, fuzzy
+#| msgid "Download"
+msgid "Download Ceno"
+msgstr "Télécharger"
+
+#: help.html%2Bhtml.body.nav.div.div.a.div:146-11
+#, fuzzy
+#| msgid "Download"
+msgctxt "help.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "Télécharger"
+
+#: help.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr ""
 
-#: help.html%2Bhtml.body.nav.div.div.label.img[alt]:149-11
-msgctxt "help.html+html.body.nav.div.div.label.img[alt]:149-11"
+#: help.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "help.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr ""
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: help.html%2Bhtml.body.nav.div.div.div:155-9
+#: help.html%2Bhtml.body.nav.div.div.div:159-9
 #, fuzzy
 #| msgid ""
 #| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
@@ -126,7 +142,7 @@ msgstr ""
 #| "href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
 #| "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
 #| "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
-msgctxt "help.html+html.body.nav.div.div.div:155-9"
+msgctxt "help.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
 "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
@@ -158,15 +174,15 @@ msgstr ""
 "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 
-#: help.html%2Bhtml.body.main.title:174-49
+#: help.html%2Bhtml.body.main.title:178-49
 msgid "Ceno Browser | Community"
 msgstr "Navigateur Ceno | Communauté"
 
-#: help.html%2Bhtml.body.main.div.h1:176-5
+#: help.html%2Bhtml.body.main.div.h1:180-5
 msgid "Get Involved!"
 msgstr "Impliquez-vous !"
 
-#: help.html%2Bhtml.body.main.div.p:177-2
+#: help.html%2Bhtml.body.main.div.p:181-2
 msgid ""
 "We'd love your support in making Ceno Browser as useful and accessible as "
 "possible. Ceno is a completely Free/Libre/Open Source project, and there are "
@@ -176,11 +192,11 @@ msgstr ""
 "utile et accessible que possible. Ceno est un projet entièrement libre, à "
 "code source ouvert, et vous pouvez y contribuer de nombreuses façons."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:187-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:191-17
 msgid "Translations"
 msgstr "Traductions"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:189-9
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:193-9
 msgid ""
 "Help translate the Ceno Browser app, web extension, user manual and website! "
 "We use Weblate to crowdsource translations."
@@ -189,7 +205,7 @@ msgstr ""
 "le site Web du Navigateur Ceno. Nous utilisons Weblate pour des traductions "
 "collaboratives."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:190-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:194-13
 msgid ""
 "Please contact the Ceno team at support [at] censorship [dot] no if you're "
 "interested in becoming a reviewer for translation(s) in your language(s)."
@@ -198,7 +214,7 @@ msgstr ""
 "no (ou remplissez le formulaire de contact ci-dessous) si vous souhaitez "
 "réviser les traductions dans vôtre langue."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:191-13
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:195-13
 msgid ""
 "For more information about how to use Weblate, see <a href=\"https://docs."
 "weblate.org/\">the Weblate documentation.</a>"
@@ -206,15 +222,15 @@ msgstr ""
 "Pour plus de précisions sur l’utilisation de Weblate, consultez <a "
 "href=\"https://docs.weblate.org/\">la documentation de Weblate.</a>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:192-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:196-17
 msgid "Join our Weblate"
 msgstr "Joignez-vous à notre Weblate"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:203-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:207-17
 msgid "User Research"
 msgstr "Recherche sur nos utilisateurs"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:204-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:208-3
 msgid ""
 "Ceno relies on user feedback to understand the needs of our users and to "
 "suggest improvements and new features."
@@ -222,7 +238,7 @@ msgstr ""
 "Ceno dépend des rétroactions des utilisateurs pour comprendre leurs besoins "
 "et nous suggérer des améliorations et de nouvelles fonctions."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:205-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:209-3
 msgid ""
 "Sharing your story also helps spread the word about Ceno, which grows the "
 "network. With your consent, we may also highlight your story on our website!"
@@ -231,7 +247,7 @@ msgstr ""
 "qui permet au réseau de croître. Avec votre accord, nous pourrons également "
 "publier votre histoire sur notre site Web."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:206-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:210-3
 msgid ""
 "We welcome reviews on the Play Store as well as direct communications - you "
 "can get in touch with the team via our social channels or send us an email:"
@@ -240,19 +256,19 @@ msgstr ""
 "directes. Vous pouvez contacter l'équipe via nos réseaux sociaux ou nous "
 "envoyer un e-mail :"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:207-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:211-3
 msgid "support [at] censorship [dot] no"
 msgstr ""
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:208-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:212-17
 msgid "Take a survey"
 msgstr "Répondez à un sondage"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:219-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.h4:223-17
 msgid "Source Code"
 msgstr "Code source"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:220-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:224-3
 msgid ""
 "If you are interested in Ceno's source code please check the following Git "
 "repositories:"
@@ -260,27 +276,27 @@ msgstr ""
 "Si le code source de Ceno vous intéresse, veuillez consulter les dépôts Git "
 "suivants :"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:222-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:226-12
 msgid "Ceno Browser"
 msgstr "Navigateur Ceno"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:223-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:227-5
 msgid "Mozilla Build Scripts"
 msgstr "Mozilla Build Scripts"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:224-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:228-5
 msgid "Firefox Browser Extension"
 msgstr "Extension de navigateur Firefox"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:225-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:229-12
 msgid "Ouinet"
 msgstr "Ouinet"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:226-5
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p.ul.li:230-5
 msgid "Ceno Docker Client"
 msgstr "le client Docker de Ceno"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:227-12
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.p:231-12
 msgid ""
 "You may also be interested in the (no longer maintained) <a href=\"https://"
 "gitlab.com/censorship-no/ceno-browser-archive\">previous incarnation of "
@@ -293,39 +309,39 @@ msgstr ""
 "réseau anonyme de partage de fichiers et de publication de contenu, pourrait "
 "aussi vous intéresser."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:228-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.div.div:232-17
 msgid "Browse our Gitlab"
 msgstr "Parcourez notre Gitlab"
 
-#: help.html%2Bhtml.body.main.div.section.h2:241-1
+#: help.html%2Bhtml.body.main.div.section.h2:245-1
 msgid "Run a Bridge Node"
 msgstr "Exploiter un nœud-pont"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:247-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:251-3
 msgid "Become a bridge!"
 msgstr "Offrez un pont"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:249-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:253-17
 msgid "Want to help grow the network? Join the swarm!"
 msgstr ""
 "Voulez-vous contribuer à la croissance du réseau ? Joignez-vous à l’essaim."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:256-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:260-3
 msgid "The easy way: Android"
 msgstr "La méthode la plus simple : Android"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:258-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:262-17
 msgid ""
 "Run Ceno Browser on your Android device, and/or a spare, always-on device."
 msgstr ""
 "Faites tourner le Navigateur Ceno sur votre appareil Android ou sur un "
 "appareil de réserve toujours actif."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:265-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:269-3
 msgid "Run the Ceno Docker Client"
 msgstr "Faire tourner le client Docker de Ceno"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:267-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:271-17
 msgid ""
 "Alternatively, with just one command you can set up a bridge on your "
 "computer or VPS: <code>sudo docker run --name ceno-client -dv ceno:/var/opt/"
@@ -336,21 +352,21 @@ msgstr ""
 "ceno-client -dv ceno:/var/opt/ouinet --network host --restart unless-stopped "
 "equalitie/ceno-client</code>"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:274-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:278-3
 msgid "Open a portal to the internet"
 msgstr "Ouvrir un portail vers Internet"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:276-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:280-17
 msgid "Ensure UPnP is enabled on your router, or set up port forwarding."
 msgstr ""
 "Assurez-vous qu’UPnP est activé sur votre routeur, ou configurez la "
 "redirection de port."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:283-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:287-3
 msgid "To see if it's working:"
 msgstr "Pour voir si ça fonctionne :"
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:285-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:289-17
 msgid ""
 "Create and open a new Firefox Profile, and set the proxy to localhost, port "
 "8077."
@@ -358,11 +374,11 @@ msgstr ""
 "Créez et ouvrez un nouveau profil Firefox, puis configurez le mandataire sur "
 "localhost, port 8077."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:292-3
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.h4:296-3
 msgid "Thank you for growing the network!"
 msgstr "Nous vous remercions de développer le réseau."
 
-#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:294-17
+#: help.html%2Bhtml.body.main.div.section.div.div.div.div.div.p:298-17
 msgid ""
 "Install the Ceno Web Extension and the provided certificate to test it out!"
 msgstr ""
@@ -370,13 +386,13 @@ msgstr ""
 "tout."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
-#: help.html%2Bhtml.body.main.div.section.div.div:300-1
+#: help.html%2Bhtml.body.main.div.section.div.div:304-1
 msgid "Learn more about setting up a bridge in the User Manual!"
 msgstr ""
 "Pour en savoir plus sur la mise en place d’un pont, consultez le manuel "
 "d’utilisation."
 
-#: help.html%2Bhtml.body.footer.div.p:322-9
+#: help.html%2Bhtml.body.footer.div.p:326-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -393,13 +409,62 @@ msgstr ""
 "ligne à des millions de personnes."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: help.html%2Bhtml.body.footer:324-23
+#: help.html%2Bhtml.body.footer:328-23
 msgid ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+#~| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~| "href=\"../en/help.html\">English</a> <a class=\"navbar-item\" "
+#~| "lang=\"es\" hreflang=\"es\" href=\"../es/help.html\">Español</a> <a "
+#~| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help."
+#~| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
+#~| "href=\"../fr/help.html\">Français</a> <a class=\"navbar-item\" "
+#~| "lang=\"my\" hreflang=\"my\" href=\"../my/help.html\">မြန်မာစာ</a> <a "
+#~| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#~| "help.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#~| "hreflang=\"ru\" href=\"../ru/help.html\">Pусский</a> <a class=\"navbar-"
+#~| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/help.html\">Türkçe</a> "
+#~| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/help."
+#~| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+#~| "hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+#~ msgctxt "help.html+html.body.nav.div.div.div:155-9"
+#~ msgid ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+#~ "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~ "href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+#~ "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+#~ "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</"
+#~ "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#~ "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+#~ "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
+#~ msgstr ""
+#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/help."
+#~ "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
+#~ "href=\"../en/help.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+#~ "hreflang=\"es\" href=\"../es/help.html\">Español</a> <a class=\"navbar-"
+#~ "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/help.html\">فارسی</a> <a "
+#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/help."
+#~ "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
+#~ "href=\"../my/help.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
+#~ "lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/help.html\">Português</"
+#~ "a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/help."
+#~ "html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
+#~ "href=\"../tr/help.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#~ "hreflang=\"uk\" href=\"../uk/help.html\">Українська</a> <a class=\"navbar-"
+#~ "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/help.html\">اردو</a>"
 
 #~ msgid "About"
 #~ msgstr "À propos"
