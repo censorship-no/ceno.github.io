@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-04-22 18:16+0000\n"
+"PO-Revision-Date: 2024-07-11 10:09+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website/404/uk/>\n"
@@ -11,9 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: 404.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -26,11 +26,14 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Про</a><a href=\"support.html\">Підтримка</a><a href="
+"\"news.html\">новини</a><a href=\"help.html\">Спільнота</a><a href=\"donate."
+"html\">Підтримати</a>"
 
 #: 404.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "404.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "Обрати мову"
 
 #: 404.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -88,8 +91,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/404.html\">اردو</a>"
 
 #: 404.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "404.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Завантажити"
@@ -101,6 +102,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Про</a><a href=\"support.html\">Підтримка</a><a href="
+"\"news.html\">новини</a><a href=\"help.html\">Спільнота</a><a href=\"donate."
+"html\">Підтримати</a>"
 
 #: 404.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 #, fuzzy
