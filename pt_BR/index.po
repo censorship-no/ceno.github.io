@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-06-17 12:09+0000\n"
-"Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 20:09+0000\n"
+"Last-Translator: Jose Delvani <jsdelvani@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website/websiteindex/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -75,11 +75,9 @@ msgstr ""
 "html\">اردو</a>"
 
 #: index.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div:127-9"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Download"
 
 #: index.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "index.html+html.body.nav.div.div:138-7"
@@ -93,26 +91,19 @@ msgstr ""
 "href=\"donate.html\">Fazer doação</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
-#, fuzzy
-#| msgid "Download"
 msgid "Download Ceno"
-msgstr "Baixar"
+msgstr "Baixar Ceno"
 
 #: index.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Download"
 
 #: index.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
 msgstr "Logotipo do Ceno"
 
 #: index.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
-#, fuzzy
-#| msgctxt "index.html+html.body.nav.div.div.div.label.img[alt]:107-13"
-#| msgid "Select language"
 msgctxt "index.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
 msgstr "Selecionar idioma"
@@ -120,24 +111,6 @@ msgstr "Selecionar idioma"
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: index.html%2Bhtml.body.nav.div.div.div:159-9
-#, fuzzy
-#| msgctxt "index.html+html.body.nav.div.div.div.div:112-11"
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/index."
-#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-#| "href=\"../en/index.html\">English</a> <a class=\"navbar-item\" "
-#| "lang=\"es\" hreflang=\"es\" href=\"../es/index.html\">Español</a> <a "
-#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index."
-#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
-#| "href=\"../fr/index.html\">Français</a> <a class=\"navbar-item\" "
-#| "lang=\"my\" hreflang=\"my\" href=\"../my/index.html\">မြန်မာစာ</a> <a "
-#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#| "index.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#| "hreflang=\"ru\" href=\"../ru/index.html\">Pусский</a> <a class=\"navbar-"
-#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/index.html\">Türkçe</a> "
-#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index."
-#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
-#| "hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 msgctxt "index.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/index."
@@ -156,20 +129,19 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/index."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-"href=\"../en/index.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/index.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/index.html\">Español</a> <a class=\"navbar-"
 "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/index.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/index."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/index.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/index.html\">Português "
-"(BR)</a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/"
-"index.html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" "
-"hreflang=\"tr\" href=\"../tr/index.html\">Türkçe</a> <a class=\"navbar-"
-"item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/index.html\">Українська</a> "
-"<a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index."
-"html\">اردو</a>"
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/index.html\""
+">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
+"my/index.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" "
+"hreflang=\"pt_BR\" href=\"../pt_BR/index.html\">Português (BR)</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/index.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../"
+"tr/index.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk"
+"\" href=\"../uk/index.html\">Українська</a> <a class=\"navbar-item\" lang="
+"\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 
 #: index.html%2Bhtml.body.main.title:178-53
 msgid "Ceno Browser | Share the Web"
@@ -246,19 +218,11 @@ msgstr ""
 "websites bloqueados para pessoas em países censurados."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:235-13
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:231-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:235-13"
 msgid "Free and Open Source"
 msgstr "Livre e de código aberto"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:236-15
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:231-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:236-15"
 msgid "Free and Open Source"
 msgstr "Livre e de código aberto"
