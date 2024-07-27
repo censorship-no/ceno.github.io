@@ -3,6 +3,15 @@
 @import 'all.css';
 /* Font Awesome */
 
+@font-face {
+    font-family: "Vazirmatn";
+    src:
+        url("../webfonts/vazirmatn-v33.003/fonts/webfonts/Vazirmatn.woff2") format("woff2");
+
+    unicode-range: U+0600-1EEFF;
+}
+
+
 html {
     --ceno-prim-200: #BAE6FD;
     --ceno-primary: #0EA5E9;
@@ -12,7 +21,7 @@ html {
 }
 
 body {
-    font-family: Inter, sans-serif !important;
+    font-family: Vazirmatn, Inter, sans-serif !important;
     font-size: 1.08em;
     background-color: #f0f9ff;
     min-height: 75rem;
@@ -20,7 +29,7 @@ body {
 }
 
 h1 {
-    font-family: Metropolis, sans-serif;
+    font-family: Vazirmatn, Metropolis, sans-serif;
     font-size: 2.6em;
     color: #0369a1;
     margin-bottom: 20px;
@@ -28,7 +37,7 @@ h1 {
 }
 
 h2 {
-    font-family: Metropolis, sans-serif;
+    font-family: Vazirmatn, Metropolis, sans-serif;
     font-size: 2em;
     color: #0369a1;
     font-weight: 500;
@@ -36,7 +45,7 @@ h2 {
 }
 
 h3 {
-    font-family: Metropolis, sans-serif;
+    font-family: Vazirmatn, Metropolis, sans-serif;
     font-size: 1.4em;
     color: #0369A1;
     font-weight: 500;
@@ -72,7 +81,7 @@ a:hover {
 }
 
 p {
-    font-family: Inter, sans-serif;
+    font-family: Vazirmatn, Inter, sans-serif;
     font-size: 1.08em;
 }
 
