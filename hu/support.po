@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-05 14:38-0400\n"
-"PO-Revision-Date: 2024-07-31 16:59+0000\n"
-"Last-Translator: Fill read-only add-on <noreply-addon-fill@weblate.org>\n"
+"PO-Revision-Date: 2024-08-01 14:42+0000\n"
+"Last-Translator: mpadanyi09 <mpadanyi09@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/hu/>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "angol"
 
 #: support.html%2Bhtml.body.nav.div.div:96-7
 msgctxt "support.html+html.body.nav.div.div:96-7"
@@ -25,15 +25,18 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
 "\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Rólunk</a> <a href=\"support.html\">Támogatás</a> <a "
+"href=\"news.html\">Hírek</a> <a href=\"help.html\">Közösség</a> <a href="
+"\"donate.html\">Adományozás</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "Válasszon nyelvet"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
-msgstr ""
+msgstr "ANGOL"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -59,7 +62,7 @@ msgstr ""
 #: support.html%2Bhtml.body.nav.div.div:127-9
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
-msgstr ""
+msgstr "Letőltés"
 
 #: support.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "support.html+html.body.nav.div.div:138-7"
@@ -68,24 +71,27 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
 "\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Rólunk</a> <a href=\"support.html\">Támogatás</a> <a "
+"href=\"news.html\">Hírek</a> <a href=\"help.html\">Közösség</a> <a href="
+"\"donate.html\">Adományozás</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
-msgstr ""
+msgstr "A Ceno Letöltése"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
-msgstr ""
+msgstr "Letöltés"
 
 #: support.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "A Ceno logója"
 
 #: support.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "support.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "Kérem válasszon nyevlet"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -123,19 +129,20 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.title:186-1
 msgid "Ceno Browser| Support"
-msgstr ""
+msgstr "Ceno Böngésző| Támogatás"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "GYIK(Gyakran Ismételt Kérdések)"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
-msgstr ""
+msgstr "Mi az a Ceno Böngésző?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:193-17
+#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:193-17"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -145,11 +152,17 @@ msgid ""
 "methods and allowing people to access and share web information in and "
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"A Ceno egy mobilos web böngésző a Mozilla Android Components-en alapozva. "
+"Célja a web tartalmak(weboldalak) elérése és terjesztése egy zseniális, új "
+"megközelítésből, ami a BitTorrentet használja - egy decentralizált file "
+"megosztó hálozatot. A Ceno előnye a mostani internetes cenzúra átlépése és a "
+"web információk hozzáférésének és megosztásának egnedélyezése Régión belül "
+"és kívül, ahol a kapcsolat meg lett szakítva, vagy megfigyelés alatt van."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
-msgstr ""
+msgstr "Hogyan Működik a Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:201-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:201-17"
