@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-04-19 00:03+0000\n"
+"PO-Revision-Date: 2024-08-02 06:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/fa/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,6 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -88,8 +91,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "دانلود"
@@ -101,16 +102,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
-#, fuzzy
-#| msgid "Download"
 msgid "Download Ceno"
-msgstr "دانلود"
+msgstr "دانلود Ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "دانلود"
@@ -127,23 +127,6 @@ msgstr ""
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: support.html%2Bhtml.body.nav.div.div.div:159-9
-#, fuzzy
-#| msgid ""
-#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
-#| "html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-#| "href=\"../en/support.html\">English</a> <a class=\"navbar-item\" "
-#| "lang=\"es\" hreflang=\"es\" href=\"../es/support.html\">Español</a> <a "
-#| "class=\"navbar-item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support."
-#| "html\">فارسی</a> <a class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" "
-#| "href=\"../fr/support.html\">Français</a> <a class=\"navbar-item\" "
-#| "lang=\"my\" hreflang=\"my\" href=\"../my/support.html\">မြန်မာစာ</a> <a "
-#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#| "support.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#| "hreflang=\"ru\" href=\"../ru/support.html\">Pусский</a> <a class=\"navbar-"
-#| "item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/support.html\">Türkçe</a> "
-#| "<a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href=\"../uk/support."
-#| "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
-#| "hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 msgctxt "support.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
@@ -162,19 +145,19 @@ msgid ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 msgstr ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/support."
-"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" "
-"href=\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/support.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
 "hreflang=\"es\" href=\"../es/support.html\">Español</a> <a class=\"navbar-"
 "item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/support.html\">فارسی</a> <a "
-"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support."
-"html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/support.html\">Português</"
-"a> <a class=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support."
-"html\">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" "
-"href=\"../tr/support.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-"hreflang=\"uk\" href=\"../uk/support.html\">Українська</a> <a class=\"navbar-"
-"item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/support.html\""
+">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" href=\"../"
+"my/support.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\" hreflang="
+"\"pt_BR\" href=\"../pt_BR/support.html\">Português</a> <a class=\"navbar-"
+"item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/support.html\">Pусский</a> "
+"<a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/support."
+"html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" href="
+"\"../uk/support.html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" "
+"hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #. title>Ceno Browser| Support</title
 #: support.html%2Bhtml.body.main:177-3
@@ -194,15 +177,11 @@ msgid "Ceno Browser| Support"
 msgstr "Ceno مرورگر | راهنمای کاربر"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
-#, fuzzy
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
 msgstr "پرسش‌های متداول"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
-#, fuzzy
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
 msgstr "مرورگر سنو چیست؟"
@@ -219,9 +198,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
 msgstr "مرورگر سنو چیست؟"
@@ -431,9 +407,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:274-42
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:274-42"
 msgid "Who develops Ceno Browser?"
 msgstr "مرورگر سنو چیست؟"
@@ -558,16 +531,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.noscript.div:330-5
-#, fuzzy
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.noscript.div:330-5"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -579,25 +542,21 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></"
-"span>اطلاعات بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab."
-"com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ "
-"سفید Ouinet را ببینید.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>اطلاعات "
+"بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ سفید Ouinet را "
+"ببینید.</button></a>"
 
 #: support.html%2Bhtml.body.main.div.h1:341-5
-#, fuzzy
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.div.h1:341-5"
 msgid "Frequently Asked Questions"
 msgstr "پرسش‌های متداول"
 
 #: support.html%2Bhtml.body.main.div.section:342-5
-#, fuzzy
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section:342-5"
 msgid "What is Ceno Browser?"
 msgstr "مرورگر سنو چیست؟"
@@ -614,9 +573,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:349-44
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section.details:349-44"
 msgid "How does Ceno work?"
 msgstr "مرورگر سنو چیست؟"
@@ -826,9 +782,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:424-29
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section.details:424-29"
 msgid "Who develops Ceno Browser?"
 msgstr "مرورگر سنو چیست؟"
@@ -953,16 +906,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.div:480-1
-#, fuzzy
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.div:480-1"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -974,14 +917,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></"
-"span>اطلاعات بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab."
-"com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ "
-"سفید Ouinet را ببینید.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>اطلاعات "
+"بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ سفید Ouinet را "
+"ببینید.</button></a>"
 
 #: support.html%2Bhtml.body.footer.div.p:504-9
 msgid ""
