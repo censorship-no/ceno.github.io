@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-04-19 00:03+0000\n"
+"PO-Revision-Date: 2024-07-30 01:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-branding/ur/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: branding.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,6 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">کے بارے میں</a><a href=\"support.html\">معاونت</a><a "
+"href=\"news.html\">خبریں</a><a href=\"help.html\">کمیونٹی</a><a href=\"donate"
+".html\">عطیہ کریں</a>"
 
 #: branding.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "branding.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -84,23 +87,22 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">کے بارے میں</a><a href=\"support.html\">معاونت</a><a "
+"href=\"news.html\">خبریں</a><a href=\"help.html\">کمیونٹی</a><a href=\"donate"
+".html\">عطیہ کریں</a>"
 
 #: branding.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
-#, fuzzy
-#| msgid "Download"
 msgid "Download Ceno"
-msgstr "ڈاؤن لوڈ کریں"
+msgstr "ڈاؤن لوڈ کریںCeno"
 
 #: branding.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "branding.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "ڈاؤن لوڈ کریں"
 
 #: branding.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Ceno logo"
 
 #: branding.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "branding.html+html.body.nav.div.div.label.img[alt]:153-11"
@@ -110,7 +112,6 @@ msgstr ""
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
 #: branding.html%2Bhtml.body.nav.div.div.div:159-9
-#, fuzzy
 msgctxt "branding.html+html.body.nav.div.div.div:159-9"
 msgid ""
 "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/branding."
@@ -129,17 +130,19 @@ msgid ""
 "html\">Українська</a> <a class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" "
 "href=\"../ur/branding.html\">اردو</a>"
 msgstr ""
-"<a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href=\"../en/branding."
-"html\">English</a> <a class=\"navbar-item\" lang=\"es\" hreflang=\"es\" "
-"href=\"../es/branding.html\">Español</a> <a class=\"navbar-item\" "
-"lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/branding."
+"html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" hreflang=\"en\" href="
+"\"../en/branding.html\">English</a> <a class=\"navbar-item\" lang=\"es\" "
+"hreflang=\"es\" href=\"../es/branding.html\">Español</a> <a class=\"navbar-"
+"item\" lang=\"fa\" hreflang=\"fa\" href=\"../fa/branding.html\">فارسی</a> <a "
 "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/branding."
 "html\">Français</a> <a class=\"navbar-item\" lang=\"my\" hreflang=\"my\" "
-"href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" "
-"lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\">Pусский</a> <a "
-"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/branding."
-"html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang=\"uk\" "
-"href=\"../uk/branding.html\">Українська</a> <a class=\"navbar-item\" "
+"href=\"../my/branding.html\">မြန်မာစာ</a> <a class=\"navbar-item\" lang=\"pt_BR\""
+" hreflang=\"pt_BR\" href=\"../pt_BR/branding.html\">Português</a> <a class"
+"=\"navbar-item\" lang=\"ru\" hreflang=\"ru\" href=\"../ru/branding.html\""
+">Pусский</a> <a class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../"
+"tr/branding.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" hreflang="
+"\"uk\" href=\"../uk/branding.html\">Українська</a> <a class=\"navbar-item\" "
 "lang=\"ur\" hreflang=\"ur\" href=\"../ur/branding.html\">اردو</a>"
 
 #: branding.html%2Bhtml.body.main.title:178-61
@@ -191,15 +194,11 @@ msgid "Primary Color"
 msgstr "بنیادی رنگ"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:203-15
-#, fuzzy
-#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:163-15"
-#| msgid "Light Blue"
 msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:203-15"
 msgid "Light Blue"
 msgstr "ہلکے نیلے رنگ کے"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.div.p:204-15
-#, fuzzy
 msgctxt "branding.html+html.body.main.div.div.div.div.div.div.p:204-15"
 msgid "#0EA5E9"
 msgstr "#0EA5E9"
@@ -209,9 +208,6 @@ msgid "Secondary Color"
 msgstr "ثانوی رنگ"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.div.h3:211-15
-#, fuzzy
-#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:171-15"
-#| msgid "Orange"
 msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:211-15"
 msgid "Orange"
 msgstr "نارنجی"
@@ -241,15 +237,11 @@ msgstr ""
 "رنگ استعمال کیا جا سکتا ہے۔"
 
 #: branding.html%2Bhtml.body.main.div.div.h3:228-11
-#, fuzzy
-#| msgctxt "branding.html+html.body.main.div.div.div.div.div.div.h3:163-15"
-#| msgid "Light Blue"
 msgctxt "branding.html+html.body.main.div.div.h3:228-11"
 msgid "Light Blue"
 msgstr "ہلکے نیلے رنگ کے"
 
 #: branding.html%2Bhtml.body.main.div.div.div.div.div.p:232-15
-#, fuzzy
 msgctxt "branding.html+html.body.main.div.div.div.div.div.p:232-15"
 msgid "50"
 msgstr "50"
