@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-07-05 14:38-0400\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 00:19-0700\n"
 "PO-Revision-Date: 2024-08-02 06:55+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
@@ -27,8 +27,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">О проекте</a><a href=\"support.html\">Поддержка</a><a "
-"href=\"news.html\">Новости</a><a href=\"help.html\">Сообщество</a><a href="
-"\"donate.html\">Пожертвовать</a>"
+"href=\"news.html\">Новости</a><a href=\"help.html\">Сообщество</a><a "
+"href=\"donate.html\">Пожертвовать</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -107,8 +107,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">О проекте</a><a href=\"support.html\">Поддержка</a><a "
-"href=\"news.html\">Новости</a><a href=\"help.html\">Сообщество</a><a href="
-"\"donate.html\">Пожертвовать</a>"
+"href=\"news.html\">Новости</a><a href=\"help.html\">Сообщество</a><a "
+"href=\"donate.html\">Пожертвовать</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -271,7 +271,9 @@ msgstr ""
 "вышеуказанным ссылкам, могут скачать последнюю версию APK напрямую:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-msgid "Ceno Browser 2.1.6"
+#, fuzzy
+#| msgid "Ceno Browser 2.1.6"
+msgid "Ceno Browser 2.2.0"
 msgstr "Браузер Ceno 2.1.3"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
@@ -304,10 +306,18 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+#| msgid ""
+#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+#| "ceno/v2.1.6/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+#| "download.s3.amazonaws.com/ceno/v2.1.6/sha256sums.txt\">file hashes</a> "
+#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
+#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.1.6/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.1.6/sha256sums.txt\">file hashes</a> "
+"ceno/v2.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
@@ -315,9 +325,9 @@ msgstr ""
 "Также можете проверить <a href=\"https://ceno-download.s3.amazonaws.com/ceno/"
 "v2.1.3/sha256sums.txt.asc\">подписи</a> <a href=\"https://ceno-download.s3."
 "amazonaws.com/ceno/v2.1.3/sha256sums.txt\">хешей файлов</a> по нашему <a "
-"href=\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\""
-">PGP-ключу</a> (с отпечатком <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
-"F0DD B862</code>)."
+"href=\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP-"
+"ключу</a> (с отпечатком <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:275-9
 msgid ""
