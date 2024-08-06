@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-07-03 20:09+0000\n"
+"POT-Creation-Date: 2024-08-05 21:32-0700\n"
+"PO-Revision-Date: 2024-08-06 18:16+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "website/indexhtml/fr/>\n"
@@ -25,6 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">À propos</a><a href=\"support.html\">Assistance "
+"technique</a><a href=\"news.html\">Actualités</a><a href=\"help.html\""
+">Communauté</a><a href=\"donate.html\">Faire un don</a>"
 
 #: about.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "about.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -82,8 +85,6 @@ msgstr ""
 "href=\"../uk/about.html\">Українська</a>"
 
 #: about.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "about.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Télécharger"
@@ -95,14 +96,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">À propos</a><a href=\"support.html\">Assistance "
+"technique</a><a href=\"news.html\">Actualités</a><a href=\"help.html\""
+">Communauté</a><a href=\"donate.html\">Faire un don</a>"
 
 #: about.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "Télécharger Ceno"
 
 #: about.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "about.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "Télécharger"
@@ -258,9 +260,13 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: about.html%2Bhtml.body.footer:260-23
+#, fuzzy
+#| msgid ""
+#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

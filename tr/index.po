@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-08-02 07:10+0000\n"
+"POT-Creation-Date: 2024-08-05 21:32-0700\n"
+"PO-Revision-Date: 2024-08-06 22:35+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "website/websiteindex/tr/>\n"
@@ -88,8 +88,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 
 #: index.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "İndir"
@@ -107,15 +105,13 @@ msgid "Download Ceno"
 msgstr "İndir Ceno"
 
 #: index.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "İndir"
 
 #: index.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Ceno logosu"
 
 #: index.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "index.html+html.body.nav.div.div.label.img[alt]:153-11"
@@ -247,19 +243,11 @@ msgstr ""
 "erişebilme imkanını artırın."
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:235-13
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:214-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:235-13"
 msgid "Free and Open Source"
 msgstr "Özgür ve Açık Kaynaklı"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:236-15
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:214-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:236-15"
 msgid "Free and Open Source"
 msgstr "Özgür ve Açık Kaynaklı"
@@ -294,9 +282,13 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:261-23
+#, fuzzy
+#| msgid ""
+#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

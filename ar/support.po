@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-08-02 06:59+0000\n"
+"POT-Creation-Date: 2024-08-05 21:32-0700\n"
+"PO-Revision-Date: 2024-08-06 18:27+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/ar/>\n"
@@ -26,6 +26,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">حول</a><a href=\"support.html\">دعم</a><a href=\"news."
+"html\">أخبار</a><a href=\"help.html\">المجتمع</a><a href=\"donate.html\""
+">تبرّع</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -89,8 +92,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "تنزيل"
@@ -102,14 +103,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">حول</a><a href=\"support.html\">دعم</a><a href=\"news."
+"html\">أخبار</a><a href=\"help.html\">المجتمع</a><a href=\"donate.html\""
+">تبرّع</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "تنزيل ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "تنزيل"
@@ -193,32 +195,16 @@ msgid "Ceno Browser| Support"
 msgstr "متصفح Ceno | دعم"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
 msgstr "أسئلة شائعة"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section:169-9"
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
 msgstr "ما هو متصفح Ceno؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:193-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:193-17"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -235,9 +221,6 @@ msgstr ""
 "المناطق التي تم فيها انقطاع الاتصال أو اختراقه وعبرها."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
 msgstr "كيف يعمل سينو؟"
@@ -447,9 +430,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:274-42
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:274-42"
 msgid "Who develops Ceno Browser?"
 msgstr "ما هو متصفح Ceno؟"
@@ -574,17 +554,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.noscript.div:330-5
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div:310-5"
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.noscript.div:330-5"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -596,42 +565,26 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف "
-"على المزيد في دليل المستخدم!</button></a><a href=\"https://gitlab.com/"
-"equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع "
-"ورقة Ouinet البيضاء.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف على "
+"المزيد في دليل المستخدم!</button></a><a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع ورقة Ouinet "
+"البيضاء.</button></a>"
 
 #: support.html%2Bhtml.body.main.div.h1:341-5
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.div.h1:341-5"
 msgid "Frequently Asked Questions"
 msgstr "أسئلة شائعة"
 
 #: support.html%2Bhtml.body.main.div.section:342-5
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section:169-9"
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section:342-5"
 msgid "What is Ceno Browser?"
 msgstr "ما هو متصفح Ceno؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:345-13
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.div.section.details.p:345-13"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -648,9 +601,6 @@ msgstr ""
 "المناطق التي تم فيها انقطاع الاتصال أو اختراقه وعبرها."
 
 #: support.html%2Bhtml.body.main.div.section.details:349-44
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.div.section.details:349-44"
 msgid "How does Ceno work?"
 msgstr "كيف يعمل سينو؟"
@@ -860,9 +810,6 @@ msgid ""
 msgstr ""
 
 #: support.html%2Bhtml.body.main.div.section.details:424-29
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:253-42"
-#| msgid "Who develops Ceno Browser?"
 msgctxt "support.html+html.body.main.div.section.details:424-29"
 msgid "Who develops Ceno Browser?"
 msgstr "ما هو متصفح Ceno؟"
@@ -987,17 +934,6 @@ msgstr ""
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.div:480-1
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div:310-5"
-#| msgid ""
-#| "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-#| "style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span> "
-#| "Learn more in the User Manual!</button></a> <a href=\"https://gitlab.com/"
-#| "equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-#| "class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-#| "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical "
-#| "guide, see the Ouinet whitepaper.</button></a>"
 msgctxt "support.html+html.body.main.div:480-1"
 msgid ""
 "<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
@@ -1009,14 +945,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف "
-"على المزيد في دليل المستخدم!</button></a><a href=\"https://gitlab.com/"
-"equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع "
-"ورقة Ouinet البيضاء.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>تعرف على "
+"المزيد في دليل المستخدم!</button></a><a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"></span>للاطلاع على دليل تقني أكثر تعمقًا، راجع ورقة Ouinet "
+"البيضاء.</button></a>"
 
 #: support.html%2Bhtml.body.footer.div.p:504-9
 msgid ""
@@ -1035,9 +971,13 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: support.html%2Bhtml.body.footer:506-23
+#, fuzzy
+#| msgid ""
+#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"

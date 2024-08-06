@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-06-26 13:20-0700\n"
-"PO-Revision-Date: 2024-08-02 06:55+0000\n"
+"POT-Creation-Date: 2024-08-05 21:32-0700\n"
+"PO-Revision-Date: 2024-08-06 18:43+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website/websiteindex/my/>\n"
@@ -88,8 +88,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/index.html\">اردو</a>"
 
 #: index.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "‌ဒေါင်းလုပ်ဒ်"
@@ -103,14 +101,10 @@ msgid ""
 msgstr ""
 
 #: index.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
-#, fuzzy
-#| msgid "Download"
 msgid "Download Ceno"
 msgstr "‌ဒေါင်းလုပ်ဒ်"
 
 #: index.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "index.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "‌ဒေါင်းလုပ်ဒ်"
@@ -226,8 +220,9 @@ msgid ""
 "internet is down or censored. Install Ceno Browser today and be prepared for "
 "the next time you get 🔌 unplugged."
 msgstr ""
-"ပူးပေါင်းဆောင်ရွက်သော မိတ်ဆွေအချင်းချင်း၏ ကွန်ရက်မှတစ်ဆင့် အင်တာနက် လိုင်းကျချိန် သို့မဟုတ် ဆင်ဆာလုပ်ခံရချိန်တွင်ပင် ဝက်ဘ်ကို ဝင်ရောက်သုံးစွဲပါ။ "
-"Ceno ဘရောက်ဇာကို ယနေ့ ထည့်သွင်းပြီး နောက်တစ်ကြိမ် 🔌 ပလပ်ဖြုတ်ခံရမည့် အချိန်အတွက် ပြင်ဆင်ပါ။"
+"ပူးပေါင်းဆောင်ရွက်သော မိတ်ဆွေအချင်းချင်း၏ ကွန်ရက်မှတစ်ဆင့် အင်တာနက် လိုင်းကျချိန် သို့မဟုတ် "
+"ဆင်ဆာလုပ်ခံရချိန်တွင်ပင် ဝက်ဘ်ကို ဝင်ရောက်သုံးစွဲပါ။ Ceno ဘရောက်ဇာကို ယနေ့ ထည့်သွင်းပြီး နောက်တစ်ကြိမ် 🔌 "
+"ပလပ်ဖြုတ်ခံရမည့် အချိန်အတွက် ပြင်ဆင်ပါ။"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:226-13
 msgid "Grow the network - Become a bridge!"
@@ -248,19 +243,11 @@ msgstr ""
 "ဝက်ဘ်ဆိုက်များကို ရရှိနိုင်ရန် ချဲ့ထွင်ပါ။"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:235-13
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:214-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.img[alt]:235-13"
 msgid "Free and Open Source"
 msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.h3:236-15
-#, fuzzy
-#| msgctxt ""
-#| "index.html+html.body.main.section.div.div.div.div.div.img[alt]:214-13"
-#| msgid "Free and Open Source"
 msgctxt "index.html+html.body.main.section.div.div.div.div.div.h3:236-15"
 msgid "Free and Open Source"
 msgstr "အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်"
@@ -294,9 +281,13 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: index.html%2Bhtml.body.footer:261-23
+#, fuzzy
+#| msgid ""
+#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
