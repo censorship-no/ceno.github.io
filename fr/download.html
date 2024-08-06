@@ -93,7 +93,7 @@
     <div class="desktop-nav">
       <a tabindex="1" href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" /></a>
       <div aria-label="Navagation Selector" class="desktop-center-nav">
-        <a href="about.html">About</a> <a href="support.html">Support</a> <a href="news.html">News</a> <a href="help.html">Community</a> <a href="donate.html">Donate</a>
+        <a href="about.html">À propos</a><a href="support.html">Assistance technique</a><a href="news.html">Actualités</a><a href="help.html">Communauté</a><a href="donate.html">Faire un don</a>
       </div>
       <div class="nav-buttons">
         <div aria-label="Language Selector Switch" class="checkbox-wrapper">
@@ -110,7 +110,7 @@
             <a class="navbar-item" lang="ar" hreflang="ar" href="../ar/download.html">العربية</a> <a class="navbar-item" lang="en" hreflang="en" href="../en/download.html">English</a> <a class="navbar-item" lang="es" hreflang="es" href="../es/download.html">Español</a> <a class="navbar-item" lang="fa" hreflang="fa" href="../fa/download.html">فارسی</a> <a class="navbar-item" lang="fr" hreflang="fr" href="../fr/download.html">Français</a> <a class="navbar-item" lang="my" hreflang="my" href="../my/download.html">မြန်မာစာ</a> <a class="navbar-item" lang="pt_BR" hreflang="pt_BR" href="../pt_BR/download.html">Português</a> <a class="navbar-item" lang="ru" hreflang="ru" href="../ru/download.html">Pусский</a> <a class="navbar-item" lang="tr" hreflang="tr" href="../tr/download.html">Türkçe</a> <a class="navbar-item" lang="uk" hreflang="uk" href="../uk/download.html">Українська</a> <a class="navbar-item" lang="ur" hreflang="ur" href="../ur/download.html">اردو</a>
           </div>
         </div>
-        <a class="btn btn-outline-danger" href="download.html"> Download </a>
+        <a class="btn btn-outline-danger" href="download.html"> Télécharger </a>
       </div>
     </div>
     <div class="mobile-nav">
@@ -121,10 +121,10 @@
         <span></span>
       </label>
       <div aria-label="Navagation Selector" class="mobile-nav-panel">
-        <a href="about.html">About</a> <a href="support.html">Support</a> <a href="news.html">News</a> <a href="help.html">Community</a> <a href="donate.html">Donate</a>
+        <a href="about.html">À propos</a><a href="support.html">Assistance technique</a><a href="news.html">Actualités</a><a href="help.html">Communauté</a><a href="donate.html">Faire un don</a>
         <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
           <img src="/img/download.png" height="24" width="24" alt="Télécharger Ceno" />
-          <div>Download</div>
+          <div>Télécharger</div>
         </a>
       </div>
       <a href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" alt="Logo Ceno" /></a>
@@ -198,16 +198,16 @@
       <div class="col-lg-12 order-first">
         <h3 class="card-title text-danger">Téléchargement direct</h3>
         <p class="card-text">Les utilisateurs expérimentés et ceux qui ne parviennent pas à installer le Navigateur Ceno avec les liens ci-dessus peuvent télécharger le dernier APK directement :</p>
-        <p><strong>Ceno Browser 2.1.6</strong></p>
-        <p><input type="button" class="button is-large" value="Télécharger (ARM 32 bits)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.1.6/ceno-armeabi-v7a-release-2.1.6-2024-07-01_1144.apk';">
-          <input type="button" class="button is-large" value="Télécharger (ARM 64 bits)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.1.6/ceno-arm64-v8a-release-2.1.6-2024-07-01_1144.apk';">
+        <p><strong>Navigateur Ceno 2.2.0</strong></p>
+        <p><input type="button" class="button is-large" value="Télécharger (ARM 32 bits)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-armeabi-v7a-release-2.2.0-07-17_1554.apk';">
+          <input type="button" class="button is-large" value="Télécharger (ARM 64 bits)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-arm64-v8a-release-2.2.0-07-17_1554.apk';">
         </p>
         <p>Exécutez la commande ci-dessous pour <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">confirmer</a> avec l’empreinte ci-dessous que l’APK a une signature valide du certificat :</p>
         <!-- The inlined "br" tags are a workaround for <https://github.com/translate/translate/issues/3265>. -->
         <!-- Inlining the comment avoids an initial newline in the source page. -->
         <pre style="text-align:left">> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]
 </pre>
-        <p>You can also verify the <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.1.6/sha256sums.txt.asc">signatures</a> of <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.1.6/sha256sums.txt">file hashes</a> against our <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">PGP key</a> (with fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
+        <p>Vous pouvez également comparer les <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt.asc">signatures</a> des <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt">hachages de fichier</a> à notre <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">clé PGP</a> (avec l'empreinte numérique <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
       </div>
     </div> <!-- end container -->
   </div>
@@ -230,7 +230,7 @@
         </div>
     <div class="push"></div><br>
 
-© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
+© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>
 </footer>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery-3.6.0.min.js"></script>
