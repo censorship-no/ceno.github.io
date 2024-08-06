@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-07-03 20:09+0000\n"
+"PO-Revision-Date: 2024-08-06 18:16+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/fr/>\n"
@@ -25,6 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">À propos</a><a href=\"support.html\">Assistance "
+"technique</a><a href=\"news.html\">Actualités</a><a href=\"help.html\""
+">Communauté</a><a href=\"donate.html\">Faire un don</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -88,8 +91,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Télécharger"
@@ -101,14 +102,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">À propos</a><a href=\"support.html\">Assistance "
+"technique</a><a href=\"news.html\">Actualités</a><a href=\"help.html\""
+">Communauté</a><a href=\"donate.html\">Faire un don</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "Télécharger Ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "Télécharger"
@@ -192,32 +194,16 @@ msgid "Ceno Browser| Support"
 msgstr "Navigateur Ceno | Assistance"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
 msgstr "Foire aux questions"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section:169-9"
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
 msgstr "Qu’est-ce que le Navigateur Ceno ?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:193-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:193-17"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -236,20 +222,11 @@ msgstr ""
 "été interrompue ou compromise."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
 msgstr "Comment est ce que Ceno fonctionne ?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:201-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:180-17"
-#| msgid ""
-#| "When a website is accessible from your network (e.g. accessing <i>www."
-#| "canada.ca</i> from your home internet), Ceno will connect to it like a "
-#| "normal web browser."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:201-17"
 msgid ""
 "When a website is accessible from your network (e.g. accessing <i>www.canada."
@@ -261,13 +238,6 @@ msgstr ""
 "s'y connectera comme un navigateur Web normal."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:182-17"
-#| msgid ""
-#| "When a website is not accessible due to network filtering/censorship, "
-#| "Ceno will attempt to get the content for you. How Ceno attempts to find "
-#| "content depends on whether you have chosen to use Ceno in <strong>Public</"
-#| "strong> or <strong>Personal</strong> mode."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:203-17"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
@@ -281,15 +251,6 @@ msgstr ""
 "en mode <strong>Public</strong> ou <strong>Personnel</strong>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:185-17"
-#| msgid ""
-#| "In <strong>Public</strong> mode, Ceno will look into the BitTorrent "
-#| "network to see if another Ceno user has recently shared the requested "
-#| "page. If the service can identify the requested page, it will retrieve "
-#| "that page from another user’s device. If the content is not available, "
-#| "Ceno will contact several Injectors to request that website and have it "
-#| "delivered to you."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
@@ -300,19 +261,12 @@ msgid ""
 msgstr ""
 "En mode <strong>Public</strong>, Ceno examinera le réseau BitTorrent pour "
 "voir si un autre utilisateur Ceno a récemment partagé la page demandée. Si "
-"le service peut identifier la page demandée, il récupérera cette page sur "
-"l’appareil d’un autre utilisateur. Si le contenu n'est pas disponible, Ceno "
+"le service peut identifier la page demandée, il récupérera cette page sur l’"
+"appareil d’un autre utilisateur. Si le contenu n'est pas disponible, Ceno "
 "contactera plusieurs injecteurs pour demander ce site web et vous le faire "
 "livrer."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:210-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:189-17"
-#| msgid ""
-#| "In <strong>Personal</strong> mode, you will only contact the Injectors to "
-#| "have that website fetched and delivered to you. The search will not "
-#| "connect to the BitTorrent network and will not attempt to locate the "
-#| "content on other users’ devices."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:210-17"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -326,14 +280,6 @@ msgstr ""
 "contenu sur les appareils des autres utilisateurs."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:192-17"
-#| msgid ""
-#| "To ensure that your Ceno client can always contact an Injector, we have "
-#| "also created Bridges. If the Injectors are blocked on your network, the "
-#| "Ceno app will look for available Bridges, who will forward your request "
-#| "to the Injectors. The Ceno network currently features around 6,000 "
-#| "Bridges. Their number is always growing."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
 msgid ""
 "To ensure that your Ceno client can always contact an Injector, we have also "
@@ -349,11 +295,6 @@ msgstr ""
 "actuellement environ 6 000 ponts. Leur nombre ne cesse de croître."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:196-17"
-#| msgid ""
-#| "For a more detailed explanation of how Ceno works, please read <a "
-#| "href=\"../user-manual/\">the user guide</a>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
 msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
