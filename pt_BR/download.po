@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-08-02 00:19-0700\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-08 15:41-0400\n"
 "PO-Revision-Date: 2024-08-06 07:13+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -276,8 +276,8 @@ msgid ""
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 "Você também pode verificar as <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v2.2.0/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https"
-"://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">hashes de "
+"com/ceno/v2.2.0/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">hashes de "
 "arquivos</a> comparando-as com nossa <a href=\"https://pgp.mit.edu/pks/"
 "lookup?op=get&search=0xC7DCC123F0DDB862\">chave PGP</a> (com fingerprint "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
@@ -300,15 +300,6 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: download.html%2Bhtml.body.footer:277-23
-msgid ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
-msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
-"-\"+new Date().getFullYear());</script>"
-
-#.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:277-23
 #, fuzzy
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
@@ -316,6 +307,13 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid ""
+#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#~ "write(\"-\"+new Date().getFullYear());</script>"
+#~ msgstr ""
+#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#~ "write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid "Ceno Browser 2.1.6"
 #~ msgstr "Navegador Ceno 2.1.6"
