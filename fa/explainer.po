@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-08-10 13:33+0000\n"
+"PO-Revision-Date: 2024-08-13 11:09+0000\n"
 "Last-Translator: Mehdi Oloomi <mehdi@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-explainer/fa/>\n"
@@ -26,13 +26,13 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"href=\"news.html\">اخبار</a><a href=\"help.html\">مشارکت</a><a href=\"donate."
 "html\">اهدا</a>"
 
 #: explainer.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "explainer.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "انتخاب زبان"
 
 #: explainer.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -88,7 +88,7 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"href=\"news.html\">اخبار</a><a href=\"help.html\">مشارکت</a><a href=\"donate."
 "html\">اهدا</a>"
 
 #: explainer.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
@@ -107,7 +107,7 @@ msgstr "لوگو سنو"
 #: explainer.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "explainer.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "انتخاب زبان"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -133,11 +133,11 @@ msgstr ""
 
 #: explainer.html%2Bhtml.body.main.title:178-48
 msgid "Ceno Browser: Explainer"
-msgstr ""
+msgstr "مرورگر سنو: توضیح ساده"
 
 #: explainer.html%2Bhtml.body.main.div.h2:182-1
 msgid "Ceno Browser Explainer"
-msgstr ""
+msgstr "توضیح ساده مرورگر سنو"
 
 #: explainer.html%2Bhtml.body.main.div.p:184-1
 msgid ""
@@ -148,12 +148,21 @@ msgid ""
 "network. Built on top of the BitTorrent network, it is the world’s first "
 "mobile browser using decentralized networking to bring you the web."
 msgstr ""
+"مرورگر سنو با هر مرورگر دیگری که تا به حال استفاده کرده‌اید کاملا متفاوت است. "
+"طرز کار این مرورگر شبیه VPN یا شبکه‌ی تور (Tor) نیست. سنو برای برقراری اتصال "
+"به اینترنت طراحی شده، نه برای ناشناس ماندن. اصلی‌ترین ویژگی سنو همکاری است – "
+"کاربران می‌توانند به کمک یکدیگر به محتوایی دست پیدا کنند که در شبکه‌ی خودشان "
+"در دسترس نیست. این مرورگر که روی شبکه‌ی بیت‌تورنت ساخته شده، اولین مرورگر "
+"موبایل در جهان است که از شبکه‌سازی غیرمتمرکز برای دسترسی به وب استفاده می‌کند."
 
 #: explainer.html%2Bhtml.body.main.div.p:186-1
 msgid ""
 "Whilst this may sound relatively attractive, every innovation has its "
 "benefits and risks. You should be aware of both before using Ceno Browser."
 msgstr ""
+"در عین حال که این ویژگی‌ها ممکن است جذاب به نظر برسند، باید توجه داشت که هر "
+"نوآوری، مزایا و خطرات خاص خودش را دارد که لازم است قبل از استفاده از مرورگر "
+"سنو از هر دو آن‌ها آگاه باشید."
 
 #: explainer.html%2Bhtml.body.main.div.p:188-1
 msgid ""
@@ -168,10 +177,20 @@ msgid ""
 "Couriers into the protocol and infrastructure design. Their job is to help "
 "you get the book you want."
 msgstr ""
+"خب، حالا مرورگر سنو چطور کار می‌کند؟ دو حالت مختلف برای استفاده از سنو وجود "
+"دارد – <strong>عمومی</strong> و <strong>شخصی</strong>. شما می‌توانید هر موقع "
+"که بخواهید بین این دو حالت مرورگری جابه‌جا شوید. با این که هر دو حالت به شما "
+"کمک می‌کنند تا بدون محدودیت به هر وب‌سایتی دسترسی پیدا کنید، با همدیگر از لحاظ "
+"رد پایی که از فعالیت‌تان در شبکه باقی می‌گذارید و از لحاظ گزینه‌های اتصال عمومی "
+"که به کاربر ارائه می‌دهند، متفاوت هستند. برای توضیح این مفاهیم به زبان روزمره،"
+" از مثال کتاب و کتابخانه و کتاب‌فروشی استفاده می‌کنیم. چون این صرفا یک نمایش "
+"خیالی از یک سیستم پیچیده است، ما کمک‌کننده‌ها و پِیک‌ها (یا رابطان) را هم به "
+"طراحی پروتکل و زیرساخت اضافه کرده‌ایم؛ وظیفه‌ی آن‌ها کمک به شماست تا کتابی را "
+"که می‌خواهید به دست بیاورید."
 
 #: explainer.html%2Bhtml.body.main.div.h3:190-1
 msgid "Public Mode"
-msgstr ""
+msgstr "حالت عمومی"
 
 #: explainer.html%2Bhtml.body.main.div.p:191-1
 msgid ""
@@ -181,6 +200,11 @@ msgid ""
 "little piece of cardboard inside, along with every other person who has "
 "rented it."
 msgstr ""
+"تصور کنید که استفاده از سنو مثل رفتن به یک کتابخانه‌ی عمومی باشد – که در آن "
+"هر کتاب، همان وب‌سایتی است که بازدید می‌کنید و خود کتابخانه همان شبکه‌ی بیت‌"
+"تورنت است. می‌توانید هر کتابی را به صورت رایگان بگیرید، اما نام شما روی آن "
+"کارت کوچک درون کتاب ثبت می‌شود، همراه با هر شخص دیگری که آن را امانت گرفته "
+"است."
 
 #: explainer.html%2Bhtml.body.main.div.p:192-1
 msgid ""
@@ -191,10 +215,17 @@ msgid ""
 "<strong>Public</strong> mode everyone can also see that you have rented this "
 "book and passed it along to others. It is essentially public."
 msgstr ""
+"حالا که این کتاب را دارید، می‌توانید آن را بخوانید و به دیگران بدهید تا "
+"بخوانند. آن‌ها نیز می‌توانند آن را به دیگران بدهند. در حالت "
+"<strong>عمومی</strong>، همه حضور دارند تا به شما کمک کنند این کتاب را "
+"بخوانید – ناشر، کتابخانه‌ای که آن را خریده، و فردی که کتابش را با شما به "
+"اشتراک گذاشته است. با این حال، در حالت <strong>عمومی</strong> همه می‌توانند "
+"ببینند که شما این کتاب را امانت گرفته‌اید و به دیگران داده‌اید. در واقع، این "
+"اطلاعات عمومی است."
 
 #: explainer.html%2Bhtml.body.main.div.h3:194-1
 msgid "Personal Mode"
-msgstr ""
+msgstr "حالت شخصی"
 
 #: explainer.html%2Bhtml.body.main.div.p:196-1
 msgid ""
@@ -205,10 +236,16 @@ msgid ""
 "recommend it for when you are logging into websites or when you don’t want "
 "anyone to know which websites you have been visiting."
 msgstr ""
+"حالا، شما به یک کتاب‌فروشی می‌روید تا کتاب مورد نظر خود را بخرید. کتاب فقط "
+"متعلق به شما خواهد بود و هیچ‌کس جز کارمند کتاب‌فروشی نخواهد فهمید که شما آن را "
+"خریده‌اید. این کتاب را با کسی به اشتراک نمی‌گذارید و نسخه‌ای از آن را از کسی "
+"دیگر نخواهید خواند. این حالتِ <strong>شخصی</strong> سنو است و ما آن را برای "
+"موقعیت‌هایی توصیه می‌کنیم که می‌خواهید وارد اکانت‌تان در وب‌سایت‌ها بشوید یا زمانی "
+"که نمی‌خواهید کسی بداند از چه وب‌سایت‌هایی بازدید کرده‌اید."
 
 #: explainer.html%2Bhtml.body.main.div.h3:198-1
 msgid "Helpers"
-msgstr ""
+msgstr "کمک‌کننده‌ها"
 
 #: explainer.html%2Bhtml.body.main.div.p:199-1
 msgid ""
@@ -220,10 +257,16 @@ msgid ""
 "anyone else. On the Internet without Ceno, these Helpers play a similar role "
 "to your Internet provider or VPN service."
 msgstr ""
+"کتابدار و کارمند کتاب‌فروشی، نقش کمک‌کننده را در شبکه ما دارند. این افراد "
+"مسئول آوردن کتاب مورد نظر از قفسه‌ها هستند. در سنو، این نقش را eQualitie بازی "
+"می‌کند – سازمانی که پشت پروژه است و این کمک‌کننده‌ها را نگه می‌دارد. آن‌ها می‌"
+"دانند که شما چه کسی هستید و چه کتابی را درخواست کرده‌اید. باید به آن‌ها اعتماد "
+"کنید که این اطلاعات را به کسی دیگر فاش نکنند. در اینترنت بدون سنو، این "
+"کمک‌کننده‌ها نقشی مشابه ارائه‌دهنده اینترنت شما یا سرویس VPN شما دارند."
 
 #: explainer.html%2Bhtml.body.main.div.h3:201-1
 msgid "Couriers"
-msgstr ""
+msgstr "پیک‌ها"
 
 #: explainer.html%2Bhtml.body.main.div.p:202-1
 msgid ""
@@ -236,6 +279,14 @@ msgid ""
 "you can again share it with others (<strong>Public</strong>) or not share it "
 "with anyone (<strong>Personal</strong>)."
 msgstr ""
+"ممکن است نتوانید به کتابخانه بروید یا ممکن است در شهر یا کشور شما کتابخانه‌ای "
+"وجود نداشته باشد. برای این مواقع ما پیک‌ها را داریم. این افراد در شهر یا کشور "
+"دیگری واقع شده‌اند. وظیفه آن‌ها این است که به کتابخانه یا کتاب‌فروشی محلی خود "
+"بروند و کتاب مورد نظر شما را بردارند. پیک‌ها فقط می‌توانند با کتابدار یا "
+"کارمند فروشگاه صحبت کنند و نمی‌دانند که شما به چه کتابی علاقه دارید – وظیفه آن‌"
+"ها فقط دریافت و تحویل کتاب به شما است. پس از دریافت کتاب، می‌توانید آن را با "
+"دیگران به اشتراک بگذارید (<strong>عمومی</strong>) یا با هیچ کس به اشتراک "
+"نگذارید (<strong>شخصی</strong>)."
 
 #: explainer.html%2Bhtml.body.main.div.p:204-1
 msgid ""
@@ -244,6 +295,10 @@ msgid ""
 "Couriers as well. At the moment, over 8000 couriers are online at any one "
 "time, waiting for requests to fetch a book for you."
 msgstr ""
+"هر کاربر سنو می‌تواند تبدیل به یک پیک شود و ما کسانی را که در کشورهایی با "
+"کتابخانه‌های زیاد (دسترسی نامحدود به اینترنت) زندگی می‌کنند تشویق می‌کنیم که "
+"پیک شوند. در حال حاضر، بیش از ۸۰۰۰ پیک به صورت آنلاین در هر لحظه منتظرند "
+"درخواستی برسد تا یک کتاب را برای شما دریافت کنند."
 
 #: explainer.html%2Bhtml.body.footer.div.p:223-9
 msgid ""
