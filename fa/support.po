@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-08-02 06:49+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2024-08-10 13:33+0000\n"
+"Last-Translator: Mehdi Oloomi <mehdi@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/fa/>\n"
 "Language: fa\n"
@@ -26,13 +26,13 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"href=\"news.html\">اخبار</a><a href=\"help.html\">مشارکت</a><a href=\"donate."
 "html\">اهدا</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "انتخاب زبان"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -103,12 +103,12 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"href=\"news.html\">اخبار</a><a href=\"help.html\">مشارکت</a><a href=\"donate."
 "html\">اهدا</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
-msgstr "دانلود Ceno"
+msgstr "دانلود سنو"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
@@ -117,12 +117,12 @@ msgstr "دانلود"
 
 #: support.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr "لوگو Ceno"
+msgstr "لوگو سنو"
 
 #: support.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "support.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "انتخاب زبان"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -174,7 +174,7 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.title:186-1
 msgid "Ceno Browser| Support"
-msgstr "Ceno مرورگر | راهنمای کاربر"
+msgstr "مرورگر سنو | پشتیبانی"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
@@ -196,11 +196,17 @@ msgid ""
 "methods and allowing people to access and share web information in and "
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"سنو یک مرورگر وب برای موبایل است که بر پایه فایرفاکس برای اندروید ساخته شده. "
+"این مرورگر برای دسترسی و توزیع محتوای وب (وب‌سایت‌ها) با روشی نوآورانه که بر "
+"بیت‌تورنت – شبکه غیرمتمرکز اشتراک فایل – متکی است، طراحی شده است. مزیت سنو در "
+"توانایی آن برای دور زدن روش‌های فعلی سانسور اینترنت و اجازه دسترسی و اشتراک‌"
+"گذاری اطلاعات وب در مناطقی است که اتصال اینترنت در آن‌ها قطع شده یا به خطر "
+"افتاده است."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
-msgstr "مرورگر سنو چیست؟"
+msgstr "مرورگر سنو چگونه کار می‌کند؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:201-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:201-17"
@@ -209,6 +215,9 @@ msgid ""
 "ca</i> from your home internet), Ceno will connect to it like a normal web "
 "browser."
 msgstr ""
+"هنگامی که با اینترنت خودتان به یک وب‌سایت دسترسی دارید (مثلا وقتی که می‌توانید "
+"صفحه <i>www.canada.ca</i> را با اینترنت خانگی خود باز کنید)، سنو مانند یک "
+"مرورگر وب معمولی کار می‌کند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:203-17"
@@ -218,6 +227,10 @@ msgid ""
 "depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
 "<strong>Personal</strong> mode."
 msgstr ""
+"هنگامی که دسترسی به یک وب‌سایت به دلیل فیلتر یا سانسور شبکه امکان‌پذیر نباشد، "
+"سنو تلاش می‌کند تا این محتوا را برای شما پیدا کند. نحوه تلاش سنو برای پیدا "
+"کردن محتوا به این بستگی دارد که شما کدام یک از حالت‌های <strong>عمومی</"
+"strong> یا <strong>شخصی</strong> سنو را انتخاب کرده باشید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
@@ -228,6 +241,11 @@ msgid ""
 "another user’s device. If the content is not available, Ceno will contact "
 "several Injectors to request that website and have it delivered to you."
 msgstr ""
+"در حالت <strong>عمومی</strong>، سنو به شبکه بیت‌تورنت مراجعه می‌کند تا ببیند "
+"آیا یک کاربر دیگر سنو اخیرا صفحه مورد نظر را به اشتراک گذاشته یا نه. اگر سنو "
+"بتواند صفحه درخواستی را شناسایی کند، آن صفحه را از دستگاه کاربر دیگر بازیابی "
+"می‌کند. اگر محتوا در دسترس نباشد، سنو با چندین تزریق‌کننده (injector) تماس می‌"
+"گیرد تا وب‌سایت مورد نظر را از آن‌ها درخواست کند و به دست شما برساند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:210-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:210-17"
@@ -237,6 +255,9 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
+"در حالت <strong>شخصی</strong> شما فقط با تزریق‌کننده‌ها در تماسید تا وب‌سایت "
+"مورد نظرتان را بازیابی کنند و به شما تحویل دهند. این جست‌وجو ارتباطی با شبکه "
+"بیت‌تورنت نخواهد داشت و سعی نمی‌کند محتوا را روی دستگاه کاربران دیگر پیدا کند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
@@ -247,6 +268,11 @@ msgid ""
 "Injectors. The Ceno network currently features around 6,000 Bridges. Their "
 "number is always growing."
 msgstr ""
+"برای اطمینان از این که سرویس‌گیرنده (client) سنو شما همیشه می‌تواند با یک تزریق‌"
+"کننده تماس بگیرد، ما قابلیت پل را اضافه کرده‌ایم. اگر تزریق‌کننده‌ها بر روی "
+"شبکه شما مسدود شده باشند، برنامه سنو به دنبال پل‌های در دسترس می‌گردد تا "
+"درخواست‌تان را به تزریق‌کننده‌ها ارسال کنند. شبکه سنو در حال حاضر حدود ۶۰۰۰ پل "
+"دارد و این تعداد مدام در حال افزایش است."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
@@ -254,6 +280,8 @@ msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
+"برای توضیح دقیق‌تر از نحوه کار سنو، لطفا <a href=\"../user-manual/\">دفترچه "
+"راهنمای کاربر</a> را بخوانید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:219-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:219-17"
@@ -261,11 +289,13 @@ msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
+"برای توضیح ساده‌تر از نحوه کار سنو، لطفا <a href=\"explainer.html\">این‌جا را "
+"بخوانید</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:219-111
 msgctxt "support.html+html.body.main.noscript.div.section.details:219-111"
 msgid "What are the advantages of using Ceno?"
-msgstr ""
+msgstr "مزایای استفاده از سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:223-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:223-17"
@@ -276,6 +306,12 @@ msgid ""
 "seeking the same content. Ceno uses the BitTorrent file sharing network for "
 "this."
 msgstr ""
+"شعار ما این است: «وب را به اشتراک بگذار!» و این عملا همان کاری است که "
+"کاربران سنو انجام می‌دهند. بیشتر صفحات وب دارای محتوای ایستا هستند (مثل "
+"چیزهایی که در اینترنت می‌خوانید، تماشا می‌کنید، گوش می‌دهید و غیره). محتوای "
+"ایستا می‌تواند بسته‌بندی شود و با سایر کاربرانی که به دنبال همان محتوا هستند "
+"به اشتراک گذاشته شود. سنو از شبکه اشتراک فایل بیت‌تورنت برای این کار استفاده "
+"می‌کند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:227-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:227-17"
@@ -289,6 +325,14 @@ msgid ""
 "remote area with limited access to the internet, Ceno allows you to access "
 "information that may otherwise be unavailable."
 msgstr ""
+"مزیت سنو در شبکه‌ای که وب‌سایت‌ها را سانسور می‌کند یا در جایی که شبکه ضعیف یا "
+"ناپایدار است، به چشم می‌آید. در این شرایط، سرویس‌گیرنده سنو می‌تواند از راه و "
+"روش دیگری برای بازیابی محتوا و تحویل آن به دستگاه شما استفاده کند. سنو با "
+"اجازه به کاربران برای اشتراک محتوایی که به تازگی بازیابی کرده‌اند، دسترسی "
+"گسترده‌تری به اینترنت فراهم می‌آورد. چه در جایی از جهان باشید که دسترسی به "
+"محتوای وب را محدود می‌کند و چه در منطقه‌ای دورافتاده که دسترسی اندکی به "
+"اینترنت دارد، سنو به شما امکان دسترسی به اطلاعاتی را می‌دهد که در شرایط دیگر "
+"در دسترس نیست."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:233-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:233-17"
@@ -300,6 +344,12 @@ msgid ""
 "Running a Bridge is a very simple yet powerful action, allowing you to help "
 "others access the Internet."
 msgstr ""
+"آن دسته از کاربران سنو که در کشورهایی با اینترنت بدون سانسور یا با دسترسی "
+"مطمئن به اینترنت ساکن هستند، می‌توانند برای ساکنان مناطقی با اینترنتِ به‌شدت "
+"محدود، نقش پل اتصال را بازی کنند. شبکه به‌صورت خودکار پل‌های جدید را ثبت و "
+"زمان آفلاین بودن‌شان را پیگیری می‌کند. برقراری یک پل کاری بسیار راحت و در عین "
+"حال اثرگذار است که از طریق آن می‌توانید به دیگران کمک کنید تا به اینترنت "
+"دسترسی پیدا کنند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:238-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:238-17"
@@ -309,16 +359,20 @@ msgid ""
 "You can <a href=\"https://gitlab.com/censorship-no/ceno-browser\">inspect "
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
+"سنو – و همه اجزای همراه آن که با هم یک شبکه غیرمتمرکز از همتایان و گره‌ها را "
+"ایجاد می‌کنند – نرم‌افزاری رایگان و متن‌باز است. شما می‌توانید <a href=\"https"
+"://gitlab.com/censorship-no/ceno-browser\">کد ما را بررسی کنید</a> یا این که "
+"خودتان کل شبکه را دوباره ایجاد کنید!"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:241-45
 msgctxt "support.html+html.body.main.noscript.div.section.details:241-45"
 msgid "What are the risks of using Ceno?"
-msgstr ""
+msgstr "خطرات استفاده از سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:245-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:245-17"
 msgid "Risks for users"
-msgstr ""
+msgstr "خطرات برای کاربران"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
@@ -331,6 +385,13 @@ msgid ""
 "particular website. For example, anyone can query the BitTorrent network for "
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
+"هر فناوری که کاربردهای حساسی داشته باشد مزایا و خطرات خودش را دارد. طراحی "
+"سنو به نحوی است که برای بیشتر نیازهای مسیریابی و ذخیره‌سازی داده از شبکه "
+"عمومی بیت‌تورنت استفاده می‌کند. هر زمان که محتوای مشخصی را در شبکه بیت‌تورنت "
+"درخواست می‌دهید یا به اشتراک می‌گذارید (حالت عمومی)، ردی از خود به جا می‌گذارید "
+"که آدرس IP شما را با محتوای بازیابی‌شده از یک وب‌سایت خاص مرتبط می‌کند. برای "
+"مثال، هر کسی می‌تواند شبکه بیت‌تورنت را برای یافتن لیستی از آدرس‌های IP مرتبط "
+"با <i>website.com</i> بگردد."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:252-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:252-17"
@@ -339,6 +400,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"کاربرانی که محتوا را با دیگران به اشتراک می‌گذارند ممکن است هزینه‌ای اضافه "
+"برای داده مصرفی متحمل شوند زیرا محتوا از دستگاه آن‌ها به دستگاه سایر کاربران "
+"سنو کپی می‌شود."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
@@ -350,6 +414,11 @@ msgid ""
 "require authentication (for example, when logging into your social media "
 "accounts)."
 msgstr ""
+"در پاسخ به این خطرات، ما «حالت <strong>شخصی</strong>» را برای کاربران سنو "
+"ایجاد کرده‌ایم که در آن، سنو با شبکه بیت‌تورنت تعاملی ندارد. این حالت را به "
+"کاربرانی توصیه می‌کنیم که نمی‌خواهند هیچ ردی از فعالیت آن‌ها در بیت‌تورنت باقی "
+"بماند و هم‌چنین برای کار با وب‌سایت‌هایی که نیاز به احراز هویت دارند (مثلا برای "
+"وقتی که می‌خواهید وارد اکانتی در شبکه‌های اجتماعی شوید)."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:258-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:258-17"
@@ -358,6 +427,9 @@ msgid ""
 "strong> tabs in the same manner as switching between Normal and Private/"
 "Incognito tabs on your current browser."
 msgstr ""
+"شما می‌توانید به همان شکل که در مرورگر فعلی خودتان بین زبانه‌های عادی و خصوصی "
+"یا ناشناس (incognito) جابه‌جا می‌شوید، بین زبانه‌های <strong>عمومی</strong> و "
+"<strong>شخصی</strong> سنو هم به‌راحتی جابه‌جا شوید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:260-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:260-17"
@@ -369,11 +441,17 @@ msgid ""
 "the integrity of introduced content. On the Ceno network, Injectors are run "
 "and managed by the Ceno team. We periodically delete all access logs."
 msgstr ""
+"تزریق‌کننده‌ها نیز می‌توانند درخواست‌های محتوا را در شبکه مشاهده کنند، از جمله "
+"آدرس IP کاربری که درخواست را می‌فرستد و نام وب‌سایتی که محتوای آن مورد نیاز "
+"است. تزریق‌کننده‌ها بخشی ضروری از شبکه هستند تا: ۱) محتوای وب را به یک شبکه "
+"غیرمتمرکز معرفی کنند و ۲) یکپارچگی محتوای معرفی‌شده را اصالت‌سنجی کنند. در "
+"شبکه سنو، تزریق‌کننده‌ها توسط تیم سنو اجرا و مدیریت می‌شوند. ما به‌طور دوره‌ای "
+"تمامی فایل‌های گزارش دسترسی را حذف می‌کنیم."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:265-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:265-17"
 msgid "Risks for Bridge operators"
-msgstr ""
+msgstr "خطرات برای اپراتورهای پل"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:266-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:266-17"
@@ -381,6 +459,8 @@ msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
 "introduced by this action."
 msgstr ""
+"هر کاربری می‌تواند تبدیل به یک پل اتصال شود، برای همین حتما به خطراتی که با "
+"این کار پیش می‌آید توجه داشته باشید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:267-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:267-17"
@@ -390,6 +470,10 @@ msgid ""
 "Their job is to receive network requests from other Ceno users for access to "
 "an Injector and forward this request."
 msgstr ""
+"فعالیت پل برای کسی که پل را برقرار می‌کند یعنی اپراتور پل نامریی است (مگر این "
+"که مرتبا اتصال‌های ورودی و خروجی دستگاه خود را زیر نظر داشته باشد). وظیفه این "
+"اپراتور دریافت درخواست‌های شبکه از سایر کاربران سنو برای دسترسی به یک تزریق‌"
+"کننده و ارسال این درخواست است."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:270-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:270-17"
@@ -397,6 +481,8 @@ msgid ""
 "Bridge operators will have their device’s IP address listed in the "
 "BitTorrent network as an accessible Bridge."
 msgstr ""
+"اپراتورهای پل، آدرس IP دستگاه خود را در شبکه بیت‌تورنت به عنوان یک پلِ در "
+"دسترس لیست می‌کنند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:272-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:272-17"
@@ -405,11 +491,15 @@ msgid ""
 "connections. This is checked automatically by the Ceno client app upon "
 "start. Most wireless mobile carriers do not allow for incoming connections."
 msgstr ""
+"برقراری پل فقط زمانی شدنی است که شبکه‌ای که در آن هستید اجازه اتصال‌های ورودی "
+"را بدهد. این مساله به‌طور خودکار توسط برنامه سنو در هنگام شروع به کار برنامه "
+"بررسی می‌شود. اکثر اپراتورهای شبکه‌های بی‌سیم موبایل اجازه اتصال‌های ورودی را "
+"نمی‌دهند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:274-42
 msgctxt "support.html+html.body.main.noscript.div.section.details:274-42"
 msgid "Who develops Ceno Browser?"
-msgstr "مرورگر سنو چیست؟"
+msgstr "توسعه‌دهنده مرورگر سنو کیست؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:278-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:278-17"
@@ -419,6 +509,10 @@ msgid ""
 "incorporated their <a href=\"https://ouinet.work\">Ouinet network library</"
 "a> into the Firefox Android browser."
 msgstr ""
+"سنو فناوری‌ای است که سازمان غیرانتفاعی کانادایی <a href=\"https://equalit.ie\""
+">eQualitie</a> ساخت و نگهداری آن را بر عهده دارد. این سازمان <a href=\"https"
+"://ouinet.work\">کتابخانه شبکه Ouinet</a> خود را در مرورگر اندروید فایرفاکس "
+"ادغام کرده است."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:281-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:281-17"
@@ -427,6 +521,9 @@ msgid ""
 "have been creating and advancing tools to protect freedom of speech, "
 "facilitate information exchange, and promote self-expression on the internet."
 msgstr ""
+"eQualitie دوازده سال پیش شکل گرفته و در این مدت مشغول ساخت و توسعه ابزارهایی "
+"برای حفاظت از آزادی بیان، تسهیل تبادل اطلاعات و ترویج خودبیانگری در اینترنت "
+"بوده است."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:284-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:284-17"
@@ -438,11 +535,16 @@ msgid ""
 "dComms deployment toolkit for setting up decentralized and federated network "
 "services."
 msgstr ""
+"برخی از پروژه‌های دیگر این سازمان عبارت‌اند از <a href=\"https://ouisync.net\""
+">وی‌سینک</a> (Ouisync)، سرویسی برای اشتراک‌گذاری غیرمتمرکز فایل‌ها؛ <a href="
+"\"https://deflect.ca\">Deflect</a>، ابزاری برای حفاظت در برابر حملات DDoS؛ "
+"باسکرویل (Baskerville)، سیستم تشخیص حمله مبتنی بر یادگیری ماشین؛ و جعبه‌ابزار "
+"dComms برای راه‌اندازی خدمات شبکه غیرمتمرکز و هم‌بسته."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:287-77
 msgctxt "support.html+html.body.main.noscript.div.section.details:287-77"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
-msgstr ""
+msgstr "تفاوت استفاده از VPN و مرورگر سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:291-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:291-17"
@@ -454,6 +556,11 @@ msgid ""
 "numerous VPN providers offering a wide variety of connectivity options to "
 "help their users get around local network censorship."
 msgstr ""
+"VPN‌ها در اصل برای ارتباطات خصوصی بین دستگاه شما و سِرور مقصد ایجاد شده‌اند. هم‌"
+"زمان با افزایش سانسور اینترنت در سراسر جهان، ارائه‌دهندگان VPN نیز خدماتی "
+"برای دور زدن محدودیت‌های شبکه‌های محلی ارائه دادند. در حال حاضر بسیاری از ارائه‌"
+"دهندگان VPN گزینه‌های متنوعی برای ارتباط با اینترنت ارائه می‌دهند تا کاربران "
+"را برای دور زدن سانسور در شبکه محلی یاری کنند."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:296-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:296-17"
@@ -463,6 +570,10 @@ msgid ""
 "like the trust that is required in eQualitie, who operates the Ceno "
 "Injectors)."
 msgstr ""
+"VPN‌ها می‌توانند ببینند که کاربران‌شان چه کسانی هستند و چه وب‌سایت‌هایی را "
+"درخواست می‌دهند. طراحی VPNها به همین صورت شکل گرفته و سطحی از اعتماد به "
+"اپراتور VPN برای استفاده از آن‌ها لازم است (مانند اعتمادی که به eQualitie "
+"نیاز است که تزریق‌کننده‌های سنو را مدیریت می‌کند)."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:299-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:299-17"
@@ -474,11 +585,17 @@ msgid ""
 "other. This reduces the strain on censorship circumvention nodes and "
 "improves deliverability."
 msgstr ""
+"تفاوت اصلی سنو با VPN این است که سنو تلاش می‌کند تمام درخواست‌های شما برای "
+"دسترسی به وب‌سایت‌ها را از طریق یک شبکه غیرمتمرکز مسیریابی کند. هنگامی که یک وب‌"
+"سایت بدون هیچ مشکلی در دسترس است، سنو صرفا مانند یک مرورگر معمولی به آن متصل "
+"می‌شود. هم‌چنین کاربران سنو محتوا را در کش ذخیره می‌کنند و با یکدیگر به اشتراک "
+"می‌گذارند. این کار فشار بر روی گره‌های لازم جهت دور زدن سانسور را کاهش می‌دهد و "
+"تحویل محتوا به کاربران را بهبود می‌بخشد."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:302-108
 msgctxt "support.html+html.body.main.noscript.div.section.details:302-108"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
-msgstr ""
+msgstr "تفاوت استفاده از مرورگر تور و سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:306-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:306-17"
@@ -491,11 +608,19 @@ msgid ""
 "environment, we recommend it, provided that you’ve also read <a "
 "href=\"https://support.torproject.org/\">their support documentation</a>."
 msgstr ""
+"مرورگر سنو برخلاف مرورگر تور (Tor) ابزاری برای ناشناس ماندن نیست، در حالی "
+"هدف اصلی تور همین است. در شبکه تور، ترافیک شبکه رمزگذاری می‌شود و از طریق شبکه‌"
+"ای از رله‌ها (واسطه‌ها) که داوطلبان آن را اجرا می‌کنند، مسیریابی می‌شود و در "
+"نتیجه این طور به نظر می‌آید که ترافیک شبکه از آدرس IP یک گره خروجی می‌آید. تور "
+"گزینه‌ای عالی برای حفظ حریم خصوصی در برابر نظارت اینترنت و اپراتورهای وب‌سایت "
+"است. اگر تور در محیط شبکه شما کار می‌کند، توصیه می‌کنیم از آن استفاده کنید – "
+"مشروط بر این که <a href=\"https://support.torproject.org/\">مستندات "
+"پشتیبانی</a> آن‌ها را نیز مطالعه کرده باشید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:311-43
 msgctxt "support.html+html.body.main.noscript.div.section.details:311-43"
 msgid "Whats the difference between Personal and Public tabs, again?"
-msgstr ""
+msgstr "تفاوت زبانه‌های شخصی و عمومی را دوباره توضیح می‌دهید؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:315-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:315-17"
@@ -507,6 +632,11 @@ msgid ""
 "inside a Public tab will be shared with other Ceno users via the BitTorrent "
 "network."
 msgstr ""
+"زبانه‌های عمومی از تمامی روش‌های اتصال موجود در شبکه سنو برای دریافت محتوای "
+"مورد نظر شما استفاده می‌کنند. هنگام مرور وب با استفاده از یک زبانه عمومی، ردی "
+"از فعالیت شما در شبکه عمومی بیت‌تورنت (آدرس IP شما و وب‌سایت درخواستی شما) به "
+"جا می‌ماند. محتوایی که توسط دستگاه شما در یک زبانه عمومی بازیابی شده از طریق "
+"شبکه بیت‌تورنت با سایر کاربران سنو به اشتراک گذاشته می‌شود."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:319-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:319-17"
@@ -517,17 +647,24 @@ msgid ""
 "them if you do not want to be associated on BitTorrent with any of your "
 "browsing activity in Ceno."
 msgstr ""
+"اطلاعات درخواستی و بازیابی‌شده در یک زبانه شخصی با هیچ کس دیگری به اشتراک "
+"گذاشته نمی‌شود. هیچ ردی از فعالیت شما در بیت‌تورنت ثبت نمی‌شود. از زبانه‌های "
+"شخصی می‌توانید برای ورود به اکانت‌های شبکه‌های اجتماعی و اکانت‌های دیگر استفاده "
+"کنید. هم‌چنین اگر نمی‌خواهید هیچ یک از فعالیت‌های مرورتان در سنو با بیت‌تورنت "
+"مرتبط شود، به سراغ زبانه‌های شخصی بروید."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:322-38
 msgctxt "support.html+html.body.main.noscript.div.section.details:322-38"
 msgid "When will there be an iPhone or Windows version?"
-msgstr ""
+msgstr "نسخه‌های آیفون و ویندوز چه زمانی منتشر می‌شوند؟"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:326-17
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
 "plans for release in 2024-2025."
 msgstr ""
+"توسعه مرورگر سنو برای iOS و ویندوز در حال حاضر در جریان است و قصد داریم این "
+"نسخه‌ها را در اوایل سال ۲۰۲۵ منتشر کنیم."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.noscript.div:330-5
@@ -542,14 +679,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></"
-"span>اطلاعات بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab."
-"com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ "
-"سفید Ouinet را ببینید.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>اطلاعات "
+"بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"> </span> برای یک راهنمای عمیق‌تر و فنی‌تر، کاغذ سفید Ouinet را "
+"ببینید.</button></a>"
 
 #: support.html%2Bhtml.body.main.div.h1:341-5
 msgctxt "support.html+html.body.main.div.h1:341-5"
@@ -571,11 +708,17 @@ msgid ""
 "methods and allowing people to access and share web information in and "
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"سنو یک مرورگر وب برای موبایل است که بر پایه فایرفاکس برای اندروید ساخته شده. "
+"این مرورگر برای دسترسی و توزیع محتوای وب (وب‌سایت‌ها) با روشی نوآورانه که بر "
+"بیت‌تورنت – شبکه غیرمتمرکز اشتراک فایل – متکی است، طراحی شده است. مزیت سنو در "
+"توانایی آن برای دور زدن روش‌های فعلی سانسور اینترنت و اجازه دسترسی و اشتراک‌"
+"گذاری اطلاعات وب در مناطقی است که اتصال اینترنت در آن‌ها قطع شده یا به خطر "
+"افتاده است."
 
 #: support.html%2Bhtml.body.main.div.section.details:349-44
 msgctxt "support.html+html.body.main.div.section.details:349-44"
 msgid "How does Ceno work?"
-msgstr "مرورگر سنو چیست؟"
+msgstr "مرورگر سنو چگونه کار می‌کند؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:353-13
 msgctxt "support.html+html.body.main.div.section.details.p:353-13"
@@ -584,6 +727,9 @@ msgid ""
 "ca</i> from your home internet), Ceno will connect to it like a normal web "
 "browser."
 msgstr ""
+"هنگامی که با اینترنت خودتان به یک وب‌سایت دسترسی دارید (مثلا وقتی که می‌توانید "
+"صفحه <i>www.canada.ca</i> را با اینترنت خانگی خود باز کنید)، سنو مانند یک "
+"مرورگر وب معمولی کار می‌کند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:355-13
 msgctxt "support.html+html.body.main.div.section.details.p:355-13"
@@ -593,6 +739,10 @@ msgid ""
 "depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
 "<strong>Personal</strong> mode."
 msgstr ""
+"هنگامی که دسترسی به یک وب‌سایت به دلیل فیلتر یا سانسور شبکه امکان‌پذیر نباشد، "
+"سنو تلاش می‌کند تا این محتوا را برای شما پیدا کند. نحوه تلاش سنو برای پیدا "
+"کردن محتوا به این بستگی دارد که شما کدام یک از حالت‌های <strong>عمومی</"
+"strong> یا <strong>شخصی</strong> سنو را انتخاب کرده باشید."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:358-13
 msgctxt "support.html+html.body.main.div.section.details.p:358-13"
@@ -603,6 +753,11 @@ msgid ""
 "another user’s device. If the content is not available, Ceno will contact "
 "several Injectors to request that website and have it delivered to you."
 msgstr ""
+"در حالت <strong>عمومی</strong>، سنو به شبکه بیت‌تورنت مراجعه می‌کند تا ببیند "
+"آیا یک کاربر دیگر سنو اخیرا صفحه مورد نظر را به اشتراک گذاشته یا نه. اگر سنو "
+"بتواند صفحه درخواستی را شناسایی کند، آن صفحه را از دستگاه کاربر دیگر بازیابی "
+"می‌کند. اگر محتوا در دسترس نباشد، سنو با چندین تزریق‌کننده (injector) تماس می‌"
+"گیرد تا وب‌سایت مورد نظر را از آن‌ها درخواست کند و به دست شما برساند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:362-13
 msgctxt "support.html+html.body.main.div.section.details.p:362-13"
@@ -612,6 +767,9 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
+"در حالت <strong>شخصی</strong> شما فقط با تزریق‌کننده‌ها در تماسید تا وب‌سایت "
+"مورد نظرتان را بازیابی کنند و به شما تحویل دهند. این جست‌وجو ارتباطی با شبکه "
+"بیت‌تورنت نخواهد داشت و سعی نمی‌کند محتوا را روی دستگاه کاربران دیگر پیدا کند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:365-13
 msgctxt "support.html+html.body.main.div.section.details.p:365-13"
@@ -622,6 +780,11 @@ msgid ""
 "Injectors. The Ceno network currently features around 6,000 Bridges. Their "
 "number is always growing."
 msgstr ""
+"برای اطمینان از این که سرویس‌گیرنده (client) سنو شما همیشه می‌تواند با یک تزریق‌"
+"کننده تماس بگیرد، ما قابلیت پل را اضافه کرده‌ایم. اگر تزریق‌کننده‌ها بر روی "
+"شبکه شما مسدود شده باشند، برنامه سنو به دنبال پل‌های در دسترس می‌گردد تا "
+"درخواست‌تان را به تزریق‌کننده‌ها ارسال کنند. شبکه سنو در حال حاضر حدود ۶۰۰۰ پل "
+"دارد و این تعداد مدام در حال افزایش است."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:369-13
 msgctxt "support.html+html.body.main.div.section.details.p:369-13"
@@ -629,6 +792,8 @@ msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
+"برای توضیح دقیق‌تر از نحوه کار سنو، لطفا <a href=\"../user-manual/\">دفترچه "
+"راهنمای کاربر</a> را بخوانید."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:371-13
 msgctxt "support.html+html.body.main.div.section.details.p:371-13"
@@ -636,11 +801,13 @@ msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
+"برای توضیح ساده‌تر از نحوه کار سنو، لطفا <a href=\"explainer.html\">این‌جا را "
+"بخوانید</a>."
 
 #: support.html%2Bhtml.body.main.div.section.details:371-107
 msgctxt "support.html+html.body.main.div.section.details:371-107"
 msgid "What are the advantages of using Ceno?"
-msgstr ""
+msgstr "مزایای استفاده از سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:375-13
 msgctxt "support.html+html.body.main.div.section.details.p:375-13"
@@ -651,6 +818,12 @@ msgid ""
 "seeking the same content. Ceno uses the BitTorrent file sharing network for "
 "this."
 msgstr ""
+"شعار ما این است: «وب را به اشتراک بگذار!» و این عملا همان کاری است که "
+"کاربران سنو انجام می‌دهند. بیشتر صفحات وب دارای محتوای ایستا هستند (مثل "
+"چیزهایی که در اینترنت می‌خوانید، تماشا می‌کنید، گوش می‌دهید و غیره). محتوای "
+"ایستا می‌تواند بسته‌بندی شود و با سایر کاربرانی که به دنبال همان محتوا هستند "
+"به اشتراک گذاشته شود. سنو از شبکه اشتراک فایل بیت‌تورنت برای این کار استفاده "
+"می‌کند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:378-13
 msgctxt "support.html+html.body.main.div.section.details.p:378-13"
@@ -664,6 +837,14 @@ msgid ""
 "remote area with limited access to the internet, Ceno allows you to access "
 "information that may otherwise be unavailable."
 msgstr ""
+"مزیت سنو در شبکه‌ای که وب‌سایت‌ها را سانسور می‌کند یا در جایی که شبکه ضعیف یا "
+"ناپایدار است، به چشم می‌آید. در این شرایط، سرویس‌گیرنده سنو می‌تواند از راه و "
+"روش دیگری برای بازیابی محتوا و تحویل آن به دستگاه شما استفاده کند. سنو با "
+"اجازه به کاربران برای اشتراک محتوایی که به تازگی بازیابی کرده‌اند، دسترسی "
+"گسترده‌تری به اینترنت فراهم می‌آورد. چه در جایی از جهان باشید که دسترسی به "
+"محتوای وب را محدود می‌کند و چه در منطقه‌ای دورافتاده که دسترسی اندکی به "
+"اینترنت دارد، سنو به شما امکان دسترسی به اطلاعاتی را می‌دهد که در شرایط دیگر "
+"در دسترس نیست."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:384-13
 msgctxt "support.html+html.body.main.div.section.details.p:384-13"
@@ -675,6 +856,12 @@ msgid ""
 "Running a Bridge is a very simple yet powerful action, allowing you to help "
 "others access the Internet."
 msgstr ""
+"آن دسته از کاربران سنو که در کشورهایی با اینترنت بدون سانسور یا با دسترسی "
+"مطمئن به اینترنت ساکن هستند، می‌توانند برای ساکنان مناطقی با اینترنتِ به‌شدت "
+"محدود، نقش پل اتصال را بازی کنند. شبکه به‌صورت خودکار پل‌های جدید را ثبت و "
+"زمان آفلاین بودن‌شان را پیگیری می‌کند. برقراری یک پل کاری بسیار راحت و در عین "
+"حال اثرگذار است که از طریق آن می‌توانید به دیگران کمک کنید تا به اینترنت "
+"دسترسی پیدا کنند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:388-13
 msgctxt "support.html+html.body.main.div.section.details.p:388-13"
@@ -684,16 +871,20 @@ msgid ""
 "You can <a href=\"https://gitlab.com/censorship-no/ceno-browser\">inspect "
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
+"سنو – و همه اجزای همراه آن که با هم یک شبکه غیرمتمرکز از همتایان و گره‌ها را "
+"ایجاد می‌کنند – نرم‌افزاری رایگان و متن‌باز است. شما می‌توانید <a href=\"https"
+"://gitlab.com/censorship-no/ceno-browser\">کد ما را بررسی کنید</a> یا این که "
+"خودتان کل شبکه را دوباره ایجاد کنید!"
 
 #: support.html%2Bhtml.body.main.div.section.details:391-34
 msgctxt "support.html+html.body.main.div.section.details:391-34"
 msgid "What are the risks of using Ceno?"
-msgstr ""
+msgstr "خطرات استفاده از سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:395-13
 msgctxt "support.html+html.body.main.div.section.details.h3:395-13"
 msgid "Risks for users"
-msgstr ""
+msgstr "خطرات برای کاربران"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:396-13
 msgctxt "support.html+html.body.main.div.section.details.p:396-13"
@@ -706,6 +897,13 @@ msgid ""
 "particular website. For example, anyone can query the BitTorrent network for "
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
+"هر فناوری که کاربردهای حساسی داشته باشد مزایا و خطرات خودش را دارد. طراحی "
+"سنو به نحوی است که برای بیشتر نیازهای مسیریابی و ذخیره‌سازی داده از شبکه "
+"عمومی بیت‌تورنت استفاده می‌کند. هر زمان که محتوای مشخصی را در شبکه بیت‌تورنت "
+"درخواست می‌دهید یا به اشتراک می‌گذارید (حالت عمومی)، ردی از خود به جا می‌گذارید "
+"که آدرس IP شما را با محتوای بازیابی‌شده از یک وب‌سایت خاص مرتبط می‌کند. برای "
+"مثال، هر کسی می‌تواند شبکه بیت‌تورنت را برای یافتن لیستی از آدرس‌های IP مرتبط "
+"با <i>website.com</i> بگردد."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:402-13
 msgctxt "support.html+html.body.main.div.section.details.p:402-13"
@@ -714,6 +912,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"کاربرانی که محتوا را با دیگران به اشتراک می‌گذارند ممکن است هزینه‌ای اضافه "
+"برای داده مصرفی متحمل شوند زیرا محتوا از دستگاه آن‌ها به دستگاه سایر کاربران "
+"سنو کپی می‌شود."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:404-13
 msgctxt "support.html+html.body.main.div.section.details.p:404-13"
@@ -725,6 +926,11 @@ msgid ""
 "require authentication (for example, when logging into your social media "
 "accounts)."
 msgstr ""
+"در پاسخ به این خطرات، ما «حالت <strong>شخصی</strong>» را برای کاربران سنو "
+"ایجاد کرده‌ایم که در آن، سنو با شبکه بیت‌تورنت تعاملی ندارد. این حالت را به "
+"کاربرانی توصیه می‌کنیم که نمی‌خواهند هیچ ردی از فعالیت آن‌ها در بیت‌تورنت باقی "
+"بماند و هم‌چنین برای کار با وب‌سایت‌هایی که نیاز به احراز هویت دارند (مثلا برای "
+"وقتی که می‌خواهید وارد اکانتی در شبکه‌های اجتماعی شوید)."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:408-13
 msgctxt "support.html+html.body.main.div.section.details.p:408-13"
@@ -733,6 +939,9 @@ msgid ""
 "strong> tabs in the same manner as switching between Normal and Private/"
 "Incognito tabs on your current browser."
 msgstr ""
+"شما می‌توانید به همان شکل که در مرورگر فعلی خودتان بین زبانه‌های عادی و خصوصی "
+"یا ناشناس (incognito) جابه‌جا می‌شوید، بین زبانه‌های <strong>عمومی</strong> و "
+"<strong>شخصی</strong> سنو هم به‌راحتی جابه‌جا شوید."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:410-13
 msgctxt "support.html+html.body.main.div.section.details.p:410-13"
@@ -744,11 +953,17 @@ msgid ""
 "the integrity of introduced content. On the Ceno network, Injectors are run "
 "and managed by the Ceno team. We periodically delete all access logs."
 msgstr ""
+"تزریق‌کننده‌ها نیز می‌توانند درخواست‌های محتوا را در شبکه مشاهده کنند، از جمله "
+"آدرس IP کاربری که درخواست را می‌فرستد و نام وب‌سایتی که محتوای آن مورد نیاز "
+"است. تزریق‌کننده‌ها بخشی ضروری از شبکه هستند تا: ۱) محتوای وب را به یک شبکه "
+"غیرمتمرکز معرفی کنند و ۲) یکپارچگی محتوای معرفی‌شده را اصالت‌سنجی کنند. در "
+"شبکه سنو، تزریق‌کننده‌ها توسط تیم سنو اجرا و مدیریت می‌شوند. ما به‌طور دوره‌ای "
+"تمامی فایل‌های گزارش دسترسی را حذف می‌کنیم."
 
 #: support.html%2Bhtml.body.main.div.section.details.h3:415-13
 msgctxt "support.html+html.body.main.div.section.details.h3:415-13"
 msgid "Risks for Bridge operators"
-msgstr ""
+msgstr "خطرات برای اپراتورهای پل"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:416-13
 msgctxt "support.html+html.body.main.div.section.details.p:416-13"
@@ -756,6 +971,8 @@ msgid ""
 "Since any user can become a Bridge, do consider the risks that are "
 "introduced by this action."
 msgstr ""
+"هر کاربری می‌تواند تبدیل به یک پل اتصال شود، برای همین حتما به خطراتی که با "
+"این کار پیش می‌آید توجه داشته باشید."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:417-13
 msgctxt "support.html+html.body.main.div.section.details.p:417-13"
@@ -765,6 +982,10 @@ msgid ""
 "Their job is to receive network requests from other Ceno users for access to "
 "an Injector and forward this request."
 msgstr ""
+"فعالیت پل برای کسی که پل را برقرار می‌کند یعنی اپراتور پل نامریی است (مگر این "
+"که مرتبا اتصال‌های ورودی و خروجی دستگاه خود را زیر نظر داشته باشد). وظیفه این "
+"اپراتور دریافت درخواست‌های شبکه از سایر کاربران سنو برای دسترسی به یک تزریق‌"
+"کننده و ارسال این درخواست است."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:420-13
 msgctxt "support.html+html.body.main.div.section.details.p:420-13"
@@ -772,6 +993,8 @@ msgid ""
 "Bridge operators will have their device’s IP address listed in the "
 "BitTorrent network as an accessible Bridge."
 msgstr ""
+"اپراتورهای پل، آدرس IP دستگاه خود را در شبکه بیت‌تورنت به عنوان یک پلِ در "
+"دسترس لیست می‌کنند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:422-13
 msgctxt "support.html+html.body.main.div.section.details.p:422-13"
@@ -780,11 +1003,15 @@ msgid ""
 "connections. This is checked automatically by the Ceno client app upon "
 "start. Most wireless mobile carriers do not allow for incoming connections."
 msgstr ""
+"برقراری پل فقط زمانی شدنی است که شبکه‌ای که در آن هستید اجازه اتصال‌های ورودی "
+"را بدهد. این مساله به‌طور خودکار توسط برنامه سنو در هنگام شروع به کار برنامه "
+"بررسی می‌شود. اکثر اپراتورهای شبکه‌های بی‌سیم موبایل اجازه اتصال‌های ورودی را "
+"نمی‌دهند."
 
 #: support.html%2Bhtml.body.main.div.section.details:424-29
 msgctxt "support.html+html.body.main.div.section.details:424-29"
 msgid "Who develops Ceno Browser?"
-msgstr "مرورگر سنو چیست؟"
+msgstr "توسعه‌دهنده مرورگر سنو کیست؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:428-13
 msgctxt "support.html+html.body.main.div.section.details.p:428-13"
@@ -794,6 +1021,10 @@ msgid ""
 "incorporated their <a href=\"https://ouinet.work\">Ouinet network library</"
 "a> into the Firefox Android browser."
 msgstr ""
+"سنو فناوری‌ای است که سازمان غیرانتفاعی کانادایی <a href=\"https://equalit.ie\""
+">eQualitie</a> ساخت و نگهداری آن را بر عهده دارد. این سازمان <a href=\"https"
+"://ouinet.work\">کتابخانه شبکه Ouinet</a> خود را در مرورگر اندروید فایرفاکس "
+"ادغام کرده است."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:431-13
 msgctxt "support.html+html.body.main.div.section.details.p:431-13"
@@ -802,6 +1033,9 @@ msgid ""
 "have been creating and advancing tools to protect freedom of speech, "
 "facilitate information exchange, and promote self-expression on the internet."
 msgstr ""
+"eQualitie دوازده سال پیش شکل گرفته و در این مدت مشغول ساخت و توسعه ابزارهایی "
+"برای حفاظت از آزادی بیان، تسهیل تبادل اطلاعات و ترویج خودبیانگری در اینترنت "
+"بوده است."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:434-13
 msgctxt "support.html+html.body.main.div.section.details.p:434-13"
@@ -813,11 +1047,16 @@ msgid ""
 "dComms deployment toolkit for setting up decentralized and federated network "
 "services."
 msgstr ""
+"برخی از پروژه‌های دیگر این سازمان عبارت‌اند از <a href=\"https://ouisync.net\""
+">وی‌سینک</a> (Ouisync)، سرویسی برای اشتراک‌گذاری غیرمتمرکز فایل‌ها؛ <a href="
+"\"https://deflect.ca\">Deflect</a>، ابزاری برای حفاظت در برابر حملات DDoS؛ "
+"باسکرویل (Baskerville)، سیستم تشخیص حمله مبتنی بر یادگیری ماشین؛ و جعبه‌ابزار "
+"dComms برای راه‌اندازی خدمات شبکه غیرمتمرکز و هم‌بسته."
 
 #: support.html%2Bhtml.body.main.div.section.details:437-73
 msgctxt "support.html+html.body.main.div.section.details:437-73"
 msgid "What’s the difference between using a VPN and Ceno Browser?"
-msgstr ""
+msgstr "تفاوت استفاده از VPN و مرورگر سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:441-13
 msgctxt "support.html+html.body.main.div.section.details.p:441-13"
@@ -829,6 +1068,11 @@ msgid ""
 "numerous VPN providers offering a wide variety of connectivity options to "
 "help their users get around local network censorship."
 msgstr ""
+"VPN‌ها در اصل برای ارتباطات خصوصی بین دستگاه شما و سِرور مقصد ایجاد شده‌اند. هم‌"
+"زمان با افزایش سانسور اینترنت در سراسر جهان، ارائه‌دهندگان VPN نیز خدماتی "
+"برای دور زدن محدودیت‌های شبکه‌های محلی ارائه دادند. در حال حاضر بسیاری از ارائه‌"
+"دهندگان VPN گزینه‌های متنوعی برای ارتباط با اینترنت ارائه می‌دهند تا کاربران "
+"را برای دور زدن سانسور در شبکه محلی یاری کنند."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:446-13
 msgctxt "support.html+html.body.main.div.section.details.p:446-13"
@@ -838,6 +1082,10 @@ msgid ""
 "like the trust that is required in eQualitie, who operates the Ceno "
 "Injectors)."
 msgstr ""
+"VPN‌ها می‌توانند ببینند که کاربران‌شان چه کسانی هستند و چه وب‌سایت‌هایی را "
+"درخواست می‌دهند. طراحی VPNها به همین صورت شکل گرفته و سطحی از اعتماد به "
+"اپراتور VPN برای استفاده از آن‌ها لازم است (مانند اعتمادی که به eQualitie "
+"نیاز است که تزریق‌کننده‌های سنو را مدیریت می‌کند)."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:449-13
 msgctxt "support.html+html.body.main.div.section.details.p:449-13"
@@ -849,11 +1097,17 @@ msgid ""
 "other. This reduces the strain on censorship circumvention nodes and "
 "improves deliverability."
 msgstr ""
+"تفاوت اصلی سنو با VPN این است که سنو تلاش می‌کند تمام درخواست‌های شما برای "
+"دسترسی به وب‌سایت‌ها را از طریق یک شبکه غیرمتمرکز مسیریابی کند. هنگامی که یک وب‌"
+"سایت بدون هیچ مشکلی در دسترس است، سنو صرفا مانند یک مرورگر معمولی به آن متصل "
+"می‌شود. هم‌چنین کاربران سنو محتوا را در کش ذخیره می‌کنند و با یکدیگر به اشتراک "
+"می‌گذارند. این کار فشار بر روی گره‌های لازم جهت دور زدن سانسور را کاهش می‌دهد و "
+"تحویل محتوا به کاربران را بهبود می‌بخشد."
 
 #: support.html%2Bhtml.body.main.div.section.details:452-99
 msgctxt "support.html+html.body.main.div.section.details:452-99"
 msgid "What’s the difference between using the Tor and Ceno browsers?"
-msgstr ""
+msgstr "تفاوت استفاده از مرورگر تور و سنو چیست؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:456-13
 msgctxt "support.html+html.body.main.div.section.details.p:456-13"
@@ -866,11 +1120,19 @@ msgid ""
 "environment, we recommend it, provided that you’ve also read <a "
 "href=\"https://support.torproject.org/\">their support documentation</a>."
 msgstr ""
+"مرورگر سنو برخلاف مرورگر تور (Tor) ابزاری برای ناشناس ماندن نیست، در حالی "
+"هدف اصلی تور همین است. در شبکه تور، ترافیک شبکه رمزگذاری می‌شود و از طریق شبکه‌"
+"ای از رله‌ها (واسطه‌ها) که داوطلبان آن را اجرا می‌کنند، مسیریابی می‌شود و در "
+"نتیجه این طور به نظر می‌آید که ترافیک شبکه از آدرس IP یک گره خروجی می‌آید. تور "
+"گزینه‌ای عالی برای حفظ حریم خصوصی در برابر نظارت اینترنت و اپراتورهای وب‌سایت "
+"است. اگر تور در محیط شبکه شما کار می‌کند، توصیه می‌کنیم از آن استفاده کنید – "
+"مشروط بر این که <a href=\"https://support.torproject.org/\">مستندات "
+"پشتیبانی</a> آن‌ها را نیز مطالعه کرده باشید."
 
 #: support.html%2Bhtml.body.main.div.section.details:461-39
 msgctxt "support.html+html.body.main.div.section.details:461-39"
 msgid "Whats the difference between Personal and Public tabs, again?"
-msgstr ""
+msgstr "تفاوت زبانه‌های شخصی و عمومی را دوباره توضیح می‌دهید؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:465-13
 msgctxt "support.html+html.body.main.div.section.details.p:465-13"
@@ -882,6 +1144,11 @@ msgid ""
 "inside a Public tab will be shared with other Ceno users via the BitTorrent "
 "network."
 msgstr ""
+"زبانه‌های عمومی از تمامی روش‌های اتصال موجود در شبکه سنو برای دریافت محتوای "
+"مورد نظر شما استفاده می‌کنند. هنگام مرور وب با استفاده از یک زبانه عمومی، ردی "
+"از فعالیت شما در شبکه عمومی بیت‌تورنت (آدرس IP شما و وب‌سایت درخواستی شما) به "
+"جا می‌ماند. محتوایی که توسط دستگاه شما در یک زبانه عمومی بازیابی شده از طریق "
+"شبکه بیت‌تورنت با سایر کاربران سنو به اشتراک گذاشته می‌شود."
 
 #: support.html%2Bhtml.body.main.div.section.details.p:469-13
 msgctxt "support.html+html.body.main.div.section.details.p:469-13"
@@ -892,17 +1159,24 @@ msgid ""
 "them if you do not want to be associated on BitTorrent with any of your "
 "browsing activity in Ceno."
 msgstr ""
+"اطلاعات درخواستی و بازیابی‌شده در یک زبانه شخصی با هیچ کس دیگری به اشتراک "
+"گذاشته نمی‌شود. هیچ ردی از فعالیت شما در بیت‌تورنت ثبت نمی‌شود. از زبانه‌های "
+"شخصی می‌توانید برای ورود به اکانت‌های شبکه‌های اجتماعی و اکانت‌های دیگر استفاده "
+"کنید. هم‌چنین اگر نمی‌خواهید هیچ یک از فعالیت‌های مرورتان در سنو با بیت‌تورنت "
+"مرتبط شود، به سراغ زبانه‌های شخصی بروید."
 
 #: support.html%2Bhtml.body.main.div.section.details:472-22
 msgctxt "support.html+html.body.main.div.section.details:472-22"
 msgid "When will there be an iPhone or Windows version?"
-msgstr ""
+msgstr "نسخه‌های آیفون و ویندوز چه زمانی منتشر می‌شوند؟"
 
 #: support.html%2Bhtml.body.main.div.section.details.p:476-13
 msgid ""
 "Development of Ceno Browser for iOS and Windows is currently ongoing, with "
 "plans for release in early 2025."
 msgstr ""
+"توسعه مرورگر سنو برای iOS و ویندوز در حال حاضر در جریان است، و قصد داریم این "
+"نسخه‌ها را در اوایل سال ۲۰۲۵ منتشر کنیم."
 
 #.  TRANSLATORS: Replace "en" in the link by your language code if the Manual is available for it. 
 #: support.html%2Bhtml.body.main.div:480-1
@@ -917,14 +1191,14 @@ msgid ""
 "class=\"fas fa-scroll fa-xl\"></span> For a more in-depth, technical guide, "
 "see the Ouinet whitepaper.</button></a>"
 msgstr ""
-"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button "
-"class=\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" "
-"style=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></"
-"span>اطلاعات بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab."
-"com/equalitie/ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button "
-"class=\"btn btn-outline-danger btn-learnmore\" type=\"button\"><span "
-"class=\"fas fa-scroll fa-xl\"> </span> برای یک راهنمای عمیق تر و فنی، کاغذ "
-"سفید Ouinet را ببینید.</button></a>"
+"<a href=\"../user-manual/en/\" style=\"text-align:center\"><button class="
+"\"btn btn-outline-danger btn-learnmore mt-3 mb-3\" type=\"button\" style"
+"=\"text-align: center;\"><span class=\"fas fa-book fa-xl\"></span>اطلاعات "
+"بیشتر در راهنمای کاربر! </button></a> <a href=\"https://gitlab.com/equalitie/"
+"ouinet/blob/main/doc/ouinet-network-whitepaper.md\"><button class=\"btn btn-"
+"outline-danger btn-learnmore\" type=\"button\"><span class=\"fas fa-scroll "
+"fa-xl\"> </span> برای یک راهنمای عمیق‌تر و فنی‌تر، کاغذ سفید Ouinet را "
+"ببینید.</button></a>"
 
 #: support.html%2Bhtml.body.footer.div.p:504-9
 msgid ""
@@ -935,24 +1209,21 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
-"Ceno مرورگر پروژه ای است توسط <a href=\"https://equalit.ie\">eQualit.ie</a> "
-"– یک سازمان غیرانتفاعی کانادایی که خدمات اینترنتی غیرمتمرکز را در حمایت از "
-"شبکه ای برابرتر و عادلانه تر ایجاد می کند. راه حل های eQualitie منبع باز "
-"هستند، نبرد اثبات شده و با توجه به ارزش های ما توسعه یافته است. هر روز، آنها "
-"آزادی اجتماع را برای میلیون ها نفر به صورت آنلاین فراهم می کنند."
+"مرورگر سنو پروژه‌ای از شرکت <a href=\"https://equalit.ie\">eQualit.ie</a> است؛"
+" یک سازمان غیرانتفاعی کانادایی که به منظور حمایت از شبکه‌ای برابر و عادلانه‌تر،"
+" مجموعه‌ای از خدمات اینترنتی غیرمتمرکز ارائه می‌دهد. راه‌حل‌های eQualitie متن‌باز "
+"هستند، امتحان خود را در عمل پس داده‌اند و هماهنگ با ارزش‌های ما شکل گرفته‌اند. "
+"این راه‌حل‌ها هر روز میلیون‌ها نفر را به صورت آنلاین از حق آزادی انجمن برخوردار "
+"می‌کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: support.html%2Bhtml.body.footer:506-23
-#, fuzzy
-#| msgid ""
-#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write(\""
+"-\"+new Date().getFullYear());</script>"
 
 #, fuzzy
 #~| msgid ""
