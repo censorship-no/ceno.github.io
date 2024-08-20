@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2024-08-08 15:41-0400\n"
-"PO-Revision-Date: 2024-08-15 00:09+0000\n"
+"POT-Creation-Date: 2024-08-20 15:29+0200\n"
+"PO-Revision-Date: 2024-08-20 13:42+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/tr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,6 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Hakkında</a><a href=\"support.html\">Destek</a><a "
+"href=\"news.html\">Haberler</a><a href=\"help.html\">Topluluk</a><a href="
+"\"donate.html\">Bağış yapın</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -91,8 +94,6 @@ msgstr ""
 "href=\"../ur/download.html\">اردو</a>"
 
 #: download.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "download.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "İndir"
@@ -104,14 +105,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Hakkında</a><a href=\"support.html\">Destek</a><a "
+"href=\"news.html\">Haberler</a><a href=\"help.html\">Topluluk</a><a href="
+"\"donate.html\">Bağış yapın</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "İndir Ceno"
 
 #: download.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "download.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "İndir"
@@ -123,7 +125,7 @@ msgstr "Ceno logosu"
 #: download.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "download.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "Dil seç"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -268,8 +270,8 @@ msgstr ""
 "kuramayanlar doğrudan APK dosyasını indirebilirler:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-msgid "Ceno Browser 2.2.0"
-msgstr "Ceno Browser 2.2.0"
+msgid "Ceno Browser 2.2.1"
+msgstr "Ceno Browser 2.2.1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -303,15 +305,15 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">file hashes</a> "
+"ceno/v2.2.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"<a href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt."
+"<a href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt."
 "asc\">Dosya karmalarının</a> <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v2.2.0/sha256sums.txt\">imzalarını</a>, <a href=\"https://pgp.mit."
+"com/ceno/v2.2.1/sha256sums.txt\">imzalarını</a>, <a href=\"https://pgp.mit."
 "edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP anahtarımızla</a> göre "
 "de doğrulayabilirsiniz (<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
 "B862</code> parmak iziyle)."

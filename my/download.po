@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 15:41-0400\n"
-"PO-Revision-Date: 2024-08-06 18:43+0000\n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
+"POT-Creation-Date: 2024-08-20 15:29+0200\n"
+"PO-Revision-Date: 2024-08-20 13:42+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,11 +25,14 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a href="
+"\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a href=\"donate.html\""
+">လှူဒါန်းမည်</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "Select language"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -102,6 +105,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a href="
+"\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a href=\"donate.html\""
+">လှူဒါန်းမည်</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -114,7 +120,7 @@ msgstr "‌ဒေါင်းလုပ်ဒ်"
 
 #: download.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Ceno လိုဂို"
 
 #: download.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "download.html+html.body.nav.div.div.label.img[alt]:153-11"
@@ -264,8 +270,8 @@ msgstr ""
 "မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-msgid "Ceno Browser 2.2.0"
-msgstr "Ceno ဘရောက်ဇာ ၂.၂.၀"
+msgid "Ceno Browser 2.2.1"
+msgstr "Ceno ဘရောက်ဇာ ၂.၂.၁"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -299,18 +305,18 @@ msgstr ""
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">file hashes</a> "
+"ceno/v2.2.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/"
+"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/"
 "sha256sums.txt.asc\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v2.2.0/sha256sums.txt\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a "
-"href=\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP "
-"key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
-"B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
+"amazonaws.com/ceno/v2.2.1/sha256sums.txt\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href=\"https"
+"://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</a> ("
+"fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) "
+"ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
 #: download.html%2Bhtml.body.footer.div.p:275-9
 msgid ""
