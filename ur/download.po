@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 15:41-0400\n"
+"POT-Creation-Date: 2024-08-20 15:29+0200\n"
 "PO-Revision-Date: 2024-08-06 18:27+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
@@ -270,7 +270,9 @@ msgstr ""
 "قاصر، آپ تازہ ترین APK کو براہ راست ڈاؤن لوڈ کر سکتے ہیں:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-msgid "Ceno Browser 2.2.0"
+#, fuzzy
+#| msgid "Ceno Browser 2.2.0"
+msgid "Ceno Browser 2.2.1"
 msgstr "Ceno براؤزر 2.2.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
@@ -303,10 +305,18 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+#| msgid ""
+#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+#| "ceno/v2.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+#| "download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">file hashes</a> "
+#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
+#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.2.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt\">file hashes</a> "
+"ceno/v2.2.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
