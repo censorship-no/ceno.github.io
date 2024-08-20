@@ -99,7 +99,7 @@
         <div aria-label="Language Selector Switch" class="checkbox-wrapper">
           <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle" />
           <label class="i18n-btn" for="desktop-nav-toggle">
-            <img src="../img/globe.png" height="20" width="20" alt="Select language" />
+            <img src="../img/globe.png" height="20" width="20" alt="اختر لغة" />
             <!-- TRANSLATORS: Replace with your uppercase language code (e.g. "MY" for Burmese). -->
             <div>AR</div>
             <img src="../img/chevron-down.png" height="24" width="24" class="i18n-chevron" />
@@ -110,7 +110,7 @@
             <a class="navbar-item" lang="ar" hreflang="ar" href="../ar/download.html">العربية</a> <a class="navbar-item" lang="en" hreflang="en" href="../en/download.html">English</a> <a class="navbar-item" lang="es" hreflang="es" href="../es/download.html">Español</a> <a class="navbar-item" lang="fa" hreflang="fa" href="../fa/download.html">فارسی</a> <a class="navbar-item" lang="fr" hreflang="fr" href="../fr/download.html">Français</a> <a class="navbar-item" lang="my" hreflang="my" href="../my/download.html">မြန်မာစာ</a> <a class="navbar-item" lang="pt_BR" hreflang="pt_BR" href="../pt_BR/download.html">Português</a> <a class="navbar-item" lang="ru" hreflang="ru" href="../ru/download.html">Pусский</a> <a class="navbar-item" lang="tr" hreflang="tr" href="../tr/download.html">Türkçe</a> <a class="navbar-item" lang="uk" hreflang="uk" href="../uk/download.html">Українська</a> <a class="navbar-item" lang="ur" hreflang="ur" href="../ur/download.html">اردو</a>
           </div>
         </div>
-        <a class="btn btn-outline-danger" href="download.html"> Download </a>
+        <a class="btn btn-outline-danger" href="download.html"> التنزيل </a>
       </div>
     </div>
     <div class="mobile-nav">
@@ -124,14 +124,14 @@
         <a href="about.html">حول</a><a href="support.html">دعم</a><a href="news.html">أخبار</a><a href="help.html">المجتمع</a><a href="donate.html">تبرّع</a>
         <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
           <img src="/img/download.png" height="24" width="24" alt="تنزيل ceno" />
-          <div>Download</div>
+          <div>التنزيل</div>
         </a>
       </div>
       <a href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" alt="شعار ceno" /></a>
       <div aria-label="Language Selector Switch">
         <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle" />
         <label class="i18n-toggle-icon" for="mobile-i18n-toggle">
-          <img height="36" width="36" class="i18n-toggle-icon" src="../img/translate.png" alt="Select language" />
+          <img height="36" width="36" class="i18n-toggle-icon" src="../img/translate.png" alt="اختر لغة" />
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
@@ -198,16 +198,16 @@
       <div class="col-lg-12 order-first">
         <h3 class="card-title text-danger">تنزيل مباشر</h3>
         <p class="card-text">للمستخدمين المتقدمين أو أولئك الذين لا يستطيعون تثبيت متصفح Ceno عبر الروابط أعلاه، يمكنك تنزيل أحدث APK مباشرة:</p>
-        <p><strong>متصفح Ceno 2.2.0</strong></p>
-        <p><input type="button" class="button is-large" value="تنزيل (32 بت ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-armeabi-v7a-release-2.2.0-2024-07-17_1554.apk';">
-          <input type="button" class="button is-large" value="تنزيل (64 بت ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-arm64-v8a-release-2.2.0-2024-07-17_1554.apk';">
+        <p><strong>متصفح Ceno 2.2.1</strong></p>
+        <p><input type="button" class="button is-large" value="تنزيل (32 بت ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/ceno-armeabi-v7a-release-2.2.1-2024-08-01_1203.apk';">
+          <input type="button" class="button is-large" value="تنزيل (64 بت ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/ceno-arm64-v8a-release-2.2.1-2024-08-01_1203.apk';">
         </p>
         <p>قم بتشغيل هذا <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">للتحقق</a> من احتواء ملف APKعلى توقيع صالح من الشهادة الموضحة أدناه:</p>
         <!-- The inlined "br" tags are a workaround for <https://github.com/translate/translate/issues/3265>. -->
         <!-- Inlining the comment avoids an initial newline in the source page. -->
         <pre style="text-align:left">> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]
 </pre>
-        <p>يمكنك أيضًا التحقق من <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt.asc">تواقيع</a> ال<a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt.">تجزئة الملفات</a> ومقارتنها مع <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">مفتاح PGP</a> ( ذو البصمة <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
+        <p>يمكنك أيضًا التحقق من <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt.asc">تواقيع</a> ال<a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.1/sha256sums.txt.">تجزئة الملفات</a> ومقارتنها مع <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">مفتاح PGP</a> ( ذو البصمة <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>).</p>
       </div>
     </div> <!-- end container -->
   </div>
