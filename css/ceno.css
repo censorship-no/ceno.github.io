@@ -17,6 +17,7 @@ html {
     --ceno-primary: #0EA5E9;
     --ceno-secondary: #F97316;
     --ceno-prim-700: #0369A1;
+    --ceno-sec-500: #ea580c;
     --ceno-sec-700: #C2410C;
 }
 
@@ -134,14 +135,15 @@ div.row {
 }
 
 .btn-outline-danger {
-    border-color: #C2410C;
+    border-color: var(--ceno-sec-700);
     font-size: 1.4em;
-    color: #C2410C;
+    color: var(--ceno-sec-700);
+    margin-inline: 1rem;
 }
 
 .btn-outline-danger:hover {
-    background-color: #EA580C;
-    border-color: #EA580C;
+    background-color: var(--ceno-sec-700);
+    border-color: var(--ceno-sec-700);
     color: #FFFFFF;
 }
 
