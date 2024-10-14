@@ -93,7 +93,7 @@
     <div class="desktop-nav">
       <a tabindex="1" href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" /></a>
       <div aria-label="Navagation Selector" class="desktop-center-nav">
-        <a href="about.html">About</a> <a href="support.html">Support</a> <a href="news.html">News</a> <a href="help.html">Community</a> <a href="donate.html">Donate</a>
+        <a href="about.html">အကြောင်းအရာ</a><a href="support.html">အကူအညီ</a><a href="news.html">သတင်း</a><a href="help.html">အသိုင်းအဝိုင်း</a><a href="donate.html">လှူဒါန်းမည်</a>
       </div>
       <div class="nav-buttons">
         <div aria-label="Language Selector Switch" class="checkbox-wrapper">
@@ -121,13 +121,13 @@
         <span></span>
       </label>
       <div aria-label="Navagation Selector" class="mobile-nav-panel">
-        <a href="about.html">About</a> <a href="support.html">Support</a> <a href="news.html">News</a> <a href="help.html">Community</a> <a href="donate.html">Donate</a>
-        <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
+        <a href="about.html">အကြောင်းအရာ</a><a href="support.html">အကူအညီ</a><a href="news.html">သတင်း</a><a href="help.html">အသိုင်းအဝိုင်း</a><a href="donate.html">လှူဒါန်းမည်</a>
+        <a class="download-btn dropdown-btn" href="download.html">
           <img src="/img/download.png" height="24" width="24" alt="‌ဒေါင်းလုပ်ဒ်" />
           <div>‌ဒေါင်းလုပ်ဒ်</div>
         </a>
       </div>
-      <a href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" alt="Ceno logo" /></a>
+      <a href="index.html"><img height="40" width="152" src="../img/logo_ceno.png" alt="Ceno လိုဂို" /></a>
       <div aria-label="Language Selector Switch">
         <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle" />
         <label class="i18n-toggle-icon" for="mobile-i18n-toggle">
@@ -198,16 +198,16 @@
       <div class="col-lg-12 order-first">
         <h3 class="card-title text-danger">တိုက်ရိုက်ဒေါင်းလုပ်</h3>
         <p class="card-text">ကျွမ်းကျွမ်းကျင်ကျင်အသုံးပြုတတ်သူ သို့မဟုတ် Ceno ဘရောက်ဇာကို အထက်ပါလင့်များမှတဆင့် install မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -</p>
-        <p><strong>Ceno ဘရောက်ဇာ ၂.၂.၀</strong></p>
-        <p><input type="button" class="button is-large" value="ဒေါင်းလုတ် (32-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-armeabi-v7a-release-2.2.0-2024-07-17_1554.apk';">
-          <input type="button" class="button is-large" value="ဒေါင်းလုတ် (64-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/ceno-arm64-v8a-release-2.2.0-2024-07-17_1554.apk';">
+        <p><strong>Ceno ဘရောက်ဇာ ၂.၃.၀</strong></p>
+        <p><input type="button" class="button is-large" value="ဒေါင်းလုတ် (32-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/ceno-armeabi-v7a-release-2.3.0-2024-09-24_1311.apk';">
+          <input type="button" class="button is-large" value="ဒေါင်းလုတ် (64-bit ARM)" onclick="location.href = 'https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/ceno-arm64-v8a-release-2.3.0-2024-09-24_1311.apk';">
         </p>
         <p>APK ဖိုင်တွင် အောက်ဖော်ပြပါ လက်ဗွေအတွက် သင့်လျော်သော လက်မှတ်ရှိကြောင်း သက်သေပြရန် <a href="https://developer.android.com/studio/command-line/apksigner#usage-verify">ဖွင့်လိုက်ပါ</a> -</p>
         <!-- The inlined "br" tags are a workaround for <https://github.com/translate/translate/issues/3265>. -->
         <!-- Inlining the comment avoids an initial newline in the source page. -->
         <pre style="text-align:left">> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]
 </pre>
-        <p>သင့်အနေဖြင့် <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt.asc">file hashes</a> ရဲ့ <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.2.0/sha256sums.txt">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">PGP key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။</p>
+        <p>သင့်အနေဖြင့် <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt.asc">file hashes</a> ရဲ့ <a href="https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862">PGP key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။</p>
       </div>
     </div> <!-- end container -->
   </div>

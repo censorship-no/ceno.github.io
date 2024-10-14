@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-08-02 06:59+0000\n"
+"PO-Revision-Date: 2024-09-25 14:29+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/it/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -116,7 +116,7 @@ msgstr "Scarica"
 
 #: support.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Logo di Ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "support.html+html.body.nav.div.div.label.img[alt]:153-11"
@@ -193,9 +193,6 @@ msgid "Ceno Browser| Support"
 msgstr "Ceno Browser| Supporto"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.h1:168-9"
-#| msgid "Frequently Asked Questions"
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
@@ -209,16 +206,6 @@ msgid "What is Ceno Browser?"
 msgstr "Cos'è Ceno Browser ?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:193-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:172-17"
-#| msgid ""
-#| "Ceno is a mobile web browser based on Mozilla Android Components. It is "
-#| "designed for accessing and distributing web content (websites) using a "
-#| "novel approach that relies on BitTorrent – a decentralized file sharing "
-#| "network. Ceno’s advantage comes from side-stepping current Internet "
-#| "censorship methods and allowing people to access and share web "
-#| "information in and across regions where connectivity has been interrupted "
-#| "or compromised."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:193-17"
 msgid ""
 "Ceno is a mobile web browser based on Mozilla Android Components. It is "
@@ -230,11 +217,11 @@ msgid ""
 msgstr ""
 "Ceno è un browser web per mobile basato su Mozilla Android Components. È "
 "progettato per raggiungere e distribuire contenuti web usando un innovativo "
-"approccio che appoggia su BitTorrent - una rete di condivisione file "
-"decentralizzata. Il vantaggio di Ceno deriva dalla capacità di schivare i "
-"metodi di censura di Internet e permettere alle persone di accedere e "
-"condividere informazioni attraverso regioni in cui la connettività è stata "
-"interrotta o compromessa."
+"approccio che sfrutta BitTorrent - una rete di condivisione file "
+"decentralizzata. I vantaggi di Ceno derivano dalla sua capacità di aggirare "
+"gli attuali metodi per la censura di Internet e di permettere alle persone "
+"di accedere e condividere informazioni attraverso e oltre regioni in cui la "
+"connettività è stata interrotta o compromessa."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
 #, fuzzy
@@ -245,7 +232,6 @@ msgid "How does Ceno work?"
 msgstr "Come funziona Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:201-17
-#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:201-17"
 msgid ""
 "When a website is accessible from your network (e.g. accessing <i>www.canada."
@@ -254,7 +240,7 @@ msgid ""
 msgstr ""
 "Quando un sito è accessibile dalla tua connessione (es. accedendo <i>www."
 "corriere.it</i> dal tuo internet di casa), Ceno si connetterà a quel sito "
-"come un web broswer normale."
+"come un web browser normale."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
 #, fuzzy
@@ -301,6 +287,7 @@ msgstr ""
 "contatterà molti altri Iniettori per richiedere quel sito e te lo spedirà."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:210-17
+#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:210-17"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -308,6 +295,10 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
+"Nella modalità <strong>Personal</strong>, contatterai solo gli Injectors per "
+"avere quel sito web recuperato e mostrato te. La ricerca non si connetterà "
+"alla rete BitTorrent e non tenterà di trovare il contenuto dai dispositivi "
+"degli altri utenti."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
@@ -336,9 +327,10 @@ msgstr ""
 #: support.html%2Bhtml.body.main.noscript.div.section.details:219-111
 msgctxt "support.html+html.body.main.noscript.div.section.details:219-111"
 msgid "What are the advantages of using Ceno?"
-msgstr ""
+msgstr "Quali sono i vantaggi di usare Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:223-17
+#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:223-17"
 msgid ""
 "Our motto is ‘Share the Web!’ and essentially that is what Ceno users are "
@@ -347,6 +339,11 @@ msgid ""
 "seeking the same content. Ceno uses the BitTorrent file sharing network for "
 "this."
 msgstr ""
+"Il nostro motto è \"Condividi il Web!\" ed essenzialmente è quello che gli "
+"utenti Ceno stanno facendo. La maggior parte dei siti web hanno contenuti "
+"statici (qualcosa che leggi, vedi, ascolti, ecc...). I contenuti statici "
+"possono venire salvati e condivisi con altri utenti che vogliono lo stesso "
+"contenuto. Ceno utilizza la rete BitTorrent per questo."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:227-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:227-17"
