@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-10-18 16:51+0000\n"
+"PO-Revision-Date: 2024-10-18 17:29+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/cs/>\n"
@@ -350,15 +350,6 @@ msgstr ""
 "nedostupné."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:233-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:229-17"
-#| msgid ""
-#| "People running Ceno from countries that do not censor the Internet - or "
-#| "from parts of the world where access to the internet is reliable - can "
-#| "choose to act as Bridges for those in heavily restricted networks. The "
-#| "network automatically enrolls new Bridges and keeps track of when they go "
-#| "offline. Running a Bridge is a very simple yet powerful action, allowing "
-#| "you to help others access the Internet."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:233-17"
 msgid ""
 "People running Ceno from countries that do not censor the Internet - or from "
@@ -376,13 +367,6 @@ msgstr ""
 "internetu."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:238-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:234-17"
-#| msgid ""
-#| "Ceno - and all accompanying components of the tool that together create a "
-#| "decentralized network of peers and nodes - is free and open source "
-#| "software. You can <a href=\"https://gitlab.com/censorship-no/ceno-"
-#| "browser\">inspect our code</a> or re-create the entire network yourself!"
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:238-17"
 msgid ""
 "Ceno - and all accompanying components of the tool that together create a "
@@ -392,37 +376,20 @@ msgid ""
 msgstr ""
 "Ceno – a všechny doprovodné součásti tohoto nástroje, které společně "
 "vytvářejí decentralizovanou síť vrstevníků a uzlů – je bezplatný open source "
-"software. Můžete <a href=\"https://gitlab.com/censorship-no/ceno-"
-"browser\">oveřit náš kód</a> nebo sami znovu-vytvořit celou síť!"
+"software. Můžete <a href=\"https://gitlab.com/censorship-no/ceno-browser\""
+">oveřit náš kód</a> nebo sami znovu-vytvořit celou síť!"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:241-45
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:237-45"
-#| msgid "What are the risks of using Ceno?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:241-45"
 msgid "What are the risks of using Ceno?"
 msgstr "Jaká jsou rizika spojená s používáním Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:245-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.h3:241-17"
-#| msgid "Risks for users"
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:245-17"
 msgid "Risks for users"
 msgstr "Rizika pro uživatele"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:242-17"
-#| msgid ""
-#| "Every technology that deals with sensitive use cases has its advantages "
-#| "and risks. By design, Ceno is using the public BitTorrent network for "
-#| "much of its routing and data storage needs. Whenever you request or share "
-#| "a piece of content on the BitTorrent network (Public mode) you create a "
-#| "record that associates your IP address with a piece of content that was "
-#| "retrieved from a particular website. For example, anyone can query the "
-#| "BitTorrent network for a list of IP addresses that have been associated "
-#| "with <i>website.com</i>."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
 msgid ""
 "Every technology that deals with sensitive use cases has its advantages and "
@@ -442,12 +409,6 @@ msgstr ""
 "spojeny s <i>website.com</i>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:252-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:248-17"
-#| msgid ""
-#| "Users sharing retrieved content with others may also incur additional "
-#| "data charges as content is copied from their device to the device of "
-#| "other Ceno users."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:252-17"
 msgid ""
 "Users sharing retrieved content with others may also incur additional data "
@@ -459,15 +420,6 @@ msgstr ""
 "zařízení jiných uživatelů Ceno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:250-17"
-#| msgid ""
-#| "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
-#| "for Ceno users where the service does not interact with the BitTorrent "
-#| "network. We recommend this mode for users who do not want any record of "
-#| "their activity to appear on BitTorrent, as well for website operations "
-#| "that require authentication (for example, when logging into your social "
-#| "media accounts)."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
 msgid ""
 "In response to these risks, we created a ‘<strong>Personal</strong> mode’ "
