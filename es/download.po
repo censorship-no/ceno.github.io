@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2024-10-14 15:45-0400\n"
-"PO-Revision-Date: 2024-10-25 21:16+0000\n"
+"PO-Revision-Date: 2024-12-11 14:00+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -310,12 +310,10 @@ msgstr ""
 "write(\"-\"+new Date().getFullYear());</script>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
 msgid "Ceno Browser 2.3.3"
-msgstr "Navegador Ceno 2.3.0"
+msgstr "Navegador Ceno 2.3.3"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.3.3/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -325,11 +323,11 @@ msgid ""
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 "También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v2.3.0/sha256sums.txt.asc\">firmas</a> de los <a href=\"https://"
-"ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">hashes de "
-"archivos</a> contrastándolas con nuestra <a href=\"https://pgp.mit.edu/pks/"
-"lookup?op=get&search=0xC7DCC123F0DDB862\">clave PGP</a> (con huella digital "
-"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"com/ceno/v2.3.3/sha256sums.txt.asc\">firmas</a> de <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.3.3/sha256sums.txt\">hashes</a> contra "
+"nuestro <a href=\"\"https://pgp.mit.edu/pks/lookup?op=get&search="
+"0xC7DCC123F0DDB862\">Clave PGP</a> (con huella digital <code>51BE 600C 2711 "
+"926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #~ msgctxt "download.html+html.body.nav.div.div.label.img[alt]:149-11"
 #~ msgid "Select language"
