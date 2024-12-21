@@ -325,9 +325,31 @@ msgstr ""
 "También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
 "com/ceno/v2.3.3/sha256sums.txt.asc\">firmas</a> de <a href=\"https://ceno-"
 "download.s3.amazonaws.com/ceno/v2.3.3/sha256sums.txt\">hashes</a> contra "
-"nuestro <a href=\"\"https://pgp.mit.edu/pks/lookup?op=get&search="
-"0xC7DCC123F0DDB862\">Clave PGP</a> (con huella digital <code>51BE 600C 2711 "
-"926C 865D F93F C7DC C123 F0DD B862</code>)."
+"nuestro <a href=\"\"https://pgp.mit.edu/pks/lookup?"
+"op=get&search=0xC7DCC123F0DDB862\">Clave PGP</a> (con huella digital "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
+#, fuzzy
+msgid "Ceno Browser 2.4.0"
+msgstr "Navegador Ceno 2.3.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v2.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.4.0/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+"op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
+"600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+msgstr ""
+"También puedes verificar las <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v2.3.0/sha256sums.txt.asc\">firmas</a> de los <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">hashes de "
+"archivos</a> contrastándolas con nuestra <a href=\"https://pgp.mit.edu/pks/"
+"lookup?op=get&search=0xC7DCC123F0DDB862\">clave PGP</a> (con huella digital "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #~ msgctxt "download.html+html.body.nav.div.div.label.img[alt]:149-11"
 #~ msgid "Select language"
