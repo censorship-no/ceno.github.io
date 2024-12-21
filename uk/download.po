@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2024-12-05 12:50-0400\n"
-"PO-Revision-Date: 2024-12-14 09:00+0000\n"
+"PO-Revision-Date: 2024-12-21 16:38+0000\n"
 "Last-Translator: Максим Горпиніч <mgorpinic2005@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -309,12 +309,10 @@ msgstr ""
 "write(\"-\"+new Date().getFullYear());</script>"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
 msgid "Ceno Browser 2.4.0"
-msgstr "Браузер Ceno 2.3.0"
+msgstr "Браузер Ceno 2.4.0"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -323,12 +321,14 @@ msgid ""
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Також можете перевірити <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.3.0/sha256sums.txt.asc\">підписи</a> <a href=\"https://ceno -"
-"download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">хешів файлів</a> "
-"через наш <a href=\"https://pgp.mit.edu/pks/lookup?"
-"op=get&search=0xC7DCC123F0DDB862\">PGP-ключ</a> (з відбитком <code>51BE 600C "
-"2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"Ви також можете перевірити <a href="
+"\"https://ceno-download.s3.amazonaws.com/ceno/v2.4.0/sha256sums.txt.asc\""
+">підписи</a> <a href="
+"\"https: //ceno-download.s3.amazonaws.com/ceno/v2.4.0/sha256sums.txt\">хеш "
+"файлів</a> проти наших <a href="
+"\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">ключ "
+"PGP</a> (з відбитком пальця <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
+"F0DD B862</ код>)."
 
 #, fuzzy
 #~ msgctxt "download.html+html.body.nav.div.div.div:155-9"
