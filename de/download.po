@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2024-12-05 12:50-0400\n"
-"PO-Revision-Date: 2024-12-22 11:09+0000\n"
+"PO-Revision-Date: 2024-12-22 22:58+0000\n"
 "Last-Translator: Moonwalk4797 <moonwalk4797@users.noreply.hosted.weblate.org>"
 "\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
@@ -64,7 +64,7 @@ msgstr ""
 #: download.html%2Bhtml.body.nav.div.div:127-9
 msgctxt "download.html+html.body.nav.div.div:127-9"
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: download.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "download.html+html.body.nav.div.div:138-7"
@@ -73,6 +73,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
 "\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">Info</a> <a href=\"support.html\">Hilfe</a> <a href="
+"\"news.html\">Neuigkeiten</a> <a href=\"help.html\">Community</a> <a href="
+"\"donate.html\">Spenden</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -81,7 +84,7 @@ msgstr ""
 #: download.html%2Bhtml.body.nav.div.div.a.div:146-11
 msgctxt "download.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: download.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
@@ -90,7 +93,7 @@ msgstr ""
 #: download.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "download.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "Sprache auswählen"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -116,7 +119,7 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.title:178-48
 msgid "Ceno Browser | Download"
-msgstr ""
+msgstr "Ceno Browser | Herunterladen"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.img[alt]:184-11
 msgid "Ceno Browser banner"
@@ -176,6 +179,14 @@ msgid ""
 "retrieving content. See the <a href=\"support.html\">FAQ</a> or <a href"
 "=\"../user-manual/\">User Manual</a> for more details on Ceno usage."
 msgstr ""
+"Ceno hat zwei Modi – <strong>Öffentlich</strong> und <strong>Privat</"
+"strong>. Du kannst leicht zwischen ihnen wechseln. Der öffentliche Modus "
+"bietet die beste Verbindung aber die wenigste Privatsphäre – Webseiten die "
+"du besuchst oder teilst werden in einem öffentlichen Register (BitTorrent) "
+"aufgezeichnet. Der private Modus tut dies nicht, läd aber langsamer und "
+"ineffizienter. Siehe <a href=\"support.html\">Hilfe</a> oder <a href"
+"=\"../user-manual/\">Benutzerhandbuch</a> für mehr Details zur Nutzung von "
+"Ceno."
 
 #: download.html%2Bhtml.body.main.section.div.div.div.h3:237-9
 msgid "Direct Download"
