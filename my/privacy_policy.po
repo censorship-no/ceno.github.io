@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 21:32-0700\n"
+"POT-Creation-Date: 2025-01-02 10:10-0700\n"
 "PO-Revision-Date: 2024-09-25 14:27+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
@@ -14,174 +14,667 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8-dev\n"
 
-#~ msgid "en"
-#~ msgstr "my"
+#: privacy_policy.html%2Bhtml[lang]:4-1
+msgid "en"
+msgstr "my"
 
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div:96-7"
-#~ msgid ""
-#~ "<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
-#~ "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
-#~ "href=\"donate.html\">Donate</a>"
-#~ msgstr ""
-#~ "<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
-#~ "href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
-#~ "href=\"donate.html\">လှူဒါန်းမည်</a>"
+#: privacy_policy.html%2Bhtml.body.nav.div.div:96-7
+msgctxt "privacy_policy.html+html.body.nav.div.div:96-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
+"href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
+"href=\"donate.html\">လှူဒါန်းမည်</a>"
 
-#~ msgctxt ""
-#~ "privacy_policy.html+html.body.nav.div.div.div.label.img[alt]:107-13"
-#~ msgid "Select language"
-#~ msgstr "Select language"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
+msgctxt "privacy_policy.html+html.body.nav.div.div.div.label.img[alt]:107-13"
+msgid "Select language"
+msgstr "Select language"
 
-#~ msgid "EN"
-#~ msgstr "MY"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.div:109-13
+msgid "EN"
+msgstr "MY"
 
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div.div:112-11
 #, fuzzy
-#~| msgid ""
-#~| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~| "privacy_policy.html\">اردو</a>"
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div.div.div:112-11"
-#~ msgid ""
-#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~ "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~ "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~ "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~ "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~ "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~ "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~ "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~ "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~ "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~ "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~ "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~ "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~ "privacy_policy.html\">اردو</a>"
-#~ msgstr ""
-#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~ "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~ "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~ "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~ "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~ "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~ "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~ "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~ "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~ "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~ "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~ "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~ "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~ "privacy_policy.html\">اردو</a>"
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+#| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+#| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+#| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+#| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+#| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "privacy_policy.html\">اردو</a>"
+msgctxt "privacy_policy.html+html.body.nav.div.div.div.div:112-11"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
 
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div:127-9"
-#~ msgid "Download"
-#~ msgstr "‌ဒေါင်းလုပ်ဒ်"
+#: privacy_policy.html%2Bhtml.body.nav.div.div:127-9
+msgctxt "privacy_policy.html+html.body.nav.div.div:127-9"
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
 
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div:138-7"
-#~ msgid ""
-#~ "<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
-#~ "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
-#~ "href=\"donate.html\">Donate</a>"
-#~ msgstr ""
-#~ "<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
-#~ "href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
-#~ "href=\"donate.html\">လှူဒါန်းမည်</a>"
+#: privacy_policy.html%2Bhtml.body.nav.div.div:138-7
+msgctxt "privacy_policy.html+html.body.nav.div.div:138-7"
+msgid ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
+"href=\"donate.html\">Donate</a>"
+msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
+"href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
+"href=\"donate.html\">လှူဒါန်းမည်</a>"
 
-#~ msgid "Download Ceno"
-#~ msgstr "‌ဒေါင်းလုပ်ဒ်"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
+msgid "Download Ceno"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
 
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div.a.div:146-11"
-#~ msgid "Download"
-#~ msgstr "‌ဒေါင်းလုပ်ဒ်"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.a.div:146-11
+msgctxt "privacy_policy.html+html.body.nav.div.div.a.div:146-11"
+msgid "Download"
+msgstr "‌ဒေါင်းလုပ်ဒ်"
 
-#~ msgid "Ceno logo"
-#~ msgstr "Ceno လိုဂို"
+#: privacy_policy.html%2Bhtml.body.nav.div.a.img[alt]:149-28
+msgid "Ceno logo"
+msgstr "Ceno လိုဂို"
 
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div.label.img[alt]:153-11"
-#~ msgid "Select language"
-#~ msgstr "Select language"
+#: privacy_policy.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
+msgctxt "privacy_policy.html+html.body.nav.div.div.label.img[alt]:153-11"
+msgid "Select language"
+msgstr "Select language"
 
+#.  Sorted alphabetically by language code. 
+#.  TRANSLATORS: Please do not translate any of these. 
+#: privacy_policy.html%2Bhtml.body.nav.div.div.div:159-9
 #, fuzzy
-#~| msgid ""
-#~| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~| "privacy_policy.html\">اردو</a>"
-#~ msgctxt "privacy_policy.html+html.body.nav.div.div.div:159-9"
-#~ msgid ""
-#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~ "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~ "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~ "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~ "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~ "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~ "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~ "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~ "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~ "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~ "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~ "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~ "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~ "privacy_policy.html\">اردو</a>"
-#~ msgstr ""
-#~ "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
-#~ "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
-#~ "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
-#~ "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
-#~ "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
-#~ "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
-#~ "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
-#~ "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
-#~ "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
-#~ "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
-#~ "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
-#~ "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
-#~ "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
-#~ "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
-#~ "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
-#~ "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
-#~ "privacy_policy.html\">اردو</a>"
+#| msgid ""
+#| "<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+#| "privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+#| "hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+#| "class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+#| "privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+#| "hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+#| "class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+#| "privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+#| "hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+#| "class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+#| "privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+#| "hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+#| "class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+#| "privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+#| "hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+#| "class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+#| "privacy_policy.html\">اردو</a>"
+msgctxt "privacy_policy.html+html.body.nav.div.div.div:159-9"
+msgid ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
+msgstr ""
+"<a class=\"navbar-item\" lang=\"ar\" hreflang=\"ar\" href=\"../ar/"
+"privacy_policy.html\">العربية</a> <a class=\"navbar-item\" lang=\"en\" "
+"hreflang=\"en\" href=\"../en/privacy_policy.html\">English</a> <a "
+"class=\"navbar-item\" lang=\"es\" hreflang=\"es\" href=\"../es/"
+"privacy_policy.html\">Español</a> <a class=\"navbar-item\" lang=\"fa\" "
+"hreflang=\"fa\" href=\"../fa/privacy_policy.html\">فارسی</a> <a "
+"class=\"navbar-item\" lang=\"fr\" hreflang=\"fr\" href=\"../fr/"
+"privacy_policy.html\">Français</a> <a class=\"navbar-item\" lang=\"my\" "
+"hreflang=\"my\" href=\"../my/privacy_policy.html\">မြန်မာစာ</a> <a "
+"class=\"navbar-item\" lang=\"pt_BR\" hreflang=\"pt_BR\" href=\"../pt_BR/"
+"privacy_policy.html\">Português</a> <a class=\"navbar-item\" lang=\"ru\" "
+"hreflang=\"ru\" href=\"../ru/privacy_policy.html\">Pусский</a> <a "
+"class=\"navbar-item\" lang=\"tr\" hreflang=\"tr\" href=\"../tr/"
+"privacy_policy.html\">Türkçe</a> <a class=\"navbar-item\" lang=\"uk\" "
+"hreflang=\"uk\" href=\"../uk/privacy_policy.html\">Українська</a> <a "
+"class=\"navbar-item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/"
+"privacy_policy.html\">اردو</a>"
 
-#~ msgid "Ceno Browser | Privacy Policy"
-#~ msgstr "Ceno ဘရောက်ဇာ | ကိုယ်ရေးလုံခြုံမှု မူဝါဒ"
+#: privacy_policy.html%2Bhtml.body.main.title:178-54
+msgid "Ceno Browser | Privacy Policy"
+msgstr "Ceno ဘရောက်ဇာ | ကိုယ်ရေးလုံခြုံမှု မူဝါဒ"
 
-#~ msgid "Ceno Privacy Notice"
-#~ msgstr "Ceno ကိုယ်ရေးလုံခြုံမှုဆိုင်ရာ သတိပေးချက်"
+#: privacy_policy.html%2Bhtml.body.main.section.div.h1:181-1
+#, fuzzy
+#| msgid "Ceno Browser | Privacy Policy"
+msgid "Ceno Browser Terms of Use & Privacy Notice"
+msgstr "Ceno ဘရောက်ဇာ | ကိုယ်ရေးလုံခြုံမှု မူဝါဒ"
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:183-1
+msgid "1. Overview"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:184-1
+msgid ""
+"This Ceno Browser (“Ceno”) Terms of Use (the “Agreement”), along with this "
+"Privacy Notice (collectively, the “Terms”), bind all users of Ceno - a peer-"
+"to-peer mobile web browser. By installing and running the Ceno Browser "
+"application (the “Service”), you consent to be bound by and to comply with "
+"this Agreement between you and eQualitie Inc. (“eQualitie”, “we”, or “us”). "
+"Usage of the Ceno Browser application and associated services are provided "
+"by eQualitie at no cost and are provided for use as is."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:186-1
+msgid "2. Terms of use"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:187-1
+msgid ""
+"The Ceno Browser application is built in-line with eQualitie’s values. By "
+"using this software you agree that you will not use Ceno to publish, share, "
+"or store materials that are contrary to the underlying values of eQualitie, "
+"the applicable laws of Quebec or Canada or the International Bill of Human "
+"Rights. This includes, but is not limited to, content that:"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:189-1
+msgid ""
+"Infringes on personal information protection rights, including the "
+"underlying values or the letter of Canada’s Privacy Act or PIPEDA (the "
+"Personal Information Protection and Electronic Documents Act);"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:190-1
+msgid ""
+"Constitutes child sexually exploitative material (including material which "
+"may not be illegal child sexual abuse material but which nonetheless "
+"sexually exploits or promotes the sexual exploitation of minors), unlawful "
+"pornography, or are otherwise indecent;"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:191-1
+msgid ""
+"Contains or promotes extreme acts of violence or terrorist activity, "
+"including terror or violent extremist propaganda;"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:192-1
+msgid ""
+"Advocates bigotry, hatred, or the incitement of violence against any person "
+"or group of people based on their race, religion, ethnicity, national "
+"origin, sex, gender identity, sexual orientation, disability, impairment, or "
+"any other characteristic(s) associated with systemic discrimination or "
+"marginalization;"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:193-1
+msgid ""
+"Contains files with viruses, trojans, worms, logic bombs or other material "
+"that is malicious or technologically harmful."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:196-1
+msgid "Content Responsibility"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:198-1
+msgid ""
+"eQualitie is not responsible for content shared or distributed by users via "
+"the BitTorrent network or other third-party servers. While Ceno facilitates "
+"decentralized content sharing, the responsibility for the legality and "
+"ethicality of shared content lies solely with the users. Users are advised "
+"to comply with applicable laws and community guidelines when using the "
+"Service. Ceno does not actively monitor or moderate user-shared content, but "
+"we reserve the right to investigate and take action (such as disabling "
+"access to certain features) if notified of misuse that violates these Terms "
+"of Use, including the promotion of illegal, harmful, or otherwise prohibited "
+"material."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:200-1
+#, fuzzy
+#| msgid "Ceno Privacy Notice"
+msgid "3. Privacy Notice"
+msgstr "Ceno ကိုယ်ရေးလုံခြုံမှုဆိုင်ရာ သတိပေးချက်"
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:202-1
+msgid ""
+"This section is used to inform visitors of eQualitie’s policies regarding "
+"the collection, use, and disclosure of Personal Information for all users of "
+"this Service."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:204-1
+msgid "3.1 Data Collection"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:206-1
+msgid ""
+"Ceno Browser does not require any personally identifying information to use "
+"the service. It is designed to be able to provide access to online content "
+"without a user ID, name, nickname, user account or any other form of user "
+"data. eQualitie does not know who uses the app and with whom users sync or "
+"share their data. eQualitie values user privacy and will only collect user "
+"information (such as usage statistics) with users’ prior consent and with "
+"personally identifying information removed."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:208-1
+msgid ""
+"Ceno will ask the user during the setup process for consent to share "
+"aggregated and anonymized analytics information with us. We use the <a "
+"href=\"https://cleaninsights.org/\">Clean Insights</a> measurement platform "
+"to help better understand app usage patterns. Data is captured in a <a "
+"href=\"https://guardianproject.info/privacy\">privacy-preserving way</a>: we "
+"don’t use a tracking cookie; we don't store IP addresses; we don’t capture "
+"personal information; and we don’t track users across sites. We use a self-"
+"hosted <a href=\"https://matomo.org/\">Matomo</a> instance to collect "
+"anonymized information about your usage of the app. Information collected is "
+"deleted every 90 days."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:210-1
+msgid ""
+"We collect in hourly, daily, and monthly intervals various aggregated "
+"measurements to help us understand the number of users, including the "
+"network origin ASN and country, based on browsing in Public mode."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:212-1
+msgid ""
+"Injectors are servers that can see requests for content on the network, "
+"including the IP address of the user making the request and the name of the "
+"website with the desired content. The injectors are a necessary network "
+"component for 1) introducing web content into a decentralized network, and "
+"2) authenticating the integrity of introduced content. On the Ceno network, "
+"Injectors are run and managed by the Ceno team. eQualitie deletes all access "
+"logs every 24 hours."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:214-1
+msgid ""
+"Bootstrap Servers are servers used to help introduce your device to the "
+"BitTorrent network. We send users' IP addresses to both our self-hosted "
+"bootstrap servers and to third-party bootstrap servers. For the self-hosted "
+"bootstrap servers, we keep IP addresses in a cache in memory. IP addresses "
+"are checked for liveliness every so often and are removed when they are no "
+"longer responsive to BitTorrent traffic."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:216-1
+msgid "3.2 Data Sharing"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:218-1
+msgid ""
+"Ceno Browser (and eQualitie) does not share any data with any third parties."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:220-1
+msgid ""
+"The application offers two modes of operation - Public and Personal. In "
+"Public mode, any retrieved content becomes part of the BitTorrent network "
+"and can be accessed by other users searching for the same content. In "
+"contrast, Personal mode ensures that no activity is shared with the network, "
+"providing a private browsing experience. Users can switch modes as needed to "
+"balance accessibility and privacy based on their preferences."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:222-1
+msgid ""
+"Whenever you request or share a piece of content on the BitTorrent network "
+"(Public mode) you create a record that associates your IP address with a "
+"piece of content that was retrieved from a particular website. For example, "
+"anyone can query the BitTorrent network for a list of IP addresses that have "
+"been associated with example.com."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:224-1
+msgid ""
+"Users sharing retrieved content with others may also incur additional data "
+"charges as content is copied from their device to the device of other Ceno "
+"users."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:226-1
+msgid ""
+"Public tabs use all connectivity methods available in the Ceno network to "
+"get the desired content. When browsing using a Public tab, users will leave "
+"a record of their activity on the public BitTorrent network (IP address and "
+"website requested). Content that has been retrieved by a user’s device "
+"inside a Public tab will be shared with other Ceno users via the BitTorrent "
+"network."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:228-1
+msgid ""
+"In Personal mode, you will only contact the Injectors to have that website "
+"fetched and delivered to you. The search will not connect to the BitTorrent "
+"network and will not attempt to locate the content on other users’ devices."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:230-1
+msgid ""
+"Information requested and retrieved in a Personal tab is not shared with "
+"anyone else. No record of a user’s activity is recorded on BitTorrent. "
+"Personal tabs are ideal for logging into social media and other accounts, or "
+"if the user does not want to be associated on BitTorrent with any of their "
+"browsing activity in Ceno."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:232-1
+msgid "Bridges"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:234-1
+msgid ""
+"To ensure that your Ceno client can always contact an Injector, we have also "
+"created Bridges. If the Injectors are blocked on your network, the Ceno app "
+"will look for available Bridges, who will forward a user’s request to the "
+"Injectors. Users may opt in to enabling Bridge Mode in Ceno Browser to "
+"improve web content accessibility for others. Bridge activity is invisible "
+"to the Bridge operator (unless they are actively monitoring their device for "
+"incoming and outgoing connections). Their job is to receive network requests "
+"from other Ceno users for access to an Injector and forward this request. "
+"Bridge operators will have their device’s IP address listed in the "
+"BitTorrent network as an accessible Bridge."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:236-1
+msgid ""
+"See the <a href=\"https://censorship.no//support\">FAQ</a> or <a "
+"href=\"https://censorship.no/user-manual/\">User Manual</a> for more details "
+"on Ceno Browser usage. eQualitie is not responsible for content shared and "
+"distributed on other servers."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:238-1
+msgid "3.3 Log Data"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:240-1
+msgid ""
+"Users can opt-in to enabling logging via the Settings menu in Ceno Browser. "
+"When enabled, Ceno Browser creates logfiles on users’ devices. The purpose "
+"of these files is only to log the device’s activity to facilitate the "
+"debugging process in the event a user experiences difficulties in connecting "
+"with their peers or otherwise in using Ceno. The logfile remains on a user’s "
+"device unless the user decides to send it to us for support purposes, and is "
+"automatically deleted when its sizes reaches 15 MB."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:242-1
+msgid ""
+"If the user does decide to contact us, the personally identifiable data we "
+"may collect is:"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:244-1
+msgid "Email address - if the user decided to contact us by email;"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:245-1
+msgid ""
+"Information the user may provide by email, through help tickets, or through "
+"eQualitie websites, and associated metadata - for the purposes of providing "
+"technical support;"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:246-1
+msgid "Web browsing activity and history."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:249-1
+msgid "None of this data is shared with any third parties."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:251-1
+msgid "3.4 Crash Reporting"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:253-1
+msgid ""
+"Users can opt-in to crash reporting via the Settings menu in Ceno Browser. "
+"When enabled, Ceno Browser will send crash reports in the event of an issue "
+"while running the app. Crash reports are forwarded automatically to a server "
+"run by eQualitie. We use Sentry for crash reporting."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:255-1
+msgid ""
+"Sentry retains event data in production for 90 days. Individual events are "
+"aggregated into broader issues, and are deleted after the above retention "
+"period. Issues are deleted when all associated events are deleted."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:257-1
+msgid "3.5 Cookies"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:259-1
+msgid "The Ceno Browser app does not use cookies."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:261-1
+msgid "3.6 Links to Other Sites"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:263-1
+msgid ""
+"This Service may contain links to websites or services operated by third "
+"parties. These external sites are not controlled or monitored by eQualitie, "
+"and we do not make any representations or warranties regarding their "
+"content, security, or privacy practices."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:265-1
+msgid "By clicking on a third-party link, you acknowledge and agree that:"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:267-1
+msgid ""
+"Your interactions with third-party sites are governed solely by their "
+"respective terms of use and privacy policies."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:268-1
+msgid ""
+"eQualitie is not responsible for any content, data collection, or practices "
+"of third-party websites or services."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:269-1
+msgid "Visiting external sites linked from Ceno is entirely at your own risk."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:271-1
+msgid "We strongly recommend that you:"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:273-1
+msgid ""
+"Exercise caution when clicking on links to unfamiliar or untrusted sites."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:274-1
+msgid ""
+"Review the privacy policies and terms of use of any third-party website you "
+"visit."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p.ul.li:275-1
+msgid ""
+"Refrain from providing personal or sensitive information to external sites "
+"unless you are confident in their security and intent."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:277-1
+msgid ""
+"eQualitie disclaims all liability for any harm, loss, or damage arising from "
+"your use of third-party links or services."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:279-1
+msgid "3.7 Children’s Privacy"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:281-1
+msgid ""
+"We do not knowingly collect personally identifiable information from "
+"children. We encourage all children to never submit any personally "
+"identifiable information through the Application and/or Services. We "
+"encourage parents and legal guardians to monitor their childrens’ Internet "
+"usage and to help enforce this Policy by instructing their children never to "
+"provide personally identifiable information through the Application and/or "
+"Services without their permission. If you have reason to believe that a "
+"child has provided personally identifiable information to us through the "
+"Application and/or Services, please contact us. You must also be at least 16 "
+"years of age to consent to the processing of your personally identifiable "
+"information in your country (in some countries we may allow your parent or "
+"guardian to do so on your behalf)."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h3:283-1
+msgid "3.8 Changes to these Terms"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:285-1
+msgid ""
+"We may update these Terms from time to time. Thus, you are advised to review "
+"this page periodically for any changes."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:287-1
+msgid "This policy is effective as of 2024-12-18."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:289-1
+msgid "4. Glossary"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:291-1
+msgid ""
+"<b>Bootstrap Servers:</b> Servers used to help your device get into the "
+"BitTorrent network."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:293-1
+msgid ""
+"<b>Bridges:</b> Servers (including users’ devices if Bridge Mode is enabled) "
+"running Ceno Browser that serve to route web content requests if other "
+"connectivity mechanisms are inaccessible or unavailable."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:295-1
+msgid ""
+"<b>Injectors:</b> Servers run by eQualitie that route web content from "
+"origin servers to Ceno users’ devices requesting that content."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:297-1
+msgid ""
+"<b>Personal Mode:</b> Browsing activity in Personal Mode is not shared with "
+"anyone else. Web content is securely retrieved from origin or via Injectors."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:299-1
+msgid ""
+"<b>Public Mode:</b> Browsing activity in Public Mode utilizes all available "
+"connectivity methods to retrieve web content from the Ceno network, shares "
+"this content with other Ceno users via the BitTorrent network, and leaves a "
+"public record of your device’s IP address and content retrieved."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.h2:301-1
+msgid "Contact Us"
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.main.section.div.p:302-1
+msgid ""
+"If you have any questions or suggestions about this Privacy Policy, do not "
+"hesitate to contact us at: support [at] censorship [dot] no."
+msgstr ""
+
+#: privacy_policy.html%2Bhtml.body.footer.div.p:320-9
+msgid ""
+"Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
+"a not-for-profit Canadian organization that creates decentralized internet "
+"services in support of a more equal and equitable network. eQualitie's "
+"solutions are open source, battle proven and developed in mind of our "
+"values. Everyday, they enable freedom of association for millions of people "
+"online."
+msgstr ""
+"Ceno Browser သည် သာတူညီမျှနှင့် သာတူညီမျှသောကွန်ရက်ကိုပံ့ပိုးရန် "
+"ဗဟိုချုပ်ကိုင်မှုလျှော့ချထားသောအင်တာနက်ဝန်ဆောင်မှုများကိုဖန်တီးပေးသည့်ကနေဒါအကျိုးအမြတ်မယူသောအဖွဲ့အစည်းတစ်ခုဖြစ်သည့် "
+"<a href=\"https://equalit.ie\">eQualit.ie</a> ၏ပရောဂျက်တစ်ခုဖြစ်သည်။ . eQualitie "
+"၏ ဖြေရှင်းချက်များသည် ပွင့်လင်းသောအရင်းအမြစ်ဖြစ်ပြီး၊ ကျွန်ုပ်တို့၏တန်ဖိုးများနှင့်အတူ တီထွင်ဖန်တီးထားသည်။ "
+"၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် ပေးသည်။"
+
+#.  TRANSLATORS: Please do not translate this. 
+#: privacy_policy.html%2Bhtml.body.footer:322-23
+#, fuzzy
+#| msgid ""
+#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+#| "write(\"-\"+new Date().getFullYear());</script>"
+msgid ""
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
+"\"+new Date().getFullYear());</script>"
+msgstr ""
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "eQualit.ie is committed to protecting the privacy interests of its "
@@ -327,32 +820,6 @@ msgstr ""
 #~ "လိုအပ်နိုင်ပါသည်။ ကိုယ်ရေးလုံခြုံမှုဆိုင်ရာ သတိပေးချက်တွင် အပြောင်းအလဲများရှိလာပါက ထိုအပြောင်းအလဲများ "
 #~ "စတင်သက်ရောက်မည့် နေ့စွဲနှင့်အတူ ကျွန်ုပ်တို့၏ဝဘ်စာမျက်နှာတွင် ပို့စ်တင်ခြင်းနှင့် သင့်ထံ အီးမေးလ်ပို့ခြင်းများ "
 #~ "ပြုလုပ်ပေးပါမည်။"
-
-#~ msgid ""
-#~ "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</"
-#~ "a> – a not-for-profit Canadian organization that creates decentralized "
-#~ "internet services in support of a more equal and equitable network. "
-#~ "eQualitie's solutions are open source, battle proven and developed in "
-#~ "mind of our values. Everyday, they enable freedom of association for "
-#~ "millions of people online."
-#~ msgstr ""
-#~ "Ceno Browser သည် သာတူညီမျှနှင့် သာတူညီမျှသောကွန်ရက်ကိုပံ့ပိုးရန် "
-#~ "ဗဟိုချုပ်ကိုင်မှုလျှော့ချထားသောအင်တာနက်ဝန်ဆောင်မှုများကိုဖန်တီးပေးသည့်ကနေဒါအကျိုးအမြတ်မယူသောအဖွဲ့အစည်းတစ်ခုဖြစ်သည့် "
-#~ "<a href=\"https://equalit.ie\">eQualit.ie</a> ၏ပရောဂျက်တစ်ခုဖြစ်သည်။ . "
-#~ "eQualitie ၏ ဖြေရှင်းချက်များသည် ပွင့်လင်းသောအရင်းအမြစ်ဖြစ်ပြီး၊ ကျွန်ုပ်တို့၏တန်ဖိုးများနှင့်အတူ "
-#~ "တီထွင်ဖန်တီးထားသည်။ ၎င်းတို့သည် လူသန်းပေါင်းများစွာကို နေ့စဉ် အွန်လိုင်းတွင် လွတ်လပ်စွာ ပေါင်းသင်းခွင့် "
-#~ "ပေးသည်။"
-
-#, fuzzy
-#~| msgid ""
-#~| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~| "write(\"-\"+new Date().getFullYear());</script>"
-#~ msgid ""
-#~ "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
-#~ "\"+new Date().getFullYear());</script>"
-#~ msgstr ""
-#~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#~ "write(\"-\"+new Date().getFullYear());</script>"
 
 #, fuzzy
 #~| msgid ""
