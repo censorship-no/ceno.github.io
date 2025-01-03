@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-20 15:26-0400\n"
-"PO-Revision-Date: 2024-09-25 19:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
+"POT-Creation-Date: 2024-10-14 15:45-0400\n"
+"PO-Revision-Date: 2024-11-13 03:00+0000\n"
+"Last-Translator: kowih83264 <kowih83264@inikale.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/website/websitedownload/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -234,10 +234,8 @@ msgstr ""
 "os links acima, é possível baixar a última APK diretamente:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
-#| msgid "Ceno Browser 2.3.0"
-msgid "Ceno Browser 2.4.0"
-msgstr "Navegador Ceno 2.3.0"
+msgid "Ceno Browser 2.3.1"
+msgstr "Navegador Ceno 2.3.1"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -269,25 +267,17 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v2.3.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
-#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
-#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-"download.s3.amazonaws.com/ceno/v2.4.0/sha256sums.txt\">file hashes</a> "
+"ceno/v2.3.1/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.3.1/sha256sums.txt\">file hashes</a> "
 "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 "Você também pode verificar as <a href=\"https://ceno-download.s3.amazonaws."
-"com/ceno/v2.3.0/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https://"
-"ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">hashes de "
+"com/ceno/v2.3.1/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.3.1/sha256sums.txt\">hashes de "
 "arquivos</a> comparando-as com nossa <a href=\"https://pgp.mit.edu/pks/"
 "lookup?op=get&search=0xC7DCC123F0DDB862\">chave PGP</a> (com fingerprint "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
@@ -317,6 +307,50 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
+#, fuzzy
+msgid "Ceno Browser 2.3.3"
+msgstr "Navegador Ceno 2.3.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v2.3.3/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.3.3/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+"op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
+"600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+msgstr ""
+"Você também pode verificar as <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v2.3.0/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">hashes de "
+"arquivos</a> comparando-as com nossa <a href=\"https://pgp.mit.edu/pks/"
+"lookup?op=get&search=0xC7DCC123F0DDB862\">chave PGP</a> (com fingerprint "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
+#, fuzzy
+msgid "Ceno Browser 2.4.0"
+msgstr "Navegador Ceno 2.3.0"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#, fuzzy
+msgid ""
+"You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
+"ceno/v2.4.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
+"download.s3.amazonaws.com/ceno/v2.4.0/sha256sums.txt\">file hashes</a> "
+"against our <a href=\"https://pgp.mit.edu/pks/lookup?"
+"op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
+"600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+msgstr ""
+"Você também pode verificar as <a href=\"https://ceno-download.s3.amazonaws."
+"com/ceno/v2.3.0/sha256sums.txt.asc\">assinaturas</a> das <a href=\"https://"
+"ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">hashes de "
+"arquivos</a> comparando-as com nossa <a href=\"https://pgp.mit.edu/pks/"
+"lookup?op=get&search=0xC7DCC123F0DDB862\">chave PGP</a> (com fingerprint "
+"<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 
 #~ msgid ""
 #~ "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
