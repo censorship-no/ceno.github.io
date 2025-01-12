@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-12-26 12:06+0000\n"
-"Last-Translator: Ivan Chen <ivanchenyhc@gmail.com>\n"
+"PO-Revision-Date: 2025-01-13 07:15+0000\n"
+"Last-Translator: Diego Beraldin <diego.beraldin@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/it/>\n"
 "Language: it\n"
@@ -30,7 +30,6 @@ msgstr ""
 "\"donate.html\">Dona</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
-#, fuzzy
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
 msgstr "Seleziona lingua"
@@ -92,8 +91,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Scarica"
@@ -114,8 +111,6 @@ msgid "Download Ceno"
 msgstr "Scarica Ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "Scarica"
@@ -204,9 +199,6 @@ msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section:169-9"
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
 msgstr "Cos'è Ceno Browser ?"
@@ -230,9 +222,6 @@ msgstr ""
 "connettività è stata interrotta o compromessa."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
 msgstr "Come funziona Ceno?"
@@ -249,13 +238,6 @@ msgstr ""
 "come un web browser normale."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:182-17"
-#| msgid ""
-#| "When a website is not accessible due to network filtering/censorship, "
-#| "Ceno will attempt to get the content for you. How Ceno attempts to find "
-#| "content depends on whether you have chosen to use Ceno in <strong>Public</"
-#| "strong> or <strong>Personal</strong> mode."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:203-17"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
@@ -269,15 +251,6 @@ msgstr ""
 "<strong>Public</strong> o <strong>Personal</strong>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:185-17"
-#| msgid ""
-#| "In <strong>Public</strong> mode, Ceno will look into the BitTorrent "
-#| "network to see if another Ceno user has recently shared the requested "
-#| "page. If the service can identify the requested page, it will retrieve "
-#| "that page from another user’s device. If the content is not available, "
-#| "Ceno will contact several Injectors to request that website and have it "
-#| "delivered to you."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
@@ -293,7 +266,6 @@ msgstr ""
 "contatterà molti altri Iniettori per richiedere quel sito e te lo spedirà."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:210-17
-#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:210-17"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -301,10 +273,10 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
-"Nella modalità <strong>Personal</strong>, contatterai solo gli Injectors per "
-"avere quel sito web recuperato e mostrato te. La ricerca non si connetterà "
-"alla rete BitTorrent e non tenterà di trovare il contenuto dai dispositivi "
-"degli altri utenti."
+"Nella modalità <strong>Personal</strong>, contatterai solo gli Iniettori per "
+"fare in modo che quel sito web venga recuperato e mostrato a te. La ricerca "
+"non si connetterà alla rete BitTorrent e non tenterà di trovare il contenuto "
+"nei dispositivi degli altri utenti."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
