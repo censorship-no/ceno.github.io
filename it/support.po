@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-09-25 14:29+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2025-01-13 07:15+0000\n"
+"Last-Translator: Diego Beraldin <diego.beraldin@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/it/>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,9 +25,11 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
+"\"donate.html\">Dona</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
-#, fuzzy
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
 msgstr "Seleziona lingua"
@@ -89,8 +91,6 @@ msgstr ""
 "item\" lang=\"ur\" hreflang=\"ur\" href=\"../ur/support.html\">اردو</a>"
 
 #: support.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "Scarica"
@@ -102,14 +102,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">Support</a> <a "
+"href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
+"\"donate.html\">Dona</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "Scarica Ceno"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "Scarica"
@@ -198,9 +199,6 @@ msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section:169-9"
-#| msgid "What is Ceno Browser?"
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
 msgstr "Cos'è Ceno Browser ?"
@@ -224,9 +222,6 @@ msgstr ""
 "connettività è stata interrotta o compromessa."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details:176-76"
-#| msgid "How does Ceno work?"
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
 msgstr "Come funziona Ceno?"
@@ -243,13 +238,6 @@ msgstr ""
 "come un web browser normale."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:182-17"
-#| msgid ""
-#| "When a website is not accessible due to network filtering/censorship, "
-#| "Ceno will attempt to get the content for you. How Ceno attempts to find "
-#| "content depends on whether you have chosen to use Ceno in <strong>Public</"
-#| "strong> or <strong>Personal</strong> mode."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:203-17"
 msgid ""
 "When a website is not accessible due to network filtering/censorship, Ceno "
@@ -263,15 +251,6 @@ msgstr ""
 "<strong>Public</strong> o <strong>Personal</strong>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
-#, fuzzy
-#| msgctxt "support.html+html.body.main.noscript.div.section.details.p:185-17"
-#| msgid ""
-#| "In <strong>Public</strong> mode, Ceno will look into the BitTorrent "
-#| "network to see if another Ceno user has recently shared the requested "
-#| "page. If the service can identify the requested page, it will retrieve "
-#| "that page from another user’s device. If the content is not available, "
-#| "Ceno will contact several Injectors to request that website and have it "
-#| "delivered to you."
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
 msgid ""
 "In <strong>Public</strong> mode, Ceno will look into the BitTorrent network "
@@ -287,7 +266,6 @@ msgstr ""
 "contatterà molti altri Iniettori per richiedere quel sito e te lo spedirà."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:210-17
-#, fuzzy
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:210-17"
 msgid ""
 "In <strong>Personal</strong> mode, you will only contact the Injectors to "
@@ -295,10 +273,10 @@ msgid ""
 "to the BitTorrent network and will not attempt to locate the content on "
 "other users’ devices."
 msgstr ""
-"Nella modalità <strong>Personal</strong>, contatterai solo gli Injectors per "
-"avere quel sito web recuperato e mostrato te. La ricerca non si connetterà "
-"alla rete BitTorrent e non tenterà di trovare il contenuto dai dispositivi "
-"degli altri utenti."
+"Nella modalità <strong>Personal</strong>, contatterai solo gli Iniettori per "
+"fare in modo che quel sito web venga recuperato e mostrato a te. La ricerca "
+"non si connetterà alla rete BitTorrent e non tenterà di trovare il contenuto "
+"nei dispositivi degli altri utenti."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:213-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:213-17"
@@ -309,6 +287,11 @@ msgid ""
 "Injectors. The Ceno network currently features around 6,000 Bridges. Their "
 "number is always growing."
 msgstr ""
+"Per garantire che il tuo client Ceno possa sempre contattare un Injector, "
+"abbiamo anche creato dei Bridge. Se gli Injector sono bloccati sulla tua "
+"rete, l'app Ceno cercherà dei Bridge disponibili, che inoltreranno la tua "
+"richiesta agli Injector. La rete Ceno attualmente presenta circa 6.000 "
+"Bridge. Il loro numero è in continua crescita."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
@@ -316,6 +299,8 @@ msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href=\"../"
 "user-manual/\">the user guide</a>."
 msgstr ""
+"Per una spiegazione dettagliata di come funzioni Ceno, perfavore leggi <a "
+"href=\"../user-manual/\">la guida utente</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:219-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:219-17"
@@ -323,6 +308,8 @@ msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer."
 "html\">please read this</a>."
 msgstr ""
+"Per una spiegazione semplificata di come Ceno funzioni, <a href="
+"\"explainer.html\">perfavore leggi questo</a>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:219-111
 msgctxt "support.html+html.body.main.noscript.div.section.details:219-111"
@@ -357,6 +344,15 @@ msgid ""
 "remote area with limited access to the internet, Ceno allows you to access "
 "information that may otherwise be unavailable."
 msgstr ""
+"Il vantaggio di Ceno è evidente in una rete che censura i siti web o dove la "
+"rete è debole o instabile. In queste circostanze, il client Ceno è in grado "
+"di sfruttare metodi aggiuntivi per recuperare contenuti e consegnarli al tuo "
+"dispositivo. Consentendo agli utenti di abilitare la condivisione di "
+"contenuti che hanno recuperato di recente, Ceno espande l'accesso a Internet "
+"in modo più generale. Che tu viva in una parte del mondo che limita "
+"l'accesso ai contenuti o in un'area remota con accesso limitato a Internet, "
+"Ceno ti consente di accedere a informazioni che altrimenti potrebbero non "
+"essere disponibili."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:233-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:233-17"
@@ -368,6 +364,12 @@ msgid ""
 "Running a Bridge is a very simple yet powerful action, allowing you to help "
 "others access the Internet."
 msgstr ""
+"Le persone che gestiscono Ceno da paesi che non censurano Internet, o da "
+"parti del mondo in cui l'accesso a Internet è affidabile, possono scegliere "
+"di agire come Bridge per coloro che si trovano in reti fortemente limitate. "
+"La rete registra automaticamente nuovi Bridge e tiene traccia di quando "
+"vanno offline. Gestire un Bridge è un'azione molto semplice ma potente, che "
+"ti consente di aiutare gli altri ad accedere a Internet."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:238-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:238-17"
@@ -377,16 +379,20 @@ msgid ""
 "You can <a href=\"https://gitlab.com/censorship-no/ceno-browser\">inspect "
 "our code</a> or re-create the entire network yourself!"
 msgstr ""
+"Ceno, e tutti i componenti di accompagnamento dello strumento che insieme "
+"creano una rete decentralizzata di peer e nodi, è un software libero e open "
+"source. Puoi <a href=\"https://gitlab.com/censorship-no/ceno-browser\""
+">ispezionare il nostro codice</a> o ricreare l'intera rete da solo!"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:241-45
 msgctxt "support.html+html.body.main.noscript.div.section.details:241-45"
 msgid "What are the risks of using Ceno?"
-msgstr ""
+msgstr "Quali sono i rischi di utilizzare Ceno?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:245-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:245-17"
 msgid "Risks for users"
-msgstr ""
+msgstr "Rischi per gli utenti"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
@@ -399,6 +405,14 @@ msgid ""
 "particular website. For example, anyone can query the BitTorrent network for "
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
+"Ogni tecnologia che gestisce casi d'uso sensibili ha i suoi vantaggi e "
+"rischi. Per impostazione predefinita, Ceno utilizza la rete pubblica "
+"BitTorrent per gran parte delle sue esigenze di routing e archiviazione "
+"dati. Ogni volta che richiedi o condividi un pezzo di contenuto sulla rete "
+"BitTorrent (modalità Pubblica), crei un record che associa il tuo indirizzo "
+"IP a un pezzo di contenuto che è stato recuperato da un sito Web specifico. "
+"Ad esempio, chiunque può interrogare la rete BitTorrent per un elenco di "
+"indirizzi IP che sono stati associati a <i>website.com</i>."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:252-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:252-17"
@@ -407,6 +421,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"Gli utenti che condividono i contenuti recuperati con altri potrebbero "
+"incorrere in costi aggiuntivi per i dati, poiché i contenuti vengono copiati "
+"dal loro dispositivo al dispositivo di altri utenti Ceno."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
