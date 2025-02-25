@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2025-02-25 14:36-0700\n"
-"PO-Revision-Date: 2024-09-25 19:12+0000\n"
+"PO-Revision-Date: 2025-02-25 22:44+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -270,10 +270,8 @@ msgstr ""
 "မလုပ်နိုင်သူများက ဤနေရာတွင် APK ကို တိုက်ရိုက်ဒေါင်းလုပ်ချနိုင်ပါသည် -"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
-#| msgid "Ceno Browser 2.3.0"
 msgid "Ceno Browser 2.4.2"
-msgstr "Ceno ဘရောက်ဇာ ၂.၃.၀"
+msgstr "Ceno ဘရောက်ဇာ ၂.၄.၂"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -305,14 +303,6 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v2.3.0/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v2.3.0/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
-#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
-#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.4.2/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -321,11 +311,13 @@ msgid ""
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"သင့်အနေဖြင့် <a href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/"
-"sha256sums.txt.asc\">file hashes</a> ရဲ့ <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v2.3.0/sha256sums.txt\">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a "
-"href=\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP "
-"key</a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
+"သင့်အနေဖြင့် <a href="
+"\"https://ceno-download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt.asc\""
+">file hashes</a> ရဲ့ <a href="
+"\"https://ceno-download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt\""
+">လက်မှတ်များ</a>ကို ကျွန်ုပ်တို့၏ <a href="
+"\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">PGP key</"
+"a> (fingerprint <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD "
 "B862</code>) ဖြင့် စစ်ဆေး အတည်ပြုနိုင်ပါတယ်။"
 
 #: download.html%2Bhtml.body.footer.div.p:275-9
