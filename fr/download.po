@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2025-02-25 14:36-0700\n"
-"PO-Revision-Date: 2024-10-23 15:16+0000\n"
-"Last-Translator: cwpute <collan+weblate@free.fr>\n"
+"PO-Revision-Date: 2025-02-25 22:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -238,9 +238,8 @@ msgstr ""
 "directement :"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
 msgid "Ceno Browser 2.4.2"
-msgstr "Navigateur Ceno 2.3.0"
+msgstr "Navigateur Ceno 2.4.2"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -272,7 +271,6 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.4.2/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -281,12 +279,14 @@ msgid ""
 "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
-"Vous pouvez également comparer les <a href=\"https://ceno-download.s3."
-"amazonaws.com/ceno/v2.3.01/sha256sums.txt.asc\">signatures</a> des <a "
-"href=\"https://ceno-download.s3.amazonaws.com/ceno/v2.3.0/sha256sums."
-"txt\">hachages de fichier</a> à notre <a href=\"https://pgp.mit.edu/pks/"
-"lookup?op=get&search=0xC7DCC123F0DDB862\">clé PGP</a> (avec l'empreinte "
-"numérique <code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
+"Vous pouvez également comparer les <a href="
+"\"https://ceno-download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt.asc\""
+">signatures</a> des <a href="
+"\"https://ceno-download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt\""
+">hachages de fichier</a> à notre <a href="
+"\"https://pgp.mit.edu/pks/lookup?op=get&search=0xC7DCC123F0DDB862\">clé PGP</"
+"a> (avec l'empreinte numérique <code>51BE 600C 2711 926C 865D F93F C7DC C123 "
+"F0DD B862</code>)."
 
 #: download.html%2Bhtml.body.footer.div.p:275-9
 msgid ""
