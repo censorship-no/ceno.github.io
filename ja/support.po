@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-25 14:36-0700\n"
-"PO-Revision-Date: 2025-04-02 15:33+0000\n"
-"Last-Translator: Fill read-only add-on <noreply-addon-fill@weblate.org>\n"
+"PO-Revision-Date: 2025-04-02 17:25+0000\n"
+"Last-Translator: たりこも <tarikomo289@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-faq/ja/>\n"
 "Language: ja\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: support.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr ""
+msgstr "jp"
 
 #: support.html%2Bhtml.body.nav.div.div:96-7
 msgctxt "support.html+html.body.nav.div.div:96-7"
@@ -25,15 +25,18 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
 "\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">サポート</a> <a "
+"href=\"news.html\">ニュース</a> <a href=\"help.html\">コミュニティー</a> <a "
+"href=\"donate.html\">寄付する</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "support.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "言語選択"
 
 #: support.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
-msgstr ""
+msgstr "JP"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -74,7 +77,7 @@ msgstr ""
 #: support.html%2Bhtml.body.nav.div.div:127-9
 msgctxt "support.html+html.body.nav.div.div:127-9"
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 #: support.html%2Bhtml.body.nav.div.div:138-7
 msgctxt "support.html+html.body.nav.div.div:138-7"
@@ -83,24 +86,27 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a href="
 "\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">About</a> <a href=\"support.html\">サポート</a> <a "
+"href=\"news.html\">ニュース</a> <a href=\"help.html\">コミュニティー</a> <a "
+"href=\"donate.html\">寄付する</a>"
 
 #: support.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
-msgstr ""
+msgstr "Cenoのダウンロード"
 
 #: support.html%2Bhtml.body.nav.div.div.a.div:146-11
 msgctxt "support.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 #: support.html%2Bhtml.body.nav.div.a.img[alt]:149-28
 msgid "Ceno logo"
-msgstr ""
+msgstr "Cenoのロゴ"
 
 #: support.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "support.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "言語選択"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -153,17 +159,17 @@ msgstr ""
 
 #: support.html%2Bhtml.body.main.title:186-1
 msgid "Ceno Browser| Support"
-msgstr ""
+msgstr "Ceno ブラウザ|サポート"
 
 #: support.html%2Bhtml.body.main.noscript.div.h1:189-9
 msgctxt "support.html+html.body.main.noscript.div.h1:189-9"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "よく聞かれる質問（FAQ）"
 
 #: support.html%2Bhtml.body.main.noscript.div.section:190-9
 msgctxt "support.html+html.body.main.noscript.div.section:190-9"
 msgid "What is Ceno Browser?"
-msgstr ""
+msgstr "Cenoブラウザとは?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:193-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:193-17"
@@ -175,11 +181,19 @@ msgid ""
 "methods and allowing people to access and share web information in and "
 "across regions where connectivity has been interrupted or compromised."
 msgstr ""
+"Ceno は Mozilla の Android コンポーネントに基づくモバイル Web "
+"ブラウザーです。 "
+"分散型ファイル共有ネットワークであるBitTorrentに依存する新しいアプローチを使"
+"用して、Webコンテンツ(ウェブサイト)にアクセスし、配信するように設計されていま"
+"す。 "
+"Cenoのメリットは、サイドステップの現在のインターネット検閲方法から来ており、"
+"接続が中断または侵害された地域や地域でWeb情報にアクセスし、共有することができ"
+"ます."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:197-76
 msgctxt "support.html+html.body.main.noscript.div.section.details:197-76"
 msgid "How does Ceno work?"
-msgstr ""
+msgstr "Cenoはどのように機能しますか?"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:201-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:201-17"
@@ -188,6 +202,9 @@ msgid ""
 "ca</i> from your home internet), Ceno will connect to it like a normal web "
 "browser."
 msgstr ""
+"ウェブサイトがネットワークからアクセスできる場合(例えば、ホームインターネット"
+"から<i>www.canada.ca</i>にアクセスする場合など)、 "
+"Cenoは通常のWebブラウザのように接続します."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:203-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:203-17"
@@ -197,6 +214,10 @@ msgid ""
 "depends on whether you have chosen to use Ceno in <strong>Public</strong> or "
 "<strong>Personal</strong> mode."
 msgstr ""
+"ネットワークのフィルタリングや検閲により、ウェブサイトがアクセスできない場合"
+"は、Ceno はコンテンツを取得しようとします。 Ceno "
+"がコンテンツを見つける試みは、Ceno を <strong>Public</strong> または "
+"<strong> Personal</strong> モードで使用するかによって異なります."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:206-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:206-17"
@@ -226,13 +247,20 @@ msgid ""
 "Injectors. The Ceno network currently features around 6,000 Bridges. Their "
 "number is always growing."
 msgstr ""
+"Ceno クライアントが常にインジェクタに連絡できるようにするため、Bridges "
+"も作成しています。 "
+"インジェクタがネットワーク上でブロックされている場合、Cenoアプリは、インジェ"
+"クタへのリクエストを転送する利用可能なブリッジを探します。 現在、Ceno "
+"のネットワークは 6,000 Bridges 付近にあります。 "
+"この数字は常に増加しています。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:217-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:217-17"
 msgid ""
 "For a more detailed explanation of how Ceno works, please read <a href"
 "=\"../user-manual/\">the user guide</a>."
-msgstr ""
+msgstr "Ceno の動作方法の詳細については<a href=\"../user-manual/\"> ユーザーガイド</"
+"a> をご覧ください."
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:219-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:219-17"
@@ -240,11 +268,13 @@ msgid ""
 "For a simpler explanation of how Ceno works, <a href=\"explainer.html\""
 ">please read this</a>."
 msgstr ""
+"Ceno がどのように動作するかの簡単な説明については、<a href=\"explainer.html\""
+"> こちら</a>をお読みください。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details:219-111
 msgctxt "support.html+html.body.main.noscript.div.section.details:219-111"
 msgid "What are the advantages of using Ceno?"
-msgstr ""
+msgstr "Cenoを使用する利点とは？"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:223-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:223-17"
@@ -255,6 +285,12 @@ msgid ""
 "seeking the same content. Ceno uses the BitTorrent file sharing network for "
 "this."
 msgstr ""
+"私たちのモットーは「Webをシェア！」であり、本質的にはCenoユーザーが何をしてい"
+"るかです。 "
+"ほとんどのWebページには静的コンテンツ(読み、視聴、聴覚など)があります。 "
+"静的コンテンツは、同じコンテンツを求める他のユーザーとパッケージ化および共有"
+"することができます。 Ceno は BitTorrent "
+"ファイル共有ネットワークを使用します。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:227-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:227-17"
@@ -292,12 +328,12 @@ msgstr ""
 #: support.html%2Bhtml.body.main.noscript.div.section.details:241-45
 msgctxt "support.html+html.body.main.noscript.div.section.details:241-45"
 msgid "What are the risks of using Ceno?"
-msgstr ""
+msgstr "Cenoを使用するリスクとは？"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.h3:245-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.h3:245-17"
 msgid "Risks for users"
-msgstr ""
+msgstr "ユーザーのリスク"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:246-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:246-17"
@@ -310,6 +346,14 @@ msgid ""
 "particular website. For example, anyone can query the BitTorrent network for "
 "a list of IP addresses that have been associated with <i>website.com</i>."
 msgstr ""
+"敏感なユースケースを扱う技術には、その利点とリスクがあります。 "
+"設計により、Cenoは、そのルーティングとデータストレージのニーズの多くのために"
+"、パブリックBitTorrentネットワークを使用しています。 "
+"BitTorrentネットワーク(パブリックモード)でコンテンツの一部をリクエストしたり"
+"共有したりする場合、特定のウェブサイトから取得したコンテンツの一部でIPアドレ"
+"スを関連付けるレコードを作成します。 "
+"たとえば、BitTorrentネットワークを<i>website.com</i>に関連付けられているIPア"
+"ドレスのリストに問い合わせることができます。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:252-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:252-17"
@@ -318,6 +362,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"ユーザーは取得したコンテンツを他の人と共有してもコンテンツがデバイスから他のC"
+"enoユーザーのデバイスにコピーされるため、追加のデータ料金が発生する可能性があ"
+"ります。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:254-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:254-17"
@@ -329,6 +376,11 @@ msgid ""
 "require authentication (for example, when logging into your social media "
 "accounts)."
 msgstr ""
+"これらのリスクに対応するため、Ceno ユーザーの「<strong> Personal</strong> "
+"モード」を作成し、BitTorrent ネットワークとやりとりしません。 BitTorrent "
+"に表示する活動の記録を望まないユーザーのためのこのモード、認証を必要とするウ"
+"ェブサイトの操作(例えば、ソーシャルメディアアカウントにログインするときなど)"
+"をお勧めします。"
 
 #: support.html%2Bhtml.body.main.noscript.div.section.details.p:258-17
 msgctxt "support.html+html.body.main.noscript.div.section.details.p:258-17"
