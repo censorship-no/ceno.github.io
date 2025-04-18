@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-02 10:10-0700\n"
-"PO-Revision-Date: 2024-08-31 10:09+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2025-03-11 06:20+0000\n"
+"Last-Translator: Bora Atıcı <boratici.acc@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -32,7 +32,7 @@ msgstr ""
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "privacy_policy.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr "Dil seç"
+msgstr "Dil seçin"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -197,14 +197,12 @@ msgid "Ceno Browser | Privacy Policy"
 msgstr "Ceno Browser | Gizlilik ilkesi"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h1:181-1
-#, fuzzy
-#| msgid "Ceno Browser | Privacy Policy"
 msgid "Ceno Browser Terms of Use & Privacy Notice"
-msgstr "Ceno Browser | Gizlilik ilkesi"
+msgstr "Ceno Browser Kullanım Koşulları ve Gizlilik ilkesi"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:183-1
 msgid "1. Overview"
-msgstr ""
+msgstr "1. Kapsam"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:184-1
 msgid ""
@@ -216,10 +214,16 @@ msgid ""
 "Usage of the Ceno Browser application and associated services are provided "
 "by eQualitie at no cost and are provided for use as is."
 msgstr ""
+"Bu Ceno Browser (\"Ceno\") Kullanım Koşulları (bu Gizlilik Bildirimi ile "
+"birlikte (ikisi birlikte, “Hükümler”), tüm eşler arası mobil tarayıcı Ceno "
+"kullanıcılarını bağlar. Ceno Browser uygulamasını (“Hizmet”) kurduğunuzda ve "
+"çalıştırdığınızda, sizinle eQualitie Inc. (Qualitie) “biz” veya “bizim”) "
+"arasındaki bu Anlaşmaya uymanız gerekir. Ceno Browser uygulaması ve ilişkili "
+"hizmetler, eQualitie tarafından bedelsiz olarak ve olduğu gibi sunulmaktadır."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:186-1
 msgid "2. Terms of use"
-msgstr ""
+msgstr "2. Kullanım koşulları"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:187-1
 msgid ""
@@ -268,7 +272,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:196-1
 msgid "Content Responsibility"
-msgstr ""
+msgstr "İçerik sorumluluğu"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:198-1
 msgid ""
@@ -285,10 +289,8 @@ msgid ""
 msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:200-1
-#, fuzzy
-#| msgid "Ceno Privacy Notice"
 msgid "3. Privacy Notice"
-msgstr "Ceno gizlilik bildirimi"
+msgstr "3. Gizlilik bildirimi"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:202-1
 msgid ""
@@ -299,7 +301,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:204-1
 msgid "3.1 Data Collection"
-msgstr ""
+msgstr "3.1 Verilerin toplanması"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:206-1
 msgid ""
@@ -356,7 +358,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:216-1
 msgid "3.2 Data Sharing"
-msgstr ""
+msgstr "3.2. Verilerin paylaşılması"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:218-1
 msgid ""
@@ -417,7 +419,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:232-1
 msgid "Bridges"
-msgstr ""
+msgstr "Köprüler"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:234-1
 msgid ""
@@ -443,7 +445,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:238-1
 msgid "3.3 Log Data"
-msgstr ""
+msgstr "3.3. Günlük verileri"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:240-1
 msgid ""
@@ -483,7 +485,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:251-1
 msgid "3.4 Crash Reporting"
-msgstr ""
+msgstr "3.4 Çökme bildirimi"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:253-1
 msgid ""
@@ -499,18 +501,22 @@ msgid ""
 "aggregated into broader issues, and are deleted after the above retention "
 "period. Issues are deleted when all associated events are deleted."
 msgstr ""
+"Sentry 90 gün boyunca oluşturulan etkinlik verilerini korur. Bireysel "
+"etkinlikler daha geniş konular altında toplanır ve yukarıdaki tutma "
+"süresinden sonra silinir. Konular silindiğinde ilişkili tüm etkinliklerde "
+"silinir."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:257-1
 msgid "3.5 Cookies"
-msgstr ""
+msgstr "3.5 Tanımlama bilgileri"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:259-1
 msgid "The Ceno Browser app does not use cookies."
-msgstr ""
+msgstr "Ceno Browser uygulaması tanımlama bilgilerini kullanmaz."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:261-1
 msgid "3.6 Links to Other Sites"
-msgstr ""
+msgstr "3.6 Diğer sitelere bağlantılar"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:263-1
 msgid ""
@@ -569,7 +575,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:279-1
 msgid "3.7 Children’s Privacy"
-msgstr ""
+msgstr "3.7 Çocukların gizliliği"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:281-1
 msgid ""
@@ -589,7 +595,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h3:283-1
 msgid "3.8 Changes to these Terms"
-msgstr ""
+msgstr "3.8 Bu hükümlerdeki değişiklikler"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:285-1
 msgid ""
@@ -599,11 +605,11 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:287-1
 msgid "This policy is effective as of 2024-12-18."
-msgstr ""
+msgstr "Bu ilkeler 18.12.2024 tarihinden başlayarak etkilidir."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:289-1
 msgid "4. Glossary"
-msgstr ""
+msgstr "4. Tanımlar"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:291-1
 msgid ""
@@ -640,7 +646,7 @@ msgstr ""
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.h2:301-1
 msgid "Contact Us"
-msgstr ""
+msgstr "İletişim"
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:302-1
 msgid ""
@@ -666,16 +672,12 @@ msgstr ""
 
 #.  TRANSLATORS: Please do not translate this. 
 #: privacy_policy.html%2Bhtml.body.footer:322-23
-#, fuzzy
-#| msgid ""
-#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-\"+"
+"new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "eQualit.ie is committed to protecting the privacy interests of its "
