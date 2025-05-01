@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@censorship.no\n"
 "POT-Creation-Date: 2025-04-08 08:18-0400\n"
-"PO-Revision-Date: 2024-08-31 10:09+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2025-04-21 23:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "website/websiteindex/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,9 +25,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
-"<a href=\"about.html\">Hakkında</a> <a href=\"support.html\">Destek</a> <a "
-"href=\"news.html\">Haberler</a> <a href=\"help.html\">Topluluk</a> <a "
-"href=\"donate.html\">Bağış</a>"
+"<a href=\"about.html\">Hakkında</a><a href=\"support.html\">Destek</a><a "
+"href=\"news.html\">Haberler</a><a href=\"help.html\">Topluluk</a><a href="
+"\"donate.html\">Bağış yapın</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "index.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -102,9 +102,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
-"<a href=\"about.html\">Hakkında</a> <a href=\"support.html\">Destek</a> <a "
-"href=\"news.html\">Haberler</a> <a href=\"help.html\">Topluluk</a> <a "
-"href=\"donate.html\">Bağış</a>"
+"<a href=\"about.html\">Hakkında</a><a href=\"support.html\">Destek</a><a "
+"href=\"news.html\">Haberler</a><a href=\"help.html\">Topluluk</a><a href="
+"\"donate.html\">Bağış yapın</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -122,7 +122,7 @@ msgstr "Ceno logosu"
 #: index.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "index.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr "Dili seçin"
+msgstr "Dil seç"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -199,7 +199,7 @@ msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:193-15
 msgid "Get it on Google Play"
-msgstr "Google Play üzerinden alın"
+msgstr "Google Play üzerinden edinin"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:196-17
 msgid "Get it on F-droid"
@@ -207,7 +207,7 @@ msgstr "F-Droid üzerinden alın"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:199-17
 msgid "Get it on Paskoocheh"
-msgstr "Paskoocheh üzerinden alın"
+msgstr "Paskoocheh üzerinden edinin"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:217-14
 msgid "Browse Freely"
@@ -289,8 +289,6 @@ msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
 msgstr ""
-"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
-"\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "Ceno (short for censorship.no!) is the world’s first mobile browser that "

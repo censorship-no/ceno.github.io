@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-02 10:10-0700\n"
-"PO-Revision-Date: 2024-09-25 14:27+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2025-04-22 05:32+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "website-privacy/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: privacy_policy.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -26,13 +26,13 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">Acerca de</a> <a href=\"support.html\">Soporte</a> <a "
-"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a "
-"href=\"donate.html\">Donar</a>"
+"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a href="
+"\"donate.html\">Donar</a>"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "privacy_policy.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr "Selecciona el idioma"
+msgstr "Seleccionar idioma"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -92,8 +92,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">Acerca de</a> <a href=\"support.html\">Soporte</a> <a "
-"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a "
-"href=\"donate.html\">Donar</a>"
+"href=\"news.html\">Noticias</a> <a href=\"help.html\">Comunidad</a> <a href="
+"\"donate.html\">Donar</a>"
 
 #: privacy_policy.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -111,7 +111,7 @@ msgstr "Logotipo de Ceno"
 #: privacy_policy.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "privacy_policy.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr "Elegir el idioma"
+msgstr "Seleccionar idioma"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -350,6 +350,9 @@ msgid ""
 "charges as content is copied from their device to the device of other Ceno "
 "users."
 msgstr ""
+"Los usuarios que compartan contenidos recuperados con otros también pueden "
+"incurrir en gastos de datos adicionales, ya que los contenidos se copian de "
+"tu dispositivo al dispositivo de otros usuarios de Ceno."
 
 #: privacy_policy.html%2Bhtml.body.main.section.div.p:226-1
 msgid ""
@@ -619,25 +622,21 @@ msgid ""
 "values. Everyday, they enable freedom of association for millions of people "
 "online."
 msgstr ""
-"El Navegador Ceno es un proyecto de <a href=\"https://equalit.ie\">eQualit."
-"ie</a> - una organización canadiense sin ánimo de lucro que crea servicios "
-"de Internet descentralizados en apoyo de una red más igualitaria y "
+"El Navegador Ceno es un proyecto de <a href=\"https://equalit.ie\""
+">eQualit.ie</a> - una organización canadiense sin ánimo de lucro que crea "
+"servicios de Internet descentralizados en apoyo de una red más igualitaria y "
 "equitativa. Las soluciones de eQualitie son de código abierto, probadas en "
 "batallas y desarrolladas teniendo en cuenta nuestros valores. Todos los días "
 "hacen posible la libertad de asociación de millones de personas en Internet."
 
 #.  TRANSLATORS: Please do not translate this. 
 #: privacy_policy.html%2Bhtml.body.footer:322-23
-#, fuzzy
-#| msgid ""
-#| "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-#| "write(\"-\"+new Date().getFullYear());</script>"
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
 msgstr ""
-"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
-"write(\"-\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document.write("
+"\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "eQualit.ie is committed to protecting the privacy interests of its "

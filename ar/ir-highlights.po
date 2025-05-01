@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-05 21:32-0700\n"
-"PO-Revision-Date: 2024-08-02 06:58+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2025-04-22 05:33+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "website/website-ir-highlights/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: ir-highlights.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -26,11 +26,14 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">حول</a><a href=\"support.html\">دعم</a><a href="
+"\"news.html\">أخبار</a><a href=\"help.html\">المجتمع</a><a href="
+"\"donate.html\">تبرّع</a>"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "ir-highlights.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "اختر لغة"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -60,8 +63,6 @@ msgid ""
 msgstr ""
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div:127-9
-#, fuzzy
-#| msgid "Download"
 msgctxt "ir-highlights.html+html.body.nav.div.div:127-9"
 msgid "Download"
 msgstr "تنزيل"
@@ -73,14 +74,15 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">حول</a><a href=\"support.html\">دعم</a><a href="
+"\"news.html\">أخبار</a><a href=\"help.html\">المجتمع</a><a href="
+"\"donate.html\">تبرّع</a>"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
 msgstr "تنزيل ceno"
 
 #: ir-highlights.html%2Bhtml.body.nav.div.div.a.div:146-11
-#, fuzzy
-#| msgid "Download"
 msgctxt "ir-highlights.html+html.body.nav.div.div.a.div:146-11"
 msgid "Download"
 msgstr "تنزيل"
@@ -92,7 +94,7 @@ msgstr "شعار ceno"
 #: ir-highlights.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "ir-highlights.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "اختر لغة"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
