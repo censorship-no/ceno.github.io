@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 08:18-0400\n"
-"PO-Revision-Date: 2024-09-25 14:27+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"POT-Creation-Date: 2025-05-01 17:38-0400\n"
+"PO-Revision-Date: 2025-04-22 05:32+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "website/websiteindex/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: index.html%2Bhtml[lang]:4-1
 msgid "en"
@@ -25,11 +25,14 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
+"href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
+"href=\"donate.html\">လှူဒါန်းမည်</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "index.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr ""
+msgstr "Select language"
 
 #: index.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -99,6 +102,9 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
+"<a href=\"about.html\">အကြောင်းအရာ</a><a href=\"support.html\">အကူအညီ</a><a "
+"href=\"news.html\">သတင်း</a><a href=\"help.html\">အသိုင်းအဝိုင်း</a><a "
+"href=\"donate.html\">လှူဒါန်းမည်</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -116,7 +122,7 @@ msgstr "Ceno လိုဂို"
 #: index.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "index.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr ""
+msgstr "Select language"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -282,8 +288,8 @@ msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
 msgstr ""
-"© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
-"\"+new Date().getFullYear());</script>"
+"© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
+"write(\"-\"+new Date().getFullYear());</script>"
 
 #~ msgid ""
 #~ "Ceno (short for censorship.no!) is the world’s first mobile browser that "

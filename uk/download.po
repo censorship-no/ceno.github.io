@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 12:08-0400\n"
-"PO-Revision-Date: 2025-02-25 22:43+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"POT-Creation-Date: 2025-05-01 17:38-0400\n"
+"PO-Revision-Date: 2025-04-22 05:32+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "website/websitedownload/uk/>\n"
 "Language: uk\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: download.html%2Bhtml[lang]:4-1
 msgid "en"
-msgstr "uk"
+msgstr "en"
 
 #: download.html%2Bhtml.body.nav.div.div:96-7
 msgctxt "download.html+html.body.nav.div.div:96-7"
@@ -26,14 +26,14 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
-"<a href=\"about.html\">Про проєкт</a> <a href=\"support.html\">Підтримка</a> "
-"<a href=\"news.html\">Новини</a> <a href=\"help.html\">Спільнота</a> <a "
+"<a href=\"about.html\">Про</a><a href=\"support.html\">Підтримка</a><a "
+"href=\"news.html\">новини</a><a href=\"help.html\">Спільнота</a><a "
 "href=\"donate.html\">Підтримати</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
 msgid "Select language"
-msgstr "Обрати мову"
+msgstr "Виберіть мову"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.div:109-13
 msgid "EN"
@@ -88,8 +88,8 @@ msgid ""
 "href=\"news.html\">News</a> <a href=\"help.html\">Community</a> <a "
 "href=\"donate.html\">Donate</a>"
 msgstr ""
-"<a href=\"about.html\">Про</a> <a href=\"support.html\">Підтримка</a> <a "
-"href=\"news.html\">Новини</a> <a href=\"help.html\">Спільнота</a> <a "
+"<a href=\"about.html\">Про</a><a href=\"support.html\">Підтримка</a><a "
+"href=\"news.html\">новини</a><a href=\"help.html\">Спільнота</a><a "
 "href=\"donate.html\">Підтримати</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
@@ -108,7 +108,7 @@ msgstr "Логотип Ceno"
 #: download.html%2Bhtml.body.nav.div.div.label.img[alt]:153-11
 msgctxt "download.html+html.body.nav.div.div.label.img[alt]:153-11"
 msgid "Select language"
-msgstr "Обрати мову"
+msgstr "Виберіть мову"
 
 #.  Sorted alphabetically by language code. 
 #.  TRANSLATORS: Please do not translate any of these. 
@@ -234,10 +234,8 @@ msgstr ""
 "вказане посилання, можуть завантажити останню версію APK звідси:"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
-#, fuzzy
-#| msgid "Ceno Browser 2.4.2"
 msgid "Ceno Browser 2.4.3"
-msgstr "Браузер Ceno 2.4.2"
+msgstr "Браузер Ceno 2.4.3"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
 msgid "Download (32-bit ARM)"
@@ -269,14 +267,6 @@ msgstr ""
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
-#, fuzzy
-#| msgid ""
-#| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
-#| "ceno/v2.4.2/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
-#| "download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt\">file hashes</a> "
-#| "against our <a href=\"https://pgp.mit.edu/pks/lookup?"
-#| "op=get&search=0xC7DCC123F0DDB862\">PGP key</a> (with fingerprint "
-#| "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.4.3/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -286,8 +276,8 @@ msgid ""
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 "Ви також можете перевірити <a href=\"https://ceno-download.s3.amazonaws.com/"
-"ceno/v2.4.2/sha256sums.txt.asc\">підписи</a> <a href=\"https: //ceno-"
-"download.s3.amazonaws.com/ceno/v2.4.2/sha256sums.txt\">хеш файлів</a> проти "
+"ceno/v2.4.3/sha256sums.txt.asc\">підписи</a> <a href=\"https: //ceno-"
+"download.s3.amazonaws.com/ceno/v2.4.3/sha256sums.txt\">хеш файлів</a> проти "
 "наших <a href=\"https://pgp.mit.edu/pks/lookup?"
 "op=get&search=0xC7DCC123F0DDB862\">ключ PGP</a> (з відбитком пальця "
 "<code>51BE 600C 2711 926C 865D F93F C7DC C123 F0DD B862</ код>)."
