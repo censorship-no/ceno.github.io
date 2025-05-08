@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-01 17:38-0400\n"
+"POT-Creation-Date: 2025-05-08 15:37-0400\n"
 "PO-Revision-Date: 2025-04-22 05:33+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
@@ -130,45 +130,45 @@ msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:189-13
 msgid ""
-"The safest way to install Ceno Browser on your Android phone is through the "
-"Google Play Store:"
+"The safest way to install Ceno Browser on your device is through the Google "
+"Play Store or Microsoft Store:"
 msgstr ""
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:193-17
 msgid "Get it on Google Play"
 msgstr "Hol es dir von Google Play"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:195-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:196-17
+msgid "Get it from Microsoft Store"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:199-13
 msgid ""
-"Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
-"Github, dComms, or download the APK directly via GitLab:"
+"Alternatively, you can install Ceno via the Paskoocheh Marketplace, Github, "
+"dComms, or download the APK directly via GitLab:"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:198-17
-msgid "Get it on F-droid"
-msgstr ""
-
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:202-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:203-17
 msgid "Get it on Paskoocheh"
 msgstr "Hol es dir von Paskoocheh"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:205-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:206-17
 msgid "Get it on GitLab"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:208-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:209-17
 msgid "Get it on Github"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:211-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:212-17
 msgid "Get it on dComms"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.h3:223-7
+#: download.html%2Bhtml.body.main.section.div.div.h3:224-7
 msgid "Important:"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.p:224-7
+#: download.html%2Bhtml.body.main.section.div.div.p:225-7
 msgid ""
 "Ceno has two modes of operation - <strong>Public</strong> and "
 "<strong>Personal</strong>. You can easily toggle between them. Public mode "
@@ -186,31 +186,39 @@ msgstr ""
 "ineffizienter. Siehe <a href=\"support.html\">Hilfe</a> oder <a href=\"../"
 "user-manual/\">Benutzerhandbuch</a> für mehr Details zur Nutzung von Ceno."
 
-#: download.html%2Bhtml.body.main.section.div.div.div.h3:237-9
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:238-9
 msgid "Direct Download"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:238-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:239-9
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
-"links, you can download the latest APK directly:"
+"links, you can download the latest APK or EXE directly:"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:241-9
 #, fuzzy
 #| msgid "Ceno Browser | Download"
-msgid "Ceno Browser 2.4.3"
+msgid "Ceno for Android 2.4.3"
 msgstr "Ceno Browser | Herunterladen"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:242-12
 msgid "Download (32-bit ARM)"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:243-11
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:244-11
 msgid "Download (64-bit ARM)"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:246-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:247-9
+msgid "Ceno for Windows Alpha 0.0.1-20250425123522"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:248-12
+msgid "Download (x86_64 system-install)"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:251-9
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -218,14 +226,14 @@ msgid ""
 msgstr ""
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:250-9
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:255-9
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 msgstr ""
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:257-9
 msgid ""
 "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
 "ceno/v2.4.3/sha256sums.txt.asc\">signatures</a> of <a href=\"https://ceno-"
@@ -235,7 +243,7 @@ msgid ""
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>)."
 msgstr ""
 
-#: download.html%2Bhtml.body.footer.div.p:275-9
+#: download.html%2Bhtml.body.footer.div.p:280-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -252,7 +260,7 @@ msgstr ""
 "Menschen online die Vereinigungsfreiheit."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:277-23
+#: download.html%2Bhtml.body.footer:282-23
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
 "\"+new Date().getFullYear());</script>"
