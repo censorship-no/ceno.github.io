@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2025-05-01 17:38-0400\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-08 15:37-0400\n"
 "PO-Revision-Date: 2025-05-01 21:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -26,8 +26,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href="
-"\"donate.html\">اهدا</a>"
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "index.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -82,8 +82,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href="
-"\"donate.html\">اهدا</a>"
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: index.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -164,12 +164,12 @@ msgid "Get it on Google Play"
 msgstr "از گوگل پلی دریافت کنید"
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:196-17
-msgid "Get it on F-droid"
-msgstr "از F-droid دریافت کنید"
-
-#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:199-17
 msgid "Get it on Paskoocheh"
 msgstr "از پسکوچه دریافت کنید"
+
+#: index.html%2Bhtml.body.main.section.div.div.div.div.p.a.img[alt]:199-15
+msgid "Get it from Microsoft Store"
+msgstr ""
 
 #: index.html%2Bhtml.body.main.section.div.div.div.div.div.img[alt]:217-14
 msgid "Browse Freely"
@@ -253,6 +253,9 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Get it on F-droid"
+#~ msgstr "از F-droid دریافت کنید"
 
 #~ msgid ""
 #~ "Ceno (short for censorship.no!) is the world’s first mobile browser that "

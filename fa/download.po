@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: support@censorship.no\n"
-"POT-Creation-Date: 2025-05-01 17:38-0400\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-08 15:37-0400\n"
 "PO-Revision-Date: 2025-05-01 21:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
@@ -26,8 +26,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href="
-"\"donate.html\">اهدا</a>"
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.div.label.img[alt]:107-13
 msgctxt "download.html+html.body.nav.div.div.div.label.img[alt]:107-13"
@@ -89,8 +89,8 @@ msgid ""
 "href=\"donate.html\">Donate</a>"
 msgstr ""
 "<a href=\"about.html\">درباره</a><a href=\"support.html\">پشتیبانی</a><a "
-"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href="
-"\"donate.html\">اهدا</a>"
+"href=\"news.html\">اخبار</a><a href=\"help.html\">انجمن</a><a href=\"donate."
+"html\">اهدا</a>"
 
 #: download.html%2Bhtml.body.nav.div.div.a.img[alt]:145-11
 msgid "Download Ceno"
@@ -161,9 +161,13 @@ msgid "Get Ceno Browser"
 msgstr "مرورگر سنو را دریافت کنید"
 
 #: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:189-13
+#, fuzzy
+#| msgid ""
+#| "The safest way to install Ceno Browser on your Android phone is through "
+#| "the Google Play Store:"
 msgid ""
-"The safest way to install Ceno Browser on your Android phone is through the "
-"Google Play Store:"
+"The safest way to install Ceno Browser on your device is through the Google "
+"Play Store or Microsoft Store:"
 msgstr ""
 "ایمن‌ترین روش برای نصب مرورگر سنو روی گوشی اندروید شما از طریق فروشگاه گوگل "
 "پلی است:"
@@ -172,39 +176,43 @@ msgstr ""
 msgid "Get it on Google Play"
 msgstr "از گوگل پلی دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:195-13
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:196-17
+msgid "Get it from Microsoft Store"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p:199-13
+#, fuzzy
+#| msgid ""
+#| "Alternatively, you can install Ceno via F-Droid, the Paskoocheh "
+#| "Marketplace, Github, dComms, or download the APK directly via GitLab:"
 msgid ""
-"Alternatively, you can install Ceno via F-Droid, the Paskoocheh Marketplace, "
-"Github, dComms, or download the APK directly via GitLab:"
+"Alternatively, you can install Ceno via the Paskoocheh Marketplace, Github, "
+"dComms, or download the APK directly via GitLab:"
 msgstr ""
 "یک راه دیگر این است که سنو را از طریق فروشگاه پسکوچه نصب کنید، یا APK را "
 "مستقیما از طریق Gitlab دانلود کنید:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:198-17
-msgid "Get it on F-droid"
-msgstr "از F-droid دریافت کنید"
-
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:202-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:203-17
 msgid "Get it on Paskoocheh"
 msgstr "از پسکوچه دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:205-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:206-17
 msgid "Get it on GitLab"
 msgstr "از Gitlab دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:208-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:209-17
 msgid "Get it on Github"
 msgstr "از Github دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:211-17
+#: download.html%2Bhtml.body.main.section.div.div.div.div.div.p.a.img[alt]:212-17
 msgid "Get it on dComms"
 msgstr "از dComms دریافت کنید"
 
-#: download.html%2Bhtml.body.main.section.div.div.h3:223-7
+#: download.html%2Bhtml.body.main.section.div.div.h3:224-7
 msgid "Important:"
 msgstr "مهم:"
 
-#: download.html%2Bhtml.body.main.section.div.div.p:224-7
+#: download.html%2Bhtml.body.main.section.div.div.p:225-7
 msgid ""
 "Ceno has two modes of operation - <strong>Public</strong> and "
 "<strong>Personal</strong>. You can easily toggle between them. Public mode "
@@ -223,33 +231,47 @@ msgstr ""
 "html\">پرسش‌های متداول</a> یا <a href=\"../user-manual/\">راهنمای کاربر</a> "
 "مراجعه کنید."
 
-#: download.html%2Bhtml.body.main.section.div.div.div.h3:237-9
+#: download.html%2Bhtml.body.main.section.div.div.div.h3:238-9
 msgid "Direct Download"
 msgstr "دانلود مستقیم"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:238-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:239-9
+#, fuzzy
+#| msgid ""
+#| "For advanced users or those unable to install Ceno Browser via the above "
+#| "links, you can download the latest APK directly:"
 msgid ""
 "For advanced users or those unable to install Ceno Browser via the above "
-"links, you can download the latest APK directly:"
+"links, you can download the latest APK or EXE directly:"
 msgstr ""
 "کاربران پیشرفته یا کسانی که نمی‌توانند مرورگر سنو را از طریق لینک‌های بالا نصب "
 "کنند، می توانند آخرین نسخه APK را مستقیما دانلود کنند:"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:240-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:241-9
 #, fuzzy
 #| msgid "Ceno Browser 2.4.2"
-msgid "Ceno Browser 2.4.3"
+msgid "Ceno for Android 2.4.3"
 msgstr "Ceno مرورگر 2.4.2"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:241-12
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:242-12
 msgid "Download (32-bit ARM)"
 msgstr "دانلود (32-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:243-11
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:244-11
 msgid "Download (64-bit ARM)"
 msgstr "دانلود (64-bit ARM)"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:246-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:247-9
+msgid "Ceno for Windows Alpha 0.0.1-20250425123522"
+msgstr ""
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p.input[value]:248-12
+#, fuzzy
+#| msgid "Download (64-bit ARM)"
+msgid "Download (x86_64 system-install)"
+msgstr "دانلود (64-bit ARM)"
+
+#: download.html%2Bhtml.body.main.section.div.div.div.p:251-9
 msgid ""
 "Run this to <a href=\"https://developer.android.com/studio/command-line/"
 "apksigner#usage-verify\">verify</a> that the APK has a valid signature from "
@@ -260,7 +282,7 @@ msgstr ""
 "گواهی با اثر انگشتی است که در زیر نشان داده شده است:"
 
 #.  TRANSLATORS: Please do not translate any of these. 
-#: download.html%2Bhtml.body.main.section.div.div.div.pre:250-9
+#: download.html%2Bhtml.body.main.section.div.div.div.pre:255-9
 msgid ""
 "> apksigner verify --print-certs ceno-[…].apk<br>Signer #1 certificate DN: "
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
@@ -270,7 +292,7 @@ msgstr ""
 "CN=equalit.ie<br>Signer #1 certificate SHA-256 digest: "
 "a59d20c076f6170a2c13d9ce96cd4349688f907898dfc3c89b0ae6ebe9f7edca<br>[…]"
 
-#: download.html%2Bhtml.body.main.section.div.div.div.p:252-9
+#: download.html%2Bhtml.body.main.section.div.div.div.p:257-9
 #, fuzzy
 #| msgid ""
 #| "You can also verify the <a href=\"https://ceno-download.s3.amazonaws.com/"
@@ -294,7 +316,7 @@ msgstr ""
 "op=get&search=0xC7DCC123F0DDB862\">کلید PGP</a> ما (با اثر انگشت <code>51BE "
 "600C 2711 926C 865D F93F C7DC C123 F0DD B862</code>) تایید کنید."
 
-#: download.html%2Bhtml.body.footer.div.p:275-9
+#: download.html%2Bhtml.body.footer.div.p:280-9
 msgid ""
 "Ceno Browser is a project by <a href=\"https://equalit.ie\">eQualit.ie</a> – "
 "a not-for-profit Canadian organization that creates decentralized internet "
@@ -311,7 +333,7 @@ msgstr ""
 "آزادی انجمن برخوردار می‌کنند."
 
 #.  TRANSLATORS: Please do not translate this. 
-#: download.html%2Bhtml.body.footer:277-23
+#: download.html%2Bhtml.body.footer:282-23
 #, fuzzy
 msgid ""
 "© eQualitie 2018<script>new Date().getFullYear()>2018&&document.write(\"-"
@@ -319,6 +341,9 @@ msgid ""
 msgstr ""
 "© Censorship.no! 2018<script>new Date().getFullYear()>2018&&document."
 "write(\"-\"+new Date().getFullYear());</script>"
+
+#~ msgid "Get it on F-droid"
+#~ msgstr "از F-droid دریافت کنید"
 
 #~ msgid "Ceno Browser 2.3.1"
 #~ msgstr "Ceno مرورگر 2.3.1"
